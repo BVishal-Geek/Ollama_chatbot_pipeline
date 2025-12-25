@@ -37,6 +37,7 @@ Given a full-text research paper (PDF), the pipeline:
 The focus is **structured evaluation**, not open-ended summarization or chat.
 
 ## Project Structure (Overview)
+```text
 OLLAMA_CHATBOT/
 ├── data/                       # Input PDFs (example papers)
 │   └── PMID_37313409.pdf
@@ -57,7 +58,7 @@ OLLAMA_CHATBOT/
 ├── requirements.txt
 ├── setup.py
 └── README.md
-
+```
 
 ## Running the Project
 
@@ -74,3 +75,4 @@ pip install -e .
 ### 2. Run
 ```bash
 python main.py --pdf "Location to the pdf"
+```
