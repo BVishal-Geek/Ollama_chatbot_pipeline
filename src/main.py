@@ -1,5 +1,6 @@
 import os
 import argparse
+from dotenv import load_dotenv
 from pathlib import Path
 from Ollama_chatbot.constants.prompt import SYSTEM_PAPER_EVALUATION_PROMPT
 from Ollama_chatbot.components.text_extraction import extract_text_from_pdf
@@ -18,6 +19,7 @@ def parse_args():
     return parser.parse_args()
 
 def main():
+    load_dotenv()
     args = parse_args()
     pdf_path = Path(args.pdf)
 
