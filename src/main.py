@@ -1,8 +1,10 @@
 import os
 import argparse
+from dotenv import load_dotenv
 from pathlib import Path
 from Ollama_chatbot.constants.prompt import SYSTEM_PAPER_EVALUATION_PROMPT
 from Ollama_chatbot.components.text_extraction import extract_text_from_pdf
+from Ollama_chatbot.validators.llm_output_validation import validate_llm_output, is_recommended
 from Ollama_chatbot.components.session import Session
 
 
@@ -18,6 +20,7 @@ def parse_args():
     return parser.parse_args()
 
 def main():
+    load_dotenv()
     args = parse_args()
     pdf_path = Path(args.pdf)
 
@@ -35,9 +38,16 @@ def main():
     session = Session(system_prompt = SYSTEM_PAPER_EVALUATION_PROMPT)
     session.query = full_text
     result = session.run()
+    validated_result = validate_llm_output(result)
 
     print("\n LLM Output: \n")
-    print(result)
+    print(validated_result)
+
+    print("\n Recommedation: \n")
+    if is_recommended(validated_result):
+        print("✅ Paper IS RECOMMENDED")
+    else:
+        print("❌ Paper IS NOT RECOMMENDED")
 
 if __name__ == "__main__":
     main()
