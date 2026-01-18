@@ -1,6 +1,6 @@
 import json
-from typing import Dict
-from Ollama_chatbot.constants.schema import CONDITIONAL_KEYS
+from typing import Dict, Any    
+from Ollama_chatbot.constants.schema import CONDITIONAL_KEYS, BINARY_KEYS
 
 class LLMOutputValidationError(Exception):
     pass
@@ -34,10 +34,13 @@ def validate_llm_output(text: str) -> Dict[str, int]:
     
     #check if the value is only either 0 or 1 
     for key, value in data.items():
+        if key.endswith("_reason") or key == "paper_title":
+            continue
+
         if value not in (0,1):
             raise LLMOutputValidationError(f"Invalid key for {key}: {value} (expected 0 or 1)")
 
     return data 
 
-def is_recommended(result:Dict[str, int]) -> bool:
-    return all(value == 1 for value in result.values())
+def is_recommended(result: Dict[str, Any]) -> bool:
+    return all(result[key] == 1 for key in BINARY_KEYS)

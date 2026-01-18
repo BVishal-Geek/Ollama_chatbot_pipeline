@@ -4,6 +4,7 @@ from dataclasses import dataclass, field
 from typing import Optional, Dict, Any
 from uuid import uuid4
 from Ollama_chatbot.client.client import get_openai_client
+from Ollama_chatbot.constants.constant import MAX_RETRIES
 
 
 @dataclass
@@ -20,7 +21,7 @@ class Session:
     system_prompt: str
     model: str = "gpt-3.5-turbo"
     session_id: str = field(default_factory=lambda: uuid4().hex)
-
+    retry_count: int = 0 
     query: Optional[str] = None
     last_response: Optional[Dict[str, Any]] = None
 
