@@ -1,0 +1,65 @@
+================================================================================
+ARTICLE TITLE: Exploring key genes in NAFLD linked to glutamine metabolism: A comprehensive analysis combining multi-omics, machine learning and SHAP
+PMCID: PMC12823261
+PMID: Not found
+KEYWORDS: multi-omics, machine learning, shap, non-alcoholic fatty liver disease, glutamine metabolism
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background and Objectives:
+Non-alcoholic fatty liver disease (NAFLD) is a prevalent liver condition globally, with an escalating incidence and a strong association with various metabolic disorders, thus presenting a significant public health challenge. Currently, there is a scarcity of effective preventive or therapeutic methods for NAFLD. This study used multi-omics, machine learning (ML), and SHAP comprehensive analysis to explore NAFLD-related metabolites and genes, hoping to provide new insights.
+
+Methods and Study Design:
+We initially conducted MR analysis on 1,400 serum metabolites and two NAFLD datasets, identifying glutamine as causally linked to NAFLD. In single-cell RNA sequencing, hepatocytes were categorized into high-synthesis and low-synthesis glutamine groups for cell communication analysis. We extracted differentially expressed genes from these two groups and performed GO and KEGG enrichment analysis. Further screening of these genes was followed by the application of LASSO regression to identify hub genes for ML. We constructed the ML model using Catboost, NGboost, and XGboost algorithms. Finally, we employed the SHAP method to interpret the model, identifying key genes with significant model contributions.
+
+Results:
+MR analysis demonstrated that the glutamine-to-alanine ratio and levels of 1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6) were associated with a reduced incidence of NAFLD. We identified 19 hub genes for ML, with validation set AUCs of 0.83 for Catboost, 0.82 for NGboost, and 0.86 for XGboost. The SHAP analysis highlighted ASL, LGALS1, and GLUL as genes with the contributed significantly to the models.
+
+Conclusions:
+Our MR findings suggest that specific metabolites may lower the risk of NAFLD. A comprehensive analysis underscores the significant role of glutamine metabolism and related genes in NAFLD pathogenesis, offering new potential targets for NAFLD diagnosis and treatment.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,53 @@
+================================================================================
+ARTICLE TITLE: Intratumoral bacteria are immunosuppressive and promote immunotherapy resistance in head and neck squamous cell carcinoma
+PMCID: PMC12823012
+PMID: 41482523
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Despite the promise of immune checkpoint blockade (ICB) in head and neck squamous cell carcinoma (HNSCC), mediators of response are poorly understood. To address this, we analyzed oropharyngeal HNSCCs treated with neoadjuvant durvalumab (anti-PD-L1) alone or in combination with tremelimumab (anti-CTLA-4) from the CIAO clinical trial ( NCT03144778 ). We found that only the total abundance of intratumoral bacteria predicted ICB response, which was validated in multiple independent patient cohorts. High intratumoral bacteria abundance was associated with an immunosuppressive tumor microenvironment, characterized by an accumulation of neutrophils coupled with depletion of T cells and other adaptive immune cells. Experimental elevation or reduction of intratumoral bacteria abundance in orthotopic models of HNSCC in female mice recapitulated immunological associations observed in patient tumors. Increasing intratumoral bacteria abundance was sufficient to induce resistance to anti-PD-L1 immune checkpoint blockade, irrespective of bacterial species tested. Together, these findings demonstrate that high intratumoral bacteria abundance is a key suppressor of anti-tumor immunity and promotes immunotherapy resistance.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

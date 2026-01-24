@@ -1,0 +1,64 @@
+================================================================================
+ARTICLE TITLE: The development of a composite measure to identify priority areas of need for cancer screening interventions
+PMCID: PMC12822900
+PMID: 41348989
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Cancer centers and health systems are tasked with deciding where to deploy community interventions to reduce the burden of cancer within their catchment areas. Few methods exist to prioritize communities in a systematic manner, considering features of individuals, populations, systems and policies. We developed a geographically informed index to prioritize census tracts based on community need, with an initial focus on identifying communities in need of breast cancer screening interventions.
+
+Methods::
+This study used publicly available data to select variables known to be associated with disparities in breast cancer screening rates. Variables were identified from five categories: economic stability, education access and quality, neighborhood and built environment, social and community context, health status, and healthcare access and quality. Data were analyzed at the census tract level across the Sidney Kimmel Comprehensive Cancer Center catchment (N=1216). Principal component analysis (PCA) was applied to 23 variables and five PCs were selected to construct a composite measure using a weighted sum. Resulting index values were used to stratify the dataset for further analysis and mapped for visualization.
+
+Results::
+The analysis produced the Community Need Priority Index – Breast Cancer Screening (CNPI-BCS), with values ranging from 0 to 1 (mean=0.259, sd=0.161). The top quintile (Q5, n=243) represented the highest need communities. Q5 tracts were primarily concentrated in Philadelphia, Camden, and Delaware counties. Philadelphia County had the highest average (mean=0.364, sd=1.78), and the most tracts in the top quintile (45%, n =175). Montgomery county had the lowest average (mean=0.169 sd=0.092).
+
+Conclusion::
+This novel methodological approach considered the complex nature of multiple, intersectional barriers to good health to identify priority areas of need within cancer center catchment areas.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

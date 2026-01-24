@@ -1,0 +1,53 @@
+================================================================================
+ARTICLE TITLE: Kupffer cell M2-like polarization increases liver metastatic burden via the uptake of exosomal KRAS mutant protein from hypoxic colorectal carcinoma cells
+PMCID: PMC12822566
+PMID: Not found
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+ Background : this study investigates the metastasis-promoting effect of colorectal carcinoma cell-derived exosomes in liver metastasis, M2-like polarization of Kupffer cells, and the underlying mechanism. Methods : mouse liver metastasis models were established to determine the involvement of CRC-derived exosomes in liver metastasis. The DIR and PKH26 fluorescent labeling strategies were utilized to trace the distribution of CRC-derived exosomes in vivo . GO and KEGG analyses of differentially expressed genes revealed the key cellular regulator and KRAS-induced signaling in CRC liver metastasis. The phenotype of Kupffer cells was determined by IHC and IF. In vitro model HMDMs were used to explore polarization phenotype and therapeutic effects of GSK690693 (AKT inhibitor) inhibited AKT. Results : exosomal mutant KRAS induced AKT signaling in the process of Kupffer cell M2-like polarization, promoting CRC liver metastasis. AKT inhibitors might potentially be used as a therapeutic approach to prevent liver metastasis in CRC. Conclusion : our findings reveal that exosomal mutant KRAS drives Kupffer cell M2-like polarization via the hyperactivation of AKT signaling, establishing this axis as a key mediator of colorectal cancer liver metastasis. Pharmacological inhibition of AKT effectively disrupts this immunosuppressive reprogramming, proposing targeted AKT blockade as a promising strategy to intercept the metastatic niche in CRC patients.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found
