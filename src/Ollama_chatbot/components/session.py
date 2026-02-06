@@ -19,7 +19,7 @@ class Session:
     """
 
     system_prompt: str
-    model: str = "gpt-3.5-turbo"
+    model: str = "gpt-4o-mini"
     session_id: str = field(default_factory=lambda: uuid4().hex)
     retry_count: int = 0 
     query: Optional[str] = None

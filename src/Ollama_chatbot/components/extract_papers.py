@@ -3,11 +3,14 @@ import os
 from Bio import Entrez
 import time
 from argparse import ArgumentParser
+from datetime import datetime
+from Ollama_chatbot.constants.extraction_pattern import matches_data_availability_pattern
 
 # IMPORTANT: Replace with your email and API key
 Entrez.email = "vishal.bakshi@gwu.edu"
 Entrez.api_key = "91edd023f816535457674cb118a456ceda08"
 
+date = datetime.now().strftime("%Y-%m-%d")
 
 def extract_text_from_element(element):
     """
@@ -22,7 +25,7 @@ def extract_text_from_element(element):
     # Get the element's own text
     if element.text:
         text_parts.append(element.text.strip())
-    
+     
     # Get text from all children
     for child in element:
         child_text = extract_text_from_element(child)
@@ -114,10 +117,10 @@ def extract_section_by_title(root, section_titles):
 def extract_data_availability(root):
     """Extract data availability statement"""
     # Try to find in notes section
-    for notes in root.findall('.//notes'):
+    for notes in root.findall('.//*[title]'):
         title = notes.find('title')
         if title is not None and title.text:
-            if 'data availability' in title.text.lower():
+            if matches_data_availability_pattern(title.text):
                 paragraphs = []
                 for para in notes.findall('.//p'):
                     para_text = extract_text_from_element(para)
@@ -287,11 +290,12 @@ def download_and_extract_pmc(pmcid, output_dir="pmc_texts"):
     print(f"Downloading and processing {pmcid}...", end=" ")
     
     try:
+
         # Download XML
         handle = Entrez.efetch(db="pmc", id=pmc_id, rettype="full", retmode="xml")
         xml_data = handle.read().decode('utf-8')
         handle.close()
-        
+
         # Check if we got actual content
         if "<body" in xml_data or "<article" in xml_data:
             # Process XML to extract text
@@ -365,6 +369,7 @@ if __name__ == "__main__":
 
     parser = ArgumentParser(description="PMC Article Downloader and Text Extractor")
     parser.add_argument("--max_results", type=int, default=100, help="Maximum number of results to process")
+    args = parser.parse_args()
 
     # Your search query
     query = '''("TCGA" OR "GEO" OR "SEER" OR "publicly available data" OR "open access data" OR "public dataset" OR "data repository") AND (cancer OR neoplasm OR carcinoma OR tumor OR malignancy) AND (treatment OR therapy OR drug OR chemotherapy OR radiotherapy OR immunotherapy OR "clinical trial" OR intervention OR "targeted therapy" OR pharmacotherapy)'''
@@ -374,7 +379,7 @@ if __name__ == "__main__":
     download_and_process_articles(
         query=query,
         max_results=args.max_results,  # Adjust as needed
-        output_dir="../../../data/pmc_texts"  # Output folder for text files
+        output_dir=f"../../../data/{date}"  # Output folder for text files
     )
     
     print("\n✓ All done! Text files are in the 'pmc_texts' folder.")
