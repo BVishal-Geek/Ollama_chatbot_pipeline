@@ -1,0 +1,218 @@
+================================================================================
+ARTICLE TITLE: RAI14 Is a Prognostic Biomarker and Correlated With Immune Cell Infiltrates in Gastric Cancer
+PMCID: PMC7672724
+PMID: 33176601
+KEYWORDS: dendritic cells, lymphocytes, macrophages, m2 polarization, oncomine, retinoic acid-induced protein 14
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+To analyze the expression and clinical significance of retinoic acid-induced protein 14 ( RAI14 ) in gastric cancer and its relationship with immune cell infiltration by mining databases such as Oncomine, TIMER, UALCAN, and Kaplan Meier Plotter.
+
+Methods::
+ RAI14 expression in various cancer types was analyzed using the Oncomine and TIMER databases. We used the Kaplan-Meier Plotter and UALCAN databases to evaluate the impact of RAI14 on clinicopathological parameters in gastric cancer. The correlation between RAI14 expression and immune cell invasion was studied using TIMER. TIMER was also used to analyze the correlation between RAI14 expression and marker levels of tumor-infiltrating immune cells.
+
+Results::
+High RAI14 expression in gastric cancer was significantly associated with poor overall survival (OS; hazard ratio [HR] = 1.82, 95% confidence interval [CI] = 1.53–2.15, P < 0.001) and poor progression-free survival (PFS; HR = 2.16, 95% CI = 1.77–2.65, P < 0.001). Furthermore, high RAI14 expression was significantly associated with poor prognosis of patients with stage 2–4 gastric cancer, but not with OS and PFS of stage 1 patients (OS P = 0.17; PFS P = 0.09), and patients with stage N0 PFS had nothing to do (PFS P = 0.238). RAI14 expression was positively correlated with the infiltration levels of monocytes, tumor-associated macrophages, macrophages, neutrophils, and Treg cells in gastric cancer. Besides, RAI14 expression was closely related to various marker genes in immune cells.
+
+Conclusion::
+ RAI14 is highly expressed in gastric cancer, and its expression level is correlated with the prognosis of patients with gastric cancer. RAI14 plays also an important role in the recruitment and regulation of infiltrating immune cells and is, thus, expected to become a target for the optimal treatment of gastric cancer.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Gastric cancer is one of the most common malignancies worldwide. The latest data from GLOBCAN show for 2018 more than 1,000,000 new cases of gastric cancer and 783,000 deaths. The incidence of gastric cancer ranks fifth in the global incidence of cancer, and the death rate ranks third. 1 The detection rate of early gastric cancer is low; about 40% of patients with gastric cancer are advanced at the time of diagnosis. 2 Treatment options for advanced gastric cancer are limited, and the prognosis is poor. Chemotherapy is the first choice for patients with advanced gastric cancer, but chemotherapy can cause serious adverse reactions and has a high rate of drug resistance. Immune-related mechanisms play an important role in gastric cancer, and immunotherapy is considered a promising strategy for gastric cancer treatment. 3 , 4 The successive discovery of cytotoxic T lymphocyte-associated antigen 4 (CTLA4), programmed death receptor 1 (PD-1), and programmed death-ligand 1 (PD-L1) has ushered in a new era of tumor treatment. 5 - 7 CTLA4 inhibitors, PD-1 inhibitors, and PD-L1 inhibitors have shown promising antitumor effects in malignant melanoma and non-small cell lung cancer. 8 However, the current immunotherapy with anti-CTLA4 antibodies has shown poor clinical efficacy in gastric cancer, 9 whereas anti-PD-1 and anti-PD-L1 antibodies have shown partial effects in advanced gastric cancer. 10 , 11 In addition, an increasing number of studies have found that tumor-infiltrating lymphocytes, tumor-associated macrophages (TAMs), and tumor-infiltrating neutrophils can affect the prognosis and efficacy of chemotherapy and immunotherapy. 12 , 13 Therefore, there is an urgent need to identify new markers as targets for gastric cancer immunotherapy.
+
+Retinoic acid-induced protein 14 ( RAI14 ) was originally discovered in human retinal pigment epithelial cells induced by all-trans retinoic acid. 14 Subsequent research found that RAI14 is closely related to the cytoskeleton and is highly expressed in human testicular tissue and sperm. 15 Recent studies have found that RAI14 may be related to the proliferation and invasion of cancer cells in certain malignancies. RAI14 is highly expressed in gastric cancer, and its expression level is related to poor prognosis of patients with gastric cancer. 16 However, the potential functions and mechanisms of RAI14 in tumor progression and tumor immunology remain unclear.
+
+In this study, we comprehensively analyzed the expression of RAI14 and its correlation with the prognosis of gastric cancer patients in databases such as Oncomine, UALCAN, and Kaplan-Meier Plotter. In addition, we investigated the correlation between RAI14 and tumor-infiltrating immune cells in the gastric cancer microenvironment through the tumor immune estimation resource (TIMER). The relationship between RAI14 expression and gastric cancer prognosis, as well as its clinical significance, were clarified, and the potential relationship and mechanism between RAI14 and tumor-immune interactions were elucidated.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Our study did not require ethical board approval because it did not involve human or animal trials.
+
+The Oncomine database was designed to allow the identification of new biomarkers or new therapeutic targets. It covers The Cancer Genome Atlas (TCGA) data, GEO data, RNA, and DNA seq data of currently published literature. As of now, the database has collected a total of 715 gene expression datasets comprising 86,733 normal and cancer tissue samples. 17 The present study extracted from this Oncomine database the expression levels of RAI14 in various types of cancer based on the following conditions: (1) “Gene: RAI14 ”; (2) “Analysis type: Cancer VS normal analysis”; (3) “Cancer type: Gastric cancer”; (4) “Data type: mRNA”; and (5) critical value settings: P-value < 1E-4, fold change >1.5, and gene rank = top 10%.
+
+UALCAN ( http://ualcan.path.uab.edu ) is a tool to mine TCGA data for tumor-related gene expression and survival analysis. 18 We employed the following screening conditions: (1) “Gene: RAI14 ”; (2) “Cancer type: Stomach cancer”, and (3) “Subgroup analysis: Stage and degree of differentiation”. A P-value of < 0.05 was considered statistically significant.
+
+The Kaplan-Meier Plotter ( https://kmplot.com/analysis/ ) is an online database for the prognostic correlation analysis with strong credibility. It contains 10,461 samples of 1,065 patients with gastric cancer and can correlate 54,675 genes with the patient prognosis. The average follow-up time was 33 months. 19 - 22 For the current study, data were extracted using the following conditions: (1) “Cancer: Gastric cancer”; (2) “Gene: RAI14 ”; (3) “Split patients by: Auto select best cut off”; (4) “Survival: OS, PFS, PPS”; and (5) “Subgroup analysis: Sex, stage, stage T, stage N, stage M, Lauren classification, differentiation, and Her 2”. A P-value of < 0.05 was considered statistically significant.
+
+TIMER is a comprehensive resource ( https://timer.cistrome.org/ ) for the systematic analysis of immune invasion in various malignant tumors. It includes 10,897 samples from 32 cancer types from TCGA and can be used to analyze the abundance of genes in tumor tissues. 23 We used the TIMER database to analyze the expression of RAI14 in different types of cancer, as well as the correlation of RAI14 expression with immune cell infiltration and immune cell gene markers in gastric cancer. The differential RAI14 expression data were extracted from the database. The relationship between RAI14 expression and immune cell infiltration in gastric cancer was evaluated using data extracted with the following conditions: (1) “Plate: Gene”; (2) “Gene symbol: RAI14 ”; (3) “Cancer type: STAD (stomach adenocarcinoma)”; and (4) “Immune infiltrates: B cell, CD8+ T cell, CD4+ T cell, macrophage, neutrophil, and dendritic cell”. Similarly, the relationships between RAI14 expression level and marker genes of the infiltrating immune cells were calculated based on data extracted using the following conditions: (1) “Plate: Correlation”; (2) “Gene symbol (Y-axis): RAI14”; (3) “Gene symbol (X-axis): B cell, CD8+ T cell, CD4+ T cell, M1 macrophage, M2 macrophage, neutrophil, TAM, dendritic cell, natural killer cell, Th1, Th2, Th17, Tregs, and T cell exhaustion”; and (4) “Correlation adjusted by: None, purity, and age”. The scatter plot of RAI14 expression in gastric cancer for a given immune cell marker gene was generated together with the Spearman correlation and P-value. Gene expression levels are shown as log2 RSEM.
+
+The results generated in Oncomine show P-values, fold changes, and grades. Kaplan Meier Plotter results are displayed along with the hazard ratio (HR) and P-values of the log-rank test. The correlation between gene expression and immune cell infiltration was evaluated by Spearman’s correlation and statistical significance, and P < 0.05 was considered statistically significant.
+
+
+Oncomine Database Analysis
+
+The Oncomine database was designed to allow the identification of new biomarkers or new therapeutic targets. It covers The Cancer Genome Atlas (TCGA) data, GEO data, RNA, and DNA seq data of currently published literature. As of now, the database has collected a total of 715 gene expression datasets comprising 86,733 normal and cancer tissue samples. 17 The present study extracted from this Oncomine database the expression levels of RAI14 in various types of cancer based on the following conditions: (1) “Gene: RAI14 ”; (2) “Analysis type: Cancer VS normal analysis”; (3) “Cancer type: Gastric cancer”; (4) “Data type: mRNA”; and (5) critical value settings: P-value < 1E-4, fold change >1.5, and gene rank = top 10%.
+
+
+UALCAN Database Analysis
+
+UALCAN ( http://ualcan.path.uab.edu ) is a tool to mine TCGA data for tumor-related gene expression and survival analysis. 18 We employed the following screening conditions: (1) “Gene: RAI14 ”; (2) “Cancer type: Stomach cancer”, and (3) “Subgroup analysis: Stage and degree of differentiation”. A P-value of < 0.05 was considered statistically significant.
+
+
+Kaplan-Meier Plotter Database Analysis
+
+The Kaplan-Meier Plotter ( https://kmplot.com/analysis/ ) is an online database for the prognostic correlation analysis with strong credibility. It contains 10,461 samples of 1,065 patients with gastric cancer and can correlate 54,675 genes with the patient prognosis. The average follow-up time was 33 months. 19 - 22 For the current study, data were extracted using the following conditions: (1) “Cancer: Gastric cancer”; (2) “Gene: RAI14 ”; (3) “Split patients by: Auto select best cut off”; (4) “Survival: OS, PFS, PPS”; and (5) “Subgroup analysis: Sex, stage, stage T, stage N, stage M, Lauren classification, differentiation, and Her 2”. A P-value of < 0.05 was considered statistically significant.
+
+
+TIMER Database Analysis
+
+TIMER is a comprehensive resource ( https://timer.cistrome.org/ ) for the systematic analysis of immune invasion in various malignant tumors. It includes 10,897 samples from 32 cancer types from TCGA and can be used to analyze the abundance of genes in tumor tissues. 23 We used the TIMER database to analyze the expression of RAI14 in different types of cancer, as well as the correlation of RAI14 expression with immune cell infiltration and immune cell gene markers in gastric cancer. The differential RAI14 expression data were extracted from the database. The relationship between RAI14 expression and immune cell infiltration in gastric cancer was evaluated using data extracted with the following conditions: (1) “Plate: Gene”; (2) “Gene symbol: RAI14 ”; (3) “Cancer type: STAD (stomach adenocarcinoma)”; and (4) “Immune infiltrates: B cell, CD8+ T cell, CD4+ T cell, macrophage, neutrophil, and dendritic cell”. Similarly, the relationships between RAI14 expression level and marker genes of the infiltrating immune cells were calculated based on data extracted using the following conditions: (1) “Plate: Correlation”; (2) “Gene symbol (Y-axis): RAI14”; (3) “Gene symbol (X-axis): B cell, CD8+ T cell, CD4+ T cell, M1 macrophage, M2 macrophage, neutrophil, TAM, dendritic cell, natural killer cell, Th1, Th2, Th17, Tregs, and T cell exhaustion”; and (4) “Correlation adjusted by: None, purity, and age”. The scatter plot of RAI14 expression in gastric cancer for a given immune cell marker gene was generated together with the Spearman correlation and P-value. Gene expression levels are shown as log2 RSEM.
+
+
+Statistical Analysis
+
+The results generated in Oncomine show P-values, fold changes, and grades. Kaplan Meier Plotter results are displayed along with the hazard ratio (HR) and P-values of the log-rank test. The correlation between gene expression and immune cell infiltration was evaluated by Spearman’s correlation and statistical significance, and P < 0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To compare the RAI14 expression among multiple cancer types and with their corresponding normal tissue samples, the Oncomine database was used to analyze RAI14 mRNA levels. This analysis showed that RAI14 expression was increased in breast, cervical, esophageal, gastric, head and neck cancers, lymphomas, and sarcomas compared to normal tissue ( Figure 1A ). Decreased expression levels were observed in colorectal and pancreatic cancer datasets.
+
+To further evaluate RAI14 expression in human cancers, we validated RAI14 expression using RNA-seq data from multiple malignancies in TIMER. The differential RAI14 expression between tumor tissues and normal tissues adjacent to the cancer according to the TIMER database is shown in Figure 1B . Compared to the adjacent healthy tissue, the expression levels of RAI14 were significantly (P < 0.05) increased in breast cancer (BRCA), head and neck cancer (HNSC), kidney chromophore (KICH), renal papillary cell carcinoma (KIRP), lung adenocarcinoma (LUAD), prostate adenocarcinoma (PRAD), gastric adenocarcinoma (STAD), and endometrial cancer (UCEC).
+
+(A) Increased or decreased RAI14 expression in datasets of different cancers compared with normal tissues in the Oncomine database. (B) Human RAI14 expression levels in different tumor types from the TCGA database were determined using TIMER. *P < 0.05, **P < 0.01, ***P < 0.001.
+
+In the Oncomine database, 5 datasets in 2 studies showed statistically significant differences in RAI14 expression between gastric cancer tissues and normal tissues( Table 1 ). A meta-analysis of the 5 datasets found that RAI14 was highly expressed in gastric cancer tissue compared to normal gastric tissue (P < 0.001; Figure 2 ).
+
+Significant Differences in RAI14 Expression at the Transcriptional Level Between Stomach Adenocarcinoma (STAD) and Normal Stomach Tissues.
+
+(A–E) RAI14 mRNA expression in gastric cancer. (F) Meta-analysis of 5 datasets from 2 studies comparing the RAI14 expression levels in gastric cancer tissue with those of the corresponding normal tissues.
+
+After discovering that RAI14 mRNA is highly expressed in patients with gastric cancer, we analyzed the relationship between RAI14 expression and clinicopathological parameters of patients with gastric cancer, including the stage of gastric cancer patients and the degree of tumor differentiation using the UALCAN database. As shown in Figure 3 , RAI14 mRNA expression was significantly correlated with the stage of gastric cancer and the degree of tumor differentiation. Patients with advanced gastric cancer and patients with poorly differentiated tumors tended to overexpress RAI14 ( Figure 3A , B ).
+
+(A) Relationship between RAI14 mRNA expression and individual cancer stages of patients with stomach adenocarcinoma (STAD). (B) Association of RAI14 mRNA expression with tumor grades in STAD patients. *P < 0.05, **P < 0.01, ***P < 0.001.
+
+Next, the Kaplan-Meier Plotter database was used to analyze whether RAI14 expression was correlated with the prognosis of patients with gastric cancer. Figure 4 shows the relationship between RAI14 expression and prognosis in patients with gastric cancer. The results showed that high RAI14 expression was associated with poor prognosis in these patients (overall survival [OS] HR = 1.82, 95% confidence interval [CI] = 1.53 to 2.15, P = 2.9e-12; progression-free survival [PFS] HR = 2.16, 95% CI = 1.77 to 2.65, P = 2.1 e-14; post progression survival [PPS] HR = 1.7, 95% CI = 1.36 to 2.13, P = 2.2e-06).
+
+Correlation between RAI14 expression level and prognosis in gastric cancer in the Kaplan-Meier Plotter.
+
+In order to better understand the correlation of RAI14 expression with the prognosis in gastric cancer patients and the underlying mechanisms, we analyzed the relationship between RAI14 expression and clinicopathological characteristics of gastric cancer patients using the Kaplan-Meier Plotter database. Regarding OS and PFS, overexpression of RAI14 was significantly correlated to the highest 3 tumor stages in both male and female patients across tumor differentiations and Lauren classifications (P < 0.05). Specifically, high RAI14 mRNA expression was associated with poor OS and PFS in patients with gastric cancer of stages 2–4, but not of stage 1 (OS P = 0.17; PFS P = 0.09). Furthermore, it was not related to PFS in patients with no regional lymph node metastasis (PFS P = 0.238; Table 2 ). Type N here refers to lymph node involvement, N0 indicates no regional lymph node metastasis, and N1–N3 indicates regional lymph node metastasis. 26 
+
+Relationship Between RAI14 mRNA Expression and Gastric Cancer Prognosis Under Different Clinicopathological Factors in the Kaplan-Meier Plotter.
+
+The analysis of data from the Kaplan-Meier Plotter database showed that the tumor metastasis status was an independent predictor of prognosis and survival in patients with gastric cancer. Therefore, we analyzed whether RAI14 expression is correlated with the level of immune cell invasion in gastric cancer. The data revealed that increased RAI14 expression levels were associated with poor prognosis and higher levels of immune cell infiltration. Thus, RAI14 may play a specific role in immune cell infiltration in gastric cancers, especially in CD4+ T cells (r = 0.371, P = 2.10e-13), macrophages (r = 0.475, P = 2.92e-22), neutrophils (r = 0.153, P = 3.08e-03), and dendritic cells (r = 0.26, P = 3.84e-07; Figure 5 ).
+
+Correlation of RAI14 expression with immune cell infiltration in stomach adenocarcinoma (STAD).
+
+Given the role of infiltrating immune cells in STAD, we investigated next in the TIMER database the correlation between RAI14 expression and marker genes of various immune cells, including CD8+ T cells, T cells (general), B cells, monocytes, TAMs, M1 macrophages, M2 macrophages, neutrophils, NK cells, and dendritic cells. In addition, different functional T cell subsets, such as Th1 cells, Th2 cells, follicular helper T cells (Tfh), Th17 cells, regulatory T cells (Tregs), and depleted T cells, were analyzed. After adjusting the correlation for purity and age, the results showed that the RAI14 expression level in STAD was significantly correlated with most immune marker sets of various immune cells and different T cell subsets ( Table 3 ).
+
+Correlation of RAI14 Expression With Immune Cell-Related Genes and Markers in TIMER.
+
+Interestingly, we found that in STAD, the expression levels of most monocyte, TAM, and M2 macrophage marker sets were positively correlated with RAI14 expression ( Table 3 ). Our data showed that CD86, CD115, the TAM chemokine (CC motif) ligand CCL-2, CD68, interleukin (IL)-10, as well as the M2 phenotype markers CD163, VSIG4, and MS4A4A, were significantly related to RAI14 expression in gastric cancer (P < 0.0001; Figure 6A - H ). These findings suggest that RAI14 may regulate macrophage polarization in gastric cancer. Increased RAI14 expression levels in gastric cancer were also related to high infiltration levels of dendritic cells, and the dendritic cell markers CD1C, NRP1, and ITGAX were closely related to RAI14 expression ( Figure 6I - K ). These results are indicative of a strong relationship between RAI14 expression and tumor infiltration by dendritic cells.
+
+Correlation between RAI14 expression and marker genes of monocytes (A, B), tumor-associated macrophages (C-E), M2 macrophages (F-H), dendritic cells (I-K), follicular helper T cells (L), and regulatory T cells (M-O) in stomach adenocarcinoma (STAD).
+
+In addition, for Treg cells, the expression of RAI14 was positively correlated with the expression of CCR8, STAT5B, and TGFB1 in gastric cancer (P < 0.0001; Figure 6M - O ). Interestingly, TIM-3, a crucial gene that regulates T cell exhaustion, had a strong positive correlation with RAI14 expression, suggesting that high RAI14 expression plays an important role in TIM-3-mediated T cell exhaustion. These results further confirm that RAI14 is specifically correlated with infiltrating immune cells in gastric cancer, suggesting that RAI14 plays a vital role in immune escape mechanisms in the gastric cancer microenvironment.
+
+
+mRNA Expression Levels of RAI14 in Different Types of Human Cancer
+
+To compare the RAI14 expression among multiple cancer types and with their corresponding normal tissue samples, the Oncomine database was used to analyze RAI14 mRNA levels. This analysis showed that RAI14 expression was increased in breast, cervical, esophageal, gastric, head and neck cancers, lymphomas, and sarcomas compared to normal tissue ( Figure 1A ). Decreased expression levels were observed in colorectal and pancreatic cancer datasets.
+
+To further evaluate RAI14 expression in human cancers, we validated RAI14 expression using RNA-seq data from multiple malignancies in TIMER. The differential RAI14 expression between tumor tissues and normal tissues adjacent to the cancer according to the TIMER database is shown in Figure 1B . Compared to the adjacent healthy tissue, the expression levels of RAI14 were significantly (P < 0.05) increased in breast cancer (BRCA), head and neck cancer (HNSC), kidney chromophore (KICH), renal papillary cell carcinoma (KIRP), lung adenocarcinoma (LUAD), prostate adenocarcinoma (PRAD), gastric adenocarcinoma (STAD), and endometrial cancer (UCEC).
+
+(A) Increased or decreased RAI14 expression in datasets of different cancers compared with normal tissues in the Oncomine database. (B) Human RAI14 expression levels in different tumor types from the TCGA database were determined using TIMER. *P < 0.05, **P < 0.01, ***P < 0.001.
+
+
+RAI14 mRNA Expression in Gastric Cancer
+
+In the Oncomine database, 5 datasets in 2 studies showed statistically significant differences in RAI14 expression between gastric cancer tissues and normal tissues( Table 1 ). A meta-analysis of the 5 datasets found that RAI14 was highly expressed in gastric cancer tissue compared to normal gastric tissue (P < 0.001; Figure 2 ).
+
+Significant Differences in RAI14 Expression at the Transcriptional Level Between Stomach Adenocarcinoma (STAD) and Normal Stomach Tissues.
+
+(A–E) RAI14 mRNA expression in gastric cancer. (F) Meta-analysis of 5 datasets from 2 studies comparing the RAI14 expression levels in gastric cancer tissue with those of the corresponding normal tissues.
+
+
+Relationship Between RAI14 mRNA Expression and Clinicopathological Parameters in Patients With Gastric Cancer
+
+After discovering that RAI14 mRNA is highly expressed in patients with gastric cancer, we analyzed the relationship between RAI14 expression and clinicopathological parameters of patients with gastric cancer, including the stage of gastric cancer patients and the degree of tumor differentiation using the UALCAN database. As shown in Figure 3 , RAI14 mRNA expression was significantly correlated with the stage of gastric cancer and the degree of tumor differentiation. Patients with advanced gastric cancer and patients with poorly differentiated tumors tended to overexpress RAI14 ( Figure 3A , B ).
+
+(A) Relationship between RAI14 mRNA expression and individual cancer stages of patients with stomach adenocarcinoma (STAD). (B) Association of RAI14 mRNA expression with tumor grades in STAD patients. *P < 0.05, **P < 0.01, ***P < 0.001.
+
+
+Prognostic Potential of RAI14 in Gastric Cancer
+
+Next, the Kaplan-Meier Plotter database was used to analyze whether RAI14 expression was correlated with the prognosis of patients with gastric cancer. Figure 4 shows the relationship between RAI14 expression and prognosis in patients with gastric cancer. The results showed that high RAI14 expression was associated with poor prognosis in these patients (overall survival [OS] HR = 1.82, 95% confidence interval [CI] = 1.53 to 2.15, P = 2.9e-12; progression-free survival [PFS] HR = 2.16, 95% CI = 1.77 to 2.65, P = 2.1 e-14; post progression survival [PPS] HR = 1.7, 95% CI = 1.36 to 2.13, P = 2.2e-06).
+
+Correlation between RAI14 expression level and prognosis in gastric cancer in the Kaplan-Meier Plotter.
+
+In order to better understand the correlation of RAI14 expression with the prognosis in gastric cancer patients and the underlying mechanisms, we analyzed the relationship between RAI14 expression and clinicopathological characteristics of gastric cancer patients using the Kaplan-Meier Plotter database. Regarding OS and PFS, overexpression of RAI14 was significantly correlated to the highest 3 tumor stages in both male and female patients across tumor differentiations and Lauren classifications (P < 0.05). Specifically, high RAI14 mRNA expression was associated with poor OS and PFS in patients with gastric cancer of stages 2–4, but not of stage 1 (OS P = 0.17; PFS P = 0.09). Furthermore, it was not related to PFS in patients with no regional lymph node metastasis (PFS P = 0.238; Table 2 ). Type N here refers to lymph node involvement, N0 indicates no regional lymph node metastasis, and N1–N3 indicates regional lymph node metastasis. 26 
+
+Relationship Between RAI14 mRNA Expression and Gastric Cancer Prognosis Under Different Clinicopathological Factors in the Kaplan-Meier Plotter.
+
+
+RAI14 Expression Correlates With Immune Cell Infiltration in Gastric Cancer
+
+The analysis of data from the Kaplan-Meier Plotter database showed that the tumor metastasis status was an independent predictor of prognosis and survival in patients with gastric cancer. Therefore, we analyzed whether RAI14 expression is correlated with the level of immune cell invasion in gastric cancer. The data revealed that increased RAI14 expression levels were associated with poor prognosis and higher levels of immune cell infiltration. Thus, RAI14 may play a specific role in immune cell infiltration in gastric cancers, especially in CD4+ T cells (r = 0.371, P = 2.10e-13), macrophages (r = 0.475, P = 2.92e-22), neutrophils (r = 0.153, P = 3.08e-03), and dendritic cells (r = 0.26, P = 3.84e-07; Figure 5 ).
+
+Correlation of RAI14 expression with immune cell infiltration in stomach adenocarcinoma (STAD).
+
+
+Correlation Between RAI14 Expression and Immune Cell Marker Genes
+
+Given the role of infiltrating immune cells in STAD, we investigated next in the TIMER database the correlation between RAI14 expression and marker genes of various immune cells, including CD8+ T cells, T cells (general), B cells, monocytes, TAMs, M1 macrophages, M2 macrophages, neutrophils, NK cells, and dendritic cells. In addition, different functional T cell subsets, such as Th1 cells, Th2 cells, follicular helper T cells (Tfh), Th17 cells, regulatory T cells (Tregs), and depleted T cells, were analyzed. After adjusting the correlation for purity and age, the results showed that the RAI14 expression level in STAD was significantly correlated with most immune marker sets of various immune cells and different T cell subsets ( Table 3 ).
+
+Correlation of RAI14 Expression With Immune Cell-Related Genes and Markers in TIMER.
+
+Interestingly, we found that in STAD, the expression levels of most monocyte, TAM, and M2 macrophage marker sets were positively correlated with RAI14 expression ( Table 3 ). Our data showed that CD86, CD115, the TAM chemokine (CC motif) ligand CCL-2, CD68, interleukin (IL)-10, as well as the M2 phenotype markers CD163, VSIG4, and MS4A4A, were significantly related to RAI14 expression in gastric cancer (P < 0.0001; Figure 6A - H ). These findings suggest that RAI14 may regulate macrophage polarization in gastric cancer. Increased RAI14 expression levels in gastric cancer were also related to high infiltration levels of dendritic cells, and the dendritic cell markers CD1C, NRP1, and ITGAX were closely related to RAI14 expression ( Figure 6I - K ). These results are indicative of a strong relationship between RAI14 expression and tumor infiltration by dendritic cells.
+
+Correlation between RAI14 expression and marker genes of monocytes (A, B), tumor-associated macrophages (C-E), M2 macrophages (F-H), dendritic cells (I-K), follicular helper T cells (L), and regulatory T cells (M-O) in stomach adenocarcinoma (STAD).
+
+In addition, for Treg cells, the expression of RAI14 was positively correlated with the expression of CCR8, STAT5B, and TGFB1 in gastric cancer (P < 0.0001; Figure 6M - O ). Interestingly, TIM-3, a crucial gene that regulates T cell exhaustion, had a strong positive correlation with RAI14 expression, suggesting that high RAI14 expression plays an important role in TIM-3-mediated T cell exhaustion. These results further confirm that RAI14 is specifically correlated with infiltrating immune cells in gastric cancer, suggesting that RAI14 plays a vital role in immune escape mechanisms in the gastric cancer microenvironment.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+ RAI14 , also known as NORPEG , was originally found in human transretinal pigment epithelial cells induced by all-trans retinoic acid. 14 Studies have shown that RAI14 is expressed in many mammalian tissues and cells, but mainly in the retina, placenta, and testes, with a high expression level in spermatozoa. 15  RAI14 is involved in the reorganization of actin filaments in Sertoli cells during the epithelial cell cycle and is involved in conferring sperm polarity and testicular cell adhesion. 27 Gu et al. 28 found that high expression of RAI14 is positively correlated with the malignant progression of breast cancer, indicating a poor prognosis. Knockdown of RAI14 inhibits breast cancer cell proliferation, migration, and invasion by regulating the cell cycle and epithelial-mesenchymal transition through the Akt/Cyclin D1, MMP2, MMP9, and ZEB1/E-cadherin/vimentin pathway. Paez et al. 29 have demonstrated that RAI14 is involved in the regulation of the cytoskeleton in prostate cancer. However, inconsistent results have been described in lung adenocarcinomas. Yuan et al. 30 found that among 71 patients with lung adenocarcinoma, 31 patients had upregulated RAI14 expression, and high expression of RAI14 could inhibit lung cancer cell proliferation. Chen et al. 16 reported that RAI14 is substantially upregulated in gastric cancer and that higher expression of RAI14 is associated with a worse prognosis. These authors demonstrated that RAI14 knockdown inhibits migration and invasion of MKN45 and AGS cells in vitro and that RAI14 knockdown also accelerates cell apoptosis via downregulation of Bcl-2 and upregulation of Bax in these cells. Furthermore, downregulation of RAI14 inhibits the activation of the Akt pathway, and reactivation of Akt by IGF-1 restores the reduced proliferation induced by RAI14 knockdown. He et al. 31 retrospectively collected 68 cases of gastric cancer and matched normal tissues to determine the expression level of RAI14 protein by immunohistochemical staining. Their results show that RAI14 is highly expressed in gastric cancer and that high expression levels of RAI14 may be an independent predictor of poor prognosis in patients with gastric cancer.
+
+Our data demonstrate that high expression levels of RAI14 are correlated with poor prognosis in patients with gastric cancer. Further analyses revealed that high RAI14 expression can affect the prognosis of gastric cancer patients with lymph node metastasis, indicating that RAI14 expression can be used as a predictor of tumor metastasis. In addition, our analysis showed that in gastric cancer, the levels of immune cell infiltration and various immune marker genes are correlated with the expression level of RAI14 . These results further confirm that RAI14 expression plays a vital role in the immune microenvironment of gastric cancer. This provides theoretical support for studying the potential role of RAI14 in tumor immunology and its application as a biomarker for gastric cancer.
+
+In this study, we used independent datasets from Oncomine and data from the Kaplan-Meier Plotter database to analyze the RAI14 expression levels and prognosis in different types of cancer. By screening the Oncomine and TIMER databases, we found that RAI14 is highly expressed in gastric cancer tissues compared to normal gastric tissues. Further analyses using UALCAN and Kaplan-Meier Plotter data indicated that high RAI14 expression levels are associated with late stage and poor differentiation of gastric cancer patients. This suggests that high expression of RAI14 can be used as an independent risk factor for the poor prognosis of patients with gastric cancer. The Kaplan-Meier Plotter data also revealed a higher expression of RAI14 in patients with gastric cancer. This was associated with poor OS and high HR of PFS in these patients, especially of gastric cancer in stages II–IV, T2–T4, and N1–N3. Together, these findings strongly suggest that RAI14 may be a biomarker for the prognosis of patients with gastric cancer.
+
+Another important aspect of this study is that in gastric cancer, RAI14 expression was correlated with multiple aspects of immune cell infiltration. The expression levels of RAI14 showed significant positive correlations with the infiltration levels of monocytes, macrophages, dendritic cells, Tregs, and Tfhs in the microenvironment of gastric cancer tissue. Furthermore, the correlation between RAI14 expression and immune cell marker genes suggests a role for RAI14 in the regulation of the immune response in gastric cancer. A growing body of evidence has shown that TAMs play a very important role in the occurrence and development of malignant tumors, their invasion, metastasis, and immune evasion, as well as in angiogenesis and lymphangiogenesis. 32 , 33 Macrophages in tumor tissues mostly have M2 phenotypes and functions, suggesting a special microenvironment that promotes the differentiation of macrophages toward M2 polarization in tumor tissues. 34 The expression level of RAI14 in gastric cancer tissues was significantly positively correlated with M2 macrophage markers (CD163, VSIG4, and MS4A4A) and TAM markers (CCL2 and IL-10), indicating a regulatory role of RAI14 in TAM polarization. Tregs are a subset of T lymphocytes with immunoregulatory functions, which have 2 characteristics: immunosuppression and prevention of autoimmune responses. 35 The present study found that RAI14 expression was positively correlated with the levels of Treg markers (CCR8, STAT5B, and TGFB1), indicating that RAI14 may have the potential to activate Tregs. However, STAT5B and TGFB1 are not specific to Treg cells. TGFB1 is indeed a marker of immunosuppressed states but can also be expressed by tumor cells. Further studies are needed to determine whether RAI14 is a crucial factor that mediates TGFB1-dependent immune escape in the gastric cancer microenvironment.
+
+The dendritic cell marker genes CD1C, NRP1, and ITGAX were also closely related to RAI14 expression, indicating a strong relationship between RAI14 and the infiltration of dendritic cells. Dendritic cells can promote tumor metastasis by increasing the number of Treg cells and reducing CD8+ T cell cytotoxicity. 36 Further studies are needed to determine whether RAI14 is a crucial factor that mediates dendritic cell-associated tumor metastasis. In summary, these findings suggest that RAI14 plays an important role in the recruitment and regulation of infiltrating immune cells in gastric cancer.
+
+Recent studies provide possible mechanisms that explain why RAI14 expression correlates with immune cell infiltration and poor prognosis. As an immune-stimulatory ligand, lipopolysaccharide (LPS) is known for its role in intestinal inflammation and cancer progression through activation of the Toll-like receptor 4 (TLR4), which interacts with LPS from gram-negative bacteria, and nuclear factor (NF)-κB pathways. 37 , 38 LPS and tumor necrosis factor (TNF)-α stimulation result in the upregulation of RAI14 mRNA and protein levels in a dose- and time-dependent manner. 39 After blocking TLR4 or clearing the gut from gram-negative bacteria using polymyxin B, the numbers of CD8+ and CD4+ T cells, as well as MHCII+ cells, are significantly increased in colorectal tumor tissue, whereas the percentage of myeloid-derived suppressor cells is significantly reduced. Under these conditions, the expression of the tumor-promoting inflammatory cytokines IL-1β, IL-6, and PTGS2 is decreased, whereas the expression levels of the tumor-infiltrating lymphocytes (TILs) chemokines CXCL9 and CXCL10 are increased. 40 Downregulation of RAI14 effectively prevents the LPS-induced upregulation of the pro-inflammatory factors IL-1β, IL-6, and TNF-α at the mRNA level. 41  RAI14 knockdown also significantly attenuates the level of pro-inflammatory cytokines by inhibiting the IKK/NF-κB pathway. 16 Since LPS promotes cancer metastasis, potentially via NF-κB activation, interactions between RAI14 and LPS oligosaccharides could be a potential mechanism responsible for the correlation of RAI14 expression with immune cell infiltration and poor prognosis in gastric cancer.
+
+There were some limitations in our study. First, although high mRNA expressions of RAI14 were independent prognostic factors for shorter OS of gastric cancer patients, all the data analyzed in our study was retrieved from the online databases, further studies consist of larger sample sizes are required to validate our findings and to explore the clinical application of the RAI14 in the treatment of gastric cancer. Second, we did not assess the potential diagnostic and therapeutic roles of RAI14 in gastric cancer, so future studies are needed to explore whether RAI14 could be exploited as diagnostic markers or as therapeutic targets. Finally, we did not explore the potential mechanisms of distinct RAI14 in gastric cancer. Future studies worth to investigate the detailed mechanism between distinct RAI14 and gastric cancer.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In gastric cancer, high RAI14 expression is associated with poor prognosis and increased tumor infiltration of immune cells such as CD4+ T cells, macrophages, neutrophils, and dendritic cells. RAI14 expression may help regulate tumor-associated macrophages, dendritic cells, and regulatory T cells. Therefore, RAI14 may play an important role in infiltrating immune cells and may serve as a prognostic biomarker for patients with gastric cancer.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,19 @@
+Source: PMC7673055_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Identification of CDCA8, DSN1 and BIRC5 in Regulating Cell Cycle and Apoptosis in Osteosarcoma Using Bioinformatics and Cell Biology",
+  "condition_E": 1,
+  "condition_E_reason": "The dataset contained 10 osteosarcoma samples and 2 non-neoplastic primary osteoblast cell lines.",
+  "N_E": 1,
+  "N_E_reason": "In total, the dataset contained 20 samples, including 10 osteosarcoma samples.",
+  "dataset_E": 1,
+  "dataset_E_reason": "The gene expression profile of GSE14359 was downloaded from Gene Expression Omnibus (GEO) database.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

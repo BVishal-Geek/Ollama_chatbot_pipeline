@@ -1,0 +1,463 @@
+================================================================================
+ARTICLE TITLE: Clinical Analysis of Acinar Cell Carcinoma of the Pancreas: A
+Single-Center Experience of 45 Consecutive Cases
+PMCID: PMC7791459
+PMID: 33121259
+KEYWORDS: acinar cell carcinoma, clinical characteristics, pancreatic rare tumor, treatment, survival
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Backgrounds::
+Acinar cell carcinoma of the pancreas is a rare malignancy, and its features
+remain unclear. We aimed to analyze the clinical characteristics, treatment
+and prognosis of acinar cell carcinoma with our institutional case
+series.
+
+Methods::
+Patients diagnosed with acinar cell carcinoma in our hospital between 2005
+and 2019 were reviewed. Investigations on clinicopathological features,
+treatment details and long-term survival were performed.
+
+Results::
+A total of 45 pathologically confirmed acinar cell carcinomas were
+identified. The median age at diagnosis was 58 years with a male-to-female
+ratio of 3.1:1. There were 24 (53.3%) localized, 5 (11.1%) locally advanced
+and 16 (35.6%) metastatic cases, with a pancreatic head-to-body/tail ratio
+of 1:1.4 for all the primary lesions. In the localized group, there were 10
+pancreatoduodenectomy, 12 distal pancreatectomy, 1 total pancreatectomy, and
+1 distal pancreatectomy combined with proximal gastrectomy. Among the
+locally advanced and metastatic cases, 13 patients received chemotherapy, 1
+received concurrent radiochemotherapy, 1 underwent synchronous resection of
+primary tumor and liver metastasis, 1 underwent palliative operation, 1
+underwent exploratory laparotomy, and 4 required no treatment. The median
+overall survival of this series was 18.9 months with a 5-year survival rate
+of 19.6%. Moreover, the resected acinar cell carcinoma patients were
+associated with prolonged survival compared with the unresected cases (36.6 vs. 8.5 months, P < 0.001).
+
+Conclusions::
+Surgical resection could improve the long-term survival of acinar cell
+carcinoma patients, which might also improve the prognosis of selected
+metastatic cases. Large-scale studies are needed to further clarify the
+biological behavior and clinical features, and to seek the optimal
+treatments.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Acinar cell carcinoma (ACC) of the pancreas is a rare malignancy, and accounts for
+approximately 1%-2% of exocrine pancreatic neoplasms. 1 ACC arises from the pancreatic acinus, which secretes digestive enzymes
+(e.g., trypsin, chymotrypsin, amylase) and makes up more than 80% volume of the
+pancreas. Histologically, ACC is characterized by the rich tumor cells, forming
+lobular, solid, glandular or trabecular patterns, and poor fibrous stroma. 2 Radiologically, ACC typically presents as a sizable, well-defined mass with
+an enhancing capsule, frequently companied with central hypodensity and occasionally
+with internal calcification in the computed tomography (CT) images. 3 However, definite diagnosis could be rarely achieved through the radiologic
+examinations. Even for pathological diagnosis, ACC could be difficultly
+distinguished from pancreatic neuroendocrine tumor (pNET) or solid pseudopapillary
+tumor due to their similarities. 2 Therefore, immunohistochemical staining for pancreatic enzymes or other
+markers, such as Bcl-10, is often required for confirmation. 4 
+
+Compared with ductal cell adenocarcinoma (DCA), ACC is a distinct entity. Typical
+DCA-associated mutations in KRAS , SMAD4 , and TP53 genes are rarely or less frequently detected in ACC. 5 , 6 ACC harbors frequent alterations in genes of the adenomatous polyposis coli
+( APC )/β-catenin pathway, which is similar to colon cancer. 7 For the clinical manifestations, ACC shares many non-specific symptoms with
+DCA, including abdominal discomfort, weight loss and weakness, nausea and vomiting,
+melena, and diarrhea. But painless obstructive jaundice, commonly presented in DCA,
+is infrequently seen in ACC. 8 In addition, a few ACC patients could develop lipase hypersecretion syndrome
+because of the massive lipase released by the tumor, manifested with subcutaneous
+fat necrosis, polyarthralgia or eosinophilia. 9 , 10 As a moderate malignancy, ACC carries a better prognosis in comparison to
+DCA. The previously reported median overall survival (OS) of ACC patients ranged
+from 17.6 to 47 months. 9 - 16 In the latest ACC series from 3 French centers, Egal et al. 17 showed a favorable median OS of 55.5 months in all staged patients with 106.5
+months in patients who underwent curative-intent resections.
+
+Currently, no broad consensus has been reached on the diagnosis or treatment for ACC
+due to its rarity. The staging system and therapeutic strategy of ACC mainly refer
+to the guidelines for DCA, though the 2 entities possess quite a few distinctive
+features. In this study, we aimed to share our experience of ACC with the largest
+single-center case series to date, which might make contribution to better
+understand the characteristics of ACC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+Consecutive patients who received treatments for ACC from June 2005 to November
+2019 in our hospital were carefully reviewed. Only pathologically proven ACC
+cases (acinar differentiation and positive staining of trypsin and/or
+chymotrypsin) were included into analysis. Demographic, clinical and
+pathological data were extracted from the medical records. The values of serum
+tumor markers, including CA19-9, AFP, and CEA, were recorded according to the
+latest test prior to the treatments. Primary ACC diameters were recorded based
+on the pathological reports for the resected cases or imaging reports for the
+unresected cases. TNM stage was defined according to the American Joint
+Committee on Cancer staging system (eighth Edition). OS was calculated as the
+period from the date of pathological diagnosis to the date of death or last
+follow-up. Follow-up was preformed either by searching the electronical
+outpatient system of our hospital or by telephone interviews, which was ended in
+December 2019.
+
+Categorical and continuous variables were presented as frequency counts and
+percentages, and medians and interquartile ranges (IQR), respectively. The
+Kaplan-Meier method was used to performed survival analysis, and survival
+differences between the groups were examined using the log-rank test. Univariate
+and multivariate Cox regression analyses were performed to identify the risk
+factors for OS. All the above statistical analyses were completed using SPSS
+software (version 25.0, IBM Corp., Armonk, NY, USA). P values
+< 0.05 with 2-side were considered statistically significant. Survive curves
+were plotted using R software (version 3.6.3, https://www.r-project.org/ ).
+
+
+Patients
+
+Consecutive patients who received treatments for ACC from June 2005 to November
+2019 in our hospital were carefully reviewed. Only pathologically proven ACC
+cases (acinar differentiation and positive staining of trypsin and/or
+chymotrypsin) were included into analysis. Demographic, clinical and
+pathological data were extracted from the medical records. The values of serum
+tumor markers, including CA19-9, AFP, and CEA, were recorded according to the
+latest test prior to the treatments. Primary ACC diameters were recorded based
+on the pathological reports for the resected cases or imaging reports for the
+unresected cases. TNM stage was defined according to the American Joint
+Committee on Cancer staging system (eighth Edition). OS was calculated as the
+period from the date of pathological diagnosis to the date of death or last
+follow-up. Follow-up was preformed either by searching the electronical
+outpatient system of our hospital or by telephone interviews, which was ended in
+December 2019.
+
+
+Statistical Analysis
+
+Categorical and continuous variables were presented as frequency counts and
+percentages, and medians and interquartile ranges (IQR), respectively. The
+Kaplan-Meier method was used to performed survival analysis, and survival
+differences between the groups were examined using the log-rank test. Univariate
+and multivariate Cox regression analyses were performed to identify the risk
+factors for OS. All the above statistical analyses were completed using SPSS
+software (version 25.0, IBM Corp., Armonk, NY, USA). P values
+< 0.05 with 2-side were considered statistically significant. Survive curves
+were plotted using R software (version 3.6.3, https://www.r-project.org/ ).
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Forty-five ACC cases were confirmed by the pathology. The median age of these
+patients was 58.0 years (IQR, 47.5-67.5 years) with a male-to-female ratio of
+3.1:1. The major complaints of the patients at admission were abdominal
+discomfort (n = 24, 53.3%) and positive detection in the periodic physical
+examination (n = 11, 24.4%). The median diameter of the primary tumors was 4.7
+cm (IQR, 3.3-5.9 cm) with a pancreatic head-to-body/tail ratio of 1:1.4. About
+one-third of the patients were detected with metastasis. According to the TNM
+staging system, there were 6, 15, 8, and 16 cases classified as stage I, II, III
+and IV, respectively ( Table
+1 ). Pathologically, apart from the 38 pure ACCs, there were 6 mixed
+acinar-endocrine carcinoma and 1 mixed acinar-ductal carcinoma cases in this
+retrospective analysis ( Table 2 ).
+
+Baseline Characteristics of Patients With ACC.
+
+ACC, acinar cell carcinoma; CA19-9, carbohydrate antigen 19-9; AFP,
+alpha fetoprotein; CEA, carcinoembryonic antigen; AJCC, American
+Joint Committee on Cancer; IQR, interquartile range; a , n
+= 40.
+
+Treatment and Pathological Characteristics of Patients With ACC.
+
+ACC, acinar cell carcinoma; a , n = 24; b , n =
+42; c , n = 40; d , n = 25.
+
+Among the localized cases, 10 patients underwent pancreaticoduodenectomy, 12
+underwent distal pancreatectomy, 1 underwent distal pancreatectomy combined with
+proximal gastrectomy, and 1 underwent total pancreatectomy, respectively.
+Sixteen of the resected patients received adjuvant chemotherapy with either
+gemcitabine alone (n = 9) or gemcitabine-based regimens (n = 7). Of the locally
+advanced cases, 4 patients received treatments, including palliative operation
+(n = 1), exploratory laparotomy (n = 1), chemoradiation (n = 1), and
+chemotherapy (n = 1), and the remaining 1 did not receive any treatments. Of the
+metastatic cases, all the patients were detected with liver metastasis, 2 of who
+were additionally discovered with peritoneal metastasis. One patient with
+isolated liver metastasis underwent synchronous pancreatectomy and hepatectomy,
+and 12 patients received chemotherapy, 5 of who underwent transcatheter arterial
+chemoembolization for liver metastases. The remaining 3 metastatic patients
+required no treatment. The pathological findings in all the resected cases (24
+localized cases and 1 metastatic case) indicated that 10 primary tumors harbored
+necrosis, 8 harbored microvascular invasion, 8 harbored lymph node metastasis,
+and 7 harbored nerval invasion, respectively ( Table 2 ).
+
+On the last follow-up day, 31 (68.9%) patients had died, 9 (20.0%) were still
+alive and the remaining 5 (11.1%) could not be contacted. Of the localized
+cases, 18 patients were detected with relapses, including local recurrences (n =
+5), isolated liver metastases (n = 11), and liver combined with retroperitoneal
+lymph node metastases (n = 2). The median OS of the whole series was 18.9 months
+with a 5-year survival rate of 19.6%. Survival analyses showed that the median
+OS of the localized patients was significantly longer than that of the locally
+advanced patients (36.6 vs. 10.1 months, P =
+0.002) and the metastatic patients (36.6 vs. 7.4 months, P < 0.001) ( Figure 1A ). No statistical difference in
+OS was observed between the locally advanced and metastatic cases (10.1 vs. 7.4 months, P = 0.870). In addition,
+the resected patients correlated with significantly prolonged OS compared with
+the unresected cases (36.6 vs. 8.5 months, P < 0.001) ( Figure
+1B ).
+
+Kaplan-Meier survival analyses in the whole ACC series divided by the
+tumor status (A) and resection (B), and in the localized subgroup
+divided by the TNM stage (C) and adjuvant chemotherapy (D). ACC, acinar
+cell carcinoma.
+
+In the subgroup of localized cases, survival analyses indicated that the median
+OS of stage I and stage II patients was significantly longer than that of stage
+III patients (stage I vs. III, 37.3 vs. 9.2
+months, P = 0.004; stage II vs. III, 36.6 vs. 9.2 months, P = 0.003) ( Figure 1C ). Moreover,
+patients who received postoperative chemotherapy acquired an improvement in the
+long-term survival compared with those who had no adjuvant chemotherapy (37.7 vs. 18.9 months, P = 0.010) ( Figure 1D ). Cox regression
+analyses demonstrated that TNM stage (stage I vs. III, hazard
+ratio [HR] 0.025, 95% confidence interval [CI] 0.002-0.347, P =
+0.006; stage II vs. III, HR 0.026, 95% CI 0.002-0.400, P = 0.009) and postoperative chemotherapy (HR 0.221, 95% CI
+0.070-0.691, P = 0.009) were independent risk factors of OS for
+the localized ACC ( Table
+3 ).
+
+Univariate and Multivariate Cox Regression Analyses of Risk Factors for
+Overall Survival in the Localized ACC Patients (n = 24).
+
+ACC, acinar cell carcinoma; HR, hazard ratio; CI, confidence
+interval; ref, reference.
+
+
+Patient Characteristics
+
+Forty-five ACC cases were confirmed by the pathology. The median age of these
+patients was 58.0 years (IQR, 47.5-67.5 years) with a male-to-female ratio of
+3.1:1. The major complaints of the patients at admission were abdominal
+discomfort (n = 24, 53.3%) and positive detection in the periodic physical
+examination (n = 11, 24.4%). The median diameter of the primary tumors was 4.7
+cm (IQR, 3.3-5.9 cm) with a pancreatic head-to-body/tail ratio of 1:1.4. About
+one-third of the patients were detected with metastasis. According to the TNM
+staging system, there were 6, 15, 8, and 16 cases classified as stage I, II, III
+and IV, respectively ( Table
+1 ). Pathologically, apart from the 38 pure ACCs, there were 6 mixed
+acinar-endocrine carcinoma and 1 mixed acinar-ductal carcinoma cases in this
+retrospective analysis ( Table 2 ).
+
+Baseline Characteristics of Patients With ACC.
+
+ACC, acinar cell carcinoma; CA19-9, carbohydrate antigen 19-9; AFP,
+alpha fetoprotein; CEA, carcinoembryonic antigen; AJCC, American
+Joint Committee on Cancer; IQR, interquartile range; a , n
+= 40.
+
+Treatment and Pathological Characteristics of Patients With ACC.
+
+ACC, acinar cell carcinoma; a , n = 24; b , n =
+42; c , n = 40; d , n = 25.
+
+
+Treatment and Prognosis
+
+Among the localized cases, 10 patients underwent pancreaticoduodenectomy, 12
+underwent distal pancreatectomy, 1 underwent distal pancreatectomy combined with
+proximal gastrectomy, and 1 underwent total pancreatectomy, respectively.
+Sixteen of the resected patients received adjuvant chemotherapy with either
+gemcitabine alone (n = 9) or gemcitabine-based regimens (n = 7). Of the locally
+advanced cases, 4 patients received treatments, including palliative operation
+(n = 1), exploratory laparotomy (n = 1), chemoradiation (n = 1), and
+chemotherapy (n = 1), and the remaining 1 did not receive any treatments. Of the
+metastatic cases, all the patients were detected with liver metastasis, 2 of who
+were additionally discovered with peritoneal metastasis. One patient with
+isolated liver metastasis underwent synchronous pancreatectomy and hepatectomy,
+and 12 patients received chemotherapy, 5 of who underwent transcatheter arterial
+chemoembolization for liver metastases. The remaining 3 metastatic patients
+required no treatment. The pathological findings in all the resected cases (24
+localized cases and 1 metastatic case) indicated that 10 primary tumors harbored
+necrosis, 8 harbored microvascular invasion, 8 harbored lymph node metastasis,
+and 7 harbored nerval invasion, respectively ( Table 2 ).
+
+On the last follow-up day, 31 (68.9%) patients had died, 9 (20.0%) were still
+alive and the remaining 5 (11.1%) could not be contacted. Of the localized
+cases, 18 patients were detected with relapses, including local recurrences (n =
+5), isolated liver metastases (n = 11), and liver combined with retroperitoneal
+lymph node metastases (n = 2). The median OS of the whole series was 18.9 months
+with a 5-year survival rate of 19.6%. Survival analyses showed that the median
+OS of the localized patients was significantly longer than that of the locally
+advanced patients (36.6 vs. 10.1 months, P =
+0.002) and the metastatic patients (36.6 vs. 7.4 months, P < 0.001) ( Figure 1A ). No statistical difference in
+OS was observed between the locally advanced and metastatic cases (10.1 vs. 7.4 months, P = 0.870). In addition,
+the resected patients correlated with significantly prolonged OS compared with
+the unresected cases (36.6 vs. 8.5 months, P < 0.001) ( Figure
+1B ).
+
+Kaplan-Meier survival analyses in the whole ACC series divided by the
+tumor status (A) and resection (B), and in the localized subgroup
+divided by the TNM stage (C) and adjuvant chemotherapy (D). ACC, acinar
+cell carcinoma.
+
+In the subgroup of localized cases, survival analyses indicated that the median
+OS of stage I and stage II patients was significantly longer than that of stage
+III patients (stage I vs. III, 37.3 vs. 9.2
+months, P = 0.004; stage II vs. III, 36.6 vs. 9.2 months, P = 0.003) ( Figure 1C ). Moreover,
+patients who received postoperative chemotherapy acquired an improvement in the
+long-term survival compared with those who had no adjuvant chemotherapy (37.7 vs. 18.9 months, P = 0.010) ( Figure 1D ). Cox regression
+analyses demonstrated that TNM stage (stage I vs. III, hazard
+ratio [HR] 0.025, 95% confidence interval [CI] 0.002-0.347, P =
+0.006; stage II vs. III, HR 0.026, 95% CI 0.002-0.400, P = 0.009) and postoperative chemotherapy (HR 0.221, 95% CI
+0.070-0.691, P = 0.009) were independent risk factors of OS for
+the localized ACC ( Table
+3 ).
+
+Univariate and Multivariate Cox Regression Analyses of Risk Factors for
+Overall Survival in the Localized ACC Patients (n = 24).
+
+ACC, acinar cell carcinoma; HR, hazard ratio; CI, confidence
+interval; ref, reference.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+ACC is a low incidence rate malignancy, and the most published reports contained
+relatively limited cases, which might weaken the power of the corresponding
+conclusions ( Table 4 ). 8 - 11 , 13 - 19 Though there have been several database studies with hundreds of ACC cases,
+they mainly focused on the prognostic analyses, particularly in resected patients. 12 , 20 - 23 Certain characteristic information, such as clinical symptoms, hematological
+examinations, and pathological details, was unavailable in these studies. In the
+present research, we investigated the clinical feature, treatment, and prognosis of
+ACC with a 14-year series in our high-volume center, which performed more than 400
+pancreatic operations annually.
+
+Previous ACC Literature Containing Surgical Cases.
+
+ACC, acinar cell carcinoma; OS, overall survival; SEER, Surveillance,
+Epidemiology, and End Results; NA, not available; a , mean
+age; b , mean overall survival; c , 5-year survival
+rate.
+
+Consistent with many previous reports, ACC patients in our series were relatively
+young (median age 58 years) with the predominance of males (75.6%). 9 , 10 , 14 - 16 , 20 Non-specific abdominal discomfort urged more than half of the patients to
+seek medical advice initially. Only 3 patients presented with obstructive jaundice
+here. Except for the cases with primary tumors located at the pancreatic body and
+tail, ACC still had a much lower rate of jaundice (15.8%) than pancreatic head DCA,
+which was up to approximately 80% in the published literature. 24 , 25 This may indicate the less aggressive behavior of ACC as it generally pushes
+rather than directly invades into the bile duct. 26 No typical symptom caused by the lipase overproduction was observed in this
+series, though 3 of the 4 patients with documented serum lipase data had elevated
+levels (415, 447, and 2708 U/L; normal range, 13 to 63 U/L). These lipase levels
+might not be high enough to generate the clinical signs, or the elevated periods in
+the patients were relatively short.
+
+Due to the specificity, serum lipase level may serve as a potential marker for
+differential diagnoses in patients with radiologically suspected pancreatic
+malignancies. However, as it abnormally increased in less than half of the ACC
+patients in the previous research, its real utility needs to be verified. 13 , 18 AFP is another potential serum marker proposed in some studies for
+facilitating the identification of ACC from DCA, but it only abnormally elevated in
+3 (7.5%) documented patients in this series. 20 Currently, no reliable laboratory biomarker has been revealed to detect or
+differentiate ACC. Given the distinct gene mutation patterns between ACC and DCA,
+sequencing of the circulating tumor cells or DNA could be promising directions.
+
+Pathological features of the resected cases showed that the rates of lymph node
+metastasis, nerval invasion, and microvascular invasion were lower in ACC compared
+with the corresponding data regarding DCA from the previous reports, which again
+reflected the less aggressive behavior of ACC. 27 , 28 In addition, 40% of the resected cases presented with necrosis, which was
+quite rare in DCA. 29 This might ascribe to the high proportion of tumor cell component in ACC,
+requiring sufficient blood supply to sustain metabolism, whereas DCA was
+predominated by the fibrous stroma and less likely affected by the deficient blood
+flow.
+
+Surgical resection is the first-line treatment for resectable ACC. The OS of the
+resected patients in our series was 36.6 months, which was consistent with the data
+in the previous literature, and significantly prolonged in comparison to that of the
+unresected counterparts. 9 , 11 , 15 , 19 , 20 Noticeably, one patient with solitary liver metastasis were misdiagnosed as
+pNET preoperatively, and underwent synchronous distal pancreatectomy and hepatic
+wedge resection. No obvious evidence for recurrence has been observed since the
+patient underwent the operation 89 months ago. This favorable outcome raises an
+issue whether surgical resection should be an acceptable choice for solitary liver
+metastatic ACC. Technically, the feasibility and safety of combined pancreatectomy
+and hepatectomy have been demonstrated in many published studies. 30 - 32 In terms of oncology, radical resection has been suggested in
+well-differentiated pNET patients with single liver metastasis by the European
+Neuroendocrine Tumor Society. 33 Even for more aggressive DCA, quite a few studies have shown the survival
+benefits in liver metastatic patients who underwent synchronous resections,
+particularly in oligometastatic cases. 34 , 35 Given the rarity of ACC, the value of surgery in liver metastatic situations
+was seldom explored. Seth et al. 11 reported one patient who underwent concurrent hepatectomy for metastasis
+acquired the longest survival period of 95 months among all the 14 resected ACC
+patients. Another analysis performed by Hartwig et al. 10 showed that the 2-year survival rate of ACC patients with limited metastatic
+disease underdoing synchronous resection (3 additional hepatectomy and 1
+omentectomy) was comparable to that of nonmetastatic patients treated with resection
+(75% vs. 66%, P = 0.85). A more recent study
+containing 340 metastatic ACC cases from National Cancer Data Base (NCDB) indicated
+that patients required resection correlated with an increased 5-year survival rate
+compared with those who did not undergo resection (18.7% vs. 3.8%, P < 0.001). 22 As liver is the most common metastatic site of ACC patients, this result
+might also provide evidence to support the role of surgical resection in liver
+metastatic cases. However, it needs to be well evaluated in large-scale studies with
+good designs.
+
+Adjuvant chemotherapy is a routine option for all resectable DCA following surgical
+resection in order to eliminate residual tumor cells to postpone recurrence. But the
+effect of adjuvant chemotherapy in ACC was still controversial in the literature. A
+single-center case series of 21 ACC patients from Glazer et al. 19 suggested that adjuvant chemotherapy was not associated with improved
+survival on multivariate analysis (HR 0.030, P = 0.2). Contrarily,
+Wang et al. 16 reported their institutional experience with 19 ACC cases and indicated that
+resected patients followed by adjuvant chemotherapy had increased long-term survival
+in comparison to those who underwent resection alone ( P = 0.006).
+Our present study also showed the survival improvement in ACC patients receiving
+postoperative chemotherapy (37.7 vs. 18.9 months, P = 0.010), which was further demonstrated as an independent
+protective factor on multivariate analysis (HR 0.221, 95% CI 0.070-0.691, P = 0.009). Owing to the limited sample sizes, powerful
+conclusions were difficultly drawn from these institutional reports. Interestingly,
+2 database analyses from the NCBD came to the different results. In the year of
+2008, Schmidt et al. 21 found that the resected patients with or without adjuvant chemotherapy shared
+the similar OS after analyzing 865 ACC cases ( P = 0.3). However,
+more recently, Patel et al. 36 reviewed 298 ACC cases from the same database and discovered that adjuvant
+chemotherapy following surgical resection was associated with a significant
+improvement in OS compared with resection alone (HR 0.54, 95% CI 0.33-0.89, P = 0.015). This might be explained by the advancements in
+chemotherapeutic regimens over time, as the patients included in the 2 studies were
+from 1985 to 2005 and from 2004 to 2015, respectively. According to our own
+experience, we take an active attitude toward the use of adjuvant chemotherapy in
+all suitable ACC patients undergoing surgical resection. The regimens of adjuvant
+chemotherapy were infrequently mentioned in the previous literature and varied among
+different institutions. Consistent with the major reports, our center adopted
+gemcitabine or gemcitabine-based chemotherapy for the postoperative treatment. 10 , 17 , 18 Glazer et al. 19 proposed the regimen of folinic acid, fluorouracil and oxaliplatin (FOLFOX)
+for the adjuvant therapy of ACC considering its higher rate of disease control
+compared with gemcitabine. But no existing evidence has proven the advantage of this
+fluorouracil-based regimen in improving the survival of resected ACC patients. These
+issues regarding postoperative chemotherapy, such as agent type, therapy cycle, and
+response evaluation, need to be further clarified with accumulated cases.
+
+There were some limitations should be mentioned. The retrospective nature and
+relatively small size of our study could limit the persuasiveness of the statistical
+results. However, given the rarity of ACC, we still provide useful information to
+help reveal the clinical features, some of which are unavailable in the database
+studies. In addition, the exact periods of recurrence and progression for resected
+and unresected patients, respectively, could not be evaluated here. This should be
+performed in prospective research with uniform follow-up strategies.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+ACC is a moderately aggressive pancreatic malignancy with a low incidence rate.
+Surgical resection provides a chance to prolong survival for all resected patients,
+particularly for those receiving postoperative chemotherapy. Moreover, selected
+liver metastatic patients may also obtain a survival improvement following
+synchronous resection. Further well-designed, large-scale, prospective studies are
+needed to powerfully verify the optimal diagnostic, therapeutic and follow-up
+strategies for ACC patients.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

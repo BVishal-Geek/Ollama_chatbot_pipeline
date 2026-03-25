@@ -1,0 +1,64 @@
+================================================================================
+ARTICLE TITLE: The role of proton beam therapy in the management of elderly breast cancer patients
+PMCID: PMC8798667
+PMID: 35117960
+KEYWORDS: breast cancer, elderly, proton therapy
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Breast cancer is the most common noncutaneous malignancy in women. The prevalence increases with age such that nearly 7% of women in the United States over age 70 will be diagnosed with breast cancer. Radiation therapy (RT) is a standard component of the treatment course for women of all ages with breast cancer. RT is commonly encountered in the adjuvant setting for women with nonmetastatic disease, but also works for disease palliation in women with metastatic or recurrent disease. Different techniques for delivering RT for breast cancer include whole breast irradiation (WBI), accelerated partial-breast irradiation (APBI), and chest wall irradiation. Although these techniques often employ external beam radiation therapy (EBRT) delivered with photons, proton beam radiation therapy (PBRT) may also be used for each of these methods. Dosimetric breast cancer studies demonstrate clinical benefits of PBRT compared to photon EBRT. PBRT reduces the radiation dose delivered to the heart, particularly in women with left-sided breast cancer. This may subsequently reduce cardiac toxicity and associated cardiovascular disease. PBRT minimizes radiation dose to the lung and secondary tissues resulting in reduced pulmonary toxicity and secondary malignancies, respectively. PBRT offers superior target homogeneity and lymphatic coverage possibly leading to a lower risk of disease recurrence. A phase 3 prospective randomized clinical trial is currently being conducted to evaluate the efficacy of PBRT compared to EBRT with photons in patients with stage II–III breast cancer. Patients over age 70 with favorable stage I breast cancer may omit adjuvant RT. Elderly patients who are candidates for WBI, APBI and chest wall irradiation can receive PBRT and enjoy the same aforementioned benefits with potentially less toxicities. PBRT also plays a role in disease palliation and definitive therapy in patients who are not surgical candidates. In the elderly population, screening tests, such as the Timed Up and Go and G-8, can help determine which patients are suitable candidates for PBRT.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+In 2019, an estimated 268,600 women will be diagnosed with breast cancer in the United States making breast cancer responsible for 30% of new female cancer diagnoses ( 1 ). Breast cancer prevalence increases dramatically with age such that an American woman over age 70 has a one out of fifteen probability of receiving a new breast cancer diagnosis ( 1 ). Elderly women tend to present with more favorable breast tumors: smaller tumor sizes, higher steroid receptor expression, lower rates of proliferation, less poorly differentiated and fewer nodal metastases ( 2 - 4 ). Despite their more favorable tumor characteristics, breast cancer carries a worse prognosis in this population regardless of cancer stage ( 5 , 6 ). Co-morbid conditions play a role in the decrease in overall survival (OS) with advancing age ( 7 - 9 ), but breast cancer disease-specific survival (DFS) is also worse in elderly patients ( 5 ). This may possibly be due to an inability to tolerate aggressive therapy for locally advanced disease.
+
+Adjuvant radiation therapy (RT) is a standard component of the treatment course for non-metastatic breast cancer ( 10 ). Most patients with early stage (stage I–II) breast cancer are candidates for breast-conserving therapy, which consists of conservative surgery (e.g., lumpectomy) followed by RT. The benefit of preventing local recurrence with adjuvant RT following breast-conserving therapy has been demonstrated in multiple large randomized trials in women with stage I-II disease ( 11 - 21 ). Although the addition of adjuvant RT following breast-conserving surgery did not provide an OS or distant DFS benefit in these trials, breast-conserving surgery with adjuvant RT provides similar local recurrence, DFS and OS to treatment with mastectomy ( 19 ). Furthermore, a meta-analysis of 17 randomized trials found a DFS and cancer-specific survival benefit of adjuvant RT following breast-conserving surgery in patients with T1/T2 tumors regardless of nodal status ( 22 ). Therefore, breast-conserving therapy is a safe and effective alternative to mastectomy for most women with stage I–II breast cancer.
+
+Patients with locally advanced breast cancer often undergo neoadjuvant chemotherapy to facilitate downstaging for possible breast-conserving therapy ( 23 - 25 ). Patients with multiple risk factors for locoregional recurrence (multifocal residual disease, lymphovascular invasion, clinical N2-N3 disease or residual pathological tumor size greater than 2 cm) benefit from a multimodality approach with neoadjuvant chemotherapy, mastectomy and postmastectomy radiation therapy (PMRT) ( 26 ). Clinical trials have found PMRT to reduce local-regional recurrence and improve cancer-specific survival and OS in patients with high-risk breast cancer who receive adjuvant chemotherapy ( 27 - 29 ). A randomized clinical trial has not evaluated PMRT in patients who received neoadjuvant chemotherapy. However, an analysis of patients on clinical protocols at MD Anderson demonstrated a local regional recurrence and cancer-specific survival benefit from PMRT in patients with high-risk breast cancer who received neoadjuvant chemotherapy ( 30 ). Thus, PMRT is part of the current guidelines for patients at high risk of locoregional recurrence ( 10 ).
+
+Several techniques have been developed to deliver radiation dose for breast cancer: whole-breast irradiation (WBI), accelerated partial-breast irradiation (APBI) and chest wall irradiation. RT for breast cancer has traditionally been delivered with photons, but over the last two decades clinical trials have explored the use of proton beam radiation therapy (PBRT) because of its potential to deliver improved target dose coverage and normal tissue sparing ( 31 - 38 ). In this review, we will discuss adjuvant photon therapy in the elderly population before discussing PBRT for breast cancer and the role of PBRT in elderly breast cancer patients.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+PBRT is a safe and viable adjuvant treatment option for elderly breast cancer patients with both early-stage disease receiving breast-conserving therapy and those with more locally advanced breast cancer requiring chest wall irradiation following mastectomy. PBRT provides superior target coverage while reducing dose to the organs at risk. PBRT can also be used for palliative therapy. However, further research is necessary to fully understand the risks and benefits of PBRT in elderly breast cancer patients. In the future, newer methods of proton beam delivery such as PBS may provide further benefit for this patient population.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

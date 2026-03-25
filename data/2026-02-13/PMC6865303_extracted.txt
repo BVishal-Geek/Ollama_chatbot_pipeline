@@ -1,0 +1,61 @@
+================================================================================
+ARTICLE TITLE: Age-Specific Incidence of Melanoma in the United States
+PMCID: PMC6865303
+PMID: 31721989
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Question:
+Is the incidence of melanoma in the United States changing between age groups?
+
+Findings:
+In this population-based study including 988 103 cases of invasive melanoma reported between 2001 and 2015, the melanoma incidence increased overall but decreased among individuals aged 10 to 29 years at diagnosis in the United States from 2006 to 2015. These findings were based on data from the US Cancer Statistics National Program of Cancer Registries.
+
+Meaning:
+The apparent decline in the incidence of melanoma in adolescents and young adults in the United States contrasts with increased incidence in melanoma in older ages and is possibly associated with sun protective interventions, providing support for ongoing prevention efforts.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,494 @@
+================================================================================
+ARTICLE TITLE: CENPE, PRC1, TTK, and PLK4 May Play Crucial Roles in the Osteosarcoma
+Progression
+PMCID: PMC7675850
+PMID: 33176597
+KEYWORDS: osteosarcoma, molecular mechanisms, differentially expressed genes
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Osteosarcoma (OS) is a cancerous tumor in a bone. We aimed to identify the
+critical genes involved in OS progression, and then try to elucidate the
+molecular mechanisms of this disease. The microarray data of GSE32395 was used
+for the present study. We analyzed differentially expressed genes (DEGs) in OS
+cells compared with control group by Student’s t-test. The significant enriched
+gene ontology (GO) and kyoto encyclopedia of genes and genomes (KEGG) pathways
+were analyzed for upregulated genes and downregulated genes, respectively. In
+addition, a protein-protein interaction (PPI) network was constructed. GO and
+KEGG enrichment analyses were conducted for genes in the PPI network. In total,
+183 DEGs, including 100 upregulated DEGs and 83 downregulated DEGs were
+screened. The upregulated DEGs were significantly enriched in 2 KEGG pathways,
+such as “Glycosaminoglycan biosynthesis-chondroitin sulfate” and the
+downregulated DEGs were significantly enriched in 12 pathways, including “cell
+adhesion molecules,” “pentose phosphate pathway” and “allograft rejection.” GO
+enrichment analysis indicated that the upregulated DEGs were significantly
+involved in biological process, such as “multicellular organismal metabolic
+process” and “limb morphogenesis,” while the downregulated DEGs were
+significantly enriched in biological process, such as “Positive regulation of
+pathway-restricted SMAD protein phosphorylation.” The PPI network included 84
+interactions and 51 nodes. The “glycosaminoglycan biosynthesis-chondroitin
+sulfate pathway,” “microtubule motor activityfunction,” and “regulation of
+mitosis process” were significantly enriched by genes in PPI network. In
+particular, CENPE, PRC1, TTK, and PLK4 had higher degrees in the PPI network.
+The interactions between TTK and PLK4 as well as CENPE and PRC1 may involve in
+the OS development. These 4 genes might be possible biomarkers for the treatment
+and diagnosis of OS.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Osteosarcoma (OS), originating from osteoblasts, is the most common bone malignant
+tumor, which mainly afflicts young adults or children. 1 Currently, the main therapy for OS is conventional chemotherapy, but
+metastatic OS exhibits resistance to conventional chemotherapy. 2 Early surgical resection combined with multi-agent chemotherapy could lead to
+a long-term survivor, while patients with metastatic OS had a poor prognosis with
+survival rate of less than 20%. 3 Consequently, researches on the molecular mechanisms of OS may helpful for
+the development of novel target therapies for OS patients.
+
+Considerable researches have been conducted to investigate the molecular mechanism of
+OS and several genes that play important roles have been identified. For example,
+glycogen synthase kinase-3β ( GSK-3β ) was found to play oncogenic
+effect on OS cells, and that GSK-3β repression can restrain the pathway of nuclear
+factor-κB (NF-κB), which can lead to the apoptosis of OS cells. 4 Pi et al. found that Aurora-B might promote the progression of OS activating
+the PTK2/PI3K/Akt-NF-κB pathway. 5 Besides, cyclin-dependent kinases (CDKs) are important for cell division and
+cell cycle regulation, and play important roles in OS development through affecting
+numerous pathways, such as those of cell cycle control. 6 Moreover, it has been shown that CDK4 and CDK9 were found have potential to
+be prognostic marker and therapeutic target in OS. 7 , 8 Overall, the pathogenesis of OS is multifactorial and thus more attentions
+upon it are needed.
+
+In this current study, in order to have a better understanding of OS, differentially
+expressed genes (DEGs) in OS cells were identified. Meanwhile, we carried out of
+Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses for
+the DEGs. In addition, we built a protein-protein interaction (PPI) network to
+investigate the pivotal DEGs related with the progression of OS in-depth. Finally,
+the key genes in PPI network were validated in 4 OS cell lines. These key DEGs could
+be beneficial for uncovering the molecular mechanisms of OS and might be potential
+targets for the therapy of OS.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The gene expression profile of the GSE32395 dataset including 7 OS cell lines
+(HOS osteosarcoma cell line CRL-1543, HOS-58 osteosarcoma cell line, U2-OS
+osteosarcoma cell line HTB-96, Saos osteosarcoma cell line HTB-85, MNNG/HOS
+osteosarcoma cell line CRL-1547, SJSA osteosarcoma cell line CRL-2098, and MG-63
+osteosarcoma cell line CRL-1427, OS group) and 2 control cells (L87/4 human stem
+cells and hFOB 1.19 human osteoblasts, control group) was downloaded from Gene
+Expression Omnibus (GEO) database, the platform of which was GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene)
+version].
+
+The gene expression matrix was obtained by the preprocessing of the raw data as
+performed in Bioconductor AFFY package. 9 The data were preprocessed by the Robust Multichip Averaging (RMA) algorithm. 10 Next, identification of DEGs between the OS and the control group was
+carried out by 2-tailed Student’s t-tests ( P < 0.05,
+|log 2 fold change (FC)| ≥ 2).
+
+Transcription factor (TF) was identified by the functional annotation of DEGs
+using the TRANSFAC database ( http://gene-regulation.com/pub/databases.html ). 11 Furthermore, tumor suppressor genes (TSGs) and oncogenes were also
+screened through the database of TSG 12 and Tumor Associated Genes (TAG). 13 
+
+KEGG pathway 14 and GO functional 15 analyses were carried out to screen important pathways and the functional
+terms of the upregulated genes and downregulated genes, respectively, using
+Database for Annotation, Visualization and Integrated Discovery 16 with a P value of < 0.05.
+
+PPI network was built using search tool for the retrieval of interacting genes
+(STRING, version 9.1), 17 and visualized in Cytoscape. Only interactions with a combined score >
+0.4 were hold. The proteins with higher degree of interactions were regarded as
+the hub nodes.
+
+Four kinds of human OS cell lines, including MG63, HOS, Saos and U2OS cells, and
+the human mesenchymal stem cells were purchased from iCell Bioscience Inc.
+(Shanghai, China). Cells were cultured in minimum essential medium supplemented
+with 10% fetal bovine serum, 1% streptomycin (100 µg/ml) and penicillin (100
+U/ml) at 37°C and 5% CO 2 .
+
+Total RNA from cells were extracted from cells using Trizol reagent (Thermo
+Fisher Scientific Inc.). cDNA was synthesized from total RNA using RevertAid
+First Strand cDNA Synthesis Kit (Thermo Fisher Scientific Inc.). qPCR was then
+performed on ABI7500 with SYBR Green qPCR Master Mix (Thermo Fisher Scientific
+Inc.). GAPDH served as internal control. Primers are given in Table 1 . The
+expression of gene was calculated using the 2 −ΔΔCt method.
+
+Primers for Quantitative Real-Time PCR.
+
+Experimental data were represented as mean ± standard deviation. Comparisons were
+performed using 1-way analysis of variance with post-hoc test of Bonferroni test
+in Graphpad Prism. P < 0.05 was regarded as significant
+level.
+
+
+Sources of Data
+
+The gene expression profile of the GSE32395 dataset including 7 OS cell lines
+(HOS osteosarcoma cell line CRL-1543, HOS-58 osteosarcoma cell line, U2-OS
+osteosarcoma cell line HTB-96, Saos osteosarcoma cell line HTB-85, MNNG/HOS
+osteosarcoma cell line CRL-1547, SJSA osteosarcoma cell line CRL-2098, and MG-63
+osteosarcoma cell line CRL-1427, OS group) and 2 control cells (L87/4 human stem
+cells and hFOB 1.19 human osteoblasts, control group) was downloaded from Gene
+Expression Omnibus (GEO) database, the platform of which was GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene)
+version].
+
+
+Data Preprocessing and Analysis of DEGs
+
+The gene expression matrix was obtained by the preprocessing of the raw data as
+performed in Bioconductor AFFY package. 9 The data were preprocessed by the Robust Multichip Averaging (RMA) algorithm. 10 Next, identification of DEGs between the OS and the control group was
+carried out by 2-tailed Student’s t-tests ( P < 0.05,
+|log 2 fold change (FC)| ≥ 2).
+
+
+Gene Functional Annotation
+
+Transcription factor (TF) was identified by the functional annotation of DEGs
+using the TRANSFAC database ( http://gene-regulation.com/pub/databases.html ). 11 Furthermore, tumor suppressor genes (TSGs) and oncogenes were also
+screened through the database of TSG 12 and Tumor Associated Genes (TAG). 13 
+
+
+KEGG Pathway and GO Functional Enrichment Analyses of DEGs
+
+KEGG pathway 14 and GO functional 15 analyses were carried out to screen important pathways and the functional
+terms of the upregulated genes and downregulated genes, respectively, using
+Database for Annotation, Visualization and Integrated Discovery 16 with a P value of < 0.05.
+
+
+PPI Network Construction
+
+PPI network was built using search tool for the retrieval of interacting genes
+(STRING, version 9.1), 17 and visualized in Cytoscape. Only interactions with a combined score >
+0.4 were hold. The proteins with higher degree of interactions were regarded as
+the hub nodes.
+
+
+Real-Time PCR Verification of Key Genes
+
+Four kinds of human OS cell lines, including MG63, HOS, Saos and U2OS cells, and
+the human mesenchymal stem cells were purchased from iCell Bioscience Inc.
+(Shanghai, China). Cells were cultured in minimum essential medium supplemented
+with 10% fetal bovine serum, 1% streptomycin (100 µg/ml) and penicillin (100
+U/ml) at 37°C and 5% CO 2 .
+
+Total RNA from cells were extracted from cells using Trizol reagent (Thermo
+Fisher Scientific Inc.). cDNA was synthesized from total RNA using RevertAid
+First Strand cDNA Synthesis Kit (Thermo Fisher Scientific Inc.). qPCR was then
+performed on ABI7500 with SYBR Green qPCR Master Mix (Thermo Fisher Scientific
+Inc.). GAPDH served as internal control. Primers are given in Table 1 . The
+expression of gene was calculated using the 2 −ΔΔCt method.
+
+Primers for Quantitative Real-Time PCR.
+
+
+Statistical Analysis
+
+Experimental data were represented as mean ± standard deviation. Comparisons were
+performed using 1-way analysis of variance with post-hoc test of Bonferroni test
+in Graphpad Prism. P < 0.05 was regarded as significant
+level.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+After analysis, 183 DEGs were identified, including 100 upregulated genes and 83
+downregulated genes ( Table
+2 ). Among these DEGs, 5 upregulated TFs ( ZHX1 , PBX1 , NR1D1 , MAFB and LEF1 ) and 2 downregulated TFs ( SIM2 and HMGB2 ), as well as 8 upregulated TAGs (6 TSGs and 2
+uncertain genes for tumor development) and 7 downregulated TSGs were further
+identified. The upregulated TSGs were UNC5B , PARK2 , MTSS1 , MIR181B1 , FBXO32 and ADAMTS9 ; the other upregulated
+genes were MAFB and CDR . The downregulated
+TSGs were TPM1 , RB1 , PTPRJ , PPP2CB , PCDH10 , IGFBP7 and DAB2 .
+
+The List of 188 Differentially Expressed Genes.
+
+Based on the criterion of P < 0.05, the upregulated DEGs were
+significantly enriched in “glycosaminoglycan biosynthesis-chondroitin sulfate”
+and “arrhythmogenic right ventricular cardiomyopathy.” Meanwhile, the
+downregulated DEGs were significantly enriched in 12 pathways, such as “cell
+adhesion molecules” (CAMs), “pentose phosphate pathway,” “allograft rejection,”
+“type I diabetes mellitus” and “cell cycle.” The results of significantly
+enriched pathways are presented in Table 3 .
+
+KEGG Pathway Enrichment Analysis of Differentially-Expressed Genes.
+
+KEGG: Kyoto Encyclopedia of Genes and Genomes; Gene Counts: number of
+genes.
+
+ Table 4 shows the
+top 5 GO terms. The upregulated DEGs were significantly enriched in 92
+biological process (BP) terms, 8 cellular component (CC) terms and 28 molecular
+function (MF) terms. The upregulated DEGs were significantly involved in
+“multicellular organismal metabolic process,” “limb morphogenesis” and
+“hemophilic cell adhesion.” These genes were mostly located on “golgi
+apparatus,” “growth hormone receptor complex” and “collagen type XI.” Most of
+these genes possess the molecular function of “insulin-like growth factor
+binding,” “integrase activity” and “α-tubulin binding.” Meanwhile, the
+downregulated DEGs were obviously enriched in 58 BP terms, 18 CC terms and 21 MF
+terms. The suppressed processes in OS included “Positive regulation of
+pathway-restricted SMAD protein phosphorylation,” “Peptidyl-tyrosine
+dephosphorylation” and “Regulation of mitosis.” The downregulated genes were
+mostly located on “Spindle,” “major histocompatibility complex (MHC) class I
+protein complex” and “striated muscle thin filament.” The primary functions of
+the downregulated DEGs were “WW domain binding,” “polo kinase kinase activity”
+and “chondroitin-glucuronate 5-epimerase activity.”
+
+TOP 5 Significantly Enriched BP, CC and MF for Differentially-Expressed
+Genes.
+
+GO: Gene Ontology; BP: biological process; CC: cellular component;
+MF: molecular function; Gene Counts: number of genes.
+
+ Figure 1 shows the PPI
+network, which included 84 interactions and 51 nodes. For this network, the
+connectivity degree of each node was calculated and Table 5 shows the nodes with a degree
+of ≥ 2. According to the degrees of the nodes, centromere-associated protein E
+(CENPE), protein regulator of cytokinesis 1 (PRC1), phosphotyrosine picked
+threonine-protein kinase (TTK) and polo-like kinase 4 (PLK4) were selected as
+the hub nodes, as they interacted with more than10 nodes, indicating their
+crucial roles in the PPI network.
+
+Protein-Protein Interaction (PPI) Network of Differentially Expressed
+Genes (DEGs) in Osteosarcoma. Red nodes represent upregulated DEGs;
+green nodes represent downregulated DEGs; gray lines stand for the
+interaction between 2 proteins. DEGs, differentially-expressed
+genes.
+
+Differentially-Expressed Genes With >2 Degrees of Connectivity in the
+Protein-Protein Interaction Network.
+
+A total of 14 pathways were enriched by DEGs in PPI network, such as
+“glycosaminoglycan biosynthesis-chondroitin sulfate” and “natural killer cell
+mediated cytotoxicity” ( Table 6 ). Furthermore, DEGs in the PPI network were also
+significantly enriched in 81 BP terms, 22 CC terms and 30 MF terms. The top 5 GO
+terms for each were listed in Table 7 . For the BP terms, the
+dramatically enriched processes were mainly related with the “regulation of
+mitosis” and “cell division.” For the CC terms, the significantly enriched
+components were mainly correlated with the “spindle” and “MHC class I protein
+complex.” For the MF terms, the significantly enriched functions were mainly
+associated with “microtubule motor activity” and “chondroitin-glucuronate
+5-epimerase activity.”
+
+KEGG Pathway Enrichment Analysis of Differentially-Expressed Genes in the
+Protein-Protein Interaction Network.
+
+KEGG, Kyoto Encyclopedia of Genes and Genomes; Gene Counts, number of
+genes.
+
+TOP 5 Significantly Enriched BP, CC and MF Terms for
+Differentially-Expressed Genes in the Protein-Protein Interaction
+Network.
+
+GO, Gene Ontology; BP, biological process; CC, cellular component;
+MF, molecular function; MHC, major histocompatibility complex; TAP,
+transporter associated with antigen processing; Gene counts, number
+of genes.
+
+
+DEGs in OS Cell Lines Compared With Control Cell
+
+After analysis, 183 DEGs were identified, including 100 upregulated genes and 83
+downregulated genes ( Table
+2 ). Among these DEGs, 5 upregulated TFs ( ZHX1 , PBX1 , NR1D1 , MAFB and LEF1 ) and 2 downregulated TFs ( SIM2 and HMGB2 ), as well as 8 upregulated TAGs (6 TSGs and 2
+uncertain genes for tumor development) and 7 downregulated TSGs were further
+identified. The upregulated TSGs were UNC5B , PARK2 , MTSS1 , MIR181B1 , FBXO32 and ADAMTS9 ; the other upregulated
+genes were MAFB and CDR . The downregulated
+TSGs were TPM1 , RB1 , PTPRJ , PPP2CB , PCDH10 , IGFBP7 and DAB2 .
+
+The List of 188 Differentially Expressed Genes.
+
+
+KEGG Pathway Enrichment Analysis for DEGs
+
+Based on the criterion of P < 0.05, the upregulated DEGs were
+significantly enriched in “glycosaminoglycan biosynthesis-chondroitin sulfate”
+and “arrhythmogenic right ventricular cardiomyopathy.” Meanwhile, the
+downregulated DEGs were significantly enriched in 12 pathways, such as “cell
+adhesion molecules” (CAMs), “pentose phosphate pathway,” “allograft rejection,”
+“type I diabetes mellitus” and “cell cycle.” The results of significantly
+enriched pathways are presented in Table 3 .
+
+KEGG Pathway Enrichment Analysis of Differentially-Expressed Genes.
+
+KEGG: Kyoto Encyclopedia of Genes and Genomes; Gene Counts: number of
+genes.
+
+
+GO Term Results for DEGs
+
+ Table 4 shows the
+top 5 GO terms. The upregulated DEGs were significantly enriched in 92
+biological process (BP) terms, 8 cellular component (CC) terms and 28 molecular
+function (MF) terms. The upregulated DEGs were significantly involved in
+“multicellular organismal metabolic process,” “limb morphogenesis” and
+“hemophilic cell adhesion.” These genes were mostly located on “golgi
+apparatus,” “growth hormone receptor complex” and “collagen type XI.” Most of
+these genes possess the molecular function of “insulin-like growth factor
+binding,” “integrase activity” and “α-tubulin binding.” Meanwhile, the
+downregulated DEGs were obviously enriched in 58 BP terms, 18 CC terms and 21 MF
+terms. The suppressed processes in OS included “Positive regulation of
+pathway-restricted SMAD protein phosphorylation,” “Peptidyl-tyrosine
+dephosphorylation” and “Regulation of mitosis.” The downregulated genes were
+mostly located on “Spindle,” “major histocompatibility complex (MHC) class I
+protein complex” and “striated muscle thin filament.” The primary functions of
+the downregulated DEGs were “WW domain binding,” “polo kinase kinase activity”
+and “chondroitin-glucuronate 5-epimerase activity.”
+
+TOP 5 Significantly Enriched BP, CC and MF for Differentially-Expressed
+Genes.
+
+GO: Gene Ontology; BP: biological process; CC: cellular component;
+MF: molecular function; Gene Counts: number of genes.
+
+
+PPI Network of DEGs
+
+ Figure 1 shows the PPI
+network, which included 84 interactions and 51 nodes. For this network, the
+connectivity degree of each node was calculated and Table 5 shows the nodes with a degree
+of ≥ 2. According to the degrees of the nodes, centromere-associated protein E
+(CENPE), protein regulator of cytokinesis 1 (PRC1), phosphotyrosine picked
+threonine-protein kinase (TTK) and polo-like kinase 4 (PLK4) were selected as
+the hub nodes, as they interacted with more than10 nodes, indicating their
+crucial roles in the PPI network.
+
+Protein-Protein Interaction (PPI) Network of Differentially Expressed
+Genes (DEGs) in Osteosarcoma. Red nodes represent upregulated DEGs;
+green nodes represent downregulated DEGs; gray lines stand for the
+interaction between 2 proteins. DEGs, differentially-expressed
+genes.
+
+Differentially-Expressed Genes With >2 Degrees of Connectivity in the
+Protein-Protein Interaction Network.
+
+A total of 14 pathways were enriched by DEGs in PPI network, such as
+“glycosaminoglycan biosynthesis-chondroitin sulfate” and “natural killer cell
+mediated cytotoxicity” ( Table 6 ). Furthermore, DEGs in the PPI network were also
+significantly enriched in 81 BP terms, 22 CC terms and 30 MF terms. The top 5 GO
+terms for each were listed in Table 7 . For the BP terms, the
+dramatically enriched processes were mainly related with the “regulation of
+mitosis” and “cell division.” For the CC terms, the significantly enriched
+components were mainly correlated with the “spindle” and “MHC class I protein
+complex.” For the MF terms, the significantly enriched functions were mainly
+associated with “microtubule motor activity” and “chondroitin-glucuronate
+5-epimerase activity.”
+
+KEGG Pathway Enrichment Analysis of Differentially-Expressed Genes in the
+Protein-Protein Interaction Network.
+
+KEGG, Kyoto Encyclopedia of Genes and Genomes; Gene Counts, number of
+genes.
+
+TOP 5 Significantly Enriched BP, CC and MF Terms for
+Differentially-Expressed Genes in the Protein-Protein Interaction
+Network.
+
+GO, Gene Ontology; BP, biological process; CC, cellular component;
+MF, molecular function; MHC, major histocompatibility complex; TAP,
+transporter associated with antigen processing; Gene counts, number
+of genes.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In the current study, 100 upregulated and 83 downregulated DEGs in OS compared with
+control groups were obtained. Pathway enrichment analysis revealed that the
+upregulated genes were significantly enriched in “Glycosaminoglycan
+biosynthesis-chondroitin sulfate” and “arrhythmogenic right ventricular
+cardiomyopathy” and the downregulated genes were significantly enriched in 12
+pathways, such as “CAMs,” and “pentose phosphate pathway.” GO-BP analysis suggested
+the upregulated genes were significantly enriched in 92 BP terms, such as
+“multicellular organismal metabolic process,” and the downregulated genes were
+significantly enriched “positive regulation of pathway-restricted SMAD protein
+phosphorylation process.” Furthermore, CENPE, PRC1, TTK and PLK4 were selected as
+the hub nodes in PPI network. DEGs in this network were significantly enriched in
+the “glycosaminoglycan biosynthesis-chondroitin sulfate” pathway, “regulation of
+mitosis process” and “microtubule motor activity” functions.
+
+Our results showed that the upregulated DEGs and the DEGs in PPI network were
+obviously enriched in the “glycosaminoglycan biosynthesis-chondroitin sulfate”
+pathway and GO-BP of “multicellular organismal metabolic process.” The downregulated
+DEGs were significantly enriched in “CAMs” pathway and GO-BP of “positive regulation
+of pathway-restricted SMAD protein phosphorylation process.” Glycosaminoglycans are
+part of proteoglycans and defects in glycosaminoglycan synthesis could lead bone diseases. 18 Besides, alteration of glycosaminoglycan in extracellular matrix was reported
+to be involved in cell proliferation and differentiation. 19 Previous evidence has shown that glycosaminoglycan biosynthesis-chondroitin
+sulfate has relevance with growth and proliferation in human OS cells of MG63 and
+Saos cells. 19 , 20 A previous study indicated that CAMs involved in the process of the
+metastasis of OS 21 and CAM1 was found to be a diagnostic marker for OS. 22 The SMAD signaling pathway plays role in some cancer cellular processes, e.g.
+proliferation and apoptosis. 23 In addition, the present results showed that the regulation of mitosis
+biology process and microtubule motor activity molecular function was significantly
+enriched in the PPI network. Studies indicated that microtubule motor activity
+involved in the mitosis of OS cells and could promote OS cell proliferation. 24 , 25 Therefore, our present study is in line with the previous study, suggesting
+that glycosaminoglycan biosynthesis-chondroitin sulfate pathway, regulation of
+mitosis biology process and microtubule motor activity may play critical roles in
+the progression of OS.
+
+In the PPI network, CENPE was the top node and interacted with 11 proteins, including
+PRC1. These 2 genes were closely associated with the biological process of cell
+division. CENPE is a mitotic motor whose inactivation disrupts spindle checkpoint function. 26 , 27 Furthermore, the incidences of spontaneous lymphomas and lung tumors are
+elevated in mice with reduced levels of CENPE, which agrees with its decreased level
+in OS group, suggesting that low CENPE level may facilitate the progression of OS. 28 In another bioinformatics-based study, CENPE was also identified as
+downregulated gene and a high-degree node in PPI network of osteosarcoma. 29 However, CENPE was reported to be upregulated in several types of cancer,
+including lung cancer, esophageal cancer and breast cancer. 30 - 32 It is reported that PRC1 plays key roles in the central spindle and
+cytokinesis formation. 33 A previous study testified that PRC1 may involve in growth of tumor cell and
+may be a possible target for anti-breast cancer drugs. 34 However, it has not been reported whether PRC1 could be a target for OS
+treatment. Therefore, we speculate that the interaction between PRC1 and CENPE may
+be critical for the progression of OS.
+
+The PPI network in the current study also showed that TTK was a hub node with a
+higher degree that directly interacted with PLK4. TTK plays significant roles in
+centrosome duplication, the proper execution of mitosis and tumor cell
+proliferation. In addition, significant overexpression of TTK is found in some human tumors. 35 Caldarelli et al showed that selective TTK inhibitors can inhibit U2OS cells
+proliferation by promoting mitotic override. 36 Moreover, TTK has been observed to affect the NF-κB signaling pathway, and
+NF-κB activation is common in carcinomas, mainly promoted by inflammatory cytokines
+within the tumor microenvironment. 37 PLK4, a member of the polo-like kinase family, is a critical regulator of
+centriolar duplication. 38  In vitro , evidence has demonstrated that the depletion of PLK4 with
+small interfering RNA results in the decrease of U2OS cells proliferation. 37 In addition, the overexpression of PLK4 contributes to amplification of
+centrosomes, while the deletion of it decreases the number of centriole in U2OS
+cells. Furthermore, PLK4 is directly targeted by NF-κB, which is absolutely critical
+for cell proliferation in U2OS cells. For OS, Tang et al. indicated that the
+combined use of NF-κB inhibitors and chemotherapy drugs can improve the in
+vitro and in vivo effects of the chemotherapy drugs. 4 Therefore, we considered that the interaction between TTK and PLK4 may
+involve in the centrosome duplication and the growth of OS cells through the
+activation of NF-κB pathway in OS.
+
+However, this study has some limitations. First, because of lacking OS patients, the
+expression levels of key genes including CENPE, PRC1, TTK, and PLK4 were not
+validated in OS tissue or serum samples. Second, the interactions among proteins as
+well as the molecular mechanism of these key proteins in regulating OS development
+warrant further investigation.
+
+In conclusion, “glycosaminoglycan biosynthesis-chondroitin sulfate” pathway,
+“microtubule motor activity,” and the “regulation of mitosis biology process” may be
+critical for OS progression. The interaction between PRC1 and CENPE may be important
+for OS progression. The interaction between PLK4 and TTK may be involved in the
+centrosome duplication and the growth of OS cells through NF-κB pathway activation
+in OS. CENPE, PRC1, TTK, and PLK4 may be biomarkers for the diagnosis and treatment
+of OS. However, further studies with a larger sample size are warranted to confirm
+these results.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

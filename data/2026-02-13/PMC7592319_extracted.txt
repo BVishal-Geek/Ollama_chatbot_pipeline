@@ -1,0 +1,137 @@
+================================================================================
+ARTICLE TITLE: Upregulation of miR-124-3p by Liver X Receptor Inhibits the Growth of Hepatocellular Carcinoma Cells Via Suppressing Cyclin D1 and CDK6
+PMCID: PMC7592319
+PMID: 33073697
+KEYWORDS: liver x receptor, mir-124-3p, liver cancer, cell growth, signal pathway
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+MiR-124-3p has been identified as a novel tumor suppressor and a potential therapeutic target in hepatocellular carcinoma (HCC) through regulating its target genes. However, the upstream regulatory mechanisms of mir-124-3p in HCC has not been fully understood. The transcription factor liver X receptor (LXR) plays a critical role in suppressing the proliferation of HCC cells, but it is unclear whether LXR is involved in the regulation of mir-124-3p. In the present study, we demonstrated that the expression of mir-124-3p was positively correlated with that of LXR in HCC, and the cell growth of HCC was significantly inhibited by LXR agonists. Moreover, activation of LXR with the agonists up-regulated the expression of mir-124-3p, and in turn down-regulated cyclin D1 and cyclin-dependent kinase 6 (CDK6) expression, which are the target genes of mir-124-3p. Mechanistically, miR-124-3p mediates LXR induced inhibition of HCC cell growth and down-regulation of cyclin D1 and CDK6 expression. In vivo experiments also confirmed that LXR induced miR-124-3p expression inhibited the growth of HCC xenograft tumors, as well as cyclin D1 and CDK6 expression. Our findings revealed that miR-124-3p is a novel target gene of LXR, and regulation of the miR-124-3p-cyclin D1/CDK6 pathway by LXR plays a crucial role in the proliferation of HCC cells. LXR-miR-124-3p-cyclin D1/CDK6 pathway may be a novel potential therapeutic target for HCC treatment.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+MicroRNAs (miRNAs) are ∼22-nucleotide-long noncoding RNAs that normally function by inhibiting translation or performing degradation of the target mRNA. 1 Given their participation in the carcinogenesis of liver cancer, they have been introduced as promising therapeutic targets for cancer treatments. 2 - 7 MicroRNA-124-3p has been identified as a tumor suppressor in multiple cancers including breast cancer, bladder cancer, gastric cancer, and ovarian cancer. 8 - 11 Especially, it was down-regulated in HCC and had a close correlation with both of the clinical stage and the prognosis of patients with HCC. 12 - 14 Moreover, previous studies have confirmed that miR-124-3p alleviates the progression of HCC by inhibiting the expression of its target genes, such as MAPK14, RELA, CDK2, CDK4, and SP1. 13 Therefore, up-regulating the expression of miR-124-3p should be beneficial in the treatment of HCC. However, the precise mechanism to regulate miR-124-3p expression in HCC is poorly understood. Fan A, et al reported that the expression of miR-130a-3p was up-regulated by liver X receptor (LXR) in HUVECs and attenuated endothelial barrier dysfunction. 15 However, it is unclear whether LXR can improve the expression of miR-124-3p.
+
+LXR is a member of the nuclear receptor family, it has 2 isoforms, named LXRα (NR1H3) and LXRβ (NR1H2). As a transcription factor, LXR carries out vital cellular functions in cholesterol transport and a variety of malignancies, which makes it become a highly druggable therapeutic target. 16 The synthetic agonists T0901317 and GW3965 can activate LXR, which are most widely used in research. 17 - 19 Recently, accumulating evidence demonstrated that LXR was a potential prognostic marker and exerted significant anti-tumor effect in HCC. 20 , 21 Furthermore, many genes related with cell proliferation (FOXM1, SOCS3), invasion, and migration in HCC are directly regulated by LXR. 22 - 24 However, limited knowledge is available concerning whether LXR affects the proliferation of HCC cells by modulating miR-124-3p, which needs to be studied further.
+
+Previously, our studies revealed that activation of LXR inhibited the proliferation of HCC cells by repressing cyclin D1 expression, 22 , 23 and it was reported that miR-124-3p was one of the direct regulators of CDK6 in medulloblastoma. 25 Interestingly, cyclin D1 and its binding partner CDK6 form the cyclin D1/CDK6 active complex, which promotes the progression of the cell cycle. 26 , 27 Moreover, cyclin D1 and CDK6 were found to be overexpressed in HCC tissues and accelerated the cell cycle progression of HCC cell lines. 28 , 29 Therefore, it is interesting to clarify whether miR-124-3p mediates LXR regulated cyclin D1 and CDK6 expression in HCC.
+
+In the present study, we for the first time demonstrated that the expression of miR-124-3p was positively correlated with that of LXR in HCC, and activation of LXR up-regulated the expression of miR-124-3p. Mechanism investigation revealed that miR-124-3p mediates LXR induced inhibition of HCC cell growth and down-regulation of cyclin D1 and CDK6 expression. Furthermore, LXR induced miR-124-3p expression inhibited the growth of HCC xenograft tumors, as well as cyclin D1 and CDK6 expression in vivo . These results indicate that the LXR-miR-124-3p-cyclin D1/CDK6 axis may be a novel pathway to suppress the proliferation of HCC cells, which may be a new potential target for HCC therapy.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Five pairs of HCC tissues and adjacent noncancerous specimens were obtained from the Department of Hepatobiliary Surgery, Daping Hospital, Army Medical University (Chongqing, China). Fresh identified cancer tissues were collected and frozen into liquid nitrogen immediately after taken out of the operating room. Then the extraction of total RNA and reverse transcription of cDNA were operated according to the manufacturer’s instructions.
+
+GW3965, T0901317, and dimethylsulfoxide (DMSO) were purchased from Sigma-Aldrich (St. Louis, MO, USA). Cell Counting Kit-8 (CCK-8) was from Dojindo (Kumamoto, Japan). Lipofectamine 2000, Optim-medium, M-MLV, Oligo dT, dNTPs, and DTT were purchased from Invitrogen (Carlsbad, CA, USA). All-in-One miRNA quantitative reverse transcriptase PCR Detection Kit was offered by GeneCopoeia (Guangzhou, China). TRIzol was from Invitrogen Life Technologies (Carlsbad, CA, USA). SYBR Green Mix was bought from Takara (Dalian, China). RIPA buffer and BCA kit were provided by Beyotime Biotechnology (Shanghai, China). The protease inhibitor cocktail was from Roche (Switzerland). Anti-CDK6 was purchased from Santa Cruz (Delaware, CA, USA), while Anti-Cyclin D1 was purchased from Abcam (Cambridge, UK) and Anti-α-tubulin was purchased from Zhongshanjinqiao (Beijing, China). Anti-miR-124-3p and anti-miR-NC mimics were synthesized by Sangon Biotech (Shanghai, China).
+
+Human HCC cell lines HepG2 and Hep3B were purchased from American Type Culture Collection (Manassas, VA, USA). The other HCC cell lines including Huh7, PLC, SMMC-7721, and relatively normal hepatic cell line L02 were purchased from China Center for Type Culture Collection (Wuhan, China). All cells were cultured in Dulbecco’s Modified Eagle’s medium (DMEM, Gibco Company, Grand Island, NY, USA) containing 10 % fetal bovine serum (FBS, Gibco Company, Grand Island, NY, USA), penicillin (100 U/mL) and streptomycin (100 mg/mL) from Beyotime Biotechnology (Shanghai, China) at 37 °C in 5% CO 2 incubator. Briefly, when HepG2 and SMMC-7721 cells were grown to 85 % confluence in 75 cm 2 flask, they were seeded in 6-well plates and 96-well plates overnight, then the anti-miR-124-3p or anti-miR-NC were transfected into cells using lipofectamine 2000 according to instructions. After 12 hours, the cells were treated with LXR agonists or vehicle control for 24 h, and then the corresponding assays were performed.
+
+HepG2 cells were seeded in 96-well plates and cultured overnight, then the cells were treated with LXR agonist T0901317, GW3965, and DMSO for 48 h, respectively. Where after, 10 μL/well of cell counting kit-8 (CCK-8) reagent was mixed into the plate and incubated at 37 °C for 30 min to 1 h. Then measured the absorbance at 450 nm (OD 450) of formazan dye by a microplate reader (Molecular Devices, Sunnyvale, CA, USA), which represented the survival of HCC cells. The OD 450 value of test group was normalized with that of the control group. Each experiment was done in triplicate.
+
+Total RNA was extracted according to the manufacturer’s instructions of Trizol (Invitrogen Life Technologies, CA, USA). After that, reverse transcriptase M-MLV was used to synthesize the first-strand cDNA. β-actin was used as an internal control for mRNA determination. The expression of miR-124-3p was examined with All-in-One miRNA quantitative reverse transcriptase PCR Detection Kit (GeneCopoeia, Guangzhou, China) under the guide of protocol and normalized with U6 small nuclear RNA (U6 snRNA). Relative expression was calculated with normalization to β-actin or U6 values by using the 2 −△△Ct method. Reactions were repeated minimum of 3 times.
+
+Cells and tissues were lysed by RIPA buffer and the concentration was measured with BCA kit. The denaturalized proteins were subsequently analyzed using SDS-PAGE and monoclonal antibody against cyclin D1 and CDK6. The α-tubulin was used as a loading control. The HRP labeled goat anti-rabbit and goat anti-mouse IgG were used as secondary antibodies. The enhanced chemiluminescence detection reagents (Pierce, Dallas, TX, USA) were used to detect the signal.
+
+After grown to 80-90% confluence, the HepG2 cells were transiently transfected using lipofectamine 3000 (Invitrogen Life Technologies, CA, USA) with siRNAs. Six hours later, the cells were cultured in DMEM containing 0.5% fetal bovine serum in the presence or absence of LXRs agonists for 36 h. Then the cells were harvested and real-time RT-PCR was performed.
+
+Those 4-week-old male nude mice were purchased from Laboratory Animal Center and cared under the guidelines and regulations of the Animal Care and Ethics Committee of Army Medical University (Chongqing, China). 2 × 10 6 HepG2 cells in 100 µL phosphate-buffered saline were subcutaneously injected into the right axilla of each nude mouse. The mice were randomly divided into test group and control group when palpable tumors formed in them. The test group was intraperitoneally injected GW3965 (30 mg/kg) every 2 days for 16 days-while the control group was treated with DMSO instead of LXR agonist GW3965. After that, all mice were sacrificed in a peaceful way and the xenograft tumors were harvested. The volume of tumor was calculated according to the formula of volume = width 2 × length × 1/2. The mRNA and protein levels of target genes in xenografts were measured by qRT-PCR and western blot separately.
+
+The Statistical Package for the Social Sciences (SPSS) 13.0 was used for assessment. Data are reported as mean ± SD. Student’s t -test was applied to analyze the significance of differences, and the significance is presented as * p < 0.05, ** p < 0.01, ***p < 0.001.
+
+
+HCC Tissues and Adjacent Noncancerous Specimens
+
+Five pairs of HCC tissues and adjacent noncancerous specimens were obtained from the Department of Hepatobiliary Surgery, Daping Hospital, Army Medical University (Chongqing, China). Fresh identified cancer tissues were collected and frozen into liquid nitrogen immediately after taken out of the operating room. Then the extraction of total RNA and reverse transcription of cDNA were operated according to the manufacturer’s instructions.
+
+
+Reagents
+
+GW3965, T0901317, and dimethylsulfoxide (DMSO) were purchased from Sigma-Aldrich (St. Louis, MO, USA). Cell Counting Kit-8 (CCK-8) was from Dojindo (Kumamoto, Japan). Lipofectamine 2000, Optim-medium, M-MLV, Oligo dT, dNTPs, and DTT were purchased from Invitrogen (Carlsbad, CA, USA). All-in-One miRNA quantitative reverse transcriptase PCR Detection Kit was offered by GeneCopoeia (Guangzhou, China). TRIzol was from Invitrogen Life Technologies (Carlsbad, CA, USA). SYBR Green Mix was bought from Takara (Dalian, China). RIPA buffer and BCA kit were provided by Beyotime Biotechnology (Shanghai, China). The protease inhibitor cocktail was from Roche (Switzerland). Anti-CDK6 was purchased from Santa Cruz (Delaware, CA, USA), while Anti-Cyclin D1 was purchased from Abcam (Cambridge, UK) and Anti-α-tubulin was purchased from Zhongshanjinqiao (Beijing, China). Anti-miR-124-3p and anti-miR-NC mimics were synthesized by Sangon Biotech (Shanghai, China).
+
+
+Cell Culture and Transfection
+
+Human HCC cell lines HepG2 and Hep3B were purchased from American Type Culture Collection (Manassas, VA, USA). The other HCC cell lines including Huh7, PLC, SMMC-7721, and relatively normal hepatic cell line L02 were purchased from China Center for Type Culture Collection (Wuhan, China). All cells were cultured in Dulbecco’s Modified Eagle’s medium (DMEM, Gibco Company, Grand Island, NY, USA) containing 10 % fetal bovine serum (FBS, Gibco Company, Grand Island, NY, USA), penicillin (100 U/mL) and streptomycin (100 mg/mL) from Beyotime Biotechnology (Shanghai, China) at 37 °C in 5% CO 2 incubator. Briefly, when HepG2 and SMMC-7721 cells were grown to 85 % confluence in 75 cm 2 flask, they were seeded in 6-well plates and 96-well plates overnight, then the anti-miR-124-3p or anti-miR-NC were transfected into cells using lipofectamine 2000 according to instructions. After 12 hours, the cells were treated with LXR agonists or vehicle control for 24 h, and then the corresponding assays were performed.
+
+
+CCK-8 Assay
+
+HepG2 cells were seeded in 96-well plates and cultured overnight, then the cells were treated with LXR agonist T0901317, GW3965, and DMSO for 48 h, respectively. Where after, 10 μL/well of cell counting kit-8 (CCK-8) reagent was mixed into the plate and incubated at 37 °C for 30 min to 1 h. Then measured the absorbance at 450 nm (OD 450) of formazan dye by a microplate reader (Molecular Devices, Sunnyvale, CA, USA), which represented the survival of HCC cells. The OD 450 value of test group was normalized with that of the control group. Each experiment was done in triplicate.
+
+
+Quantitative Real-Time PCR (qRT-PCR) Assay
+
+Total RNA was extracted according to the manufacturer’s instructions of Trizol (Invitrogen Life Technologies, CA, USA). After that, reverse transcriptase M-MLV was used to synthesize the first-strand cDNA. β-actin was used as an internal control for mRNA determination. The expression of miR-124-3p was examined with All-in-One miRNA quantitative reverse transcriptase PCR Detection Kit (GeneCopoeia, Guangzhou, China) under the guide of protocol and normalized with U6 small nuclear RNA (U6 snRNA). Relative expression was calculated with normalization to β-actin or U6 values by using the 2 −△△Ct method. Reactions were repeated minimum of 3 times.
+
+
+Western-Blot Assay
+
+Cells and tissues were lysed by RIPA buffer and the concentration was measured with BCA kit. The denaturalized proteins were subsequently analyzed using SDS-PAGE and monoclonal antibody against cyclin D1 and CDK6. The α-tubulin was used as a loading control. The HRP labeled goat anti-rabbit and goat anti-mouse IgG were used as secondary antibodies. The enhanced chemiluminescence detection reagents (Pierce, Dallas, TX, USA) were used to detect the signal.
+
+
+Knockdown of the Target Genes by siRNAs
+
+After grown to 80-90% confluence, the HepG2 cells were transiently transfected using lipofectamine 3000 (Invitrogen Life Technologies, CA, USA) with siRNAs. Six hours later, the cells were cultured in DMEM containing 0.5% fetal bovine serum in the presence or absence of LXRs agonists for 36 h. Then the cells were harvested and real-time RT-PCR was performed.
+
+
+In Vivo Experiment
+
+Those 4-week-old male nude mice were purchased from Laboratory Animal Center and cared under the guidelines and regulations of the Animal Care and Ethics Committee of Army Medical University (Chongqing, China). 2 × 10 6 HepG2 cells in 100 µL phosphate-buffered saline were subcutaneously injected into the right axilla of each nude mouse. The mice were randomly divided into test group and control group when palpable tumors formed in them. The test group was intraperitoneally injected GW3965 (30 mg/kg) every 2 days for 16 days-while the control group was treated with DMSO instead of LXR agonist GW3965. After that, all mice were sacrificed in a peaceful way and the xenograft tumors were harvested. The volume of tumor was calculated according to the formula of volume = width 2 × length × 1/2. The mRNA and protein levels of target genes in xenografts were measured by qRT-PCR and western blot separately.
+
+
+Statistical Analysis
+
+The Statistical Package for the Social Sciences (SPSS) 13.0 was used for assessment. Data are reported as mean ± SD. Student’s t -test was applied to analyze the significance of differences, and the significance is presented as * p < 0.05, ** p < 0.01, ***p < 0.001.
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+HCC is one of the most common causes of cancer-related death worldwide, with less accurate markers for early diagnosis and efficient treatment. Nucleic acid-based drugs such as miRNAs may have promising therapeutic potential for HCC treatment. MicroRNAs are pivotal participants and regulators in the development and progression of HCC. 31 In this study, we focused on miR-124-3p which was a tumor suppressor in HCC and its decrease resulted in a more aggressive and poor prognostic phenotype of patients with HCC. 32 Interestingly, we found that activation of LXR with its agonists significantly up-regulated the expression of miR-124-3p, and miR-124-3p strongly affected the function of LXR against HCC in return.
+
+In most circumstances, LXR binds with retinoic X receptor (RXR) to form heterodimer after activation, and then the heterodimer LXR/RXR binds to specific DNA sequences called LXR response elements (LXREs) and regulates gene expression. 33 In the present study, we had tried to explore the mechanism by which LXR up-regulated miR-124-3p expression. Unfortunately, online analysis ( https://www.nubiscan.unibas.ch/ ) predicted that there were no potential LXREs in the miR-124-3p gene promoter region. Therefore, miR-124-3p might not be a direct target of LXR. Since several reports revealed that long non-coding RNAs, such as NEAT1 and OGFRP1, could directly bind to miR-124-3p to inhibit its function in HCC, we should determine whether LXR modulates miR-124-3p through long non-coding RNAs in our further study. 34 , 35 
+
+In the present study, cyclin D1 and CDK6 were found to be the candidate target genes of miR-124-3p in HCC and participated in the anti-HCC mechanism of “LXR-miR-124-3p” signal pathway. Moreover, It was reported that cyclin D1 and CDK6 were direct targets of miR-206 which was also a tumor suppressor in HCC. Therefore further study is needed to clarify whether miR-206 is involved in the “LXR-cyclin D1/CDK6” signal pathway in HCC. 29 Interestingly, the up-regulation of cyclin D1 and CDK6 accelerated cell cycle progression and cell proliferation was faster than that of CDK6 alone. 36 Therefore, we were excited to find that the elevated miR-124-3p decreased cyclin D1 and CDK6 expression, which meant we revealed a more effective regulator to control cell growth than those controlling only one of these 2 genes. However, further study is still needed to clarify whether miR-124-3p affects the formation of cyclin D1/CDK6 complex.
+
+Growing evidence revealed that miR-124-3p up-regulation decreased the expression of both cyclin D1 and CDK6 in tumors such as malignant glioma and ovarian cancer, but the underlying mechanism by which miR-124-3p regulates cyclin D1 and CDK6 is unknown. We predicted the potential targets of miR-124-3p in miRbase, Targetscan, and PicTar databases and found that CDK6 has been reported as a direct target of miR-124-3p. 25 However, there is no evidence showed that miR-124-3p can directly bind to cyclin D1. Recent studies showed that miR-124-3p repressed cyclin D1 expression by targeting several genes such as Fra-2, EZH2, AKT3, and several signaling pathways such as Notch pathway, JAK-STAT3, and Wnt/β-catenin. 37 - 42 These studies indicated that even though miR-124-3p indirectly inhibited cyclin D1 expression, it was an important regulator of cyclin D1 via multiple key signaling pathways.
+
+Recently, some articles provided compelling histologic and biologic evidence that HepG2 originated as a hepatoblastoma and not a hepatocellular carcinoma. However, it was also reported that it was referred to as hepatocarcinoma or hepatoma more than 7000 times and as hepatoblastoma less than 500 times. 43 In our study, we referred to several high-quality articles which use HepG2 as HCC cell line and to make in vivo tumor formation. 44 - 46 Since we obtained the similar in vitro results via using HepG2 and SMMC-7721, we used only HepG2 to form xenograft tumors. Certainly, the results would be more consummate if both of HepG2 and SMMC-7721 were use to do the xenograft experiments. Whatever, HepG2 should be carefully used for the HCC studies in the future.
+
+In conclusion, our present study demonstrated that activation of LXR promoted miR-124-3p expression, which significantly inhibited the growth of HCC cells via suppressing cyclin D1 and CDK6 expression. These findings provide new insights into the mechanisms of HCC development, which may be a novel potential therapeutic target for HCC therapy.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

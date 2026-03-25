@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Developmental Exposure to PCB153 (2,2’,4,4’,5,5’-Hexachlorobiphenyl) Alters Circadian Rhythms and the Expression of Clock and Metabolic Genes
+PMCID: PMC6944218
+PMID: 31621872
+KEYWORDS: zebrafish, rna sequencing, circadian behavior, pcb153
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Polychlorinated biphenyls (PCBs) are highly persistent and ubiquitously distributed environmental pollutants. Based on their chemical structure, PCBs are classified into non- ortho -substituted and ortho -substituted congeners. Non- ortho -substituted PCBs are structurally similar to dioxin and their toxic effects and mode of action are well-established. In contrast, very little is known about the effects of ortho -substituted PCBs, particularly, during early development. The objective of this study is to investigate the effects of exposure to an environmentally prominent ortho -substituted PCB (2,2’,4,4’,5,5’-hexachlorobiphenyl; PCB153) on zebrafish embryos. We exposed zebrafish embryos to 3 different concentrations of PCB153 starting from 4 to 120 hours post-fertilization (hpf). We quantified gross morphological changes, behavioral phenotypes, gene expression changes, and circadian behavior in the larvae. There were no developmental defects during the exposure period, but starting at 7 dpf, we observed spinal deformity in the 10 μM PCB153 treated group. A total of 633, 2227, and 3378 differentially expressed genes were observed in 0.1 μM (0.036 μg/ml), 1 μM (0.36 μg/ml), and 10 μM (3.6 μg/ml) PCB153-treated embryos, respectively. Of these, 301 genes were common to all treatment groups. KEGG pathway analysis revealed enrichment of genes related to circadian rhythm, FoxO signaling, and insulin resistance pathways. Behavioral analysis revealed that PCB153 exposure significantly alters circadian behavior. Disruption of circadian rhythms has been associated with the development of metabolic and neurological diseases. Thus, understanding the mechanisms of action of environmental chemicals in disrupting metabolism and other physiological processes is essential.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

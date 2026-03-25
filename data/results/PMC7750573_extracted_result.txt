@@ -1,0 +1,19 @@
+Source: PMC7750573_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "A Novel Circulating MiRNA-Based Signature for the Diagnosis and Prognosis Prediction of Early-Stage Cervical Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "The study enrolled 112 patients diagnosed with early-stage CC and 45 patients confirmed with CIN.",
+  "N_E": 1,
+  "N_E_reason": "The study included 112 patients diagnosed with early-stage CC.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

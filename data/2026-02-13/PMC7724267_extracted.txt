@@ -1,0 +1,820 @@
+================================================================================
+ARTICLE TITLE: Role of COL3A1 and POSTN on Pathologic Stages of Esophageal
+Cancer
+PMCID: PMC7724267
+PMID: 33280513
+KEYWORDS: esophageal, cancer, bioinformatics, differentially expressed genes, hub gene
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Esophageal cancer (EC) is a primary malignant tumor originating from the
+esophageal of the epithelium. Surgical resection is a potential treatment
+for EC, but this is only appropriate for patients who have locally
+resectable lesions suitable for surgery. However, most patients with EC are
+at a late stage when diagnosed. Therefore, there is an urgent need to
+further explore the pathogenesis of EC to enable early diagnosis and
+treatment.
+
+Methods::
+Our study downloaded 2 expression spectrum datasets (GSE92396 and GSE100942)
+in the Gene Expression Omnibus (GEO) database. GEO2 R was used to identify
+the Differentially expressed genes (DEGs) between the samples of EC and
+control. Using the DAVID tool to make the Functional enrichment analysis.
+Constructing A protein–protein interaction (PPI) network. Identifying the
+Hub genes. The impact of hub gene expression on overall survival and their
+expression based on immunohistochemistry were analyzed. Associated microRNAs
+were also predicted.
+
+Results::
+There were 36 common DEGs identified. The analysis of GO and KEGG results
+shown that the variations were predominantly concentrated in the
+extracellular matrix (ECM), ECM organization, DNA binding, platelet
+activation, and ECM-receptor interactions. COL3A1 and POSTN had high
+expression in EC tissues which was compared with their expression in healthy
+tissues. Analysis of pathologic stages showed that when COL3A1 and POSTN
+were highly expressed, the stage of the pathologic of EC patients was
+relatively high (P < 0.005).
+
+Conclusions::
+COL3A1 and POSTN may play an important role in the advancement and occurrence
+of EC. These genes could provide some novel ideas and basis for the
+diagnosis and targeted treatment of EC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Esophageal cancer (EC) ranks seventh among malignant tumors in incidence and
+mortality. Its epidemiology has the following characteristics: it is regionally
+distributed, there is a higher incidence among men than women (men cases account for
+about 70%), and middle-aged and elderly people are most susceptible. 1 The incidence of EC among men in East Asia is the highest in the world, with
+incidence in Mongolia and China ranking among the top 5 countries around the world. 2 The occurrence of EC is closely associated with living conditions, dietary
+habits, carcinogens, and the genetic susceptibility of patients. Symptoms in
+patients with early-stage EC are often atypical and can easily be overlooked. 3 Patients with advanced-stage EC may experience symptoms such as progressive
+dysphagia, gastroesophageal reflux, and other symptoms. Insufficient food intake in
+patients with EC can lead to significant chronic dehydration, malnutrition, wasting,
+and cachexia. 4 By the time the EC patients were diagnosed, they are often reach the advanced
+stage. The 5-year survival rate can’t account about 10%. Surgical resection rates of
+EC can reach 80%–90%, and EC can be cured by early resection. Even if the surgical
+resection rate were to be improved, the long-term outlook remains unsatisfactory.
+Therefore, it is of great clinical and market application value to explore the
+pathogenesis of EC through finding the potential diagnostic and therapeutic targets,
+making early detection and diagnosis.
+
+Bioinformatics, a new and interdisciplinary field, combines life sciences with
+computer science. It mainly involves in the collection, storage, processing,
+dissemination, analysis, and interpretation of biological information. The
+combination of biological and informatics technologies enables a good deal of
+complex data of biology to be processed for analysis. Microarray data analysis was
+used widely to explore genetic relevance 5 , 6 in studies of tumors and other diseases. Microarray data analysis can
+simultaneously capture huge quantities of the information of gene expression and
+then explore genomic changes related to the generation and advancement of diseases.
+Numerous studies have been performed and many scholars 7 , 8 have used bioinformatics to analyze differentially expressed genes (DEGs) in
+tumor progression. The research of DEGs has also provided a theoretical basis for
+early diagnosis and treatment.
+
+In our study, using bioinformatics techniques to find gene sequencing data from
+patients with EC and a comparison set of data from healthy people stored in Gene
+Expression Omnibus (GEO). Two high-quality gene datasets were analyzed to mine DEGs
+associated with EC and corresponding microRNAs. Using Gene Ontology (GO) and Kyoto
+Encyclopedia of Genes and Genomes (KEGG) to analyze the DEGs. Then, constructing a
+protein–protein interaction (PPI) network and the important modules were screened.
+Clinical samples from patients with EC were used to verify the screened genes and
+microRNAs. These genes and microRNAs will improve our comprehension of the
+underlying mechanisms of EC. They also can provide a basis for developing targeted
+therapies.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+Differential expression analysis in the Gene Expression Profiling Interactive
+Analysis tool (GEPIA, http://gepia.cancer-pku.cn/ ) 9 enables users to apply customized methods and thresholds of statistics to
+a given dataset and to obtain DEGs dynamically and the distribution of
+chromosomal. Here, ANOVA was selected as the method for differential analysis.
+The statistical thresholds were |log2FC| >1, and q-value <0.01.
+
+An open-source, high-throughput genomic database named GEO ( http://www.ncbi.nlm.nih.gov/geo ) 10 that contains microarrays, gene expression data, and chips. We obtained 2
+expression spectrum datasets (GSE92396 and GSE100942) in the GEO database. The
+GSE92396 dataset comprises 12 esophageal cancer tissues and 10 healthy
+esophageal tissues. The GSE100942 dataset comprises 4 esophageal carcinoma
+tissues and 4 healthy esophageal tissues. In the basis of the information of the
+annotation on the platform, converting the whole probe numbers to gene
+symbols.
+
+Pearson’s correlation test was made to prove the repeatability of data. R, 11 as an open-source language and environment, was used to made statistical
+calculations and mapping. Using R language to make Pearson’s correlation test
+and heat-mapping.
+
+GEO2 R ( http://www.ncbi.nlm.nih.gov/geo/geo2r ) 12 is an online analysis system of data in the GEO. The advantages of GEO2 R
+are that it is an online tool, which is easy and efficient to operate. GEO2 R
+can perform a command to compare gene expression profiles between groups.
+Identification of DEGs between EC and control groups was carried out by it. In
+general, when a probe set has a corresponding gene symbol, the probe is
+considered valuable and will be retained. Statistically significant measures are
+a P-value <0.01 and a fold-change (FC) >1. There has another open-source
+tool for drawing volcano maps named SangerBox ( https://shengxin.ren ). Draw the
+Venn diagrams with an online Venn diagram tool ( http://bioinformatics.psb.ugent.be/webtools/Venn/ ). The tool
+could visualize common DEGs shared between GSE92396 and GSE100942.
+
+There has a network named the Search Tool for the Retrieval of Interacting Genes
+(STRING; http://string-db.org ) (version 10.5) 13 that can be used to predict and track PPIs. Introducing DEGs into the
+tool enables intermolecular network analysis. The analysis of interactions in
+the different proteins can provide a novel idea for us of the mechanisms of the
+generation or advancement of tumors, such as EC. In this research, using STRING
+to obtain a PPI network with DEGs. The minimum requirement for interaction score
+is that medium confidence > 0.4. Cytoscape (version 3.6.1) is open-source
+software for visualization that can be used to visualize PPI networks. 14 Therefore, using STRING to construct a PPI network, which was then
+visualized through Cytoscape (version 2.8). 15 
+
+There has one bioinformatics database which is named DAVID ( https://david.ncifcrf.gov/home.jsp ) (version 6.8) integrating
+biological data and analytical tools. It can help users obtain biological
+information through providing systematic and comprehensive annotation
+information of the functions biology for massive gene or protein lists. 16 The Kyoto Encyclopedia of Genes and Genomes (KEGG) ( https://www.kegg.jp/ ) is used to understand systems of biology
+and advanced functions, integrating a large amount of utility database
+resources. Gene ontology (GO) contains 3 aspects: cell composition, molecular
+function and biological process, 17 that is used in bioinformatics widely. Using DAVID online tool to make
+the analysis of the GO and information of pathway enrichment of DEGs. P-value
+<0.05 was considered statistically significant.
+
+Metascape ( http://metascape.org/gp/index.html#/main/step1 ) 18 is an excellent tool in the annotation of analysis for gene functions. It
+can give a hand for researchers to make the batch analysis for genes and
+proteins, which help us understand the functions of genes or proteins. In the
+current study, we finished the function and pathway enrichment analyses with
+Metascape.
+
+Based on topological principles, the Molecular Complex Detection (MCODE) (version
+1.5.1) can mine regions that were coupled closely from PPI networks. First,
+Cytoscape software is used to plot the PPI network. Second, the most essential
+modules in the PPI network graph were identified by MCODE. The criteria of the
+MCODE analysis were that the node score cut-off = 0.2, degree cut-off = 2,
+maximum depth = 100, MCODE score >5, and k-score = 2.
+
+According to the GSE92396 and GSE100942 datasets, heatmaps was used to make the
+Clustering analysis of the expression levels of the hub genes. Using Pearson’s
+correlation test in order to make the correlation analysis between the hub
+genes. Heat maps to show associations among the hub genes were plotted by R
+language.
+
+Analyzing the influence of hub gene expression on the overall survival and
+pathologic stage through the GEPIA.
+
+The Comparative Toxicogenomics Database (CTD) 19 is a public database. It plays an important role in predicting how
+environmental factors may influence human health. This database help us identify
+chemicals which may influence these hub genes and potentially lead to new
+discoveries.
+
+The Human Protein Atlas can be used to analyze the all proteins about their
+distribution and relative abundance in healthy human cells and tissues and the
+subcellular localization of each protein can be determined. The Human Protein
+Atlas was employed to validate the change of the patterns of gene expression at
+the level of the protein in healthy esophageal tissue.
+
+Predicting microRNAs relative to hub genes via Targetscan, which shows potential
+correlation among genes and microRNAs.
+
+Hazard ratios (HR) of clinicopathologic factors for overall survival was
+calculated via Multivariate Cox regression analysis. Conducting the statistical
+analyses through SPSS software, version 21.0 (IBM Corp., Armonk, NY, USA). A
+p-value < 0.05 was considered to be statistically significant.
+
+The PrognoScan database ( http://dna00.bio.kyutech.ac.jp/PrognoScan/index.html ) is an
+online analysis tool for determining overall survival rates, which will give a
+clear of esophageal cancer. We performed a survival analysis about COL3A1 in EC
+patients with the PrognoScan database.
+
+The GEPIA was used to perform pan-cancer analyses for COL3A1 and POSTN, based on
+ESCA datasets. A total of 33 types of cancer were selected. Using GEPIA to
+calculate overall survival according to the expression of COL3A1 and POSTN. The
+Cox proportional hazard ratio and 95% confidence interval information were
+contained in overall survival plot.
+
+
+Differential Expression Analysis of the Whole Chromosome
+
+Differential expression analysis in the Gene Expression Profiling Interactive
+Analysis tool (GEPIA, http://gepia.cancer-pku.cn/ ) 9 enables users to apply customized methods and thresholds of statistics to
+a given dataset and to obtain DEGs dynamically and the distribution of
+chromosomal. Here, ANOVA was selected as the method for differential analysis.
+The statistical thresholds were |log2FC| >1, and q-value <0.01.
+
+
+Access to Public Data
+
+An open-source, high-throughput genomic database named GEO ( http://www.ncbi.nlm.nih.gov/geo ) 10 that contains microarrays, gene expression data, and chips. We obtained 2
+expression spectrum datasets (GSE92396 and GSE100942) in the GEO database. The
+GSE92396 dataset comprises 12 esophageal cancer tissues and 10 healthy
+esophageal tissues. The GSE100942 dataset comprises 4 esophageal carcinoma
+tissues and 4 healthy esophageal tissues. In the basis of the information of the
+annotation on the platform, converting the whole probe numbers to gene
+symbols.
+
+
+Repeatability Tests for the Data of Intra-Group
+
+Pearson’s correlation test was made to prove the repeatability of data. R, 11 as an open-source language and environment, was used to made statistical
+calculations and mapping. Using R language to make Pearson’s correlation test
+and heat-mapping.
+
+
+Screening of DEGs via GEO2 R
+
+GEO2 R ( http://www.ncbi.nlm.nih.gov/geo/geo2r ) 12 is an online analysis system of data in the GEO. The advantages of GEO2 R
+are that it is an online tool, which is easy and efficient to operate. GEO2 R
+can perform a command to compare gene expression profiles between groups.
+Identification of DEGs between EC and control groups was carried out by it. In
+general, when a probe set has a corresponding gene symbol, the probe is
+considered valuable and will be retained. Statistically significant measures are
+a P-value <0.01 and a fold-change (FC) >1. There has another open-source
+tool for drawing volcano maps named SangerBox ( https://shengxin.ren ). Draw the
+Venn diagrams with an online Venn diagram tool ( http://bioinformatics.psb.ugent.be/webtools/Venn/ ). The tool
+could visualize common DEGs shared between GSE92396 and GSE100942.
+
+
+Protein–Protein Interaction (PPI) Network
+
+There has a network named the Search Tool for the Retrieval of Interacting Genes
+(STRING; http://string-db.org ) (version 10.5) 13 that can be used to predict and track PPIs. Introducing DEGs into the
+tool enables intermolecular network analysis. The analysis of interactions in
+the different proteins can provide a novel idea for us of the mechanisms of the
+generation or advancement of tumors, such as EC. In this research, using STRING
+to obtain a PPI network with DEGs. The minimum requirement for interaction score
+is that medium confidence > 0.4. Cytoscape (version 3.6.1) is open-source
+software for visualization that can be used to visualize PPI networks. 14 Therefore, using STRING to construct a PPI network, which was then
+visualized through Cytoscape (version 2.8). 15 
+
+
+Functional Annotation of DEGs via GO and KEGG Analysis
+
+There has one bioinformatics database which is named DAVID ( https://david.ncifcrf.gov/home.jsp ) (version 6.8) integrating
+biological data and analytical tools. It can help users obtain biological
+information through providing systematic and comprehensive annotation
+information of the functions biology for massive gene or protein lists. 16 The Kyoto Encyclopedia of Genes and Genomes (KEGG) ( https://www.kegg.jp/ ) is used to understand systems of biology
+and advanced functions, integrating a large amount of utility database
+resources. Gene ontology (GO) contains 3 aspects: cell composition, molecular
+function and biological process, 17 that is used in bioinformatics widely. Using DAVID online tool to make
+the analysis of the GO and information of pathway enrichment of DEGs. P-value
+<0.05 was considered statistically significant.
+
+Metascape ( http://metascape.org/gp/index.html#/main/step1 ) 18 is an excellent tool in the annotation of analysis for gene functions. It
+can give a hand for researchers to make the batch analysis for genes and
+proteins, which help us understand the functions of genes or proteins. In the
+current study, we finished the function and pathway enrichment analyses with
+Metascape.
+
+
+Identification of Hub Genes
+
+Based on topological principles, the Molecular Complex Detection (MCODE) (version
+1.5.1) can mine regions that were coupled closely from PPI networks. First,
+Cytoscape software is used to plot the PPI network. Second, the most essential
+modules in the PPI network graph were identified by MCODE. The criteria of the
+MCODE analysis were that the node score cut-off = 0.2, degree cut-off = 2,
+maximum depth = 100, MCODE score >5, and k-score = 2.
+
+
+Expression and Correlation Analysis
+
+According to the GSE92396 and GSE100942 datasets, heatmaps was used to make the
+Clustering analysis of the expression levels of the hub genes. Using Pearson’s
+correlation test in order to make the correlation analysis between the hub
+genes. Heat maps to show associations among the hub genes were plotted by R
+language.
+
+
+Overall Survival and Pathologic Stage Analysis
+
+Analyzing the influence of hub gene expression on the overall survival and
+pathologic stage through the GEPIA.
+
+
+Identification of Chemicals Related to Hub Genes
+
+The Comparative Toxicogenomics Database (CTD) 19 is a public database. It plays an important role in predicting how
+environmental factors may influence human health. This database help us identify
+chemicals which may influence these hub genes and potentially lead to new
+discoveries.
+
+
+Expression of Hub Genes in the Basis of Immunohistochemistry
+
+The Human Protein Atlas can be used to analyze the all proteins about their
+distribution and relative abundance in healthy human cells and tissues and the
+subcellular localization of each protein can be determined. The Human Protein
+Atlas was employed to validate the change of the patterns of gene expression at
+the level of the protein in healthy esophageal tissue.
+
+
+Prediction of microRNAs Associated With Hub Genes
+
+Predicting microRNAs relative to hub genes via Targetscan, which shows potential
+correlation among genes and microRNAs.
+
+
+Multivariate Cox Regression Analysis Based on the TCGA Dataset
+
+Hazard ratios (HR) of clinicopathologic factors for overall survival was
+calculated via Multivariate Cox regression analysis. Conducting the statistical
+analyses through SPSS software, version 21.0 (IBM Corp., Armonk, NY, USA). A
+p-value < 0.05 was considered to be statistically significant.
+
+
+Survival Analysis of COL3A1 for EC Patients in the PrognoScan
+Database
+
+The PrognoScan database ( http://dna00.bio.kyutech.ac.jp/PrognoScan/index.html ) is an
+online analysis tool for determining overall survival rates, which will give a
+clear of esophageal cancer. We performed a survival analysis about COL3A1 in EC
+patients with the PrognoScan database.
+
+
+Pan-Cancer Analysis of COL3A1 and POSTN Based on ESCA Datasets
+
+The GEPIA was used to perform pan-cancer analyses for COL3A1 and POSTN, based on
+ESCA datasets. A total of 33 types of cancer were selected. Using GEPIA to
+calculate overall survival according to the expression of COL3A1 and POSTN. The
+Cox proportional hazard ratio and 95% confidence interval information were
+contained in overall survival plot.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+There were many DEGs located on the whole chromosomes between EC and control
+samples ( Figure 1A ).
+
+A, Differentially expressed genes (DEGs) located on chromosomes among
+esophageal cancer (EC) and control esophageal tissue. B, High
+repeatability of data in the GSE92396 dataset via Pearson’s correlation
+test. C, High repeatability of data in the GSE100942 dataset via
+Pearson’s correlation test.
+
+Strong correlations existed between the samples in EC group. At the same time,
+strong correlations existed between the samples in control group in the GSE92396
+dataset, as confirmed by Pearson’s correlation test ( Figure 1B ). Similarly, the
+reproducibility of data in the GSE100942 was good ( Figure 1C ).
+
+After the results of microarray were standardized, 1,540 DEGs in GSE92396 ( Figure 2A ) and 345 DEGs in
+GSE100942 ( Figure 2B )
+were identified. In the 2 datasets, the Venn diagram showed 36 genes that were
+overlapped ( Figure 2C ).
+The PPI network is also presented to show correlations among the common DEGs
+( Figure 2D ).
+
+Identification of DEGs in esophageal cancer and the protein–protein
+interaction (PPI) network. A, Volcano plot showing the DEGs in GSE92396
+dataset. B, Volcano plot showing the DEGs in GSE100942 dataset. C, The
+Venn diagram shows that 36 DEGs were simultaneously present. D, The
+protein–protein interaction (PPI) network of the common DEGs.
+
+Using DAVID to carry out functional and pathway enrichment analyses to make the
+analysis of biological classification of DEGs. Our study has some finding from
+the results through GO analysis that variation in biological process (BP) DEGs
+were prominently concentrated in ECM organization, cell–substrate adhesion
+regulation, intracellular signaling cascades, collagen biosynthetic processes,
+and cell cycle processes ( Figure 3A ). There have some variations in cell component (CC) of
+DEGs that were mainly concentrated in ECM, actin cytoskeleton, proteinaceous
+ECM, extracellular region parts, and fibrillar collagen ( Figure 3B ). In addition, there are some
+changes in molecular function (MF) of DEGs were mainly concentrated in
+single-stranded DNA binding, growth factor binding, platelet-derived growth
+factor binding, cytoskeletal protein binding, actin binding, and
+structure-specific DNA binding ( Figure 3C ). The whole DEGs were mainly concentrated in focal
+adhesion, platelet activation, and ECM–receptor interactions shown by the KEGG
+pathway analysis ( Figure
+3D ).
+
+Common DEGs enrichment analysis. (A) Biological processes (BP) analysis,
+(B) cellular components (CC) analysis, (C) molecular function (MF)
+analysis, (D) KEGG analysis. (E) Heatmap of enriched terms across
+inputted lists of DEG, colored with p-values, through Metascape. (F) An
+enriched terms network colored with cluster identity. The nodes that
+have the uniform cluster identity meaning they are typically approximate
+to mutual. (G) An enriched terms network colored with p-values. More
+genes contained by the terms; more significant p-value will have.
+
+We found that the DEGs in EC and control tissues were mainly concentrated in
+cell–matrix adhesion, supramolecular fiber organization, cell–matrix adhesion
+regulation, positive regulation of cytokine secretion, organelle fission,
+developmental maturation, cellular responses to heat, regulation of
+neurotransmitter transport, SUMO E3 ligases SUMOylate target proteins, the Notch
+signaling pathway, regulation of organelle assembly, and renal system
+development after the functional enrichment analysis that made by Metascape (P
+< 0.05, Figure 3A, B, and
+C ).
+
+Finally, the hub genes contain 5 genes (THBS1, NID1, COL3A1, POSTN, and COL1A1).
+The names, abbreviations, and functions of these hub genes are shown in Table 1 .
+
+Summary of 5 Hub Genes Functions.
+
+Making a comparison between the samples in the EC group and control samples in
+the GSE92396 dataset, all hub genes were expressed higher in the former what was
+shown by one heat map ( Figure
+4B ). The expression of COL1A1, THBS1, and NID1 was lower in EC
+samples than in the control samples in the GSE100942 dataset also shown by
+another heat map. However, COL3A1, and POSTN were expressed higher in samples of
+EC ( Figure 4C ).
+
+Using Pearson’s correlation test, the hub genes in the GSE92396 ( Figure 4D ) and GSE100942
+( Figure 4E ) datasets
+were correlated strongly shown by these heat maps.
+
+Hub gene network, analysis of expression and correlation. A, Five hub
+genes were identified (THBS1, NID1, COL3A1, POSTN, and COL1A1). B, A
+heat map showing that the whole hub genes were expressed higher in EC
+samples by comparing with the control samples in GSE92396 dataset. C, A
+heat map showing the whole hub genes expression in GSE100942 dataset. D,
+Associations in hub genes of the GSE92396 dataset showing by Heat maps.
+E, Associations in hub genes of the GSE100942 dataset showing by heat
+maps.
+
+Our study carried out the overall survival analysis of hub genes via a
+Kaplan–Meier curve. EC Patients that were expressed lowly of THBS1 showed worse
+overall survival times (P < 0.05, Figure 5A ). The times of overall survival
+of EC patients who were expressed highly levels of NID1 was poorer compared with
+those who had low NID1 expression levels (P < 0.05, Figure 5B ). Patients with EC who had low
+expression level of COL3A1 showed worse overall survival times (P < 0.05, Figure 5C ). The
+overall survival times of EC patients who were expressed POSTN highly was poorer
+than those who had low expression levels (P < 0.05, Figure 5D ). EC patients who had low
+expression of COL1A1 showed worse overall survival times (P < 0.05, Figure 5E ).
+
+The relationship between the overall survival and the hub genes. (A)
+THBS1, (B) NID1, (C) COL3A1, (D) POSTN, (E) COL1A1.
+
+Subsequently, we found that the THBS1 ( Figure 6A ) and NID1 ( Figure 6B ) expression were not associated
+with the stage of the pathologic of EC, while the expression of COL3A1 ( Figure 6C ), POSTN ( Figure 6D ), and COL1A1
+( Figure 6E ) were
+significantly positively related with pathologic stage in patients with EC (P
+< 0.05).
+
+Effect of the hub genes expression on the pathologic stage of patients
+with EC. (A) THBS1, (B) NID1, (C) COL3A1, (D) POSTN, (E) COL1A1.
+
+Esophageal neoplasms was targeted by the hub genes shown by the CTD database; the
+results are shown in Figure
+7A-E .
+
+Relationships of hub genes to tumors or metastasis on the basis of the
+CTD database. (A) THBS1, (B) NID1, (C) COL3A1, (D) POSTN, (E)
+COL1A1.
+
+These tissue samples are from healthy esophageal tissues in the Human Protein
+Atlas. The expression level of THBS1, NID1, COL3A1, POSTN, and COL1A1 were
+investigated via immumohistochemical staining ( Figure 8A-E ).
+
+Verification of the hub genes on a level of translation in healthy
+esophageal tissues through the Human Protein Atlas database. (A) THBS1,
+(B) NID1, (C) COL3A1, (D) POSTN, (E) COL1A1.
+
+In order to figure out the mechanism and regulatory network of the hub genes, we
+hypothesized that the microRNAs related to hub genes for miRNAs. Table 2 shows the
+microRNAs connected with the hub genes.
+
+Summary of miRNAs That Regulate the Hub Genes.
+
+Based on the multivariate Cox regression analysis, age had no effect on overall
+survival times (HR = 1.187, P = 0.453). Smoking and alcohol also had no effect
+on times of overall survival (HR = 1.104, P = 0.675 and HR = 1.133, P = 0.613,
+respectively). However, there was a prominent association between overall
+survival times and pathologic stage (HR = 2.307, P < 0.001), the expression
+of COL3A1 (HR = 0.159, P < 0.001), and the expression of POSTN (HR = 2.902, P
+= 0.002) ( Table
+3 ).
+
+Correlative Clinicopathologic Factors and Their Impact on Overall
+Survival (OS) According to Multivariate Cox Proportional Regression
+Analysis.
+
+HR, hazard ratio; 95% CI, 95% confidence interval. * P < 0.05.
+
+Based on the PrognoScan database, the overall survival times of EC patients who
+expressed COL3A1 lowly is worse (P < 0.02, HR = 1.3, Figure 9 ).
+
+Effect of COL3A1 on the survival analysis for patients with EC in the
+PrognoScan database.
+
+In the pan-cancer analysis based on the esophageal squamous cell carcinoma
+datasets, EC patients who were expressed COL3A1 and POSTN highly showed worse
+overall survival times (P < 0.05, Figure 10 ).
+
+Pan-cancer analysis for COL3A1 and POSTN. A, Effect of COL3A1 on overall
+survival. B, Effect of POSTN on overall survival.
+
+
+Differential Expression Analysis of Whole Chromosomes
+
+There were many DEGs located on the whole chromosomes between EC and control
+samples ( Figure 1A ).
+
+A, Differentially expressed genes (DEGs) located on chromosomes among
+esophageal cancer (EC) and control esophageal tissue. B, High
+repeatability of data in the GSE92396 dataset via Pearson’s correlation
+test. C, High repeatability of data in the GSE100942 dataset via
+Pearson’s correlation test.
+
+
+High Repeatability of Data
+
+Strong correlations existed between the samples in EC group. At the same time,
+strong correlations existed between the samples in control group in the GSE92396
+dataset, as confirmed by Pearson’s correlation test ( Figure 1B ). Similarly, the
+reproducibility of data in the GSE100942 was good ( Figure 1C ).
+
+
+Identification of DEGs in EC and the PPI Network
+
+After the results of microarray were standardized, 1,540 DEGs in GSE92396 ( Figure 2A ) and 345 DEGs in
+GSE100942 ( Figure 2B )
+were identified. In the 2 datasets, the Venn diagram showed 36 genes that were
+overlapped ( Figure 2C ).
+The PPI network is also presented to show correlations among the common DEGs
+( Figure 2D ).
+
+Identification of DEGs in esophageal cancer and the protein–protein
+interaction (PPI) network. A, Volcano plot showing the DEGs in GSE92396
+dataset. B, Volcano plot showing the DEGs in GSE100942 dataset. C, The
+Venn diagram shows that 36 DEGs were simultaneously present. D, The
+protein–protein interaction (PPI) network of the common DEGs.
+
+
+KEGG and GO Enrichment Analyses of DEGs
+
+Using DAVID to carry out functional and pathway enrichment analyses to make the
+analysis of biological classification of DEGs. Our study has some finding from
+the results through GO analysis that variation in biological process (BP) DEGs
+were prominently concentrated in ECM organization, cell–substrate adhesion
+regulation, intracellular signaling cascades, collagen biosynthetic processes,
+and cell cycle processes ( Figure 3A ). There have some variations in cell component (CC) of
+DEGs that were mainly concentrated in ECM, actin cytoskeleton, proteinaceous
+ECM, extracellular region parts, and fibrillar collagen ( Figure 3B ). In addition, there are some
+changes in molecular function (MF) of DEGs were mainly concentrated in
+single-stranded DNA binding, growth factor binding, platelet-derived growth
+factor binding, cytoskeletal protein binding, actin binding, and
+structure-specific DNA binding ( Figure 3C ). The whole DEGs were mainly concentrated in focal
+adhesion, platelet activation, and ECM–receptor interactions shown by the KEGG
+pathway analysis ( Figure
+3D ).
+
+Common DEGs enrichment analysis. (A) Biological processes (BP) analysis,
+(B) cellular components (CC) analysis, (C) molecular function (MF)
+analysis, (D) KEGG analysis. (E) Heatmap of enriched terms across
+inputted lists of DEG, colored with p-values, through Metascape. (F) An
+enriched terms network colored with cluster identity. The nodes that
+have the uniform cluster identity meaning they are typically approximate
+to mutual. (G) An enriched terms network colored with p-values. More
+genes contained by the terms; more significant p-value will have.
+
+
+Metascape Enrichment Analysis of DEGs
+
+We found that the DEGs in EC and control tissues were mainly concentrated in
+cell–matrix adhesion, supramolecular fiber organization, cell–matrix adhesion
+regulation, positive regulation of cytokine secretion, organelle fission,
+developmental maturation, cellular responses to heat, regulation of
+neurotransmitter transport, SUMO E3 ligases SUMOylate target proteins, the Notch
+signaling pathway, regulation of organelle assembly, and renal system
+development after the functional enrichment analysis that made by Metascape (P
+< 0.05, Figure 3A, B, and
+C ).
+
+
+Selection and Analysis of Hub Gene
+
+Finally, the hub genes contain 5 genes (THBS1, NID1, COL3A1, POSTN, and COL1A1).
+The names, abbreviations, and functions of these hub genes are shown in Table 1 .
+
+Summary of 5 Hub Genes Functions.
+
+
+Expression Level and Correlation of the Hub Genes
+
+Making a comparison between the samples in the EC group and control samples in
+the GSE92396 dataset, all hub genes were expressed higher in the former what was
+shown by one heat map ( Figure
+4B ). The expression of COL1A1, THBS1, and NID1 was lower in EC
+samples than in the control samples in the GSE100942 dataset also shown by
+another heat map. However, COL3A1, and POSTN were expressed higher in samples of
+EC ( Figure 4C ).
+
+Using Pearson’s correlation test, the hub genes in the GSE92396 ( Figure 4D ) and GSE100942
+( Figure 4E ) datasets
+were correlated strongly shown by these heat maps.
+
+Hub gene network, analysis of expression and correlation. A, Five hub
+genes were identified (THBS1, NID1, COL3A1, POSTN, and COL1A1). B, A
+heat map showing that the whole hub genes were expressed higher in EC
+samples by comparing with the control samples in GSE92396 dataset. C, A
+heat map showing the whole hub genes expression in GSE100942 dataset. D,
+Associations in hub genes of the GSE92396 dataset showing by Heat maps.
+E, Associations in hub genes of the GSE100942 dataset showing by heat
+maps.
+
+
+Association Between Hub Gene Expression, Overall Survival, and Pathologic
+Stage
+
+Our study carried out the overall survival analysis of hub genes via a
+Kaplan–Meier curve. EC Patients that were expressed lowly of THBS1 showed worse
+overall survival times (P < 0.05, Figure 5A ). The times of overall survival
+of EC patients who were expressed highly levels of NID1 was poorer compared with
+those who had low NID1 expression levels (P < 0.05, Figure 5B ). Patients with EC who had low
+expression level of COL3A1 showed worse overall survival times (P < 0.05, Figure 5C ). The
+overall survival times of EC patients who were expressed POSTN highly was poorer
+than those who had low expression levels (P < 0.05, Figure 5D ). EC patients who had low
+expression of COL1A1 showed worse overall survival times (P < 0.05, Figure 5E ).
+
+The relationship between the overall survival and the hub genes. (A)
+THBS1, (B) NID1, (C) COL3A1, (D) POSTN, (E) COL1A1.
+
+Subsequently, we found that the THBS1 ( Figure 6A ) and NID1 ( Figure 6B ) expression were not associated
+with the stage of the pathologic of EC, while the expression of COL3A1 ( Figure 6C ), POSTN ( Figure 6D ), and COL1A1
+( Figure 6E ) were
+significantly positively related with pathologic stage in patients with EC (P
+< 0.05).
+
+Effect of the hub genes expression on the pathologic stage of patients
+with EC. (A) THBS1, (B) NID1, (C) COL3A1, (D) POSTN, (E) COL1A1.
+
+
+Identification of Chemicals Associated With Hub Genes
+
+Esophageal neoplasms was targeted by the hub genes shown by the CTD database; the
+results are shown in Figure
+7A-E .
+
+Relationships of hub genes to tumors or metastasis on the basis of the
+CTD database. (A) THBS1, (B) NID1, (C) COL3A1, (D) POSTN, (E)
+COL1A1.
+
+
+Immunohistochemistry Validation of Genes Using the Human Protein Atlas
+Database
+
+These tissue samples are from healthy esophageal tissues in the Human Protein
+Atlas. The expression level of THBS1, NID1, COL3A1, POSTN, and COL1A1 were
+investigated via immumohistochemical staining ( Figure 8A-E ).
+
+Verification of the hub genes on a level of translation in healthy
+esophageal tissues through the Human Protein Atlas database. (A) THBS1,
+(B) NID1, (C) COL3A1, (D) POSTN, (E) COL1A1.
+
+
+Prediction of microRNAs Related to Hub Genes
+
+In order to figure out the mechanism and regulatory network of the hub genes, we
+hypothesized that the microRNAs related to hub genes for miRNAs. Table 2 shows the
+microRNAs connected with the hub genes.
+
+Summary of miRNAs That Regulate the Hub Genes.
+
+
+Clinicopathologic Correlation Analysis Based on TCGA Datasets
+
+Based on the multivariate Cox regression analysis, age had no effect on overall
+survival times (HR = 1.187, P = 0.453). Smoking and alcohol also had no effect
+on times of overall survival (HR = 1.104, P = 0.675 and HR = 1.133, P = 0.613,
+respectively). However, there was a prominent association between overall
+survival times and pathologic stage (HR = 2.307, P < 0.001), the expression
+of COL3A1 (HR = 0.159, P < 0.001), and the expression of POSTN (HR = 2.902, P
+= 0.002) ( Table
+3 ).
+
+Correlative Clinicopathologic Factors and Their Impact on Overall
+Survival (OS) According to Multivariate Cox Proportional Regression
+Analysis.
+
+HR, hazard ratio; 95% CI, 95% confidence interval. * P < 0.05.
+
+
+Effect of COL3A1 on the Survival Analysis for Patients With EC in the
+PrognoScan Database
+
+Based on the PrognoScan database, the overall survival times of EC patients who
+expressed COL3A1 lowly is worse (P < 0.02, HR = 1.3, Figure 9 ).
+
+Effect of COL3A1 on the survival analysis for patients with EC in the
+PrognoScan database.
+
+
+Pan-Cancer Analysis for COL3A1 and POSTN
+
+In the pan-cancer analysis based on the esophageal squamous cell carcinoma
+datasets, EC patients who were expressed COL3A1 and POSTN highly showed worse
+overall survival times (P < 0.05, Figure 10 ).
+
+Pan-cancer analysis for COL3A1 and POSTN. A, Effect of COL3A1 on overall
+survival. B, Effect of POSTN on overall survival.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+EC is a primary malignancy originating from the esophageal epithelium. According to
+the latest data from China, 20 the incidence of EC in the Chinese population is 11.28/100,000 that is
+1.79-times higher than the global average. Squamous cell carcinoma originating from
+squamous epithelium is the main histological type, about 90% in all cases. 21 Adenocarcinoma develops from degenerate Barrett’s mucosa, located in the
+lower esophagus. 22 Clinically, progressive dysphagia is a typical symptom. EC is more sensitive
+to chemotherapy and radiotherapy than other gastrointestinal tumors. 23 Surgical resection is a potential treatment for EC, but it is only
+appropriate for patients who are able to undergo surgery and who have locally
+resectable lesions with no signs of distant metastasis. Unfortunately, most people
+experience tumor recurrence in the first few years following surgery. Palliative
+treatment is the only option for metastasis, and the 5-year survival rate for
+patients who experience recurrence is less than 3%. 3 , 24 Combining the advantages of each treatment approach and working closely with
+the treatment team, including paramedic staff, can improve the prognosis for
+patients with EC. Sato et al 25 showed that the examination of preoperative dental and dental care in
+patients with EC are critical to reducing the risk of severe postoperative
+pneumonia. In recent years, multimodality treatment has shown good prospects in
+improving patients’ prognosis and survival while reducing morbidity. However, these
+measures are still not enough. Whether diagnosis and treatment are timely affected
+the patient prognosis. Therefore, it is worth exploring the pathogenesis of EC more,
+find early target therapeutic genes, and molecules, and then develop methods for
+early diagnosis and timely, individualized treatment.
+
+Bioinformatics have been as a widely used methods to discover genetic molecules
+related to tumorigenesis and tumor development and then find genes and molecules
+that can be used as therapeutic targets. Wang et al. used bioinformatics methods and
+discovered that the molecule MMP1 could discriminate between esophageal
+adenocarcinoma and Barrett’s esophagus, suggesting that it might serve as a
+potential biomarker. 26 Our study analyzed 2 microarray datasets to identify DEGs. 36 DEGs were
+identified in the 2 datasets. By means of bioinformatics analysis, it was found that
+collagen type III alpha 1 chain (COL3A1) and periostin (POSTN) proteins had high
+expression in EC tissues than their expression in healthy tissues. In the overall
+survival analysis, it was concluded that the prognosis for patients with EC was poor
+if POSTN was highly expressed. However, if COL3A1 was expressed at low levels,
+patients with EC had a poor prognosis. Analysis of pathologic stages showed that
+when both COL3A1 and POSTN were highly expressed, the pathologic stage of patients
+with EC was relatively high.
+
+COL3A1 plays a part in cell adhesion, migration, proliferation, and differentiation
+via interactions with cell-surface receptor integrins. 27 COL3A1 is situated on the long arm of chromosome 2 and is mainly expressed in
+elastic connective tissue. COL3A1 plays a part in cell adhesion, migration,
+proliferation and differentiation by interacting with cell surface receptor integrins. 28 A mutation in COL3A1 causes vascular Ehlers–Danlos syndrome (vEDS), a rare,
+life-threatening genetic disease. 29 The abnormal expression of COL3A1 in various cancer is significantly
+connected with bad overall survival rates, e.g. in bladder cancer, breast cancer,
+and smoking-related lung cancer 30 - 32 ; its expression may affect the tumor microenvironment and regulate the ECM
+through collagen degradation and deposition to promote tumor progression. 33 , 34 Engqvist et al. suggested that COL3A1 is related to a bad prognosis of breast
+cancer. It maybe influences the development of early breast cancer. 35 Some studies have shown that COL3A1 can promote proliferation and migration
+of colorectal cancer cells through stimulating PI3K-AKT signaling pathway or the
+WNT/PCP signaling pathway. 35 , 36 Our bioinformatics analysis showed that there has high COL3A1 expression in
+EC tissues. When COL3A1 was highly expressed, patients with EC were at a higher
+pathologic stage, which may be closely connected with the 3 main collagen functions.
+First, collagen provides scaffolds and sites for cell adhesion. Second, collagen
+acts as a reservoir of ECM proteins, proteoglycans, and growth factors. Third, the
+growth, differentiation, and invasion of the tumor were affected by ligands for the
+signal transduction networks.
+
+The POSTN gene is situated on the long arm of chromosome 13(13q13.3) and is about 36
+kb in length. It can induce cell adhesion and diffusion and plays a crucial part in
+in the maintenance, regulation, and amplification of tumor stem cells during metastasis. 37 , 38 Many researches had found that POSTN expressed various tumor tissues abnormally. 39 Kikuchi et al. found that POSTN promotes the proliferation of gastric cancer
+cells while activating the ERK pathway. 40 Another study showed that the migration and invasion of renal cancer cells
+were promoted by POSTN via the integrin/focal adhesion kinase/c-Jun N-terminal
+kinase pathway. 41 Wang et al. proposed that POSTN levels expressed highly related to poor
+prognosis and short overall survival times in esophageal squamous cell carcinoma
+patients. A multivariate analysis found that the POSTN expression was an independent
+prognostic factor in the aspect of the tumor differentiation, venous invasion, and
+TNM (tumor, node, metastasis) staging. 42 POSTN regulates epithelial-mesenchymal transition (EMT) by activating the ERK
+and p38 pathways and down-regulating the expression of miR-381, an miRNA that
+targets Twist and Snail mRNAs thought to be related to tumor cell invasion and metastasis. 43 Our bioinformatics analysis showed that the higher the POSTN expression, the
+worse the prognosis. Our analysis of pathologic stages showed that patients with EC
+were at a relatively higher pathologic stage when the expression level of POSTN was
+higher.
+
+Although the bioinformatics analysis methods used in the study was rigorous, some
+deficiencies remain. Larger clinical sample datasets and animal experiments are
+necessary to make a comprehensive verification of the results and to obtain a better
+understanding of the pathogenesis of EC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+COL3A1 and POSTN might play an important role in the worse pathologic stages of EC,
+and they may provide some novel ideas and basis for the diagnosis and targeted
+treatment of EC.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

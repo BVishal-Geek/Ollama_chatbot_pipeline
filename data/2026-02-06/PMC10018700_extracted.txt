@@ -1,0 +1,67 @@
+================================================================================
+ARTICLE TITLE: Associations between historical residential redlining and current age-adjusted asthma emergency department-visit rates across eight cities of California: an ecological study
+PMCID: PMC10018700
+PMID: 31999951
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Asthma disproportionately affects communities of color in the United States, but the underlying factors remain poorly understood. We consider the role of historical redlining as outlined in maps created by the Home Owners’ Loan Corporation (HOLC), the discriminatory practice of categorizing neighborhoods based on perceived mortgage investment risk.
+
+Methods::
+An ecological study of HOLC risk grades and asthma exacerbations in California was conducted using the security maps available for the following eight cities: Fresno, Los Angeles, Oakland, Sacramento, San Diego, San Jose, San Francisco, and Stockton. Each census tract was categorized into one of four risk levels (A, B, C, or D) based on the location of population-weighted centroids on security maps, with the worst risk level (D) indicating historical redlining. We obtained census tract-level asthma emergency department-visit rates from CalEnviroScreen 3.0. The relationship between risk grade and log-transformed asthma emergency department-visit rates between 2011 and 2013 was assessed using ordinary least squares regression. We included potential confounding variables from the 2010 Census and CalEnviroScreen 3.0: diesel exhaust particle emissions, particulate matter less than or equal to 2.5 micrometers in diameter, and percent of the population living below two-times the federal poverty level. We also built random intercept and slope models to assess city-level variation in the redlining-asthma relationship.
+
+Findings::
+As security map risk grade worsened, the population proportion of non-Hispanic black and Hispanic, percent living in poverty, and diesel exhaust particle emissions all significantly trended upwards (p<0.0001). The median age-adjusted asthma emergency department-visit rates were 2.4 times higher in census tracts that were previously redlined (median ± interquartile range: 63.5± 34.3 visits per 10,000 residents) compared to those tracts at the lowest risk level (26.5±18.4 visits per 10,000 residents). In adjusted models, redlined census tracts were associated with a 1.39 times increase (95% confidence interval: 1.21, 1.57) in asthma emergency department-visit rate compared to the lowest-risk census tracts.
+
+Interpretation::
+Historically redlined census tracts have significantly higher rates of recent asthma emergency department visits, suggesting that this discriminatory practice may be contributing to current racial and ethnic asthma health disparities.
+
+Funding::
+This work was funded in-part by the National Heart Lung Blood Institute (K23HL1255101A1).
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

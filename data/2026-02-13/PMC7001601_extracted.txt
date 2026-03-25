@@ -1,0 +1,53 @@
+================================================================================
+ARTICLE TITLE: Inherited variants at 3q13.33 and 3p24.1 are associated with risk of diffuse large B-cell lymphoma and implicate immune pathways
+PMCID: PMC7001601
+PMID: 31600786
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+We previously identified five single nucleotide polymorphisms (SNPs) at four susceptibility loci for diffuse large B-cell lymphoma (DLBCL) in individuals of European ancestry through a large genome-wide association study (GWAS). To further elucidate genetic susceptibility to DLBCL, we sought to validate two loci at 3q13.33 and 3p24.1 that were suggestive in the original GWAS with additional genotyping. In the meta-analysis (5662 cases and 9237 controls) of the four original GWAS discovery scans and three replication studies, the 3q13.33 locus (rs9831894; minor allele frequency [MAF] = 0.40) was associated with DLBCL risk [odds ratio (OR) = 0.83, P = 3.62 × 10 −13 ]. rs9831894 is in linkage disequilibrium (LD) with additional variants that are part of a super-enhancer that physically interacts with promoters of CD86 and ILDR1 . In the meta-analysis (5510 cases and 12 817 controls) of the four GWAS discovery scans and four replication studies, the 3p24.1 locus (rs6773363; MAF = 0.45) was also associated with DLBCL risk (OR = 1.20, P = 2.31 × 10 −12 ). This SNP is 29 426-bp upstream of the nearest gene EOMES and in LD with additional SNPs that are part of a highly lineage-specific and tumor-acquired super-enhancer that shows long-range interaction with AZI2 promoter. These loci provide additional evidence for the role of immune function in the etiology of DLBCL, the most common lymphoma subtype.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

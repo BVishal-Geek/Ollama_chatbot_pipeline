@@ -1,0 +1,850 @@
+================================================================================
+ARTICLE TITLE: Sociodemographic Characteristics as Predictors of Outcomes in
+Hepatocellular Carcinoma: A Retrospective Cohort Study
+PMCID: PMC7791478
+PMID: 32951450
+KEYWORDS: hepatocellular, carcinoma, hcc, epidemiology, cancer risk, cancer screening
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Race, gender, insurance status, and income play important roles in predicting
+health care outcomes. However, the impact of these factors has yet to be
+fully elucidated in the setting of hepatocellular carcinoma (HCC).
+
+Methods::
+We designed a retrospective cohort study utilizing data from the
+Surveillance, Epidemiology, and End Results (SEER) program to identify
+patients diagnosed with resectable HCC (N = 28,518). Demographic factors of
+interest included race (Asian/Pacific Islander [API], African American [AA],
+Native American/Alaska Native [NA], or White [WH]) and gender (male [M] or
+female [F]). Insurance classifications included those having
+Medicare/Private Insurance [ME/PI], Medicaid [MAID], or No Insurance [NI].
+Median household income was estimated for all diagnosed with HCC. Endpoints
+included: (1) overall survival; (2) likelihood of receiving a recommendation
+for surgery; and (3) specific surgical intervention performed. Multivariate
+multinomial logistic regression for relative risk ratio (RRR) and Cox
+regression models were used to identify pertinent associations.
+
+Results::
+Race, gender, insurance status, and income had statistically significant
+effects on the likelihood of surgical recommendation and overall survival.
+API were more likely to receive a recommendation for hepatic resection (RRR
+= 1.45; 95% CI: 1.31-1.61; Reference Race: AA) and exhibited prolonged
+overall survival (HR = 0.77; 95% CI: 0.73-0.82; Reference Race: AA) as
+compared to members of any other ethnic group; there was no difference in
+these endpoints between AA, NA, or WH individuals. Gender also had a
+significant effect on survival: Females exhibited superior overall survival
+(HR = 0.89; 95% CI: 0.85-0.93; Reference Gender: M) as compared to males.
+Patients who had ME/PI were more likely than those with MAID or NI to
+receive a surgical recommendation. ME/PI was also associated with superior
+overall survival. Conclusions: Race, gender, insurance status, and income
+have measurable effects on HCC management and outcomes. The underlying
+causes of these disparities warrant further investigation.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Hepatocellular carcinoma (HCC) is responsible for significant morbidity and mortality
+worldwide, representing the sixth most commonly diagnosed cancer and fourth leading
+cause of cancer-related death. 1 In the United States, the incidence rate of HCC has increased nearly 5-fold
+over the past 40 years, from 1.4/100,000 cases/year in the 1970s to 6.2/100,000
+cases in 2011. 2 Several populations are known to be dispoportionately affected by HCC:
+Asians, males, and low income individuals. 3 - 5 Fortunately, patient outcomes are steadily improving across all demographics;
+5-year survival rates have increased by greater than 60% since 1975. 3 
+
+The most common global risk factor for HCC is the hepatitis B virus (HBV). In the
+United States, the hepatitis C virus (HCV) represents the most common causative
+agent. The distribution of HCC parallels that of hepatotropic viruses, and thus the
+disease burden is highest in areas with endemic HBV infection, such as Eastern Asia
+and sub-Saharan Africa. 6 Other common risk factors include alcohol-related cirrhosis, nonalcoholic
+fatty liver disease (NAFLD), obesity, and diabetes. 7 Prognosis is largely dependent on the stage at diagnosis and can be improved
+with early detection. In the United States, 5-year survival is approximately 38%,
+36%, 26%, and 19% for American Joint Committee on Cancer (AJCC) stage IA, II, IIIA,
+and IIIB disease, respectively. 8 Surgical resection/ablation and liver transplantation represent the mainstays
+of treatment for non-metastatic disease and the best interventions to ensure
+long-term survival. However, the majority of affected individuals are ineligible for
+operative management due to impaired liver function and/or delayed diagnosis. 9 
+
+Sociodemographic factors are important predictors of HCC incidence and outcomes.
+Asians and Pacific Islanders are the most frequently affected ethnic groups, and
+males are 2 to 4 times more likely than females to receive a diagnosis of HCC. 3 , 4 There is also a strong negative correlation between income and the risk of
+developing HCC; it has been hypothesized that this reflects the prevalence of HCC
+risk factors—such as hepatitis infection, alcoholism, and obesity—among those of low income. 5 Furthermore, insurance status has a significant effect on HCC management, as
+patients with private insurance are more likely to undergo curative therapies as
+compared to those with Medicaid. 10 The relationship between sociodemographic characteristics and HCC outcomes is
+complex and nuanced, however. We therefore sought to examine the effects of race,
+gender, insurance status, and income on both the approach to management and overall
+survival among individuals with HCC in the United States.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+This is a retrospective cohort study using the Surveillance, Epidemiology, and End
+Results (SEER) database from all the registries captured in the SEER 18 program. The
+SEER program collects and publishes cancer incidence and survival data using
+population-based cancer registries that include approximately 38% of the population
+of the United States. Information on patient demographics, tumor sites, tumor
+morphology, staging, surgical treatment, and follow-up is publically available. SEER
+site code C22.0 was used to identify patients who received a histologic diagnosis of
+HCC between January 1, 2007 and December 31, 2015.
+
+The SEER registries continuously code and submit AJCC 6th and 7th edition stages for
+all cancers diagnosed in 2010 and beyond. Patients diagnosed before 2010 are staged
+using the AJCC 6th edition only. Therefore, the AJCC 6th edition was used in order
+to include all patients diagnosed between 2007 and 2015. Eligibility criteria
+included an age of 18 years or older and a diagnosis of clinical stage I, II, or
+IIIA HCC. Individuals with unresectable tumors—stage IIIB (defined as having invaded
+the portal or hepatic vein) and stage IV HCC—were excluded from the analysis.
+Exclusion criteria are further detailed in Figure 1 .
+
+Eligibility and exclusion criteria. Eligiblity criteria included an age of 18
+years or older and a diagnosis of stage I, II, or IIIA HCC. Individuals with
+unresectable tumors—stage IIIB (defined as having invaded the portal or
+hepatic vein) and stage IV HCC—and those who had previously been diagnosed
+with other cancers were excluded from the analysis.
+
+The American Community Survey (ACS) database was used for the analysis of patient
+educational level and median household income. Educational level was calculated
+using county-level data obtained between 2012 and 2016 that detailed the percentage
+of individuals who had less than a high school education; this was divided into
+quintiles. Median household income was divided into 5 quintiles, as follows: first
+quintile—$43,700 USD or lower; second quintile—$60,240 USD; third quintile—$64,500
+USD; fourth quintile—$73,370 USD; and fifth quintile—$91,570 USD or higher. In the
+analysis of race and ethnicity, patients were categorized into one of 4 demographic
+groups: African American [AA], Asian/Pacific Islander [API], Native American/Alaska
+Native [NA], or White [WH]. Gender was categorized as male [M] or female [F].
+Insurance status was classified as insured (Medicare or private insurance),
+Medicaid, and uninsured. Lastly, patients were stratified based on intervention:
+hepatic resection; liver ablation or local destruction (photodynamic therapy,
+electrocautery, fulguration, cryosurgery, or laser therapy); and no
+intervention.
+
+Primary endpoints included: (1) overall survival (OS); (2) likelihood of receiving a
+recommendation for surgical intervention; and (3) specific surgical intervention
+performed. OS was estimated in months from the date of diagnosis to the end of the
+follow-up period (for survivors) or the date of death (for non-survivors). The data
+that support the findings of this study are de-identified and publically available
+in the SEER database. Therefore, no Institutional Review Board (IRB) approval was
+required.
+
+The baseline characteristics and group differences for HCC AJCC stages were
+compared using Pearson’s Chi squared test for proportions. Univariate and
+multivariate multinomial logistic regression models were used to assess
+associations of insurance, race, gender, and median household income with
+different treatment modalities. “No surgical intervention” was used as the base
+outcome in the multinomial model. Relative Risks Ratios (RRR) were used to
+measure pertinent associations, allowing for simultaneous comparison of hepatic
+resection, ablation/local treatment, and no surgical intervention. RRR were also
+used for a comparison of patients who received a recommendation for surgery
+versus those who received no surgical recommendation and in whom surgery was
+contraindicated. Model selection was done using Akaike information criterion
+(AIC), and the model with the lowest AIC selected. 11 
+
+The Kaplan-Meier method was used for survival analysis and the log rank test for
+equality of survival functions. Model selection was done using the stepwise
+forward method for Cox regression. Variables included in the adjusted models had
+a p-value < 0.05 for the outcome of interest in the univariate analysis.
+These variables remained in the final model if they were still significant at p
+< 0.05 in the final adjusted model. A p-value < 0.05 was used for
+statistical significance in this study. To assess if the model was correctly
+specified, we used restimation techniques with “linktest” 12 ; prediction squared did not demonstrate explanatory power
+( p > 0.05). All statistical analyses were performed
+using Stata version 14.2 (StataCorp, College Station, TX, USA) and R version
+3.6.1.
+
+
+Statistical Analysis
+
+The baseline characteristics and group differences for HCC AJCC stages were
+compared using Pearson’s Chi squared test for proportions. Univariate and
+multivariate multinomial logistic regression models were used to assess
+associations of insurance, race, gender, and median household income with
+different treatment modalities. “No surgical intervention” was used as the base
+outcome in the multinomial model. Relative Risks Ratios (RRR) were used to
+measure pertinent associations, allowing for simultaneous comparison of hepatic
+resection, ablation/local treatment, and no surgical intervention. RRR were also
+used for a comparison of patients who received a recommendation for surgery
+versus those who received no surgical recommendation and in whom surgery was
+contraindicated. Model selection was done using Akaike information criterion
+(AIC), and the model with the lowest AIC selected. 11 
+
+The Kaplan-Meier method was used for survival analysis and the log rank test for
+equality of survival functions. Model selection was done using the stepwise
+forward method for Cox regression. Variables included in the adjusted models had
+a p-value < 0.05 for the outcome of interest in the univariate analysis.
+These variables remained in the final model if they were still significant at p
+< 0.05 in the final adjusted model. A p-value < 0.05 was used for
+statistical significance in this study. To assess if the model was correctly
+specified, we used restimation techniques with “linktest” 12 ; prediction squared did not demonstrate explanatory power
+( p > 0.05). All statistical analyses were performed
+using Stata version 14.2 (StataCorp, College Station, TX, USA) and R version
+3.6.1.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+A total of 28,518 patients were included in the final analysis ( Table 1 ). The racial
+distribution was as follows: AA—3,739 (13.1%); API—4,768 (16.7%); NA—377 (1.3%);
+and WH—19,634 (68.9%). The stage distribution was as follows: stage I—52.05%;
+stage II—27.5%; and stage IIIA—20.45%. A total of 11,058 patients (38.8%)
+received a recommendation for surgical intervention; among these individuals,
+11.6% were AA, 19.8% were API, 1.3% were NA, and 67.3% were WH. For the entire
+cohort, 20.7% underwent hepatic resection, 14.7% underwent local
+treatment/ablation, and 65.2% received no surgical intervention.
+
+Demographics and Clinical Characteristics of the Cohort.
+
+* Individuals with stage IIIB HCC are generally not considered
+surgical candidates and were therefore excluded from the
+analysis.
+
+ † “Insured” refers to individuals with private insurance
+or Medicare coverage.
+
+ ‡ Local treatment or tumor ablation includes photodynamic
+therapy, electrocautery, fulguration, cryosurgery, and/or laser
+therapy.
+
+ Table 2 displays the
+multivariate multinomial logistic regression model used to assess factors
+associated with the implementation of different surgical treatment modalities.
+API were significantly more likely to receive a recommendation for hepatic
+resection than individuals in any other ethnic group (RRR = 1.45; 95% CI: 1.31
+-1.61; Reference Race: AA). API were also more likely to undergo hepatic
+resection (RRR = 1.61, 95% CI: 1.43 -1.82) and local treatment/ablation (RRR =
+1.43; 95% CI; 1.24 -1.66) as compared to their AA counterparts. There was no
+significant difference in treatment modality beween AA and WH individuals.
+
+Multivariate Multi Nominal Regression Analysis for Tumor Characteristics
+and Socioeconomic Factors Associated With Treatment Allocation Compared
+With No Surgical Treatment in HCC Patients.
+
+* The base outcome for multinomial regression is “no liver
+procedure.”
+
+The overall rate of hepatic resection decreased among all ethnic groups between
+2007 and 2015. Nevertheless, API individuals were consistently more likely to
+undergo hepatic resection as compared to their AA, NA, and WH counterparts; NA
+were less likely than members of any other group to undergo hepatic resection.
+Furthermore, as compared to API and WH individuals, AA and NA were significantly
+less likely to receive any surgical intervention. Interestingly, the overall
+rate of local treatment or ablation was found to have steadily increased since
+2007 among all ethnic groups. The relationship between race and HCC intervention
+is illustrated in Figure
+2 .
+
+Panel A. predicted probability of intervention based on race. Over time,
+the likelihood of undergoing hepatic resection decreased while the
+likelihood of receiving local destruction/ablation or no intervention
+increased among all races. Figure 2, Panel B. predicted probability of
+intervention based on race. The race effect plot demonstrates that API
+were significantly more likely than individuals in any other ethnic
+group to undergo hepatic resection.
+
+Insurance status and median household income also influenced treatment
+strategies. Uninsured patients (RRR = 0.42; 95% CI: 0.34-0.53) and those with
+Medicaid coverage (RRR = 0.54; 95% CI: 0.50-0.59) were less likely to undergo
+hepatic resection or local treatment/ablation than individuals with private
+insurance or Medicare ( Table 2 ). Interestingly, there was a negative correlation between
+income and likelihood of hepatic resection: patients in the fifth quintile of
+median household income were less likely to undergo hepatic resection than low
+income individuals (RRR = 0.86; 95% CI: 0.77-0.96). Individuals in this cohort,
+however, were also significantly more likely than those in the bottom 4
+quintiles to undergo local treatment/ablation (RRR = 1.21; 95% CI: 1.05 -1.38).
+It therefore appears likely that less invasive treatment modalities are favored
+among individuals of the highest income strata, who are more likely than their
+lower income counterparts to present with potentially-resectable disease ( Table 3 ).
+
+Sociodemographic and Tumor Characteristics Associated With OS for
+Patients With Resectable HCC.
+
+* aHR = adjusted hazard ratio for death
+
+ ¥ The P-value for interaction between age at diagnosis and
+chemotherapy was statistically significant (P = 0.011)
+
+Lastly, there was a significant association between marital status and
+intervention: as compared to single or divorced individuals, those who were
+married were more likely to undergo hepatic resection. Interestingly, however,
+marital status had no significant effect on the likelihood of undergoing
+ablation ( Table
+3 ).
+
+The median OS for all patients diagnosed with HCC during the study period was 23
+months. Individuals who underwent hepatic resection exhibited prolonged survival
+(median OS: 96 months) as compared to those who received no surgical treatment
+(median OS: 14 months) or local treatment/ablation (median OS: 40 months). The
+3- and 5-year survival rate for the entire cohort was 38.5% (95% CI: 37.9-39.1)
+and 28.2% (95% CI: 27.6-28.9), respectively.
+
+There were significant racial disparities in OS. API were found to have the
+highest median OS survival at 35 months; this was followed by WH and NA, both of
+whom had a median OS of 22 months. Median OS was the shortest among AA at 18
+months. The relationship between race and HCC management and outcomes is
+illustrated in Figure 2 .
+In addition, significant gender disparities were observed: females exhibited
+superior OS as compared to males (aHR = 0.89; 95% CI: 0.85-0.93; Reference
+Gender: M), and the 5-year survival rate was 31.0% in women versus 27.4% in
+men.
+
+Median OS was also affected by income, educational level, insurance, and marital
+status. There was a distinct survival advantage for individuals residing in
+geographic regions in which the median household income was in the fifth
+quintile, and there was a direct correlation between level of education and
+median OS. Individuals with private insurance or Medicare demonstrated prolonged
+OS as compared to those with Medicaid. Outcomes were significantly worse among
+the uninsured ( Figure
+3 ). Lastly, marriage conferred a significant survival advantage; overall
+survival was poorer among patients who were single, divorced, or widowed.
+
+Panel A. Kaplan–Meier (K-M) survivor function for difference in overall
+survival by race. A greater proportion of Asian Americans (API,
+indicated by the red curve) were living throughout the time period in
+which the analysis was conducted as compared to Whites (green curve),
+Native Americans (yellow curve) and African Americans (AA, blue curve).
+Figure 3, Panel B. Kaplan–Meier (K-M) survivor function for difference
+in overall survival by sex. A greater proportion of women (blue curve)
+were living throughout the time period in which the analysis was
+conducted as compared to men (red curve). Figure 3, panel C.
+Kaplan–Meier (K-M) survivor function for difference in overall survival
+by insurance status. A greater proportion of individuals with Medicare
+or private insurance (blue curve) were living throughout the time period
+in which the analysis was conducted as compared to those with Medicaid
+(green curve) or no insurance (red curve). Figure 3, Panel D.
+Kaplan–Meier (K-M) survivor function for difference in overall survival
+by liver procedure. A greater proportion of patients who underwent
+hepatic resection (green curve) were living throughout the time period
+in which the analysis was conducted as compared to those who underwent
+local destruction/ablation (red curve) or no surgical intervention (blue
+curve).
+
+Lastly, treatment modality had a significant effect on OS. The best outcomes were
+seen among patients who underwent hepatic resection, in whom the risk of death
+was significantly lower than individuals who underwent local treatment/ablation
+or no surgical intervention (aHR = 0.24; 95% CI: 0.22-0.25; Reference: “No
+Treatment”). Indeed, in comparing OS, hepatic resection was far superior to
+local treatment/ablation. The effect of treatment modality on OS is further
+detailed in Table
+3 .
+
+
+Study Population and Patient Characteristics
+
+A total of 28,518 patients were included in the final analysis ( Table 1 ). The racial
+distribution was as follows: AA—3,739 (13.1%); API—4,768 (16.7%); NA—377 (1.3%);
+and WH—19,634 (68.9%). The stage distribution was as follows: stage I—52.05%;
+stage II—27.5%; and stage IIIA—20.45%. A total of 11,058 patients (38.8%)
+received a recommendation for surgical intervention; among these individuals,
+11.6% were AA, 19.8% were API, 1.3% were NA, and 67.3% were WH. For the entire
+cohort, 20.7% underwent hepatic resection, 14.7% underwent local
+treatment/ablation, and 65.2% received no surgical intervention.
+
+Demographics and Clinical Characteristics of the Cohort.
+
+* Individuals with stage IIIB HCC are generally not considered
+surgical candidates and were therefore excluded from the
+analysis.
+
+ † “Insured” refers to individuals with private insurance
+or Medicare coverage.
+
+ ‡ Local treatment or tumor ablation includes photodynamic
+therapy, electrocautery, fulguration, cryosurgery, and/or laser
+therapy.
+
+
+Associations of Surgical Treatment of HCC by Race, Insurance, and Marital
+Status
+
+ Table 2 displays the
+multivariate multinomial logistic regression model used to assess factors
+associated with the implementation of different surgical treatment modalities.
+API were significantly more likely to receive a recommendation for hepatic
+resection than individuals in any other ethnic group (RRR = 1.45; 95% CI: 1.31
+-1.61; Reference Race: AA). API were also more likely to undergo hepatic
+resection (RRR = 1.61, 95% CI: 1.43 -1.82) and local treatment/ablation (RRR =
+1.43; 95% CI; 1.24 -1.66) as compared to their AA counterparts. There was no
+significant difference in treatment modality beween AA and WH individuals.
+
+Multivariate Multi Nominal Regression Analysis for Tumor Characteristics
+and Socioeconomic Factors Associated With Treatment Allocation Compared
+With No Surgical Treatment in HCC Patients.
+
+* The base outcome for multinomial regression is “no liver
+procedure.”
+
+The overall rate of hepatic resection decreased among all ethnic groups between
+2007 and 2015. Nevertheless, API individuals were consistently more likely to
+undergo hepatic resection as compared to their AA, NA, and WH counterparts; NA
+were less likely than members of any other group to undergo hepatic resection.
+Furthermore, as compared to API and WH individuals, AA and NA were significantly
+less likely to receive any surgical intervention. Interestingly, the overall
+rate of local treatment or ablation was found to have steadily increased since
+2007 among all ethnic groups. The relationship between race and HCC intervention
+is illustrated in Figure
+2 .
+
+Panel A. predicted probability of intervention based on race. Over time,
+the likelihood of undergoing hepatic resection decreased while the
+likelihood of receiving local destruction/ablation or no intervention
+increased among all races. Figure 2, Panel B. predicted probability of
+intervention based on race. The race effect plot demonstrates that API
+were significantly more likely than individuals in any other ethnic
+group to undergo hepatic resection.
+
+Insurance status and median household income also influenced treatment
+strategies. Uninsured patients (RRR = 0.42; 95% CI: 0.34-0.53) and those with
+Medicaid coverage (RRR = 0.54; 95% CI: 0.50-0.59) were less likely to undergo
+hepatic resection or local treatment/ablation than individuals with private
+insurance or Medicare ( Table 2 ). Interestingly, there was a negative correlation between
+income and likelihood of hepatic resection: patients in the fifth quintile of
+median household income were less likely to undergo hepatic resection than low
+income individuals (RRR = 0.86; 95% CI: 0.77-0.96). Individuals in this cohort,
+however, were also significantly more likely than those in the bottom 4
+quintiles to undergo local treatment/ablation (RRR = 1.21; 95% CI: 1.05 -1.38).
+It therefore appears likely that less invasive treatment modalities are favored
+among individuals of the highest income strata, who are more likely than their
+lower income counterparts to present with potentially-resectable disease ( Table 3 ).
+
+Sociodemographic and Tumor Characteristics Associated With OS for
+Patients With Resectable HCC.
+
+* aHR = adjusted hazard ratio for death
+
+ ¥ The P-value for interaction between age at diagnosis and
+chemotherapy was statistically significant (P = 0.011)
+
+Lastly, there was a significant association between marital status and
+intervention: as compared to single or divorced individuals, those who were
+married were more likely to undergo hepatic resection. Interestingly, however,
+marital status had no significant effect on the likelihood of undergoing
+ablation ( Table
+3 ).
+
+
+Hepatocellular Carcinoma Survival
+
+The median OS for all patients diagnosed with HCC during the study period was 23
+months. Individuals who underwent hepatic resection exhibited prolonged survival
+(median OS: 96 months) as compared to those who received no surgical treatment
+(median OS: 14 months) or local treatment/ablation (median OS: 40 months). The
+3- and 5-year survival rate for the entire cohort was 38.5% (95% CI: 37.9-39.1)
+and 28.2% (95% CI: 27.6-28.9), respectively.
+
+There were significant racial disparities in OS. API were found to have the
+highest median OS survival at 35 months; this was followed by WH and NA, both of
+whom had a median OS of 22 months. Median OS was the shortest among AA at 18
+months. The relationship between race and HCC management and outcomes is
+illustrated in Figure 2 .
+In addition, significant gender disparities were observed: females exhibited
+superior OS as compared to males (aHR = 0.89; 95% CI: 0.85-0.93; Reference
+Gender: M), and the 5-year survival rate was 31.0% in women versus 27.4% in
+men.
+
+Median OS was also affected by income, educational level, insurance, and marital
+status. There was a distinct survival advantage for individuals residing in
+geographic regions in which the median household income was in the fifth
+quintile, and there was a direct correlation between level of education and
+median OS. Individuals with private insurance or Medicare demonstrated prolonged
+OS as compared to those with Medicaid. Outcomes were significantly worse among
+the uninsured ( Figure
+3 ). Lastly, marriage conferred a significant survival advantage; overall
+survival was poorer among patients who were single, divorced, or widowed.
+
+Panel A. Kaplan–Meier (K-M) survivor function for difference in overall
+survival by race. A greater proportion of Asian Americans (API,
+indicated by the red curve) were living throughout the time period in
+which the analysis was conducted as compared to Whites (green curve),
+Native Americans (yellow curve) and African Americans (AA, blue curve).
+Figure 3, Panel B. Kaplan–Meier (K-M) survivor function for difference
+in overall survival by sex. A greater proportion of women (blue curve)
+were living throughout the time period in which the analysis was
+conducted as compared to men (red curve). Figure 3, panel C.
+Kaplan–Meier (K-M) survivor function for difference in overall survival
+by insurance status. A greater proportion of individuals with Medicare
+or private insurance (blue curve) were living throughout the time period
+in which the analysis was conducted as compared to those with Medicaid
+(green curve) or no insurance (red curve). Figure 3, Panel D.
+Kaplan–Meier (K-M) survivor function for difference in overall survival
+by liver procedure. A greater proportion of patients who underwent
+hepatic resection (green curve) were living throughout the time period
+in which the analysis was conducted as compared to those who underwent
+local destruction/ablation (red curve) or no surgical intervention (blue
+curve).
+
+Lastly, treatment modality had a significant effect on OS. The best outcomes were
+seen among patients who underwent hepatic resection, in whom the risk of death
+was significantly lower than individuals who underwent local treatment/ablation
+or no surgical intervention (aHR = 0.24; 95% CI: 0.22-0.25; Reference: “No
+Treatment”). Indeed, in comparing OS, hepatic resection was far superior to
+local treatment/ablation. The effect of treatment modality on OS is further
+detailed in Table
+3 .
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Sociodemographic characteristics have a significant effect on health care access,
+delivery, and outcomes. Indeed, it has been definitively established that an
+individual’s race, gender, insurance status, and wealth can influence his or her
+care and clinical course. The effect of sociodemographic factors on patient care is
+perhaps most evident in the setting of malignancy. African Americans with resectable
+gastric cancer, for example, are more likely to receive a recommendation against
+surgery than their White and Asian counterparts. 13 The female sex favors prolonged survival in numerous malignancies, including
+head and neck cancers, melanoma, and leukemia. 14 Low income individuals tend to fare substantially worse than the wealthy
+across a range of health-related outcomes, including quality of life and overall survival. 15 , 16 In the setting of cancer, low income is associated with inferior survival
+among both children 17 and adults. 18 Insurance status may also affect patient outcomes, as previous investigations
+have revealed that individuals with government-funded insurance are less likely to
+undergo curative therapy than those with private insurance. 10 The preponderance of the evidence indeed suggests that health care outcomes
+vary significantly based on immutable demographic and sociodemographic variables.
+The underlying causes of these disparities remain to be established. However, it is
+conceivable that there are multiple contributory elements, including lifestyle
+factors, health care access, implicit bias, environmental influences, and biological
+differences that exist between races and genders.
+
+The relationship between race and health care outcomes has been studied
+extensively. Data suggest that African Americans are disproportionately affected
+by racial disparities and are undertreated to a greater extent than members of
+any other ethnic group. 19 - 21 Previous investigations have demonstrated that health care inequality is
+particularly pronounced in the fields of hematology and oncology. African
+Americans with prostate cancer, for example, are significantly less likely to
+receive definitive therapy than their White counterparts. 22 Preventive cancer care is also suboptimal; African Americans are
+one-third less likely than Whites to receive a recommendation for colorectal
+cancer screening, 23 and mammography rates among African American women are significantly
+lower than any other ethnic group. 24 It has been postulated that these health care disparities can be
+attributed to various factors that affect the African American community,
+including limited access to health care, distrust of the medical establishment,
+and implicit bias. 13 
+
+Our investigation revealed several compelling findings that contribute to the
+ongoing discussion on race and health care disparities. Of particular interest
+is the narrowing health care gap between African Americans and other ethnic
+groups. Indeed, in a comparison of African American, White, and Native
+American/Alaskan Native individuals with resectable HCC, we found no significant
+differences in the likelihood of surgical recommendation or overall survival.
+The absence of any racial disparities between African Americans and Whites
+represents an important observation that is consistent with other recent
+findings pertaining to race and health care outcomes.
+
+In a landmark 2017 study published in Morbidity and Mortality Weekly
+Report , authors noted that the racial disparity gap in all-cause
+mortality rates narrowed from 33% in 1999 to 16% in 2015. 25 Other analyses have reported similar findings. A recent article on racial
+disparities in surgical mortality revealed that gaps between African Americans
+and Whites declined during the early-2000s; over the 9-year study period
+(2004-2015), authors observed a significant decrease in the mortality
+differential between African Americans and Whites. Furthermore, they found that
+the mortality trend was improving at a more rapid rate for African Americans
+than for Whites. 26 The narrowing health care gap has also been reported in the setting of
+oncology, wherein racial disparities in cancer death rates have sharply declined
+in recent years. 27 These findings represent a marked improvement as compared to 2 decades
+ago. Indeed, between 1998 and 2015, the African American-to-White overall
+mortality ratio decreased from approximately 1.56 to 1.16. 25 , 28 
+
+Our analysis of HCC management and outcomes contributes to the growing body of
+evidence indicating that the racial disparity gap is rapidly narrowing in the
+United States. We found that African Americans were equally likely to receive a
+recommendation for surgery as their White and Native American/Alaskan Native
+counterparts. In addition, overall survival was equivalent between all 3 ethnic
+groups ( Table 2 ).
+The underlying reasons for the narrowing racial disparity gap remain to be
+established, but it has been postulated that a dual strategy of universal and
+targeted interventions has played an important role in improving health care
+outcomes among African Americans. 25 Other investigators have proposed that the narrowing racial disparity gap
+can be explained simply by general changes in risk exposure and disease
+incidence that have occurred over time. 29 Notably, however, improved health care outcomes among African Americans
+are not universal across all conditions, and marked disparities still exist in
+the setting of gastric adenocarcinoma, 13 non-small cell lung cancer, 30 squamous cell carcinoma, 31 and many other malignancies.
+
+Gender has a marked effect on both HCC incidence and outcomes. Not only are women
+4 to 8 times less likely to develop HCC than men, but our analysis revealed that
+females with resectable tumors exhibit superior overall and 5-year survival.
+These findings are similar to those described by other authors. 32 In an analysis of SEER data collected between 1988 and 2010, Yang et al.
+observed superior overall survival among females as compared to males. Notably,
+investigators adjusted for race, stage of disease, tumor size, tumor grade, and
+year of diagnosis. The Yang group postulated that estrogen is protective against
+hepatocarcinogenesis; this hypothesis was supported by the observation that
+there is an inverse relationship between age at menopause and HCC risk.
+Moreover, the greatest gender disparity in overall survival was noted among
+women aged 18 to 44 years, in whom estrogen levels are presumably the highest.
+Previous studies have also demonstrated that use of hormone replacement therapy
+is associated with a lower risk of HCC. 33 Favorable prognostic factors that are more commonly observed among women
+with HCC—as compared to men—include smaller tumor size, lower bilirubin levels,
+and decreased frequency of venous invasion. 34 
+
+We postulate that the improved survival observed among women with resectable HCC
+is related to both sex hormones and behavioral risk factors. In addition to the
+aforementioned estrogen effects, data suggest that androgen/androgen receptor
+signaling promotes hepatocarcinogenesis and HCC development. 35 Furthermore, as compared to women, men are more likely to smoke
+cigarettes, drink alcohol, and present with HBV and HCV coinfection; all of
+these factors are associated with a poor prognosis. 36 
+
+It has been definitively established that individuals receiving government-funded
+insurance experience worse health care outcomes than those with private
+insurance. Indeed, in a 2019 study by Sobotka et al., authors concluded that
+patients with HCC who were on Medicaid, as compared to those with private
+insurance, were more likely to: (1) present with decompensated liver disease and
+other comorbidites; (2) have difficulty accessing specialists; (3) present with
+metastatic disease; (4) experience a lower quality of life; and (5) exhibit
+higher mortality. 10 In addition, patients with Medicaid were less likely to undergo HCC
+treatment, and those who did receive treatment were less likely to undergo
+expensive interventions, such as transarterial chemoembolization (TACE) and
+liver transplantation.
+
+Interestingly, although it has been hypothesized that the poor outcomes
+associated with Medicaid merely reflect the sequelae of poverty, we adjusted for
+median household income in our analysis and nevertheless found markedly poorer
+survival among individuals on Medicaid as compared to those with Medicare or
+private insurance.
+
+The factors underlying poor outcomes among the Medicaid population remain to be
+established. One important aspect identified by the Sobotka group is HCV, which
+represents the most common risk factor for HCC in the United States. Individuals
+on Medicaid are less likely to have access to curative treatment for HCV and are
+therefore more likely to go on to develop HCC than their privately-insured
+counterparts. Furthermore, in a recent study by Duma et al., investigators
+reported that individuals on Medicaid were more likely to refuse cancer
+treatment as compared to those with private insurance. 37 It is conceivable that this is fueled by a general sense of skepticism
+toward the medical community that is pervasive among the Medicaid
+population.
+
+Income has a significant effect on HCC survival. Our analysis revealed a strong
+survival advantage for individuals in the top 20% of median household income as
+compared to those of low income. Furthemore, high income patients were
+significantly more likely than those in the bottom 4 quintiles of median
+household income to undergo local treatment/ablation.
+
+The relationship between income and HCC outcomes has been previously
+investigated. In a 2017 retrospective analysis by Shen et al., authors evaluated
+the effect of household income on HCC mortality and survival rates. 38 Household income was stratified into 3 groups: low (<$50,000 per
+year), moderate ($50,000-$200,000), and high income (>$200,000). The Shen
+group observed a higher 30-day mortality rate in the low-income group as
+compared to the moderate and high-income groups. The highest income patients
+also had a significantly better prognosis than the moderate and low-income
+groups with a median survival of 46 months versus 37 months and 34 months,
+respectively.
+
+The underlying cause of income inequality in HCC survival remains to be
+established. However, Shen et al. reported that low-income individuals were more
+likely than their high-income counterparts to have a low educational level and
+live in a rural area. Low-income patients also presented with more advanced
+disease than either moderate or high-income groups, and high-income individuals
+had better Child-Pugh scores at admission than those in either of the other 2
+groups. The major risk factor that disproportionately affects those of low
+income therefore appears to be late diagnosis.
+
+Our study provides important insight into various sociodemographic
+characteristics that may predict outcomes in HCC. However, there are several
+limitations inherent to its design.
+
+First and foremost, the analysis was retrospective in nature and therefore cannot
+demonstrate causality. Second, there is no transplant data available through the
+SEER program. Third, the SEER program does not provide information pertaining to
+liver function or MELD scoring. Fourth, specific treatment information, such as
+chemotherapy data, is not available in the SEER database. Lastly, we we did not
+have baseline data on comorbidities. Despite these limitations, we were able to
+adjust for most variables pertinent to HCC outcomes.
+
+
+The Effect of Race on HCC Management and Outcomes
+
+The relationship between race and health care outcomes has been studied
+extensively. Data suggest that African Americans are disproportionately affected
+by racial disparities and are undertreated to a greater extent than members of
+any other ethnic group. 19 - 21 Previous investigations have demonstrated that health care inequality is
+particularly pronounced in the fields of hematology and oncology. African
+Americans with prostate cancer, for example, are significantly less likely to
+receive definitive therapy than their White counterparts. 22 Preventive cancer care is also suboptimal; African Americans are
+one-third less likely than Whites to receive a recommendation for colorectal
+cancer screening, 23 and mammography rates among African American women are significantly
+lower than any other ethnic group. 24 It has been postulated that these health care disparities can be
+attributed to various factors that affect the African American community,
+including limited access to health care, distrust of the medical establishment,
+and implicit bias. 13 
+
+Our investigation revealed several compelling findings that contribute to the
+ongoing discussion on race and health care disparities. Of particular interest
+is the narrowing health care gap between African Americans and other ethnic
+groups. Indeed, in a comparison of African American, White, and Native
+American/Alaskan Native individuals with resectable HCC, we found no significant
+differences in the likelihood of surgical recommendation or overall survival.
+The absence of any racial disparities between African Americans and Whites
+represents an important observation that is consistent with other recent
+findings pertaining to race and health care outcomes.
+
+In a landmark 2017 study published in Morbidity and Mortality Weekly
+Report , authors noted that the racial disparity gap in all-cause
+mortality rates narrowed from 33% in 1999 to 16% in 2015. 25 Other analyses have reported similar findings. A recent article on racial
+disparities in surgical mortality revealed that gaps between African Americans
+and Whites declined during the early-2000s; over the 9-year study period
+(2004-2015), authors observed a significant decrease in the mortality
+differential between African Americans and Whites. Furthermore, they found that
+the mortality trend was improving at a more rapid rate for African Americans
+than for Whites. 26 The narrowing health care gap has also been reported in the setting of
+oncology, wherein racial disparities in cancer death rates have sharply declined
+in recent years. 27 These findings represent a marked improvement as compared to 2 decades
+ago. Indeed, between 1998 and 2015, the African American-to-White overall
+mortality ratio decreased from approximately 1.56 to 1.16. 25 , 28 
+
+Our analysis of HCC management and outcomes contributes to the growing body of
+evidence indicating that the racial disparity gap is rapidly narrowing in the
+United States. We found that African Americans were equally likely to receive a
+recommendation for surgery as their White and Native American/Alaskan Native
+counterparts. In addition, overall survival was equivalent between all 3 ethnic
+groups ( Table 2 ).
+The underlying reasons for the narrowing racial disparity gap remain to be
+established, but it has been postulated that a dual strategy of universal and
+targeted interventions has played an important role in improving health care
+outcomes among African Americans. 25 Other investigators have proposed that the narrowing racial disparity gap
+can be explained simply by general changes in risk exposure and disease
+incidence that have occurred over time. 29 Notably, however, improved health care outcomes among African Americans
+are not universal across all conditions, and marked disparities still exist in
+the setting of gastric adenocarcinoma, 13 non-small cell lung cancer, 30 squamous cell carcinoma, 31 and many other malignancies.
+
+
+Gender and HCC
+
+Gender has a marked effect on both HCC incidence and outcomes. Not only are women
+4 to 8 times less likely to develop HCC than men, but our analysis revealed that
+females with resectable tumors exhibit superior overall and 5-year survival.
+These findings are similar to those described by other authors. 32 In an analysis of SEER data collected between 1988 and 2010, Yang et al.
+observed superior overall survival among females as compared to males. Notably,
+investigators adjusted for race, stage of disease, tumor size, tumor grade, and
+year of diagnosis. The Yang group postulated that estrogen is protective against
+hepatocarcinogenesis; this hypothesis was supported by the observation that
+there is an inverse relationship between age at menopause and HCC risk.
+Moreover, the greatest gender disparity in overall survival was noted among
+women aged 18 to 44 years, in whom estrogen levels are presumably the highest.
+Previous studies have also demonstrated that use of hormone replacement therapy
+is associated with a lower risk of HCC. 33 Favorable prognostic factors that are more commonly observed among women
+with HCC—as compared to men—include smaller tumor size, lower bilirubin levels,
+and decreased frequency of venous invasion. 34 
+
+We postulate that the improved survival observed among women with resectable HCC
+is related to both sex hormones and behavioral risk factors. In addition to the
+aforementioned estrogen effects, data suggest that androgen/androgen receptor
+signaling promotes hepatocarcinogenesis and HCC development. 35 Furthermore, as compared to women, men are more likely to smoke
+cigarettes, drink alcohol, and present with HBV and HCV coinfection; all of
+these factors are associated with a poor prognosis. 36 
+
+
+The Effect of Insurance on HCC Prognosis
+
+It has been definitively established that individuals receiving government-funded
+insurance experience worse health care outcomes than those with private
+insurance. Indeed, in a 2019 study by Sobotka et al., authors concluded that
+patients with HCC who were on Medicaid, as compared to those with private
+insurance, were more likely to: (1) present with decompensated liver disease and
+other comorbidites; (2) have difficulty accessing specialists; (3) present with
+metastatic disease; (4) experience a lower quality of life; and (5) exhibit
+higher mortality. 10 In addition, patients with Medicaid were less likely to undergo HCC
+treatment, and those who did receive treatment were less likely to undergo
+expensive interventions, such as transarterial chemoembolization (TACE) and
+liver transplantation.
+
+Interestingly, although it has been hypothesized that the poor outcomes
+associated with Medicaid merely reflect the sequelae of poverty, we adjusted for
+median household income in our analysis and nevertheless found markedly poorer
+survival among individuals on Medicaid as compared to those with Medicare or
+private insurance.
+
+The factors underlying poor outcomes among the Medicaid population remain to be
+established. One important aspect identified by the Sobotka group is HCV, which
+represents the most common risk factor for HCC in the United States. Individuals
+on Medicaid are less likely to have access to curative treatment for HCV and are
+therefore more likely to go on to develop HCC than their privately-insured
+counterparts. Furthermore, in a recent study by Duma et al., investigators
+reported that individuals on Medicaid were more likely to refuse cancer
+treatment as compared to those with private insurance. 37 It is conceivable that this is fueled by a general sense of skepticism
+toward the medical community that is pervasive among the Medicaid
+population.
+
+
+Income and HCC
+
+Income has a significant effect on HCC survival. Our analysis revealed a strong
+survival advantage for individuals in the top 20% of median household income as
+compared to those of low income. Furthemore, high income patients were
+significantly more likely than those in the bottom 4 quintiles of median
+household income to undergo local treatment/ablation.
+
+The relationship between income and HCC outcomes has been previously
+investigated. In a 2017 retrospective analysis by Shen et al., authors evaluated
+the effect of household income on HCC mortality and survival rates. 38 Household income was stratified into 3 groups: low (<$50,000 per
+year), moderate ($50,000-$200,000), and high income (>$200,000). The Shen
+group observed a higher 30-day mortality rate in the low-income group as
+compared to the moderate and high-income groups. The highest income patients
+also had a significantly better prognosis than the moderate and low-income
+groups with a median survival of 46 months versus 37 months and 34 months,
+respectively.
+
+The underlying cause of income inequality in HCC survival remains to be
+established. However, Shen et al. reported that low-income individuals were more
+likely than their high-income counterparts to have a low educational level and
+live in a rural area. Low-income patients also presented with more advanced
+disease than either moderate or high-income groups, and high-income individuals
+had better Child-Pugh scores at admission than those in either of the other 2
+groups. The major risk factor that disproportionately affects those of low
+income therefore appears to be late diagnosis.
+
+
+Limitations
+
+Our study provides important insight into various sociodemographic
+characteristics that may predict outcomes in HCC. However, there are several
+limitations inherent to its design.
+
+First and foremost, the analysis was retrospective in nature and therefore cannot
+demonstrate causality. Second, there is no transplant data available through the
+SEER program. Third, the SEER program does not provide information pertaining to
+liver function or MELD scoring. Fourth, specific treatment information, such as
+chemotherapy data, is not available in the SEER database. Lastly, we we did not
+have baseline data on comorbidities. Despite these limitations, we were able to
+adjust for most variables pertinent to HCC outcomes.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+Health care equality in the setting of HCC represents an ambitious challenge. A dual
+strategy of universal and targeted interventions can be effective in reducing racial
+disparities. Gender disparities may be improved by promoting healthy lifestyle
+habits among men. The inferior outcomes observed among uninsured individuals and
+those on Medicaid may need to be addressed through comprehensive health care reform.
+As economic inequality remains at the forefront of our national dialogue, community
+investment should target low-income districts to improve screening and access to
+consultative care. Furthermore, understanding the biologic basis for the higher
+survival observed in Asians will hopefully translate into improved care for
+minorities and low income individuals. We believe that our analysis provides a
+framework for future avenues of research that will help improve HCC outcomes among
+the most underserved segments of the population.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

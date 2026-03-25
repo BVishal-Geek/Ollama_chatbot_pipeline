@@ -1,0 +1,19 @@
+Source: PMC7440732_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "The Integrated Analyses of Driver Genes Identify Key Biomarkers in Thyroid Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "The clinical features of 501 thyroid cancer patients were downloaded at the Broad Institute and included patient outcome, number of lymph nodes, tumor size and pathologic stage.",
+  "N_E": 1,
+  "N_E_reason": "The study analyzed 405 thyroid cancer samples using multiomics data from the TCGA database.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

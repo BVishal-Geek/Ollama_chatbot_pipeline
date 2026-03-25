@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Constructing disease onset signatures using multi-dimensional network-structured biomarkers
+PMCID: PMC6920525
+PMID: 30084874
+KEYWORDS: clinical trial design, large-scale biomarkers, locally varying effect, network regularization, neurological disorders
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Potential disease-modifying therapies for neurodegenerative disorders need to be introduced prior to the symptomatic stage in order to be effective. However, current diagnosis of neurological disorders mostly rely on measurements of clinical symptoms and thus only identify symptomatic subjects in their late disease course. Thus, it is of interest to select and integrate biomarkers that may reflect early disease-related pathological changes for earlier diagnosis and recruiting pre-sypmtomatic subjects in a prevention clinical trial. Two sources of biological information are relevant to the construction of biomarker signatures for time to disease onset that is subject to right censoring. First, biomarkers’ effects on disease onset may vary with a subject’s baseline disease stage indicated by a particular marker. Second, biomarkers may be connected through networks, and their effects on disease may be informed by this network structure. To leverage these information, we propose a varying-coefficient hazards model to induce double smoothness over the dimension of the disease stage and over the space of network-structured biomarkers. The distinctive feature of the model is a non-parametric effect that captures non-linear change according to the disease stage and similarity among the effects of linked biomarkers. For estimation and feature selection, we use kernel smoothing of a regularized local partial likelihood and derive an efficient algorithm. Numeric simulations demonstrate significant improvements over existing methods in performance and computational efficiency. Finally, the methods are applied to our motivating study, a recently completed study of Huntington’s disease (HD), where structural brain imaging measures are used to inform age-at-onset of HD and assist clinical trial design. The analysis offers new insights on the structural network signatures for premanifest HD subjects.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

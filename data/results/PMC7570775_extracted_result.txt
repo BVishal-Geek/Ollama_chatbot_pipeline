@@ -1,0 +1,19 @@
+Source: PMC7570775_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "An 8 miRNA-Based Risk Score System for Predicting the Prognosis of Patients With Papillary Thyroid Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "The clinical information of the entire set, the training set, and the validation set were arranged and listed.",
+  "N_E": 1,
+  "N_E_reason": "A total of 553 samples (including 57 normal controls and 496 PTC samples) with both miRNA data, mRNA expression data and survival prognosis information were selected.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data obtained from TCGA database (https://cancergenome.nih.gov/).",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

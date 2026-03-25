@@ -1,0 +1,279 @@
+================================================================================
+ARTICLE TITLE: The Clinical Characteristics of Endometrial Cancer With
+Extraperitoneal Metastasis and the Value of Surgery in Treatment
+PMCID: PMC7388101
+PMID: 32721274
+KEYWORDS: endometrial cancer, extraperitoneal metastasis, surgery, prognosis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+To describe the clinical and pathological features of endometrial carcinoma
+with extraperitoneal metastasis and examine whether surgery could improve
+the prognosis.
+
+Methods::
+The Surveillance, Epidemiology, and End Results database was used to analyze
+730 patients who were diagnosed with extraperitoneal metastasis of
+endometrial cancer from 2010 to 2015, including metastasis to the lung,
+bone, or brain.
+
+Results::
+Of the 730 patients, 372 (50.96%) patients had single lung metastases, and
+196(26.85%) patients had multiple organ metastases that included pulmonary
+invasion. Therefore, the lung was the most common target organ for
+extraperitoneal metastasis of endometrial cancer. In multivariate risk
+factor analysis, grade 3 tumor (odds ratio = 3.39, P <
+.001), positive peritoneal cytology (odds ratio = 2.02, P < .001), and cervical stromal invasion (odds ratio = 1.42, P = .030) were independent risk factors for
+extraperitoneal metastasis. Once metastasis occurred in the brain or
+multiple organs, the prognosis was often poor. Of the patients, 362
+underwent surgery, and surgery was performed only for primary tumors of the
+reproductive organs in almost all patients (97.23%) with extraperitoneal
+metastasis. The median cancer-specific survival periods of patients with
+solitary pulmonary metastasis undergoing surgery and those without surgery
+were 23 (16.43-29.57) months and 9 (6.21-11.79) months, respectively
+( P < .001), and survival superiority also existed in
+patients with bone metastasis (19 vs 8 months, P = .015)
+and multiple organs metastases (15 vs 4 months, P <
+.001). However, patients with brain metastasis had the same median survival
+period in the 2 groups (6 months, P = .146).
+
+Conclusions::
+The lung was the most common target organ for extraperitoneal metastasis in
+patients with endometrial cancer. Surgery was associated with improved
+survival in women with extraperitoneal metastasis, except for patients with
+brain metastasis.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+The incidence and mortality of endometrial cancer are increasing. 1 Patient prognosis is relatively optimistic in the early stages, especially
+for endometrioid carcinoma. However, the prognosis for patients with advanced
+disease is extremely poor, with metastasis being the main cause of death. 2 According to the International Federation of Gynecology and Obstetrics (FIGO)
+26th Annual Report on the Results of Treatment in Gynecological Cancer, the
+incidence of stage IV endometrial cancer was 3% and the 5-year survival rate was 19% 3 It is difficult to clarify the clinical characteristics of patients with
+extraperitoneal metastasis due to the low incidence and variable presentation.
+Several retrospective studies have shown that surgery could improve prognosis in
+this disease. 4 - 6 However, some authors contend that the prognosis of advanced endometrial
+cancer depends on its biological characteristics and that surgery was not a
+protective factor for survival. 7 Furthermore, in clinical practice, it is often difficult to determine if
+surgery is worth performing once extraperitoneal metastasis occurs. The treatment
+options in the 2018 National Comprehensive Cancer Network (NCCN) guidelines for
+advanced endometrial adenocarcinoma are equally variable. 8 Strategies for the treatment of extraperitoneal metastasis require more
+extensive research. In this study, we analyzed the clinical features of endometrial
+carcinoma with extraperitoneal metastasis, including lung, bone, and brain
+metastases, and investigated the value of surgery in patient prognosis.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The patients were selected from the SEER database. The eligibility criteria included
+the following: (1) a primary diagnosis of endometrial cancer, including metastasis
+to at least one site that included the lung, bone, or brain, between 2010 and 2015;
+and (2) a pathological diagnosis of endometrioid adenocarcinoma, serous
+adenocarcinoma, or clear cell adenocarcinoma.
+
+A total of 730 patients met the inclusion criteria. Extraperitoneally negative
+patients with stage III or stage IVA endometrioid adenocarcinoma, serous
+adenocarcinoma, or clear cell adenocarcinoma tumors during the same period were
+selected as the control group (n = 3650). The recorded data included the age at
+diagnosis, grade, histology, tumor invasion, lymphatic dissemination, surgery,
+peritoneal cytology, extraperitoneal metastatic organs, and months of survival. The
+surgical site was recorded by program coding. Codes 40 and 50 represented total
+hysterectomy with or without removal of a fallopian tube and ovary, and code 60
+represented radical hysterectomy. Codes 11 and 12 represented local tumor
+destruction via photodynamic therapy or fulguration. However, the local location was
+not clear. Survival was calculated as the number of months from cancer diagnosis to
+death.
+
+SPSS Statistics version 22 was used for the statistical analyses. The clinical and
+pathological characteristics were compared using Pearson χ 2 and Fisher
+exact tests. Multivariate logistic models were performed to estimate the odds ratio
+(OR) and 95% CI to analyze independent risk factors for extraperitoneal metastasis.
+The Kaplan-Meier and log-rank tests were used to estimate survival and compare
+differences between the groups, respectively. Values of P less than
+.05 were considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Patients with stage IVB accounted for 5.67% (4231) of the cases in the SEER database.
+Before 2010, this proportion was only 2.44%. A total of 730 patients with stage IVB
+disease were diagnosed with at least one extraperitoneal metastasis, such as to the
+lung, bone, or brain. The demographic and clinical features of the patients with
+endometrial carcinoma with extraperitoneal metastasis are shown in Table 1 . The average age
+at diagnosis was 64.81 ± 10.92 years. Of the 730 patients, 113 (15.48%) presented
+with bone metastases, 372 (50.96%) with lung metastases, 27 (3.70%) with brain
+metastases, and 218 (29.86%) with multiple metastases (including two or more
+metastatic organs). One hundred ninety-six patients had multiple organ metastases
+that included pulmonary invasion. Therefore, the proportion of lung metastasis in
+patients with extraperitoneal metastasis was as high as 77.81%. Of the patients, 362
+patients underwent surgery, 317 of which underwent total hysterectomies with or
+without removal of a fallopian tube and ovary. Thirty-five patients underwent
+radical hysterectomies. Another 10 patients had local tumor destruction. In our
+cohort, surgery was performed for primary tumors of the reproductive organs in
+almost all patients (97.23%) with extraperitoneal metastasis. Surgery was not
+performed at the metastatic site. However, in the 10 patients who received
+photodynamic therapy or fulguration, the location of the tumor destruction was not
+clear. In multivariate models, grade 3 tumor (OR = 3.39, P <
+.001), positive peritoneal cytology (OR = 2.02, P < .001), and
+cervical stromal invasion (OR = 1.42, P = .030) were independent
+high-risk factors for extraperitoneal metastasis compared to patients with advanced
+disease without extraperitoneal metastasis ( Table 2 ).
+
+Demographic and Clinical Features of Endometrial Cancer With Extraperitoneal
+Metastases.
+
+Multivariate Risk Factor Analysis for Extraperitoneal Metastases.
+
+Abbreviation: OR, odds ratio.
+
+Kaplan-Meier univariate analysis of the entire cohort of patients with endometrial
+cancer with extraperitoneal metastasis revealed that, in addition to tumor grade and
+lymph node metastasis, extraperitoneal metastasis of organs and surgery were 2
+important factors affecting survival. The median survival period of the different
+groups based on surgery is shown in Table 3 . The median survival periods of
+patients with lung, bone, or brain metastases were 17 (14.25-19.75) months, 15
+(8.55-21.45) months, and 6 (1.40-10.60) months, respectively. Once multiple
+metastases occur, the median survival period was 7 (4.41-9.60) months. In evaluating
+the effect of surgery on survival, the median survival periods of patients with
+lung, bone, brain, and multiple organs metastases that did undergo surgery were 9
+months, 8 months, and 4 months, respectively; whereas surgery significantly improved
+the survival of patients with lung, bone, or multiple organ dissemination to median
+survival periods of 23 months, 19 months, and 15 months, respectively. However,
+there was no significant difference in the survival of patients with brain
+metastasis who underwent surgery and those who did not.
+
+The Median Survival Period of Different Groups Based on Surgery (Months).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+The epidemiology of endometrial cancer with distant metastasis is not well
+characterized due to the rarity of this condition. According to the FIGO 26th Annual
+Report, approximately 3% of patients with endometrial cancer treated between 1999
+and 2001 were classified with stage IV disease. 3 Our results, based on SEER data, demonstrated that the incidence of stage IVB
+disease increased to 5.67% from 2010 to 2015, indicating an increased incidence in
+patients with advanced endometrial cancer. In stage IVB disease, most patients have
+intra-abdominal metastasis, such as liver and omentum invasion, and only 17.25% of
+the patients had extraperitoneal metastasis. Poorly differentiated, positive
+peritoneal cytology, and cervical stromal invasion are independent high-risk factors
+for extraperitoneal metastasis. These factors have been widely accepted as high-risk
+endometrial cancer features by clinicians. It is worthy to emphasize that,
+clinically, more attention should be paid to patients with high-risk factors who are
+prone to extraperitoneal metastasis.
+
+Endometrial carcinoma has the highest frequency of pulmonary metastasis compared to
+other gynecologic malignancies, such as cervical and ovarian cancers, occurring in
+up to 20% to 25% of the patients with reoccurrence. 9 In our study, the lungs accounted for the majority of the affected organs
+(77.81%). In patients with multiple organ metastases, pulmonary metastases were
+found in 89.91% of the cases. The prevalence of bone metastasis in endometrial
+carcinoma ranges from 4% to 7%, which is the second most commonly involved
+extraperitoneal organ, 10 whereas central nervous system involvement is relatively rare (1%). 11 The prognosis of patients with stage IVB disease is generally poor. 12 , 13 Patients with lung or bone metastases often have better outcomes than
+patients with brain metastasis (median cancer-specific survival period 15 or 14
+months vs 6 months, respectively). Once multiple metastases occur, the prognosis is
+very poor, with a median survival time of 7 months. Turan reported that the overall
+survival of patients with isolated pulmonary metastasis was 54 months, compared to
+10 months in patients with synchronized pulmonary recurrence (metastasis to other
+organs as well). 14 
+
+Surgery remains controversial for patients with advanced endometrial cancer with
+distant metastasis. Tanioka et al  7 suggested that optimal cytoreductive surgery as a primary therapy was not
+significantly correlated with overall survival. However, the histologic
+characteristics and the extent of the disease were more important determinants of
+outcomes than any type of treatment. The 2018 NCCN guidelines recommended choosing
+palliative hysterectomy with or without chemotherapy, radiotherapy, or hormonal
+therapy according to the characteristics of stage IVB. 8 However, in recent years, surgery as an important basic treatment has become
+widely accepted by researchers. Several studies have reported that optimal surgical
+cytoreduction was essential for achieving the best therapeutic effects. 15 - 17 Ueda et al  18 showed that the median progression-free survival and overall survival (OS) of
+patients with optimal cytoreduction were significantly better than those with
+suboptimal reduction, not only among stage IVB patients with only intra-abdominal
+metastasis but also among patients with extra-abdominal metastasis. A meta-analysis
+by Barlin et al  19 reported that optimal cytoreduction could improve survival in advanced and
+recurrent endometrial cancer. Of note, most extraperitoneal metastases were
+unresectable in these studies. 15 - 17 Eto found that intra-abdominal optimal cytoreductive surgery, including
+hysterectomy, were prognostic factors in the presence of extra-abdominal metastasis. 20 , 21 We compared the OS between patients who underwent surgery and those who did
+not. Surgery was performed only for primary tumors of the reproductive organs in
+almost all cases in our study, and the results confirmed that surgery had a
+beneficial effect on prognosis. Surgery prolonged the cancer-specific survival of
+patients with isolated lung or bone metastases, but not for patients with brain
+metastasis. Surgical intervention was a favorable prognostic factor even in patients
+with multiple organ metastases.
+
+Due to the complexity of advanced tumors and poorer performance in elderly patients,
+a surgical strategy to achieve optimal cytoreduction is worth consideration. In a
+study by Rabinovich, the neoadjuvant setting was associated with maximal debulking
+rates and improved or equivalent survival. 16 Eto et al  20 divided 426 stage IVB patients into 3 groups according to their initial
+treatment: primary surgery, primary chemotherapy, and palliative care. The median OS
+of these groups was 21, 12, and 1 month, respectively ( P <
+.0001). In the primary chemotherapy group, when patients subsequently underwent
+surgery, they achieved similar OS to those in the primary surgery group. Based on
+these studies and our results, surgery is recommended as the first treatment choice
+for endometrial cancer with distant metastasis when optimal cytoreductive surgery is
+applicable. Otherwise, preoperative reduction of the tumor burden by chemotherapy is
+the most advantageous choice.
+
+Brain metastasis is rare in endometrial cancer and the prognosis is generally poor.
+Our research revealed that patients with brain metastasis had a median survival time
+of approximately 6 months, which is much shorter than the expected survival for
+metastasis to other organs. Strategies for brain metastasis include surgical
+resection, chemotherapy, and radiotherapy, for example, stereotactic radiosurgery
+and whole-brain radiation therapy. Each treatment has shown efficacy in some
+literature reviews of case reports and studies with small case series. 22 - 24 Uccella et al  25 found that complete surgical resection of cerebral lesions plus radiotherapy
+was independently associated with prolonged survival after a diagnosis of brain
+metastasis, whereas our study indicated that surgery did not improve the survival of
+those patients. The potential value of surgery needs further study. We prefer to
+make individualized plans according to the patient’s physical condition, the regions
+of the brain affected, the degree of dissemination, and other relevant factors, with
+the aim of improving the patient’s end-stage quality of life and survival.
+
+There are some limitations to our study. First, adjuvant therapy is an important
+treatment for patients with advanced endometrial cancer. However, chemotherapy and
+radiotherapy data of the patients were not available due to the limitations of the
+database. Therefore, the impact of radiotherapy and chemotherapy on the patients
+could not be analyzed. Second, almost all patients in our study were treated only
+for primary tumors, except for 10 individual patients where the location of the
+tumor destruction was unclear. It is not clear whether the removal of a metastatic
+tumor benefits patients with advanced disease. The best surgical treatment strategy
+for patients with distant metastasis needs to be further explored.
+
+In conclusion, stage IVB disease with extraperitoneal metastasis was closely related
+to grade 3 tumors, positive peritoneal cytology, and cervical stromal invasion.
+Surgery at the primary site played an important role in improving the survival of
+patients, except for patients with brain metastasis. Individualized treatment
+strategies, including optimal cytoreductive surgery and pre- and postoperative
+adjuvant therapy, should be selected according to the patient’s condition.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

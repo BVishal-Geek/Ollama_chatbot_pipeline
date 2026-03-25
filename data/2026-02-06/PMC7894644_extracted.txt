@@ -1,0 +1,60 @@
+================================================================================
+ARTICLE TITLE: The Role of ERO1α in Modulating Cancer Progression and Immune Escape
+PMCID: PMC7894644
+PMID: 33615311
+KEYWORDS: ero1, cancer, er stress, cancer therapeutics, immune resistance
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Endoplasmic reticulum oxidoreductin-1 alpha (ERO1α) was originally shown to be an endoplasmic reticulum (ER) resident protein undergoing oxidative cycles in concert with protein disulfide isomerase (PDI) to promote proper protein folding and to maintain homeostasis within the ER. ERO1α belongs to the flavoprotein family containing a flavin adenine dinucleotide utilized in transferring of electrons during oxidation-reduction cycles. This family is used to maintain redox potentials and protein homeostasis within the ER. ERO1α’s location and function has since been shown to exist beyond the ER. Originally thought to exist solely in the ER, it has since been found to exist in the golgi apparatus, as well as in exosomes purified from patient samples. Besides aiding in protein folding of transmembrane and secretory proteins in conjunction with PDI, ERO1α is also known for formation of de novo disulfide bridges. Public databases, such as the Cancer Genome Atlas (TCGA) and The Protein Atlas, reveal ERO1α as a poor prognostic marker in multiple disease settings. Recent evidence indicates that ERO1α expression in tumor cells is a critical determinant of metastasis. However, the impact of increased ERO1α expression in tumor cells extends into the tumor microenvironment. Secretory proteins requiring ERO1α expression for proper folding have been implicated as being involved in immune escape through promotion of upregulation of programmed death ligand-1 (PD-L1) and stimulation of polymorphonuclear myeloid derived suppressor cells (PMN-MDSC’s) via secretion of granulocytic colony stimulating factor (G-CSF). Hereby, ERO1α plays a pivotal role in cancer progression and potentially immune escape; making ERO1α an emerging attractive putative target for the treatment of cancer.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+The failure to eradicate minimal residual disease often located at metastatic sites and/or the bone marrow niche continues to be a clinical barrier for successful treatments in cancer [ 1 – 4 ]. Unfortunately, in some tumor’s disease relapse is associated with a multi-drug resistant phenotype that corresponds to resistance to structurally and functionally divergent agents. Similar to conventional therapies the success of immune-oncology is limited to the occurrence of primary resistance in some patients, as well as emergence of acquired resistance [ 5 ]. Accumulating experimental evidence indicates that the tumor microenvironment plays a critical role in mediating sensitivity to targeted agents as well as immunotherapy [ 6 , 7 ]. Thus, to improve the gap in patient outcomes new targets need to be validated in the context of the metastatic phenotype and the tumor microenvironment. This review will discuss the potential of ERO1α as target for the treatment of cancer. Despite the endoplasmic reticulum being one of the largest cellular organelles, it was one of the last ones discovered [ 8 ]. Originally described by Emilio Veratti in 1902, it was not until the electron microscope was available that George Palade and Keith Porter made the rediscovery [ 9 – 11 ] capturing the structural complexities and tubular structure existing in the cytoplasm [ 12 ]. Since the re-discovery, the ER has been identified to be a continuous membranous organelle essential for protein folding, calcium storage, lipid metabolism, protein transport, post-translational modifications, and protein transport via vesicles [ 13 ]. It is composed of two main parts; smooth ER and rough ER. The rough ER is composed of ribosomes and continuous cisternae that have an important role in protein folding and storage, while the smooth ER is void of ribosomes and composed mainly of microtubules, and is critical for synthesis and storage of lipids. Maintaining homeostasis within the ER is essential for proper formation of desulphated bridges and ultimately, protein folding [ 14 ]. A major determinant of homeostasis occurs through oxidative enzymes of the flavin dependent endoplasmic reticulum oxidoreductin-1 (ERO1α) family [ 15 – 19 ] and by the buffering capacity of reduced glutathione (GSH) and oxidized glutathione (GSSG) in a 3:1–6:1 molar ratio in favor of reduced glutathione [ 20 – 22 ]. ERO1α is known to oxidize protein disulfide isomerase (PDI) in order to form de novo disulfide bridges [ 16 ]. The crucial function of disulfide bridging occurring in the ER between ERO1α and PDI have been well-established [ 23 ]. Briefly, the target unfolded protein within the ER can be oxidized by PDI resulting in the reduction of PDI. Oxidized ERO1α can in turn lead to the recycling of PDI to the oxidized from. Reduced ERO1α can be oxidized and form de-novo disulfide bridge utilizing FAD as a cofactor leading to FADH and reduction of molecular oxygen to ROS (See Figure 1 ).
+
+Cancer cells typically are under increased levels of ER stress. ER stress is most evident in secretory tumors such as multiple myeloma, breast, lung and pancreatic. However, other inducers of ER stress include hypoxia and chemotherapy. Given the importance of ER homeostasis, ERO1α-PDI interaction, and formation of de novo disulfide bridges ERO1α has emerged as a player in the regulation and tolerance of cancer cells to ER stress [ 24 ]. An increase in ER-stress can lead to two possible outcomes: 1.) unfolded protein response (UPR) once activated ultimately brings ER stress back to homeostasis via inhibition of translation and inducing cell cycle arrest, or 2.) if ER stress is not resolved than apoptosis occurs through release of cytochrome C and caspase activation, ultimately protecting the organism from rogue cells that display misfolded proteins [ 25 ]. Despite UPR being the main pathway to ER stress resolution; UPR has also been linked to autophagic flux. Autophagy can either be inhibited or activated upon ER stress [ 26 ]. Though autophagy is related to ER stress it is not always activated under ER stress conditions. Autophagy is an orchestrated process by which misfolded proteins, damaged or aged organelles, or even mutated proteins are sequestered in an autophagosome that ultimately fuses to the lysosome leading to degradation of sequestered components [ 27 ]. Reports recently have showed that withanolide E in combination with ER stress inducers enhance apoptosis synergistically in pancreatic cancer models [ 28 ]. Multiple cancer types have been reported to have increased ER stress including multiple myeloma, lung, breast, and pancreatic [ 29 – 31 ]. Differences in ER stress can be driven by genetic, epigenetic, and microenvironmental heterogeneity that likely result in a range of pro-survival and anti-apoptotic responses [ 32 ]. Anticancer interventions such as chemotherapy has also been shown to modulate UPR (Unfolded protein response) though clinical implications are only starting to be understood [ 33 , 34 ]. Recent studies have showed that depending on the context cancer cells can utilize UPR as a resistance mechanism [ 35 ].
+
+Interestingly, overexpression of ERO1α tends to have a worse prognosis in multiple cancer indications; multiple myeloma [ 36 ], breast [ 37 – 39 ] and hepatocellular carcinoma [ 40 ], as well as lung, esophageal, diffuse B-cell lymphoma, and others according to The Cancer Genome Atlas (TCGA) and The Protein Atlas. These data indicate that expression is increased in aggressive and/or drug resistant disease and support the premise the ERO1α is a tractable target for the treatment of cancer. Below, we will delve into four specific topics that will reveal and shed light onto 1.) the structure, function, localization, and characterization of flavin containing ERO1α, 2.) Disease indications, 3.) immune surveillance, and immune evasion and how they are related to ERO1α and 4) chemical probes currently available to test the ERO1α-PDI pathway.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

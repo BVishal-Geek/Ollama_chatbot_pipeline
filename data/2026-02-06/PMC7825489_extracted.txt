@@ -1,0 +1,64 @@
+================================================================================
+ARTICLE TITLE: Cost-Utility of Early Breast Cancer Surveillance in Survivors of Thoracic Radiation-Treated Adolescent Hodgkin Lymphoma
+PMCID: PMC7825489
+PMID: 31070751
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+Adolescent women treated for Hodgkin lymphoma (HL) are at increased risk of breast cancer (BC). We evaluate the cost-utility of eight high-risk BC surveillance strategies for this population, including the Children’s Oncology Group guideline of same-day annual mammography and magnetic resonance imaging (MRI) beginning at age 25 years.
+
+Methods:
+A discrete event simulation model was used to simulate the life histories of a cohort of 500 000 25-year-old women treated for HL at age 15 years. We estimated BC incidence and mortality, life expectancy, quality-adjusted life-years (QALYs), health-care costs, and the relative cost-utility (incremental cost-utility ratio [ICUR]) under the eight assessed surveillance strategies. One-way sensitivity analysis enabled modeling of uncertainty evaluation. A publicly funded health-care payer perspective was adopted.
+
+Results:
+Costs across the eight screening strategies ranged from $32 643 to $43 739, whereas QALYs ranged from 24.419 to 24.480. In an incremental cost-effectiveness analysis, annual mammography beginning at age 25 years was associated with an ICUR of $43 000/QALY gained, annual MRI beginning at age 25 years with a switch to annual mammography at age 50 years had an ICUR of $148 000/QALY, and annual MRI beginning at age 25 years had an ICUR of $227 222/QALY. Among all assessed surveillance strategies, the differences in life expectancy were small.
+
+Conclusions:
+Current high-risk BC surveillance guidelines do not reflect the most cost-effective strategy in survivors of adolescent HL. The results suggest that groups at high risk of BC may require high-risk surveillance guidelines that reflect their specific risk profile.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

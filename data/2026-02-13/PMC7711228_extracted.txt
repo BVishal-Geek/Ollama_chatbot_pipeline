@@ -1,0 +1,669 @@
+================================================================================
+ARTICLE TITLE: MicroRNA-126-5p Inhibits the Migration of Breast Cancer Cells by
+Directly Targeting CNOT7
+PMCID: PMC7711228
+PMID: 33256566
+KEYWORDS: mir-126-5p, cnot7, breast cancer, migration
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+To assess the effect of microRNA-126-5p (miR-126-5p) on the migration of the
+breast cancer MCF7 cell line.
+
+Methods::
+GSE143564 was downloaded from the Gene Expression Omnibus (GEO; http://www.ncbi.nlm.nih.gov/geo ) to identify the
+differentially expressed miRNAs between breast cancer and adjacent tissues.
+Quantitative reverse transcription PCR (RT-qPCR) was used to assess
+miR-126-5p levels in the normal 184A1 breast cell line and the breast cancer
+MCF7 cell line. The MCF7 cell line was then transfected with miR-126-5p
+mimics or corresponding negative control (NC-mimic). The proliferation and
+migration abilities of the MCF7 cell line were measured by methyl thiazolyl
+tetrazolium (MTT), Transwell and scratch healing assays. CCR4-NOT
+transcription complex and subunit 7 (CNOT7) expression levels in the
+NC-mimic and miR-126-5p mimic groups were measured by Western blot analysis.
+Bioinformatic analysis and a dual-luciferase reporter assay were performed
+to identify the miR-126-5p target gene.
+
+Results::
+One hundred forty-eight differentially expressed miRNAs (downregulated = 55,
+upregulated = 93) were identified. MiR-126-5p expression in the MCF7 cell
+line was significantly downregulated relative to that of 184A1 cell line (P
+< 0.05). Compared with that observed in the control and NC-mimic groups,
+cell proliferation in the miR-126-5p mimic group was significantly decreased
+at 48 and 72 h posttransfection (P < 0.05). In addition, the scratch
+healing rate and number of membrane-piercing cells in the miR-126-5p
+overexpression group were lower than those detected in the control and NC
+groups (P < 0.05). Furthermore, miR-126-5p could reduce the luciferase
+activity for the wild-type CNOT7 gene 3’-untranslated region (UTR) reporter
+(P < 0.05) but had no effect on the mutant 3’UTR reporter (P > 0.05).
+Compared with that observed in the NC and control groups, the levels of
+CNOT7 in the miR-126-5p overexpression group decreased (P < 0.05).
+
+Conclusion::
+Upregulation of miR-126-5p can inhibit the migration of the breast cancer
+MCF7 cell line, which may involve its direct targeting of the 3’UTR of
+CNOT7.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Breast cancer remains the primary cause of cancer-related deaths worldwide. 1 , 2 For patients with late-stage breast cancer, the total 5-year survival rate is
+only approximately 15%, which is primarily due to lymph node invasion or conditions
+with higher transfer rates such as bone transfer and brain metastasis. 3 Multiple chemotherapy and radiation resistance are also significant factors. 4 Therefore, studying the molecular mechanisms of breast cancer development and
+identifying new treatment targets are important for improving the treatment of patients. 5 , 6 
+
+MicroRNAs are small fragments of endogenous single-chain noncoding RNA that are
+approximately 19∼25 nt in length, highly conserved, and involved in all aspects of
+cell biological function, such as cell proliferation, differentiation, migration and apoptosis. 7 , 8 MiRNAs can play a carcinogenic or tumor suppressive roles in cancer
+progression by specifically binding to mRNA of the target gene. 9 It is estimated that the expression of mRNAs for more than 10,000 genes in
+the human genome is regulated by miRNAs. 10 Interestingly, miR-126-5p has been shown to act as a tumor suppressor gene in
+many types of cancer 11 , 12 and has also been observed to be abnormally expressed in endometriosis.
+Furthermore, a previous study showed that miR-126-5p downregulates BCAR3 expression
+to promote cell migration and invasion in endometriosis. 13 However, little is known regarding the mechanism of miR-126-5p in breast
+cancer progression.
+
+Therefore, in the present study, we examined the role and mechanism of miR-126-5p in
+the regulation of migration of MCF7 cells. We observed that miR-126-5p could
+directly bind to CCR4-NOT transcription complex and subunit 7 (CNOT7) mRNA to
+regulate MCF7 cell migration.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+GSE143564 was downloaded from the Gene Expression Omnibus (GEO; http://www.ncbi.nlm.nih.gov/geo ). GSE143564 was based on the
+Affymetrix Multispecies miRNA-4 Array [Probe Set ID version] platform and
+included 6 samples (3 breast tissues and 3 adjacent tissues). Quantile
+normalization was used to minimize inconsistencies in the GSE series.
+Differentially expressed miRNAs between breast and adjacent tissues were
+identified with the Limma package in the R software environment and were plotted
+using a volcano plot and heatmap using the R packages “ggplot2” and “pheatmap.”
+Then, we selected the most significant differentially expressed miRNAs for
+further analyses. Three miRNA target gene databases (TargetScan, miRanda and
+miRDB) were used to predict the target genes of miRNAs. Then, a Venn diagram was
+constructed using the online tool jvenn ( http://www.bioinformatics.com.cn/static/others/jvenn/example.html )
+to overlap the genes obtained from these 3 databases. Subsequently, enrichment
+analysis was performed using the Metascape online tool ( http://metascape.org ). MiR-126-5p and its target gene network
+were constructed with Cytoscape ( http://apps.cytoscape.org/ ).
+
+Twenty primary breast cancer tissue samples and 20 corresponding adjacent normal
+mammary tissue samples were obtained from XuZhou Central Hospital. The diagnosis
+of breast cancer was pathologically confirmed, and only tumor-node-metastasis
+(TNM) stage III patients were included. The patients had not received hormone or
+adjuvant therapy prior to breast cancer surgery. All patients and their families
+agreed to participate in the experiment and provided written informed consent.
+This study was approved by the Research Ethics Committee of XuZhou Central
+Hospital (approval no: XZCH-2018-0515, date: 15 March 2018). All tissues were
+stored in RNA preservation solution and used for RNA extraction.
+
+MCF7 cells were cultured in DMEM supplemented with 10% fetal bovine serum (FBS)
+and 100 U/ml of penicillin in standard conditions in a humidified CO 2 incubator at 37 °C and under an atmosphere with 5% CO 2 . When the
+cells reached approximately 80% confluency, they were digested with 0.25%
+trypsin and passaged. Cells were inoculated into 6-well plates at a density of
+1×10 5 cells per well and then changed to serum-free medium when
+they reached approximately 50∼60% confluency. MCF7 cells were transfected with
+miR-126-5p mimics (overexpression group), negative control (NC group), pcDNA and
+pcDNA-CNOT7 using Lipofectamine ® 2000 according to the manufacturer’s
+instructions. The assays were repeated in 3 independent assays in
+triplicate.
+
+MCF7 cells were inoculated into a 96-well plate (1×10 4 cells per
+well). After transfection, 5 μg/µl of MTT solution was added to each well for 0,
+24, 48, or 72 h. After culturing for 4 h, dimethyl sulfoxide was added to stop
+the reaction. The absorbance values of each well at 490 nm were detected by a
+microplate reader, and the cell proliferation in each well was determined using
+a blank as the control.
+
+MCF7 cells were cultured to monolayers in a routine manner. Then, a straight line
+was scratched into the monolayer with a sterilized yellow tip to form a
+cell-free growth zone (i.e., a scratch). The width of the scratch was
+approximately 500 μm, and the relative distance of the scratch zone was
+recorded. Then, the exfoliated cells were washed away in serum-free medium.
+After conventional culture in a constant temperature incubator for 4 h, the
+exfoliated cells were washed away, the adhered cells were observed and imaged
+under an inverted microscope, and the relative distance of cell migration from
+the injured area was analyzed.
+
+Transwell chambers (8 µm aperture) were used to assess cell migration. MCF7 cells
+(5×10 4 ) were inoculated in serum-free medium and added to the
+upper chamber, while the lower chamber contained medium with 10% serum. After 48
+h of culture, the cells that did not pass through the upper cavity were removed
+and washed. Then, the cells were fixed in 4% paraformaldehyde for 30 min,
+stained with crystal violet, and then observed under an optical microscope and
+imaged. Five fields were randomly selected for counting in each group.
+
+Total RNA was extracted from 184A1 and MCF7 cells using TRIzol reagent, and the
+total RNA concentration was determined using a Tecan Nano Quant
+Plate TM instrument. Total RNA (1 ng) was used to synthesize cDNA
+with a One Step Prime Script cDNA Synthesis kit according to the manufacturer’s
+instructions. The cDNA was then used as a template for RT-qPCR, which was
+performed using a One Step SYBR ® Prime Script tm TR-PCR kit
+in an ABI 7500 instrument. The thermocycling conditions were as follows: 95°C
+for 60 s followed by 40 cycles of 95°C for 20 s and 58°C for 40 s. U6 and GAPDH
+were used as endogenous controls for the expression of mir-126-5p and target
+genes, respectively. 14 Primer sequences are presented in Table 1 . The quantitative results were
+determined using the 2 -ΔΔCt method.
+
+Primer That Used for PCR.
+
+After being transfected for 48 h, cells were lysed with RIPA lysis buffer
+supplemented with protease inhibitors to obtain total cell protein. Then, the
+extracted protein concentration was determined using a BCA assay kit (Solarbio,
+Beijing, China). Subsequently, 20 µg of total protein for each sample was
+separated by 10% SDS-PAGE and then transferred to polyvinylidene fluoride (PVDF)
+membranes. After blocking with 5% nonfat dried milk, the membranes were
+incubated with a primary goat anti-human CNOT7 primary antibody (Abcam, 1:2000,
+USA) at 4 °C overnight followed by an incubation with an HRP-labeled secondary
+antibody for 1 h. Lastly, the enhanced chemiluminescent method was used to
+detect the protein bands.
+
+A potential target gene of miR-126-5p was identified from the overlapping results
+of 3 databases: TargetScan ( http://www.targetscan.org/vert_72/ ), miRDB ( http://mirdb.org/miRDB/ ) and miRanda ( www.microrna.org/microrna/getDownloads.do ). A Venn diagram was
+generated using Venn diagram viewer ( http://www.bioinformatics.com.cn/static/others/jvenn/example.html ). 15 Luciferase pmirGLO reporter plasmids were generated harboring the
+wild-type (WT) or mutated (MUT) 3’-untranslated region (3’UTR) of the CNOT7. The
+cells were cotransfected with the dual-luciferase reporter plasmids (WT/MUT
+plasmids) and miR-126-5p mimics or NC, and the dual-luciferase assay kit was
+used to determine the luciferase activity, where the firefly luciferase activity
+was normalized to that of marine kidney luciferase.
+
+SPSS 20.0 was used for statistical analysis. The data are presented as the means
+and standard deviation (SD). One-way ANOVA was used for multigroup comparison,
+and the Student-Newman-Keuls (SNK) method was used for pairwise comparison.
+Comparison of the means between 2 groups was performed using the 2-tailed
+Student’s t-test (parametric) or the Mann-Whitney U test (nonparametric).
+Pearson correlation analysis to evaluate differences in expression between
+miR-126-5p and CNOT7. P < 0.05 was considered statistically significant.
+
+
+Bioinformatic Analysis of GSE143564
+
+GSE143564 was downloaded from the Gene Expression Omnibus (GEO; http://www.ncbi.nlm.nih.gov/geo ). GSE143564 was based on the
+Affymetrix Multispecies miRNA-4 Array [Probe Set ID version] platform and
+included 6 samples (3 breast tissues and 3 adjacent tissues). Quantile
+normalization was used to minimize inconsistencies in the GSE series.
+Differentially expressed miRNAs between breast and adjacent tissues were
+identified with the Limma package in the R software environment and were plotted
+using a volcano plot and heatmap using the R packages “ggplot2” and “pheatmap.”
+Then, we selected the most significant differentially expressed miRNAs for
+further analyses. Three miRNA target gene databases (TargetScan, miRanda and
+miRDB) were used to predict the target genes of miRNAs. Then, a Venn diagram was
+constructed using the online tool jvenn ( http://www.bioinformatics.com.cn/static/others/jvenn/example.html )
+to overlap the genes obtained from these 3 databases. Subsequently, enrichment
+analysis was performed using the Metascape online tool ( http://metascape.org ). MiR-126-5p and its target gene network
+were constructed with Cytoscape ( http://apps.cytoscape.org/ ).
+
+
+Breast Cancer and Adjacent Tissue
+
+Twenty primary breast cancer tissue samples and 20 corresponding adjacent normal
+mammary tissue samples were obtained from XuZhou Central Hospital. The diagnosis
+of breast cancer was pathologically confirmed, and only tumor-node-metastasis
+(TNM) stage III patients were included. The patients had not received hormone or
+adjuvant therapy prior to breast cancer surgery. All patients and their families
+agreed to participate in the experiment and provided written informed consent.
+This study was approved by the Research Ethics Committee of XuZhou Central
+Hospital (approval no: XZCH-2018-0515, date: 15 March 2018). All tissues were
+stored in RNA preservation solution and used for RNA extraction.
+
+
+Cell Culture and Transfection
+
+MCF7 cells were cultured in DMEM supplemented with 10% fetal bovine serum (FBS)
+and 100 U/ml of penicillin in standard conditions in a humidified CO 2 incubator at 37 °C and under an atmosphere with 5% CO 2 . When the
+cells reached approximately 80% confluency, they were digested with 0.25%
+trypsin and passaged. Cells were inoculated into 6-well plates at a density of
+1×10 5 cells per well and then changed to serum-free medium when
+they reached approximately 50∼60% confluency. MCF7 cells were transfected with
+miR-126-5p mimics (overexpression group), negative control (NC group), pcDNA and
+pcDNA-CNOT7 using Lipofectamine ® 2000 according to the manufacturer’s
+instructions. The assays were repeated in 3 independent assays in
+triplicate.
+
+
+Methyl Thiazolyl Tetrazolium (MTT) Assay
+
+MCF7 cells were inoculated into a 96-well plate (1×10 4 cells per
+well). After transfection, 5 μg/µl of MTT solution was added to each well for 0,
+24, 48, or 72 h. After culturing for 4 h, dimethyl sulfoxide was added to stop
+the reaction. The absorbance values of each well at 490 nm were detected by a
+microplate reader, and the cell proliferation in each well was determined using
+a blank as the control.
+
+
+Cell Scratch Experiment
+
+MCF7 cells were cultured to monolayers in a routine manner. Then, a straight line
+was scratched into the monolayer with a sterilized yellow tip to form a
+cell-free growth zone (i.e., a scratch). The width of the scratch was
+approximately 500 μm, and the relative distance of the scratch zone was
+recorded. Then, the exfoliated cells were washed away in serum-free medium.
+After conventional culture in a constant temperature incubator for 4 h, the
+exfoliated cells were washed away, the adhered cells were observed and imaged
+under an inverted microscope, and the relative distance of cell migration from
+the injured area was analyzed.
+
+
+Cell Invasion Assay
+
+Transwell chambers (8 µm aperture) were used to assess cell migration. MCF7 cells
+(5×10 4 ) were inoculated in serum-free medium and added to the
+upper chamber, while the lower chamber contained medium with 10% serum. After 48
+h of culture, the cells that did not pass through the upper cavity were removed
+and washed. Then, the cells were fixed in 4% paraformaldehyde for 30 min,
+stained with crystal violet, and then observed under an optical microscope and
+imaged. Five fields were randomly selected for counting in each group.
+
+
+PCR
+
+Total RNA was extracted from 184A1 and MCF7 cells using TRIzol reagent, and the
+total RNA concentration was determined using a Tecan Nano Quant
+Plate TM instrument. Total RNA (1 ng) was used to synthesize cDNA
+with a One Step Prime Script cDNA Synthesis kit according to the manufacturer’s
+instructions. The cDNA was then used as a template for RT-qPCR, which was
+performed using a One Step SYBR ® Prime Script tm TR-PCR kit
+in an ABI 7500 instrument. The thermocycling conditions were as follows: 95°C
+for 60 s followed by 40 cycles of 95°C for 20 s and 58°C for 40 s. U6 and GAPDH
+were used as endogenous controls for the expression of mir-126-5p and target
+genes, respectively. 14 Primer sequences are presented in Table 1 . The quantitative results were
+determined using the 2 -ΔΔCt method.
+
+Primer That Used for PCR.
+
+
+Western Blot Analysis
+
+After being transfected for 48 h, cells were lysed with RIPA lysis buffer
+supplemented with protease inhibitors to obtain total cell protein. Then, the
+extracted protein concentration was determined using a BCA assay kit (Solarbio,
+Beijing, China). Subsequently, 20 µg of total protein for each sample was
+separated by 10% SDS-PAGE and then transferred to polyvinylidene fluoride (PVDF)
+membranes. After blocking with 5% nonfat dried milk, the membranes were
+incubated with a primary goat anti-human CNOT7 primary antibody (Abcam, 1:2000,
+USA) at 4 °C overnight followed by an incubation with an HRP-labeled secondary
+antibody for 1 h. Lastly, the enhanced chemiluminescent method was used to
+detect the protein bands.
+
+
+Dual-Luciferase reporter Assay
+
+A potential target gene of miR-126-5p was identified from the overlapping results
+of 3 databases: TargetScan ( http://www.targetscan.org/vert_72/ ), miRDB ( http://mirdb.org/miRDB/ ) and miRanda ( www.microrna.org/microrna/getDownloads.do ). A Venn diagram was
+generated using Venn diagram viewer ( http://www.bioinformatics.com.cn/static/others/jvenn/example.html ). 15 Luciferase pmirGLO reporter plasmids were generated harboring the
+wild-type (WT) or mutated (MUT) 3’-untranslated region (3’UTR) of the CNOT7. The
+cells were cotransfected with the dual-luciferase reporter plasmids (WT/MUT
+plasmids) and miR-126-5p mimics or NC, and the dual-luciferase assay kit was
+used to determine the luciferase activity, where the firefly luciferase activity
+was normalized to that of marine kidney luciferase.
+
+
+Statistical Analysis
+
+SPSS 20.0 was used for statistical analysis. The data are presented as the means
+and standard deviation (SD). One-way ANOVA was used for multigroup comparison,
+and the Student-Newman-Keuls (SNK) method was used for pairwise comparison.
+Comparison of the means between 2 groups was performed using the 2-tailed
+Student’s t-test (parametric) or the Mann-Whitney U test (nonparametric).
+Pearson correlation analysis to evaluate differences in expression between
+miR-126-5p and CNOT7. P < 0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The box plots of the log expression values for all genes in each group (breast
+tissues versus adjacent tissues) before and after normalization were mapped
+( Figure 1A ). After
+normalization, the median values of each sample were extremely similar,
+suggesting that the data should be further analyzed. After normalization, 148
+differentially expressed miRNAs (downregulated = 55, upregulated = 93) were
+identified ( Figure 1B ),
+the top 100 of which are shown as a heatmap ( Figure 1C ). Among the differentially
+expressed miRNAs, miR-126-5p was the most significantly downregulated and was
+therefore chosen for an in-depth study. Twenty-one overlapping genes were
+identified from the TargetScan, miRanda and miRDB databases ( Figure 1D ). Enrichment
+analysis showed that these target genes were primarily enriched in pentose and
+glucuronate interconversions, homophilic cell adhesion via plasma membrane
+adhesion molecules, cellular hormone metabolic process, phenylpropanoid
+metabolic process, chloride transport, glycosphingolipid biosynthetic process,
+GPCR ligand binding, cellular response to drug, mononuclear cell migration,
+leucine metabolic process, negative regulation of phospholipase activity,
+positive regulation of T cell cytokine production, negative regulation of
+myeloid cell differentiation, folate biosynthesis, protein localization to
+cilium, positive regulation of NIK/NF-kappa B signaling, positive regulation of
+interleukin-23 production, alcohol metabolic process and negative regulation of
+response to DNA damage stimulus ( Figure 1E ). Figure 1F shows the interaction between
+miR-126-5p and its target genes.
+
+miR-126-5p is downregulated in breast cancer tissues. (A) Comparison of
+the expression values before and after normalization. (B) Volcano plot
+of the differentially expressed miRNAs between breast cancer and
+adjacent tissues. Green dots represent downregulated miRNAs, and red
+dots represent upregulated miRNAs in breast tissues; black dots
+represent normally expressed miRNAs. (C) Heatmap showing the profiles of
+the top 100 differentially expressed miRNAs between breast and adjacent
+tissues. Green and red indicate low and high expression, respectively.
+(D) Venn diagram results showing the overlapping predicted genes from
+the TargetScan, miRanda and miRDB databases. (E) Top 20 enriched gene
+ontology and KEGG pathway terms for the overlapping predicted genes. (F)
+Regulatory network between miR-126-5p and its target genes.
+
+As shown in Figure 2A ,
+miR-126-5p expression was decreased in breast cancer tissue relative to that
+observed in adjacent tissues (t = 41.53, degree of freedom [df] = 38, P <
+0.0001). In contrast, CNOT7 expression was significantly increased in breast
+cancer tissue relative to that observed in adjacent tissues (t = 25.19, df = 38,
+P < 0.0001, Figure
+2B ) such that miR-126-5p expression was negatively correlated with that
+of CNOT7 in breast cancer tissue (r = -0.772, P = 0.040, Figure 2C ).
+
+miR-126-5p is downregulated in breast cancer tissues. (A) Relative
+expression of miR-126-5p in breast cancer and adjacent tissues. (B)
+Relative expression of CNOT7 in breast cancer and adjacent tissues. (C)
+Correlation of miR-126-5p and CNOT7 in breast cancer tissue. (D)
+Relative expression of miR-126-5p in the normal 184A1 breast cell line
+and the breast cancer MCF7 cell line. (E) Relative expression of CNOT7
+in the normal 184A1 breast cell line and the breast cancer MCF7 cell
+line. F Correlation of miR-126-5p and CNOT7 in the MCF7 cell line. (F)
+MTT was used to measure the viability of MCF7 cells between the control,
+NC and miR-126-5p mimic groups at 24, 48 and 72 h.
+
+In addition, miR-126-5p expression was observed to be decreased in MCF7 cells
+relative to that detected in 184A1 cells (t = 37.46 df = 10, P < 0.0001, Figure 2D ). In
+contrast, the expression of the target gene of miR-126-5p, CNOT7, was increased
+in MCF7 cells relative to that detected in 184A1 cells (t = 41.88 df = 10, P
+< 0.0001, Figure 2E ).
+Further study revealed that the relative expression of CNOT7 and miR-126-5p were
+negatively correlated (r = − 0.734, P =  0.002, Figure 2F ).
+
+The MTT results showed that the proliferation of cells in the miR-126-5p
+overexpression group was significantly decreased at 48 and 72 h relative to that
+observed in the control group (P = 0.0001). There was no significant difference
+in the proliferation between the control and NC groups at 0 and 24 h (P >
+0.05), as shown in Figure
+2G .
+
+Transwell assay results showed that the number of membrane-penetrating cells in
+the control, the NC and miR-126-5p overexpression groups was 100 ± 12, 105 ± 8
+and 65 ± 4 cells/vision, respectively. Compared with that observed in the
+control and NC groups, the number of membrane-penetrating cells in the
+miR-126-5p overexpression group was significantly decreased (F = 132.8, P <
+0.0001, Figure 3A ).
+
+miR-126-5p mimics can inhibit the migration of MCF7 cells. (A) Transwell
+analyses of MCF7 cells from the miR-126-5p mimic, NC-mimic and control
+groups. (B) Cell migration was assessed in the MCF7 cell line
+transfected with miR-126-5p mimics or NC-mimics at 0 and 24 h by wound
+healing assay.
+
+The wound healing assay results showed that the migration distance of cells in
+the control, the NC and the miR-126-5p overexpression groups was 5.0 ± 1.0, 5.2
+± 0.6 and 1.1 ± 0.4 μm/24 h, respectively. Compared with the control and NC
+group, the migration distance in the MCF7 cell line in the miR-126-5p
+overexpression group was significantly decreased (F = 314.6, P < 0.001, Figure 3B ).
+
+TargetScan predicted that the 3’UTR of the CNOT7 gene harbors a complementary
+site that could bind to miR-126-5p ( Figure 4A ). Subsequently, dual-luciferase
+reporter gene assay results showed that miR-126-5p mimics could reduce the
+luciferase activity of the WT CNOT7 3’UTR reporter (P < 0.0001, Figure 4B ) but had no
+effect on the reporter with the mutant 3’UTR (P = 0.971, Figure 4B ).
+
+miR-126-5p can directly bind to the CNOT7 3’UTR in the MCF7 cell line.
+(A) Binding sites between miR-126-5p and CNOT7. (B) Luciferase activity
+of a reporter containing a wild-type (WT) 3’UTR or mutant (MUT) CNOT7
+3’UTR in cells with miR-126-5p mimics or NC is shown.
+
+To assess the effects of CNOT7 on MCF7 cell migration, MCF7 cells were
+transfected with miR-126-5p mimic alone or combined with pcDNA-CNOT7. The
+inhibitory effect of miR-126-5p on the migration of MCF7 cells was partially
+reversed by cotransfection with CNOT7 ( Figure 5A ). In addition, the wound
+healing assay results were similar to those of the Transwell assay ( Figure 5B ).
+
+Finally, we measured the protein expression of CNOT7 under various conditions.
+CNOT7 expression in the miR-126-5p mimic group was significantly downregulated.
+However, the downregulation of CNOT7 in the miR-126-5p group was partially
+reversed by cotransfection with pcDNA-CNOT7 ( Figure 5C ).
+
+CNOT7 can partially reverse the inhibitory effects of miR-126-5p on MCF7
+cell line migration. (A) Transwell migration results for the NC,
+miR-126-5p mimic, miR-126-5p mimic + pcDNA and miR-126-5p mimic +
+pcDNA-CNOT7 groups. (B) Wound healing assay for the NC, miR-126-5p
+mimic, miR-126-5p mimic + pcDNA and miR-126-5p mimic + pcDNA-CNOT7
+groups. (C) Relative CNOT7 gene expression in the NC, miR-126-5p mimic,
+miR-126-5p mimic + pcDNA and miR-126-5p mimic + pcDNA-CNOT7 groups.
+
+
+Analysis of Differentially Expressed miRNA Expression Profiles
+
+The box plots of the log expression values for all genes in each group (breast
+tissues versus adjacent tissues) before and after normalization were mapped
+( Figure 1A ). After
+normalization, the median values of each sample were extremely similar,
+suggesting that the data should be further analyzed. After normalization, 148
+differentially expressed miRNAs (downregulated = 55, upregulated = 93) were
+identified ( Figure 1B ),
+the top 100 of which are shown as a heatmap ( Figure 1C ). Among the differentially
+expressed miRNAs, miR-126-5p was the most significantly downregulated and was
+therefore chosen for an in-depth study. Twenty-one overlapping genes were
+identified from the TargetScan, miRanda and miRDB databases ( Figure 1D ). Enrichment
+analysis showed that these target genes were primarily enriched in pentose and
+glucuronate interconversions, homophilic cell adhesion via plasma membrane
+adhesion molecules, cellular hormone metabolic process, phenylpropanoid
+metabolic process, chloride transport, glycosphingolipid biosynthetic process,
+GPCR ligand binding, cellular response to drug, mononuclear cell migration,
+leucine metabolic process, negative regulation of phospholipase activity,
+positive regulation of T cell cytokine production, negative regulation of
+myeloid cell differentiation, folate biosynthesis, protein localization to
+cilium, positive regulation of NIK/NF-kappa B signaling, positive regulation of
+interleukin-23 production, alcohol metabolic process and negative regulation of
+response to DNA damage stimulus ( Figure 1E ). Figure 1F shows the interaction between
+miR-126-5p and its target genes.
+
+miR-126-5p is downregulated in breast cancer tissues. (A) Comparison of
+the expression values before and after normalization. (B) Volcano plot
+of the differentially expressed miRNAs between breast cancer and
+adjacent tissues. Green dots represent downregulated miRNAs, and red
+dots represent upregulated miRNAs in breast tissues; black dots
+represent normally expressed miRNAs. (C) Heatmap showing the profiles of
+the top 100 differentially expressed miRNAs between breast and adjacent
+tissues. Green and red indicate low and high expression, respectively.
+(D) Venn diagram results showing the overlapping predicted genes from
+the TargetScan, miRanda and miRDB databases. (E) Top 20 enriched gene
+ontology and KEGG pathway terms for the overlapping predicted genes. (F)
+Regulatory network between miR-126-5p and its target genes.
+
+
+MiR-126-5p Is Downregulated in MCF7 Cells
+
+As shown in Figure 2A ,
+miR-126-5p expression was decreased in breast cancer tissue relative to that
+observed in adjacent tissues (t = 41.53, degree of freedom [df] = 38, P <
+0.0001). In contrast, CNOT7 expression was significantly increased in breast
+cancer tissue relative to that observed in adjacent tissues (t = 25.19, df = 38,
+P < 0.0001, Figure
+2B ) such that miR-126-5p expression was negatively correlated with that
+of CNOT7 in breast cancer tissue (r = -0.772, P = 0.040, Figure 2C ).
+
+miR-126-5p is downregulated in breast cancer tissues. (A) Relative
+expression of miR-126-5p in breast cancer and adjacent tissues. (B)
+Relative expression of CNOT7 in breast cancer and adjacent tissues. (C)
+Correlation of miR-126-5p and CNOT7 in breast cancer tissue. (D)
+Relative expression of miR-126-5p in the normal 184A1 breast cell line
+and the breast cancer MCF7 cell line. (E) Relative expression of CNOT7
+in the normal 184A1 breast cell line and the breast cancer MCF7 cell
+line. F Correlation of miR-126-5p and CNOT7 in the MCF7 cell line. (F)
+MTT was used to measure the viability of MCF7 cells between the control,
+NC and miR-126-5p mimic groups at 24, 48 and 72 h.
+
+In addition, miR-126-5p expression was observed to be decreased in MCF7 cells
+relative to that detected in 184A1 cells (t = 37.46 df = 10, P < 0.0001, Figure 2D ). In
+contrast, the expression of the target gene of miR-126-5p, CNOT7, was increased
+in MCF7 cells relative to that detected in 184A1 cells (t = 41.88 df = 10, P
+< 0.0001, Figure 2E ).
+Further study revealed that the relative expression of CNOT7 and miR-126-5p were
+negatively correlated (r = − 0.734, P =  0.002, Figure 2F ).
+
+The MTT results showed that the proliferation of cells in the miR-126-5p
+overexpression group was significantly decreased at 48 and 72 h relative to that
+observed in the control group (P = 0.0001). There was no significant difference
+in the proliferation between the control and NC groups at 0 and 24 h (P >
+0.05), as shown in Figure
+2G .
+
+
+Effects of miR-126-5p Overexpression on MCF7 Cell Migration
+
+Transwell assay results showed that the number of membrane-penetrating cells in
+the control, the NC and miR-126-5p overexpression groups was 100 ± 12, 105 ± 8
+and 65 ± 4 cells/vision, respectively. Compared with that observed in the
+control and NC groups, the number of membrane-penetrating cells in the
+miR-126-5p overexpression group was significantly decreased (F = 132.8, P <
+0.0001, Figure 3A ).
+
+miR-126-5p mimics can inhibit the migration of MCF7 cells. (A) Transwell
+analyses of MCF7 cells from the miR-126-5p mimic, NC-mimic and control
+groups. (B) Cell migration was assessed in the MCF7 cell line
+transfected with miR-126-5p mimics or NC-mimics at 0 and 24 h by wound
+healing assay.
+
+The wound healing assay results showed that the migration distance of cells in
+the control, the NC and the miR-126-5p overexpression groups was 5.0 ± 1.0, 5.2
+± 0.6 and 1.1 ± 0.4 μm/24 h, respectively. Compared with the control and NC
+group, the migration distance in the MCF7 cell line in the miR-126-5p
+overexpression group was significantly decreased (F = 314.6, P < 0.001, Figure 3B ).
+
+
+MiR-126-5p Can Directly Bind to CNOT7
+
+TargetScan predicted that the 3’UTR of the CNOT7 gene harbors a complementary
+site that could bind to miR-126-5p ( Figure 4A ). Subsequently, dual-luciferase
+reporter gene assay results showed that miR-126-5p mimics could reduce the
+luciferase activity of the WT CNOT7 3’UTR reporter (P < 0.0001, Figure 4B ) but had no
+effect on the reporter with the mutant 3’UTR (P = 0.971, Figure 4B ).
+
+miR-126-5p can directly bind to the CNOT7 3’UTR in the MCF7 cell line.
+(A) Binding sites between miR-126-5p and CNOT7. (B) Luciferase activity
+of a reporter containing a wild-type (WT) 3’UTR or mutant (MUT) CNOT7
+3’UTR in cells with miR-126-5p mimics or NC is shown.
+
+
+Effects of miR-126-5p Overexpression on CNOT7 in MCF7 Cells
+
+To assess the effects of CNOT7 on MCF7 cell migration, MCF7 cells were
+transfected with miR-126-5p mimic alone or combined with pcDNA-CNOT7. The
+inhibitory effect of miR-126-5p on the migration of MCF7 cells was partially
+reversed by cotransfection with CNOT7 ( Figure 5A ). In addition, the wound
+healing assay results were similar to those of the Transwell assay ( Figure 5B ).
+
+Finally, we measured the protein expression of CNOT7 under various conditions.
+CNOT7 expression in the miR-126-5p mimic group was significantly downregulated.
+However, the downregulation of CNOT7 in the miR-126-5p group was partially
+reversed by cotransfection with pcDNA-CNOT7 ( Figure 5C ).
+
+CNOT7 can partially reverse the inhibitory effects of miR-126-5p on MCF7
+cell line migration. (A) Transwell migration results for the NC,
+miR-126-5p mimic, miR-126-5p mimic + pcDNA and miR-126-5p mimic +
+pcDNA-CNOT7 groups. (B) Wound healing assay for the NC, miR-126-5p
+mimic, miR-126-5p mimic + pcDNA and miR-126-5p mimic + pcDNA-CNOT7
+groups. (C) Relative CNOT7 gene expression in the NC, miR-126-5p mimic,
+miR-126-5p mimic + pcDNA and miR-126-5p mimic + pcDNA-CNOT7 groups.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In the present study, GSE143564 was used for bioinformatic analyses of differentially
+expressed miRNAs between breast cancer and normal adjacent tissue. We observed that
+miR-126-5p expression was decreased in breast cancer tissue relative to that
+detected in normal adjacent tissues, which was further analyzed using the MCF7 cell
+line. Additionally, miR-126-5p was shown to potentially be involved in the
+regulation of breast cancer cell migration. MiR-126-5p and CNOT7 expression are
+negatively correlated. Moreover, miR-126-5p could significantly inhibit the
+migration of MCF7 cells, as demonstrated by Transwell and scratch experiments.
+MiR-126-5p mimics could significantly decrease the migration distance and migratory
+cell number. Furthermore, TargetScan and dual-luciferase reporter analyses revealed
+that miR-126-5p could significantly bind to the CNOT7 3’UTR.
+
+Abnormal miR-126-5p has been shown to be associated with the pathological processes
+of various diseases. Wang et al. 11 reported that miR-126-5p binds to the Bcl2l2 mRNA 3’-UTR and promotes cell
+apoptosis in cervical cancer. Thus, miR-126-5p plays an inhibitory role in human
+cervical cancer progression and may be a potential therapeutic target for cervical
+cancer. In addition, Sun et al. 16 observed that the miR-126-5p/YAP1/MALAT1 axis can control angiogenesis and
+the epithelial-mesenchymal transition in colorectal carcinoma.
+
+Recently, miR-126-5p has been shown to be useful in different types of cancer as a
+tumor suppressor 17 . Fiala et al. 17 found that miR-126-5p expression was significantly associated with
+progression-free survival and overall survival in metastatic colorectal cancer. In
+another study, Gu et al. 18 explored the relationship between miR-126-5p and esophageal cancer cells and
+observed that miR-126-5p could target CDK6 and has a positive role in inhibiting the
+proliferation and migration of esophageal cancer cells.
+
+However, studies on miR-126-5p in breast cancer are scarce. In the present study,
+miR-126-5p expression in breast cancer and normal adjacent tissue was assessed. The
+results showed that miR-126-5p expression in MCF7 cells was significantly
+downregulated compared to that observed in the normal breast cell line 184A1. MTT,
+Transwell and scratch experiments were used to assess the effect of miR-126-5p on
+the proliferation and migration of MCF7 cells. MiR-126-5p mimics reduced breast
+cancer cell migration, indicating that miR-196b-5p may serve as a novel therapeutic
+target for breast cancer. MiR mimic therapy is an emerging modality for cancer treatment 19 and has some advantages over siRNA therapy, as miR mimics target multiple
+genes. However, miR mimics have low serum stability, and developing an effective
+delivery system is of great importance to realize the full potential of miR therapy.
+Further experiments will be conducted in the future using in vivo animal models,
+which will further reveal the effects of miR-126-5p for the treatment of breast
+cancer.
+
+CNOT7 expression is altered in acute leukemias and may represent a promising
+biomarker and drug target for these diseases. Maragozidis et al. 20 revealed that CNOT7 is differentially expressed in squamous cell lung cancer
+clinical samples. Furthermore, CNOT7 was identified as a diagnostic marker for lung
+cancer patients. In the present study, we also observed that CNOT7 was highly
+expressed in MCF7 cells relative to that detected in the normal breast cell line.
+Therefore, we performed a dual-luciferase reporter assay to confirm that miR-126-5p
+could directly target the 3’UTR of CNOT7.
+
+The results of the present study predicted and verified that CNOT7 is a target gene
+of miR-126-5p and that CNOT7 exhibited the opposite expression pattern as
+miR-126-5p. Upregulating miR-126-5p significantly inhibited CNOT7 expression. CNOT7
+has been shown to be overexpressed in a variety of human cancers and to play a
+carcinogenic role in tumor development. 21 , 22 For example, Maragozidis et al. 20 showed that PARN, CNOT6, CNOT7 and NOC, 4 deadenylases, are differentially
+expressed in lung cancer clinical samples. In the present study, we showed that
+miR-126-5p directly binds to the 3’UTR of CNOT7 to inhibit breast cancer
+progression.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In summary, miR-126-5p may serve as a tumor suppressor and inhibit the migration of
+breast cells by directly binding to CNOT7. Therefore, miR-126-5p may act as a
+potential diagnostic marker and therapeutic target of breast cancer. However, how
+miR-126-5p regulates the epithelial-mesenchymal transformation and angiogenesis of
+breast cancer through other signaling pathways and complex regulatory networks
+requires further research.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

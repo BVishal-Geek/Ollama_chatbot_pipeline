@@ -1,0 +1,71 @@
+================================================================================
+ARTICLE TITLE: Mechanistic insights into host adaptation, virulence and epidemiology of the phytopathogen Xanthomonas
+PMCID: PMC8042644
+PMID: 31578554
+KEYWORDS: plant disease, adaptation, extracellular polysaccharides, biofilm, type iii effectors, regulatory circuits
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+ Xanthomonas is a well-studied genus of bacterial plant pathogens whose members cause a variety of diseases in economically important crops worldwide. Genomic and functional studies of these phytopathogens have provided significant understanding of microbial-host interactions, bacterial virulence and host adaptation mechanisms including microbial ecology and epidemiology. In addition, several strains of Xanthomonas are important as producers of the extracellular polysaccharide, xanthan, used in the food and pharmaceutical industries. This polymer has also been implicated in several phases of the bacterial disease cycle. In this review, we summarise the current knowledge on the infection strategies and regulatory networks controlling virulence and adaptation mechanisms from Xanthomonas species and discuss the novel opportunities that this body of work has provided for disease control and plant health.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+INTRODUCTION
+
+ Xanthomonas (two Greek words; xanthos , meaning ‘yellow’, and monas , meaning ‘entity’) is a large genus of plant-associated Gram-negative bacteria. These yellow-pigmented bacteria are generally rod shaped with a single polar flagellum, are obligate aerobes and have an optimal growth temperature of between 25 and 30°C. (Bradbury 1984 ) The genus, which resides at the base of the gamma subdivision of the proteobacteria (Jun et al . 2010 ), comprises 27 species that cause serious diseases in almost 400 plants (124 monocots and 268 dicots) including a wide variety of important crops such as rice, citrus, cabbage and pepper (Ryan et al . 2011 ). Pathogenic species of Xanthomonas show a high degree of host plant specificity and species can be further differentiated into pathovars that are defined by characteristic host range and/or tissue specificity, invading either the xylem elements of the vascular system or the intercellular spaces of the mesophyll parenchyma tissue of the host (Ryan et al . 2011 ; Jacques et al . 2016 ) (Fig. 1 , Table 1 ). Along with host range being defined at the plant species or genus level, several Xanthomonas intrapathovar groups of strains interact with intraspecies variants of hosts. Races have been described within several pathovars, including Xanthomonas campestris pv. campestris and Xanthomonas oryzae pv . oryzae to group strains that interact specifically with some host cultivars near isogenic lines carrying specific resistance genes or varieties (Vicente and Holub 2013 ; Jacques et al . 2016 ).
+
+Life cycle and disease symptoms of Xanthomonas . (A) , Model illustrating the life cycle of the black rot pathogen Xanthomonas campestris pv. campestris ( Xcc ). Like most Xanthomonads, Xcc can survive in plant debris in soil for up to two years, but not more than six weeks in free soil. Xcc also has the ability to colonise plant seeds which represents a major route of disease transmission. Xcc can also be spread from infected plants to healthy plants by various environmental and mechanical means. After germination of colonised seeds, the seedling becomes infected. This may manifest as shrivelling and the blackening of the margins of the seedling. Xcc may also invade mature plants via the hydathodes, although leaf damage caused by insects and the root system also serve as portals of entry. These entry points usually provide a direct path to the plant vascular system leading to systemic host infection. V-shaped necrotic lesions extending from the leaf margins manifest as the infection develops. The disease draws its name from the blackened veins within the necrotic lesions. (B) , Examples of disease symptoms caused by various Xanthomonas species. (i, ii) Black rot of cabbage caused by Xanthomonas campestris pv. campestris . (iii, iv) Citrus canker of citrus caused by Xanthomonas citri pv. citri . (v, vi) Bacterial leaf streak of rice caused by Xanthomonas oryzae pv. oryzicola . (vii, viii) Bacterial blight of rice caused by Xanthomonas oryzae pv. oryzae .
+
+List of names and acronyms of Xanthomonas strains discussed in this review.
+
+Note: Xanthomonas arboricola pv . punicae is currently listed as X . citri pv. punicae in NCBI taxonomy.
+
+The main route of Xanthomonas species (spp.) transmission is via contaminated seeds, although weeds and infected plant debris are also potential sources of inoculum (Gitaitis and Walcott 2007 ). Initially, bacteria grow epiphytically (on leaf surfaces), and then enter into the host through either hydathodes or wounds to spread systemically through the vascular system or through stomata to colonise the mesophyll parenchyma (Ryan et al . 2011 ; Fig. 1 ). For example, X . campestris pv. campestris ( Xcc ) causes a systemic vascular disease of brassicas known as black rot, characterised by V-shaped chlorotic lesions spreading from the leaf margins, whereas X. campestris pv. armoraciae ( Xca ) causes a leaf spotting disease of the brassica mesophyllic tissue but does not colonise the vascular system (Fargier, Fischer-Le Saux and Manceau 2011 ).
+
+Here, we review the lifestyle and properties of Xanthomonas spp. with an emphasis on adaptability, virulence and epidemiology. We describe the mechanisms that contribute to the ability of Xanthomonas spp. to survive during epiphytic and endophytic growth and to cause disease, considering the role of diverse regulatory and sensing systems, secreted effectors and the biosynthesis of extracellular polysaccharide (EPS) and lipopolysaccharides (LPS). We discuss the insight that genome sequencing of Xanthomonas spp., has had on taxonomical classifications of the bacteria and understanding pathogen evolution and host adaptation. Finally, we consider how recent work understanding Xanthomonas spp. pathophysiology is being exploited for disease suppression and biocontrol.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+
+fuz024_Supplemental_File
+File: fuz024_supplemental_file.docx
+
+Supplementary Material
+Click here for additional data file.

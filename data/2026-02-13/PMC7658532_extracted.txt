@@ -1,0 +1,228 @@
+================================================================================
+ARTICLE TITLE: Development and Validation of a Scoring System Based on 9 Glycolysis-Related Genes for Prognosis Prediction in Gastric Cancer
+PMCID: PMC7658532
+PMID: 33161837
+KEYWORDS: metabolism, nomogram, tcga, geo, prediction
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Gastric cancer is a malignant tumor with high morbidity and mortality worldwide. However, increasing evidences have revealed the correlation between the glycolysis process and tumorigenesis. This study is aim to develop a list of glycolysis-related genes for risk stratification in gastric cancer patients. We included 500 patients’ sample data from GSE62254 and GSE26942 datasets, and classified patients into training (n = 350) and testing sets (n = 150) at a ratio of 7: 3. Univariate and multivariate Cox regression analysis were performed to screen genes having prognostic value. Based on HALLMARK gene sets, we identified 9 glycolysis-related genes (BPNT1, DCN, FUT8, GMPPA, GPC3, LDHC, ME2, PLOD2, and UGP2). On the basis of risk score developed by the 9 genes, patients were classified into high- and low-risk groups. The survival analysis showed that the high-risk patients had a worse prognosis ( p < 0.001). Similar finding was observed in the testing cohort and 2 independent cohorts ( GSE13861 and TCGA-STAD, all p < 0.001). The multivariate Cox regression analysis showed that the risk score was an independent prognostic factor for overall survival ( p < 0.001). Furthermore, we constructed a nomogram that integrated the risk score and tumor stage, age, and adjuvant chemotherapy. Through comparing the results of the receiver operating characteristic curves and decision curve analysis, we found that the nomogram had a superior predictive accuracy than conventional TNM staging system, suggesting that the risk score combined with other clinical factors (age, tumor stage, and adjuvant chemotherapy) can develop a robust prediction for survival and improve the individualized clinical decision making of the patient.
+In conclusion, we identified 9 glycolysis-related genes from hallmark glycolysis pathway. Based on the 9 genes, gastric cancer patients were separated into different risk groups related to survival.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Gastric cancer (GC) is the fifth most frequently diagnosed cancer and the third leading cause of cancer death in 2018. 1 Although surgical resection, chemotherapy, and immunotherapy have been applied to treat patients, the overall survival of patients with advanced GC is still poor, especially when acquiring resistance to chemotherapy agents. 2 , 3 Currently, the American Joint Committee on Cancer (AJCC) staging system has been widely conducted to predict the prognosis of GC. 4 Nevertheless, it fails to accurately predict prognosis in a considerable number of the patients with same tumor stage, because of high heterogeneity of GC. Therefore, it is urgent to explore an effective way to guide personalized treatment decisions.
+
+Cellular Metabolic changes play an important role in tumor initiation and progression, and one of the most notable alterations is glycolysis. 5 The aerobic glycolysis of tumor cells (the Warburg effect)was discovered in 1927, which showed that tumor tissue could absorb glucose and secrete lactic acid even when oxygen is present. 6 This phenomenon was also discovered in GC, 7 and it may reveal the potential that aerobic glycolysis is responsible for tumor progression and poor prognosis. 8 Presently, numerous bioinformatics methods have been used to explore the link between glycolysis and cancer prognosis. 9 , 10 which help us to better understand the mechanism of tumorigenesis.
+
+Therefore, this study is aim to develop a signature based on glycolysis-related gene for GC. On the basis of this signature, patients with survival difference were classified into different groups, which might help oncologists to make individualized clinical decision making.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+First, we downloaded the microarray data of GC from the Gene Expression Omnibus (GEO; https://www.ncbi.nlm.nih.gov/geo/ ) database. The detailed inclusion criteria for candidate datasets are following: Human gene expression profile; GC specimen; samples’ total count ≥ 60; available information of follow-up time (overall survival), pathological stage, and adjuvant chemotherapy. Then, 3 datasets ( GSE62254 , GSE26942 , and GSE13861 ) were included in this study. Furthermore, The Cancer Genome Atlas (TCGA) sequencing data, as the external validation cohort, was obtained from UCSC Xena website ( https://gdc.xenahubs.net ). Similarly, microarray data, GSE13861 data series, was used to validate the model based on glycolysis gene. The patients’ clinicopathological characteristics were shown in the Table 1 .
+
+Clinicopathological Characteristics.
+
+Data series from GEO database had been normalized by uploader. For TCGA cohort, sequencing data was normalized as Fragments Per Kilobase Million (FPKM) value. According to the annotation file, the probe identifications were transformed into gene symbols. When a gene symbol was corresponded to multiple probes, the average was taken as the final value. In addition, we merged 2 GEO datasets ( GSE62254 and GSE26942 ) to develop model. Because of the different value ranges between independent data sets, Empirical Bayes method (“sva” package) was performed to diminish the batch effect of merged dataset. Finally, the merged dataset was grouped randomly into training and testing cohorts at the ratio of 7:3.
+
+Based on the HALLMARK gene set (h.all.v6.1.symbols.gmt), we utilized the pathway named “glycolysis” to perform subsequent analysis, and it included 200 genes encoding proteins involved in glycolysis and gluconeogenesis. Gene Set Enrichment Analysis (GSEA) software 4.0.2 was applied to identify the enriched pathways between the tumor and normal tissues. The univariate Cox regression was carried out to filter glycolysis-related genes having prognostic value, and the genes with p < 0.01 were performed for further multivariate Cox regression analysis to construct risk score (“survival” package).
+
+In order to explore the different tumor-infiltrating patterns of immune cell between the different risk-groups, we used CIBERSORT algorithm ( https://cibersort.stanford.edu/index.php ) to identify 22 types of immune infiltration cells for each sample, and the output result of p-value < 0.05 can be considered acceptable. Gene MANIA ( http://www.genemania.org ) website is a tool for construction of interaction network and annotation of gene function. We used it to construct a network of identified genes and help to identify hub genes.
+
+In order to further perfect the predictive model, available clinical information was combined with risk score to develop a more robust model, and nomogram was conducted to visualize it (“rms” package). Calibration curve was used to display the performance of nomogram. Receiver Operating Characteristic (ROC) analysis (“time ROC” package) was used to estimate the accuracy of nomogram. However, a model that had a much higher specificity but slightly lower sensitivity than another would have a greater the area under ROC curve (AUC) whereas would be a worse decision for patients. Accordingly, Decision curve analysis (DCA) (“stdca” source code) was used to evaluate whether the model would be of benefit in the clinical practice. 11 
+
+R version 3.6.0 ( http://www.r-project.org ) was performed to analyze data. Wilcoxon and Kruskal-Wallis tests were conducted to deal with continuous variables with non-normal distribution. Categorical variables were analyzed by chi-square analysis. Univariate and multivariate Cox regression analysis to investigate whether the variable was an independent prognostic factor. Overall survival is defined as the period from the diagnosis to death, even the precise cause of death is not specified. And the survival curves and its significant differences were estimated by the Kaplan–Meier method and log-rank test. Based on 2-sided statistical tests, p -value is of statistically significant when p < 0.05.
+
+
+Data Collection and Process
+
+First, we downloaded the microarray data of GC from the Gene Expression Omnibus (GEO; https://www.ncbi.nlm.nih.gov/geo/ ) database. The detailed inclusion criteria for candidate datasets are following: Human gene expression profile; GC specimen; samples’ total count ≥ 60; available information of follow-up time (overall survival), pathological stage, and adjuvant chemotherapy. Then, 3 datasets ( GSE62254 , GSE26942 , and GSE13861 ) were included in this study. Furthermore, The Cancer Genome Atlas (TCGA) sequencing data, as the external validation cohort, was obtained from UCSC Xena website ( https://gdc.xenahubs.net ). Similarly, microarray data, GSE13861 data series, was used to validate the model based on glycolysis gene. The patients’ clinicopathological characteristics were shown in the Table 1 .
+
+Clinicopathological Characteristics.
+
+Data series from GEO database had been normalized by uploader. For TCGA cohort, sequencing data was normalized as Fragments Per Kilobase Million (FPKM) value. According to the annotation file, the probe identifications were transformed into gene symbols. When a gene symbol was corresponded to multiple probes, the average was taken as the final value. In addition, we merged 2 GEO datasets ( GSE62254 and GSE26942 ) to develop model. Because of the different value ranges between independent data sets, Empirical Bayes method (“sva” package) was performed to diminish the batch effect of merged dataset. Finally, the merged dataset was grouped randomly into training and testing cohorts at the ratio of 7:3.
+
+
+Bioinformatics Analysis
+
+Based on the HALLMARK gene set (h.all.v6.1.symbols.gmt), we utilized the pathway named “glycolysis” to perform subsequent analysis, and it included 200 genes encoding proteins involved in glycolysis and gluconeogenesis. Gene Set Enrichment Analysis (GSEA) software 4.0.2 was applied to identify the enriched pathways between the tumor and normal tissues. The univariate Cox regression was carried out to filter glycolysis-related genes having prognostic value, and the genes with p < 0.01 were performed for further multivariate Cox regression analysis to construct risk score (“survival” package).
+
+In order to explore the different tumor-infiltrating patterns of immune cell between the different risk-groups, we used CIBERSORT algorithm ( https://cibersort.stanford.edu/index.php ) to identify 22 types of immune infiltration cells for each sample, and the output result of p-value < 0.05 can be considered acceptable. Gene MANIA ( http://www.genemania.org ) website is a tool for construction of interaction network and annotation of gene function. We used it to construct a network of identified genes and help to identify hub genes.
+
+
+Visualization and Estimation of Model
+
+In order to further perfect the predictive model, available clinical information was combined with risk score to develop a more robust model, and nomogram was conducted to visualize it (“rms” package). Calibration curve was used to display the performance of nomogram. Receiver Operating Characteristic (ROC) analysis (“time ROC” package) was used to estimate the accuracy of nomogram. However, a model that had a much higher specificity but slightly lower sensitivity than another would have a greater the area under ROC curve (AUC) whereas would be a worse decision for patients. Accordingly, Decision curve analysis (DCA) (“stdca” source code) was used to evaluate whether the model would be of benefit in the clinical practice. 11 
+
+
+Statistical Analysis
+
+R version 3.6.0 ( http://www.r-project.org ) was performed to analyze data. Wilcoxon and Kruskal-Wallis tests were conducted to deal with continuous variables with non-normal distribution. Categorical variables were analyzed by chi-square analysis. Univariate and multivariate Cox regression analysis to investigate whether the variable was an independent prognostic factor. Overall survival is defined as the period from the diagnosis to death, even the precise cause of death is not specified. And the survival curves and its significant differences were estimated by the Kaplan–Meier method and log-rank test. Based on 2-sided statistical tests, p -value is of statistically significant when p < 0.05.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To determine whether the hallmark glycolysis pathway showed significant difference between GC and normal samples, we included GSE66229 dataset to perform GSEA analysis based on HALLMARK gene set. GSE66229 was composed of GSE62254 subseries and 100 case normal tissues, and the result revealed that hallmark glycolysis pathway was significantly enriched in the GC sample group ( p = 0.031, FDR q < 0.25, |NES| ≥ 1; Figure 1A ). Before merging the 2 geo datasets ( GSE62254 , and GSE26942 ), we excluded 12 cases of normal tissue, 3 cases of gastric stromal tumor, and 2 cases that follow-up time was less than 30 days from GSE26942 dataset. Finally, a total of 500 cases were randomly divided into training set (350) and testing (150) at the ratio of 7:3. In the Figure S1, we used box plot to demonstrate alteration of gene expression level of merged dataset after eliminating batch effect.
+
+Construction of the Risk Score in the Training Cohort. (A). GSEA Plot of HALLMARK Glycolysis Pathway between Gastric cancer and paired normal Tissues. (B). The Correlation analysis of the 40 glycolysis-related genes (C). The Distribution Plot of Optimal cut-off value in the training cohort.
+
+By conducting the univariate Cox regression analysis in the training set, 40 genes related to survival were screened (p < 0.01). However, there was a strong correlation observed in these genes ( Figure 1B ). Therefore, we performed the multivariate Cox regression to further screen these genes. Based on the smallest value of Akaike Information Criterion (AIC) statistics. we obtained 9 glycolysis-related genes lastly (BPNT1, DCN, FUT8, GMPPA, GPC3, LDHC, ME2, PLOD2, and UGP2). The formula consisting of the 9 genes and the corresponding coefficients is the following:
+
+Based on the formula developed by the 9 genes, we calculated the risk score for each patient and figure out optimal cutoff value (1.68) that can generate largest survival difference between the 2 groups ( Figure 1C ). Based on the cutoff value, these patients were classified into high- and low-risk groups. The distribution of risk scores, the patients’ survival status, the heatmap of the 9 glycolysis genes expression are displayed in Figure 2 . It is observed that survival time of patients gradually decreased with an increasing risk score, and high-risk score patients had more end-point events ( Figure 2B ).
+
+Risk Score Based on 9 Glycolysis-Related Genes in the Training and Testing Cohorts. (A). Distribution of the Risk Score in the Training and Testing Cohorts. (B). Survival State of Patients in the Training and Testing Cohorts. (C). The Heatmap of the 9 Glycolysis-related genes in the Training and testing Cohorts.
+
+In the training cohort, the survival analysis demonstrated that patients in the high-risk group had a worse prognosis than their low-risk counterparts (5-years overall survival: 22.5% vs. 64.4%; p < 0.001; Figure 3A ). After adjusting for age, gender, tumor stage, and adjuvant chemotherapy, the result of multivariate Cox regression showed that the risk score was independently associated with overall survival (HR = 1.60; 95%CI: 1.42 -1.81; p < 0.001; Table 2 ).
+
+The Survival Analysis and ROC curves. (A-B). Kaplan-Meier Curves for Overall Survival Between the Nigh-Risk and low-risk Groups in the training, and testing cohorts. (C-D). The Time-dependent ROC curves for the risk score in the training, and testing cohorts.
+
+Univariate and Multivariate Cox Regression Analyses of the Risk Score and Clinical Characteristics With the Overall Survival in the Training Set.
+
+Next, we used the testing set to validate the prognostic value of the signature. Consistently, the result showed that 5-year overall survival differed significantly between high-risk and low-risk groups. (5-year overall survival: 24.1% vs. 52.5%; p < 0.001; Figure 3B ). The risk score in the testing set was proved to be an independent prognostic factor by multivariate Cox regression (HR = 1.16; 95%CI: 1.03 -1.30; p = 0.018; Table S1). Besides, ROC curve was to estimate the predictive accuracy of the signature, and the ROC curves for 3-, and 5-year overall survival in the training and testing sets were respectively depicted in Figure 3C , and D. The result of AUCs basically reached 0.7 in the both of 2 cohorts, which suggested that the risk score had a favorable predictive performance.
+
+Finally, in order to determine whether the risk score can be applied to different groups of patients, we compared the survival curves between the 2 groups in different subgroups (tumor stage I/II or III/IV, receiving ACT or not). However, the finding indicated that patients with high-risk score were remarkably correlated with poor survival in all subgroups (all p < 0.001; Figure 4 ), suggesting that the risk score has a broad utility in GC patients.
+
+Stratified Survival Analysis. (A). Kaplan-Meier curves for overall survival between high- and low-risk Group in the Patients with I/II stage; (B). Kaplan-Meier curves for Overall Survival Between High- and Low-Risk group in the patients with III/IV stage; (C), Kaplan-Meier curves for Overall Survival Between the high- and low-Risk Group in the Patients who received Adjuvant Chemotherapy. (D). Kaplan-Meier curves for Overall Survival between the high- and low-Risk Group in the patients who did not received Adjuvant Chemotherapy.
+
+In order to further validate the 9 gene signature, we included 2 independent data series deriving respectively from microarray and sequencing data ( GSE13861 , and TCGA-STAD). In the TCGA-STAD data, we excluded 32 normal tissues and 38 cases that lacked survival information, and finally included 337 GC samples. The risk scores were calculated for each patient of TCGA data using same formula. Also, the same cutoff value (1.68) was utilized to separated patients into high- and low-risk groups. The finding showed that the low-risk group were significantly associated with lower mortality (high-risk vs low-risk patients; 5 years overall survival:13.3% vs 43.1%; p < 0.001; Figure 5A ).
+
+External Validation in 2 Independent Datasets. (A-B). Kaplan-Meier curves for overall survival between the high-risk and low-risk groups in the TCGA-STAD, and GSE13861 cohorts. (C-D). The time-dependent ROC curves for the risk score in the TCGA-STAD, and GSE13861 cohorts.
+
+Consistent with the above methods, we calculated risk scores for each patient of GSE13861 series. Nevertheless, the same cutoff value failed to separated patients into different groups because of small size of samples. Therefore, the median risk score was used to classified the patients into high- and low-risk groups, and result showed that high-risk group had a worse prognosis in contrast to the low-risk group (high-risk vs low-risk patients; 5 years overall survival: 40.6% vs 75.0%; p < 0.001; Figure 5B ). These findings were consistent with observations from the training cohort. In the TCGA-STAD cohort, the AUC for 3- and 5-year overall survival were 0.65, and 0.69 ( Figure 5C ). In the GSE13861 cohort, the AUC for 3- and 5-year overall survival were 0.70, and 0.68 ( Figure 5D ), which showed a stable performance for predicting survival.
+
+Furthermore, we used the violin plots to compare the risk score between the different clinicopathological characteristics. The results showed that no statistical difference was observed in the risk score between the different age groups, sexes, and tumor locations. However, higher risk score was significantly correlated with poor histological grades (p = 0.015) and advanced tumor stages (p < 0.001). Moreover, diffuse type was associated with a higher risk score compared to intestinal type (p = 0.008) ( Figure 6A ).
+
+(A). The Association Between the Risk Score and Clinicopathological Characteristics. (B). The different tumor-infiltrating immune cells between the high- and low-risk groups.
+
+On the one hand, based on CIBERSORT’s result, 412 cases with p < 0.05 were included to explore the correlation between the risk groups and tumor-infiltrating immune cells. On the other hand, we did not display the result of naïve CD4+ T cell, owing to the significantly low percentage in each sample. The subsequent analysis showed that the high-risk group was associated with higher level of macrophages M2 (p < 0.001), monocytes (p < 0.001), T cells gamma delta (p = 0.017), and mast cells resting (p = 0.041). In contrast, T cells CD4+ activated memory (p = 0.005), T cells CD8+ (p = 0.038), dendritic cells resting (p = 0.008), T cells regulatory (p < 0.001), T cells follicular helper (p < 0.001), macrophages M0 (p = 0.001), plasma cells (p < 0.001) were more enriched in samples of low-risk patients ( Figure 6B ).
+
+Additionally, we constructed a nomogram that integrated age, history of ACT, tumor stage, and risk score. All of included variables in nomogram have been identified as independent prognostic factor according to multivariate Cox regression analysis. As shown in the Figure 7A , the risk score had a relatively wider range of value compared to that of other variables when calculating nomogram score, indicating that it played a prominent role in determining overall survival. Based on calibration curves for 3-, and 5-year overall survival, the predicted value of the nomogram basically consisted with the actual observation ( Figure 7B ). The AUC value showed that nomogram score was 0.83 0.81, and 0.91 in the training, testing, and validation tests, respectively. Based on the comparison of ROC curves, the nomogram score had a better predictive ability than other variables ( Figure 8A ). Furthermore, the result of DCA showbed that nomogram hah a better net benefit than other models ( Figure 8B ).
+
+Construction of the nomogram. (A). Nomogram that integrated age, tumor stage, adjuvant chemotherapy and the risk score. (B). The calibration curves for 3, and 5-year overall survival.
+
+Evaluation of the nomogram. (A). The ROC curves of the nomogram score and other clinical variables in the training, testing, and validation cohorts, respectively. (B). The decision curve analysis in the training, testing, and validation cohorts, respectively; Horizontal slid line indicates an event will occur in no patients; Gray line indicates event will occur in all patients.
+
+Based on Kyoto Encyclopedia of Genes and Genomes (KEGG) gene sets, we displayed the top 10 of pathways in the high- and low-risk groups ( Figure 9A , B ), respectively. In the low-risk group, the finding revealed that the enriched pathways mainly were associated with metabolism-related processes. Next, 10 metabolism-related pathways from the low-risk group were demonstrated through using multiple GSEA plot ( Figure 9C ).
+
+In addition, we performed GeneMANIA tool to construct gene regulatory network ( Figure 9D ), which helped to understand the relationship between the 9 glycolysis genes. The network suggested that these genes had a strong independence for each other.
+
+Biological process associated with the signature. (A-B). The top 10 pathways enriched in the high- and low-risk groups based on the KEGG gene set. (C). The GSEA of metabolism-related pathways enriched in low-risk group. (D). The 9 glycolysis-related gene in the interaction network; Red edge indicates physical interactions. Violet edge indicates co-expression. Yellow edge indicates shared protein domain. Green edge indicates genetic interactions.
+
+
+Development of the Glycolysis Gene Signature
+
+To determine whether the hallmark glycolysis pathway showed significant difference between GC and normal samples, we included GSE66229 dataset to perform GSEA analysis based on HALLMARK gene set. GSE66229 was composed of GSE62254 subseries and 100 case normal tissues, and the result revealed that hallmark glycolysis pathway was significantly enriched in the GC sample group ( p = 0.031, FDR q < 0.25, |NES| ≥ 1; Figure 1A ). Before merging the 2 geo datasets ( GSE62254 , and GSE26942 ), we excluded 12 cases of normal tissue, 3 cases of gastric stromal tumor, and 2 cases that follow-up time was less than 30 days from GSE26942 dataset. Finally, a total of 500 cases were randomly divided into training set (350) and testing (150) at the ratio of 7:3. In the Figure S1, we used box plot to demonstrate alteration of gene expression level of merged dataset after eliminating batch effect.
+
+Construction of the Risk Score in the Training Cohort. (A). GSEA Plot of HALLMARK Glycolysis Pathway between Gastric cancer and paired normal Tissues. (B). The Correlation analysis of the 40 glycolysis-related genes (C). The Distribution Plot of Optimal cut-off value in the training cohort.
+
+By conducting the univariate Cox regression analysis in the training set, 40 genes related to survival were screened (p < 0.01). However, there was a strong correlation observed in these genes ( Figure 1B ). Therefore, we performed the multivariate Cox regression to further screen these genes. Based on the smallest value of Akaike Information Criterion (AIC) statistics. we obtained 9 glycolysis-related genes lastly (BPNT1, DCN, FUT8, GMPPA, GPC3, LDHC, ME2, PLOD2, and UGP2). The formula consisting of the 9 genes and the corresponding coefficients is the following:
+
+Based on the formula developed by the 9 genes, we calculated the risk score for each patient and figure out optimal cutoff value (1.68) that can generate largest survival difference between the 2 groups ( Figure 1C ). Based on the cutoff value, these patients were classified into high- and low-risk groups. The distribution of risk scores, the patients’ survival status, the heatmap of the 9 glycolysis genes expression are displayed in Figure 2 . It is observed that survival time of patients gradually decreased with an increasing risk score, and high-risk score patients had more end-point events ( Figure 2B ).
+
+Risk Score Based on 9 Glycolysis-Related Genes in the Training and Testing Cohorts. (A). Distribution of the Risk Score in the Training and Testing Cohorts. (B). Survival State of Patients in the Training and Testing Cohorts. (C). The Heatmap of the 9 Glycolysis-related genes in the Training and testing Cohorts.
+
+
+Validation and Evaluation of the Signature
+
+In the training cohort, the survival analysis demonstrated that patients in the high-risk group had a worse prognosis than their low-risk counterparts (5-years overall survival: 22.5% vs. 64.4%; p < 0.001; Figure 3A ). After adjusting for age, gender, tumor stage, and adjuvant chemotherapy, the result of multivariate Cox regression showed that the risk score was independently associated with overall survival (HR = 1.60; 95%CI: 1.42 -1.81; p < 0.001; Table 2 ).
+
+The Survival Analysis and ROC curves. (A-B). Kaplan-Meier Curves for Overall Survival Between the Nigh-Risk and low-risk Groups in the training, and testing cohorts. (C-D). The Time-dependent ROC curves for the risk score in the training, and testing cohorts.
+
+Univariate and Multivariate Cox Regression Analyses of the Risk Score and Clinical Characteristics With the Overall Survival in the Training Set.
+
+Next, we used the testing set to validate the prognostic value of the signature. Consistently, the result showed that 5-year overall survival differed significantly between high-risk and low-risk groups. (5-year overall survival: 24.1% vs. 52.5%; p < 0.001; Figure 3B ). The risk score in the testing set was proved to be an independent prognostic factor by multivariate Cox regression (HR = 1.16; 95%CI: 1.03 -1.30; p = 0.018; Table S1). Besides, ROC curve was to estimate the predictive accuracy of the signature, and the ROC curves for 3-, and 5-year overall survival in the training and testing sets were respectively depicted in Figure 3C , and D. The result of AUCs basically reached 0.7 in the both of 2 cohorts, which suggested that the risk score had a favorable predictive performance.
+
+Finally, in order to determine whether the risk score can be applied to different groups of patients, we compared the survival curves between the 2 groups in different subgroups (tumor stage I/II or III/IV, receiving ACT or not). However, the finding indicated that patients with high-risk score were remarkably correlated with poor survival in all subgroups (all p < 0.001; Figure 4 ), suggesting that the risk score has a broad utility in GC patients.
+
+Stratified Survival Analysis. (A). Kaplan-Meier curves for overall survival between high- and low-risk Group in the Patients with I/II stage; (B). Kaplan-Meier curves for Overall Survival Between High- and Low-Risk group in the patients with III/IV stage; (C), Kaplan-Meier curves for Overall Survival Between the high- and low-Risk Group in the Patients who received Adjuvant Chemotherapy. (D). Kaplan-Meier curves for Overall Survival between the high- and low-Risk Group in the patients who did not received Adjuvant Chemotherapy.
+
+
+External Validation in the Independent Dataset
+
+In order to further validate the 9 gene signature, we included 2 independent data series deriving respectively from microarray and sequencing data ( GSE13861 , and TCGA-STAD). In the TCGA-STAD data, we excluded 32 normal tissues and 38 cases that lacked survival information, and finally included 337 GC samples. The risk scores were calculated for each patient of TCGA data using same formula. Also, the same cutoff value (1.68) was utilized to separated patients into high- and low-risk groups. The finding showed that the low-risk group were significantly associated with lower mortality (high-risk vs low-risk patients; 5 years overall survival:13.3% vs 43.1%; p < 0.001; Figure 5A ).
+
+External Validation in 2 Independent Datasets. (A-B). Kaplan-Meier curves for overall survival between the high-risk and low-risk groups in the TCGA-STAD, and GSE13861 cohorts. (C-D). The time-dependent ROC curves for the risk score in the TCGA-STAD, and GSE13861 cohorts.
+
+Consistent with the above methods, we calculated risk scores for each patient of GSE13861 series. Nevertheless, the same cutoff value failed to separated patients into different groups because of small size of samples. Therefore, the median risk score was used to classified the patients into high- and low-risk groups, and result showed that high-risk group had a worse prognosis in contrast to the low-risk group (high-risk vs low-risk patients; 5 years overall survival: 40.6% vs 75.0%; p < 0.001; Figure 5B ). These findings were consistent with observations from the training cohort. In the TCGA-STAD cohort, the AUC for 3- and 5-year overall survival were 0.65, and 0.69 ( Figure 5C ). In the GSE13861 cohort, the AUC for 3- and 5-year overall survival were 0.70, and 0.68 ( Figure 5D ), which showed a stable performance for predicting survival.
+
+
+Correlation Between the Risk Score and Clinical Features
+
+Furthermore, we used the violin plots to compare the risk score between the different clinicopathological characteristics. The results showed that no statistical difference was observed in the risk score between the different age groups, sexes, and tumor locations. However, higher risk score was significantly correlated with poor histological grades (p = 0.015) and advanced tumor stages (p < 0.001). Moreover, diffuse type was associated with a higher risk score compared to intestinal type (p = 0.008) ( Figure 6A ).
+
+(A). The Association Between the Risk Score and Clinicopathological Characteristics. (B). The different tumor-infiltrating immune cells between the high- and low-risk groups.
+
+On the one hand, based on CIBERSORT’s result, 412 cases with p < 0.05 were included to explore the correlation between the risk groups and tumor-infiltrating immune cells. On the other hand, we did not display the result of naïve CD4+ T cell, owing to the significantly low percentage in each sample. The subsequent analysis showed that the high-risk group was associated with higher level of macrophages M2 (p < 0.001), monocytes (p < 0.001), T cells gamma delta (p = 0.017), and mast cells resting (p = 0.041). In contrast, T cells CD4+ activated memory (p = 0.005), T cells CD8+ (p = 0.038), dendritic cells resting (p = 0.008), T cells regulatory (p < 0.001), T cells follicular helper (p < 0.001), macrophages M0 (p = 0.001), plasma cells (p < 0.001) were more enriched in samples of low-risk patients ( Figure 6B ).
+
+
+Construction and Evaluation of Nomogram
+
+Additionally, we constructed a nomogram that integrated age, history of ACT, tumor stage, and risk score. All of included variables in nomogram have been identified as independent prognostic factor according to multivariate Cox regression analysis. As shown in the Figure 7A , the risk score had a relatively wider range of value compared to that of other variables when calculating nomogram score, indicating that it played a prominent role in determining overall survival. Based on calibration curves for 3-, and 5-year overall survival, the predicted value of the nomogram basically consisted with the actual observation ( Figure 7B ). The AUC value showed that nomogram score was 0.83 0.81, and 0.91 in the training, testing, and validation tests, respectively. Based on the comparison of ROC curves, the nomogram score had a better predictive ability than other variables ( Figure 8A ). Furthermore, the result of DCA showbed that nomogram hah a better net benefit than other models ( Figure 8B ).
+
+Construction of the nomogram. (A). Nomogram that integrated age, tumor stage, adjuvant chemotherapy and the risk score. (B). The calibration curves for 3, and 5-year overall survival.
+
+Evaluation of the nomogram. (A). The ROC curves of the nomogram score and other clinical variables in the training, testing, and validation cohorts, respectively. (B). The decision curve analysis in the training, testing, and validation cohorts, respectively; Horizontal slid line indicates an event will occur in no patients; Gray line indicates event will occur in all patients.
+
+
+Exploration of Biological Function
+
+Based on Kyoto Encyclopedia of Genes and Genomes (KEGG) gene sets, we displayed the top 10 of pathways in the high- and low-risk groups ( Figure 9A , B ), respectively. In the low-risk group, the finding revealed that the enriched pathways mainly were associated with metabolism-related processes. Next, 10 metabolism-related pathways from the low-risk group were demonstrated through using multiple GSEA plot ( Figure 9C ).
+
+In addition, we performed GeneMANIA tool to construct gene regulatory network ( Figure 9D ), which helped to understand the relationship between the 9 glycolysis genes. The network suggested that these genes had a strong independence for each other.
+
+Biological process associated with the signature. (A-B). The top 10 pathways enriched in the high- and low-risk groups based on the KEGG gene set. (C). The GSEA of metabolism-related pathways enriched in low-risk group. (D). The 9 glycolysis-related gene in the interaction network; Red edge indicates physical interactions. Violet edge indicates co-expression. Yellow edge indicates shared protein domain. Green edge indicates genetic interactions.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Although numerous prognostic models using molecular signature have been developed by researchers, only conventional Her-2, CEA, CA19-9, and CA72-4 were applied to assisting prediction for GC patients’ outcomes in clinical practice. 12 However, these biomarkers were mainly used in diagnosis and monitoring of recurrence in GC patients. The biomarker that can play a key role in prognostic prediction for GC was rare. With the rapid development of gene sequencing technology, a lot of solid biomarkers that have prognostic value for GC patients has been identified, which includes immune-related gene, hypoxia-related gene, and immune scores. Meanwhile, a variety of signatures based on these genes have demonstrated an excellent ability in predicting prognosis for GC, and been validated in multiple independent datasets. 13 - 15 Owing to the importance of glycolysis pathway in regulating tumorigenesis, this work is aim to develop a list of glycolysis-related genes for risk stratification in GC patients.
+
+In this study, 9 glycolysis-related genes were identified to construct a novel scoring system. Among these genes, the significantly overexpressing bisphosphate nucleotidase-1 (BPNT1) was found to be associated with the abnormality of 3’-phosphoadenylate metabolism in glioma. 16 Decorin (DCN), as a potential biomarker, was reported to be correlated with the prognosis of colon cancer and lung adenocarcinoma. 17 , 18 In lung cancer, mutation of GDP-mannose pyrophosphorylase A (GMPPA) showed significantly negative association with prognosis of patients. 19 Moreover, up-regulation of 6-fucosyltransferase (FUT8) can inhibit proliferation of GC cells, 20 and Glypican-3 (GPC3) may be correlated with nodal and distant metastasis in GC patients. 21 In renal cell carcinoma, patients with overexpressing lactate dehydrogenase C (LDHC) had a worse progression-free survival. 22 A variety of evidences have indicated that malic enzyme-2 (ME2) is a potential therapeutic target and novel biomarker which plays critical role during tumorigenesis. 23 Procollagen-lysine, 2-oxoglutarate 5-dioxygenase 2 (PLOD2) was found to be negative correlated with GC patient’s prognosis. 24 UTP-glucose-1-phosphate uridylyltransferase (UGP2), as long noncoding RNA, can regulate metabolic pathways, and plays an important role in diagnosis of GC. 25 Interestingly, the prognostic roles of FUT8, GPC3, and PLOD2 were consistent with the observations from our study. However, these genes (ME2, BPNT1, DCN, GMPPA, LDHC, and UGP2) have not been reported to be related to the prognosis for GC. In future studies, the expression levels of these genes will be investigated in GC tissues, since the prognostic value has been observed in this study.
+
+The main finding revealed that patients with high-risk scores were negatively associated with survival and this observation was confirmed in the testing and 2 independent cohorts. To combine molecular information with the clinical feature to reinforce the predictive model, we developed a nomogram that integrated risk score, age, history of ACT, and TNM stage. Through comparing the result of ROC and DCA, we found that the nomogram score had superior predictive ability than conventional factors, indicating that the risk score combined with clinical features can develop a robust prediction for survival and improve the individualized clinical decision making of GC patients. Compared with previously reported gene signatures for GC, our nomogram also achieved a higher value in AUC. 26 - 28 Additionally, our nomogram was comparable to the published immunoscore signature 15 in predictive accuracy because both of the 2 models reached above 0.8 in AUC value. Therefore, there is a strong possibility that a more robust model will be developed when including immunoscore into our nomogram, which is worth exploring in the future work.
+
+In GC, the crosstalk between immune cells and tumor cells plays a vital role in predicting prognosis and immunotherapeutic outcomes. 29 After comparing the difference of tumor-infiltrating immune cells between high- and low-risk groups, we observed a high level of T cells gamma delta, monocytes, macrophages M2, and mast cells resting in the high-risk group. Thereinto, tumor-infiltrating monocytes can promote tumor migration and invasion. 30 Increased intratumor mast cells contribute to angiogenesis, and nodal metastasis of GC. 31 Moreover, tumor-associated macrophages were classified into M1 and M2 based on their polarized states, 32 and M2 macrophage was reported to promote GC metastasis via CHI3L1 protein secretion. 33 
+
+On the other hand, 7 types of immune cells (T cells CD8+, T cells CD4+ activated memory, macrophages M0, T cells follicular helper, T cell regulatory, dendritic cells resting, and plasma cells) were more enriched in low-risk patients’ samples. According to previous literature, CD4+T cells influence cancer immunology and immunotherapy by helping cytotoxic T lymphocytes (CTLs) acquire multiple antitumor functions. 34 Liu et al reported that high densities of T cells CD8+ and T cells CD4+ were associated with better clinical outcomes in GC. 35 Additionally, a high level of T cell follicular helper infiltration was related to a favorable prognosis in breast cancer. 36 Wang et al found that high numbers of intra-tumoral T cell regulatory was correlated with improved survival in GC. 37 Extensive literature has shown that tumor-infiltrating plasma cells have a positive prognostic effect for cancer. 38 Based on the above evidences, these results might help to explain why the low-risk group had a better survival outcome to some extent.
+
+However, our study also has several limitations. First, all of data were obtained from public database, and the sample size was relatively small. Second, this study did not conduct an experiment to further validate these genes. Last, this was a retrospectively designed work, and the potential bias correlated with unbalanced clinicopathological features cannot be ignored. Therefore, well-designed experiments and clinical trials are urgently needed to validate our findings.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+In this study, we identified 9 glycolysis-related genes (BPNT1, DCN, FUT8, GMPPA, GPC3, LDHC, ME2, PLOD2, and UGP2) from hallmark glycolysis pathway. Based on the 9 genes, a nomogram was established, which had a superior predictive ability than conventional prognostic factors.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, Figure_S1 - Development and Validation of a Scoring System Based on 9 Glycolysis-Related Genes for Prognosis Prediction in Gastric Cancer
+File: Figure_S1.ai
+Supplemental Material, LUO_Table_S1 - Development and Validation of a Scoring System Based on 9 Glycolysis-Related Genes for Prognosis Prediction in Gastric Cancer
+File: LUO_Table_S1.pdf

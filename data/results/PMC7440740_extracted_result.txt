@@ -1,0 +1,19 @@
+Source: PMC7440740_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "GPSM2 Serves as an Independent Prognostic Biomarker for Liver Cancer Survival",
+  "condition_E": 1,
+  "condition_E_reason": "Basic clinical and pathological information, including histologic grade, clinical stage, TNM stage, vital status, age and gender, were collected for patients with liver cancer.",
+  "N_E": 1,
+  "N_E_reason": "Data from a total of 373 patients with liver cancer samples were collected.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

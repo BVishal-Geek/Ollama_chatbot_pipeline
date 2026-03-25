@@ -1,0 +1,19 @@
+Source: PMC7791459_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Clinical Analysis of Acinar Cell Carcinoma of the Pancreas: A Single-Center Experience of 45 Consecutive Cases",
+  "condition_E": 1,
+  "condition_E_reason": "Demographic, clinical and pathological data were extracted from the medical records.",
+  "N_E": 1,
+  "N_E_reason": "A total of 45 pathologically confirmed acinar cell carcinomas were identified.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Among the localized cases, 10 patients underwent pancreaticoduodenectomy, 12 underwent distal pancreatectomy, and others received various treatments.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The median overall survival of this series was 18.9 months with a 5-year survival rate of 19.6%.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

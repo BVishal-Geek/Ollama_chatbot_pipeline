@@ -1,0 +1,118 @@
+================================================================================
+ARTICLE TITLE: Radiotherapy in elderly patients with breast cancer: a literature review of acute and late toxicity
+PMCID: PMC8798880
+PMID: 35117961
+KEYWORDS: breast cancer, elderly patients, radiotherapy, toxicity
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Radiotherapy (RT) induced toxicity in elderly patients is not well documented in the available literature due to the inhomogeneous and fragmentary data. Aim of this study was to review literature data on acute and late toxicity in elderly breast cancer patients treated with RT. The primary endpoint was RT-related acute and late toxicity in elderly breast cancer (BC) patients. The secondary endpoint was RT interruption rate in this patients’ population. All studies reporting RT-related acute and/or late toxicity in elderly women with breast cancer were included. All types of RT settings were included and no restriction was applied regarding other primary/adjuvant associated treatment. A bibliographic search was performed on PubMed. Only articles in English were considered while no chronological limitation was applied. Twenty-two studies were included in this analysis: 12 retrospective, 5 prospective observational trials, 1 phase III trial sub-analysis, and 4 phase I-II trials. Thirteen studies reported results about whole breast irradiation (WBI) delivered by external beams (EB) RT ± boost on the tumor bed. Nine studies reported results about accelerated partial breast irradiation (APBI) based on EB RT (2 studies), intraoperative RT (IORT: 2 studies), and brachytherapy (BRT: 2 studies); three studies compared different treatment techniques. Overall, reported acute grade (G) ≥3 toxicity ranged from 0.0% to 10.5% and late toxicity from 0.0% to 13.0%. RT discontinuation/interruption rates ranged between 0.0% and 2.0%. Acute G ≥3 toxicity rates were 2.0%, 6.7%, and 5.2% with EB-APBI, BRT, and IORT, respectively. Late G ≥3 toxicity with EB-APBI was 2.8%. No late G ≥3 toxicity was recorded in studies reporting on BRT and IORT. With WBI, the overall rates of G ≥3 toxicity were 3.0% (acute) and 1.8% (late). Higher toxicity rates were observed with weekly hypofractionation. None of the studies directly comparing age subgroups found age-related differences. Our findings suggest that RT of breast cancer is well tolerated even in elderly patients with toxicity rates comparable to those of the general population. Given these considerations, RT omission in elderly patients with breast cancer should be carefully evaluated limiting this option to very selected critical patients.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Breast cancer is the most common neoplasm and the leading cause of cancer death in female gender worldwide, with the highest incidence in aged women ( 1 ). In fact, it is estimated that one-third of breast cancers are diagnosed in women older than 70 years of age. Despite the increasing incidence of breast cancer, death rates show a progressive reduction due to earlier diagnosis and development of more effective systemic therapies. However, significant improvement in the elderly is not well documented ( 2 ).
+
+Although data on standard therapeutic approach are well consolidated, under-treatment of elderly patients is not unusual in clinical practice, particularly the omission of adjuvant radiotherapy (RT). This choice is generally justified by evidences of improved local control after adjuvant RT in patients treated with breast conservative surgery (BCS) but not overall survival (OS) in elderly patients, as reported in a recent meta-analysis ( 3 ).
+
+Moreover, in clinical practice, RT is often omitted due to fear about its impact on quality of life (QoL), produced by toxicity and logistical issues, and due to concerns about increased toxicity rates in elderly patients ( 4 ). However, a worse RT-induced toxicity in elderly patients is not well documented in the available literature due to the inhomogeneous and fragmentary data.
+
+Therefore, the aim of this review was to analyze data on acute and late toxicity in elderly breast cancer patients treated with RT, to evaluate toxicity rates and to provide a decision-making support in clinical practice.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+The primary endpoint of this review was RT-related acute and late toxicity in elderly breast cancer patients. The secondary endpoint was RT interruption rate in this patients’ population.
+
+We included in the analysis all the studies (retrospective or prospective, observational or interventional) reporting data on acute and/or late toxicity during/after RT in elderly women with breast cancer. We considered all the studies where patients’ age was at least 60 years, to be as inclusive as possible, because studies considering specific age ranges are extremely rare. All types of RT settings were included and no restriction was applied regarding other primary/adjuvant associated treatment (surgery, chemotherapy, targeted therapies, endocrine therapy).
+
+A bibliographic search was performed on PubMed. The following search strategy was used: (((breast cancer[Title/Abstract]) AND (radiotherapy[Title/Abstract] OR radiation therapy[Title/Abstract])) AND (elderly[Title/Abstract] OR older[Title/Abstract] OR old[Title/Abstract])) AND (toxicity[Title/Abstract] OR side effects[Title/Abstract]). Only articles in English were considered while no chronological limitation was applied.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+From the literature search as described above, 182 papers were identified and screened at title and abstract level. Figure 1 describes the process of paper selection. Eighty-three articles were retrieved for full text reading and 22 met the inclusion criteria. Twenty-eight papers were excluded because they did not report data on RT-related toxicity, 6 papers because data on toxicity were not stratified by age, and 27 papers because they did not report data from clinical trials. Finally, 22 papers were included in the descriptive analysis.
+
+Papers selection.
+
+Table 1 summarize the characteristics of studies included in the review. Twelve studies were retrospective ( 5 - 16 ), 5 were prospective observational trials ( 17 - 21 ), 1 phase III trial sub analysis ( 22 ) and 4 phase I-II trials ( 23 - 26 ).
+
+*, 11.3% patients <70 years; † , type of surgery not reported. APBI, accelerated partial breast irradiation; BCS, breast conservative surgery; BRT, brachytherapy; CT, chemotherapy; EBC, early breast cancer; EBRT, external beam radiotherapy; ET, endocrine therapy; IMRT, intensity modulated radiotherapy; IORT, intraoperative radiotherapy; NR, not reported; RT, radiotherapy; VMAT, Volumetric Modulated Arc Therapy; WBI, whole breast irradiation;
+
+Thirteen studies reported results about whole breast irradiation (WBI) delivered by external beams (EB) RT ± boost (simultaneous or consecutive) on the tumor bed ( 5 - 7 , 9 , 10 , 12 , 14 - 17 , 19 , 20 , 24 ). The majority of the studies analyzed different hypofractionated (HF) RT regimens ( 5 , 7 , 10 , 15 - 17 , 19 , 20 , 24 ), while Fiorica et al. retrospectively analyzed 131 patients treated with conventional fractionation (CF) ( 14 ). Cao et al. ( 12 ) and Fiorentino et al. ( 6 ) reported results on both patients treated with CF or HF. In the study of Méry et al. ( 9 ), RT techniques were not specified since the analysis focused on nonagenarian patients rather than on RT techniques.
+
+Nine studies reported results about accelerated partial breast irradiation (APBI): 2 focused on EB APBI ( 23 , 25 ), 2 on intraoperative RT (IORT) ( 13 , 26 ), and 2 on brachytherapy (BRT) ( 8 , 21 ). Jacobs et al. compared IORT and EB-APBI ( 18 ), Smith et al. compared BRT and EB-RT ( 11 ), and Meattini et al. compared WBI and EB-APBI ( 22 ).
+
+Four studies reported data on only acute toxicity ( 13 , 18 , 21 , 24 ) while in 4 studies ( 9 , 11 , 13 , 21 ) RT technique details and/or doses were not described. Toxicity assessment was considered as the primary endpoint only in 5 studies ( 6 , 13 , 23 - 25 ). Acute and late toxicity were reported using different criteria in 1 study ( 14 ) and not specified in 2 studies ( 11 , 21 ). Acute toxicity was mainly categorized using the RTOG/EORTC in 9 studies ( 5 - 7 , 10 , 15 , 19 , 20 , 22 , 23 ) and CTCAE criteria in 10 studies ( 8 , 9 , 12 , 13 , 16 - 18 , 24 - 26 ). Late toxicity was reported using CTCAE, RTOG/EORTC, SOMA-LENT criteria in 6 studies ( 5 , 8 , 16 , 17 , 25 , 26 ), 6 studies ( 6 , 14 , 19 , 20 , 22 , 23 ), and 4 studies ( 5 , 7 , 12 , 15 ), respectively.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Aim of our review was to collect the fragmentary information available in literature, to analyze the potential correlation between older age and worse RT-related acute and late toxicity in patients with breast cancer.
+
+This analysis has clear limitations. Primarily, not all studies reported both acute and late toxicities. Moreover, in some studies the severity of toxicity was not specified. Furthermore, different toxicity scales were used to specify and grade toxicity. For example, studies using LENT-SOMA scale considered cosmetic related outcomes as toxicity. On the other hand, CTCAE criteria split acute and late toxicity in several categories in the same organ/tissue. Therefore, the percentages often reported using this scale are not representative of the exact number of patients who presented a specific grade of toxicity in a specific tissue (i.e., skin or subcutaneous tissue) because a single patient can experience more than one toxicity. Follow-up duration and percentage of patients lost at follow-up are the other two essential issues which can limit late toxicity evaluation and are quite inhomogeneous in the analysed studies. Patients selection and the definition of “elderly” were also inhomogeneous in the series included in our analysis. We chose to be inclusive considering all studies where patients’ age was at least 60 years because in literature only few studies consider more selective age ranges. Moreover, due to lack of comorbidity description in most studies and correlation between older age and comorbidity incidence, it is difficult to distinguish the impact of age or concomitant diseases on toxicity. Finally, patients’ characteristics were inhomogeneous in terms of tumour stage and molecular subtype, surgical and systemic treatment performed, and RT characteristics.
+
+We considered all available RT techniques (BRT, IORT, EB), RT targets (surgical bed, whole breast, thoracic wall, lymph nodes), radiation sources (cobalt, photon beams, electron beams), and possible fractionation (conventional, daily HF, weekly HF). This choice led to substantially non-comparable results in the selected studies.
+
+Even considering all these limitations, our findings suggest that RT of breast cancer is well tolerated even in elderly patients with toxicity rates comparable to those of the general population. Therefore, toxicity incidence and severity seem not strictly related to age in this setting.
+
+In fact, none of the studies which directly compared age subgroup ( 13 , 14 , 21 ) found age-related differences. Only Cao et al. reported an increased risk of dermatitis in patients ≥80 years old and a correlation between age ≥80 years and comorbidities with RT interruption. However, it should be noted that toxicity rates were low and toxicity grades were mild in their analysis ( 12 ).
+
+In the different analyzed studies, acute toxicity G ≥3 ranged from 0.0% to 10.5% of patients and late toxicity from 0.0% to 13.0% of patients. RT discontinuation/interruption rate varied from 0.0% to 2.0% as shown in Table 4 . More specifically, the cumulative acute toxicity G ≥3 rates in all evaluable patients were 2.0%, 6.7%, and 5.2% in patients treated with EB-APBI, BRT, and IORT, respectively. Cumulative late G ≥3 toxicity in evaluable patients treated with EB-APBI was 2.8% while no late G ≥3 toxicity was recorded in studies reporting on BRT and IORT.
+
+*, only temporary interruption of RT; † , 57.1% temporary interruption. APBI, accelerated partial breast irradiation; BRT, brachytherapy; CF, conventional fractionation; HF, hypofractionated; IORT, intraoperative radiotherapy; NR, not reported; RT, radiotherapy; WBI, whole breast irradiation.
+
+Between the different APBI techniques, the highest percentage (6.7%) of acute G ≥3 toxicity was reported by Kinj et al. who delivered a single 16 Gy HDR-BRT dose to the tumor bed ( 8 ), and the lowest G ≥3 acute toxicity rates were recorded in EB-APBI studies (0.0–3.0%) ( 18 , 22 , 25 ). The highest late toxicity incidence (13.0%) was registered by Sayan et al. using EB-APBI with HF-accelerated regimen (40 Gy in 10 daily fractions) ( 23 ).
+
+In patients treated with WBI, the overall rates of G ≥3 toxicity were 3.0% for acute toxicity and 1.8% for late toxicity. Comparing different RT fractionations, we observed higher toxicity rates in studies on weekly HF as expected from a radiobiological point of view particularly for late effects. In fact, acute G ≥3 toxicity was 2.3%, 1.7%, and 4.9% in CF, daily HF, and weekly HF studies, respectively, while late G ≥3 toxicity was 0.6%, 0.0%, and 4.7% in CF, daily HF, and weekly HF, respectively.
+
+The highest acute toxicity rate was 10.5% in Sanz et al. analysis ( 19 ). Due to the high incidence of side effects, from 2012 the authors reduced the prescribed dose from 37.5 Gy in 6 weekly fractions to 30 Gy in 6 weekly fractions. In all other studies, acute G ≥3 toxicity did not exceed 6.1%. The highest late toxicity rate (7.7%) was reported by Rovea et al. who used a regimen of 32.5 or 30 Gy in 5 weekly fractions ( 10 ). Instead, it should be emphasized that reported late ≥ G3 toxicity rates were clearly lower in CF and daily HF studies (<1.0%).
+
+In WBI studies, 2 cases of G4 toxicity were reported both in patients treated with weekly HF regimens [1 case of acute G4 toxicity in Rovea’s study ( 10 ) and 1 case of late toxicity in Sanz’s study ( 19 )]. These cases represent 0.03% of evaluable patients treated with WBI including both acute and late toxicity. One G5 late toxicity (a death for myocardial infarction in a patient with cardiovascular-disease history) was reported by Cao et al. ( 12 ).
+
+In WBI studies, only 23 cases of RT discontinuation/interruption (0.8% of all evaluable patients) were recorded from Méry et al. ( 9 ), Doré et al. ( 16 ), Sanz et al. ( 19 ), Cao et al. ( 12 ), and Rovea et al. ( 10 ).
+
+Despite the limits mentioned above, our analysis failed to show an excess of RT-related toxicity in elderly patients irrespective of the technique used. Consequently, the large variety of RT options available seems to question the issues leading to RT omission such as logistic difficulties and QoL concerns. In fact, data show that RT can be safely delivered with IORT which can reduce the treatment time as much as possible by combining surgery and RT at the same time ( 26 ), or with a single fraction of BRT, or with HF schedules which can reduce the overall treatment duration and/or the number of RT application per week.
+
+The main advantage of BRT and HF-EB over IORT is that at least 15% of patients treated intraoperatively have a definitive histology not suitable for this treatment. Consequently, these patients need also post-operative WBI while IORT comes to be considered as a “boost”. On the contrary, post-operative RT allows a better selection of patients amenable for APBI ( 8 ).
+
+Given these considerations, RT omission in elderly patients with breast cancer should be carefully evaluated limiting this option to very selected critical patients, and it should not be driven only by patients’ age evaluation. Even if available data suggests no improvement in OS when adjuvant RT is added to BCS and systemic therapy in older patients, disease free survival is proved to be higher when standard treatment (BCS + RT) is used, regardless of age ( 3 ).
+
+Considering that life expectancy of breast cancer healthy women aged 70 and 80 is 15.8 and 8.8 years, respectively ( 28 ), comorbidities definition, social-economical frailties evaluation, and geriatric assessment should become routine practice when considering any treatment omission ( 4 ). Furthermore, in clinical practice RT is often omitted in this subgroup of patients due to concerns on QoL worsening. However, elderly patients desire to be informed and to share therapeutic decisions with physician ( 29 ). Therefore, it is essential to provide exhaustive information on RT pros and cons and to consider that RT is not the only treatment which can affect QoL. For example, endocrine therapy side effects and increased risk of local recurrence with the need of salvage mastectomy after RT omission, should be properly discussed with women because they can seriously affect long term QoL.
+
+In conclusion, the RT role in elderly breast cancer patients need to be further investigated by routinely including this group of patients in prospective clinical trials together with younger patients. Moreover, specific studies on elderly patients are required in order to systematically evaluate comorbidities and geriatric assessment, to report detailed toxicity data, and possibly to analyse QoL using Patients Reported Outcome Measures.
+
+Finally, it is very important to better stratify patients looking at disease stage and comorbidities because when considering de-escalation of breast cancer treatment, it is not obvious that RT is the omissible element. In fact, our analysis suggests that RT tolerability and toxicity are satisfactory also in elderly patients.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

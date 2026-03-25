@@ -1,0 +1,19 @@
+Source: PMC8480348_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Identification of Key Modules and Hub Genes Involved in Esophageal Squamous Cell Carcinoma Tumorigenesis Using WCGNA",
+  "condition_E": 1,
+  "condition_E_reason": "The GSE26866 dataset included 9 ESCC and 19 normal samples, while the GSE45670 dataset contained 28 ESCC and 10 normal samples.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 1,
+  "dataset_E_reason": "The GSE26866 and GSE45670 datasets were downloaded from the NCBI Gene Expression Omnibus (GEO).",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,235 @@
+================================================================================
+ARTICLE TITLE: DARS-AS1 Knockdown Inhibits the Growth of Cervical Cancer Cells via Downregulating HMGB1 via Sponging miR-188-5p
+PMCID: PMC7672739
+PMID: 33176595
+KEYWORDS: cervical cancer, lncrnas, tumorigenesis, dars-as1, high mobility group box 1
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Evidence has been shown that long noncoding RNAs (lncRNAs) play an important role in the development of cervical cancer. Recently, lncRNA DARS-AS1 was shown to be dysregulated in several cancer types, but the role of DARS-AS1 in cervical cancer remains unclear.
+
+Methods::
+Immunofluorescence staining, flow cytometry and transwell invasion assays were used to determine proliferation, apoptosis and invasion in cervical cancer cells, respectively. The dual luciferase reporter system assay was performed to assess the interaction between DARS-AS1, miR-188-5p, and high mobility group box 1 (HMGB1) in cervical cancer cells.
+
+Results::
+Downregulation of DARS-AS1 markedly inhibited the proliferation and invasion of cervical cancer cells. Moreover, DARS-AS1 knockdown obviously induced the apoptosis of SiHa and HeLa cells. Meanwhile, luciferase reporter assay identified that miR-188-5p was the potential miRNA binding of DARS-AS1, and HMGB1 was the potential binding target of miR-188-5p. Mechanistic analysis indicated that downregulation of DARS-AS1 decreased the expression of HMGB1 by acting as a competitive “sponge” of miR-188-5p.
+
+Conclusion::
+In this study, we found that DARS-AS1 knockdown suppressed the growth of cervical cancer cells via downregulating HMGB1 via sponging miR-188-5p. Therefore, DARS-AS1 might serve as a potential target for the treatment of cervical cancer.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Cervical cancer is the fourth most common malignancy affecting women worldwide. 1 Meanwhile, cervical cancer occupies the second place in cancer mortality in women in the developing countries, with about 529,800 new cases and 275,100 deaths per year. 2 , 3 Human papillomavirus (HPV) infection is a necessary cause of cervical cancer. 4 , 5 Persistent HPV infection can lead to cervical intraepithelial neoplasia (CIN) of different grades (CIN I, II, or III) and invasive cancer. 6 Surgery, radiotherapy, and chemotherapy are the main treatments for cervical cancer. 7 , 8 In addition, because of HPV vaccination programs funded by the government budgets, cervical cancer mortality and incidence rates have gradually declined in well-developed countries. 9 However, incidence and mortality rates of cervical cancer increased markedly in China, especially in young women. 10 Therefore, the identification of novel molecular targets may help to understand the diagnosis and treatment of cervical cancer.
+
+Long noncoding RNAs (lncRNAs) are a group of noncoding RNAs with more than 200 nucleotides in length, 11 which have been shown to participate in several biological processes, such as cell proliferation, apoptosis, migration and invasion. 12 It has been shown that lncRNA DARS-AS1 plays an oncogenic role in various human cancers, such as thyroid, ovarian and lung cancers. 13 - 15 Huang et al found that DARS-AS1 functioned as an oncogene in ovarian cancer. 14 However, the role and the regulatory mechanism of DARS-AS1 in cervical cancer remains unclear.
+
+MicroRNAs (miRNAs) are a group of non-coding RNA molecule about 22 nucleotides in length. 16 MiRNAs have been found to be dysregulated in various human cancer, including cervical cancer. 17 Evidence revealed that lncRNAs could regulate gene expression through functioning as a competitive endogenous RNAs (ceRNAs) at the transcriptional or post-transcriptional level. 18 In this study, we identified DARS-AS1 harbored a conserved miR-188-5p cognate sites, indicating that DARS-AS1 might function as a ceRNA for miR-188-5p. In addition, targetscan predicted that HMGB1 was a potential target of miR-188-5p. HMGB1 functions as an oncogene, which could promote the migration of breast cancer cells. 19 Collectively, we identified DARS-AS1 might be an oncogenic regulator involved in the progression of cervical cancer through miR-188-5p/HMGB1 axis.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+A newly interactive web server GEPIA ( http://gepia.cancer-pku.cn/detail.php ), for analyzing the RNA sequencing expression data of tumors and normal samples from the TCGA and the Genotype-Tissue Expression (GTEx) projects was used to validate the expression of DARS-AS1 between cervical squamous cell carcinoma (CESC) and adjacent normal tissue samples. 20 In addition, the dataset was used to determine whether the expression of DARS-AS1 was correlated with the survival of patients with cervical cancer.
+
+The human cervical cancer SiHa and HeLa cell lines were obtained from Type Culture Collection of the Chinese Academy of Sciences (Shanghai, China). The cell lines were cultured in DMEM medium with 10% fetal bovine serum (FBS; Thermo Fisher Scientific, Waltham, MA, USA) and 100 U/mL penicillin/streptomycin), and cultured at 37°C in the presence of 5% CO 2 .
+
+DARS-AS1 siRNA1, DARS-AS1 siRNA2, DARS-AS1 siRNA3, siRNA negative control (siRNA-NC), miR-188-5p agomir and miR-188-5p agomir negative control (agomir-NC) were purchased from Guangzhou RiboBio Co., Ltd (Guangzhou, China). The DARS-AS1 siRNA1, DARS-AS1 siRNA2, DARS-AS1 siRNA3, siRNA-NC, miR-188-5p agomir and agomir-NC were transfected into SiHa or HeLa cells using Lipofectamine 2000 (Thermo Fisher Scientific) for 24 h according to the manufacturer’s protocols.
+
+The HMGB1-overexpressing and control lentiviruses were obtained from Ribobio (Guangdong, China), named HMGB1-OE and control vector (Ctrl-vector). 293 T cells were transfected with lentivirus, packaging plasmid (pAX2) and envelope plasmid (pMD2.G) for 72 h. After that, virus-containing supernatant was collected, and added into SiHa and HeLa cells in the presence of polybrene (Santa Cruz Biotechnology, Santa Cruz, CA, USA) for 48 h. Later on, cells were cultured with 2.5 μg/mL puromycin (Thermo Fisher Scientific) to select stable HMGB1-OE cells. Western blot assay was performed to verify the transfection efficiency of the lentiviruses.
+
+The total RNA from SiHa and HeLa cells was extracted using TRIzol reagent (Thermo Fisher Scientific). EntiLink™ first Strand cDNA Synthesis Kit (ELK Biotechnology) was used for reverse transcription. After that, real-time PCR was performed using an EnTurbo™ SYBR Green PCR SuperMix reagent (ELK Biotechnology) on the StepOnePlus System (Applied Biosystems, CA). The relative expressions of DARS-AS1, miR-188-5p and HMGB1 were calculated using the 2 −ΔΔCt method. The primer pairs for DARS-AS1 were: forward: 5’-CCACCTGTATCAGAATCCCATG-3’; reverse: 5’-TCCCACTTTTGAGTGAGAACATG-3’. β-actin, forward: 5’-GTCCACCGCAAATGCTTCTA-3’; reverse: 5’-TGCTGTCACCTTCACCGTTC-3’. U6, forward: 5’-CTCGCTTCGGCAGCACAT-3’; reverse: 5’-AACGCTTCACGAATTTGCGT-3’. MiR-188-5p, forward: 5’-CATCCCTTGCATGGTGGAG-3’; reverse: 5’-CTCAACTGGTGTCGTGGAGTC-3’.
+
+Cell Counting Kit-8 (CCK8, Dojindo Molecular Technologies, Inc., Kyushu, Japan) was applied to determine cell viability. SiHa or HeLa cells (5000 cells per well) were plated in 96-well plates, and incubated overnight at 37°C. After that, cells were transfected with DARS-AS1 siRNA2 and DARS-AS1 siRNA3 for 12, 24 and 48 h, respectively. Later on, 10 µL of the CCK-8 reagent was added into each well, and cells were then incubated for another 2 h. Subsequently, the absorbance of each well at the wavelength of 450 nm was measured using a microplate reader (Thermo Fisher Scientific).
+
+SiHa or HeLa cells were fixed in 4% paraformaldehyde and permeabilised with 0.3% Triton X-100 at room temperature for 15 min. After blocking with 3% BSA for 30 min, cells were incubated with a Ki67 antibody (Abcam Cambridge, MA, USA) at 4°C overnight. Subsequently, cells were observed with a fluorescence microscope (Leica, Buffalo Grove, IL, USA). Nuclei were counterstained with DAPI. ImageJ software was used to quantify the number of Ki67-positive cells.
+
+Apoptosis was determined with the FITC Annexin V/Dead cell apoptosis kit (Thermo Fisher Scientific). SiHa or HeLa cells were stained with annexin V-FITC and propidium iodide (PI, Thermo Fisher Scientific) for 15 min in the dark. Subsequently, the percentage of apoptotic cells was analyzed on the flow cytometry (FACScan; BD Biosciences, Franklin Lake, NJ, USA) using the CellQuest software (BD Biosciences).
+
+Cell invasion was analyzed using 24-well transwell chambers (0.8 μm; Corning Incorporated, Corning, NY, USA). SiHa or HeLa cells were suspended in 200 µL serum-free medium and then added into the upper chamber pre-coated with matrigel (BD Biosciences, Franklin Lake, NJ, USA). After that, 600 µL of DMEM medium containing 10% FBS was added into the lower chamber. Later on, the invasive cells were stained with 0.2% crystal violet at 24 h. Subsequently, cells were photographed using a fluorescence microscope (Leica, Buffalo Grove, IL, USA). ImageJ software was used to quantify the number of invasive cells.
+
+The wild-type (WT) DARS-AS1 (CAAGGGAU) and mutant (MT) DARS-AS1 (CCCCUUGU) fragments were cloned into the pmirGLO luciferase reporter vectors (Promega, Madison, WI, USA). Then, SiHa cells were co-transfected with WT-DARS-AS1 and miR-188-5p agomir or MT-DARS-AS1 and miR-188-5p agomir, respectively, using Lipofectamine 2000 for 48 h. In addition, WT-HMGB1 (AAGGGAU) and MT-HMGB1 (CCUUGGU) 3′-UTR fragments were cloned into the pmirGLO luciferase reporter vectors. Then, WT-HMGB1 or MT-HMGB1 plasmid was co-transfected with miR-188-5p agomir and agomir-NC respectively using Lipofectamine 2000 in SiHa cells for 48 h. Subsequently, Dual Luciferase Reporter Assay System (Promega, Madison, USA) was used to detect luciferase activity with renilla luciferase activity as endogenous control.
+
+DARS-AS1 were biotinylated with biotinylated RNA labeling mix (Roche, Mannheim, Germany). SiHa cells were transfected with the biotinylated DARS-AS1 for 24 h. After that, cell lysates from SiHa cells were incubated with streptavidin-coated magnetic beads (Thermo Fisher Scientific, Waltham, MA, USA), then the biotin-coupled RNA complex was pulled down. Subsequently, RT-qPCR was conducted to analyze the abundance of miR-188-5p in bound fractions.
+
+The BCA Protein Assay Kit (Beyotime, China) was used to quantify the protein concentration. Equivalent amounts of proteins were separated by 10% SDS-PAGE, and then transferred onto a PVDF membrane (Millipore, Billerica, MA, USA). Later on, the membrane was blocked with 5% skim milk in TBST at room temperature for 1 h, and then incubated in primary antibodies at 4°C overnight. Antibodies were diluted to 1:1000 for HMGB1 (Abcam), p-p38 (Abcam), p38 (Abcam), p-JNK (Abcam), JNK (Abcam), p-p65 (Abcam), p65 (Abcam) and β-actin (Abcam). After that, the membrane was incubated with HRP-conjugated secondary antibody (Abcam) at room temperature for 1 h. Subsequently, blots were visualized by an enhanced chemiluminescent substrate kit (Thermo Fisher Scientific). β-actin was acted as the internal control.
+
+All data were repeated in triplicate. Data are presented as the mean ± standard deviation (S.D.). All statistical analyses were performed using GraphPad Prism software (version 7.0, La Jolla, CA, USA). One-way analysis of variance (ANOVA) and Tukey’s tests were carried out for multiple group comparisons. The results were considered significant at *P < 0.05.
+
+
+Validation of Gene Expression Based on the TCGA Database
+
+A newly interactive web server GEPIA ( http://gepia.cancer-pku.cn/detail.php ), for analyzing the RNA sequencing expression data of tumors and normal samples from the TCGA and the Genotype-Tissue Expression (GTEx) projects was used to validate the expression of DARS-AS1 between cervical squamous cell carcinoma (CESC) and adjacent normal tissue samples. 20 In addition, the dataset was used to determine whether the expression of DARS-AS1 was correlated with the survival of patients with cervical cancer.
+
+
+Cell Culture
+
+The human cervical cancer SiHa and HeLa cell lines were obtained from Type Culture Collection of the Chinese Academy of Sciences (Shanghai, China). The cell lines were cultured in DMEM medium with 10% fetal bovine serum (FBS; Thermo Fisher Scientific, Waltham, MA, USA) and 100 U/mL penicillin/streptomycin), and cultured at 37°C in the presence of 5% CO 2 .
+
+
+Cell Transfection and Lentivirus Infection
+
+DARS-AS1 siRNA1, DARS-AS1 siRNA2, DARS-AS1 siRNA3, siRNA negative control (siRNA-NC), miR-188-5p agomir and miR-188-5p agomir negative control (agomir-NC) were purchased from Guangzhou RiboBio Co., Ltd (Guangzhou, China). The DARS-AS1 siRNA1, DARS-AS1 siRNA2, DARS-AS1 siRNA3, siRNA-NC, miR-188-5p agomir and agomir-NC were transfected into SiHa or HeLa cells using Lipofectamine 2000 (Thermo Fisher Scientific) for 24 h according to the manufacturer’s protocols.
+
+The HMGB1-overexpressing and control lentiviruses were obtained from Ribobio (Guangdong, China), named HMGB1-OE and control vector (Ctrl-vector). 293 T cells were transfected with lentivirus, packaging plasmid (pAX2) and envelope plasmid (pMD2.G) for 72 h. After that, virus-containing supernatant was collected, and added into SiHa and HeLa cells in the presence of polybrene (Santa Cruz Biotechnology, Santa Cruz, CA, USA) for 48 h. Later on, cells were cultured with 2.5 μg/mL puromycin (Thermo Fisher Scientific) to select stable HMGB1-OE cells. Western blot assay was performed to verify the transfection efficiency of the lentiviruses.
+
+
+Real-time Quantitative Polymerase Chain Reaction (RT-qPCR)
+
+The total RNA from SiHa and HeLa cells was extracted using TRIzol reagent (Thermo Fisher Scientific). EntiLink™ first Strand cDNA Synthesis Kit (ELK Biotechnology) was used for reverse transcription. After that, real-time PCR was performed using an EnTurbo™ SYBR Green PCR SuperMix reagent (ELK Biotechnology) on the StepOnePlus System (Applied Biosystems, CA). The relative expressions of DARS-AS1, miR-188-5p and HMGB1 were calculated using the 2 −ΔΔCt method. The primer pairs for DARS-AS1 were: forward: 5’-CCACCTGTATCAGAATCCCATG-3’; reverse: 5’-TCCCACTTTTGAGTGAGAACATG-3’. β-actin, forward: 5’-GTCCACCGCAAATGCTTCTA-3’; reverse: 5’-TGCTGTCACCTTCACCGTTC-3’. U6, forward: 5’-CTCGCTTCGGCAGCACAT-3’; reverse: 5’-AACGCTTCACGAATTTGCGT-3’. MiR-188-5p, forward: 5’-CATCCCTTGCATGGTGGAG-3’; reverse: 5’-CTCAACTGGTGTCGTGGAGTC-3’.
+
+
+CCK-8 Assay
+
+Cell Counting Kit-8 (CCK8, Dojindo Molecular Technologies, Inc., Kyushu, Japan) was applied to determine cell viability. SiHa or HeLa cells (5000 cells per well) were plated in 96-well plates, and incubated overnight at 37°C. After that, cells were transfected with DARS-AS1 siRNA2 and DARS-AS1 siRNA3 for 12, 24 and 48 h, respectively. Later on, 10 µL of the CCK-8 reagent was added into each well, and cells were then incubated for another 2 h. Subsequently, the absorbance of each well at the wavelength of 450 nm was measured using a microplate reader (Thermo Fisher Scientific).
+
+
+Immunofluorescence Assay
+
+SiHa or HeLa cells were fixed in 4% paraformaldehyde and permeabilised with 0.3% Triton X-100 at room temperature for 15 min. After blocking with 3% BSA for 30 min, cells were incubated with a Ki67 antibody (Abcam Cambridge, MA, USA) at 4°C overnight. Subsequently, cells were observed with a fluorescence microscope (Leica, Buffalo Grove, IL, USA). Nuclei were counterstained with DAPI. ImageJ software was used to quantify the number of Ki67-positive cells.
+
+
+Flow Cytometry Assay
+
+Apoptosis was determined with the FITC Annexin V/Dead cell apoptosis kit (Thermo Fisher Scientific). SiHa or HeLa cells were stained with annexin V-FITC and propidium iodide (PI, Thermo Fisher Scientific) for 15 min in the dark. Subsequently, the percentage of apoptotic cells was analyzed on the flow cytometry (FACScan; BD Biosciences, Franklin Lake, NJ, USA) using the CellQuest software (BD Biosciences).
+
+
+Transwell Invasion Assay
+
+Cell invasion was analyzed using 24-well transwell chambers (0.8 μm; Corning Incorporated, Corning, NY, USA). SiHa or HeLa cells were suspended in 200 µL serum-free medium and then added into the upper chamber pre-coated with matrigel (BD Biosciences, Franklin Lake, NJ, USA). After that, 600 µL of DMEM medium containing 10% FBS was added into the lower chamber. Later on, the invasive cells were stained with 0.2% crystal violet at 24 h. Subsequently, cells were photographed using a fluorescence microscope (Leica, Buffalo Grove, IL, USA). ImageJ software was used to quantify the number of invasive cells.
+
+
+Luciferase Reporter Assay
+
+The wild-type (WT) DARS-AS1 (CAAGGGAU) and mutant (MT) DARS-AS1 (CCCCUUGU) fragments were cloned into the pmirGLO luciferase reporter vectors (Promega, Madison, WI, USA). Then, SiHa cells were co-transfected with WT-DARS-AS1 and miR-188-5p agomir or MT-DARS-AS1 and miR-188-5p agomir, respectively, using Lipofectamine 2000 for 48 h. In addition, WT-HMGB1 (AAGGGAU) and MT-HMGB1 (CCUUGGU) 3′-UTR fragments were cloned into the pmirGLO luciferase reporter vectors. Then, WT-HMGB1 or MT-HMGB1 plasmid was co-transfected with miR-188-5p agomir and agomir-NC respectively using Lipofectamine 2000 in SiHa cells for 48 h. Subsequently, Dual Luciferase Reporter Assay System (Promega, Madison, USA) was used to detect luciferase activity with renilla luciferase activity as endogenous control.
+
+
+RNA-Pull Down Assay
+
+DARS-AS1 were biotinylated with biotinylated RNA labeling mix (Roche, Mannheim, Germany). SiHa cells were transfected with the biotinylated DARS-AS1 for 24 h. After that, cell lysates from SiHa cells were incubated with streptavidin-coated magnetic beads (Thermo Fisher Scientific, Waltham, MA, USA), then the biotin-coupled RNA complex was pulled down. Subsequently, RT-qPCR was conducted to analyze the abundance of miR-188-5p in bound fractions.
+
+
+Western Blot Assay
+
+The BCA Protein Assay Kit (Beyotime, China) was used to quantify the protein concentration. Equivalent amounts of proteins were separated by 10% SDS-PAGE, and then transferred onto a PVDF membrane (Millipore, Billerica, MA, USA). Later on, the membrane was blocked with 5% skim milk in TBST at room temperature for 1 h, and then incubated in primary antibodies at 4°C overnight. Antibodies were diluted to 1:1000 for HMGB1 (Abcam), p-p38 (Abcam), p38 (Abcam), p-JNK (Abcam), JNK (Abcam), p-p65 (Abcam), p65 (Abcam) and β-actin (Abcam). After that, the membrane was incubated with HRP-conjugated secondary antibody (Abcam) at room temperature for 1 h. Subsequently, blots were visualized by an enhanced chemiluminescent substrate kit (Thermo Fisher Scientific). β-actin was acted as the internal control.
+
+
+Statistical Analysis
+
+All data were repeated in triplicate. Data are presented as the mean ± standard deviation (S.D.). All statistical analyses were performed using GraphPad Prism software (version 7.0, La Jolla, CA, USA). One-way analysis of variance (ANOVA) and Tukey’s tests were carried out for multiple group comparisons. The results were considered significant at *P < 0.05.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The expression of DARS-AS1 in patients with cervical cancer in TCGA dataset was downloaded. The data revealed that DARS-AS1 levels in 306 CESC tissues were higher than that of in 13 normal tissues (3 samples from TCGA, 10 samples from GTEx; Figure 1A ). In addition, high levels of DARS-AS1 correlated with poor overall survival rates in patients with cervical cancer in the TCGA dataset ( Figure 1B ). These data indicated that DARS-AS1 was overexpressed in cervical cancer, and it was negatively associated with the overall survival rate of patients.
+
+ DARS-AS1 is overexpressed in cervical cancer. (A) Relative expression of DARS-AS1 expression in CESC tissues (n = 306, T) and in normal tissues (n = 13, N) in TCGA and GTEx datasets. (B) Survival analysis of the correlation between DARS-AS1 levels and survival rates in patients with cervical cancer.
+
+To investigate the role of DARS-AS1 in cervical cancer cells, we established cervical cancer cell lines (SiHa and HeLa) with DARS-AS1 transient knockdown. As shown in Figure 2A and 2B , the level of DARS-AS1 was significantly downregulated in SiHa and HeLa cells following transfection with DARS-AS1 siRNA2 or DARS-AS1 siRNA3. In addition, CCK-8 assay indicated that downregulation of DARS-AS1 markedly suppressed the proliferation of SiHa and HeLa cells ( Figure 2C and 2D ). Moreover, immunofluorescence assays revealed that DARS-AS1 knockdown significantly decreased the number of Ki67-positive cells compared with the siRNA-ctrl group ( Figure 2E , 2F , 2G and 2 H). These results suggested that downregulation of DARS-AS1 notably inhibited the proliferation of cervical cancer cells.
+
+ Downregulation of DARS-AS1 inhibits proliferation of cervical cancer cells. The level of DARS-AS1 in (A) SiHa and (B) HeLa cells transfected with DARS-AS1 siRNA1, DARS-AS1 siRNA2 or DARS-AS1 siRNA3 was analyzed by qRT-PCR. (C) SiHa and (D) HeLa cells were transfected with DARS-AS1-siRNA2 or DARS-AS1-siRNA3 for 12, 24 and 48 h. Cell viability was analyzed by CCK-8 assay. (E, F) Quantification of Ki67 expression by immunofluorescence in SiHa cells. (G, H) Quantification of Ki67 expression by immunofluorescence in HeLa cells. *P < 0.05, **P < 0.01, compared with the siRNA-ctrl group. Blank group: cells treated with nothing.
+
+To investigate the effect of DARS-AS1 on the apoptosis of cervical cancer cells, flow cytometry assay was performed. As indicated in Figure 3A and 3B , DARS-AS1 knockdown greatly induced apoptosis of SiHa and HeLa cells, compared with the siRNA-ctrl group. In addition, knockdown of DARS-AS1 notably suppressed the invasion ability of SiHa and HeLa cells ( Figure 3C ). These data illustrated that downregulation of DARS-AS1 could induce the apoptosis and inhibit the invasion of cervical cancer cells.
+
+ Downregulation of DARS-AS1 induces apoptosis and inhibits invasion of cervical cancer cells. (A) SiHa and (B) HeLa cells were transfected with DARS-AS1-siRNA2 or DARS-AS1-siRNA3 for 48 h. Apoptotic cells were measured by flow cytometry. (C) SiHa and HeLa cells were transfected with DARS-AS1 siRNA2 or DARS-AS1 siRNA3 for 24 h. Transwell invasion assay was used to detect cell invasion. *P < 0.05, **P < 0.01, compared with the siRNA-ctrl group. Blank group: cells treated with nothing.
+
+Next, Starbase ( http://starbase.sysu.edu.cn ) was used to identify the miRNAs interacting with DARS-AS1, and it was found that miR-188-5p had a complementary sequence to DARS-AS1 ( Figure 4A ). In addition, RT-qPCR data indicated miR-188-5p agomir significantly upregulated the level of miR-188-5p in SiHa cells compared with agomir-ctrl group ( Figure 4B ); dual luciferase reporter assay showed that the luciferase activity was notably lower in SiHa cells co-transfected with the WT-DARS-AS1 segment and miR-188-5p agomir, compared to agomir-ctrl group ( Figure 4C ). Meanwhile, RNA pull-down assay manifested that miR-188-5p was pulled down by biotin-labeled DARS-AS1, indicating that miR-188-5p directly interacted with DARS-AS1 ( Figure 4D ). All these results indicated that DARS-AS1 directly bound to miR-188-5p in SiHa cells.
+
+ DARS-AS1 functions as a ceRNA of miR-188-5p in SiHa cells. (A) The putative binding sites of miR-188-5p on DARS-AS1. (B) SiHa cells were transfected with agomir-ctrl, miR-188-5p agomir for 24 h. RT-qPCR was applied to measure the level of miR-188-5p. **P < 0.01 compared with agomir-ctrl group . (C) Luciferase assay of SiHa cells co-transfected with DARS-AS1-WT and miR-188-5p agomir, or DARS-AS1-MT and miR-188-5p agomir. **P < 0.01 compared with agomir-ctrl group. (D) RNA pull-down analysis was used to determine the interaction of xmiR-188-5p and DARS-AS1. **P < 0.01 compared with probe-ctrl group. Blank group: cells treated with nothing.
+
+In order to identify the potential targets of miR-188-5p, TargetScan dataset ( http://www.targetscan.org/vert_71/ ) was used. As shown in Figure 5A , the 3′-UTR of HMGB1 had the same binding sites of DARS-AS1 on miR-188-5p. In addition, dual luciferase reporter assay showed that miR-188-5p agomir led to a significant decrease in luciferase activity of the WT-HMGB1 3′UTR vector in SiHa cells, compared to agomir-ctrl group ( Figure 5B ). Moreover, miR-188-5p agomir markedly reduced the protein expression of HMGB1 in SiHa cells ( Figure 5C and 5D ). These data suggested that HMGB1 was a direct binding target of miR-188-5p.
+
+ HMGB1 is a direct binding target of miR-188-5p. (A) The putative binding sites of miR-188-5p on HMGB1. (B) Luciferase assay of SiHa cells co-transfected with HMGB1-WT and miR-188-5p agomir or HMGB1-MT and miR-188-5p agomir. (C, D) The protein level of HMGB1 in SiHa cells transfected with miR-188-5p agomir was analyzed by western blot assay. **P < 0.01 compared with agomir-ctrl group.
+
+We further explore the biological role of DARS-AS1 in the regulation of HMGB1 protein expression. As shown in Figure 6A and 6B , HMGB1 was markedly upregulated in SiHa cells infected with HMGB1-OE plasmids, and CCK-8 assay indicated that the effect of DARS-AS1 knockdown on the proliferation of SiHa cells was reversed by HMGB1 OE ( Figure 6C ). In addition, downregulation of DARS-AS1 notably induced the apoptosis of SiHa cells, while this phenomenon was reversed by HMGB1-OE infection ( Figure 6D ). Meanwhile, DARS-AS1 siRNA3 notably resulted in decreased expression of HMGB1 and decreased the phosphorylation of p38, JNK and p65 in SiHa cells; however, these changes were reversed by HMGB1 OE infection ( Figure 6E , 6F , 6G , 6 H and 6I). All these outcomes confirmed that downregulation of DARS-AS1 induced the apoptosis of cervical cancer cells through miR-188-5p/HMGB1 axis.
+
+ Downregulation of DARS-AS1 induces apoptosis of cervical cancer cells through miR-188-5p/HMGB1 axis. (A, B) The protein level of HMGB1 in SiHa cells infected with HMGB1-OE plasmids was analyzed by western blot assay. **P < 0.01 compared with Ctrl-vector group. (C) SiHa cells were transfected with DARS-AS1 siRNA3 with or without HMGB1-OE plasmids for 48 h. Cell viability was analyzed by CCK-8 assay. (D) Apoptotic cells were measured by flow cytometry. (E) Western analysis of HMGB1, p-p38, p-JNK and p-p65 proteins in SiHa cells. (F, G, H, I) The relative expressions of HMGB1, p-p38, p-JNK, p-p65 in SiHa were normalized to β-actin, p38, JNK, p65, respectively. **P < 0.01, compared with the siRNA-ctrl group; ## P < 0.01 compared with DARS-AS1 siRNA3 group.
+
+
+DARS-AS1 Is Overexpressed in Cervical Cancer
+
+The expression of DARS-AS1 in patients with cervical cancer in TCGA dataset was downloaded. The data revealed that DARS-AS1 levels in 306 CESC tissues were higher than that of in 13 normal tissues (3 samples from TCGA, 10 samples from GTEx; Figure 1A ). In addition, high levels of DARS-AS1 correlated with poor overall survival rates in patients with cervical cancer in the TCGA dataset ( Figure 1B ). These data indicated that DARS-AS1 was overexpressed in cervical cancer, and it was negatively associated with the overall survival rate of patients.
+
+ DARS-AS1 is overexpressed in cervical cancer. (A) Relative expression of DARS-AS1 expression in CESC tissues (n = 306, T) and in normal tissues (n = 13, N) in TCGA and GTEx datasets. (B) Survival analysis of the correlation between DARS-AS1 levels and survival rates in patients with cervical cancer.
+
+
+Downregulation of DARS-AS1 Inhibits the Proliferation of Cervical Cancer Cells
+
+To investigate the role of DARS-AS1 in cervical cancer cells, we established cervical cancer cell lines (SiHa and HeLa) with DARS-AS1 transient knockdown. As shown in Figure 2A and 2B , the level of DARS-AS1 was significantly downregulated in SiHa and HeLa cells following transfection with DARS-AS1 siRNA2 or DARS-AS1 siRNA3. In addition, CCK-8 assay indicated that downregulation of DARS-AS1 markedly suppressed the proliferation of SiHa and HeLa cells ( Figure 2C and 2D ). Moreover, immunofluorescence assays revealed that DARS-AS1 knockdown significantly decreased the number of Ki67-positive cells compared with the siRNA-ctrl group ( Figure 2E , 2F , 2G and 2 H). These results suggested that downregulation of DARS-AS1 notably inhibited the proliferation of cervical cancer cells.
+
+ Downregulation of DARS-AS1 inhibits proliferation of cervical cancer cells. The level of DARS-AS1 in (A) SiHa and (B) HeLa cells transfected with DARS-AS1 siRNA1, DARS-AS1 siRNA2 or DARS-AS1 siRNA3 was analyzed by qRT-PCR. (C) SiHa and (D) HeLa cells were transfected with DARS-AS1-siRNA2 or DARS-AS1-siRNA3 for 12, 24 and 48 h. Cell viability was analyzed by CCK-8 assay. (E, F) Quantification of Ki67 expression by immunofluorescence in SiHa cells. (G, H) Quantification of Ki67 expression by immunofluorescence in HeLa cells. *P < 0.05, **P < 0.01, compared with the siRNA-ctrl group. Blank group: cells treated with nothing.
+
+
+Downregulation of DARS-AS1 Induces the Apoptosis and Inhibits the Invasion of Cervical Cancer Cells
+
+To investigate the effect of DARS-AS1 on the apoptosis of cervical cancer cells, flow cytometry assay was performed. As indicated in Figure 3A and 3B , DARS-AS1 knockdown greatly induced apoptosis of SiHa and HeLa cells, compared with the siRNA-ctrl group. In addition, knockdown of DARS-AS1 notably suppressed the invasion ability of SiHa and HeLa cells ( Figure 3C ). These data illustrated that downregulation of DARS-AS1 could induce the apoptosis and inhibit the invasion of cervical cancer cells.
+
+ Downregulation of DARS-AS1 induces apoptosis and inhibits invasion of cervical cancer cells. (A) SiHa and (B) HeLa cells were transfected with DARS-AS1-siRNA2 or DARS-AS1-siRNA3 for 48 h. Apoptotic cells were measured by flow cytometry. (C) SiHa and HeLa cells were transfected with DARS-AS1 siRNA2 or DARS-AS1 siRNA3 for 24 h. Transwell invasion assay was used to detect cell invasion. *P < 0.05, **P < 0.01, compared with the siRNA-ctrl group. Blank group: cells treated with nothing.
+
+
+DARS-AS1 Functions as a ceRNA of miR-188-5p in SiHa Cells
+
+Next, Starbase ( http://starbase.sysu.edu.cn ) was used to identify the miRNAs interacting with DARS-AS1, and it was found that miR-188-5p had a complementary sequence to DARS-AS1 ( Figure 4A ). In addition, RT-qPCR data indicated miR-188-5p agomir significantly upregulated the level of miR-188-5p in SiHa cells compared with agomir-ctrl group ( Figure 4B ); dual luciferase reporter assay showed that the luciferase activity was notably lower in SiHa cells co-transfected with the WT-DARS-AS1 segment and miR-188-5p agomir, compared to agomir-ctrl group ( Figure 4C ). Meanwhile, RNA pull-down assay manifested that miR-188-5p was pulled down by biotin-labeled DARS-AS1, indicating that miR-188-5p directly interacted with DARS-AS1 ( Figure 4D ). All these results indicated that DARS-AS1 directly bound to miR-188-5p in SiHa cells.
+
+ DARS-AS1 functions as a ceRNA of miR-188-5p in SiHa cells. (A) The putative binding sites of miR-188-5p on DARS-AS1. (B) SiHa cells were transfected with agomir-ctrl, miR-188-5p agomir for 24 h. RT-qPCR was applied to measure the level of miR-188-5p. **P < 0.01 compared with agomir-ctrl group . (C) Luciferase assay of SiHa cells co-transfected with DARS-AS1-WT and miR-188-5p agomir, or DARS-AS1-MT and miR-188-5p agomir. **P < 0.01 compared with agomir-ctrl group. (D) RNA pull-down analysis was used to determine the interaction of xmiR-188-5p and DARS-AS1. **P < 0.01 compared with probe-ctrl group. Blank group: cells treated with nothing.
+
+
+HMGB1 Is a Direct Binding Target of miR-188-5p
+
+In order to identify the potential targets of miR-188-5p, TargetScan dataset ( http://www.targetscan.org/vert_71/ ) was used. As shown in Figure 5A , the 3′-UTR of HMGB1 had the same binding sites of DARS-AS1 on miR-188-5p. In addition, dual luciferase reporter assay showed that miR-188-5p agomir led to a significant decrease in luciferase activity of the WT-HMGB1 3′UTR vector in SiHa cells, compared to agomir-ctrl group ( Figure 5B ). Moreover, miR-188-5p agomir markedly reduced the protein expression of HMGB1 in SiHa cells ( Figure 5C and 5D ). These data suggested that HMGB1 was a direct binding target of miR-188-5p.
+
+ HMGB1 is a direct binding target of miR-188-5p. (A) The putative binding sites of miR-188-5p on HMGB1. (B) Luciferase assay of SiHa cells co-transfected with HMGB1-WT and miR-188-5p agomir or HMGB1-MT and miR-188-5p agomir. (C, D) The protein level of HMGB1 in SiHa cells transfected with miR-188-5p agomir was analyzed by western blot assay. **P < 0.01 compared with agomir-ctrl group.
+
+
+Downregulation of DARS-AS1 Induces the Apoptosis of Cervical Cancer Cells Through miR-188-5p/HMGB1 Axis
+
+We further explore the biological role of DARS-AS1 in the regulation of HMGB1 protein expression. As shown in Figure 6A and 6B , HMGB1 was markedly upregulated in SiHa cells infected with HMGB1-OE plasmids, and CCK-8 assay indicated that the effect of DARS-AS1 knockdown on the proliferation of SiHa cells was reversed by HMGB1 OE ( Figure 6C ). In addition, downregulation of DARS-AS1 notably induced the apoptosis of SiHa cells, while this phenomenon was reversed by HMGB1-OE infection ( Figure 6D ). Meanwhile, DARS-AS1 siRNA3 notably resulted in decreased expression of HMGB1 and decreased the phosphorylation of p38, JNK and p65 in SiHa cells; however, these changes were reversed by HMGB1 OE infection ( Figure 6E , 6F , 6G , 6 H and 6I). All these outcomes confirmed that downregulation of DARS-AS1 induced the apoptosis of cervical cancer cells through miR-188-5p/HMGB1 axis.
+
+ Downregulation of DARS-AS1 induces apoptosis of cervical cancer cells through miR-188-5p/HMGB1 axis. (A, B) The protein level of HMGB1 in SiHa cells infected with HMGB1-OE plasmids was analyzed by western blot assay. **P < 0.01 compared with Ctrl-vector group. (C) SiHa cells were transfected with DARS-AS1 siRNA3 with or without HMGB1-OE plasmids for 48 h. Cell viability was analyzed by CCK-8 assay. (D) Apoptotic cells were measured by flow cytometry. (E) Western analysis of HMGB1, p-p38, p-JNK and p-p65 proteins in SiHa cells. (F, G, H, I) The relative expressions of HMGB1, p-p38, p-JNK, p-p65 in SiHa were normalized to β-actin, p38, JNK, p65, respectively. **P < 0.01, compared with the siRNA-ctrl group; ## P < 0.01 compared with DARS-AS1 siRNA3 group.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Evidence has been shown that lncRNAs play crucial roles in development and progression of cervical cancer. 21 The study by Luan et al has found that lncRNA XLOC_006390 could promote growth of cervical cancer cells via regulating miR-331-3p and miR-338-3p. 22 Guo et al indicated that lncRNA SNHG20 could promote proliferation and invasion of cervical cancer cells via sponging miR-140-5p. 23 However, the specific function of most lncRNAs in the tumorigenesis of cervical cancer is unknown. In the present study, we found that DARS-AS1 was upregulated in cervical cancer tissues, and high level DARS-AS1 predicted poor prognosis of patients. Moreover, we found that downregulation of DARS-AS1 could inhibit the proliferation, migration, invasion and induce apoptosis in cervical cancer cells. These results suggested that DARS-AS1 might serve as a therapeutic target for cervical cancer.
+
+Most lncRNA molecules can bind to miRNAs and regulate gene expression via acting as “miRNA sponges.” 24 Huang et al indicated that DARS-AS1 could promote proliferation and metastasis in ovarian cancer cells via sponging miR-532-3p. 14 Meanwhile, lncRNA XIST was proposed to promote cervical cancer progression via sponging miR-200a. 25 Importantly, we identified that DARS-AS1 could interact with miR-188-5p in cervical cancer by dual-luciferase reporter and RNA pull-down assays, which has not been explored by previous studies. MiR-188-5p has been found to be dysregulated in various human cancers, such as breast cancer, gastric cancer and cervical cancer. 26 - 28 Gao et al indicated that the level of miR-188 was downregulated in cervical cancer, and low expression of miR-188 correlated with the short survival of patients with cervical cancer (28).
+
+In addition, our data indicated that HMGB1 was a potential binding target of miR-188-5p. This find supported by previous reports. Wu et al indicated that HMGB1 is overexpressed in various types of cancer and is associated with a poor prognosis. 29 Liu et al indicated that overexpression of HMGB1 could promote tumor cell proliferation in hepatocellular carcinoma. 30 Chandrasekaran et al found that downregulation of HMGB1 suppressed proliferation, migration and invasion of cervical cancer cells. 31 In addition, downregulation of HMGB1 could reverse cisplatin resistance in cervical cancer cells. 32 Thus, HMGB1 may be a useful biomarker in cervical cancer. In this study, we found that downregulation of DARS-AS1 significantly inhibited proliferation and induced apoptosis in cervical cancer cells, these changes were reversed by HMGB1 overexpression. In this study, we found that miR-188-5p could target both DARS-AS1 and HMGB1, indicating that DARS-AS1 might function as miR-188-5p sponge to regulate HMGB1 expression via ceRNA mechanism.
+
+Evidence has been shown that HMGB1 can activate the TLR4/NF-kB signaling pathway, which promotes tumor cell proliferation, migration and invasion. 33 In addition, kang et al indicated that HMGB1 could induce the phosphorylation of p38 and JNK in leukemic cells. 34 Thus, we analyzed NF-κB p65, p38 and JNK, which are 3 key factors involved in tumor development and progression. 35 In this study, our data indicated that downregulation of DARS-AS1 notably decreased the phosphorylation of p38, JNK and p65 in cervical cancer cells, but, these changes were reversed by HMGB1 overexpression. This finding was supported by Liu et al. They found that diallyl trisulfide inhibited metastasis of triple negative breast cancer cells via downregulation of NF-κB and MAPK signaling pathways. 36 All these data indicated that DARS-AS1 knockdown inhibited the growth of cervical cancer cells via inhibition of HMGB1/p38 and HMGB1/JNK signaling pathways.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In conclusion, our data indicated that downregulation of DARS-AS1 inhibited the proliferation of cervical cancer via miR-188-5p-HMGB1 axis. Therefore, targeting the DARS-AS1/miR-188-5p/HMGB1 axis might represent a novel therapeutic option for the treatment of cervical cancer.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

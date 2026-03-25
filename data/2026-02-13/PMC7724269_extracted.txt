@@ -1,0 +1,943 @@
+================================================================================
+ARTICLE TITLE: Loading MicroRNA-376c in Extracellular Vesicles Inhibits Properties
+of Non-Small Cell Lung Cancer Cells by Targeting YTHDF1
+PMCID: PMC7724269
+PMID: 33280517
+KEYWORDS: microrna-376c, ythdf1, non-small cell lung cancer, extracellular vesicles, the wnt/β-catenin pathway
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+Extracellular vesicles (Evs) secreted from cells have been revealed to
+mediate signal transduction between cells. Nevertheless, the mechanisms
+through which molecules transported by EVs function remain to be elucidated.
+In the present study, the functional relevance of endothelial cells
+(ECs)-secreted Evs carrying microRNA-376c (miR-376c) in the biological
+activities of non-small cell lung cancer (NSCLC) cells was investigated,
+including the related mechanisms.
+
+Methods::
+Two cell lines with the highest YTH N6-methyladenosine (m6A) RNA binding
+protein 1 (YTHDF1) expression were selected for subsequent experiments.
+Cellular proliferation, migration, invasion and apoptosis were measured by
+EdU, wound healing, Transwell assays and flow cytometry, respectively. The
+binding relationship between miR-376c and YTHDF1 was analyzed by
+dual-luciferase reporter assays. The miR-376c, YTHDF1 and β-catenin
+expression was evaluated by qPCR assays and western blot assays.
+
+Results::
+The expression patterns of YTHDF1 were higher in NSCLC cells, whereas
+miR-376c was reduced versus the normal bronchial epithelial cells. Silencing
+of YTHDF1 repressed NSCLC cell proliferation, invasion and migration
+abilities, whereas enhanced apoptosis. miR-376c negatively modulated YTHDF1
+expression. Under co-culture conditions, ECs transmitted miR-376c into NSCLC
+cells through Evs, and inhibited the intracellular YTHDF1 expression and the
+Wnt/β-catenin pathway activation. Rescue experiments revealed that YTHDF1
+overexpression reversed the inhibitory role of miR-376c released by EC-Evs
+in NSCLC cells.
+
+Conclusion::
+EC-delivered Evs inhibit YTHDF1 expression and the Wnt/β-catenin pathway
+induction via miR-376c overexpression, thus inhibiting the malignant
+phenotypes of NSCLC cells.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Lung cancer had the highest incidence and mortality rates among all cancer types in
+2018 globally, with the death rate close to 1 in 5 (18.4%) and the highest incidence
+rate among male observed in China. 1 Non-small-cell lung cancer (NSCLC) contributes to approximately 80-85% of all
+lung cancer cases, and improvements in surgery, chemotherapy and radiotherapy have
+not contributed to significant progress in terms of prognosis, thus innovative
+biomarkers that could improve diagnosis and prognostic stratification are urgently required. 2 Cell-cell contact or the transmission of secreted molecules in a direct
+manner has been recognized as the 2 main means for intercellular communication, in
+addition to physical force, geometric constraints and mechanobiological factors,
+while a third mechanism involving the intercellular transfer of extracellular
+vesicles (Evs) has recently emerged. 3 Moreover, exosomes, ranging from 30 to 150 nm in size, transport different
+types of biomolecules, such as proteins, messenger RNAs (mRNAs) as well as microRNAs
+(miRNAs or miRs) between cells. 4 Exosomes released from umbilical vein endothelial cells (ECs) facilitate the
+expansion of neural stem cells. 5 However, the effects of EC-derived Evs on the biological activities of NSCLC
+cells have not yet been determined.
+
+The importance of miRNAs in cancers has become increasingly clear when bearing in
+mind that almost half of all miRNAs are located at fragile regions or cancer-related
+genomic sites that are commonly cancelled or augmented in tumorigenesis. 6 For instance, the enforced expression of miR-376c has been shown to attenuate
+the proliferation and invasion of NSCLC cells and the induction of the Wnt pathway,
+whereas a decrease in miR-376c has been shown to reverse these effects. 7 Furthermore, miR-376c-3p has been evidenced to be profoundly downregulated in
+both maternal and umbilical cord serum-released exosomes. 8 Mechanistically, YTH N6-methyladenosine (m6A) RNA binding protein 1 (YTHDF1)
+was confirmed as a possible target for miR-376c in NSCLC cells in the present study
+by a dual-luciferase reporter gene assay. YTHDF1 exhibits a high expression in
+hepatocellular carcinoma, which is positively associated with the pathological stage
+of the patients, indicating its role as a possible therapeutic and prognostic target
+for cancers. 9 Moreover, YTHDF1 has been shown to be upregulated in colorectal cancer and to
+function as an oncogene, while the knockdown of YTHDF1 has been displayed to
+significantly disrupt the Wnt/β-catenin pathway in colorectal cancer cells. 10 Therefore, the effects of miR-376c secreted by EC-derived Evs on NSCLC cell
+activities including proliferation, migration, invasion and apoptosis were
+investigated in the present study. In addition, the underlying mechanisms were
+determined. The roles of miR-376c in the disruption of the Wnt/β-catenin pathway in vitro in a YTHDF1-dependent manner were also further
+examined.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Material and Methods
+
+The expression of YTHDF1 and miR-376c in lung cancer was obtained from the GEO
+( www.ncbi.nlm.nih.gov/geo/ ) online database. Expression of YTHDF1
+in NSCLC tissues and normal lung tissues was obtained from dataset GSE63459
+based on the GPL6883 Illumina HumanRef-8 v3.0 expression beadchip platform. The
+expression of miR-376c in NSCLC tissues and normal lung tissues was obtained
+from the dataset GSE53882 based on the GPL18130 State Key Laboratory Human
+microRNA array 1888 platform. SPSS21.0 was used to statistically analyze the
+datasets to examine the differential expression of YTHDF1 and miR-376c in NSCLC
+tissues and normal lung tissues.
+
+Human normal bronchial epithelial cells 16HBE in addition to NSCLC cells A549,
+NCI-H358, NCI-H1299 and NCI-1650 (Shanghai Zhong Qiao Xin Zhou Biotechnology
+Co., Ltd., Shanghai, China) were cultivated with Roswell Park Memorial
+Institute-1640 medium (Gibco) containing 10% fetal bovine serum (FBS, Gibco) and
+penicillin/streptomycin (100 mg/mL). Human pulmonary microvascular ECs (Shanghai
+Zhong Qiao Xin Zhou Biotechnology) were cultivated in EC-specific totipotent
+medium (No.1001, Shanghai Zhong Qiao Xin Zhou Biotechnology) with 500 mL basic
+medium, 25 mL FBS, 5 mL endothelial cell growth factor and 5 mL
+penicillin/streptomycin solution at 37°C with 5% CO 2 . NSCLC cells and
+ECs up to 85% confluence were used for subculture based on the observations of
+cell condition.
+
+ECs were transfected with miR-376c mimic or mimic negative control (NC). While
+NCI-H1299 and NCI-1650 cells were treated with sh-YTHDF1 alone or pcDNA-YTHDF1
+and then co-cultured with ECs after transfection.
+
+Plasmids used for transfection (2.5 μg) were obtained from GenePharma Ltd.
+Company (Shanghai, China). Before transfection, cells were plated in 96-well
+plates for a period of 24 h. Once the cell density reached about 70-90%, we
+transfected cells following the protocols of Lipofectamine 2000 (11668-019,
+Invitrogen Inc., Carlsbad, CA, USA). At 48 h post-transfection, the transfection
+efficiency was checked by RT-qPCR, and subsequent experiments were
+performed.
+
+ECs and NCI-H1299 or NCI-H1650 cells 48 h post-transfection were co-cultured in
+the Transwell plate. ECs were seeded in the apical chamber and NCI-H1299 or
+NCI-H1650 cells in the basolateral chamber with their respective culture media.
+After a total of 12 h of incubation, the NSCLC cells located in the basolateral
+chamber were collected for subsequent experiments.
+
+To demonstrate that ECs delivered miR-376c via Evs, we treated ECs overexpressing
+miR-376c with 10 μM Evs inhibitor GW4869 (MedChemExpress, Monmouth Junction, NJ,
+USA) for 12 h and then co-cultured with NSCLC cells.
+
+Cells cultured on the culture plate were covered with a layer of 2-3 mm 4%
+formaldehyde diluted with phosphate buffer saline (PBS) at room temperature for
+15 min. After being sealed with the blocking buffer for 60 min, the cells were
+probed with the primary antibodies against YTHDF1 (#86463, Cell Signaling
+Technologies (CST), Beverly, MA, USA) and β-catenin (#8480, CST) at 4°C
+overnight. After diluting the fluorescent labeled secondary antibody (#4412,
+CST) with antibody dilution buffer, the cells were incubated at room temperature
+without light for 1-2 h. The cells were finally sealed with fluorescence
+quenching Prolong ® Gold antifade reagent containing
+4’,6-diamidino-2-phenylindole (#8961, CST) and observed under a fluorescence
+microscopy (Leica Microsystems GmbH, Wetzlar, Germany) at 450 nm.
+
+The YTHDF1-3’untranslated region (3’UTR) containing the binding sites with
+miR-376c was inserted into the pGL3 plasmid (Promega, Madison, WI, USA). The
+YTHDF1-3’UTR-mutant (MUT) fragment of the binding site mutation was constructed
+by point mutation method using point mutation kits (Robustnique Corporation
+Ltd., Tianjin, China). “UAUUUGUACUUUUUCUAUGUA” was mutated to
+“UAUAUCUCAAUUAGAUACAA” on the YTHDF1-3’UTR and inserted into the pGL3 plasmids
+to construct the YTHDF1-MUT. The indicated plasmids and Renilla plasmid were
+introduced with miR-376c mimic or NC-mimic into HEK293 T cells (American Type
+Culture Collection, Manassas, VA, USA). Cells were lysed following 48 h of
+transfection under the instructions of a luciferase detection kit (K801-200,
+BioVision, Inc., Exton, PA, USA). Dual-luciferase reporter gene assays were
+carried out with the help of the Dual-Luciferase Reporter Assay System
+(Promega). Renilla activity served as the internal control.
+
+EdU kits (Thermo Fisher Scientific Inc., Waltham, MA, USA) were applied for
+proliferation assay. The cells were stained with EdU at room temperature for 2
+h, treated for 30 min with 40 g/L paraformaldehyde and cultured for 8 min with
+glycine solution. After being rinsed with PBS/0.5% TritonX-100, the cells were
+treated successively for 30 min with Apollo ® staining reaction
+solution and for 20 min with Hoechst 3334 staining solution at room temperature
+in darkness. The images were obtained under a fluorescence microscope under 3
+field at 400 times. The proliferating cells (stained with EdU) and the total
+cells (stained with Hoechst 33342) were counted to calculate the cell
+proliferation rate.
+
+After 48 h, treated cells were plated in the 6-well plate at 5 × 10 5 cells/well. A sterile pipette was applied to scratch the central axis of the
+well when cells were covered with 90% microscopic view. After the removal of
+floating cells with PBS, the cells were further cultivated for 0.5 to 1 h with
+serum-free medium. The cell migration distances at the 0th h and 24th h were
+measured by Image-Pro Plus Analysis software (Media Cybernetics, Bethesda, MD,
+USA).
+
+After 48 h of cell transfection, Matrigel (356234, BD Biosciences, San Jose, CA,
+USA) was liquefied overnight at 4°C, diluted at 1:3 with serum-free medium and
+cultured in the apical chamber (50 µL each well) for 30 min. The cell suspension
+was placed in the apical chamber at 1 × 10 5 cells/mL with serum-free
+medium. The chemoattractant in the basolateral chamber was culture medium plus
+10% FBS. The plate was then incubated at 37°C for 24 h. Following the discarding
+of the non-invading cells by PBS, the remaining cells were fixed with 5%
+glutaraldehyde at 4°C, reacted for 30 min with 0.1% crystal violet and observed
+under a microscope.
+
+Annexin V-fluorescein isothiocyanate (FITC)/propidium iodide (PI) dual staining
+was applied for cell apoptosis. The cells were grown with 5% CO 2 at
+37°C for 48 h. Following a centrifugation and resuspension in 200 µL binding
+buffer, the cells were treated with 10 µL Annexin V-FITC (ab14085, Abcam) and 5
+µL PI for 15 min at ambient temperature void of light. Following adding 300 µL
+binding buffer, the cells were loaded onto a FACSVerse flow cytometer (BD
+Biosciences) at 488 nm. FlowJo software (Tree Star Inc., Ashland, OR, USA) was
+applied to quantify apoptosis rate.
+
+After a 20-min centrifugation at 3000 r/min at 4°C, the cells were ice-bathed for
+30 min with lysis buffer supplemented with proteinase inhibitor (1111111, Roche
+Diagnostics, Co., Ltd., Rotkreuz, Switzerland) and centrifuged at 12000 r/min
+for 10 min. Then, 50 µg protein was resolved by 10% sodium dodecyl
+sulfate-polyacrylamide gel electrophoresis and then transblotted to a
+polyvinylidene fluoride membrane which was blocked at room temperature with 5%
+skim milk powder for 1 h and probed overnight with the primary antibody at 4°C.
+Antibodies used were YTHDF1 (1:1000, ab99080, Abcam, Cambridge, UK), β-catenin
+(1:1000, ab2365, Abcam), glyceraldehyde-3-phosphate dehydrogenase (GAPDH,
+1:2000, ab37168, Abcam) and horseradish peroxidase-labeled goat anti-rabbit
+antibody to IgG (1:100, HA1003, Shanghai Yanhui Biotechnology Co., Ltd.,
+Shanghai, China). Blots were visualized with enhanced chemiluminescence reagent
+(ECL808-25, Biomiga, San Diego, CA, USA) and exposed to X-ray (Qcbio Science
+& Technologies Co., Ltd., Shanghai, China).
+
+The total RNA was isolated from samples under the instructions of a miRNeasy Mini
+Kit (217004, Qiagen company, Hilden, Germany). All primers were synthesized by
+Takara Holdings Inc. (Kyoto, Japan) ( Table 1 ). The RNA was then reversely
+transcribed into cDNA using the PrimeScript RT kit (RR036A, Takara). Next, the
+fluorescence quantitative PCR was conducted with reference to the SYBR® Premix
+ExTaq TM II kit (RR820A, TaKaRa) on an ABI 7500 quantitative PCR
+instrument (7500, ABI Company, Oyster Bay, N.Y., USA). All samples were
+normalized to U6 and GAPDH with the 2 -△△CT formula.
+
+Prime Sequences for Reverse Transcription-Quantitative Polymerase Chain
+Reaction.
+
+Note: miR-376c, microRNA-376; YTHDF1, YTH N6-methyladenosine (m6A)
+RNA binding protein 1; GAPDH, glyceraldehyde-3-phosphate
+dehydrogenase.
+
+Statistical computations were completed with the SPSS 21.0 (IBM SPSS Statistics,
+Chicago, IL, USA). Results were demonstrated as mean ± standard deviation.
+One-way or two-way analysis of variance followed by Tukey’s post hoc test were
+applied for comparisons among multiple groups. p -value <
+0.05 was considered to be significant statistically.
+
+
+Gene Expression Omnibus (GEO) Analysis
+
+The expression of YTHDF1 and miR-376c in lung cancer was obtained from the GEO
+( www.ncbi.nlm.nih.gov/geo/ ) online database. Expression of YTHDF1
+in NSCLC tissues and normal lung tissues was obtained from dataset GSE63459
+based on the GPL6883 Illumina HumanRef-8 v3.0 expression beadchip platform. The
+expression of miR-376c in NSCLC tissues and normal lung tissues was obtained
+from the dataset GSE53882 based on the GPL18130 State Key Laboratory Human
+microRNA array 1888 platform. SPSS21.0 was used to statistically analyze the
+datasets to examine the differential expression of YTHDF1 and miR-376c in NSCLC
+tissues and normal lung tissues.
+
+
+Cell Lines Used and Cell Culture
+
+Human normal bronchial epithelial cells 16HBE in addition to NSCLC cells A549,
+NCI-H358, NCI-H1299 and NCI-1650 (Shanghai Zhong Qiao Xin Zhou Biotechnology
+Co., Ltd., Shanghai, China) were cultivated with Roswell Park Memorial
+Institute-1640 medium (Gibco) containing 10% fetal bovine serum (FBS, Gibco) and
+penicillin/streptomycin (100 mg/mL). Human pulmonary microvascular ECs (Shanghai
+Zhong Qiao Xin Zhou Biotechnology) were cultivated in EC-specific totipotent
+medium (No.1001, Shanghai Zhong Qiao Xin Zhou Biotechnology) with 500 mL basic
+medium, 25 mL FBS, 5 mL endothelial cell growth factor and 5 mL
+penicillin/streptomycin solution at 37°C with 5% CO 2 . NSCLC cells and
+ECs up to 85% confluence were used for subculture based on the observations of
+cell condition.
+
+
+Cell Transfection
+
+ECs were transfected with miR-376c mimic or mimic negative control (NC). While
+NCI-H1299 and NCI-1650 cells were treated with sh-YTHDF1 alone or pcDNA-YTHDF1
+and then co-cultured with ECs after transfection.
+
+Plasmids used for transfection (2.5 μg) were obtained from GenePharma Ltd.
+Company (Shanghai, China). Before transfection, cells were plated in 96-well
+plates for a period of 24 h. Once the cell density reached about 70-90%, we
+transfected cells following the protocols of Lipofectamine 2000 (11668-019,
+Invitrogen Inc., Carlsbad, CA, USA). At 48 h post-transfection, the transfection
+efficiency was checked by RT-qPCR, and subsequent experiments were
+performed.
+
+
+Co-Culture System and GW4869 Treatment
+
+ECs and NCI-H1299 or NCI-H1650 cells 48 h post-transfection were co-cultured in
+the Transwell plate. ECs were seeded in the apical chamber and NCI-H1299 or
+NCI-H1650 cells in the basolateral chamber with their respective culture media.
+After a total of 12 h of incubation, the NSCLC cells located in the basolateral
+chamber were collected for subsequent experiments.
+
+To demonstrate that ECs delivered miR-376c via Evs, we treated ECs overexpressing
+miR-376c with 10 μM Evs inhibitor GW4869 (MedChemExpress, Monmouth Junction, NJ,
+USA) for 12 h and then co-cultured with NSCLC cells.
+
+
+Immunofluorescence Staining
+
+Cells cultured on the culture plate were covered with a layer of 2-3 mm 4%
+formaldehyde diluted with phosphate buffer saline (PBS) at room temperature for
+15 min. After being sealed with the blocking buffer for 60 min, the cells were
+probed with the primary antibodies against YTHDF1 (#86463, Cell Signaling
+Technologies (CST), Beverly, MA, USA) and β-catenin (#8480, CST) at 4°C
+overnight. After diluting the fluorescent labeled secondary antibody (#4412,
+CST) with antibody dilution buffer, the cells were incubated at room temperature
+without light for 1-2 h. The cells were finally sealed with fluorescence
+quenching Prolong ® Gold antifade reagent containing
+4’,6-diamidino-2-phenylindole (#8961, CST) and observed under a fluorescence
+microscopy (Leica Microsystems GmbH, Wetzlar, Germany) at 450 nm.
+
+
+Dual-luciferase Reporter Gene Assay
+
+The YTHDF1-3’untranslated region (3’UTR) containing the binding sites with
+miR-376c was inserted into the pGL3 plasmid (Promega, Madison, WI, USA). The
+YTHDF1-3’UTR-mutant (MUT) fragment of the binding site mutation was constructed
+by point mutation method using point mutation kits (Robustnique Corporation
+Ltd., Tianjin, China). “UAUUUGUACUUUUUCUAUGUA” was mutated to
+“UAUAUCUCAAUUAGAUACAA” on the YTHDF1-3’UTR and inserted into the pGL3 plasmids
+to construct the YTHDF1-MUT. The indicated plasmids and Renilla plasmid were
+introduced with miR-376c mimic or NC-mimic into HEK293 T cells (American Type
+Culture Collection, Manassas, VA, USA). Cells were lysed following 48 h of
+transfection under the instructions of a luciferase detection kit (K801-200,
+BioVision, Inc., Exton, PA, USA). Dual-luciferase reporter gene assays were
+carried out with the help of the Dual-Luciferase Reporter Assay System
+(Promega). Renilla activity served as the internal control.
+
+
+5-Ethynyl-2’-Deoxyuridine (EdU) Staining
+
+EdU kits (Thermo Fisher Scientific Inc., Waltham, MA, USA) were applied for
+proliferation assay. The cells were stained with EdU at room temperature for 2
+h, treated for 30 min with 40 g/L paraformaldehyde and cultured for 8 min with
+glycine solution. After being rinsed with PBS/0.5% TritonX-100, the cells were
+treated successively for 30 min with Apollo ® staining reaction
+solution and for 20 min with Hoechst 3334 staining solution at room temperature
+in darkness. The images were obtained under a fluorescence microscope under 3
+field at 400 times. The proliferating cells (stained with EdU) and the total
+cells (stained with Hoechst 33342) were counted to calculate the cell
+proliferation rate.
+
+
+Would Healing Assay
+
+After 48 h, treated cells were plated in the 6-well plate at 5 × 10 5 cells/well. A sterile pipette was applied to scratch the central axis of the
+well when cells were covered with 90% microscopic view. After the removal of
+floating cells with PBS, the cells were further cultivated for 0.5 to 1 h with
+serum-free medium. The cell migration distances at the 0th h and 24th h were
+measured by Image-Pro Plus Analysis software (Media Cybernetics, Bethesda, MD,
+USA).
+
+
+Transwell Assay
+
+After 48 h of cell transfection, Matrigel (356234, BD Biosciences, San Jose, CA,
+USA) was liquefied overnight at 4°C, diluted at 1:3 with serum-free medium and
+cultured in the apical chamber (50 µL each well) for 30 min. The cell suspension
+was placed in the apical chamber at 1 × 10 5 cells/mL with serum-free
+medium. The chemoattractant in the basolateral chamber was culture medium plus
+10% FBS. The plate was then incubated at 37°C for 24 h. Following the discarding
+of the non-invading cells by PBS, the remaining cells were fixed with 5%
+glutaraldehyde at 4°C, reacted for 30 min with 0.1% crystal violet and observed
+under a microscope.
+
+
+Flow Cytometry for Cell Apoptosis
+
+Annexin V-fluorescein isothiocyanate (FITC)/propidium iodide (PI) dual staining
+was applied for cell apoptosis. The cells were grown with 5% CO 2 at
+37°C for 48 h. Following a centrifugation and resuspension in 200 µL binding
+buffer, the cells were treated with 10 µL Annexin V-FITC (ab14085, Abcam) and 5
+µL PI for 15 min at ambient temperature void of light. Following adding 300 µL
+binding buffer, the cells were loaded onto a FACSVerse flow cytometer (BD
+Biosciences) at 488 nm. FlowJo software (Tree Star Inc., Ashland, OR, USA) was
+applied to quantify apoptosis rate.
+
+
+Western Blot Analysis
+
+After a 20-min centrifugation at 3000 r/min at 4°C, the cells were ice-bathed for
+30 min with lysis buffer supplemented with proteinase inhibitor (1111111, Roche
+Diagnostics, Co., Ltd., Rotkreuz, Switzerland) and centrifuged at 12000 r/min
+for 10 min. Then, 50 µg protein was resolved by 10% sodium dodecyl
+sulfate-polyacrylamide gel electrophoresis and then transblotted to a
+polyvinylidene fluoride membrane which was blocked at room temperature with 5%
+skim milk powder for 1 h and probed overnight with the primary antibody at 4°C.
+Antibodies used were YTHDF1 (1:1000, ab99080, Abcam, Cambridge, UK), β-catenin
+(1:1000, ab2365, Abcam), glyceraldehyde-3-phosphate dehydrogenase (GAPDH,
+1:2000, ab37168, Abcam) and horseradish peroxidase-labeled goat anti-rabbit
+antibody to IgG (1:100, HA1003, Shanghai Yanhui Biotechnology Co., Ltd.,
+Shanghai, China). Blots were visualized with enhanced chemiluminescence reagent
+(ECL808-25, Biomiga, San Diego, CA, USA) and exposed to X-ray (Qcbio Science
+& Technologies Co., Ltd., Shanghai, China).
+
+
+Reverse Transcription-Quantitative Polymerase Chain Reaction
+(RT-qPCR)
+
+The total RNA was isolated from samples under the instructions of a miRNeasy Mini
+Kit (217004, Qiagen company, Hilden, Germany). All primers were synthesized by
+Takara Holdings Inc. (Kyoto, Japan) ( Table 1 ). The RNA was then reversely
+transcribed into cDNA using the PrimeScript RT kit (RR036A, Takara). Next, the
+fluorescence quantitative PCR was conducted with reference to the SYBR® Premix
+ExTaq TM II kit (RR820A, TaKaRa) on an ABI 7500 quantitative PCR
+instrument (7500, ABI Company, Oyster Bay, N.Y., USA). All samples were
+normalized to U6 and GAPDH with the 2 -△△CT formula.
+
+Prime Sequences for Reverse Transcription-Quantitative Polymerase Chain
+Reaction.
+
+Note: miR-376c, microRNA-376; YTHDF1, YTH N6-methyladenosine (m6A)
+RNA binding protein 1; GAPDH, glyceraldehyde-3-phosphate
+dehydrogenase.
+
+
+Statistics
+
+Statistical computations were completed with the SPSS 21.0 (IBM SPSS Statistics,
+Chicago, IL, USA). Results were demonstrated as mean ± standard deviation.
+One-way or two-way analysis of variance followed by Tukey’s post hoc test were
+applied for comparisons among multiple groups. p -value <
+0.05 was considered to be significant statistically.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+With the aim to examine the mechanism of YTHDF1 in NSCLC cells, we queried the
+expression of YTHDF1 in NSCLC in the GEO dataset GSE63459 and found that its
+expression in tumor samples was generally higher than its expression in normal
+samples ( Figure 1A ).
+Afterward, 16HBE and A549, NCI-H358, NCI-H1299 and NCI-1650 cells were harvested
+to measure the expression patterns of YTHDF1 using RT-qPCR and Western blot. As
+displayed in Figure 1B and
+C , the expression of YTHDF1 in A549, NCI-H358, NCI-H1299 and NCI-1650
+cells was higher compared with 16HBE cells ( p < 0.05), among
+which NCI-H1299 and NCI-1650 had the highest expression of YTHDF1, so these 2
+cell lines were selected for the following experiments. The localization of
+YTHDF1 in both cells was detected by immunofluorescence staining, which revealed
+that it localized in the cytoplasm ( Figure 1D ).
+
+YTHDF1 is an oncogene in NSCLC cells. (A) GEO database query of YTHDF1
+expression in normal lung and lung cancer tissues; (B) the mRNA
+expression of YTHDF1 in 16HBE and A549, NCI-H358, NCI-H1299 and NCI-1650
+cells evaluated by RT-qPCR; (C) the protein expression of YTHDF1 in
+16HBE and A549, NCI-H358, NCI-H1299 and NCI-1650 cells evaluated by
+western blot analysis; (D) location of YTHDF1 in NSCLC cells detected by
+immunofluorescence staining, where green fluorescence represents YTHDF1,
+blue is the nucleus stained by DAPI. **  p < 0.01 vs. normal lung tissues; *  p < 0.05 vs. 16HBE cells.
+Statistical data were measurement data, and described as mean ± standard
+deviation. The one-way analysis of variance with Tukey’s post hoc test
+was used for comparison among multiple groups. The experiment was
+repeated 3 times independently.
+
+YTHDF1 was then knocked-down in NCI-H1299 and NCI-1650 cells by sh-RNA, and the
+YTHDF1 silencing effect was confirmed by the means of RT-qPCR ( Figure 2A ). Moreover, we
+assessed the functional relevance of YTHDF1 to cell viability and apoptosis
+using EdU staining and flow cytometry ( Figure 2B, C ). As expected, cell
+proliferation was decreased significantly at 48 h and 72 h, while the apoptosis
+rate increased significantly after YTHDF1 silencing ( p <
+0.05).
+
+YTHDF1 depletion inhibits NSCLC cell viability, while promotes its
+apoptosis. (A) YTHDF1 mRNA expression after silencing YTHDF1 in NSCLC
+cells determined by RT-qPCR; (B) the cellular growth was analyzed by EdU
+assay in NSCLC cells (×200); (C) the apoptosis rate of cells was
+detected by flow cytometry. *  p < 0.05 vs. NSCLC cells
+transfected with sh-NC. Statistical data were measurement data, and
+described as mean ± standard deviation. The one-way analysis of variance
+with Tukey’s post hoc test was used for comparison among multiple
+groups. The experiment was repeated 3 times independently.
+
+We detected cell migration ability in NSCLC cells transfected with sh-NC and
+sh-YTHDF1 by wound healing assay and cell invasion ability by Transwell assay.
+The results showed that ( Figure
+3A, B ): compared with sh-NC, the cell proliferation migration
+distance was significantly reduced after the sh-YTHDF1 transfection, and the
+number of invaded cells was also significantly decreased (both p < 0.05).
+
+YTHDF1 silencing inhibits NSCLC cell migration and invasion. (A) The cell
+migration capacity was analyzed by wound healing assay (×100); (B) the
+cell invasion capacity was analyzed by Transwell assay (×100). *  p < 0.05 vs. NSCLC cells
+transfected with sh-NC. Statistical data were measurement data, and
+described as mean ± standard deviation. The one-way analysis of variance
+with Tukey’s post hoc test was used for comparison among multiple
+groups. The experiment was repeated 3 times independently.
+
+According to a previous report, 7 miR-376c was poorly expressed in NSCLC. We queried the GEO dataset
+GSE53882 for miR-376c expression in NSCLC tumor tissues and normal lung tissues
+and found that its expression was generally reduced in lung cancer tissues
+( Figure 4A ). The
+miR-376c-binding sites in YTHDF1 3’UTR were predicted using an online website
+( Figure 4B , http://starbase.sysu.edu.cn/ ). Besides, we carried out RT-qPCR
+to determine the miR-376c expression profile in normal bronchial epithelial
+cells 16HBE and NSCLC cells A549, NCI-H358, NCI-H1299 and NCI-1650. The results
+showed that ( Figure 4C ):
+compared with 16HBE cells, A549, NCI-H358, NCI-H1299 and NCI-1650 cells
+demonstrated reduced miR-376c expression. It was elucidated by the
+dual-luciferase reporter gene assays that miR-376c decreased the luciferase
+activities by targeting YTHDF1 3’UTR in 293 T cells. Nevertheless, the
+inhibitory effect was not showed in the cells when the binding sites were
+mutated ( Figure 4D ),
+suggesting that YTHDF1 mRNA is a new target of miR-376c.
+
+YTHDF1 could be targeted and inhibited by miR-376c. (A) Expression of
+miR-376c in NSCLC by querying miR-376c in the GEO dataset; (B) the
+sequences of miR-376c and its putative target sites in the 3’UTR of
+YTHDF1; (C) the expression of miR-376c in 16HBE, A549, NCI-H358,
+NCI-H1299 and NCI-1650 cells evaluated by RT-qPCR; (D) YTHDF1 3’UTR
+dual-luciferase reporter assay. **  p < 0.01 vs. normal lung tissues; *  p < 0.05 vs. 16HBE cells or NC
+mimic. Statistical data were measurement data, and described as mean ±
+standard deviation. The one-way or two-way analysis of variance with
+Tukey’s post hoc test was used for comparison among multiple groups. The
+experiment was repeated 3 times independently.
+
+It has been reported that Evs of ECs could transfer tumor suppressors to tumor
+cells under co-culture conditions, thus inhibiting tumor cell activity and angiogenesis. 11 Therefore, it was assumed that ECs overexpressing miR-376c, under
+co-culture conditions, could deliver miR-376c to NSCLC cells through Evs,
+thereby inhibiting the expression of its target gene YTHDF1 and then inhibiting
+the biological properties of NSCLC cells. Firstly, we transfected miR-376c mimic
+into ECs. RT-qPCR evaluation of miR-376c expression showed that ( Figure 5A ): the expression
+of miR-376c was significantly increased in ECs overexpressing miR-376c compared
+to ECs harboring NC mimic ( p < 0.05). ECs overexpressing
+miR-376c were then co-cultured with NSCLC cells in the Transwell plate. After 24
+h, we evaluated miR-376c expression in NSCLC cells with the help of RT-qPCR.
+miR-376c expression was remarkably elevated in the NSCLC cells co-cultured with
+ECs harboring miR-376c mimic ( Figure 5B ; p < 0.05). To verify that miR-376c
+was delivered from ECs to NCI-H1299 and NCI-1650 cells via Evs, we added the Ev
+inhibitor GW4869 to the culture medium, and found that miR-376c expression was
+much lower following miR-376c mimic + GW4869 treatment than that after miR-376c
+mimic + DMSO ( Figure 5C ; p < 0.05). It can be concluded that under co-culture
+conditions, EC-Evs have the potency to deliver miR-376c to NCI-H1299 and
+NCI-1650 cells.
+
+miR-376c is transferred by EC-Evs into NCL-H1299 cells. (A) Transfection
+efficiency of miR-376c mimic in ECs detected by RT-qPCR, *  p < 0.05 vs. ECs transfected with
+NC mimic; (B) miR-376c expression in NSCLC cells co-cultured with ECs
+transfected with NC mimic or miR-376c mimic measured by RT-qPCR, *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with NC mimic; (C) miR-376c expression
+in NSCLC cells co-cultured with ECs treated with miR-376c mimic plus
+GW4869 or DMSO measured by RT-qPCR, *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs treated with miR-376c mimic + DMSO. Statistical
+data were measurement data, and described as mean ± standard deviation.
+The one-way analysis of variance with Tukey’s post hoc test was used for
+comparison among multiple groups. The experiment was repeated 3 times
+independently.
+
+Under co-culture conditions, the proliferation, invasion and migration capacities
+of NCI-H1299 and NCI-1650 cells were assessed by EdU assay, wound healing assay
+and Transwell test, respectively, and the apoptosis was examined by flow
+cytometric analysis. It was displayed that the NSCLC cell proliferation was
+profoundly reduced at 48 and 72 h after miR-376c mimic treatment, the NSCLC cell
+migration and invasion were remarkably diminished, and the apoptosis was
+markedly enhanced ( Figure
+6A-D , all p < 0.05).
+
+miR-376c released from EC-Evs impairs the proliferation, migration and
+invasion of NSCLC cells. (A) The cellular growth was analyzed by EdU
+assay in NSCLC cells (×200); (B) the cell migration capacity was
+analyzed by wound healing assay (×100); (C) the cell invasion capacity
+was analyzed by Transwell assay (×100); (D) the apoptosis rate of cells
+was detected by flow cytometry. *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with NC mimic. Statistical data were
+measurement data, and described as mean ± standard deviation. The
+one-way analysis of variance with Tukey’s post hoc test was used for
+comparison among multiple groups. The experiment was repeated 3 times
+independently.
+
+The expression of YTHDF1 and Wnt/β-catenin pathway-associated protein β-catenin
+in NCI-H1299 and NCI-1650 cells co-cultured with ECs overexpressing miR-376c was
+subsequently measured by Western blot analysis. Figure 7A exhibits that YTHDF1 and
+β-catenin expression was significantly decreased in NCI-H1299 and NCI-1650 cells
+after miR-376c mimic introduction ( p < 0.05).
+Immunofluorescence staining revealed that β-catenin was distributed in the
+cytoplasm and nucleus of NSCLC cells ( Figure 7B ).
+
+Release of miR-376c from EC-Evs inhibits activation of the Wnt/β-catenin
+pathway in NSCLC cells. (A) the protein expression of YTHDF1 and
+β-catenin in NSCLC cells examined by western blot analysis; (B) the
+location of β-catenin determined by immunofluorescence staining, where
+green fluorescence represents β-catenin, blue is DAPI-stained nuclei. *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with NC mimic. Statistical data were
+measurement data, and described as mean ± standard deviation. The
+one-way analysis of variance with Tukey’s post hoc test was used for
+comparison among multiple groups. The experiment was repeated 3 times
+independently.
+
+NSCLC were transfected pcDNA-YTHDF1 and then co-cultured with ECs. The expression
+of YTHDF1 and Wnt/β-catenin signaling pathway-related protein β-catenin in each
+group of cells was determined by western blot ( Figure 8A , p < 0.05),
+which revealed that YTHDF1 overexpression could reverse the suppressive role of
+miR-376c mimic in β-catenin expression. The proliferation and apoptosis of cells
+in each group were measured by EdU and flow cytometry ( Figure 8B, C ). We found that inhibition
+of NSCLC growth induced by miR-376c mimic could be significantly reversed by
+YTHDF1 overexpression.
+
+Overexpression of YTHDF1 attenuates the inhibitory effect of miR-376c
+released from EC-Evs on NSCLC cell growth. (A) The protein expression of
+YTHDF1 and β-catenin in NSCLC cells examined by western blot analysis;
+(B) the cellular growth was analyzed by EdU assay in NSCLC cells (×200);
+(C) the apoptosis rate of cells was detected by flow cytometry. *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with miR-376c mimic + pcDNA.
+Statistical data were measurement data, and described as mean ± standard
+deviation. The one-way analysis of variance with Tukey’s post hoc test
+was used for comparison among multiple groups.
+
+Wound healing and Transwell assays were performed to detect changes in cell
+migration and invasion capacities, and the results are shown in Figure 9A, B . The
+migration and invasion capacities of cells after overexpression of YTHDF1 was
+significantly inhibited (both p < 0.05).
+
+Overexpression of YTHDF1 attenuates the inhibitory effect of miR-376c
+released from EC-Evs on NSCLC cell aggressiveness. (A) The cell
+migration capacity was analyzed by wound healing assay (×100); (B) the
+cell invasion capacity was analyzed by Transwell assay (×100). *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with miR-376c mimic + pcDNA.
+Statistical data were measurement data, and described as mean ± standard
+deviation. The one-way analysis of variance with Tukey’s post hoc test
+was used for comparison among multiple groups.
+
+Overall, under co-culture conditions, EC-Evs are capable of delivering miR-376c
+to NCI-H1299 and NCI-1650 cells, thereby inhibiting YTHDF1 expression and the
+activation of the Wnt/β-catenin pathway. As a result, the NSCLC cell
+proliferation, migration and invasion are disrupted and apoptosis rate is
+accelerated.
+
+
+YTHDF1 Expresses at a High Level in NSCLC Cells
+
+With the aim to examine the mechanism of YTHDF1 in NSCLC cells, we queried the
+expression of YTHDF1 in NSCLC in the GEO dataset GSE63459 and found that its
+expression in tumor samples was generally higher than its expression in normal
+samples ( Figure 1A ).
+Afterward, 16HBE and A549, NCI-H358, NCI-H1299 and NCI-1650 cells were harvested
+to measure the expression patterns of YTHDF1 using RT-qPCR and Western blot. As
+displayed in Figure 1B and
+C , the expression of YTHDF1 in A549, NCI-H358, NCI-H1299 and NCI-1650
+cells was higher compared with 16HBE cells ( p < 0.05), among
+which NCI-H1299 and NCI-1650 had the highest expression of YTHDF1, so these 2
+cell lines were selected for the following experiments. The localization of
+YTHDF1 in both cells was detected by immunofluorescence staining, which revealed
+that it localized in the cytoplasm ( Figure 1D ).
+
+YTHDF1 is an oncogene in NSCLC cells. (A) GEO database query of YTHDF1
+expression in normal lung and lung cancer tissues; (B) the mRNA
+expression of YTHDF1 in 16HBE and A549, NCI-H358, NCI-H1299 and NCI-1650
+cells evaluated by RT-qPCR; (C) the protein expression of YTHDF1 in
+16HBE and A549, NCI-H358, NCI-H1299 and NCI-1650 cells evaluated by
+western blot analysis; (D) location of YTHDF1 in NSCLC cells detected by
+immunofluorescence staining, where green fluorescence represents YTHDF1,
+blue is the nucleus stained by DAPI. **  p < 0.01 vs. normal lung tissues; *  p < 0.05 vs. 16HBE cells.
+Statistical data were measurement data, and described as mean ± standard
+deviation. The one-way analysis of variance with Tukey’s post hoc test
+was used for comparison among multiple groups. The experiment was
+repeated 3 times independently.
+
+
+YTHDF1 Silencing Suppresses NSCLC Cell Proliferation and Facilitates
+Apoptosis
+
+YTHDF1 was then knocked-down in NCI-H1299 and NCI-1650 cells by sh-RNA, and the
+YTHDF1 silencing effect was confirmed by the means of RT-qPCR ( Figure 2A ). Moreover, we
+assessed the functional relevance of YTHDF1 to cell viability and apoptosis
+using EdU staining and flow cytometry ( Figure 2B, C ). As expected, cell
+proliferation was decreased significantly at 48 h and 72 h, while the apoptosis
+rate increased significantly after YTHDF1 silencing ( p <
+0.05).
+
+YTHDF1 depletion inhibits NSCLC cell viability, while promotes its
+apoptosis. (A) YTHDF1 mRNA expression after silencing YTHDF1 in NSCLC
+cells determined by RT-qPCR; (B) the cellular growth was analyzed by EdU
+assay in NSCLC cells (×200); (C) the apoptosis rate of cells was
+detected by flow cytometry. *  p < 0.05 vs. NSCLC cells
+transfected with sh-NC. Statistical data were measurement data, and
+described as mean ± standard deviation. The one-way analysis of variance
+with Tukey’s post hoc test was used for comparison among multiple
+groups. The experiment was repeated 3 times independently.
+
+
+YTHDF1 Silencing Represses NSCLC Cell Aggressiveness
+
+We detected cell migration ability in NSCLC cells transfected with sh-NC and
+sh-YTHDF1 by wound healing assay and cell invasion ability by Transwell assay.
+The results showed that ( Figure
+3A, B ): compared with sh-NC, the cell proliferation migration
+distance was significantly reduced after the sh-YTHDF1 transfection, and the
+number of invaded cells was also significantly decreased (both p < 0.05).
+
+YTHDF1 silencing inhibits NSCLC cell migration and invasion. (A) The cell
+migration capacity was analyzed by wound healing assay (×100); (B) the
+cell invasion capacity was analyzed by Transwell assay (×100). *  p < 0.05 vs. NSCLC cells
+transfected with sh-NC. Statistical data were measurement data, and
+described as mean ± standard deviation. The one-way analysis of variance
+with Tukey’s post hoc test was used for comparison among multiple
+groups. The experiment was repeated 3 times independently.
+
+
+miR-376c Directly Targets YTHDF1 in NSCLC Cells
+
+According to a previous report, 7 miR-376c was poorly expressed in NSCLC. We queried the GEO dataset
+GSE53882 for miR-376c expression in NSCLC tumor tissues and normal lung tissues
+and found that its expression was generally reduced in lung cancer tissues
+( Figure 4A ). The
+miR-376c-binding sites in YTHDF1 3’UTR were predicted using an online website
+( Figure 4B , http://starbase.sysu.edu.cn/ ). Besides, we carried out RT-qPCR
+to determine the miR-376c expression profile in normal bronchial epithelial
+cells 16HBE and NSCLC cells A549, NCI-H358, NCI-H1299 and NCI-1650. The results
+showed that ( Figure 4C ):
+compared with 16HBE cells, A549, NCI-H358, NCI-H1299 and NCI-1650 cells
+demonstrated reduced miR-376c expression. It was elucidated by the
+dual-luciferase reporter gene assays that miR-376c decreased the luciferase
+activities by targeting YTHDF1 3’UTR in 293 T cells. Nevertheless, the
+inhibitory effect was not showed in the cells when the binding sites were
+mutated ( Figure 4D ),
+suggesting that YTHDF1 mRNA is a new target of miR-376c.
+
+YTHDF1 could be targeted and inhibited by miR-376c. (A) Expression of
+miR-376c in NSCLC by querying miR-376c in the GEO dataset; (B) the
+sequences of miR-376c and its putative target sites in the 3’UTR of
+YTHDF1; (C) the expression of miR-376c in 16HBE, A549, NCI-H358,
+NCI-H1299 and NCI-1650 cells evaluated by RT-qPCR; (D) YTHDF1 3’UTR
+dual-luciferase reporter assay. **  p < 0.01 vs. normal lung tissues; *  p < 0.05 vs. 16HBE cells or NC
+mimic. Statistical data were measurement data, and described as mean ±
+standard deviation. The one-way or two-way analysis of variance with
+Tukey’s post hoc test was used for comparison among multiple groups. The
+experiment was repeated 3 times independently.
+
+
+EC-Evs Deliver miR-376c to NSCLC Cells
+
+It has been reported that Evs of ECs could transfer tumor suppressors to tumor
+cells under co-culture conditions, thus inhibiting tumor cell activity and angiogenesis. 11 Therefore, it was assumed that ECs overexpressing miR-376c, under
+co-culture conditions, could deliver miR-376c to NSCLC cells through Evs,
+thereby inhibiting the expression of its target gene YTHDF1 and then inhibiting
+the biological properties of NSCLC cells. Firstly, we transfected miR-376c mimic
+into ECs. RT-qPCR evaluation of miR-376c expression showed that ( Figure 5A ): the expression
+of miR-376c was significantly increased in ECs overexpressing miR-376c compared
+to ECs harboring NC mimic ( p < 0.05). ECs overexpressing
+miR-376c were then co-cultured with NSCLC cells in the Transwell plate. After 24
+h, we evaluated miR-376c expression in NSCLC cells with the help of RT-qPCR.
+miR-376c expression was remarkably elevated in the NSCLC cells co-cultured with
+ECs harboring miR-376c mimic ( Figure 5B ; p < 0.05). To verify that miR-376c
+was delivered from ECs to NCI-H1299 and NCI-1650 cells via Evs, we added the Ev
+inhibitor GW4869 to the culture medium, and found that miR-376c expression was
+much lower following miR-376c mimic + GW4869 treatment than that after miR-376c
+mimic + DMSO ( Figure 5C ; p < 0.05). It can be concluded that under co-culture
+conditions, EC-Evs have the potency to deliver miR-376c to NCI-H1299 and
+NCI-1650 cells.
+
+miR-376c is transferred by EC-Evs into NCL-H1299 cells. (A) Transfection
+efficiency of miR-376c mimic in ECs detected by RT-qPCR, *  p < 0.05 vs. ECs transfected with
+NC mimic; (B) miR-376c expression in NSCLC cells co-cultured with ECs
+transfected with NC mimic or miR-376c mimic measured by RT-qPCR, *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with NC mimic; (C) miR-376c expression
+in NSCLC cells co-cultured with ECs treated with miR-376c mimic plus
+GW4869 or DMSO measured by RT-qPCR, *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs treated with miR-376c mimic + DMSO. Statistical
+data were measurement data, and described as mean ± standard deviation.
+The one-way analysis of variance with Tukey’s post hoc test was used for
+comparison among multiple groups. The experiment was repeated 3 times
+independently.
+
+
+NSCLC Cell Activities Are Suppressed by miR-376c Released From EC-Evs
+
+Under co-culture conditions, the proliferation, invasion and migration capacities
+of NCI-H1299 and NCI-1650 cells were assessed by EdU assay, wound healing assay
+and Transwell test, respectively, and the apoptosis was examined by flow
+cytometric analysis. It was displayed that the NSCLC cell proliferation was
+profoundly reduced at 48 and 72 h after miR-376c mimic treatment, the NSCLC cell
+migration and invasion were remarkably diminished, and the apoptosis was
+markedly enhanced ( Figure
+6A-D , all p < 0.05).
+
+miR-376c released from EC-Evs impairs the proliferation, migration and
+invasion of NSCLC cells. (A) The cellular growth was analyzed by EdU
+assay in NSCLC cells (×200); (B) the cell migration capacity was
+analyzed by wound healing assay (×100); (C) the cell invasion capacity
+was analyzed by Transwell assay (×100); (D) the apoptosis rate of cells
+was detected by flow cytometry. *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with NC mimic. Statistical data were
+measurement data, and described as mean ± standard deviation. The
+one-way analysis of variance with Tukey’s post hoc test was used for
+comparison among multiple groups. The experiment was repeated 3 times
+independently.
+
+
+Release of miR-376c From EC-Evs Inhibits Activation of the Wnt/β-catenin
+Pathway in NSCLC Cells
+
+The expression of YTHDF1 and Wnt/β-catenin pathway-associated protein β-catenin
+in NCI-H1299 and NCI-1650 cells co-cultured with ECs overexpressing miR-376c was
+subsequently measured by Western blot analysis. Figure 7A exhibits that YTHDF1 and
+β-catenin expression was significantly decreased in NCI-H1299 and NCI-1650 cells
+after miR-376c mimic introduction ( p < 0.05).
+Immunofluorescence staining revealed that β-catenin was distributed in the
+cytoplasm and nucleus of NSCLC cells ( Figure 7B ).
+
+Release of miR-376c from EC-Evs inhibits activation of the Wnt/β-catenin
+pathway in NSCLC cells. (A) the protein expression of YTHDF1 and
+β-catenin in NSCLC cells examined by western blot analysis; (B) the
+location of β-catenin determined by immunofluorescence staining, where
+green fluorescence represents β-catenin, blue is DAPI-stained nuclei. *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with NC mimic. Statistical data were
+measurement data, and described as mean ± standard deviation. The
+one-way analysis of variance with Tukey’s post hoc test was used for
+comparison among multiple groups. The experiment was repeated 3 times
+independently.
+
+
+Overexpression of YTHDF1 Attenuates the Inhibitory Effect of miR-376c
+Released From EC-Evs on NSCLC Cell Growth
+
+NSCLC were transfected pcDNA-YTHDF1 and then co-cultured with ECs. The expression
+of YTHDF1 and Wnt/β-catenin signaling pathway-related protein β-catenin in each
+group of cells was determined by western blot ( Figure 8A , p < 0.05),
+which revealed that YTHDF1 overexpression could reverse the suppressive role of
+miR-376c mimic in β-catenin expression. The proliferation and apoptosis of cells
+in each group were measured by EdU and flow cytometry ( Figure 8B, C ). We found that inhibition
+of NSCLC growth induced by miR-376c mimic could be significantly reversed by
+YTHDF1 overexpression.
+
+Overexpression of YTHDF1 attenuates the inhibitory effect of miR-376c
+released from EC-Evs on NSCLC cell growth. (A) The protein expression of
+YTHDF1 and β-catenin in NSCLC cells examined by western blot analysis;
+(B) the cellular growth was analyzed by EdU assay in NSCLC cells (×200);
+(C) the apoptosis rate of cells was detected by flow cytometry. *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with miR-376c mimic + pcDNA.
+Statistical data were measurement data, and described as mean ± standard
+deviation. The one-way analysis of variance with Tukey’s post hoc test
+was used for comparison among multiple groups.
+
+
+Overexpression of YTHDF1 Attenuates the Inhibitory Effect of miR-376c
+Released From EC-Evs on NSCLC Cell Migratory and Invasion
+
+Wound healing and Transwell assays were performed to detect changes in cell
+migration and invasion capacities, and the results are shown in Figure 9A, B . The
+migration and invasion capacities of cells after overexpression of YTHDF1 was
+significantly inhibited (both p < 0.05).
+
+Overexpression of YTHDF1 attenuates the inhibitory effect of miR-376c
+released from EC-Evs on NSCLC cell aggressiveness. (A) The cell
+migration capacity was analyzed by wound healing assay (×100); (B) the
+cell invasion capacity was analyzed by Transwell assay (×100). *  p < 0.05 vs. NSCLC cells
+co-cultured with ECs transfected with miR-376c mimic + pcDNA.
+Statistical data were measurement data, and described as mean ± standard
+deviation. The one-way analysis of variance with Tukey’s post hoc test
+was used for comparison among multiple groups.
+
+Overall, under co-culture conditions, EC-Evs are capable of delivering miR-376c
+to NCI-H1299 and NCI-1650 cells, thereby inhibiting YTHDF1 expression and the
+activation of the Wnt/β-catenin pathway. As a result, the NSCLC cell
+proliferation, migration and invasion are disrupted and apoptosis rate is
+accelerated.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Considerable progress has been achieved in the diagnosis and therapeutic strategies
+for lung cancer recently; thus, the survival of patients with lung cancer has been
+prolonged and the quality of life has improved. However, the aggressive subtype,
+NSCLC, has limited treatment options. 12 Herein, it was revealed that EC-derived Evs delivered miR-376c and suppressed
+the proliferation, migration and invasion of NSCLC cells. In addition, miR-376c
+delivered by EC-derived Evs was responsible for the decreased YTHDF1 expression and
+the blocked Wnt/β-catenin pathway in NSCLC cells. Therefore, these findings
+indicated that miR-376c delivered by EC-derived may inhibit the progression of NSCLC
+through the YTHDF1-mediated Wnt/β-catenin pathway.
+
+The miR-376 family is located at the distal end of mouse chromosome 12 and on
+chromosome 14 in humans. It comprises 3 members, miR-376a2, miR-376b and miR-376c
+(previously termed as miR-368). 13 miR-376c-3p has been found to be diminished in oral squamous cancer tissues
+and cells relative to the normal ones, and the upregulation of miR-376c-3p
+suppresses viability, invasion and migration, whereas it facilitates the apoptosis
+of SCC-25 cells. 14 These findings are in accordance with one of the major findings in the
+present study, which demonstrated that miR-376c restoration suppressed the
+viability, invasion and migration of NSCLC cells, whereas it potentiated their
+apoptosis. Consistently, miR-376c-3p has been shown to be poorly expressed in
+gastric cancer cells in comparison with the normal cells, and miR-376c-3p
+restoration has been shown to attenuate cell proliferation and migration in gastric cancer. 15 The enforced expression of miR-376c has also been shown to inhibit cell
+proliferation, cell cycle and invasion of laryngeal squamous cell carcinoma cells by
+acting as a sponge of a lncRNA DLX6-AS1. 16 Even though the tumor inhibitory role of miR-376c has been investigated in NSCLC, 7 the detailed underlying mechanisms remain to be determined. The pro-healing
+function of endothelial progenitor cells-derived exosomes has been highlighted in
+diabetic rats. 17 Moreover, miRNAs have been indicated to play a significant role in
+transmitting signals between cells via Evs under several experimental conditions. 18 Of note, the co-culture of small cell lung cancer cells with human brain
+microvascular ECs was shown to promote S100A16 expression, whereas GW4869, an
+inhibitor of exosomes, significantly disrupted this effect in the co-cultured small
+cell lung cancer cells. 19 Similarly, the addition of GW4869 reversed the inhibitory effects of miR-376c
+in NSCLC cell growth induced by miR-376c mimic in the present study, suggesting that
+miR-376c can be transferred from EC-Evs to NSCLC cells to play its role in the NSCLC
+malignant phenotype. Moreover, bioinformatics analyses and luciferase activity
+assays demonstrated that miR-376c could bind to YTHDF1 in the present study.
+
+The molecular mechanisms through which YTHDF1 protein exerts its functions are
+principally unidentified, and it also remains uncertain as to how it is regulated
+due to the phase separation property. 20 YTHDF1 has been identified as an important regulator of tumor immune evasion
+and a probable therapeutic maneuver for improving the clinical response to immune
+checkpoint disruption. 21 In addition, the m6A RNA methylation regulator YTHDF1 could be applied as a
+prognostic factor for colon cancer, which also has possible values for the treatment
+of colon cancer. 22 More specifically, YTHDF1 deficiency has been substantiated to suppress NSCLC
+cell proliferation and the progression of de novo lung adenocarcinomas. 23 Additionally, it was hypothesized that high invasion under low m6A conditions
+was evoked through the Wnt-mediated E-cadherin suppression, possibly modulated by
+the deletion of m6A on Wnt/PI3K-Akt components in gastric cancer. 24 As we have mentioned above, miR-376c blocked the Wnt/β-catenin signaling
+activity in NSCLC cells. The Wnt/β-catenin signaling has been widely investigated in
+NSCLC, modulated by different mRNAs, miRNAs or long non-coding RNAs. 25 - 28 Moreover, Wnt-3 was previously verified to share a targeting association with
+miR-376c during osteogenesis, while miR-376c overexpression contributed to the
+blockage of the canonical Wnt/β-catenin pathway. 29 miR-145 has been proposed to target the 6A reader protein YTHDF2 in
+hepatocellular carcinoma cells. 30 Consequently, it can be hypothesized that miR-376c downregulated YTHDF1
+expression to disrupt the Wnt/β-catenin pathway.
+
+In conclusion, EC-derived Evs carrying miR-376c were demonstrated to exert negative
+effects on the regulation of NSCLC cell viability, migration and invasion by
+disrupting the Wnt/β-catenin pathway through YTHDF1 ( Figure 10 ); these findings may provide novel
+therapeutic strategies for NSCLC. In addition, miRNAs are possible therapeutic
+targets, and clinical trials of miRNA replacement therapy is underway. 31 Further efforts should be directed at improving the understanding of the
+interaction between YTHDF1 and the Wnt/β-catenin pathway as well as the potential of
+EC-derived Evs carrying miRNAs on NSCLC cells.
+
+A schematic model for a feedback loop between EC-Evs carrying miR-376c and
+the NSCLC cells. EC-Evs could deliver miR-376c to NSCLC cells to
+downregulate YTHDF1 expression, thus repressing cell proliferation,
+migration and invasion, while promoting apoptosis through blocking the
+Wnt/β-catenin pathway.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

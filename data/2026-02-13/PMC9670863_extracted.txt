@@ -1,0 +1,65 @@
+================================================================================
+ARTICLE TITLE: Model-based meta-analysis to compare primary efficacy-endpoint, efficacy-time course, safety, and tolerability of opioids used in the management of osteoarthritic pain in humans
+PMCID: PMC9670863
+PMID: 32407270
+KEYWORDS: opioids, osteoarthritis, model-based meta-analysis, efficacy, efficacy-time course, safety, tolerability
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Despite recent therapeutic advances, osteoarthritis continues to be a challenging health problem, especially in the elderly population. Opioids, potent analgesics, have shown extraordinary ability to reduce intense pain in many osteoarthritic clinical trials, but there is an increased need for a study to integrate the reported outcomes and utilize them to achieve a better understanding. Herein, efficacy and safety aspects of opioids used to manage osteoarthritic pain were assessed and compared using a model-based meta-analysis (MBMA).
+
+Methods::
+To perform the analysis, a comprehensive database consisting of pain relief compounds with information on summary-level of efficacy over time, adverse events and dropout rates was compiled from multiple sources. MBMA was conducted using a nonlinear mixed-effects modeling approach.
+
+Results::
+The results of primary efficacy endpoint analysis indicated that the dose producing 50% of the maximum effect of oxycodone, oxymorphone, and tramadol were 47, 84, and 247 mg per day, respectively. Efficacy-time course analysis showed that opioids had rapid time to efficacy onset, suggesting potential powerful pain relief effects. It was also found that gastrointestinal adverse events were the most opioid-associated and dose-dependent adverse effects. In addition, the analysis revealed that opioids are well-tolerable at low to moderate doses.
+
+Conclusions::
+MBMA provides clinically meaningful insights into the efficacy and safety profiles of oxycodone, oxymorphone, and tramadol. Resultantly, the presented framework analysis has a clinical impact on drug development where it can help in optimizing the dose of opioids to manage osteoarthritic pain, making precise key decisions for positioning of new drugs, and designing more efficient trials.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,19 @@
+Source: PMC7658532_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Development and Validation of a Scoring System Based on 9 Glycolysis-Related Genes for Prognosis Prediction in Gastric Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "Patients’ clinicopathological characteristics were shown in the Table 1.",
+  "N_E": 1,
+  "N_E_reason": "A total of 500 cases were randomly divided into training set (350) and testing (150).",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data available from GSE62254, GSE26942, and TCGA-STAD.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,19 @@
+Source: PMC6968892_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Prostate cancer screening among elderly men in Brazil: should we diagnose or not?",
+  "condition_E": 1,
+  "condition_E_reason": "The dataset includes 17,571 volunteers with characteristics such as age and PSA levels.",
+  "N_E": 1,
+  "N_E_reason": "The number of samples in the dataset is clearly stated as 17,571.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

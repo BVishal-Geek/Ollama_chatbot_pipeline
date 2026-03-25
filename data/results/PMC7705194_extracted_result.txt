@@ -1,0 +1,19 @@
+Source: PMC7705194_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "TP53-Associated Ion Channel Genes Serve as Prognostic Predictor and Therapeutic Targets in Head and Neck Squamous Cell Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical follow-up of HNSCC were obtained from The Cancer Genome Atlas (TCGA) website.",
+  "N_E": 1,
+  "N_E_reason": "After excluding samples without clinical information, there were 494 HNSCC patients involved in the construction of the predictive model.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

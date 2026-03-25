@@ -1,0 +1,64 @@
+================================================================================
+ARTICLE TITLE: Endocrine and Metabolic Diseases Among Colorectal Cancer Survivors in a Population-Based Cohort
+PMCID: PMC7489083
+PMID: 30918958
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+There are an estimated 1.4 million colorectal cancer (CRC) survivors in the United States. Research on endocrine and metabolic diseases over the long term in CRC survivors is limited. Obesity is a risk factor for CRC; thus it is of interest to investigate diseases that may share this risk factor, such as diabetes, for long-term health outcomes among CRC survivors.
+
+Methods:
+A total of 7114 CRC patients were identified from the Utah Population Database and matched to a general population cohort of 25 979 individuals on birth year, sex, and birth state. Disease diagnoses (assessed over three time periods of 1–5 years, 5–10 years, and >10 years) were identified using electronic medical records and statewide ambulatory and inpatient discharge data. Cox proportional hazard models were used to estimate the risk of endocrine and metabolic disease.
+
+Results:
+Across all three time periods, risks for endocrine and metabolic diseases were statistically significantly greater for CRC survivors compared with the general population cohort. At 1–5 years postdiagnosis, CRC survivors’ risk for diabetes mellitus with complications was statistically significantly elevated (hazard ratio [HR] = 1.36, 99% confidence interval [CI] = 1.09 to 1.70). CRC survivors also experienced a 40% increased risk of obesity at 1–5 years postcancer diagnosis (HR= 1.40, 99% CI= 1.66 to 2.18) and a 50% increased risk at 5–10 years postdiagnosis (HR = 1.50, 99% CI= 1.16 to 1.95).
+
+Conclusions:
+Endocrine and metabolic diseases were statistically significantly higher in CRC survivors throughout the follow-up periods of 1–5 years, 5–10 years, and more than 10 years postdiagnosis. As the number of CRC survivors increases, understanding the long-term trajectory is critical for improved survivorship care.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

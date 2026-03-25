@@ -1,0 +1,65 @@
+================================================================================
+ARTICLE TITLE: Genetic Polymorphisms in IL-10 Promoter Are Associated With Smoking and Prostate Cancer Risk in African Americans
+PMCID: PMC7731238
+PMID: 31892550
+KEYWORDS: single nucleotide polymorphisms, interleukin 10, prostate cancer, smoking, inflammation, african-american
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background/Aim::
+Even though prostate cancer (PCa) has good prognosis, there is a discrepancy in the risk among ethnic groups, with high morbidity in African American men. Single nucleotide polymorphisms (SNPs) in interleukin 10 (IL-10) have been associated with inflammation and cancer risk. We investigated the association of five SNPs in the IL-10 promoter with clinical features such as Gleason score and smoking.
+
+Materials and Methods::
+A total of 413 DNA samples were obtained from a nested case-control study of African American males who were genotyped for 5 SNPs utilizing pyrosequencing. Multiple and binary logistic regression models were applied to analyze the clinical and genotypic data.
+
+Results::
+rs12122923 and rs1800871 were associated with PCa risk. Smoking was also found to increase the risk of PCa by 1.6-fold. rs1800893 was found to be associated with lower grades for prostate cancer.
+
+Conclusion::
+IL-10 promoter polymorphisms might be a risk factor for PCa development in smoking subjects and PCa progression.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

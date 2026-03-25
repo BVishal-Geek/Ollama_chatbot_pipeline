@@ -1,0 +1,19 @@
+Source: PMC7871294_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Comprehensive Bioinformatics Analysis of Key Methyltransferases and Demethylases for Histone Lysines in Hepatocellular Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical staging and tumor grading are important clinical parameters for HCC patients.",
+  "N_E": 1,
+  "N_E_reason": "A group of 353 HCC patients was selected following our inclusion criteria in cBioPortal.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

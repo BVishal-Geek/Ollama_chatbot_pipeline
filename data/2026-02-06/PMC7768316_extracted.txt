@@ -1,0 +1,599 @@
+================================================================================
+ARTICLE TITLE: Hsa_circ_0075960 Serves as a Sponge for miR-361-3p/SH2B1 in
+Endometrial Carcinoma
+PMCID: PMC7768316
+PMID: 33356989
+KEYWORDS: circrna, mirna, endometrial cancer, sh2b1, hsa_circ_0075960
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Although the cases of endometrial carcinoma (EC) is gradually increasing
+across the world, its etiology and pathogenesis remain unknown. The
+present study is the first to define the role and biological function
+of circRNA hsa_circ_0075960 in the development and progression of EC.
+We first determined that hsa_circ_0075960 is aberrantly expressed in
+EC cells. Then, we uncovered that the downregulation of
+hsa_circ_0075960 suppressed cell proliferation and promoted cell
+apoptosis of EC cells, suggesting that hsa_circ_0075960 could inhibit
+the progression of EC in vitro . In addition, we
+identified that miR-361-3p was the direct target of hsa_circ_0075960.
+Further analysis revealed that hsa_circ_0075960 affected the
+development of EC via sponging miR-361-3p. Interestingly, we verified
+that the level of SH2B1 was controlled by the downregulation of
+hsa_circ_0075960 and that the negative effect caused by
+hsa_circ_0075960 could be reversed via miR-361-3p inhibition. Our
+cumulative results revealed that the novel tumor regulator
+hsa_circ_0075960 functioned as a sponge for miR-361-3p/SH2B1 in EC
+cells and regulated the progression of EC through the modulation of
+miR-361-3p.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Endometrial carcinoma (EC), which is one of the most common gynecological
+malignancies occurring globally, has the fourth highest cancer incidence in
+females, causing 12160 deaths in the United States in 2019 alone. 1 , 2 Based on its clinical, pathological, and molecular features, EC is
+often categorized into 2 types. The type I cancer is generally related to
+estrogen and progesterone stimulation, accounting for 80% occurrence in
+uterine cancers. 3 On the other hand, type II cancer possibly arises from atrophic
+endometrium and occurs relatively rarely when compared with type I cancer.
+Although most ECs are diagnosed at an early stage and the 5-year survival
+rate of stage I EC is 96%, patients with advanced EC continue to have a poor
+prognosis with the 5-year survival rate of only 17%. Thus, it is imperative
+to search for new diagnostic alternatives and treatment strategies for
+EC.
+
+Accumulating evidence have indicated that tumorigenesis is induced by
+epigenetic and genetic changes, and the emerging role of non-coding RNAs
+(ncRNAs) has been recently suggested in cancerogenesis. NcRNAs can be
+categorized into linear non-coding RNAs and circular non-coding RNAs
+(circRNA). Unlike the linear RNAs, the circRNA has a closed-loop structure
+and lacks the 5′caps or 3′poly-A tails. 4 CircRNAs were once regarded as the outgrowth of aberrant splicing
+despite their wide presence in eukaryotic cells. 5 , 6 In addition, the involvement of circRNAs has recently been
+demonstrated in various cellular aspects such as cellular differentiation,
+tissue homeostasis, and disease development. 7 - 9 Adding to its role in tumorigenesis, circPVT1 has been identified as
+a proliferative factor and a prognostic marker in gastric cancer. 10 Chen et al. 11 reported that circular RNA hsa-circ-0072309 inhibited the progress of
+renal carcinoma by affecting the phosphoinositide 3-kinase (PI3 K) and mTOR
+pathways. circRNAs have also been demonstrated to play roles in the
+development of EC. Zong et al. 12 also identified that circ_PUM1 promoted the progress of EC by
+targeting the miR-136/NOTCH3 pathway. In addition, Shen 13 indicated that hsa_circ_0002577 could regulate miR-197/CTNND1 axis
+and activate the Wnt pathways to promote the EC progression. In addition,
+Chen et al. 14 performed transcriptome sequencing to identify numerous circRNAs that
+were differentially expressed between malignant and normal endometrial
+tissues. Despite all the efforts, the underlying role of circRNAs in EC
+remains unclear.
+
+In our study, we identified the novel molecular mechanisms involved in the
+tumorigenesis of EC. We performed RT-qPCR assay to identify circRNA
+hsa_circ_0075960, which was differentially presented in the EC cell lines in
+comparison with the normal endometrium. Then, we found that hsa_circ_0075960
+affected the progress of EC by affecting cell apoptosis, cell proliferation,
+and cell migration. Furthermore, we demonstrated that miRNA miR-361-3p was a
+potential target of hsa_circ_0075960 by using a luciferase assay. Moreover,
+we found that miR-361-3p could control the level of SH2B1. In short, we
+identified that circRNA hsa_circ_0075960 could affect the level of SH2B1 by
+sponging miRNA miR-361-3p in EC cells.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The EC cell lines Ishikawa, RL-952, HEC-1-A, and JEC as well as normal
+endometrial cells hESC were purchased from the Shanghai Institute of
+Cell Biology of Chinese Academy of Sciences (Shanghai, China). The
+cell medium 1640 and Dulbecco’s modified Eagle’s medium (DMEM) were
+obtained from the Thermo Company (Gibco, USA) and supplemented with
+10% fetal bovine serum and 1% P/S (Gibco). All cell lines were
+cultured in a humidified incubator at 37°C under 5% CO 2 .
+Cell transfection was conducted with the lipofection reagent lipo3000
+as per the manufacturer’s instructions (Life Science, USA).
+
+Trizol reagent was used to extract total RNA from cells as per the kit
+manual (Life, USA). The concentration and purity of RNA were measured
+with the NanoDrop ND-1000 (Thermo Fisher Scientific, Inc., USA). cDNA
+was reverse transcribed using the PrimeScript™ RT Reagent Kit (Takara,
+Japan). Real-time quantitative PCR was performed by using the SYBR
+Premix Ex Taq™ II Kit (Takara). GAPDH and U6 were used as internal
+control. The relative expression levels of the genes involved in this
+study were calculated using the comparative threshold cycle (Ct)
+(2 -ΔΔCt ) method. When necessary, the fold-change was
+calculated through the normalized levels of genes in the experiment
+group to the mean of those in the control group.
+
+Cell growth was detected using the Cell Counting Kit-8 (Dojindo, Japan).
+The cells (2 × 10 3 ) were fed into each well of a 96-well
+plate. After culturing for 24 h, 10 µL of the CCK-8 medium was added
+into each well and incubated for 4 h at 37°C. The OD value was
+collected at different time-points at 450-nm wavelength using the
+Infinite 200 PRO (Tecan, Switzerland)
+
+After being transfected for 12 h, the cells were harvested, washed, and
+re-suspended with PBS. The Annexin V-FITC and PI were added to the
+cell suspension and incubated for 15 min in the dark. Then, flow
+cytometer was performed to detect FITC-positive and PI-positive cells.
+The FlowJo software was used to analyze the data.
+
+The cells (1 × 10 6 ) were fed into each well of a 6-well plate
+with 2-mL cell media. A scratch was then created using a 200-µL
+pipette tip and the widths of the scratch was measured under a
+microscope at 0 and 48 h. The wound healing rate was calculated using
+the following equation:
+
+Scratch width at 48 h/Scratch width at 0 h × 100%
+
+The luciferase reporter vectors with wild-type or mutant 3′-UTR of
+circ_0075960 or SH2B1 were constructed. The cells were co-transfected
+with miR-361-3p mimics or miR-NC using the Lipo3000. After 48 h, the
+luciferase activity was determined by using a dual-luciferase reporter
+assay kit (Promega, USA).
+
+The GraphPad Prism 6.0 software was used to analyze the data (La Jolla,
+CA). Student’s t -test or one-way analysis of variance
+(ANOVA) was applied to evaluate the difference between the different
+groups. Data was presented as mean ± standard deviation (SD). P <
+0.05 was considered to be statistically significant.
+
+
+Cell Culture and Transfection
+
+The EC cell lines Ishikawa, RL-952, HEC-1-A, and JEC as well as normal
+endometrial cells hESC were purchased from the Shanghai Institute of
+Cell Biology of Chinese Academy of Sciences (Shanghai, China). The
+cell medium 1640 and Dulbecco’s modified Eagle’s medium (DMEM) were
+obtained from the Thermo Company (Gibco, USA) and supplemented with
+10% fetal bovine serum and 1% P/S (Gibco). All cell lines were
+cultured in a humidified incubator at 37°C under 5% CO 2 .
+Cell transfection was conducted with the lipofection reagent lipo3000
+as per the manufacturer’s instructions (Life Science, USA).
+
+
+Quantitative Reverse Transcriptase-Polymerase Chain Reaction
+(qRT-PCR) Assay
+
+Trizol reagent was used to extract total RNA from cells as per the kit
+manual (Life, USA). The concentration and purity of RNA were measured
+with the NanoDrop ND-1000 (Thermo Fisher Scientific, Inc., USA). cDNA
+was reverse transcribed using the PrimeScript™ RT Reagent Kit (Takara,
+Japan). Real-time quantitative PCR was performed by using the SYBR
+Premix Ex Taq™ II Kit (Takara). GAPDH and U6 were used as internal
+control. The relative expression levels of the genes involved in this
+study were calculated using the comparative threshold cycle (Ct)
+(2 -ΔΔCt ) method. When necessary, the fold-change was
+calculated through the normalized levels of genes in the experiment
+group to the mean of those in the control group.
+
+
+Cell Proliferation Assay
+
+Cell growth was detected using the Cell Counting Kit-8 (Dojindo, Japan).
+The cells (2 × 10 3 ) were fed into each well of a 96-well
+plate. After culturing for 24 h, 10 µL of the CCK-8 medium was added
+into each well and incubated for 4 h at 37°C. The OD value was
+collected at different time-points at 450-nm wavelength using the
+Infinite 200 PRO (Tecan, Switzerland)
+
+
+Cell Apoptosis Assay
+
+After being transfected for 12 h, the cells were harvested, washed, and
+re-suspended with PBS. The Annexin V-FITC and PI were added to the
+cell suspension and incubated for 15 min in the dark. Then, flow
+cytometer was performed to detect FITC-positive and PI-positive cells.
+The FlowJo software was used to analyze the data.
+
+
+Wound Healing Assay
+
+The cells (1 × 10 6 ) were fed into each well of a 6-well plate
+with 2-mL cell media. A scratch was then created using a 200-µL
+pipette tip and the widths of the scratch was measured under a
+microscope at 0 and 48 h. The wound healing rate was calculated using
+the following equation:
+
+Scratch width at 48 h/Scratch width at 0 h × 100%
+
+
+Dual Luciferase Reporter Assay
+
+The luciferase reporter vectors with wild-type or mutant 3′-UTR of
+circ_0075960 or SH2B1 were constructed. The cells were co-transfected
+with miR-361-3p mimics or miR-NC using the Lipo3000. After 48 h, the
+luciferase activity was determined by using a dual-luciferase reporter
+assay kit (Promega, USA).
+
+
+Statistical Analysis
+
+The GraphPad Prism 6.0 software was used to analyze the data (La Jolla,
+CA). Student’s t -test or one-way analysis of variance
+(ANOVA) was applied to evaluate the difference between the different
+groups. Data was presented as mean ± standard deviation (SD). P <
+0.05 was considered to be statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+A previous study demonstrated that a novel circRNA hsa_circ_0075960 was
+upregulated in extracellular vesicles (EVs) isolated from the serum of
+patients with advanced EC, 15 although the role of hsa_circ_0075960 remains unclear. To
+identify whether hsa_circ_0075960 was a circular RNA, we performed a
+head-to-tail splicing assay and Sanger sequencing of the junctional
+sequences ( Figure
+1A ). Then, we designed the convergent and divergent
+primers. The results revealed that the divergent amplified circRNAs in
+cDNA, but not genomic DNA (gDNA), suggesting that hsa_circ_0075960 has
+a circular structure ( Figure 1B ). We also performed an RNase digesting assay
+to confirm that hsa_circ_0075960 was more stable (data not shown). To
+explore whether hsa_circ_0075960 is an appropriate biomarker of EC, we
+performed the qRT-PCR assay and determined the level of
+hsa_circ_0075960 in the EC cell lines and normal endometrial cells.
+Our results indicated that the expression of hsa_circ_0075960 was
+upregulated in EC cells than in normal endometrial cells ( Figure 1C ;
+***P < 0.001), which suggested that the dysregulation of
+hsa_circ_0075960 may play a role in EC. To further identify the effect
+induced by hsa_circ_0075960 on EC, we employed RNA interference to
+downregulate hsa_circ_0075960 in EC cells. As shown in Figure 1D , the
+level of hsa_circ_0075960 was validated by qRT-PCR, and the U6 was
+regarded as an internal control. Our cumulative results indicated that
+the RNA interference could efficiently inhibit the level of endogenous
+hsa_circ_0075960 ( Figure 1D , ***P < 0.001).
+
+Hsa_circ_0075960 was excessively presented in endometrial
+cancer cells. A, Convergent (divergent) primers detect
+total (circular) RNAs. Sanger sequencing confirms
+junctional sequence. B, Divergent primers amplify circRNAs
+in cDNA but not genomic DNA (gDNA). GAPDH was used as
+negative control. C, qRT-PCR analysis of hsa_circ_0075960
+expression in endometrial cancer cell lines compared with
+normal endometrial cell hESC. U6 was regarded as internal
+control. D, The expression of hsa_circ_0075960 in EC cell
+HEC-1A and JEC was detected by qRT-PCR assay after
+transfected with sh-NC and sh-circ_0075960. U6 was
+regarded as internal control. Data was presented as mean ±
+SD. ***P < 0.001.
+
+To further identify the effect induced by hsa_circ_0075960 on EC, we
+employed RNA interference to downregulate hsa_circ_0075960 in EC
+cells, followed by performing CCK-8 assay to detect cell proliferation
+of EC cells. As shown in Figure 2A , downregulation of
+hsa_circ_0075960 could attenuate cell proliferation when compared with
+the control group. In addition, we utilized Annexin-FITC and PI
+staining to label the apoptotic cells. The results of flow cytometry
+demonstrated that the downregulation of hsa_circ_0075960 promoted cell
+apoptosis of EC cells ( Figure 2B-C ). Subsequently,
+we also performed wound healing assay and found that hsa_circ_0075960
+inhibition could suppress the migration ability of EC cells ( Figure 2D-E ).
+Taken together, these data indicate that hsa_circ_0075960 inhibition
+attenuated the EC progression.
+
+Hsa_circ_0075960 inhibition suppressed the progress of
+endometrial cancer cells. A, CCK-8 assay was performed to
+identify cell proliferation in EC cells transfected with
+sh-NC and sh-circ_0075960. B, Flow cytometry analysis by
+Flowjo software exhibited the apoptosis cell ratio in and
+sh-NC and sh-circ_0075960 group. C, Statistic data of
+apoptosis cell. D-E, Wound healing assay indicated
+hsa_circ_0075960 inhibition suppressed the migration
+ability of EC cells. Data was presented as mean ± SD. *P
+< 0.05; **P < 0.01; ***P < 0.001.
+
+The hypothesis of competing endogenous RNAs (ceRNA) suggest a novel
+mechanism of interactions among different RNAs. Indeed, circRNAs often
+act as ceRNA via competitive binding with miRNAs in order to modulate
+the expressions of the downstream genes. To investigate the underlying
+mechanisms of the inhibitory effect induced by hsa_circ_0075960, the
+potential substrates of hsa_circ_0075960 were predicted by
+bioinformatics software. Then, we screened out potential substrates
+based on their expression profiles in EC. Among a series of potential
+targets, we identified a potential binding site of miR-361-3p with
+hsa_circ_0075960 ( Figure 3A ). In addition, miR-361-3p was found to
+contribute to the progression of various tumors. 16 - 20 In order to identify the interaction between hsa_circ_0075960
+and miR-361-3p, we mutated the possible binding sites of
+hsa_circ_0075960 and miR-361-3p. The luciferase assay exhibited that
+the miR-361-3p mimics reduced the luciferase activity of the
+hsa_circ_0075960 WT reporter group rather than that of the
+hsa_circ_0075960 MUT group, indicating that miR-361-3p bond to
+hsa_circ_0075960 directly ( Figure 3B ). Although miR-361
+had been reported to function in EC, 21 , 22 we confirmed the level of miR-361-3p in the EC cell lines. Our
+results thus suggested that the level of miR-361-3p in EC was lower
+compared with that in the normal endometrial cells (control; Figure
+3C ).
+
+Hsa_circ_0075960 bond and negatively regulated miR-361-3p. A,
+Predicted binding sites of hsa_circ_0075960 and
+miR-361-3p. B, Luciferase activity assay of
+hsa_circ_0075960 wt and mut with overexpressing miR-361-3p
+mimic. C, RT-QPCR assay of relative miR-361-3p level in
+normal endometrial cell and endometrial cancer cells. The
+relative level of miR-361-3p was normalized by U6. Data
+was presented as mean ± SD. *P < 0.05; **P < 0.01;
+***P < 0.001.
+
+In order to examine whether hsa_circ_0075960 contributed to the process
+of EC via miR-361-3p regulation, we employed the CCK-8 Kit to confirm
+the proliferation of EC cells. Our results proved that miR-361-3p
+could eliminate the effect induced by hsa_circ_0075960 ( Figure 4A ).
+Then, we performed flow cytometry to detect the ratio of apoptosis
+cells. The results demonstrated that the downregulation of miR-361-3p
+suppressed the effect caused by hsa_circ_0075960 inhibitions on the
+development of EC cells ( Figure 4B-C ). In addition, a
+wound healing assay was performed to detect whether miR-361-3p
+inhibition could eliminate the inhibitory influence of migration
+ability caused by the downregulation of hsa_circ_0075960 ( Figure 4D-E ).
+Our cumulative results proved that hsa_circ_0075960 functioned as a
+sponger of miR-361-3p in the EC cells in this study.
+
+Hsa_circ_0075960 attenuated the process of EC through
+modulating miR-361-3p. A, Cell vitality using CCK8
+indicated that knockdown of miR-361-3p might eliminate the
+effect induced by hsa_circ_0075960 inhibition. B-C, Cell
+apoptosis assay using PI/ Annexin-FITC staining. D-E,
+wound healing assay indicated that miR-361-3p could
+reverse the effect caused by hsa_circ_0075960. Data was
+presented as mean ± SD. *P < 0.05; **P < 0.01; ***P
+< 0.001.
+
+Based on the bioinformatics’ prediction, the cytoplasmic adapter protein
+Src homology 2 B adapter protein 1 (SH2B1) was identified as a
+possible substrate of miR-361-3p ( Figure 5A ). SH2B1 have been
+demonstrated to modulate the signaling pathway by combining different
+components, including a variety of ligands and their tyrosine kinase receptors. 23 Accumulative evidence have proven that SH2B1 is not only
+associated with metabolic diseases, such as diabetes, but also with
+cancer progression. 24 - 28 From the cancer cell line encyclopedia and human protein atlas,
+SH2B1 was demonstrated to be expressed in the endometrium with higher
+expression levels in EC; this report is consistent with those of our
+unpublished study. From the TCGA dataset, the 5-year survival rate of
+the patients with high SH2B1 expression was 68%, while that of
+patients with low SH2B1 expression was 80%, suggesting that SH2B1 may
+have unfavorable influences on the prognosis of patients with EC.
+Therefore, we focused our attention to SH2B1 in our study. To confirm
+our hypothesis, we conducted the luciferase assay and confirmed the
+interaction between miR-361-3p and SH2B ( Figure 5B ). In addition, we
+detected the protein level of SH2B1 by western blotting; our results
+showed that hsa_circ_0075960 and miR-361-3p could regulate the
+expressions of SH2B1 ( Figure 5C-D ). Taken together, we could conclude that
+hsa_circ_0075960 sponges miR-361-3p to modulate SH2B1 in the EC
+cells.
+
+Hsa_circ_0075960 and miR-361-3p modulated the level of SH2B1.
+A, Predicted binding sites of miR-361-3p and SH2B1. B,
+Luciferase assay indicated the relationship between
+miR-361-3p and SH2B1. C-D, Western blot assay indicated
+that the level of SH2B1 would be downregulated in
+endometrial cancer cells. Data was presented as mean ± SD.
+* P < 0.05; ** P < 0.01; *** P < 0.001.
+
+
+Hsa_circ_0075960 Was Excessively Presented in EC Cells
+
+A previous study demonstrated that a novel circRNA hsa_circ_0075960 was
+upregulated in extracellular vesicles (EVs) isolated from the serum of
+patients with advanced EC, 15 although the role of hsa_circ_0075960 remains unclear. To
+identify whether hsa_circ_0075960 was a circular RNA, we performed a
+head-to-tail splicing assay and Sanger sequencing of the junctional
+sequences ( Figure
+1A ). Then, we designed the convergent and divergent
+primers. The results revealed that the divergent amplified circRNAs in
+cDNA, but not genomic DNA (gDNA), suggesting that hsa_circ_0075960 has
+a circular structure ( Figure 1B ). We also performed an RNase digesting assay
+to confirm that hsa_circ_0075960 was more stable (data not shown). To
+explore whether hsa_circ_0075960 is an appropriate biomarker of EC, we
+performed the qRT-PCR assay and determined the level of
+hsa_circ_0075960 in the EC cell lines and normal endometrial cells.
+Our results indicated that the expression of hsa_circ_0075960 was
+upregulated in EC cells than in normal endometrial cells ( Figure 1C ;
+***P < 0.001), which suggested that the dysregulation of
+hsa_circ_0075960 may play a role in EC. To further identify the effect
+induced by hsa_circ_0075960 on EC, we employed RNA interference to
+downregulate hsa_circ_0075960 in EC cells. As shown in Figure 1D , the
+level of hsa_circ_0075960 was validated by qRT-PCR, and the U6 was
+regarded as an internal control. Our cumulative results indicated that
+the RNA interference could efficiently inhibit the level of endogenous
+hsa_circ_0075960 ( Figure 1D , ***P < 0.001).
+
+Hsa_circ_0075960 was excessively presented in endometrial
+cancer cells. A, Convergent (divergent) primers detect
+total (circular) RNAs. Sanger sequencing confirms
+junctional sequence. B, Divergent primers amplify circRNAs
+in cDNA but not genomic DNA (gDNA). GAPDH was used as
+negative control. C, qRT-PCR analysis of hsa_circ_0075960
+expression in endometrial cancer cell lines compared with
+normal endometrial cell hESC. U6 was regarded as internal
+control. D, The expression of hsa_circ_0075960 in EC cell
+HEC-1A and JEC was detected by qRT-PCR assay after
+transfected with sh-NC and sh-circ_0075960. U6 was
+regarded as internal control. Data was presented as mean ±
+SD. ***P < 0.001.
+
+
+The Downregulation of Hsa_circ_0075960 Suppressed the Progress of EC
+Cells
+
+To further identify the effect induced by hsa_circ_0075960 on EC, we
+employed RNA interference to downregulate hsa_circ_0075960 in EC
+cells, followed by performing CCK-8 assay to detect cell proliferation
+of EC cells. As shown in Figure 2A , downregulation of
+hsa_circ_0075960 could attenuate cell proliferation when compared with
+the control group. In addition, we utilized Annexin-FITC and PI
+staining to label the apoptotic cells. The results of flow cytometry
+demonstrated that the downregulation of hsa_circ_0075960 promoted cell
+apoptosis of EC cells ( Figure 2B-C ). Subsequently,
+we also performed wound healing assay and found that hsa_circ_0075960
+inhibition could suppress the migration ability of EC cells ( Figure 2D-E ).
+Taken together, these data indicate that hsa_circ_0075960 inhibition
+attenuated the EC progression.
+
+Hsa_circ_0075960 inhibition suppressed the progress of
+endometrial cancer cells. A, CCK-8 assay was performed to
+identify cell proliferation in EC cells transfected with
+sh-NC and sh-circ_0075960. B, Flow cytometry analysis by
+Flowjo software exhibited the apoptosis cell ratio in and
+sh-NC and sh-circ_0075960 group. C, Statistic data of
+apoptosis cell. D-E, Wound healing assay indicated
+hsa_circ_0075960 inhibition suppressed the migration
+ability of EC cells. Data was presented as mean ± SD. *P
+< 0.05; **P < 0.01; ***P < 0.001.
+
+
+Hsa_circ_0075960 Bond Negatively Regulated miR-361-3p
+
+The hypothesis of competing endogenous RNAs (ceRNA) suggest a novel
+mechanism of interactions among different RNAs. Indeed, circRNAs often
+act as ceRNA via competitive binding with miRNAs in order to modulate
+the expressions of the downstream genes. To investigate the underlying
+mechanisms of the inhibitory effect induced by hsa_circ_0075960, the
+potential substrates of hsa_circ_0075960 were predicted by
+bioinformatics software. Then, we screened out potential substrates
+based on their expression profiles in EC. Among a series of potential
+targets, we identified a potential binding site of miR-361-3p with
+hsa_circ_0075960 ( Figure 3A ). In addition, miR-361-3p was found to
+contribute to the progression of various tumors. 16 - 20 In order to identify the interaction between hsa_circ_0075960
+and miR-361-3p, we mutated the possible binding sites of
+hsa_circ_0075960 and miR-361-3p. The luciferase assay exhibited that
+the miR-361-3p mimics reduced the luciferase activity of the
+hsa_circ_0075960 WT reporter group rather than that of the
+hsa_circ_0075960 MUT group, indicating that miR-361-3p bond to
+hsa_circ_0075960 directly ( Figure 3B ). Although miR-361
+had been reported to function in EC, 21 , 22 we confirmed the level of miR-361-3p in the EC cell lines. Our
+results thus suggested that the level of miR-361-3p in EC was lower
+compared with that in the normal endometrial cells (control; Figure
+3C ).
+
+Hsa_circ_0075960 bond and negatively regulated miR-361-3p. A,
+Predicted binding sites of hsa_circ_0075960 and
+miR-361-3p. B, Luciferase activity assay of
+hsa_circ_0075960 wt and mut with overexpressing miR-361-3p
+mimic. C, RT-QPCR assay of relative miR-361-3p level in
+normal endometrial cell and endometrial cancer cells. The
+relative level of miR-361-3p was normalized by U6. Data
+was presented as mean ± SD. *P < 0.05; **P < 0.01;
+***P < 0.001.
+
+
+Hsa_circ_0075960 Attenuated the Process of EC via miR-361-3p
+Sponging
+
+In order to examine whether hsa_circ_0075960 contributed to the process
+of EC via miR-361-3p regulation, we employed the CCK-8 Kit to confirm
+the proliferation of EC cells. Our results proved that miR-361-3p
+could eliminate the effect induced by hsa_circ_0075960 ( Figure 4A ).
+Then, we performed flow cytometry to detect the ratio of apoptosis
+cells. The results demonstrated that the downregulation of miR-361-3p
+suppressed the effect caused by hsa_circ_0075960 inhibitions on the
+development of EC cells ( Figure 4B-C ). In addition, a
+wound healing assay was performed to detect whether miR-361-3p
+inhibition could eliminate the inhibitory influence of migration
+ability caused by the downregulation of hsa_circ_0075960 ( Figure 4D-E ).
+Our cumulative results proved that hsa_circ_0075960 functioned as a
+sponger of miR-361-3p in the EC cells in this study.
+
+Hsa_circ_0075960 attenuated the process of EC through
+modulating miR-361-3p. A, Cell vitality using CCK8
+indicated that knockdown of miR-361-3p might eliminate the
+effect induced by hsa_circ_0075960 inhibition. B-C, Cell
+apoptosis assay using PI/ Annexin-FITC staining. D-E,
+wound healing assay indicated that miR-361-3p could
+reverse the effect caused by hsa_circ_0075960. Data was
+presented as mean ± SD. *P < 0.05; **P < 0.01; ***P
+< 0.001.
+
+
+SH2B1 Could Be Modulated by Hsa_circ_0075960/miR-361-3p Axis
+
+Based on the bioinformatics’ prediction, the cytoplasmic adapter protein
+Src homology 2 B adapter protein 1 (SH2B1) was identified as a
+possible substrate of miR-361-3p ( Figure 5A ). SH2B1 have been
+demonstrated to modulate the signaling pathway by combining different
+components, including a variety of ligands and their tyrosine kinase receptors. 23 Accumulative evidence have proven that SH2B1 is not only
+associated with metabolic diseases, such as diabetes, but also with
+cancer progression. 24 - 28 From the cancer cell line encyclopedia and human protein atlas,
+SH2B1 was demonstrated to be expressed in the endometrium with higher
+expression levels in EC; this report is consistent with those of our
+unpublished study. From the TCGA dataset, the 5-year survival rate of
+the patients with high SH2B1 expression was 68%, while that of
+patients with low SH2B1 expression was 80%, suggesting that SH2B1 may
+have unfavorable influences on the prognosis of patients with EC.
+Therefore, we focused our attention to SH2B1 in our study. To confirm
+our hypothesis, we conducted the luciferase assay and confirmed the
+interaction between miR-361-3p and SH2B ( Figure 5B ). In addition, we
+detected the protein level of SH2B1 by western blotting; our results
+showed that hsa_circ_0075960 and miR-361-3p could regulate the
+expressions of SH2B1 ( Figure 5C-D ). Taken together, we could conclude that
+hsa_circ_0075960 sponges miR-361-3p to modulate SH2B1 in the EC
+cells.
+
+Hsa_circ_0075960 and miR-361-3p modulated the level of SH2B1.
+A, Predicted binding sites of miR-361-3p and SH2B1. B,
+Luciferase assay indicated the relationship between
+miR-361-3p and SH2B1. C-D, Western blot assay indicated
+that the level of SH2B1 would be downregulated in
+endometrial cancer cells. Data was presented as mean ± SD.
+* P < 0.05; ** P < 0.01; *** P < 0.001.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+EC is a life-threatening disease affecting thousands of women across the world.
+The 5-year survival rate of patients with stage I EC is 96%, while that of
+stage IV patients is only 17%. Therefore, exploration of new treatment
+strategies for patients with advanced EC is extremely urgent. To search for
+the underlying modulator of advanced EC, Xu et al. 15 reported the expression profile of circRNA in EVs from EC patients.
+Based on their RNA-seq analysis, we found that circRNA hsa_circ_0075960 may
+be upregulated in the serum of patients with EC. However, the molecular
+mechanism underlying this event remained unclear. We therefore next
+identified the level of hsa_circ_0075960 upregulated in EC cell lines in
+comparison with that in normal endometrial cells. Interestingly, we found
+that hsa_circ_0075960 inhibition could suppress the progress of EC via
+alleviation of cell proliferation and promotion of cell apoptosis.
+Furthermore, we found that the possible target of hsa_circ_0075960 was
+miR-361-3p. Accumulating evidence emphasized the role of miR-361-3p in
+various tumors. Hu et al. 17 reported that miR-361-3p regulated the EMT induced by ERK1/2 in
+pancreatic ductal adenocarcinoma and that its control was depended on DUSP2
+mRNA degradation. Chen et al. 18 demonstrated that miR-361-3p and miR-615-5p could be controlled by
+circular RNA 100146 in non-small cell lung cancers. In addition, miR-361-3p
+was also reported to function in the gynecological oncology. In cervical
+cancers, the miR-361-3p expression was regarded as an independent prognostic
+indicator of favorable survival. 16 In EC, Dong et al. 22 demonstrated that miR-361 regulated the networks involving STAT3 and
+promoted the progression of EC. Ihira et al. 21 reported that miR-361 was controlled by EZH2 for the suppression of
+EC development. Considered as an important role of miR-361-3p, we proposed
+the hypothesis that hsa_circ_0075960 can regulate the development of EC by
+controlling the miR-361-3p regulation. In addition, we utilized a
+bioinformatics tool to predict whether the possible substrate of miR-361-3p
+is SH2B adapter protein 1 (SH2B1), which has been shown to interact with
+Grb2, TrkA, and Janus kinase 2. A series of papers have been published that
+uncovered the role of SH2B1 in the occurrence, progression, and worsening of
+colorectal cancer, gastric cancer, and NSCLC. 19 , 27 , 29 In conclusion, we identified a novel biomarker of the EC progression
+circRNA hsa_circ_0075960, which served as a sponger of miR-361-3p to
+regulate the expression of SH2B1.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

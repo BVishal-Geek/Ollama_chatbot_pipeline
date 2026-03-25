@@ -1,0 +1,230 @@
+================================================================================
+ARTICLE TITLE: Comprehensive Analysis of the Expression and Prognosis for MCMs in Human Gastric Cancer
+PMCID: PMC7658509
+PMID: 33167799
+KEYWORDS: mcms, gastric cancer, prognosis, oncomine, kaplan-meier plotter
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Purposes::
+Minichromosome maintenance (MCM) proteins play an important role in replication and cell cycle progression. Even so, their expression and prognostic roles in cancer remain controversial.
+
+Methods::
+To address this issue, the study investigated the roles of MCMs in the prognosis of GC by using ONCOMINE, GEPIA2, UALCAN, Cancer Cell Line Encyclopedia (CCLE), the Human Protein Atlas, Kaplan-Meier Plotter, cBioPortal, GeneMANIA, and DAVID databases.
+
+Results::
+Over expressions of mRNA and cell lines were found in all members of the MCM family, and MCMs were found to be significantly associated with pathological tumor grades in GC patients. Besides, higher mRNA expressions of MCM1/5/7 were found to be significantly associated with shorter overall survival (OS) and progression-free survival (FP) in GC patients, while higher mRNA expression of MCM4/6/9 were connected with favorable OS and FP. Moreover, a high mutation rate of MCMs (68%) was also observed in GC patients.
+
+Conclusions::
+The results indicated that MCM1/5/7 were potential targets of precision therapy for patients with GC. And MCM4/6/9 were new biomarkers for the prognosis of GC. The results of the study will contribute to supplement the existing knowledge, and help to explore therapeutic targets and enhance the accuracy of prognosis for patients with GC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Gastric cancer (GC) is the fifth leading cancer in the world and the third leading cause of cancer-related death, so it is an important global health issue. In 2018, 1.0 million new GC cases and 0.7 million deaths were reported worldwide, making GC with high morbidity and mortality. 1 Efforts try on the mechanisms of the development, progression, and metastasis of GC have been improved the early detection and treatment to further increase patient survival. However, the molecular characteristics of GC remain unknown so far. For the treatment of patients with GC, it is crucial to identify novel therapeutic targets by understanding the underlying potential pathogenesis and etiology of GC.
+
+DNA is the major storage form of life genetic information. DNA replication is necessary for cell division. DNA error-free replication is the main guarantee for the successful transmission of genomic information to offspring, and is of great significance for the transmission and continuation of genetic information. 2 Relevantly, MCMs exhibit helicase activity in replication initiation and play vital roles in controlling replication times within a cell cycle. 3 Moreover, MCMs are markers for proliferation, evidenced by high activity in proliferating cells. 4 Enabling proliferative immortality and uncontrolled cell cycle are hallmarks of cancer cells. These indicated that MCMs might be involved in abnormal cell replication and proliferation in cancer.
+
+The MCMs are ubiquitously expressed proteins, including MCM1-10. Previous studies have found MCMs are involved in DNA replication, and some members of MCMs family have aberrant expression and prognostic value in cancer. For instance, MCM2 was over-expressed in clinical tissues and multiple GC cell lines. High expression of MCM2 and MCM5 was associated with tumor size, pathologic differentiation and poorer survival of patients. 5 - 7 Nevertheless, the role of distinct MCMs family members remain unclear in the development and progression of GC. In our study, we analyzed the expression and mutation of different MCMs family members and their relationship with clinical parameters in GC patients to solve this problem. Furthermore, we also assessed the predictive functions and pathways of MCMs as well as 50 neighbor genes closely related to MCMs.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+ONCOMINE database ( www.oncomine.org ) is an integrated cancer microarray database for DNA or RNA sequences analysis and web-based data mining platform, which aims to facilitate discovery from the gene-wide expression analyses. 8 In our study, ONCOMINE database was used to analyze transcriptional expressions of 10 different MCMs members between different cancer tissues and their corresponding adjacent normal control samples and using a Student’s t test to generate a p value. In ONCOMINE overview interface, we input genes on the left. The cutoffs of p value and fold change were stated as 0.01 and 1.5, correspondingly.
+
+The Gene Expression Profiling Interactive Analysis 2 (GEPIA2) database ( http://gepia.cancer-pku.cn/ ) is an interactive web that includes 9,736 tumors and 8,587 normal samples from TCGA and the GTEx projects. 9 In the study, GEPIA2 was used to analyze the differential expression between tumor and normal. We input genes into the single gene analysis interface, and then selected the profile.
+
+UALCAN ( http://ualcan.path.uab.edu ) is an interactive web resource based on level 3 RNA-seq and clinical data of 31 cancer types from the TCGA database. 10 In this study, UALCAN was used to analyze the mRNA expression level of MCMs, which could not only compare between GC and normal tissue samples, but also exhibit association of the transcriptional expression with relevant GC clinicopathologic parameters. In short, we input the target genes and then selected the expression and tumor grade options in turn. Difference of MCMs transcriptional expression was compared by Student’s t -test and p < 0.05 was regarded as statically significant.
+
+CCLE ( www.broadinstitute.org/ccle ) project aims at conducting a detailed genetic and pharmacologic characterization of a large panel of human cancer models, not only to develop integrated computational analyses that link distinct pharmacologic vulnerabilities to genomic patterns, but also to provide public access to genomic data for analysis and visualization for about 1000 cell lines. 11 The expression of MCMs family in cancer cell lines was verified by the CCLE data set, which further helped us to intuitively compare the level of MCMs in tumor cell lines. We input the gene name and view the expression of mRNA to get the results in our study.
+
+The Human Protein Atlas ( https://www.proteinatlas.org ) can provide immunohistochemistry-based expression data for near 20 highly common kinds of cancers. 12 We could identify tumor-specific protein expressions that are differentially expressed in a given tumor of type. In the study, a direct comparison of the protein expression of different MCMs family members between human normal and gastric tissues was investigated by immunohistochemistry images. We can get the immunohistochemistry results of different antibodies type under the tissue interface, and click the figure to see the detailed information.
+
+The Kaplan-Meier plotter ( http://kmplot.com/analysis/ ) is a database that covers information for gene expression associated with survival of patients of gastric cancer, breast cancer, lung cancer and ovarian cancer. 13 - 16 The correlation between mRNA expression levels of the MCM gene family and the survival probability of patients with GC was analyzed by using the Kaplan-Meier plot database. In Kaplan-Meier plotter, cancer patients were divided into high and low expression groups based on median values of mRNA expression and validated by K-M survival curves. In brief, we input the gene name of the MCM family into the gene symbol search box and adjusted the survival type to OS and FP. The statically significant difference was considered when a p value < 0.05.
+
+cBioPortal ( www.cbioportal.org ) is an online open-access website that involves exploring, visualizing, and analyzing multidimensional cancer genomics data. 17 Genetic alterations of MCMs were obtained from cBioPortal based on the TCGA database. 415 gastric carcinoma samples were analyzed. And mRNA expression z-scores (log RNA Seq V2 RSEM) were obtained using a z-score threshold of ± 1.8.
+
+Gene-association networks were made for the MCM family using GeneMANIA ( http://genemania.org ). 18 The variety of proteins were colored based on their involvement in specific processes, such as “regulation of mitotic cell cycle,” “regulation of cell division” and “mitotic cell cycle checkpoint,” etc. After entering the GeneMANIA official website, input the searched species and gene names in the upper left corner and set the number of genes to be displayed. On the right side of the page, we set bioinformatics methods, such as gene enrichment analysis, co-expression, physical interaction, predicted interaction and pathway, etc.
+
+The functions of MCMs and 50 genes significantly associated with MCMs were analyzed by GO and KEGG in the DAVID database for Annotation, Visualization and Integrated Discovery ( https://david.ncifcrf.gov/summary.jsp ). GO enrichment analysis can predict the functional roles of MCMs and neighbor genes on the basis of 3 aspects, including biological processes (BP), cellular components (CC) and molecular functions (MF), while KEGG analysis can define the pathways related to the MCMs and its associated neighbor genes. Then we visualized with R project using a “ggplot2” package.
+
+
+Transcription-Related Databases of MCMs in Patients of Gastric Cancer
+
+ONCOMINE database ( www.oncomine.org ) is an integrated cancer microarray database for DNA or RNA sequences analysis and web-based data mining platform, which aims to facilitate discovery from the gene-wide expression analyses. 8 In our study, ONCOMINE database was used to analyze transcriptional expressions of 10 different MCMs members between different cancer tissues and their corresponding adjacent normal control samples and using a Student’s t test to generate a p value. In ONCOMINE overview interface, we input genes on the left. The cutoffs of p value and fold change were stated as 0.01 and 1.5, correspondingly.
+
+The Gene Expression Profiling Interactive Analysis 2 (GEPIA2) database ( http://gepia.cancer-pku.cn/ ) is an interactive web that includes 9,736 tumors and 8,587 normal samples from TCGA and the GTEx projects. 9 In the study, GEPIA2 was used to analyze the differential expression between tumor and normal. We input genes into the single gene analysis interface, and then selected the profile.
+
+UALCAN ( http://ualcan.path.uab.edu ) is an interactive web resource based on level 3 RNA-seq and clinical data of 31 cancer types from the TCGA database. 10 In this study, UALCAN was used to analyze the mRNA expression level of MCMs, which could not only compare between GC and normal tissue samples, but also exhibit association of the transcriptional expression with relevant GC clinicopathologic parameters. In short, we input the target genes and then selected the expression and tumor grade options in turn. Difference of MCMs transcriptional expression was compared by Student’s t -test and p < 0.05 was regarded as statically significant.
+
+
+Expression Database of MCM Translation Factors in Gastric Cancer Cell Lines and Tissues
+
+CCLE ( www.broadinstitute.org/ccle ) project aims at conducting a detailed genetic and pharmacologic characterization of a large panel of human cancer models, not only to develop integrated computational analyses that link distinct pharmacologic vulnerabilities to genomic patterns, but also to provide public access to genomic data for analysis and visualization for about 1000 cell lines. 11 The expression of MCMs family in cancer cell lines was verified by the CCLE data set, which further helped us to intuitively compare the level of MCMs in tumor cell lines. We input the gene name and view the expression of mRNA to get the results in our study.
+
+The Human Protein Atlas ( https://www.proteinatlas.org ) can provide immunohistochemistry-based expression data for near 20 highly common kinds of cancers. 12 We could identify tumor-specific protein expressions that are differentially expressed in a given tumor of type. In the study, a direct comparison of the protein expression of different MCMs family members between human normal and gastric tissues was investigated by immunohistochemistry images. We can get the immunohistochemistry results of different antibodies type under the tissue interface, and click the figure to see the detailed information.
+
+
+Kaplan-Meier Plotter Database
+
+The Kaplan-Meier plotter ( http://kmplot.com/analysis/ ) is a database that covers information for gene expression associated with survival of patients of gastric cancer, breast cancer, lung cancer and ovarian cancer. 13 - 16 The correlation between mRNA expression levels of the MCM gene family and the survival probability of patients with GC was analyzed by using the Kaplan-Meier plot database. In Kaplan-Meier plotter, cancer patients were divided into high and low expression groups based on median values of mRNA expression and validated by K-M survival curves. In brief, we input the gene name of the MCM family into the gene symbol search box and adjusted the survival type to OS and FP. The statically significant difference was considered when a p value < 0.05.
+
+
+cBioPortal Database
+
+cBioPortal ( www.cbioportal.org ) is an online open-access website that involves exploring, visualizing, and analyzing multidimensional cancer genomics data. 17 Genetic alterations of MCMs were obtained from cBioPortal based on the TCGA database. 415 gastric carcinoma samples were analyzed. And mRNA expression z-scores (log RNA Seq V2 RSEM) were obtained using a z-score threshold of ± 1.8.
+
+
+Gene-Association Networks, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) Analysis
+
+Gene-association networks were made for the MCM family using GeneMANIA ( http://genemania.org ). 18 The variety of proteins were colored based on their involvement in specific processes, such as “regulation of mitotic cell cycle,” “regulation of cell division” and “mitotic cell cycle checkpoint,” etc. After entering the GeneMANIA official website, input the searched species and gene names in the upper left corner and set the number of genes to be displayed. On the right side of the page, we set bioinformatics methods, such as gene enrichment analysis, co-expression, physical interaction, predicted interaction and pathway, etc.
+
+The functions of MCMs and 50 genes significantly associated with MCMs were analyzed by GO and KEGG in the DAVID database for Annotation, Visualization and Integrated Discovery ( https://david.ncifcrf.gov/summary.jsp ). GO enrichment analysis can predict the functional roles of MCMs and neighbor genes on the basis of 3 aspects, including biological processes (BP), cellular components (CC) and molecular functions (MF), while KEGG analysis can define the pathways related to the MCMs and its associated neighbor genes. Then we visualized with R project using a “ggplot2” package.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To address mRNA expression differences of MCM family between tumor and normal tissues in GC, we performed an analysis using the ONCOMINE database, GEPIA2 and UALCAN. As were shown in Figure 1 and Table 1 , significantly higher mRNA expressions of MCM 1/2/3/4/5/6/7/8/10 were found in GC tissues in multiple datasets. In DErrico’s dataset, 19 MCM1/2/3 were overexpressed in GC tissues versus normal tissues. The fold change of MCM1 was 2.125 ( p = 0.001), the fold change of MCM2 were 3.247 ( p = 1.25E-11) and 3.250 ( p = 1.88E-4), and the fold change of MCM3 were 2.935 ( p = 1.04E-9) and 2.581 ( p = 3.35E-4). Significant up-regulation of MCM4 was also found in GC tissues compared to normal tissues. In Cho’s gastric dataset, MCM4 over-expression was found in GC tissues compared with normal tissues with a fold change of 2.255 ( p = 8.33E-6), 20 while Cui observed 2.116-fold ( p = 5.14E-7) increase in MCM4 21 and DErrico found 6.976-fold ( p = 1.51E-10) and 3.958-fold ( p = 5.01E-4) increase in MCM4, respectively. 19 Next, in Wang’s dataset, high expression of MCM5 was found in GC tissues with a fold change of 2.423 ( p = 0.001), 22 while DErrico found 3.194-fold ( p = 1.38E-4) and 2.313-fold ( p = 9.04E-10) increase in MCM5 mRNA expression in GC tissues, respectively. 19 Next, MCM6/7/8 were found to be overexpression between GC and normal tissues in DErrico’s dataset. 19 We observed 2.001-fold ( p = 1.19E-8) increase in MCM6 mRNA expression in GC tissues, 2.069-fold ( p = 1.26E-6) and 2.136-fold ( p = 2.09E-9) increase in MCM7 mRNA expression in GC tissues, and 2.010-fold ( p = 4.24E-7) increase in MCM8 mRNA expression in GC tissues. Then in DErrico’s dataset, MCM10 over-expression was also found in GC tissues versus normal tissues with a fold change of 4.990 ( p = 1.97E-11), 19 while Cho found 2.072-fold ( p = 2.03E-10) and 2.163-fold ( p = 6.43E-4) increase in MCM10 mRNA expression in GC tissues, respectively. 20 Through the GEPIA2 dataset, the results indicated that the expression levels of MCM2/3/4/5/6/8/10 were higher in gastric tissues than in normal tissues ( Figure 2A ). Meanwhile, the mRNA expression patterns of 10 MCMs family members were further measured by UALCAN, and mRNA expressions of 10 MCMs members were all found to be significantly up-regulated in primary GC tissues compared to normal samples (all p < 0.05) ( Figure 2B - K ). Taken together, the results showed that transcriptional expressions of MCMs were over-expressed in patients with GC.
+
+Transcriptional expression of MCMs in 20 different types of cancer diseases (ONCOMINE). Difference in transcriptional expression was compared by Students’ t -test. Cut-off of p value and fold change were as following: p value: 0.01, fold change: 2, gene rank: 10%, data type: mRNA.
+
+The Significant Changes of MCMs Expression in Transcription Level Between Different Types of Gastric Cancer (ONCOMINE Database).
+
+The expression of distinct MCMs family members in GC tissues and adjacent normal gastric tissues. The color of red represented high expression, while black color showed no difference between gastric tumor and normal tissues in the GEPIA2 database (A). The color of blue represented normal gastric tissues, red color represented GC tissue, and the solid black line in the graph represented the average value of gene expression level in the UALCAN database (B-K). ** p < 0.01, *** p < 0.001.
+
+By assembling the CCLE, we have expanded the process of detailed annotation of preclinical human cancer models. We found that the members of the MCMs family were all highly expressed in cell lines of GC ( Figure 3 ).
+
+The expression of MCMs in gastric cancer cell lines (CCLE). The box plot was sorted and colored by the average distribution of a gene’s expression level in different tumor cell lines. The highest average distribution was from left to right. The dashed line within a box was the mean level.
+
+We next sought to verify the protein expression patterns of MCMs in GC by the Human Protein Atlas. As was shown in Figure 4E , MCM5 protein was not expressed in normal gastric tissues, whereas low and medium expressions were observed in GC tissues. Besides, low and medium protein expressions of MCM2/3/6/7 were expressed in normal gastric tissues, while high protein expressions of them were observed in GC tissues ( Figure 4B - C , F - G ). However, medium protein expression of MCM1/9 and high protein expression of MCM4 were observed both at normal tissues and GC tissues ( Figure 4A , D , H ). In conclusion, our results showed that protein expressions of MCMs were over-expressed in patients with GC.
+
+Representative immunohistochemistry images of distinct MCMs family members in GC tissues and normal gastric tissues (Human Protein Atlas). MCM1 (A). MCM2 (B). MCM3 (C). MCM4 (D). MCM5 (E). MCM6 (F). MCM7 (G). MCM9 (H). MCM10 (I).
+
+After mRNA expression, cell expression and protein expression were found to be over-expressed in GC patients, we next analyzed the relationship between mRNA expression of different MCMs family members and clinicopathological parameters of GC patients with UALCAN, including patients’ tumor grades. As was shown in Table 2 , mRNA expressions of 10 MCMs family members were remarkably correlated with patients’ tumor grades, and, as tumor grade increased, the mRNA expression of MCMs tended to be higher. The highest mRNA expressions of MCM2/3/4/6/7/8/9/10 were found in tumor grade 2, while the highest mRNA expressions of MCM1/5 were found in grade 3. The reason why the highest mRNA expressions of MCM1/5 in grade 3 appeared to be higher than that in grade 2 seemed to be due to the worst period in grade 3. Owing to there were only 12 gastric cancer patients with grade 1 in UALCAN database, so we primarily focused on grade 2 and 3 tumor grades. We believe that GC has been detected with clinical symptoms, so there are very few patients in the early stage of grade 1. This part of the data has yet to be further confirmed in clinical practice. In short, the results above suggested that mRNA expressions of 10 MCMs family members were significantly associated with clinicopathological parameters in GC patients.
+
+Association of mRNA Expression of Distinct MCMs Family Members With Tumor Grades of GC Patients (UALCAN Database).
+
+G1: grade1, G2: grade2, G3: grade4, N: normal.
+
+Next, we analyzed genetic alteration in MCMs of GC patients by using the cBioPortal dataset. As was seen in Figure 5 , a high mutation rate of MCMs was observed in GC patients. In 415 sequenced GC patients, the genetic alteration was found in 282 GC patients and the mutation rate was 68%. MCM8, MCM4 and MCM7 ranked the highest 3 genes with genetic alterations, and their mutation rates were 32%, 19% and 18%, respectively. Mutation, mRNA high and multiple alterations were predominantly correlated with MCMs expression. These data suggested that MCM mutation was closely connected with GC development.
+
+MCM gene expression and mutation analysis in GC (cBioPortal).
+
+Further, we used the Kaplan-Meier plotter to analyze the prognostic values of the mRNA expression of MCMs in GC patients. As was presented in Figure 6 , mRNA expressions of most of the MCMs family members were significantly associated with GC patients’ prognosis. As were shown in Figures 6A , E , G , higher mRNA expression of MCM1 ( p = 4.6e-10 and p = 2.7e-06, respectively), MCM5 ( p = 1.2e-05 and p = 0.005, respectively) and MCM7 ( p = 0.014 and p = 0.0038, respectively) were significantly associated with shorter OS and FP of GC patients, while higher mRNA expression of MCM4 ( p = 6.3e-06 and p = 0.00041, respectively), MCM6 ( p = 0.03 and p = 0.026, respectively) and MCM9 ( p = 2.2e-06 and p = 0.00012, respectively) were significantly related to favorable OS and FP of gastric cancer patients ( Figure 6D , F , I ). However, MCM2, MCM3, MCM8 and MCM10 (all p > 0.05) mRNA expression showed no correlation with the prognosis of GC patients ( Figure 6B , C , H , J ). These results demonstrated that mRNA expressions of MCM1/4/5/6/7/9 were significantly associated with GC patients’ prognosis and they could be exploited as useful biomarkers for prediction of GC patients’ survival.
+
+Prognostic value of mRNA expression of distinct MCMs family members in gastric cancer patients (Kaplan-Meier Plotter). MCM1 (A). MCM2 (B). MCM3 (C). MCM4 (D). MCM5 (E). MCM6 (F). MCM7 (G). MCM8 (H). MCM9 (I). MCM10 (J).
+
+After analyzing the genetic alterations in MCMs of GC patients, we further analyzed 50 neighbor genes that were significantly associated with MCMs and constructed an integrated network by GeneMANIA. As was shown in Figure 7A , the DNA replication related genes including ORC1, ORC2, ORC3, ORC4, ORC5 and ORC6 were significantly correlated with MCMs. ORC proteins recognize the structural basis of the origin of DNA replication. We suspected that ORC proteins were factor affecting the replication of MCM. Moreover, the functions of MCMs and their neighbor genes were analyzed by GO and KEGG by DAVID ( Figure 7B - C , 8 ). Figure 8A displayed the top 10 most highly enriched GO items. GO term analysis showed that differentially expressed in correlation with MCMs were located mainly in the intracellular organelle lumen, organelle lumen, nuclear lumen, membrane-enclosed lumen and nucleoplasm, where they participate DNA replication, DNA metabolic process, cell cycle, DNA-dependent DNA replication and response to DNA damage stimulus. They acted as DNA binding, nucleotide binding, purine ribonucleotide binding, nucleoside binding and adenyl ribonucleotide binding. KEGG pathway analysis showed that cell cycle, DNA replication, purine metabolism, homologous recombination, mismatch repair and nucleotide excision repair were significantly associated with the tumorigenesis and progression of GC ( Figure 8B ).
+
+Predicted functions and pathways of MCMs and their neighbor genes in GC (GeneMANIA and DAVID). Network of MCMs and their 50 neighbor genes was constructed (A). The cell cycle (B) and purine metabolism (C) pathway regulated by the MCMs in GC.
+
+The functions of MCMs and neighbor genes were predicted by the analysis of GO and KEGG (DAVID). GO enrichment analysis predicted the functional roles of target host genes based on 3 aspects, including BP, CC and MF.
+
+
+Transcriptional Levels of MCMs in Patients of Gastric Cancer
+
+To address mRNA expression differences of MCM family between tumor and normal tissues in GC, we performed an analysis using the ONCOMINE database, GEPIA2 and UALCAN. As were shown in Figure 1 and Table 1 , significantly higher mRNA expressions of MCM 1/2/3/4/5/6/7/8/10 were found in GC tissues in multiple datasets. In DErrico’s dataset, 19 MCM1/2/3 were overexpressed in GC tissues versus normal tissues. The fold change of MCM1 was 2.125 ( p = 0.001), the fold change of MCM2 were 3.247 ( p = 1.25E-11) and 3.250 ( p = 1.88E-4), and the fold change of MCM3 were 2.935 ( p = 1.04E-9) and 2.581 ( p = 3.35E-4). Significant up-regulation of MCM4 was also found in GC tissues compared to normal tissues. In Cho’s gastric dataset, MCM4 over-expression was found in GC tissues compared with normal tissues with a fold change of 2.255 ( p = 8.33E-6), 20 while Cui observed 2.116-fold ( p = 5.14E-7) increase in MCM4 21 and DErrico found 6.976-fold ( p = 1.51E-10) and 3.958-fold ( p = 5.01E-4) increase in MCM4, respectively. 19 Next, in Wang’s dataset, high expression of MCM5 was found in GC tissues with a fold change of 2.423 ( p = 0.001), 22 while DErrico found 3.194-fold ( p = 1.38E-4) and 2.313-fold ( p = 9.04E-10) increase in MCM5 mRNA expression in GC tissues, respectively. 19 Next, MCM6/7/8 were found to be overexpression between GC and normal tissues in DErrico’s dataset. 19 We observed 2.001-fold ( p = 1.19E-8) increase in MCM6 mRNA expression in GC tissues, 2.069-fold ( p = 1.26E-6) and 2.136-fold ( p = 2.09E-9) increase in MCM7 mRNA expression in GC tissues, and 2.010-fold ( p = 4.24E-7) increase in MCM8 mRNA expression in GC tissues. Then in DErrico’s dataset, MCM10 over-expression was also found in GC tissues versus normal tissues with a fold change of 4.990 ( p = 1.97E-11), 19 while Cho found 2.072-fold ( p = 2.03E-10) and 2.163-fold ( p = 6.43E-4) increase in MCM10 mRNA expression in GC tissues, respectively. 20 Through the GEPIA2 dataset, the results indicated that the expression levels of MCM2/3/4/5/6/8/10 were higher in gastric tissues than in normal tissues ( Figure 2A ). Meanwhile, the mRNA expression patterns of 10 MCMs family members were further measured by UALCAN, and mRNA expressions of 10 MCMs members were all found to be significantly up-regulated in primary GC tissues compared to normal samples (all p < 0.05) ( Figure 2B - K ). Taken together, the results showed that transcriptional expressions of MCMs were over-expressed in patients with GC.
+
+Transcriptional expression of MCMs in 20 different types of cancer diseases (ONCOMINE). Difference in transcriptional expression was compared by Students’ t -test. Cut-off of p value and fold change were as following: p value: 0.01, fold change: 2, gene rank: 10%, data type: mRNA.
+
+The Significant Changes of MCMs Expression in Transcription Level Between Different Types of Gastric Cancer (ONCOMINE Database).
+
+The expression of distinct MCMs family members in GC tissues and adjacent normal gastric tissues. The color of red represented high expression, while black color showed no difference between gastric tumor and normal tissues in the GEPIA2 database (A). The color of blue represented normal gastric tissues, red color represented GC tissue, and the solid black line in the graph represented the average value of gene expression level in the UALCAN database (B-K). ** p < 0.01, *** p < 0.001.
+
+
+MCM Translational Factors’ Expression in Cell Lines and Tissues of Gastric Cancer
+
+By assembling the CCLE, we have expanded the process of detailed annotation of preclinical human cancer models. We found that the members of the MCMs family were all highly expressed in cell lines of GC ( Figure 3 ).
+
+The expression of MCMs in gastric cancer cell lines (CCLE). The box plot was sorted and colored by the average distribution of a gene’s expression level in different tumor cell lines. The highest average distribution was from left to right. The dashed line within a box was the mean level.
+
+We next sought to verify the protein expression patterns of MCMs in GC by the Human Protein Atlas. As was shown in Figure 4E , MCM5 protein was not expressed in normal gastric tissues, whereas low and medium expressions were observed in GC tissues. Besides, low and medium protein expressions of MCM2/3/6/7 were expressed in normal gastric tissues, while high protein expressions of them were observed in GC tissues ( Figure 4B - C , F - G ). However, medium protein expression of MCM1/9 and high protein expression of MCM4 were observed both at normal tissues and GC tissues ( Figure 4A , D , H ). In conclusion, our results showed that protein expressions of MCMs were over-expressed in patients with GC.
+
+Representative immunohistochemistry images of distinct MCMs family members in GC tissues and normal gastric tissues (Human Protein Atlas). MCM1 (A). MCM2 (B). MCM3 (C). MCM4 (D). MCM5 (E). MCM6 (F). MCM7 (G). MCM9 (H). MCM10 (I).
+
+
+Relationship Between the mRNA Levels of MCMs and the Clinicopathological Parameters of Patients With Gastric Cancer
+
+After mRNA expression, cell expression and protein expression were found to be over-expressed in GC patients, we next analyzed the relationship between mRNA expression of different MCMs family members and clinicopathological parameters of GC patients with UALCAN, including patients’ tumor grades. As was shown in Table 2 , mRNA expressions of 10 MCMs family members were remarkably correlated with patients’ tumor grades, and, as tumor grade increased, the mRNA expression of MCMs tended to be higher. The highest mRNA expressions of MCM2/3/4/6/7/8/9/10 were found in tumor grade 2, while the highest mRNA expressions of MCM1/5 were found in grade 3. The reason why the highest mRNA expressions of MCM1/5 in grade 3 appeared to be higher than that in grade 2 seemed to be due to the worst period in grade 3. Owing to there were only 12 gastric cancer patients with grade 1 in UALCAN database, so we primarily focused on grade 2 and 3 tumor grades. We believe that GC has been detected with clinical symptoms, so there are very few patients in the early stage of grade 1. This part of the data has yet to be further confirmed in clinical practice. In short, the results above suggested that mRNA expressions of 10 MCMs family members were significantly associated with clinicopathological parameters in GC patients.
+
+Association of mRNA Expression of Distinct MCMs Family Members With Tumor Grades of GC Patients (UALCAN Database).
+
+G1: grade1, G2: grade2, G3: grade4, N: normal.
+
+
+Genetic Mutations in MCMs of Gastric Cancer Patients
+
+Next, we analyzed genetic alteration in MCMs of GC patients by using the cBioPortal dataset. As was seen in Figure 5 , a high mutation rate of MCMs was observed in GC patients. In 415 sequenced GC patients, the genetic alteration was found in 282 GC patients and the mutation rate was 68%. MCM8, MCM4 and MCM7 ranked the highest 3 genes with genetic alterations, and their mutation rates were 32%, 19% and 18%, respectively. Mutation, mRNA high and multiple alterations were predominantly correlated with MCMs expression. These data suggested that MCM mutation was closely connected with GC development.
+
+MCM gene expression and mutation analysis in GC (cBioPortal).
+
+
+The Prognostic Values of MCMs in Gastric Cancer
+
+Further, we used the Kaplan-Meier plotter to analyze the prognostic values of the mRNA expression of MCMs in GC patients. As was presented in Figure 6 , mRNA expressions of most of the MCMs family members were significantly associated with GC patients’ prognosis. As were shown in Figures 6A , E , G , higher mRNA expression of MCM1 ( p = 4.6e-10 and p = 2.7e-06, respectively), MCM5 ( p = 1.2e-05 and p = 0.005, respectively) and MCM7 ( p = 0.014 and p = 0.0038, respectively) were significantly associated with shorter OS and FP of GC patients, while higher mRNA expression of MCM4 ( p = 6.3e-06 and p = 0.00041, respectively), MCM6 ( p = 0.03 and p = 0.026, respectively) and MCM9 ( p = 2.2e-06 and p = 0.00012, respectively) were significantly related to favorable OS and FP of gastric cancer patients ( Figure 6D , F , I ). However, MCM2, MCM3, MCM8 and MCM10 (all p > 0.05) mRNA expression showed no correlation with the prognosis of GC patients ( Figure 6B , C , H , J ). These results demonstrated that mRNA expressions of MCM1/4/5/6/7/9 were significantly associated with GC patients’ prognosis and they could be exploited as useful biomarkers for prediction of GC patients’ survival.
+
+Prognostic value of mRNA expression of distinct MCMs family members in gastric cancer patients (Kaplan-Meier Plotter). MCM1 (A). MCM2 (B). MCM3 (C). MCM4 (D). MCM5 (E). MCM6 (F). MCM7 (G). MCM8 (H). MCM9 (I). MCM10 (J).
+
+
+Predicted Functions and Pathways of MCMs and MCM-Related Neighbor Genes in Gastric Cancer Patients
+
+After analyzing the genetic alterations in MCMs of GC patients, we further analyzed 50 neighbor genes that were significantly associated with MCMs and constructed an integrated network by GeneMANIA. As was shown in Figure 7A , the DNA replication related genes including ORC1, ORC2, ORC3, ORC4, ORC5 and ORC6 were significantly correlated with MCMs. ORC proteins recognize the structural basis of the origin of DNA replication. We suspected that ORC proteins were factor affecting the replication of MCM. Moreover, the functions of MCMs and their neighbor genes were analyzed by GO and KEGG by DAVID ( Figure 7B - C , 8 ). Figure 8A displayed the top 10 most highly enriched GO items. GO term analysis showed that differentially expressed in correlation with MCMs were located mainly in the intracellular organelle lumen, organelle lumen, nuclear lumen, membrane-enclosed lumen and nucleoplasm, where they participate DNA replication, DNA metabolic process, cell cycle, DNA-dependent DNA replication and response to DNA damage stimulus. They acted as DNA binding, nucleotide binding, purine ribonucleotide binding, nucleoside binding and adenyl ribonucleotide binding. KEGG pathway analysis showed that cell cycle, DNA replication, purine metabolism, homologous recombination, mismatch repair and nucleotide excision repair were significantly associated with the tumorigenesis and progression of GC ( Figure 8B ).
+
+Predicted functions and pathways of MCMs and their neighbor genes in GC (GeneMANIA and DAVID). Network of MCMs and their 50 neighbor genes was constructed (A). The cell cycle (B) and purine metabolism (C) pathway regulated by the MCMs in GC.
+
+The functions of MCMs and neighbor genes were predicted by the analysis of GO and KEGG (DAVID). GO enrichment analysis predicted the functional roles of target host genes based on 3 aspects, including BP, CC and MF.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In recent years, despite the advancement in the therapeutic strategies of gastric cancer, the long-term prognosis of patients with the disease still remains unsatisfactory; therefore, it is urgent to identify therapeutic targets and novel biomarkers for the development and prognosis of gastric cancer. The present studies based on the public databases indicated that MCMs expression was increased in gastric cancer tissues compared to normal gastric tissues, which was also involved in pathological tumor grades. Moreover, high mRNA expressions of MCM1/5/7 were found to be significantly associated with shorter OS and FP, while elevated mRNA expression of MCM4/6/9 were related to favorable OS and FP in gastric cancer patients. Additionally, a high mutation rate of MCMs (68%) was also found in patients with GC. These results revealed that MCMs family played a role in GC.
+
+Another name for MCM1 was SRF. In gastric cancer, a high level of SRF was involved in invasion and metastasis. Study carried out by Zhao et al. showed SRF promoted GC metastasis and the epithelial to mesenchymal transition through miR-199a-5p-mediated downregulation of E-cadherin. 23 Recently, the study had demonstrated SRF promoted gastric cancer metastasis through stromal fibroblasts in an SDF1-CXCR4-dependent manner. 24 Additionally, SRF suppressed HOTAIR-induced proliferation and invasion as a novel target gene of miR-101-3p in gastric carcinoma cells. 25 Similar tumorigenic effect of SRF in GC was also found in our present study. Our results showed that significantly high mRNA and cell lines expressions of MCM1 were found in GC tissues, and MCM1 was significantly related to tumor grade. Moreover, the high expression of MCM1 was significantly related to the shorter OS and FP in GC. All these results showed that MCM1 contributed to the development and progression of GC, and it might serve as a potential target of precision therapy for patients with GC.
+
+As for MCM4, over-expression of MCM4 was found in many kinds of malignancies. Han et al. indicated siRNA of MCM4 could significantly inhibit laryngeal carcinoma cell line UMSCC5 proliferation and induce apoptosis. 26 Moreover, the mechanistic study had shown that MCM4 may interact with MCM3 which was regulated by E2F1 in the involvement of the cell cycle pathway. 27 Our results showed that the mRNA expression of MCM4 was significantly related to tumor grade. Besides, higher mRNA expression of MCM4 was correlated with better OS and FP in GC patients. Therefore, MCM4 could be a biomarker for the prognosis of GC.
+
+It had been confirmed that the expression of MCM5 was related to clinicopathological parameters and tumor grade in a variety of tumors including gastric cancer. 7 , 28 , 29 Additionally, previous studies had revealed that the high expression of MCM5 was associated with unfavorable clinical outcomes in tumor development. 29 Down-regulation of MCM5 could inhibit cell line proliferation. 30 , 31 Consistent with previous studies, the significantly higher mRNA, cell lines and protein expressions of MCM5 were found in GC tissues than in normal tissues. In the UALCAN database, the mRNA expression of MCM5 increased with the advancing tumor grade. Moreover, the elevated expression of MCM5 is significantly related to the shorter OS and FP in GC, suggesting that MCM5 was involved in the tumorigenesis of GC.
+
+MCM6 was identified as a driver of S/G2 cell cycle progression and was associated with adverse tumor features and poorer outcomes. 32 , 33 In gastric cancer, CDK5RAP3 could interact with MCM6 and prevent MCM6 from entering the nucleus, which may be a potential mechanism for regulating the proliferation of GC. 34 In our study, mRNA expression of MCM6 was significantly related with tumor grade. Moreover, high mRNA expression of MCM6 was correlated with better OS and FP in GC. Therefore, further studies are still required to assess the exact role of MCM6 in GC.
+
+MCM7 had been clearly studied in the MCMs family members in GC. The MCM7 expression promoted tumor progression, which was positively correlated with the occurrence of GC. 35 MCM7 oncogenicity may be linked to overexpression of the hosted miRNAs by impairing TGF-β tumor suppressor pathway in GC. 36 Moreover, MCM7 knockdown by siRNA in GC cell line AGS and NCI-N87 significantly suppressed cell proliferation, reduced cell invasion and induced late apoptosis. 37 Our research had reached a consistent conclusion that significantly high mRNA, cell lines and protein expressions of MCM7 were found in GC tissues. MCM7 was involved in tumor grade and contributed to shorter OS and FP in GC. On the whole, MCM7 could be considered as a target for GC treatment.
+
+MCM9 was an oncosuppressor’s role in cancers. Hartford et al. verified MCM9-deficient cells had elevated genomic instability and defective cell cycle reentry following replication stress, and mutant animals were prone to cancers, 38 which was also supported by Goldberg et al. 39 Our data added support to this link, declaring that high expression of MCM9 was significantly related to the better clinical outcomes (OS and FP). Therefore, MCM9 could be considered as a potential prognostic marker for GC.
+
+Collectively, this work was designed with bioinformatics analysis of multiple data sets directing against MCMs expression level in clinical tissue and its clinical relevance. All data illustrated that MCM1/4/5/6/7/9 hold potential promoting or anti-tumor effects on gastric cancer. Despite this, some limitations were still present in our research. First, the expression of MCM2/3/8/10 had shown a certain prognostic effect in other distinct tumors, but we did not find a prognostic function in our study. The number of tumor grade1 was too small to be established in the statistical difference. However, we could not neglect their role in tumors. Although all the data analyzed in our study were retrieved from the online and convenient databases, there are some limitations and uncontrollability for users. Therefore, further studies consist of larger sample sizes were required to explore and verify the clinical application of the MCMs members in the treatment of GC. Second, analysis on the transcriptional level could reflect some aspects of tumor progression, but not global changes. We will try our best in the follow-up study to investigate the detailed mechanism between distinct MCMs and GC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In conclusion, the study systematically analyzed the expression as well as the prognostic value of MCMs in GC, and provided a comprehensive understanding of the heterogeneity and intricacy of the molecular biological properties of GC. By means of the analysis of various online databases, over expressions of mRNA was discovered and cell lines were found in all the 10 MCMs family members. MCMs were considered to be significantly associated with pathological tumor grades in patients with GC. Besides, high mRNA expressions of MCM1/5/7 were found to be significantly associated with shorter OS and FP, while elevated mRNA expression of MCM4/6/9 were related to favorable OS and FP. Moreover, a high mutation rate of MCMs (68%) was also observed in GC patients. These results indicated that MCM1/5/7 were potential therapeutic targets for GC and transcriptional MCM4/6/9 were potential prognostic markers for the improvement of GC survival and prognostic accuracy.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

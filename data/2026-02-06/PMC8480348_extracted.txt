@@ -1,0 +1,228 @@
+================================================================================
+ARTICLE TITLE: Identification of Key Modules and Hub Genes Involved in Esophageal Squamous Cell Carcinoma Tumorigenesis Using WCGNA
+PMCID: PMC8480348
+PMID: 33345608
+KEYWORDS: esophageal squamous cell carcinoma, co-expression, wgcna, lncrna-mrna network
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Introduction::
+The mechanistic basis for the development of esophageal squamous cell carcinoma (ESCC) remains poorly understood. The goal of the present study was thus to characterize mRNA and long noncoding RNA (lncRNA) expression profiles associated with ESCC in order to identify key hub genes associated with the pathogenesis of this cancer.
+
+Materials and Methods::
+The GSE26866 and GSE45670 datasets from the Gene Expression Omnibus (GEO) database were used to conduct a weighted gene co-expression network analysis (WGCNA), after which Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were conducted. Cytoscape was additionally used to construct lncRNA-mRNA networks, after which hub genes were identified and validated through the assessment of TCGA datasets and clinical samples.
+
+Results::
+Two gene modules were found to be closely linked to ESCC tumorigenesis. These genes were enriched in cell cycle, MAPK signaling, JAK-STAT signaling, pyrimidine metabolism, arachidonic acid metabolism, and P53 signaling pathway activity, all of which are directly linked with the development of cancer. In total, we identified and validated 9 hub genes associated with ESCC (DDX18, DNMT1, NCAPG, WDHD1, PRR11, VOPP1, ZKSCAN5, LC35C2, and PHACTR2).
+
+Conclusion::
+In summary, we identified key gene modules and hub genes associated with ESCC development, and we constructed a lncRNA-mRNA network pertaining to this cancer type. These results provide a foundation for future research regarding the mechanistic basis of ESCC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Esophageal squamous cell carcinoma (ESCC) is a highly aggressive form of cancer with a poor prognosis. While many advances in the treatment of ESCC have been made in recent years, patient prognosis remains poor. Understanding the mechanistic basis for this disease has the potential to significantly improve patient outcomes. 1 As the mechanistic basis for ESCC pathogenesis remains incompletely understood, however, developing novel treatments for this disease remains challenging. To improve treatment efficacy in ESCC patients, it is thus essential that the molecular mechanisms governing ESCC development be clarified.
+
+Many bioinformatics techniques have been developed to effectively analyze high-throughput data. Weighted gene co-expression network analysis (WGCNA) approaches are a particularly powerful means of exploring system-level functionality corresponding to a given transcriptome. 2 In prior studies, WGCNA strategies have been employed to identify highly co-expressed genes within a given biological context in order to identify key hub genes associated with a particular condition of interest. 3 - 5 
+
+Herein, we therefore conducted a WGCNA-based analysis in order to identify key modules and hub genes associated with ESCC pathogenesis. We additionally analyzed the pathways enriched for genes in 2 key ESCC-related modules, validated these hub genes, and constructed a lncRNA-mRNA network in an effort to gain functional insights into the molecular basis for this cancer type. Together, our study has the potential to serve as a foundation for future research regarding the molecular mechanisms governing ESCC tumorigenesis while highlighting potential diagnostic or therapeutic targets associated with this disease.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Patients and Methods
+
+The GSE26866 and GSE45670 microarray datasets were downloaded from the NCBI Gene Expression Omnibus (GEO) ( https://www.ncbi.nlm.nih.gov/geo/ ). The GSE26866 dataset included 9 ESSC and 19 normal samples, while the GSE45670 dataset contained 28 ESCC and 10 normal samples. The [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array platform was used for both datasets. The affy and annotate R packages were used for data processing and analysis.
+
+The edgeR package was employed to detect lncRNAs and mRNAs that were differentially expressed when comparing tumor and control tissue samples, 6 using |log2(fold change [FC]) |>1 and a false discovery rate (FDR) < 0.01 as cutoff criteria.
+
+Those lncRNAs and mRNAs that were differentially expressed between tumor and control tissue types in the GSE26866 and GSE45670 datasets were utilized for WGCNA. The R WGCNA package was used for this analysis, with the pickSoftThreshold function being utilized to calculate the power parameter. Co-expressed gene modules were identified via the dynamic tree cut method, where a hierarchical clustering approach was used to produce a dendrogram of genes based upon the corresponding dissimilarity of TOM. Genes with comparable expression profiles were grouped into modules.
+
+Correlations between clinical features and module eigengenes (MES) were determined in order to identify clinically relevant modules by utilizing the MES function in the WGCNA package. Gene significance (GS) and module significance (MS) were respectively defined as the correlation between genes and clinical features and the average GS for all genes in a given module. Following calculations of the association between MS and GS, the module exhibiting the top-ranked MS was identified as the module most closely linked to ESCC-related clinical features.
+
+Gene Ontology (GO) enrichment analyses were conducted using the DAVID platform (DAVID; https://david.ncifcrf.gov/summary.jsp ). 7 , 8 Gene lists corresponding to the identified key modules were uploaded and biological processes (BPs), cellular components (CCs), molecular functions (MFs), and KEGG pathways for which these genes were enriched were identified, 9 with P < 0.05 as the significance threshold.
+
+Those mRNAs and lncRNAs that exhibited the highest degree of interconnectivity within a given module were considered to be hub genes, and were screened based on degree values in 2 key ESCC-related modules identified in the present study using Cytoscape ( https://cytoscape.org ). 10 The top 100 hub genes were identified based upon maximal clique centrality (MCC), with the top 200 paired lncRNA-mRNA and mRNA-mRNA interactions being incorporated into Cytoscape to construct a regulatory network.
+
+The top 50 hub lncRNAs and mRNAs identified in the above module network analyses were selected as candidates for subsequent validation. The R Survival package was used to conduct Kaplan-Meier analyses in order to assess the prognostic relevance of these hub genes using TCGA patient survival data, with log-rank p < 0.05 being indicative of significance. The top 4 genes per module yielding significant results in these survival analyses were then ranked according to node degree and were considered to be hub genes associated with the development of ESCC.
+
+To further validate our findings, 10 ESCC patient tumor and matched paracancerous tissue samples were obtained from patients undergoing tumor resection at the Affiliated Hospital of Xi’an Jiaotong University. The institutional review board of the Affiliated Hospital of Xi’an Jiaotong University approved this study, and all patients provided informed consent to participate. RNA was isolated from these samples and used for qRT-PCR analyses as in prior studies. 11 Briefly, an RNAfast2000 Total RNA Extraction Kit (Fastgene, Shanghai, China) was used to extract RNA from patient samples, after which a RevertAid First Strand cDNA Synthesis Kit (Thermo Fisher Scientific, MA, USA) was used based on provided directions to prepare cDNA. All qRT-PCR reactions were then conducted using SYBR green using an appropriate instrument (Bio-Rad, CA, USA), with changes in gene expression being calculated via the comparative CT (2-CT) approach. Primers used in the present study are shown in Table 1 .
+
+Primers for Validated Genes.
+
+
+Gene Expression Data and Preprocessing
+
+The GSE26866 and GSE45670 microarray datasets were downloaded from the NCBI Gene Expression Omnibus (GEO) ( https://www.ncbi.nlm.nih.gov/geo/ ). The GSE26866 dataset included 9 ESSC and 19 normal samples, while the GSE45670 dataset contained 28 ESCC and 10 normal samples. The [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array platform was used for both datasets. The affy and annotate R packages were used for data processing and analysis.
+
+
+Differentially Expressed lncRNA and mRNA Identification
+
+The edgeR package was employed to detect lncRNAs and mRNAs that were differentially expressed when comparing tumor and control tissue samples, 6 using |log2(fold change [FC]) |>1 and a false discovery rate (FDR) < 0.01 as cutoff criteria.
+
+
+WGCNA Construction
+
+Those lncRNAs and mRNAs that were differentially expressed between tumor and control tissue types in the GSE26866 and GSE45670 datasets were utilized for WGCNA. The R WGCNA package was used for this analysis, with the pickSoftThreshold function being utilized to calculate the power parameter. Co-expressed gene modules were identified via the dynamic tree cut method, where a hierarchical clustering approach was used to produce a dendrogram of genes based upon the corresponding dissimilarity of TOM. Genes with comparable expression profiles were grouped into modules.
+
+
+Clinically Significant Module Identification
+
+Correlations between clinical features and module eigengenes (MES) were determined in order to identify clinically relevant modules by utilizing the MES function in the WGCNA package. Gene significance (GS) and module significance (MS) were respectively defined as the correlation between genes and clinical features and the average GS for all genes in a given module. Following calculations of the association between MS and GS, the module exhibiting the top-ranked MS was identified as the module most closely linked to ESCC-related clinical features.
+
+
+Functional Enrichment Analyses
+
+Gene Ontology (GO) enrichment analyses were conducted using the DAVID platform (DAVID; https://david.ncifcrf.gov/summary.jsp ). 7 , 8 Gene lists corresponding to the identified key modules were uploaded and biological processes (BPs), cellular components (CCs), molecular functions (MFs), and KEGG pathways for which these genes were enriched were identified, 9 with P < 0.05 as the significance threshold.
+
+
+Construction of a lncRNA-mRNA Co-expression Network
+
+Those mRNAs and lncRNAs that exhibited the highest degree of interconnectivity within a given module were considered to be hub genes, and were screened based on degree values in 2 key ESCC-related modules identified in the present study using Cytoscape ( https://cytoscape.org ). 10 The top 100 hub genes were identified based upon maximal clique centrality (MCC), with the top 200 paired lncRNA-mRNA and mRNA-mRNA interactions being incorporated into Cytoscape to construct a regulatory network.
+
+
+TCGA-Mediated Validation of Hub lncRNAs and mRNAs in Key ESCC-Related Modules
+
+The top 50 hub lncRNAs and mRNAs identified in the above module network analyses were selected as candidates for subsequent validation. The R Survival package was used to conduct Kaplan-Meier analyses in order to assess the prognostic relevance of these hub genes using TCGA patient survival data, with log-rank p < 0.05 being indicative of significance. The top 4 genes per module yielding significant results in these survival analyses were then ranked according to node degree and were considered to be hub genes associated with the development of ESCC.
+
+
+qRT-PCR
+
+To further validate our findings, 10 ESCC patient tumor and matched paracancerous tissue samples were obtained from patients undergoing tumor resection at the Affiliated Hospital of Xi’an Jiaotong University. The institutional review board of the Affiliated Hospital of Xi’an Jiaotong University approved this study, and all patients provided informed consent to participate. RNA was isolated from these samples and used for qRT-PCR analyses as in prior studies. 11 Briefly, an RNAfast2000 Total RNA Extraction Kit (Fastgene, Shanghai, China) was used to extract RNA from patient samples, after which a RevertAid First Strand cDNA Synthesis Kit (Thermo Fisher Scientific, MA, USA) was used based on provided directions to prepare cDNA. All qRT-PCR reactions were then conducted using SYBR green using an appropriate instrument (Bio-Rad, CA, USA), with changes in gene expression being calculated via the comparative CT (2-CT) approach. Primers used in the present study are shown in Table 1 .
+
+Primers for Validated Genes.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The overall design of the present study is shown in Figure 1 . First, we downloaded the raw GSE26866 and GSE45670 data from the GEO database, after which data pre-processing and normalization were conducted using R. When we compared ESCC tumor and control tissue samples, we identified 1333 and 6344 differentially expressed lncRNAs and mRNAs, respectively, in the GSE26866 dataset, of which 905 lncRNAs and 3863 mRNAs were upregulated in tumor samples and 428 lncRNAs and 2481 mRNAs were downregulated in tumor samples. In addition, 982 lncRNAs and 5091 mRNAs were found to be differentially regulated in the GSE45670 dataset, of which 472 lncRNAs and 2605 mRNAs were upregulated in ESCC samples and 510 lncRNAs and 2489 mRNAs were downregulated in tumor samples. These 2 datasets were then merged, leading to the identification of 211 lncRNAs and 1535 mRNAs that were differentially expressed in both datasets when comparing ESCC tumor tissues to normal esophageal squamous epithelium samples ( Figure 2 ).
+
+Flowchart of the study. Abbreviations: DE mRNA, differentially expressed mRNA; DE IncRNA, differentially expressed IncRNA.
+
+Co-expressed DE mRNAs and DE IncRNAs were identified in datasets GSE26866 and GSE45670 . Abbreviations: DE mRNA, differentially expressed mRNA; DE IncRNA, differentially expressed IncRNA.
+
+An initial soft-threshold approach was used to implement our WGCNA approach. We first assessed the reliability of the network but detected no outlier samples in need of deletion ( Figure 3A ). After testing thresholding powers from 1-20, a power value of 9 was selected as at this value the connectivity between genes in the network was consistent with a scale-free network distribution ( Figure 3B ), leading to the generation of 7 modules ( Figure 3C ). These modules were designated using colors, with 518, 348, 29, 50, 13, 732, and 54 genes in the blue, brown, green, yellow, red, turquoise, and gray modules, respectively. Genes that were not successfully incorporated into any other modules were incorporated into the gray module, and were omitted from downstream analyses.
+
+Construction of co-expression modules by WGCNA package. (A) The clustering was based on the co-expressed data of GSE26866 and GSE45670 . (B) Analysis of the scale-free fit index for various soft-thresholding powers (β) and analysis of the mean connectivity for various soft-thresholding powers. In all, 9 was the most fit power value. (C) The cluster dendrogram of co-expressed DE mRNAs and DE IncRNAs identified in datasets GSE26866 and GSE45670 . Each branch in the figure represents 1 gene, and every color below represents 1 co-expression module. (D) Hierarchical clustering of module hub genes that summarize the modules yielded in the clustering analysis and heatmap plot of the adjacencies in the hub gene network. (E) Heatmap of the correlation between module eigengenes and the tissue type. The turquoise module was the most positively correlated with ESCC, and the yellow module was the most negatively correlated with ESCC. Abbreviations: ESCC, Esophageal squamous cell carcinoma; WGCNA, weighted gene co-expression network analysis.
+
+To explore module co-expression similarity, eigengenes were calculated and clustered based upon correlations. Seven modules were found to be in the same cluster, and an adjacency-based heatmap yielded similar findings ( Figure 3D ). Following ME calculations, the MEs of the yellow and turquoise modules were found to be more highly correlated with ESCC than were those of the other modules ( Figure 3E ). Specifically, the yellow module was negatively correlated with ESCC, whereas the turquoise module was positively correlated with ESCC. This suggested that the turquoise module may be associated with ESCC tumorigenesis, whereas the yellow module may be related to the suppression of tumor growth or formation.
+
+Putative roles of genes within these 2 key modules were next explored through functional enrichment analyses. Genes in the turquoise module were found to be primarily associated with pro-tumorigenic activities including cell division, proliferation, signal transduction, and the suppression of apoptosis ( Figure 4A and C ). In contrast, genes in the yellow module were closely linked to the induction of apoptosis, which would in turn suppress tumorigenesis.
+
+GO and KEGG analysis. Top 20 terms from a GO analysis of molecular function, biological process and cellular component in the turquoise module (A) and yellow module (C); DE mRNAs were clustered by KEGG analysis, and the top 20 pathways in the turquoise module (B) and yellow module (D) are shown.
+
+KEGG pathway analyses were additionally conducted to explore the functional pathways in which these key module genes were enriched. Genes in the turquoise module were enriched in pro-tumorigenic pathways such as MAPK signaling, JAK/STAT signaling, and metabolic pathways ( Figure 4B and D ). 12 - 14 In contrast, genes in the yellow module were enriched in key pro-apoptotic pathways including the P53, arachidonic acid metabolism, and pyrimidine metabolism pathways, all of which can suppress oncogenesis. 15 , 16 
+
+We next leveraged Cytoscape to prepare a lncRNA-mRNA network based on the lncRNAs and mRNAs incorporated into the turquoise and yellow modules. The resultant networks are shown in Figure 5 , wherein node sizes correspond to degree values and node color corresponds to expression (green: downregulated; red: upregulated). The turquoise module network was composed of 2 lncRNAs and 98mRNAs, whereas the yellow module network was composed of 3 lncRNAs and 97mRNAs.
+
+The long noncoding RNA-mRNA biomolecular network in the turquoise module (A) and yellow module (B). The nodes represent different molecules and the edges represent connections between the nodes. The size of the node stands for the number of interactions between different molecules. The node color represented the regulation of the genes (Red indicated upregulated genes, and green indicated downregulated genes).
+
+The top 50 lncRNAs and mRNAs in these key module networks were next selected for subsequent validation. The TCGA database was used to assess the relationship between these genes and ESCC patient survival, leading to the identification of the top 5 prognosis-related genes in each of these modules, which were designated as hub genes ( Figure 6 ). The hub genes within the turquoise module included DDX18, DNMT1, NCAPG, WDHD1, and PRR11, whereas in the yellow module they included MPRIP, PHACTR2, VOPP1, ZKSCAN5, and SLC35C2.
+
+Survival analysis of hub genes in the key modules using TCGA database.
+
+To directly validate a subset of these bioinformatics results, we assessed hub mRNA expression levels in a distinct cohort of ESCC and normal tissue samples via qRT-PCR. This analysis revealed that the expression of DDX18, DNMT1, NCAPG, WDHD1, PRR11, VOPP1, ZKSCAN5, and LC35C2 was significantly elevated in ESCC tissues relative to control tissue samples, whereas PHACTR2 expression was reduced in these ESCC tissues ( Figure 7 ). In contrast, no significant differences in MPRIP expression were detected when comparing these 2 sample types ( Figure 7 ).
+
+Validation of hub genes using clinical samples from ESCC patients.
+
+
+Differentially Expressed lncRNA and mRNA Identification
+
+The overall design of the present study is shown in Figure 1 . First, we downloaded the raw GSE26866 and GSE45670 data from the GEO database, after which data pre-processing and normalization were conducted using R. When we compared ESCC tumor and control tissue samples, we identified 1333 and 6344 differentially expressed lncRNAs and mRNAs, respectively, in the GSE26866 dataset, of which 905 lncRNAs and 3863 mRNAs were upregulated in tumor samples and 428 lncRNAs and 2481 mRNAs were downregulated in tumor samples. In addition, 982 lncRNAs and 5091 mRNAs were found to be differentially regulated in the GSE45670 dataset, of which 472 lncRNAs and 2605 mRNAs were upregulated in ESCC samples and 510 lncRNAs and 2489 mRNAs were downregulated in tumor samples. These 2 datasets were then merged, leading to the identification of 211 lncRNAs and 1535 mRNAs that were differentially expressed in both datasets when comparing ESCC tumor tissues to normal esophageal squamous epithelium samples ( Figure 2 ).
+
+Flowchart of the study. Abbreviations: DE mRNA, differentially expressed mRNA; DE IncRNA, differentially expressed IncRNA.
+
+Co-expressed DE mRNAs and DE IncRNAs were identified in datasets GSE26866 and GSE45670 . Abbreviations: DE mRNA, differentially expressed mRNA; DE IncRNA, differentially expressed IncRNA.
+
+
+Weighted Co-Expression Construction and Key Module Identification
+
+An initial soft-threshold approach was used to implement our WGCNA approach. We first assessed the reliability of the network but detected no outlier samples in need of deletion ( Figure 3A ). After testing thresholding powers from 1-20, a power value of 9 was selected as at this value the connectivity between genes in the network was consistent with a scale-free network distribution ( Figure 3B ), leading to the generation of 7 modules ( Figure 3C ). These modules were designated using colors, with 518, 348, 29, 50, 13, 732, and 54 genes in the blue, brown, green, yellow, red, turquoise, and gray modules, respectively. Genes that were not successfully incorporated into any other modules were incorporated into the gray module, and were omitted from downstream analyses.
+
+Construction of co-expression modules by WGCNA package. (A) The clustering was based on the co-expressed data of GSE26866 and GSE45670 . (B) Analysis of the scale-free fit index for various soft-thresholding powers (β) and analysis of the mean connectivity for various soft-thresholding powers. In all, 9 was the most fit power value. (C) The cluster dendrogram of co-expressed DE mRNAs and DE IncRNAs identified in datasets GSE26866 and GSE45670 . Each branch in the figure represents 1 gene, and every color below represents 1 co-expression module. (D) Hierarchical clustering of module hub genes that summarize the modules yielded in the clustering analysis and heatmap plot of the adjacencies in the hub gene network. (E) Heatmap of the correlation between module eigengenes and the tissue type. The turquoise module was the most positively correlated with ESCC, and the yellow module was the most negatively correlated with ESCC. Abbreviations: ESCC, Esophageal squamous cell carcinoma; WGCNA, weighted gene co-expression network analysis.
+
+
+Key Module Identification and Analysis of Relationships between Modules
+
+To explore module co-expression similarity, eigengenes were calculated and clustered based upon correlations. Seven modules were found to be in the same cluster, and an adjacency-based heatmap yielded similar findings ( Figure 3D ). Following ME calculations, the MEs of the yellow and turquoise modules were found to be more highly correlated with ESCC than were those of the other modules ( Figure 3E ). Specifically, the yellow module was negatively correlated with ESCC, whereas the turquoise module was positively correlated with ESCC. This suggested that the turquoise module may be associated with ESCC tumorigenesis, whereas the yellow module may be related to the suppression of tumor growth or formation.
+
+
+Function Enrichment Analyses of Key ESCC-Related Modules
+
+Putative roles of genes within these 2 key modules were next explored through functional enrichment analyses. Genes in the turquoise module were found to be primarily associated with pro-tumorigenic activities including cell division, proliferation, signal transduction, and the suppression of apoptosis ( Figure 4A and C ). In contrast, genes in the yellow module were closely linked to the induction of apoptosis, which would in turn suppress tumorigenesis.
+
+GO and KEGG analysis. Top 20 terms from a GO analysis of molecular function, biological process and cellular component in the turquoise module (A) and yellow module (C); DE mRNAs were clustered by KEGG analysis, and the top 20 pathways in the turquoise module (B) and yellow module (D) are shown.
+
+KEGG pathway analyses were additionally conducted to explore the functional pathways in which these key module genes were enriched. Genes in the turquoise module were enriched in pro-tumorigenic pathways such as MAPK signaling, JAK/STAT signaling, and metabolic pathways ( Figure 4B and D ). 12 - 14 In contrast, genes in the yellow module were enriched in key pro-apoptotic pathways including the P53, arachidonic acid metabolism, and pyrimidine metabolism pathways, all of which can suppress oncogenesis. 15 , 16 
+
+
+Preparation of a lncRNA-mRNA Network
+
+We next leveraged Cytoscape to prepare a lncRNA-mRNA network based on the lncRNAs and mRNAs incorporated into the turquoise and yellow modules. The resultant networks are shown in Figure 5 , wherein node sizes correspond to degree values and node color corresponds to expression (green: downregulated; red: upregulated). The turquoise module network was composed of 2 lncRNAs and 98mRNAs, whereas the yellow module network was composed of 3 lncRNAs and 97mRNAs.
+
+The long noncoding RNA-mRNA biomolecular network in the turquoise module (A) and yellow module (B). The nodes represent different molecules and the edges represent connections between the nodes. The size of the node stands for the number of interactions between different molecules. The node color represented the regulation of the genes (Red indicated upregulated genes, and green indicated downregulated genes).
+
+
+TCGA-Mediated Validation of Hub ESCC-related lncRNAs and mRNAs in Key Modules
+
+The top 50 lncRNAs and mRNAs in these key module networks were next selected for subsequent validation. The TCGA database was used to assess the relationship between these genes and ESCC patient survival, leading to the identification of the top 5 prognosis-related genes in each of these modules, which were designated as hub genes ( Figure 6 ). The hub genes within the turquoise module included DDX18, DNMT1, NCAPG, WDHD1, and PRR11, whereas in the yellow module they included MPRIP, PHACTR2, VOPP1, ZKSCAN5, and SLC35C2.
+
+Survival analysis of hub genes in the key modules using TCGA database.
+
+
+Validation of Differential Hub mRNA Expression in ESCC Tumor Samples Via qRT-PCR
+
+To directly validate a subset of these bioinformatics results, we assessed hub mRNA expression levels in a distinct cohort of ESCC and normal tissue samples via qRT-PCR. This analysis revealed that the expression of DDX18, DNMT1, NCAPG, WDHD1, PRR11, VOPP1, ZKSCAN5, and LC35C2 was significantly elevated in ESCC tissues relative to control tissue samples, whereas PHACTR2 expression was reduced in these ESCC tissues ( Figure 7 ). In contrast, no significant differences in MPRIP expression were detected when comparing these 2 sample types ( Figure 7 ).
+
+Validation of hub genes using clinical samples from ESCC patients.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+ESCC is a common form of cancer that is highly prevalent in China and other countries. While several therapeutic advances have improved ESCC patient prognosis, this has not corresponded with any significant improvement in patient 5-year survival rate. Prior research has shown that abnormal gene expression is an important regulator of ESCC development, 17 emphasizing the value of molecular studies aimed at exploring the etiological basis of this cancer type.
+
+Data mining strategies can be used to explore key biological phenotypes associated with high-dimensional datasets. The advent of microarray and high-throughput sequencing technologies has led to the discovery of myriad genes and expression patterns linked to oncogenesis and tumor progression. 5 , 18 , 19 Herein, we downloaded 2 extant datasets containing data pertaining to ESCC tumor and non-tumor tissues from the GEO database, after which we analyzed differential patterns of lncRNA and mRNA expression when comparing ESCC and normal tissues.
+
+A WGCNA approach was then leveraged to detect 2 key gene modules associated with ESCC development. WGCNA strategies facilitate systems biology approaches to exploring transcriptomic functionality. 20 In a WGCNA analysis, gene networks are constructed based upon correlations among genes across samples, such that modules are formed by grouping genes which are strongly co-expressed. Genes within a given module are more likely to play similar functional or regulatory roles in a given pathological or physiological context, with the most central genes in a given module functioning as hub genes that are likely to be important regulators of overall module functionality. This analytical strategy also assesses the relationship between modules and clinical characteristics, enabling researchers to assess the relationship between patterns of mRNA, miRNA, or lncRNA expression and cancer. 21 Herein, we performed WGCNA by assessing co-expressed gene networks in the GSE26866 and GSE45670 datasets, leading to the identification of 7 gene co-expression modules. Of these modules, the yellow and turquoise modules were most closely linked to ESCC, being negatively and positively correlated with ESCC development, respectively. These 2 modules were thus speculated to be key regulators of ESCC, and were therefore analyzed further.
+
+GO and KEGG enrichment analyses were employed to assess the potential functional roles of these gene modules in the context of ESCC. Genes in the turquoise module were primarily associated with the positive regulation of cellular proliferation, signal transduction, division, and the inhibition of apoptosis, all of which are involved in promoting cancer development. These turquoise module genes were also enriched for MAPK signaling, JAK/STAT signaling, and metabolic pathway activity, potentially thereby driving ESCC. Genes in the yellow modules were primarily enriched for the positive regulation of apoptosis, pyrimidine metabolism, arachidonic acid metabolism, cell cycle regulation, and P53 signaling, all of which can constrain tumor development. This suggests that genes in the yellow module may serve antitumor functions.
+
+Long non-coding RNAs (lncRNAs) are > 200 nucleotides in length, and function as key epigenetic regulators of cellular physiology. 22 , 23 Prior work has highlighted a role for lncRNAs in the regulation of ESCC development. 24 The specific relationship between lncRNAs and mRNAs in the context of ESCC, however, remains to be defined. As such, we explored the potential post-transcriptional crosstalk between lncRNAs and mRNAs in this oncogenic context, generating an integrated lncRNA-mRNA regulatory network based upon the hub genes identified within the yellow and turquoise module hub genes. Only the top 100 mRNAs and lncRNAs from these 2 modules were selected to ensure accuracy, and the network was composed of the top 200 lncRNA-mRNA and mRNA-mRNA pairs. Future work will be essential, however, in order to establish the functional roles of these genes in ESCC.
+
+Given that the turquoise and yellow gene modules were found to be closely associated with the development of ESCC, we next screened for hub genes within these modules that were closely associated with patient survival and that were validated in an independent sample cohort. We first identified DDX18, DNMT1, NCAPG, WDHD1, and PRR11 as hub genes within the turquoise module, and MPRIP, PHACTR2, VOPP1, ZKSCAN5, and SLC35C2 as hub genes within the yellow module. We then assessed the expression of these genes via qRT-PCR in a separate set of ESCC patient clinical samples, confirming that DDX18, DNMT1, NCAPG, WDHD1, PRR11, VOPP1, ZKSCAN5, and SLC35C2 expression levels were increased in ESCC tumor tissue samples whereas PHACTR2 expression was reduced in these samples relative to normal control tissue levels. Several of these hub genes have been previously linked to oncogenesis including VOPP1, WDHD1, PRR11, DNMT1, and NCAPG. DNMT1 is a DNA methyltransferase that preserves DNA methylation patterns during DNA replication, and that is upregulated in a range of cancer types including colorectal cancer (CRC), gastric cancer, breast cancer, and pancreatic cancer. 25 DNMT1 is also a key regulator of methylation status in the context of stem cell maintenance and embryogenesis. 26 NCAPG is a condensin I complex subunit that regulates chromosome condensation and stabilization in the context of mitosis and meiosis. NCAPG overexpression has been detected in cancers including melanoma, lung cancer, prostate cancer, and HCC, suggesting that this gene plays an important oncogenic role. 27 - 29 WDHD1 is a DNA-binding protein that interacts with DNA via an HMG domain, 30 controlling mitosis, DNA damage responses, and DNA repair. 31 In prior research, WDHD1 has been closely linked to malignancies including ESCC, lung cancer, and cervical cancer. 32 PRR11, which is encoded on chromosome 17q22, is composed of a zinc finger domain, 2 proline-rich regions, and a bivalent nuclear localization signal. 33 PRR11 has been highlighted as a potential oncogene associated with HCC, ovarian cancer, breast cancer, pancreatic cancer, and non-small cell lung cancer. 34 , 35 VOPP1 is localized encoded by the 7p11.2 locus, and is frequently amplified along with EGFR. 36 The overexpression of VOPP1 has bene detected in glioblastoma and gastric, head and neck, lung, and breast cancers. 37 Few prior studies have identified any relationship between DDX18, ZKSCAN5, PHACTER2, SLC35C2, and cancers.
+
+While the results of this study are interesting, it nonetheless has certain limitations. For one, these results were primarily derived from data mining and bioinformatics approaches, and further validation is thus essential. Second, we were only able to utilize a limited number of datasets as most studies of ESCC samples lacked corresponding normal controls, thus constraining our findings. Third, the association between key genes and survival outcomes in this study are not causal relationship. In further studies, whether these relationship are causal relationship still need to be explored. At the same time, the relationship key genes and other prognostic factors such as stage, grade and response to therapy are also need to be further studied. At last, WCGNA approaches are inherently limited by the criteria used for module selection and the thresholds for network culling, potentially impacting the final study results.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In summary, we utilized a WGCNA approach to identify key gene modules and hub genes linked to ESCC development. We also constructed a lncRNA-mRNA regulatory network in an effort to better understand the onset of this cancer type. Together, our findings offer a foundation for future research regarding the mechanistic basis for ESCC tumorigenesis, and the identified hub genes may represent viable diagnostic biomarkers or therapeutic targets that can be leveraged to treat this deadly cancer type.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

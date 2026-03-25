@@ -1,0 +1,693 @@
+================================================================================
+ARTICLE TITLE: The Combined Detection of Immune Genes for Predicting the Prognosis
+of Patients With Non-Small Cell Lung Cancer
+PMCID: PMC7711225
+PMID: 33256552
+KEYWORDS: non-small cell lung cancer, immune gene, prognostic model, tumor immunity, tumor microenvironment
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Lung cancer is one of the leading causes of cancer-related death. In recent
+years, there has been an increasing interest in the fields of tumor and
+immunity. This study focused on the possible prognostic value of immune genes in
+non-small cell lung cancer patients. We used The Cancer Genome Atlas (TCGA) to
+download gene expression data and clinical information of lung adenocarcinoma
+(LUAD) and lung squamous cell carcinoma (LUSC). The immune gene list was
+downloaded from the Immport database. We then constructed immune gene prognostic
+models on the basis of Cox regression analysis. We further evaluated the
+clinical significance of the models via survival analysis, receiver operating
+characteristic (ROC) curves, and independent prognostic factor analysis.
+Moreover, we analyzed the associations of prognostic models with both mutation
+burdens and neoantigens. Using the Gene Expression Omnibus (GEO) and
+Kaplan–Meier plotter databases, we evaluated the validity of the prognostic
+models. The prognostic model of LUAD included 13 immune genes, and the
+prognostic model of LUSC contained 10 immune genes. High-risk patients based on
+prognostic models had a lower 5-year survival rate than did low-risk patients.
+The ROC curve analysis demonstrated the prediction accuracy of the prognostic
+models, as the area under the curve (AUC) was 0.742, 0.707, and 0.711 for LUAD,
+and 0.668, 0.703, and 0.668 for LUSC, when the predicted survival times were 1,
+3, and 5 years, respectively. The mutation burden analysis showed that mutation
+level was associated with the risk score in patients with LUAD. The analysis
+based on GEO and Kaplan–Meier plotter demonstrated the prognostic validity of
+the models. Therefore, immune gene-related models of LUAD and LUSC can predict
+prognosis. Further study of these genes may enable us to better distinguish
+between LUAD and LUSC and lead to improvement in immunotherapy for lung
+cancer.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+It was estimated that lung cancer would lead to the largest number of cancer-related
+deaths in both male and female patients by 2020. 1 The 1-year survival rate of lung cancer is less than 50%. For patients in the
+early stage, the 5-year survival rate can reach 56%, but is only 5% for patients in
+the advanced stage. 2 Therefore, it is necessary to update the knowledge on lung cancer to help
+patients achieve a better prognosis.
+
+There is a large volume of published studies describing the role of the immune system
+in lung cancer initiation and progression. 3 At the same time, the immune system is also considered as an important
+component of the tumor microenvironment, which mainly includes various stromal cells
+(fibroblasts and endothelial cells), immune cells (T cells, B cells, dendritic
+cells, macrophages, and neutrophils), various factors secreted by cells (cytokines,
+chemokines, hormones, etc.), extracellular matrix, and the vascular system. 4 
+
+These immune-related cancer studies have mainly focused on the following aspects:
+interaction of tumor cells and tumor-infiltrating immune cells in the tumor
+microenvironment, especially via exosomes, which further contribute to form the
+pre-metastatic niche 5 ; immune cells’ influence on cancer activity, such as eosinophils playing an
+anticancer role in cryothermal treatment 6 and reactivation of dysfunctional natural killer (NK) cells inhibiting tumor growth 7 ; levels of immune cells being related to cancer subtypes and prognosis, which
+is not only demonstrated in research based on cancer databases but also
+experimentally confirmed for certain cancer types 8 , 9 ; and some immune factors being identified as prognostic indicators. 10 , 11 Moreover, studies on the progress of immune checkpoint blockers have aroused
+great interest in researchers studying immune-related cancer therapy. 12 
+
+The immune system plays a significant role in lung cancer, and its state largely
+determines the response to treatment. 13 Therefore, in this study, we used The Cancer Genome Atlas (TCGA) database to
+establish immune gene-related prognosis models in lung adenocarcinoma (LUAD) and
+lung squamous cell carcinoma (LUSC). We evaluated the prognostic effect of models by
+TCGA, Gene Expression Omnibus (GEO), and Kaplan–Meier plotter databases. This work
+may provide new ideas for in-depth mechanistic research and immunotherapy.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The gene expression data (FPKM values) and clinical data as the training set were
+downloaded from the TCGA database ( https://portal.gdc.cancer.gov ). The immune gene list was
+acquired using the Immport database ( https://www.immport.org/shared/genelists ). The perl script (perl
+version 5.28.1) was used to process expression data to obtain mRNA matrix,
+convert Ensembl ID into gene symbols, and extract relevant clinical information
+(including survival time, survival status, age, gender, TNM stage, and
+recurrence) from the downloaded clinical data. The test set GSE3141 , including
+the microarray data, was downloaded from the GEO database. R package sva, which
+removes batch effects and other unwanted variations in high-throughput
+experiments, was used to calibrate TCGA and GEO data. We summarized the clinical
+information in Table
+1 . In the training set, the gene expression data of LUAD involved 535
+tumor samples and 39 normal samples, and for LUSC, 502 tumor samples and 49
+normal samples.
+
+The Clinical Information of Lung Cancer Patients From TCGA and GEO
+Databases.
+
+Using the R ( https://www.r-project.org/ , version 3.6.1) software, the shared
+genes between the mRNA matrix and immune gene lists were obtained. Through this
+step, we obtained expression data for immune genes. Differential expression
+analysis of immune genes was performed using the R package limma. The fold
+change (FC) of genes was indicated as the base-2 logarithm of FC (logFC). The
+Benjamini–Hochberg method was used to correct the P value. We considered
+differentially expressed immune genes as |logFC| > 1 and adjusted P value
+(adj. P or P. adjust) < 0.01. Adj. P is also called the false discovery rate
+(FDR or fdr) value.
+
+We used heatmaps and volcano plots to present the results of differentially
+expressed immune genes. The R package pheatmap was used to plot the heatmap.
+
+First, for clinical information, we removed the patients without survival
+information or with a survival time of less than 90 days. Next, perl scripts
+were used to merge the data of differentially expressed immune genes with the
+corresponding clinical information. Then, the R package survival was used to
+conduct univariate and multivariate Cox regression analyses. The results of the
+univariate regression analysis are displayed in the forest plot. The
+differentially expressed immune genes meeting the filtering criteria (P <
+0.01) in univariate Cox regression analysis were further used to build the
+immune gene prognostic model by multivariate Cox regression analysis. Using the
+model, we calculated risk scores that equaled the sum of the products of gene
+expression levels and the corresponding coefficients (∑expression levels *
+coefficients). The median risk score as the cutoff value was used to divide
+patients into high- and low-risk groups.
+
+R package survival and survminer were used to plot survival curves. R package
+survivalROC was applied to plot the ROC curve. Univariate and multivariate Cox
+regression analyses were used to determine independent prognostic factors for
+lung cancer patients, and the factors meeting P values of less than 0.05 in both
+univariate and multivariate analyses were considered as independent prognostic
+factors.
+
+Mutation data processed by the workflow called VarScan2 Variant Aggregation and
+Masking were downloaded from the TCGA database. The mutation burden was
+evaluated by the mutation count excluding synonymous mutations per million
+bases. We obtained neoantigen data based on the TCGA database from a published study. 14 
+
+GSE3141 was used to validate the prognostic ability of models by survival curve
+analysis. R package survival and survminer were used to plot survival curves. We
+obtained survival curves of the single immune gene using the Kaplan–Meier
+plotter database ( https://kmplot.com ). We considered that an immune gene was
+related to survival rate when all probe sets per gene met the criterion of P
+< 0.05.
+
+For the statistical analysis of the difference in mutation burden and neoantigen
+levels between the high- and low-risk groups, the nonparametric test
+(Mann-Whitney U test) was used. The Kaplan–Meier method was used to generate
+survival curves, and the log-rank test was used to determine statistical
+differences. P < 0.05 (2-tailed) was considered statistically
+significant.
+
+
+Data Source
+
+The gene expression data (FPKM values) and clinical data as the training set were
+downloaded from the TCGA database ( https://portal.gdc.cancer.gov ). The immune gene list was
+acquired using the Immport database ( https://www.immport.org/shared/genelists ). The perl script (perl
+version 5.28.1) was used to process expression data to obtain mRNA matrix,
+convert Ensembl ID into gene symbols, and extract relevant clinical information
+(including survival time, survival status, age, gender, TNM stage, and
+recurrence) from the downloaded clinical data. The test set GSE3141 , including
+the microarray data, was downloaded from the GEO database. R package sva, which
+removes batch effects and other unwanted variations in high-throughput
+experiments, was used to calibrate TCGA and GEO data. We summarized the clinical
+information in Table
+1 . In the training set, the gene expression data of LUAD involved 535
+tumor samples and 39 normal samples, and for LUSC, 502 tumor samples and 49
+normal samples.
+
+The Clinical Information of Lung Cancer Patients From TCGA and GEO
+Databases.
+
+
+Identification of Differentially Expressed Immune Genes
+
+Using the R ( https://www.r-project.org/ , version 3.6.1) software, the shared
+genes between the mRNA matrix and immune gene lists were obtained. Through this
+step, we obtained expression data for immune genes. Differential expression
+analysis of immune genes was performed using the R package limma. The fold
+change (FC) of genes was indicated as the base-2 logarithm of FC (logFC). The
+Benjamini–Hochberg method was used to correct the P value. We considered
+differentially expressed immune genes as |logFC| > 1 and adjusted P value
+(adj. P or P. adjust) < 0.01. Adj. P is also called the false discovery rate
+(FDR or fdr) value.
+
+
+Analysis of Volcano Plots and Heatmaps
+
+We used heatmaps and volcano plots to present the results of differentially
+expressed immune genes. The R package pheatmap was used to plot the heatmap.
+
+
+Establishment of Immune Gene Prognostic Model based on Cox Proportional
+Hazards Regression Model
+
+First, for clinical information, we removed the patients without survival
+information or with a survival time of less than 90 days. Next, perl scripts
+were used to merge the data of differentially expressed immune genes with the
+corresponding clinical information. Then, the R package survival was used to
+conduct univariate and multivariate Cox regression analyses. The results of the
+univariate regression analysis are displayed in the forest plot. The
+differentially expressed immune genes meeting the filtering criteria (P <
+0.01) in univariate Cox regression analysis were further used to build the
+immune gene prognostic model by multivariate Cox regression analysis. Using the
+model, we calculated risk scores that equaled the sum of the products of gene
+expression levels and the corresponding coefficients (∑expression levels *
+coefficients). The median risk score as the cutoff value was used to divide
+patients into high- and low-risk groups.
+
+
+Evaluation of Prognostic Model Based on Survival Curve, ROC Curve, and
+Independent Prognostic Factor Analysis
+
+R package survival and survminer were used to plot survival curves. R package
+survivalROC was applied to plot the ROC curve. Univariate and multivariate Cox
+regression analyses were used to determine independent prognostic factors for
+lung cancer patients, and the factors meeting P values of less than 0.05 in both
+univariate and multivariate analyses were considered as independent prognostic
+factors.
+
+
+Mutation Burden and Neoantigen Analyses
+
+Mutation data processed by the workflow called VarScan2 Variant Aggregation and
+Masking were downloaded from the TCGA database. The mutation burden was
+evaluated by the mutation count excluding synonymous mutations per million
+bases. We obtained neoantigen data based on the TCGA database from a published study. 14 
+
+
+GEO and Kaplan–Meier Plotter Database
+
+GSE3141 was used to validate the prognostic ability of models by survival curve
+analysis. R package survival and survminer were used to plot survival curves. We
+obtained survival curves of the single immune gene using the Kaplan–Meier
+plotter database ( https://kmplot.com ). We considered that an immune gene was
+related to survival rate when all probe sets per gene met the criterion of P
+< 0.05.
+
+
+Statistical Analysis
+
+For the statistical analysis of the difference in mutation burden and neoantigen
+levels between the high- and low-risk groups, the nonparametric test
+(Mann-Whitney U test) was used. The Kaplan–Meier method was used to generate
+survival curves, and the log-rank test was used to determine statistical
+differences. P < 0.05 (2-tailed) was considered statistically
+significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+ Figure 1 shows the
+workflow of the construction and validation of the prognostic models. A total of
+474 differentially expressed immune genes were selected for LUAD (Table SI),
+including 312 up-regulated genes and 162 down-regulated genes, and 565 genes
+were selected for LUSC (Table SII), including 279 up-regulated genes and 286
+down-regulated genes. We then displayed the gene expression difference of these
+immune genes in volcano plots ( Figure 2A for LUAD and Figure 2B for LUSC) and heatmaps ( Figure 2C for LUAD and Figure 2D for
+LUSC).
+
+The workflow of the construction and validation of the prognostic
+models.
+
+The volcano plot and heatmap of differentially expressed immune genes. In
+the volcano plot, red points represent up-regulated genes (logFC > 1
+and adj. P < 0.01) and green points represent down-regulated genes
+(logFC < -1 and adj. P < 0.01), while black points indicate genes
+without significant differential expression (|logFC| < 1 or adj. P
+> 0.01). In the heatmap, genes with higher expression are shown in
+red and genes with lower expression are shown in green, while genes with
+the same expression level are in black. (A) Volcano plot for LUAD; (B)
+Volcano plot for LUSC; (C) Heatmap for LUAD; (D) Heatmap for LUSC.
+
+A total of 21 genes were identified in the univariate Cox regression analysis in
+LUAD ( Figure 3A , P <
+0.01) and 23 genes in LUSC ( Figure 3B , P < 0.01). There were no common genes between LUAD and
+LUSC. Based on these possible prognostic genes, we built immune gene prognostic
+models by multivariate Cox regression analysis, as detailed in Table 2 for LUAD and Table 3 for
+LUSC. Although some genes did not meet the criterion of P < 0.01, it was
+significant to include these genes in this model when 2 types of genes (P <
+0.01 and P >= 0.01) as a whole were statistically related to the prognosis.
+The genes meeting P < 0.01 in both univariate and multivariate Cox regression
+analyses were considered as independent prognostic factors.
+
+Forest plots of univariate Cox regression analysis. In forest plots, the
+vertical dotted line represents hazard ratio (HR) = 1; the green box
+represents HR < 1.0, which indicated that the immune gene was a
+favorable prognostic biomarker; Conversely, red box represents HR >
+1.0, which identified the immune gene as a poor prognostic indicator.
+The length of the horizontal line represents the 95% confidence interval
+for each immune gene. (A) Forest plot for LUAD; (B) Forest plot for
+LUSC.
+
+Immune Gene Prognostic Model of LUAD.
+
+ 1 HR95 L and HR95 H indicated the lower and upper limits
+of the 95% confidence interval; * These genes had P values that did
+not meet the standard P < 0.01 in the multivariate Cox regression
+analysis.
+
+Immune Gene Prognostic Model of LUSC.
+
+ 1 HR95 L and HR95 H indicated the lower and upper limits
+of the 95% confidence interval; * These genes had P values that did
+not meet the standard P < 0.01 in the multivariate Cox regression
+analysis.
+
+According to the prognostic model, we calculated the risk scores for patients.
+Based on median risk scores, 456 patients with LUAD and 431 patients with LUSC
+were divided into high- and low-risk groups. To evaluate the prognostic model,
+the Kaplan–Meier method was used to generate survival curves and the log-rank
+test was used to determine the statistical difference ( Figure 4A for LUAD and Figure 4B for LUSC). The
+results showed that the survival rate was significantly different between the
+high- and low-risk groups of LUAD and LUSC (P = 1.099e-07 and P = 2.082e-05,
+respecitvely). For LUAD, the 5-year survival rate in the low-risk group was 50%
+and 20% in the high-risk group. The 5-year survival rate of patients with LUSC
+in the low-risk group was 60% and that in the high-risk group was 36%.
+
+Survival curves analysis. At the bottom of survival curves, 2 lines of
+figures represent the number of survivors in high- and low-risk groups,
+which decreases gradually with follow-up time. (A) Survival curve for
+LUAD; (B) Survival curve for LUSC.
+
+The area under the curve (AUC) of the ROC analysis was used to reflect the
+prediction accuracy of the prognostic model. When the predicted survival time
+was 1 year, 3 years, and 5 years, the corresponding AUCs were 0.742, 0.707, and
+0.711 for LUAD ( Figure
+5A ), and 0.668, 0.703, and 0.668 for LUSC, respectively ( Figure 5B ).
+
+ROC curves analysis. (A) ROC curve for LUAD; (B) ROC curve for LUSC.
+
+In univariate and multivariate Cox regression analyses of LUAD ( Figure 6A of univariate
+analysis and Figure 6B of multivariate analysis), the results showed that recurrence and risk scores
+were considered as independent prognostic factors (P < 0.05). Likewise, for
+LUSC ( Figure 6C of
+univariate analysis and Figure
+6D of multivariate analysis), recurrence and risk scores were also
+considered as independent prognostic factors (P < 0.05).
+
+The univariate and multivariate Cox regression analyses. (A) The
+univariate Cox regression analysis of LUAD; (B) The multivariate Cox
+regression analysis of LUSC; (C) The univariate Cox regression analysis
+of LUSC; (D) The multivariate Cox regression analysis of LUSC.
+
+Somatic mutations and neoantigen production are associated with cancer immunity
+and immunotherapy. 15 In our study, we analyzed the difference in non-synonymous mutation
+burden between the low- and high-risk groups, based on prognostic models, as
+well as the difference in predicted neoantigens between the 2 groups. In LUAD,
+patients in the high-risk group had higher mutation burdens than patients in the
+low-risk group ( Figure
+7A , P = 0.0005). However, regarding LUSC, the difference in mutation
+burdens between the 2 groups was not statistically significant ( Figure 7B , P = 0.1241). In
+LUAD and LUSC, there was no statistical difference in the predicted antigens
+between the 2 groups ( Figure
+7C , LUAD, P = 0.7559; Figure 7D , LUSC, P = 0.8353).
+
+Mutation burden and neoantigen analyses. (A) Mutation burden analysis for
+LUAD; (B) Mutation burden analysis for LUSC; (C) Neoantigen analysis for
+LUAD; (D) Neoantigen analysis for LUSC.
+
+We used GSE3141 from the GEO database to validate the prognostic ability of the
+models. For both LUAD and LUSC, there were significant differences in survival
+rates between the high- and low-risk groups ( Figure 8A , LUAD, P = 4.682e-03; Figure 8B , LUSC, P =
+3.836e-02). In addition, to analyze the prognostic effect of the single immune
+gene included in prognostic models, we used the Kaplan–Meier plotter database,
+which included lung cancer data mainly from the GEO database. Figures S1 and S2
+show the survival curves of all probe sets per immune gene. We found that for
+LUAD (Figure S1A-1, S1A-2, S1B-1 and S1B-2), S100A16 (probe
+set, 227998_at; HR = 2.25; P = 1.4e-10), CRABP1 (probe set,
+205350_at; HR = 1.61; P = 6.8e-05), BTK (probe set, 205504_at;
+HR = 0.7; P = 0.0028), SEMA4B (probe set, 234725_s_at; HR =
+1.45; P = 0.0025), INHA (probe set, 210141_s_at; HR = 2, P =
+7.2e-09), ANGPTL4 (probe set, 223333_s_at; HR = 1.69; P =
+2.6e-05), and ANGPTL4 (probe set, 221009_s_at; HR = 1.63; P =
+3.7e-05) were closely related to prognosis, which reflected the effectiveness of
+the model indirectly. However, in LUSC (Figure S2A-1, S2A-2, S2B-1 and S2B-2),
+the single immune gene in the model had no significant connection with
+prognosis.
+
+Survival curves analysis based on GEO database. At the bottom of survival
+curves, 2 lines of figures represent the number of survivors in high-
+and low-risk groups, which decreases gradually with follow-up time. (A)
+Survival curve for LUAD based on GEO database; (B) Survival curve for
+LUSC based on GEO database.
+
+
+Screening of Differentially Expressed Immune Genes and Presentation of
+Volcano Plots and Heatmaps
+
+ Figure 1 shows the
+workflow of the construction and validation of the prognostic models. A total of
+474 differentially expressed immune genes were selected for LUAD (Table SI),
+including 312 up-regulated genes and 162 down-regulated genes, and 565 genes
+were selected for LUSC (Table SII), including 279 up-regulated genes and 286
+down-regulated genes. We then displayed the gene expression difference of these
+immune genes in volcano plots ( Figure 2A for LUAD and Figure 2B for LUSC) and heatmaps ( Figure 2C for LUAD and Figure 2D for
+LUSC).
+
+The workflow of the construction and validation of the prognostic
+models.
+
+The volcano plot and heatmap of differentially expressed immune genes. In
+the volcano plot, red points represent up-regulated genes (logFC > 1
+and adj. P < 0.01) and green points represent down-regulated genes
+(logFC < -1 and adj. P < 0.01), while black points indicate genes
+without significant differential expression (|logFC| < 1 or adj. P
+> 0.01). In the heatmap, genes with higher expression are shown in
+red and genes with lower expression are shown in green, while genes with
+the same expression level are in black. (A) Volcano plot for LUAD; (B)
+Volcano plot for LUSC; (C) Heatmap for LUAD; (D) Heatmap for LUSC.
+
+
+Construction of an Immune Gene Prognostic Model
+
+A total of 21 genes were identified in the univariate Cox regression analysis in
+LUAD ( Figure 3A , P <
+0.01) and 23 genes in LUSC ( Figure 3B , P < 0.01). There were no common genes between LUAD and
+LUSC. Based on these possible prognostic genes, we built immune gene prognostic
+models by multivariate Cox regression analysis, as detailed in Table 2 for LUAD and Table 3 for
+LUSC. Although some genes did not meet the criterion of P < 0.01, it was
+significant to include these genes in this model when 2 types of genes (P <
+0.01 and P >= 0.01) as a whole were statistically related to the prognosis.
+The genes meeting P < 0.01 in both univariate and multivariate Cox regression
+analyses were considered as independent prognostic factors.
+
+Forest plots of univariate Cox regression analysis. In forest plots, the
+vertical dotted line represents hazard ratio (HR) = 1; the green box
+represents HR < 1.0, which indicated that the immune gene was a
+favorable prognostic biomarker; Conversely, red box represents HR >
+1.0, which identified the immune gene as a poor prognostic indicator.
+The length of the horizontal line represents the 95% confidence interval
+for each immune gene. (A) Forest plot for LUAD; (B) Forest plot for
+LUSC.
+
+Immune Gene Prognostic Model of LUAD.
+
+ 1 HR95 L and HR95 H indicated the lower and upper limits
+of the 95% confidence interval; * These genes had P values that did
+not meet the standard P < 0.01 in the multivariate Cox regression
+analysis.
+
+Immune Gene Prognostic Model of LUSC.
+
+ 1 HR95 L and HR95 H indicated the lower and upper limits
+of the 95% confidence interval; * These genes had P values that did
+not meet the standard P < 0.01 in the multivariate Cox regression
+analysis.
+
+
+Clinical Significance of the Immune Gene Prognostic Model
+
+According to the prognostic model, we calculated the risk scores for patients.
+Based on median risk scores, 456 patients with LUAD and 431 patients with LUSC
+were divided into high- and low-risk groups. To evaluate the prognostic model,
+the Kaplan–Meier method was used to generate survival curves and the log-rank
+test was used to determine the statistical difference ( Figure 4A for LUAD and Figure 4B for LUSC). The
+results showed that the survival rate was significantly different between the
+high- and low-risk groups of LUAD and LUSC (P = 1.099e-07 and P = 2.082e-05,
+respecitvely). For LUAD, the 5-year survival rate in the low-risk group was 50%
+and 20% in the high-risk group. The 5-year survival rate of patients with LUSC
+in the low-risk group was 60% and that in the high-risk group was 36%.
+
+Survival curves analysis. At the bottom of survival curves, 2 lines of
+figures represent the number of survivors in high- and low-risk groups,
+which decreases gradually with follow-up time. (A) Survival curve for
+LUAD; (B) Survival curve for LUSC.
+
+The area under the curve (AUC) of the ROC analysis was used to reflect the
+prediction accuracy of the prognostic model. When the predicted survival time
+was 1 year, 3 years, and 5 years, the corresponding AUCs were 0.742, 0.707, and
+0.711 for LUAD ( Figure
+5A ), and 0.668, 0.703, and 0.668 for LUSC, respectively ( Figure 5B ).
+
+ROC curves analysis. (A) ROC curve for LUAD; (B) ROC curve for LUSC.
+
+In univariate and multivariate Cox regression analyses of LUAD ( Figure 6A of univariate
+analysis and Figure 6B of multivariate analysis), the results showed that recurrence and risk scores
+were considered as independent prognostic factors (P < 0.05). Likewise, for
+LUSC ( Figure 6C of
+univariate analysis and Figure
+6D of multivariate analysis), recurrence and risk scores were also
+considered as independent prognostic factors (P < 0.05).
+
+The univariate and multivariate Cox regression analyses. (A) The
+univariate Cox regression analysis of LUAD; (B) The multivariate Cox
+regression analysis of LUSC; (C) The univariate Cox regression analysis
+of LUSC; (D) The multivariate Cox regression analysis of LUSC.
+
+
+Associations of Prognostic Models With Non-Synonymous Mutations and
+Neoantigens
+
+Somatic mutations and neoantigen production are associated with cancer immunity
+and immunotherapy. 15 In our study, we analyzed the difference in non-synonymous mutation
+burden between the low- and high-risk groups, based on prognostic models, as
+well as the difference in predicted neoantigens between the 2 groups. In LUAD,
+patients in the high-risk group had higher mutation burdens than patients in the
+low-risk group ( Figure
+7A , P = 0.0005). However, regarding LUSC, the difference in mutation
+burdens between the 2 groups was not statistically significant ( Figure 7B , P = 0.1241). In
+LUAD and LUSC, there was no statistical difference in the predicted antigens
+between the 2 groups ( Figure
+7C , LUAD, P = 0.7559; Figure 7D , LUSC, P = 0.8353).
+
+Mutation burden and neoantigen analyses. (A) Mutation burden analysis for
+LUAD; (B) Mutation burden analysis for LUSC; (C) Neoantigen analysis for
+LUAD; (D) Neoantigen analysis for LUSC.
+
+
+Validation by GEO and Kaplan–Meier Plotter Databases
+
+We used GSE3141 from the GEO database to validate the prognostic ability of the
+models. For both LUAD and LUSC, there were significant differences in survival
+rates between the high- and low-risk groups ( Figure 8A , LUAD, P = 4.682e-03; Figure 8B , LUSC, P =
+3.836e-02). In addition, to analyze the prognostic effect of the single immune
+gene included in prognostic models, we used the Kaplan–Meier plotter database,
+which included lung cancer data mainly from the GEO database. Figures S1 and S2
+show the survival curves of all probe sets per immune gene. We found that for
+LUAD (Figure S1A-1, S1A-2, S1B-1 and S1B-2), S100A16 (probe
+set, 227998_at; HR = 2.25; P = 1.4e-10), CRABP1 (probe set,
+205350_at; HR = 1.61; P = 6.8e-05), BTK (probe set, 205504_at;
+HR = 0.7; P = 0.0028), SEMA4B (probe set, 234725_s_at; HR =
+1.45; P = 0.0025), INHA (probe set, 210141_s_at; HR = 2, P =
+7.2e-09), ANGPTL4 (probe set, 223333_s_at; HR = 1.69; P =
+2.6e-05), and ANGPTL4 (probe set, 221009_s_at; HR = 1.63; P =
+3.7e-05) were closely related to prognosis, which reflected the effectiveness of
+the model indirectly. However, in LUSC (Figure S2A-1, S2A-2, S2B-1 and S2B-2),
+the single immune gene in the model had no significant connection with
+prognosis.
+
+Survival curves analysis based on GEO database. At the bottom of survival
+curves, 2 lines of figures represent the number of survivors in high-
+and low-risk groups, which decreases gradually with follow-up time. (A)
+Survival curve for LUAD based on GEO database; (B) Survival curve for
+LUSC based on GEO database.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In this study, immune genes S100A16 , CRABP1 , RBP2 , FGF2 , BTK, SEMA4B , IL11 , INHA , ANGPTL4 , LGR4 , TNFRSF11A , VIPR1 , and SHC3 were included in the prognostic model of LUAD, while CXCL5 , PLAU , RNASE7 , IGKV1 -6, SEMA4C , APLN , TSLP , FGFR4 , TRAV39 , and JUN were included in the model of LUSC.
+
+S100A16, which is associated with poorer survival, is considered to be a prognostic
+marker for platinum-based adjuvant chemotherapy in LUAD after resection. 16 CRABP1, which is associated with antimicrobial immunity according to the
+immune gene classification from the Immport database, is closely related to immune
+cell proliferation and apoptosis via the ERK signaling pathway. A study showed that
+mRNA and protein levels of CRABP1 were increased in 42% and 50% of NSCLC patients, respectively. 17 To date, no studies have described in detail the action mechanisms of CRABP1
+in lung cancer. RBP2 was found to increase the expression of IFN-γ in NK cells by
+interacting with the P50 and Socs1 promoters as well as to cause the demethylation
+of H3K4me3 in the Socs1 promoter, further upregulating IFN-γ levels. 18 Moreover, RBP2 decreased the expression of E-cadherin by binding to its
+promoter, which was induced by TGF-β1, and promoted epithelial-to-mesenchymal
+transition (EMT) in gastric cancer. 19 An in-depth exploration of RBP2 function in lung cancer is warranted, as RBP2
+is involved in cancer progression by not only influencing cancer-related pathways
+but also by regulating the innate immune response. Serum FGF2 levels are related to
+poor prognosis in advanced NSCLC patients by promoting angiogenesis. 20 It was well-proven that BTK, as a crucial effector to promote B cell
+development, played an oncogenic role in B cell malignancies 21 ; however, recent studies have shown that BTK enhances the
+functions of tumor suppressors, including p53 and p73, in LUAD (H1299) and colon
+cancer (HCT116) cell lines. 22 It has been reported that SEMA4B inhibits tumor cell growth and metastasis in
+NSCLC by suppressing the PI3K-Akt signaling pathway. 23 The function of IL-11 in lung cancer has not been extensively studied. Only 1
+article has shown that IL-11 promotes tumor cell growth, invasion, and metastasis in LUAD. 24 Singh et al. demonstrated that INK, as a good diagnostic and prognostic
+marker of ovarian cancers, also plays a role in promoting tumor metastasis and
+angiogenesis in other cancers, which may offer new vascular targets for cancer therapy. 25 ANGPTL4 has an effect on enhancing lung cancer cell invasion and migration
+partially through the ERK signaling pathway. 26 LGR4 belongs to a G-protein coupled receptor and is involved in activating
+the Wnt signaling pathway to influence tumor progression. 27 - 29 The NCBI gene database ( https://www.ncbi.nlm.nih.gov/gene/ ) shows that TNFRSF11A regulates
+the interaction between dendritic cells and T cells to change adaptive immune
+responses, and activates the NF-kappa B and MAPK8/JNK signaling pathways. Despite
+its possible immense impact on anti-tumor immune responses and cancer development,
+there are no studies related to TNFRSF11A in LUAD. It has been experimentally shown
+in a recent study that VIPR1 serves as a tumor suppressor in LUAD, which is
+consistent with our results. 30 Our results showed that SHC3 served as a possible favorable factor for
+patients with LUAD. The Immport database revealed that SHC3 is associated with the
+function of NK cells. Meanwhile, the NCBI gene database also showed that SHC3 is
+present at relatively high levels in normal lung tissue. However, studies on SHC3 in
+lung cancer are lacking.
+
+Although the single immune gene in the LUSC model had no significant association with
+prognosis, by retrieving literature in PubMed, we found that CXCL5 could promote
+tumor progression in colorectal cancer, 31 prostate cancer, 32 osteosarcoma, 33 papillary thyroid carcinoma. 34 As a chemokine, CXCL5 recruits neutrophils and promotes angiogenesis. PLAU,
+which converts plasminogen to plasmin and increases the migration ability of tumor
+cells, was found to be a positive regulatory factor of colorectal cancer. 35 RNASE7 is a possible tumor suppressor in cutaneous squamous cell carcinoma. 36 SEMA4C, as the target of cancer-related miRNAs, is down-regulated, which
+reverses EMT, in lung cancer. 37 , 38 Serum APLN levels increased significantly in LUSC compared to those in other
+lung cancer types or control groups. 39 The expression of TSLP in breast cancer tissue was higher than that in normal
+tissues and benign tumors. 40 JUN is considered an immune-related biomarker in hepatocellular carcinoma,
+which influences the active states of B cells and T cells. 41 The NCBI gene database shows that IGKV1-6 and TRAV39 are related to the
+functions of B cells and T cells, respectively. However, at present, a search on the
+corresponding studies of the 2 genes does not display information in PubMed.
+Compared to FGF2 with high expression levels in LUAD, FGFR4 was more highly
+expressed in LUSC. Moreover, the NCBI gene database shows that FGFR4 is the gene
+with the highest expression in normal lung tissue compared to other tissues. At
+present, considerable research has been focusing on the development of FGFR
+inhibitors for cancer treatment. 42 
+
+The significant expression difference in our results and important roles in other
+cancers encouraged us to investigate the possible impact of these immune genes on
+lung cancer, although some genes have not been explored in such studies. In LUSC,
+the inconsistent results are due to the difference in data sources, as prognostic
+models were constructed using TCGA data, while survival curves of per immune gene
+were mainly plotted on the basis of the GEO data. The 2 databases contain different
+patient populations and use distinct detection methods, which led to validation
+differences. Moreover, whether distinct immune genes in prognostic models of LUAD
+and LUSC are differentially expressed in the 2 pathological types remains to be
+verified.
+
+There have been some studies on the construction of prognostic models for lung
+cancer. However, these studies used different methodologies. Li et al. constructed
+an 8-gene prognostic signature for NSCLC. In their study, they selected genes that
+were not limited to immune genes by univariate Cox regression analysis based on TCGA
+and GEO databases. 43 In another study, the prognostic model was constructed by selecting
+differentially expressed genes based on the ESTIMATE algorithm-derived immune scores. 44 Although we used the same database compared with these studies, different
+analysis methods have generated different models, which will require further
+experimental validation. Recently, Shi et al. completed a similar study that used
+the lasso algorithm and multivariate Cox regression analysis to construct a
+prognostic model of immune genes in LUAD. Their results also demonstrated that ANGPTL4 is a promising immune gene for LUAD prognosis. 45 Although there was a relatively large number of immune genes in our models,
+we suggest that it is appropriate to retain these genes in the models as they play
+an important role in the immune system and cancer progression. Above all, we also
+note that the genes in the prognostic models regulate innate and adaptive immune
+responses in various ways, which inspires us to uncover the interaction between
+these immune genes and tumor-related immune responses. These prognostic models will
+be better applied in the clinic to evaluate patient prognosis and guide
+immunotherapy. Kunimasa et al. systematically summarized the lung cancer-related
+immune responses. The interaction of the immune system and tumor cells can be
+divided into 3 stages: the elimination, equilibrium, and escape phases. 46 Thus, we may change tumor progression by interfering with related immune
+cells and molecules in these stages.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+We obtained immune gene prognostic models for LUAD and LUSC based on the TCGA
+database. Using the GEO and Kaplan–Meier plotter databases, we evaluated the
+validity of the prognostic models. The risk score based on prognostic models of LUAD
+and LUSC can serve as an independent prognostic factor, and in LUAD, the risk score
+was related to the mutation burden. Finally, further investigation of these genes
+can provide novel insights into the potential association between the immune system
+and lung cancer.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, Figure_S1A-1 - The Combined Detection of Immune
+Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Figure_S1A-1.tif
+Supplemental Material, Figure_S1A-2 - The Combined Detection of Immune
+Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Figure_S1A-2.tif
+Supplemental Material, Figure_S1B-1 - The Combined Detection of Immune
+Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Figure_S1B-1.tif
+Supplemental Material, Figure_S1B-2 - The Combined Detection of Immune
+Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Figure_S1B-2.tif
+Supplemental Material, Figure_S2A-1 - The Combined Detection of Immune
+Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Figure_S2A-1.tif
+Supplemental Material, Figure_S2A-2 - The Combined Detection of Immune
+Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Figure_S2A-2.tif
+Supplemental Material, Figure_S2B-1 - The Combined Detection of Immune
+Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Figure_S2B-1.tif
+Supplemental Material, Figure_S2B-2 - The Combined Detection of Immune
+Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Figure_S2B-2.tif
+Supplemental Material, Table_SI - The Combined Detection of Immune Genes
+for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Table_SI.pdf
+Supplemental Material, Table_SII - The Combined Detection of Immune Genes
+for Predicting the Prognosis of Patients With Non-Small Cell Lung
+Cancer
+File: Table_SII.pdf

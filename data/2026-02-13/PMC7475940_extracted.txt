@@ -1,0 +1,66 @@
+================================================================================
+ARTICLE TITLE: Telomere-related Markers for Cancer
+PMCID: PMC7475940
+PMID: 31903880
+KEYWORDS: cancer therapy, gene transcription, terc, terra, tert, tert promoter mutation, telomerase, telomere
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Telomeres are structurally nucleoprotein complexes at termini of linear chromosomes and essential to chromosome stability/integrity. In normal human cells, telomere length erodes progressively with each round of cell divisions, which serves as an important barrier to uncontrolled proliferation and malignant transformation. In sharp contrast, telomere maintenance is a key feature of human malignant cells and required for their infinite proliferation and maintenance of other cancer hallmarks as well. Thus, a telomere-based anti-cancer strategy has long been suggested. However, clinically efficient and specific drugs targeting cancer telomere-maintenance have still been in their infancy thus far. To achieve this goal, it is highly necessary to elucidate how exactly cancer cells maintain functional telomeres. In the last two decades, numerous studies have provided profound mechanistic insights, and the identified mechanisms include the aberrant activation of telomerase or the alternative lengthening of telomere pathway responsible for telomere elongation, dysregulation and mutation of telomere-associated factors, and other telomere homeostasis-related signaling nodes. In the present review, these various strategies employed by malignant cells to regulate their telomere length, structure and function have been summarized, and potential implications of these findings in the rational development of telomere-based cancer therapy and other clinical applications for precision oncology have been discussed.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+INTRODUCTION
+
+Human linear chromosomes terminate with arrays of TTAGGG sequences lasting 6 – 20 kb long so-called telomeric DNA, and these telomeric repeats normally harbor 3’-signle-stranded DNA overhang that invades into the duplexed region to generate T-loops [ 1 , 2 ]. Such a DNA structure is further bound by a six protein-containing shelterin (TRF1, TRF2, RAP1, TIN2, TPP1 and POT1) to form a special nucleoprotein complex of telomeres [ 1 , 2 ] (Fig. 1 ). The nucleoprotein structure of telomeres functions as a protective cap at the end of chromosomes to maintain genomic stability and integrity, which is primarily achieved by inhibiting the DNA damage response through the following mechanisms: First, the telomere structure hides the chromosome end being recognized as DNA breaks, and second, TRF2 retards Ataxia Telangiectasia-mutated (ATM) Signaling/Non-homologous End Joining (NHEJ), whereas POT1 inhibits Rad3-related (ATR) Signaling/Homologous Recombination (HR) [ 1 , 2 ]. In addition, the telomere complex also contains long non-coding RNA transcribed from telomeric repetitive DNA (TERRA), a recently identified component required for the maintenance of functional telomere structure [ 3 ] (Fig. 1 ).
+
+One essential hallmark of telomeres is their progressive attrition with successive divisions of human somatic cells due to the end-replication problem plus the lack or insufficiency of telomere-lengthening activities [ 1 , 2 ]. When telomeres shorten to a threshold length to disrupt their capping function, the DNA damage response pathway is activated and cells are subsequently induced to enter a stable growth arrest status named replicative senescence or M1 stage [ 1 , 4 , 5 ]. Thus, telomere shortening acts as a mitotic O’clock, counting dividing times of cells and conferring them a limited lifespan. In sharp contrast, however, infinite proliferation is one of key hallmarks for cancer cells [ 6 ]. To acquire an immortal phenotype, malignant cells must overcome the senescence barrier by stabilizing their telomere length, and two major mechanisms have so far been identified to actively lengthen telomeres in cancer cells: activation of telomerase and Alternative-lengthening of Telomere (ALT) [ 1 , 6 - 8 ]. The telomerase and ALT pathways are responsible for telomere length maintenance of ~ 90% and 5% - 10% of human cancers, respectively [ 7 - 9 ].
+
+As described above, telomerase activation is the predominant strategy utilized by cancer cells to maintain their telomere length, and therefore has been one of the extensively studied areas in cancer research [ 1 , 5 , 7 , 8 ]. Telomerase is an RNA-dependent DNA polymerase adding telomeric DNA onto chromosome ends [ 1 , 7 ]. Although as a multi-unit complex, its core components only include the catalytic Subunit Telomerase Reverse Transcriptase (TERT) and a RNA component (TERC) as a template [ 1 ] (Fig. 1 ). TERC is ubiquitously expressed in human somatic cells, while the TERT gene is tightly repressed at the transcriptional level in the vast majority of normal human cells [ 1 , 8 , 10 ], which results in telomerase silence in these cells. During the tumorigenic process, the de-repression of the TERT gene and induction of TERT expression are required for telomerase activation [ 1 , 8 , 10 ]. Thus, TERT is a rate-limiting element to control telomerase activity. Moreover, in addition to its canonical telomere-lengthening function, TERT has recently been shown to exhibit multi-extratelomeric activities, which include its roles in DNA damage repair, transcription regulation, mitochondrial function, stem cell biology and among others [ 11 - 21 ]. All these telomere lengthening-dependent and independent functions significantly contribute to cancer hallmarks, and promote cancer initiation and progression.
+
+In addition to the telomere lengthening pathways that actively elongate telomeric repeats, the shelterin proteins, TERRA, and other telomere-associated components also play an important part in the regulation of telomere length and function [ 2 , 22 ]. For instance, manipulating TRF1 or TRF2 expression leads to significant changes in telomere length and structure without affecting telomerase activity [ 22 , 23 ]. Moreover, aberrant alterations in the genetics and expression of shelterin factors have been observed in human cancer [ 2 , 24 , 25 ]. These cancer-related changes can remodel telomere chromatin, promote telomerase recruitment and accessibility to telomeres, increase genomic instability, and even exert extratelomeric activities, eventually facilitating cancer formation and/or progression.
+
+Collectively, the last two decades have evidenced tremendous progress in cancer telomere biology. In the present article, the key findings in the cancer-associated telomere-maintenance research are summarized and how the current knowledge can be translated into the rational development of the telomere-based anti-cancer strategy and other potential applications for precision oncology is discussed.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+CONCLUSION
+
+Telomere stabilization through activation of either telomerase or ALT pathway is required for malignant transformation of human somatic cells and cancer progression. In the meanwhile, many other telomere-related elements are aberrantly altered in oncogenesis. These cancer-associated changes have been extensively investigated and the obtained results have so far provided profound insights into cancer telomere biology, which is expected to path the way for the application of telomere-based strategies in precision oncology. It should also be highlighted that the telomere stabilization is only one part of the whole oncogenic program. Thus, a better understanding of the oncogenic program and targeting upstream events may help efficiently block telomere-related aberrations in cancer.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,141 @@
+================================================================================
+ARTICLE TITLE: The overexpression of ZWINT in integrated bioinformatics analysis forecasts poor prognosis in breast cancer
+PMCID: PMC8798864
+PMID: 35117172
+KEYWORDS: zwint, breast cancer, bioinformatics analysis, biomarker
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+Zeste White 10 interactor (ZW10 interactor, ZWINT) is a centromeric complex required for a mitotic spindle checkpoint. According to previous studies, it was overexpressed in people with recurrent tumors. However, the expression of ZWINT in breast cancer has not been thoroughly studied. In addition, the correlations of ZWINT to prognosis in breast cancer remain unclear.
+
+Methods:
+In this study, the expression of ZWINT in different types of tumors was analyzed based on the Oncomine database, and the effect of ZWINT expression on clinical prognosis was evaluated by Kaplan-Meier plotter.
+
+Results:
+In breast cancer, lung cancer, sarcoma, ovarian cancer, bladder cancer, liver cancer and cervical cancer, the expression of ZWINT was higher than that in normal tissues, but in gastric cancer, prostate cancer, myeloma, renal cancer and pancreatic cancer, the expression of ZWINT was lower. In addition, a meta-analysis of 22 cancer database studies found that the ZWINT gene was over-expressed in breast cancer tissues compared with normal tissues (P=4.05×10 −6 ). Through the survival analysis of Kaplan-Meier plotter, it is found that the high expression of ZWINT is related to the worse overall survival (OS) [hazard ratio (HR) =1.73, 95% confidence interval (CI): 1.39–2.51, P=5.4×10 −7 ], RFS (HR =1.68, 95% CI: 1.51–1.88, P<1×10 −16 ) and distant metastasis-free survival (DMFS) (HR =1.55, 95% CI: 1.28–1.89, P=7.9×10 −6 ) in all BC patients.
+
+Conclusions:
+Our results strongly suggest that over expression of ZWINT is closely related to poor prognosis of breast cancer. ZWINT may be a prognostic biomarker for the treatment of BC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Breast cancer is a malignant tumor originating from the mammary epithelial tissue. It is the leading cause of cancer deaths among women and the disease with the highest incidence of cancer among women in the world ( 1 ). Therefore, in-depth study of the pathogenesis of breast cancer, the search for potential therapeutic targets and prognostic evaluation of biomarkers has become a research hotspot in this field. Numerous studies reported that the Zw10 binding factor (Zeste White 10 interactor, ZWINT) encoded by the ZWINT gene is a protein that regulates centromere division. It is a key regulatory protein in mitotic checkpoints and could regulate the cell cycle ( 2 ). The cell cycle checkpoint could also regulate the cell cycle. When the cell cycle runs to the checkpoint, it will be tested. The previous phase is completed before entering the next phase ( 3 , 4 ). In addition, it has been reported that ZWINT is associated with chromosome instability (CIN), and the abnormal number of chromosomes caused by CIN is considered to be a marker for a variety of human malignancies ( 5 ). Therefore, we speculate that ZWINT and tumor development and development are closely related. Although it has been reported that ZWINT is expressed in many tumors [such as ovarian cancer ( 6 ), liver cancer ( 7 )], little research has been done on its expression in breast cancer.
+
+Oncomine is the world’s largest cancer gene chip database, which is also an integrated data mining platform. It has collected 715 gene expression data sets, 86,733 cancer tissues and normal tissue samples. The integrated literature and chip data of this platform are obtained due to high quality. Highly recognized by researchers. The Kaplan-Meier Plotter database is currently an extensive online database for prognosis analysis, covering more than 5,100 breast cancer samples, with a prognostic analysis of nearly 55 thousand genes and more objective results.
+
+Oncomine database and Kaplan-Meier Plotter database were used in this study to delve into the ZWINT’s expression in BC and its impact on the prognosis, which provided clues for further study on the mechanism of breast cancer development.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+The expression of ZWINT gene in different types of cancers is defined in the Oncomine database ( https://www.oncomine.org/resource/login.html ) ( 8 ). The threshold is determined based on the following values, with the P value of 0.001, the fold changes of 2, and genes ranking of all.
+
+Using 10,461 cancer samples, the Kaplan-Meier plotter was able to assess the effect of 54,675 genes on survival. These cancer samples consisted of 5,143 breast cancer, 1,816 ovarian cancer, 2,437 lung cancer and 1,065 gastric cancer, which were located on the HGU133 Plus 2.0 array, respectively. The mean follow-up time of these cancer samples was 69, 40, 49 and 33 months, respectively. Kaplan-Meier plotter was also used to analyze the relationship between ZWINT expression and survival rates of breast cancer, ovarian cancer, lung cancer and gastric cancer ( http://kmplot.com/analysis/ ) ( 9 ). The hazard ratio (HR) of 95% confidence interval (CI) and logarithmic rank P was calculated.
+
+Approval was waived by the local ethics committee, as Oncomine database and Kaplan-Meier plotter database are publicly available and de-identified.
+
+Survival curve is generated by Kaplan-Meier plots. The results generated in Oncomine showed P values, fold changes and grades. The results of Kaplan-Meier plot showed that HR and P<0.05 were considered to be statistically significant.
+
+
+Oncomine database analysis
+
+The expression of ZWINT gene in different types of cancers is defined in the Oncomine database ( https://www.oncomine.org/resource/login.html ) ( 8 ). The threshold is determined based on the following values, with the P value of 0.001, the fold changes of 2, and genes ranking of all.
+
+
+Kaplan-Meier plotter database analysis
+
+Using 10,461 cancer samples, the Kaplan-Meier plotter was able to assess the effect of 54,675 genes on survival. These cancer samples consisted of 5,143 breast cancer, 1,816 ovarian cancer, 2,437 lung cancer and 1,065 gastric cancer, which were located on the HGU133 Plus 2.0 array, respectively. The mean follow-up time of these cancer samples was 69, 40, 49 and 33 months, respectively. Kaplan-Meier plotter was also used to analyze the relationship between ZWINT expression and survival rates of breast cancer, ovarian cancer, lung cancer and gastric cancer ( http://kmplot.com/analysis/ ) ( 9 ). The hazard ratio (HR) of 95% confidence interval (CI) and logarithmic rank P was calculated.
+
+Approval was waived by the local ethics committee, as Oncomine database and Kaplan-Meier plotter database are publicly available and de-identified.
+
+
+Statistical analysis
+
+Survival curve is generated by Kaplan-Meier plots. The results generated in Oncomine showed P values, fold changes and grades. The results of Kaplan-Meier plot showed that HR and P<0.05 were considered to be statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To determine the difference of ZWINT expression between tumors and normal tissues, the oncogenic amine database was used to analyze the expression level of ZWINT mRNA in different tumors and normal tissues of different types of tumors. The expression of ZWINT in breast cancer, lung cancer, sarcoma, ovarian cancer, bladder cancer, liver cancer and cervical cancer was higher than that in normal tissues ( Figure 1 ). In addition, the expression of ZWINT was lower in gastric cancer, prostate cancer, myeloma, renal cancer and pancreatic cancer in certain data sets. In the database, ZWINT gene was highly expressed in 75 studies. Fourteen studies were related to breast cancer.
+
+The expression pattern of ZWINT in different types of tumors. The number of data sets shown in this graph belongs to the over-expression (red) or down-expression (blue) of target genes (cancer and normal tissues), which is of statistical significance. The threshold of P value is 0.01. The number in each cell is the number of analyses that satisfy these thresholds in the cancer type. Of all the genes measured in each study, the rank of the gene was related to the percentage of the target gene. Cell color depends on the percentile of optimal gene sequencing for intracellular analysis.
+
+ONCOMINE analysis demonstrated that the expression of ZWINT in breast cancer was significantly higher than that in normal cells. In one set of data, ZWINT transcripts in 137 samples of TCGA (Cancer Genome Mapping) database ( Figure 2A ) increased by 4.133 times compared with normal tissues. In the study of Zhao ( 10 ), ZWINT in breast cancer samples increased by 2.313f (P=1.09e−8) compared with normal tissue ( Figure 2B ).
+
+GATA family analysis in Breast cancer (ONCOMINE database). The box plot is derived from gene expression data in ONCOMINE, showing different expression of ZWINT in normal tissues and breast cancer tissues. The P value is 0.01 and the fold change is 2.
+
+By meta-analysis of 22 studies in oncology database, ZWINT gene ranked 412 out of all differentially expressed genes, showing significant overexpression in breast cancer tissues compared with normal tissues (P=4.05E−6) ( Figure 2C ). The results of these 22 studies were published in the journals such as Mol Biol Cell ( 10 ), Proc Natl Acad Sci USA ( 11 ), Nature ( 12 , 13 ), Breast Cancer Res ( 14 ), BMC Cancer ( 15 ), Cancer Cell ( 16 ), Breast Cancer Res Treat ( 17 ), and Nat Med ( 18 ).
+
+We examined whether the expression of ZWINT was related to the prognosis of breast cancer patients. The effect of the ZWINT representation on the survival rate was evaluated using the Kaplan-Meier plotter database. Note that the expression of ZWINT significantly affects the prognosis of breast cancer. As a result, in the case of all BC patients, the high expression of the ZWINT mRNA was related to worse overall survival (OS) (HR =1.73, 95% CI: 1.39–2.51, P=5.4×10 −7 ), RFS (HR =1.68, 95% CI: 1.51–1.88, P<1×10 −16 ) and distant metastasis-free survival (DMFS) (HR =1.55, 95% CI: 1.28–1.89, P=7.9×10 −6 ) in all BC patients ( Figure 3 ). Therefore, the ZWINT high expression is an independent risk factor and is thought to cause poor prognosis in patients with BC.
+
+Prognostic value of ZWINT in breast cancer. In all breast cancer patients, the high mRNA levels of ZWINT are associated with worse OS (A)/RFS (B)/DMFS (C) in all patients with breast cancers. OS, overall survival; RFS, recurrence-free survival; DMFS, distant metastasis-free survival.
+
+
+The mRNA expression of ZWINT in various human cancers
+
+To determine the difference of ZWINT expression between tumors and normal tissues, the oncogenic amine database was used to analyze the expression level of ZWINT mRNA in different tumors and normal tissues of different types of tumors. The expression of ZWINT in breast cancer, lung cancer, sarcoma, ovarian cancer, bladder cancer, liver cancer and cervical cancer was higher than that in normal tissues ( Figure 1 ). In addition, the expression of ZWINT was lower in gastric cancer, prostate cancer, myeloma, renal cancer and pancreatic cancer in certain data sets. In the database, ZWINT gene was highly expressed in 75 studies. Fourteen studies were related to breast cancer.
+
+The expression pattern of ZWINT in different types of tumors. The number of data sets shown in this graph belongs to the over-expression (red) or down-expression (blue) of target genes (cancer and normal tissues), which is of statistical significance. The threshold of P value is 0.01. The number in each cell is the number of analyses that satisfy these thresholds in the cancer type. Of all the genes measured in each study, the rank of the gene was related to the percentage of the target gene. Cell color depends on the percentile of optimal gene sequencing for intracellular analysis.
+
+
+Expression of ZWINT in breast cancer and normal breast tissue
+
+ONCOMINE analysis demonstrated that the expression of ZWINT in breast cancer was significantly higher than that in normal cells. In one set of data, ZWINT transcripts in 137 samples of TCGA (Cancer Genome Mapping) database ( Figure 2A ) increased by 4.133 times compared with normal tissues. In the study of Zhao ( 10 ), ZWINT in breast cancer samples increased by 2.313f (P=1.09e−8) compared with normal tissue ( Figure 2B ).
+
+GATA family analysis in Breast cancer (ONCOMINE database). The box plot is derived from gene expression data in ONCOMINE, showing different expression of ZWINT in normal tissues and breast cancer tissues. The P value is 0.01 and the fold change is 2.
+
+By meta-analysis of 22 studies in oncology database, ZWINT gene ranked 412 out of all differentially expressed genes, showing significant overexpression in breast cancer tissues compared with normal tissues (P=4.05E−6) ( Figure 2C ). The results of these 22 studies were published in the journals such as Mol Biol Cell ( 10 ), Proc Natl Acad Sci USA ( 11 ), Nature ( 12 , 13 ), Breast Cancer Res ( 14 ), BMC Cancer ( 15 ), Cancer Cell ( 16 ), Breast Cancer Res Treat ( 17 ), and Nat Med ( 18 ).
+
+
+Prognostic value in ZWINT breast cancer
+
+We examined whether the expression of ZWINT was related to the prognosis of breast cancer patients. The effect of the ZWINT representation on the survival rate was evaluated using the Kaplan-Meier plotter database. Note that the expression of ZWINT significantly affects the prognosis of breast cancer. As a result, in the case of all BC patients, the high expression of the ZWINT mRNA was related to worse overall survival (OS) (HR =1.73, 95% CI: 1.39–2.51, P=5.4×10 −7 ), RFS (HR =1.68, 95% CI: 1.51–1.88, P<1×10 −16 ) and distant metastasis-free survival (DMFS) (HR =1.55, 95% CI: 1.28–1.89, P=7.9×10 −6 ) in all BC patients ( Figure 3 ). Therefore, the ZWINT high expression is an independent risk factor and is thought to cause poor prognosis in patients with BC.
+
+Prognostic value of ZWINT in breast cancer. In all breast cancer patients, the high mRNA levels of ZWINT are associated with worse OS (A)/RFS (B)/DMFS (C) in all patients with breast cancers. OS, overall survival; RFS, recurrence-free survival; DMFS, distant metastasis-free survival.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+According to the latest report of the American Cancer Association, the incidence of female breast cancer in 2007–2013 has risen. From 1989 to 2015, the death rate of breast cancer in America has fallen by about 39 percent ( 19 ). According to the study, this may be due to the development of human epidermal growth factor receptor 2, vascular endothelial growth factor and epidermal growth factor receptor and the application of targeted drugs to the treatment of breast cancer ( 20 - 22 ). However, since these target points exist only in some breast cancer patients, it is important to develop key targets for breast cancer development and to develop new target drugs for breast cancer treatment.
+
+The ZWINT protein, encoded by the ZWINT gene, is a protein that regulates centromere division. It binds to Zw10 and colocalizes on the centromere and attaches to the microtubules of chromosomes and spindles. It is a chromosomal movement and mitotic checkpoint, which is an important regulatory protein that is associated with chromosomal instability (CIN). The abnormal number of chromosomes caused by CIN is considered to be a marker for many human malignancies ( 13 ). ZWINT has been reported to be overexpressed in different human cancers, but there are fewer studies in breast cancer.
+
+This study employed independent data sets from the Oncomine database and Kaplan-Meier plotter databases to detect the expression levels of ZWINT and prognostic landscape in breast cancer. In this study, differential expression of ZWINT was observed between tumors and normal tissues. Based on the Oncomine database, we found that the expression of ZWINT in breast cancer, lung cancer, sarcoma, ovarian cancer, bladder cancer, liver cancer and cervical cancer was higher than that in normal tissues, while other data sets showed that the expression of ZWINT was lower in gastric, prostate, myeloma, kidney and pancreatic cancers ( Figure 1 ). By further analyzing the expression of ZWINT in breast cancer and normal breast tissue, we found that the expression of ZWINT in breast cancer was significantly higher than that in normal breast tissue. In addition, meta-analysis showed that ZWINT gene ranked 412 out of all differentially expressed genes, and its expression in breast cancer tissues was much higher than that in normal tissues (P=4.05×10 −6 ) ( Figure 2C ). In addition, data analysis by Kaplan-Meier plotter showed that high expression of ZWINT was associated with high HR of OS, recurrence-free survival (RFS) and DMFS ( Figure 3 ). The reason may be that breast cancer occurs in vivo, making the expression of ZWINT gene increase, which in turn increases the growth, migration or invasion of tumors. Consequently, this is not conducive to the prognosis of patients ( 23 ), but its specific expression in vivo is significantly increased. In conclusion, these findings suggest that high expression of ZWINT is associated with poor prognosis of breast cancer, and ZWINT can be a biomarker of prognosis of breast cancer. Peng et al. ( 24 ) indicated that Knockdown of ZWINT inhibited cell behavior and growth. Meanwhile, ZWINT knockdown also retrained tumor volume in vivo. They think ZWINT may be a novel target for lung cancer therapy. However, whether ZWINT is a new target for breast cancer treatment requires further study.
+
+In conclusion, the expression of ZWINT in breast cancer was significantly higher than that in normal control group, and the survival rate of breast cancer patients was lower. ZWINT can be considered as a specific biomarker and an important prognostic factor for breast cancer.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

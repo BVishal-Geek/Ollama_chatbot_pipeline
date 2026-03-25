@@ -1,0 +1,139 @@
+================================================================================
+ARTICLE TITLE: microRNA-195 Promotes Small Cell Lung Cancer Cell Apoptosis via Inhibiting Rap2C Protein-Dependent MAPK Signal Transduction
+PMCID: PMC7734482
+PMID: 33302819
+KEYWORDS: microrna-195, rap2c, mapk pathway, small cell lung cancer, apoptosis and proliferation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+This study aimed to explore the influences of microRNA-195 (miRNA-195)/Rap2C/MAPK in the proliferation and apoptosis of small cell lung cancer (SCLC) cells. QRT-PCR analysis were executed to evaluate miRNA-195 expression in lung cancer tissues and SCLC cells, and the western blot was implemented to monitor Rap2C protein level and uncovered whether the MAPK signaling pathway in lung cancer tissues and SCLC cells was activated. The CCK-8 experiment was performed to detect cell proliferation ability, and the flow cytometry was utilized to examine cell apoptosis level. Luciferase reporter gene system was executed to disclose the interaction between miRNA-195 and Rap2C. Subcutaneous implantation mouse models of SCLC cells were constructed to detect cell proliferation in vivo, and Kaplan-Meier method calculated patient survival. The expression of Rap2C was higher in lung cancer tissues and SCLC cells than in normal tissues and cells, while the expression of miRNA-195 was lower in lung cancer tissues and SCLC cells than in normal tissues and cells. miRNA-195 lower expression predicted showed reduced overall survival in lung cancer patients. Further loss of function and enhancement experiments revealed that miRNA-195 overexpression could significantly inhibit SCLC cell proliferation and promote cell apoptosis by upregulation of Bax and down-regulation of bcl-2; Luciferase reporter assay demonstrated that miRNA-195 could bind to Rap2C mRNA and inhibit its expression, Rap2C overexpression also related to the poorer prognosis of lung patients. Knockdown of Rap2C suppressed cell proliferation and expedited apoptosis. In addition, overexpression of Rap2C reversed miRNA-195-induced apoptosis and proliferation inhibition. Furthermore, miRNA195 prohibited the activation of MAPK signaling pathway by down-regulating Rap2C. These consequences indicated that miRNA-195 promotes the apoptosis and inhibits the proliferation of small cell lung cancer (SCLC) cells via inhibiting Rap2C protein-dependent MAPK signal transduction
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Lung cancer is a malignant tumor with the highest morbidity and mortality in the world at present, 1 , 2 and it is increasing year by year. 3 Lung cancer can be divided into small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC), of which SCLC accounts for 15% to 20% of the toal lung cancers. 4 SCLC is a a kind of malignant epithelial tumor composed of small cells, with high invasiveness, early metastasis, high recurrence rate and drug resistance and other clinicopathological characteristics. 5 The current therapeutic effect of small cell lung cancer is poor, with an overall survival rate of less than 6 months. 6 Therefore, the treatment and prognosis of lung cancer are still important medical problems and challenges. To explore the pathogenesis of lung cancer is important in promoting the treatment and prevention of lung cancer.
+
+MicroRNA (miRNA) is a large number of non-coding small RNAs, which could inhibit the expression of nearly one-third of human genes at the transcription and translation levels by combining with the 3’-UTR region of the target gene mRNA. 7 An increasing number of studies indicate that miRNA mediates many biological processes, including tumorigenesis. Studies have pointed out that miRNA-195 has guiding significance for the diagnosis and prognosis of NSCLC, and participates in regulating the development of NSCLC, 8 , 9 however, the role of miRNA-195 in SCLC has not been unreported.
+
+Rap2 is a Ras-related protein, which belongs to the GTP-binding protein family. Studies have pointed out that Rap2A, 2B and 2C all play a crucial role in the development and progression of tumors including osteosarcoma, 10 colorectal cancer 11 and breast cancer. 12 Nevertheless, the regulation of Rap2C on SCLC has not been reported yet. Ras-MAPK signaling pathway plays an important role in NSCLC, 13 but there are few researches of Ras-MAPK on SCLC. Rap2C is a Ras-related protein, which may affect the development of SCLC by modulating MAPK pathway. This study explores the effects of miRNA-195 and Rap2C-MAPK signaling pathway on SCLC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Tumor tissues and paired non-cancerous tissues were collected from 40 SCLC patients who underwent surgery in our hospital from march 1, 2015 to November 30, 2019 . Clinicopathological data, including age, gender, tumor size, and TNM stage, were collected and tumor stage was assessed according to international TNM classification ( Table 1 ). All these patients were diagnosed for the first time, without obvious distal metastatic lesions and preoperative radiotherapy or chemotherapy, moreover pathologically identified as SCLC, and the malignancy degree was evaluated in accordance with international TNM clinical staging criteria. The experiment was consented by the ethics committee of our hospital(NO.ERC-20233). All patients signed the informed consent to participate in this study according to the declaration of helsinki.
+
+The Relationship Between Expression Level of miRNA-195 and Clinical Characteristics in Lung Cancer (n = 40).
+
+Human respiratory tract epithelial cell line (BEAS-2B) and SCLC cell lines (NCI-H446 and NCI-H526) were purchased from ATCC, which were placed in a humidified cell incubator (37°C) with 5% CO 2 , using a DMEM medium with 10% FBS, 100 U/ml penicillin and 100 lg /ml streptomycin. miRNA-195 mimic and inhibitor, and plasmid were transfected using lipo2000 transfection reagent according to the instructions.
+
+6-8 weeks, male BALB/c nude mice was purchased from Viton Lihua and the mice were prepared to undergo tumor-bearing experiments 3-5 days after resting in the animal room. After digestion and resuspension, A total 1 × 106 cells were subcutaneously injected under the armpit of the mouse. After 30 days, the mice were sacrificed . in the meantime, the tumors growing under the skin were taken out, photographed and weighed. This animal experiment was agreed by the Biomedical Research Ethics Committee of our hospital. All experimental procedures was supported by the Animal Protection and Use Committee of Zhejiang University and conformed the NIH guidelines on laboratory animal protection and safety. Under the standard environmental conditions (22-25°C temperature, 45-50% humidness and 12-hour light-dark cycle), all animals were raised separately with unrestricted access to food and water.
+
+Using Trizol reagent (15596026, Invitrogen, Car, Cal, USA) to extract total RNA from lung cancer tissues and SCLC cells, and the reversed transcription was implemented according to the specification of PrimeScript RT reagent Kit (RR047A, Takara, Japan). The DNA templates were quantified using Fast SYBR Green PCR reagent, and the synthesized cDNA Kit (Applied biosystems) was applyed to prepare the reaction system. Relying on ABI PRISM 7300 RT-PCR system (Applied biosystems), qRT-PCR detection was carried out, and each sample was set to 3 replicates. GAPDH served as an internal reference. miRNA expression level was determined using PrimeScript miRNA RT-PCR kit (Takara), which was normalized by U6. The relevant primer sequences utilized in qRT-PCR experiment were exhibited as follows: miR-195, forward 5′-CCT AGC AGC ACA GAA A-3′ and reverse 5′-GAG CAG GCT GGA GAA-3′; U6, forward 5′-CTC GCT TCG GCA GCA CAT A-3′ and reverse 5′-CGC TTC ACG AAT TTG CGT G-3′. 14 
+
+The cells were collected after digestion and centrifugation, and an appropriate amount of RIPA lysis buffer together with protease inhibitor (Roche, Meylan, France) was added according to the number of cells. The lysis was disposed for 30 minutes on the ice. After centrifugation at 13000 rpm for 20 minutes, the supernatant of the lysate was obtained. The protein concentration was assessed using BCA Protein Assay kit (Beyotime Institute of Biotechnology). The samples were boiled for 10 minutes, then SDS-PAG was performed. After electrophoresis is finished, the protein was transferred to to a PVDF membrane (Millipore, Billerica, MA, USA) through a semi-dry transfer instrument. The membranes were incubated in 5% skim milk-TBST at room temperature for 1 h, and then rinsed 3 times with TBST buffer for 5 minutes. The corresponding first antibody was added and incubated at 4°c shaking table. overnight. Next day, these primary antibodies were recovered, and TBST was utilized to rinse the membrane for 5 minutes (3 times). The secondary antibody was added and incubated for 1 hour at a room temperature, and rinsed 3 times with TBST for 5 minutes. Next, the enhanced chemiluminescence (ThermoFisher Scientific) was added and the obtained images were analyzed by chemiluminescence imager Chemi-Scope mini imagingsystem (Clinx Science). ImageJ software (National Institutes of Health) was applied for quantificational analysis . Antibodies of Rap2C (Abcam, Cambridge, MA, USA; 1: 1000), Bax, Bcl-2, p-ERK, ERK, p-JNK, JNK, p-p38, p38 and GAPDH (Cell signaling Technology, Danvers, MA, USA; 1: 1000) were used in this experiment.
+
+The synthetic Rap2C 3′UTR gene fragment was imported into pMIR-reporter gene (Huayueyang Biotechnology, Beijing, China). In consonance with the Rap2C-WT binding site, the mutation of Rap2C-MUT binding site was designed. These composite vectors of Rap2C-WT and MUT were co-transfected into HEK293 T cells (Beinuo Biotechnology, Shanghai, China). After 48 hours transfection, the fluorescence intensity was monitored using a correlative luciferase kit (K801-200; Biovision, Mountain View, CA, USA).
+
+Cell proliferation was determined using CCK-8 (Dojindo Laboratories, Japan). The cells with logarithmic growth were digested with 0.25% trypsin and gently blew into a single cell. 1 × 10 4 cells were collected and cell viability was detected by CCK-8 method. After culture, 10 µl CCK-8 reagent was added to each well and incubated at 37 °C for another 4 h. Optical density (OD) values were measured at 450 nm.
+
+After 48 hours transfection and digestion, cells were collected and adjusted to 1 × 10 6 cells/mL. These cells (1 ml) were centrifuged at 1500 rpm for 10 minutes. After discarding the supernatant 2 mL PBS was added to the cells. After this, pre-cooled 70% ethanol was utilized to fix these cells at 4°C overnight. After twice washed with PBS, cells were resuspended utilizing 200 µL binding buffer, and then the mixture of Annexin V-FITC (10 μl, ab14085, Abcam, Inc, USA) and PI (5 μl) were added into above cells. After keeping out of the light 15 min at circumambient temperature, the 300 µl binding buffer was supplemented in above reaction system, and the ratio of SCLC cell apoptosis was evaluated through flow cytometry.
+
+The statistical data from the research was analyzed employing SPSS 21.0 (IBM, USA) software, which was exhibited as the mean ± SD. First, the normality and variance homogeneity tests were carried out. The test conforms to the normal distribution and the variance was uniform. The unpaired t test was utilized to analyze the difference between 2 groups. and 1-way ANOVA was used for comparison between groups. Kaplan-Meier method was manipulated to figure up the survival rate of lung cancer patients, and the log-rank test was wielded for univariate analysis. Pearson correlation analysis was implemented to observe the dependency of indicators. ** p < 0.01 represented as the significant different consequences.
+
+
+Clinical Sample Collection
+
+Tumor tissues and paired non-cancerous tissues were collected from 40 SCLC patients who underwent surgery in our hospital from march 1, 2015 to November 30, 2019 . Clinicopathological data, including age, gender, tumor size, and TNM stage, were collected and tumor stage was assessed according to international TNM classification ( Table 1 ). All these patients were diagnosed for the first time, without obvious distal metastatic lesions and preoperative radiotherapy or chemotherapy, moreover pathologically identified as SCLC, and the malignancy degree was evaluated in accordance with international TNM clinical staging criteria. The experiment was consented by the ethics committee of our hospital(NO.ERC-20233). All patients signed the informed consent to participate in this study according to the declaration of helsinki.
+
+The Relationship Between Expression Level of miRNA-195 and Clinical Characteristics in Lung Cancer (n = 40).
+
+
+Cell Culture and Transfection
+
+Human respiratory tract epithelial cell line (BEAS-2B) and SCLC cell lines (NCI-H446 and NCI-H526) were purchased from ATCC, which were placed in a humidified cell incubator (37°C) with 5% CO 2 , using a DMEM medium with 10% FBS, 100 U/ml penicillin and 100 lg /ml streptomycin. miRNA-195 mimic and inhibitor, and plasmid were transfected using lipo2000 transfection reagent according to the instructions.
+
+
+In Vivo Tumorigenesis Assay
+
+6-8 weeks, male BALB/c nude mice was purchased from Viton Lihua and the mice were prepared to undergo tumor-bearing experiments 3-5 days after resting in the animal room. After digestion and resuspension, A total 1 × 106 cells were subcutaneously injected under the armpit of the mouse. After 30 days, the mice were sacrificed . in the meantime, the tumors growing under the skin were taken out, photographed and weighed. This animal experiment was agreed by the Biomedical Research Ethics Committee of our hospital. All experimental procedures was supported by the Animal Protection and Use Committee of Zhejiang University and conformed the NIH guidelines on laboratory animal protection and safety. Under the standard environmental conditions (22-25°C temperature, 45-50% humidness and 12-hour light-dark cycle), all animals were raised separately with unrestricted access to food and water.
+
+
+Quantitative Real-Time PCR
+
+Using Trizol reagent (15596026, Invitrogen, Car, Cal, USA) to extract total RNA from lung cancer tissues and SCLC cells, and the reversed transcription was implemented according to the specification of PrimeScript RT reagent Kit (RR047A, Takara, Japan). The DNA templates were quantified using Fast SYBR Green PCR reagent, and the synthesized cDNA Kit (Applied biosystems) was applyed to prepare the reaction system. Relying on ABI PRISM 7300 RT-PCR system (Applied biosystems), qRT-PCR detection was carried out, and each sample was set to 3 replicates. GAPDH served as an internal reference. miRNA expression level was determined using PrimeScript miRNA RT-PCR kit (Takara), which was normalized by U6. The relevant primer sequences utilized in qRT-PCR experiment were exhibited as follows: miR-195, forward 5′-CCT AGC AGC ACA GAA A-3′ and reverse 5′-GAG CAG GCT GGA GAA-3′; U6, forward 5′-CTC GCT TCG GCA GCA CAT A-3′ and reverse 5′-CGC TTC ACG AAT TTG CGT G-3′. 14 
+
+
+Western Blot
+
+The cells were collected after digestion and centrifugation, and an appropriate amount of RIPA lysis buffer together with protease inhibitor (Roche, Meylan, France) was added according to the number of cells. The lysis was disposed for 30 minutes on the ice. After centrifugation at 13000 rpm for 20 minutes, the supernatant of the lysate was obtained. The protein concentration was assessed using BCA Protein Assay kit (Beyotime Institute of Biotechnology). The samples were boiled for 10 minutes, then SDS-PAG was performed. After electrophoresis is finished, the protein was transferred to to a PVDF membrane (Millipore, Billerica, MA, USA) through a semi-dry transfer instrument. The membranes were incubated in 5% skim milk-TBST at room temperature for 1 h, and then rinsed 3 times with TBST buffer for 5 minutes. The corresponding first antibody was added and incubated at 4°c shaking table. overnight. Next day, these primary antibodies were recovered, and TBST was utilized to rinse the membrane for 5 minutes (3 times). The secondary antibody was added and incubated for 1 hour at a room temperature, and rinsed 3 times with TBST for 5 minutes. Next, the enhanced chemiluminescence (ThermoFisher Scientific) was added and the obtained images were analyzed by chemiluminescence imager Chemi-Scope mini imagingsystem (Clinx Science). ImageJ software (National Institutes of Health) was applied for quantificational analysis . Antibodies of Rap2C (Abcam, Cambridge, MA, USA; 1: 1000), Bax, Bcl-2, p-ERK, ERK, p-JNK, JNK, p-p38, p38 and GAPDH (Cell signaling Technology, Danvers, MA, USA; 1: 1000) were used in this experiment.
+
+
+Dual Luciferase Reporter Gene System
+
+The synthetic Rap2C 3′UTR gene fragment was imported into pMIR-reporter gene (Huayueyang Biotechnology, Beijing, China). In consonance with the Rap2C-WT binding site, the mutation of Rap2C-MUT binding site was designed. These composite vectors of Rap2C-WT and MUT were co-transfected into HEK293 T cells (Beinuo Biotechnology, Shanghai, China). After 48 hours transfection, the fluorescence intensity was monitored using a correlative luciferase kit (K801-200; Biovision, Mountain View, CA, USA).
+
+
+CCK-8 Assay
+
+Cell proliferation was determined using CCK-8 (Dojindo Laboratories, Japan). The cells with logarithmic growth were digested with 0.25% trypsin and gently blew into a single cell. 1 × 10 4 cells were collected and cell viability was detected by CCK-8 method. After culture, 10 µl CCK-8 reagent was added to each well and incubated at 37 °C for another 4 h. Optical density (OD) values were measured at 450 nm.
+
+
+Apoptosis Detection
+
+After 48 hours transfection and digestion, cells were collected and adjusted to 1 × 10 6 cells/mL. These cells (1 ml) were centrifuged at 1500 rpm for 10 minutes. After discarding the supernatant 2 mL PBS was added to the cells. After this, pre-cooled 70% ethanol was utilized to fix these cells at 4°C overnight. After twice washed with PBS, cells were resuspended utilizing 200 µL binding buffer, and then the mixture of Annexin V-FITC (10 μl, ab14085, Abcam, Inc, USA) and PI (5 μl) were added into above cells. After keeping out of the light 15 min at circumambient temperature, the 300 µl binding buffer was supplemented in above reaction system, and the ratio of SCLC cell apoptosis was evaluated through flow cytometry.
+
+
+Statistical Analysis
+
+The statistical data from the research was analyzed employing SPSS 21.0 (IBM, USA) software, which was exhibited as the mean ± SD. First, the normality and variance homogeneity tests were carried out. The test conforms to the normal distribution and the variance was uniform. The unpaired t test was utilized to analyze the difference between 2 groups. and 1-way ANOVA was used for comparison between groups. Kaplan-Meier method was manipulated to figure up the survival rate of lung cancer patients, and the log-rank test was wielded for univariate analysis. Pearson correlation analysis was implemented to observe the dependency of indicators. ** p < 0.01 represented as the significant different consequences.
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+As a malignant tumor with the highest morbidity and mortality in the world, lung cancer severely affects human health. Due to the limitations of current diagnosis and treatment, the prognosis of lung cancer are still poor. Therefore, studying the mechanism of occurrence and development of lung cancer and developing new drug targets has become a major scientific problem to be solved urgently. 15 , 16 
+
+A growing amount of research have shown that miRNA play an important role in the occurrence and development of tumors. In this stdy, we found that miRNA-195 expression was decreased in lung cancer, and overexpression of miRNA-195 could inhibit SCLC cell proliferation and accelerated apoptosis. Therefore, miRNA-195 may be a potential target for SCLC tumorigenesis.
+
+Rap2 is a Ras-related protein, which belongs to the GTP-binding protein family. Studies have pointed out that Rap2A, 2B and 2C are all important for the initiation and development of tumors, including osteosarcoma, 10 colorectal cancer, 11 breast cancer. 12 In our study, we discovered that Rap2C was highly expressed in SCLC tissues and cells. Rap2C was predicated as a downstream target gene of miRNA-195. Moreover, miRNA-195 could inhibit the proliferation and promote the apoptosis of small-cell lung cancer cells by directly binding to the upstream region of Rap2C. Furthermore, Knockdown of Rap2C could subdue the SCLC cell proliferation and expedited apoptosis, suggesting that Rap2C may be likely to modulate the pathogenetic process of SCLC.
+
+We further explored the underlying mechanism of miRNA-195/Rap2C in modulating SCLC. Ras-MAPK signaling pathway has been demonstrated to play an important role in NSCLC. 13 Rap2C is a Ras-related protein, which may regulate the MAPK signaling pathway. Therefore, MAPK signaling pathway was detected and the results showed that miRNA-195 could inhibit MAPK signaling pathway activation through down-regulatig Rap2C.
+
+This study proposed for the first time the regulatory effect of miRNA-195/Rap2C/MAPK axis on SCLC, which has a guiding effect on the development of drugs to treat lung cancer. At present, there are few types of lung cancer drugs, and the treatment effect is poor. This study suggests that miRNA-195 and Rap2C may be potential drug targets for the treatment of SCLC. MiRNA195 expression can be artificially increased in vivo to inhibit the expression level of Rap2C, and the enzyme activity inhibitor of Rap2C can also be designed to achieve the purpose of treating SCLC.
+
+In addition, because of the difficulty in the diagnosis of SCLC, there is still a lack of relatively simple and convenient diagnostic indicators. This work reminds that the down-regulation of miRNA-195 in serum may serve as a biomarker for diagnosis and prediction of the prognosis of lung cancer patients. 17 , 18 Additionally, Rap2C overexpression could activate the serum response element (SRE), 19 which in turn evokes the up-regulation of a series of genes. Based on this, changes in serum level of SRE downstream target genes can be screened to find biomarkers that can be used to guide the diagnosis and prognosis of SCLC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

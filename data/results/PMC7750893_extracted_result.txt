@@ -1,0 +1,19 @@
+Source: PMC7750893_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Expression and Possible Molecular Mechanisms of microRNA-205-5p in Patients With Head and Neck Squamous Cell Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Plasma samples were collected from 15 HNSCC patients and 12 healthy people.",
+  "N_E": 1,
+  "N_E_reason": "15 HNSCC patients were included in the study.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

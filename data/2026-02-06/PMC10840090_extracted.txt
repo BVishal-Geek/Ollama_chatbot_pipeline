@@ -1,0 +1,65 @@
+================================================================================
+ARTICLE TITLE: Automatically Identifying Financial Stress Information from Clinical Notes for Patients with Prostate Cancer
+PMCID: PMC10840090
+PMID: 38317775
+KEYWORDS: financial stress, prostate cancer, natural language processing, electronic health record
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Financial stress, one of the social determinants, is common among cancer patients because of high out-ofpocket costs for treatment, as well as indirect costs. The National Academy of Medicine (NAM) has advised providers to recognize and discuss cost concerns with patients in order to enhance shared decision-making for treatment and exploration of financial assistant programs. However, financial stress is rarely assessed in clinical practice or research, thus, under-coded and under-documented in clinical practice. Natural language processing (NLP) offers great potential that can automatically extract and process data on financial stress from clinical free text existing in the patient electronic health record (EHR).
+
+Methods::
+We developed and evaluated an NLP approach to identify financial stress from clinical narratives for patients with prostate cancer. Of 4,195 eligible prostate cancer patients, we randomly sampled 3,138 patients (75%) as a training dataset (150,990 documents) to develop a financial stress lexicon and NLP algorithms iteratively. The remaining 1,057 patients (25%) were used as a test dataset (55,516 documents) to evaluate the NLP algorithm performance. The common terms representing financial stress were “financial concerns,” “unable to afford,” “insurance issue,” “unemployed,” and “financial assistance.” Negations were used to exclude false mentions of financial stress.
+
+Results::
+Applying both pre- and post-negation, the NLP algorithm identified 209 patients (6.0%) from the training sample and 66 patients (6.2%) with 161 notes from the test sample as having documented financial stress. Two independent domain experts manually reviewed all 161 notes with NLP identified positives and randomly selected 161 notes with NLP-identified negatives, the NLP algorithm yielded 0.86 for precision, 1 for recall, and 0.9.2 for F-score.
+
+Conclusions::
+Financial stress information is not commonly documented in the EHR, neither in structured format nor in clinical narratives. However, natural language processing can accurately extract financial stress information from clinical notes when such narrative information is available.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

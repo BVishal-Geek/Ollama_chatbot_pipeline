@@ -1,0 +1,19 @@
+Source: PMC8480365_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Oncogenic Roles of RAD51AP1 in Tumor Tissues Related to Overall Survival and Disease-Free Survival in Hepatocellular Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical data including liver function parameters and clinicopathological features of HCC patients were considered.",
+  "N_E": 1,
+  "N_E_reason": "In the TCGA dataset, 361 HCC patients were included in the analysis after matching tumor pathological type and gene expression data.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data available in TCGA and GEO datasets.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

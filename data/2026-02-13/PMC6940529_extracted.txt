@@ -1,0 +1,65 @@
+================================================================================
+ARTICLE TITLE: Prediction of Polyp Pathology Using Convolutional Neural Networks Achieves ‘Resect and Discard’ Thresholds
+PMCID: PMC6940529
+PMID: 31651444
+KEYWORDS: deep machine learning, colorectal cancer screening, pivi, optical pathology
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Introduction:
+Reliable in situ diagnosis of diminutive (≤ 5 mm) colorectal polyps could allow for “resect and discard” and “diagnose and leave” strategies resulting in one billion dollars in cost savings per year in the U.S. alone. Current methodologies have failed to consistently meet the Preservation and Incorporation of Valuable endoscopic Innovations (PIVI) initiative thresholds. Convolutional neural networks (CNN) have the potential to predict polyp pathology and achieve PIVI thresholds in real-time.
+
+Methods:
+We developed a CNN-based optical pathology (OP) model using Tensorflow and pre-trained on ImageNet, capable of operating at 77 frames per second. 6223 images of unique colorectal polyps of known pathology, location, size, and light source (white light [WL] or narrow band imaging [NBI]) underwent 5-fold cross training (80%) and validation (20%). Separate fresh validation was performed on 634 polyp images. Surveillance intervals were calculated, comparing OP vs. true pathology (TP).
+
+Results:
+In the original validation set, the negative predictive value (NPV) for adenomas was 97% among diminutive rectum/rectosigmoid polyps. Results were independent of use of NBI or WL. Surveillance interval concordance comparing OP and TP was 93%. In the fresh validation set, NPV was 97% among diminutive polyps in the rectum and rectosigmoid and surveillance concordance was 94%.
+
+Conclusion::
+This study demonstrates the feasibility of in situ diagnosis of colorectal polyps using CNN. Our model exceeds PIVI thresholds for both “resect and discard” and “diagnose and leave” strategies independent of NBI use. Point-of-care adenoma detection rate and surveillance recommendations are potential added benefits.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

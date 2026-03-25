@@ -1,0 +1,19 @@
+Source: PMC7711225_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "The Combined Detection of Immune Genes for Predicting the Prognosis of Patients With Non-Small Cell Lung Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "Relevant clinical information including survival time, survival status, age, gender, TNM stage, and recurrence was extracted from the downloaded clinical data.",
+  "N_E": 1,
+  "N_E_reason": "In the training set, the gene expression data of LUAD involved 535 tumor samples and for LUSC, 502 tumor samples.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data was downloaded from TCGA and GEO databases, which are publicly accessible.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

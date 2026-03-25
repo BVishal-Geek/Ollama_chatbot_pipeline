@@ -1,0 +1,19 @@
+Source: PMC7586031_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Prediction of Poor Prognosis of HCC by Early Warning Model for Co-Expression of miRNA and mRNA Based on Bioinformatics Analysis",
+  "condition_E": 1,
+  "condition_E_reason": "Data on clinical characteristic and miRNA and mRNA gene expression of HCC patients were downloaded from The Cancer Genome Atlas (TCGA) database.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

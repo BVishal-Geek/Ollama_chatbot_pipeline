@@ -1,0 +1,142 @@
+================================================================================
+ARTICLE TITLE: Implementation of Survivorship Care Plans in Patients With Glioblastoma
+PMCID: PMC7517766
+PMID: 33542848
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Background: The outcomes and survival of patients diagnosed with glioblastoma are improving due to advancements in therapy and better symptom management. Focusing on survivorship is an important initiative for these patients. A quality improvement project performed by an advanced practitioner in adults with glioblastoma evaluated the efficacy and utility of survivorship care plans (SCP). Providing patients and their families with SCPs gives them important information about their cancer, treatment, and follow-up management and care. Methods: Survivors of a glioblastoma who were receiving an oral alkylating agent and/or bevacizumab, as well as those who had completed these therapies within the past year were included. Patients had received surgery and radiation. The National Comprehensive Cancer Network (NCCN) Distress Thermometer and a pre- and postintervention survey evaluated knowledge, distress, and rate of follow-up care. Results: Over 2 months, 18 eligible participants received the SCP with a long-term care coaching appointment with an advanced practitioner. Knowledge pertaining to long-term effects of therapy and chemotherapy regimen improved. Ratings of overall distress and patient-reported primary care follow-up remained the same. Conclusion: Providing patients with glioblastoma with an SCP and an educational visit can improve knowledge pertaining to their chemotherapy regimens and long-term effects of therapy. This can result in more effective long-term management and care.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section with title(s) ['introduction', 'intro'] not found
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+METHODS
+
+An SCP is recommended in neuro-oncology based on evidence with the general oncology population. They are not used routinely in neuro-oncology, and it was anticipated that the use of this tool would affect the way patients are followed at our institution. The implementation of an SCP allowed for systematic education of patients so that they could receive more consistent care, both for their long-term effects of therapy and future disease prevention.
+
+This innovation occurred at the Preston Robert Tisch Brain Tumor Center (PRTBTC) at Duke, a hospital-based oncology clinic within a comprehensive cancer center at a large academic medical center in Durham, North Carolina. The staff of the PRTBTC includes six attending physicians, eleven advanced practitioners, and six clinic nurses. This team works closely with medical oncology teams throughout the country.
+
+This project used a convenience sample. Identification of prescheduled patients occurred through the electronic medical record. Patient participation was voluntary. Inclusion criteria consisted of any patient who had a pathological diagnosis of a glioblastoma who had completed surgery and radiation. They could have also received, or were receiving, chemotherapy with an oral alkylating agent and/or bevacizumab, as these patients have a greater than 6-month life expectancy. Exclusion criteria included inability to speak and disease progression on the day of SCP implementation. This project met the Duke University School of Nursing and Duke University Health System Institutional Review Board criteria for a declaration of exemption from review, as it did not meet the current descriptions for human subject research. Therefore, informed consent was not required for this quality improvement project.
+
+Participants completed an advanced practitioner–created pre- and postsurvey and the NCCN Distress Thermometer ( NCCN, 2018 ). Patients indicated their distress on a scale of 0 to 10, with 0 being no distress and 10 significant distress. Knowledge pertaining to diagnosis, chemotherapy regimen, indicators of recurrence, and long-term effects of therapy was assessed via pre- and postsurvey. Additionally, the survey evaluated patient satisfaction with their survivorship care and follow-up with their PCP.
+
+The survey asked patients to indicate their specific type of brain cancer and chemotherapy regimen. Patients were also asked to list late effects of therapy and symptoms that may be an indicator of disease recurrence, as well as their recommended follow-up care. To assess PCP follow-up, patients indicated if they currently had an appointment with their PCP. A Likert scale determined patients’ level of satisfaction with their brain tumor survivorship instruction and care.
+
+The seven-question pre- and postintervention survey took patients less than 10 minutes to complete at each visit. Face validity of the survey was assessed by the neuro-oncologists and advanced practitioners at the PRTBTC and pilot tested with five patients prior to use for evaluation of project outcomes. Descriptive statistics were used to analyze the data.
+
+This quality improvement project utilized a pre- and postdesign. Eighteen patients were identified for potential eligibility per standard clinic practice. All patients completed the NCCN Distress Thermometer per routine clinical care. After the routine clinic visit occurred, the advanced practitioner reviewed the project with the patient and provided the baseline knowledge presurvey.
+
+The SCP document was adapted from the template from ASCO. The document was modified to meet the needs of patients with gliomas. Input was also obtained from physicians, advanced practitioners, and nurses at the PRTBTC. Permission was not required to use the modified document.
+
+Individual SCPs were prepared by the advanced practitioner prior to routine clinic visits and edited to include the patient’s specific diagnosis and treatments. Additional information included specific signs and symptoms for which to monitor based on presenting symptoms and long-term medications. This preparation took approximately 30 minutes. The entire document is available in the Appendix. Table 2 provides a summary of the details of the SCP.
+
+The single-arm quality improvement cohort received the standard of care visit and a copy of the SCP. The document was reviewed by the advanced practitioner with the patient and their family at the time of the visit. This added 20 minutes to each clinic visit. At the next return visit, 2 to 3 months later, patients completed postsurveys, which consisted of the same questions on the presurvey and the NCCN Distress Thermometer. These were completed prior to their visit with the physician.
+
+The information collected from this innovation allowed for assessment of distress and knowledge pertaining to SCPs in patients in neuro-oncology clinics. This process identified knowledge gaps and provided avenues for better education and communication with the patients’ health-care team.
+
+Demographics and ratings for the study were summarized using the Statistical Package for the Social Sciences (SPSS) to produce descriptive statistics and analyzed before and after the intervention. Distress, late effects of therapy, indicators of disease recurrence, and satisfaction with brain tumor survivorship care were analyzed using a Wilcoxon signed-rank test. Knowledge pertaining to diagnosis and chemotherapy regimen as well as whether the patient had PCP follow-up were analyzed using McNemar’s test. We accepted a significance level of 0.05 for all implementation questions.
+
+
+Outcome Variables
+
+Participants completed an advanced practitioner–created pre- and postsurvey and the NCCN Distress Thermometer ( NCCN, 2018 ). Patients indicated their distress on a scale of 0 to 10, with 0 being no distress and 10 significant distress. Knowledge pertaining to diagnosis, chemotherapy regimen, indicators of recurrence, and long-term effects of therapy was assessed via pre- and postsurvey. Additionally, the survey evaluated patient satisfaction with their survivorship care and follow-up with their PCP.
+
+The survey asked patients to indicate their specific type of brain cancer and chemotherapy regimen. Patients were also asked to list late effects of therapy and symptoms that may be an indicator of disease recurrence, as well as their recommended follow-up care. To assess PCP follow-up, patients indicated if they currently had an appointment with their PCP. A Likert scale determined patients’ level of satisfaction with their brain tumor survivorship instruction and care.
+
+The seven-question pre- and postintervention survey took patients less than 10 minutes to complete at each visit. Face validity of the survey was assessed by the neuro-oncologists and advanced practitioners at the PRTBTC and pilot tested with five patients prior to use for evaluation of project outcomes. Descriptive statistics were used to analyze the data.
+
+This quality improvement project utilized a pre- and postdesign. Eighteen patients were identified for potential eligibility per standard clinic practice. All patients completed the NCCN Distress Thermometer per routine clinical care. After the routine clinic visit occurred, the advanced practitioner reviewed the project with the patient and provided the baseline knowledge presurvey.
+
+The SCP document was adapted from the template from ASCO. The document was modified to meet the needs of patients with gliomas. Input was also obtained from physicians, advanced practitioners, and nurses at the PRTBTC. Permission was not required to use the modified document.
+
+Individual SCPs were prepared by the advanced practitioner prior to routine clinic visits and edited to include the patient’s specific diagnosis and treatments. Additional information included specific signs and symptoms for which to monitor based on presenting symptoms and long-term medications. This preparation took approximately 30 minutes. The entire document is available in the Appendix. Table 2 provides a summary of the details of the SCP.
+
+The single-arm quality improvement cohort received the standard of care visit and a copy of the SCP. The document was reviewed by the advanced practitioner with the patient and their family at the time of the visit. This added 20 minutes to each clinic visit. At the next return visit, 2 to 3 months later, patients completed postsurveys, which consisted of the same questions on the presurvey and the NCCN Distress Thermometer. These were completed prior to their visit with the physician.
+
+The information collected from this innovation allowed for assessment of distress and knowledge pertaining to SCPs in patients in neuro-oncology clinics. This process identified knowledge gaps and provided avenues for better education and communication with the patients’ health-care team.
+
+
+Statistical Analysis
+
+Demographics and ratings for the study were summarized using the Statistical Package for the Social Sciences (SPSS) to produce descriptive statistics and analyzed before and after the intervention. Distress, late effects of therapy, indicators of disease recurrence, and satisfaction with brain tumor survivorship care were analyzed using a Wilcoxon signed-rank test. Knowledge pertaining to diagnosis and chemotherapy regimen as well as whether the patient had PCP follow-up were analyzed using McNemar’s test. We accepted a significance level of 0.05 for all implementation questions.
+
+
+================================================================================
+RESULTS
+================================================================================
+RESULTS
+
+Over a 2-month period, 18 patients received an SCP. Initially, 40 patients were identified to receive the intervention. However, 22 did not receive the document based on exclusion criteria, primarily disease progression. A 100% response rate was obtained from the eligible patients (N = 18). The demographic and clinical characteristics of the patients are shown in Table 3 . The sample is representative of the clinic’s distribution of gender, age, and chemotherapy regimen.
+
+Note . a Karnofsky performance status is assessed on a scale of 0 to 100, with higher numbers indicating better functional status.
+
+Survivors answered five questions pre- and post-intervention. Fifteen patients were able to indicate their specific type of brain cancer preintervention and two had improved knowledge postintervention. Participants indicated their chemotherapy regimen(s) on the pre-and postintervention survey. Fifteen patients were aware of their general chemotherapy regimen prior to SCP intervention. Seven patients (46%) reported more detail to their chemotherapy regimen and/or correct regimens as compared to their baseline.
+
+Prior to SCP intervention, patients were able to state a median of 2 long-term effects of their therapy. Postintervention, this increased to a median of 2.5. A significant improvement between the intervention and knowledge pertaining to long-term effects of therapy was demonstrated with the Wilcoxon signed-rank test ( p = .017), indicating that patients gained knowledge with SCPs about the long-term effects of their therapy.
+
+Three patients were found to have improved knowledge pertaining to symptoms of disease recurrence. Interestingly, eight patients reported fewer symptoms postintervention (44%). Table 4 shows results of the assessment of patient knowledge pertaining to their diagnosis, chemotherapy regimen, long-term effects of therapy, and indicators of disease recurrence. A statistical analysis was not performed on brain tumor follow-up, as 100% of patients knew their recommended follow-up appointment schedule before the SCP intervention.
+
+Patients indicated their distress on the NCCN Distress Thermometer prior to the visit of SCP intervention and at their routine visit 2 to 3 months later. A Wilcoxon signed-rank test was used to determine changes in distress. The mean distress for pre- and postintervention was 1.8. Distress in four patients (22.2%) increased after the intervention, while distress in two (11.1%) decreased. All others remained the same.
+
+Patients indicated their level of satisfaction pre- and postintervention on a scale of 0 to 7, with 0 indicating completely dissatisfied and 7 being completely satisfied. A Wilcoxon signed-rank test indicated that ten patients remained completely satisfied, three had an improvement in satisfaction, and five had a reduction in satisfaction.
+
+Primary care follow-up was assessed pre- and postintervention. There was no significant difference in PCP follow-up. Two patients indicated that they now had PCP follow-up as compared to previous reports.
+
+
+Knowledge
+
+Survivors answered five questions pre- and post-intervention. Fifteen patients were able to indicate their specific type of brain cancer preintervention and two had improved knowledge postintervention. Participants indicated their chemotherapy regimen(s) on the pre-and postintervention survey. Fifteen patients were aware of their general chemotherapy regimen prior to SCP intervention. Seven patients (46%) reported more detail to their chemotherapy regimen and/or correct regimens as compared to their baseline.
+
+Prior to SCP intervention, patients were able to state a median of 2 long-term effects of their therapy. Postintervention, this increased to a median of 2.5. A significant improvement between the intervention and knowledge pertaining to long-term effects of therapy was demonstrated with the Wilcoxon signed-rank test ( p = .017), indicating that patients gained knowledge with SCPs about the long-term effects of their therapy.
+
+Three patients were found to have improved knowledge pertaining to symptoms of disease recurrence. Interestingly, eight patients reported fewer symptoms postintervention (44%). Table 4 shows results of the assessment of patient knowledge pertaining to their diagnosis, chemotherapy regimen, long-term effects of therapy, and indicators of disease recurrence. A statistical analysis was not performed on brain tumor follow-up, as 100% of patients knew their recommended follow-up appointment schedule before the SCP intervention.
+
+
+Distress
+
+Patients indicated their distress on the NCCN Distress Thermometer prior to the visit of SCP intervention and at their routine visit 2 to 3 months later. A Wilcoxon signed-rank test was used to determine changes in distress. The mean distress for pre- and postintervention was 1.8. Distress in four patients (22.2%) increased after the intervention, while distress in two (11.1%) decreased. All others remained the same.
+
+
+Follow-Up and Satisfaction
+
+Patients indicated their level of satisfaction pre- and postintervention on a scale of 0 to 7, with 0 indicating completely dissatisfied and 7 being completely satisfied. A Wilcoxon signed-rank test indicated that ten patients remained completely satisfied, three had an improvement in satisfaction, and five had a reduction in satisfaction.
+
+Primary care follow-up was assessed pre- and postintervention. There was no significant difference in PCP follow-up. Two patients indicated that they now had PCP follow-up as compared to previous reports.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+CONCLUSION
+
+Based on the findings from this quality improvement initiative, SCPs, which are provided by an advanced practitioner, can help improve patient knowledge but may not necessarily be helpful in reducing distress or improving PCP follow-up. They are helpful in providing patients with information about the next phase of their cancer care and empowering patients to better understand their symptom burden and follow-up plan. With multiple versions of SCPs available, advanced practitioners throughout the country have the ability to provide patients with treatment summaries that can lead to enhanced follow-up management and care.
+
+Note . This Survivorship Care Plan is a cancer treatment summary and follow-up plan provided to you to keep with your health care records and to share with your primary care provider. This summary is a brief record of major aspects of your cancer treatment. You can share your copy with any of your providers. However, this is not a detailed or comprehensive record of your care. HPV = human papillomavirus; PCP = primary care provider; DEXA = dual-energy x-ray absorptiometry. Information from American Academy of Ophthalmology (2015) ; American Cancer Society (2018) ; American Dental Association (2017) ; American Society of Clinical Oncology (2017); Centers for Disease Control and Prevention (2018) .
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

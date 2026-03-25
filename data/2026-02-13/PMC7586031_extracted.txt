@@ -1,0 +1,172 @@
+================================================================================
+ARTICLE TITLE: Prediction of Poor Prognosis of HCC by Early Warning Model for Co-Expression of miRNA and mRNA Based on Bioinformatics Analysis
+PMCID: PMC7586031
+PMID: 33089765
+KEYWORDS: hepatocellular carcinoma, prognostic signature, tcga, mirna, mrna
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+Hepatocellular Carcinoma (HCC) has the highest mortality rate worldwide with the intractability of its extremely complicated pathogenesis and unclear mechanism. The limited survival highlights the need for the further detection of prognosis for HCC. MicroRNAs (miRNAs) and messenger RNAs (mRNAs) have been identified as regulatory factors and target genes in human cancers, while some studies also found post-transcriptional modification plays a crucial role in the occurrence and development of HCC. The present study aimed to elucidate the prognostic significance of miRNA and mRNA models in HCC.
+
+Methods::
+Data were obtained from The Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC), and Gene Expression Omnibus (GEO) databases. The miRNA and mRNA expressions were tested by the Wilcoxon and used funrich software to predict mRNA that might be related to miRNA. Then we determined the intersection with overlapped mRNA and miRNA Venn diagram, and screened out hub gene by using Degree algorithm in Cytoscape software. The COX models, with TCGA data as the training set and ICGC data as the test set, were constructed. All patients were divided into high-risk and low-risk groups. Data on overall survival of different groups were collected and analyzed by Kaplan-Meier method, and independent risk factors affecting prognosis were assessed by Cox analysis.
+
+Results::
+The miRNA and mRNA polygenic risk model showed a good true positive rate. Kaplan-Meier curve and Cox analysis suggested that the high-risk group was associated with poor prognosis, and the risk score could be used as an independent risk factor for HCC.
+
+Conclusion::
+Tumor risk models constructed in this study could effectively predict the prognosis of patients, which is expected to provide a reference for the prognostic stratification and treatment strategy development of HCC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+MicroRNAs (miRNAs) are small RNAs with endogenous lengths of about 20 to 24 nucleotides, which have a variety of important regulatory functions in cells, 1 , 2 and regulate a third of human genes. 3 MicroRNAs play an important role in various biological regulatory mechanisms, including the time of development, host-pathogen interaction, cell differentiation, proliferation, apoptosis, and tumorigenesis. 4 Each miRNA can target to multiple genes, and several different miRNAs can also regulate the same gene, which forms an extensive regulatory network. This complex regulatory network can either regulate the expression of multiple genes through a single miRNA or fine-tune the expression of a gene through combinations of several miRNAs. However, a microRNAs serve as a class of post-transcriptional regulators and do not act directly on genes but on mRNA transcribed by genes, to down-regulate the expression of target genes. MicroRNAs that coupled with protein complexes can work through 1 of the 2 mechanisms: mRNA cleavage or translation inhibition. While, in the August 2010 issue of Nature, David Barteland and his colleagues applied ribosomal profiling techniques and found that microRNAs work mainly by degrading target mRNAs. 5 Nevertheless, miRNA and mRNA always maintain a stable negative regulatory relationship.
+
+A large number of studies have proved that miRNAs in malignant tumor cells often behave abnormally. Abnormal expression of certain miRNAs is closely related to the diagnosis, treatment, and prognosis of different types of cancer in humans, with positive or negative regulatory effects such as maintenance of proliferative signaling, anti-apoptosis, induction of angiogenesis, and cancer cell invasion and metastasis. 6 Therefore, miRNAs have become important biomarkers for diagnosis and prognosis as well as therapeutic targets for cancer. 7 
+
+The factors leading to HCC are numerous and complex. 8 A large number of data have confirmed that the relationship between miRNA and HCC is inseparable, and tumor development is always accompanied by imbalance and abnormal messenger RNA (mRNA) expression 9 , 10 So, it is extremely important to explore the role of miRNA in the development of HCC. The regulatory effect of miRNA and related mRNA in HCC is mainly achieved by targeting key genes in signaling pathways.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Data on clinical characteristic and miRNA and mRNA gene expression of HCC patients were downloaded from The Cancer Genome Atlas (TCGA) database. Gene chips ( GSE112264 ) with miRNA expression data are download from Gene Expression Omnibus (GEO) ( https://www.ncbi.nlm.nih.gov/geo/ ) database. Data on clinical characteristic and mRNA gene expression of HCC patients were downloaded from International Cancer Genome Consortium (ICGC) database (LICA-FR). The transcriptome data from different platforms are standardized by R v3.4.1 ( https://www.r-project.org/ ) using the “SVA” package.
+
+Data on microRNAs and mRNA gene expression in the TCGA database, miRNA gene expression in the GEO database, and mRNA gene expression in the ICGC database were divided into 2 groups according to cancer tissues and adjacent tissues, respectively. Wilcoxon test was used to analyze the expression of these genes in different tissues (FoldChange of >1 and P-value of <0.05). Funrich software was used for miRNA target gene prediction, and the Venn diagram was drawn to analyze the correlation of differential miRNA and differential mRNA in 3 databases. STRING ( https://string-db.org/cgi/input.pl ) was used in this study to analyze the protein-protein interactions of differentially expressed mRNA. Isolated nodes were removed, and the results of the interaction network were downloaded and then imported into Cytoscape (version 3.7.2) for subsequent analysis. After building the gene interaction network with the “cytoHubba” application, the network structure and weighted connection between nodes were calculated and analyzed based on degree algorithm. Genes in the network were ranked from high to low, and 20 hub genes were screened out. To elucidate the prognostic risk of genes, we constructed Cox models on the expression of miRNA and mRNA from TCGA sets and use the ICGC data set as the test set. The risk score was calculated using the following formula, where Coefi is the coefficient, and xi is the expression value of each selected molecule. According to the risk score, all patients were divided into high-risk or low-risk groups.
+
+Further, the diagnostic capability of the model was evaluated by receiver-operating characteristic curve (ROC) through R v3.4.1 software of the time ROC and survival package. Univariate Cox analysis was used to select the correlation variables, and then multivariate Cox analysis was applied to analyze the independent clinical risk factors influencing the prognosis.
+
+Gene Set Enrichment Analysis (GSEA) is used to evaluate the distribution trend of genes in a predefined Gene Set and to determine its contribution to the phenotype through the order of phenotypic correlation. The whole gene expression data of patients in the various risk groups were uploaded to the GSEA v4.0.3 ( www.gsea.com ) and the Kyoto Encyclopedia of Genes and Genomes (KEGG) software for analysis, which was performed with 1,000 iterations. From the perspective of gene set enrichment, if we not limited to differential genes, theoretically, it is easier to include the effects of subtle but coordinated changes on the biological pathway.
+
+Statistical analysis of all RNA-seq transcriptome data was conducted using R v3.4.1. Differential mRNA and differential miRNA were analyzed using the Wilcoxon test according to the classification of cancer or adjacent tissues. Patients were divided into high-risk and low-risk groups based on the median. Pearson correlation coefficient method was used to test the correlation between gene expression and clinical data. Kaplan-Meier method was used to compare overall survival (OS) of patients between the high-risk group and low-risk group.
+
+
+Data Mining and Collection
+
+Data on clinical characteristic and miRNA and mRNA gene expression of HCC patients were downloaded from The Cancer Genome Atlas (TCGA) database. Gene chips ( GSE112264 ) with miRNA expression data are download from Gene Expression Omnibus (GEO) ( https://www.ncbi.nlm.nih.gov/geo/ ) database. Data on clinical characteristic and mRNA gene expression of HCC patients were downloaded from International Cancer Genome Consortium (ICGC) database (LICA-FR). The transcriptome data from different platforms are standardized by R v3.4.1 ( https://www.r-project.org/ ) using the “SVA” package.
+
+
+Bioinformatics Analysis
+
+Data on microRNAs and mRNA gene expression in the TCGA database, miRNA gene expression in the GEO database, and mRNA gene expression in the ICGC database were divided into 2 groups according to cancer tissues and adjacent tissues, respectively. Wilcoxon test was used to analyze the expression of these genes in different tissues (FoldChange of >1 and P-value of <0.05). Funrich software was used for miRNA target gene prediction, and the Venn diagram was drawn to analyze the correlation of differential miRNA and differential mRNA in 3 databases. STRING ( https://string-db.org/cgi/input.pl ) was used in this study to analyze the protein-protein interactions of differentially expressed mRNA. Isolated nodes were removed, and the results of the interaction network were downloaded and then imported into Cytoscape (version 3.7.2) for subsequent analysis. After building the gene interaction network with the “cytoHubba” application, the network structure and weighted connection between nodes were calculated and analyzed based on degree algorithm. Genes in the network were ranked from high to low, and 20 hub genes were screened out. To elucidate the prognostic risk of genes, we constructed Cox models on the expression of miRNA and mRNA from TCGA sets and use the ICGC data set as the test set. The risk score was calculated using the following formula, where Coefi is the coefficient, and xi is the expression value of each selected molecule. According to the risk score, all patients were divided into high-risk or low-risk groups.
+
+Further, the diagnostic capability of the model was evaluated by receiver-operating characteristic curve (ROC) through R v3.4.1 software of the time ROC and survival package. Univariate Cox analysis was used to select the correlation variables, and then multivariate Cox analysis was applied to analyze the independent clinical risk factors influencing the prognosis.
+
+
+GSEA Functional Enrichment Analysis
+
+Gene Set Enrichment Analysis (GSEA) is used to evaluate the distribution trend of genes in a predefined Gene Set and to determine its contribution to the phenotype through the order of phenotypic correlation. The whole gene expression data of patients in the various risk groups were uploaded to the GSEA v4.0.3 ( www.gsea.com ) and the Kyoto Encyclopedia of Genes and Genomes (KEGG) software for analysis, which was performed with 1,000 iterations. From the perspective of gene set enrichment, if we not limited to differential genes, theoretically, it is easier to include the effects of subtle but coordinated changes on the biological pathway.
+
+
+Statistical Analysis
+
+Statistical analysis of all RNA-seq transcriptome data was conducted using R v3.4.1. Differential mRNA and differential miRNA were analyzed using the Wilcoxon test according to the classification of cancer or adjacent tissues. Patients were divided into high-risk and low-risk groups based on the median. Pearson correlation coefficient method was used to test the correlation between gene expression and clinical data. Kaplan-Meier method was used to compare overall survival (OS) of patients between the high-risk group and low-risk group.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+In order to comprehensively and accurately analyze the expression of miRNA and mRNA in HCC, we conducted researches on miRNA and mRNA, respectively, based on 2 databases. GEO and TCGA were used to verify the expression of miRNA in HCC. ICGC and TCGA were used to verify mRNA expression in HCC. We determined the difference in gene expression between HCC patients and normal people with the generated data presented in the volcano map. ( Figure 1.A-D ). The results showed that most of the differential miRNAs in the GEO database played a role in promoting tumor development. On the other aspect, for the differential miRNA in the TCGA database, the differential miRNA with inhibitory effect on tumor development accounted for a larger proportion. However, whether derived from ICGC or TCGA, most mRNAs have a down-regulating effect. For miRNAs, we obtained 152 differential miRNAs in TCGA and 125 differential miRNAs in GEO. In order to intuitively and effectively learn which differential genes are commonly owned in different databases, we use the Wayne diagram to obtain the overlapped genes. The results showed that 8 differential miRNAs were shared by GEO and TCGA ( Figure 1 E ). A total of 1395 mRNAs were predicted to be targeted by the 8 miRNAs using Funrich. On the mRNA side, the number of different mRNAs obtained from ICGC was 9778, and the number of different mRNAs obtained from TCGA was 7852. In the Venn diagram, we could clearly see the distribution of differential mRNAs and eventually obtained 534 crossed differential mRNAs ( Figure 1 F ).
+
+Expression of miRNA and mRNA in liver cancer and paracancerous tissues. (A)Volcano map of GEO miRNA differential expression. (B) Volcano map of TCGA miRNA differential expression. (C) Volcano map of TCGA mRNA differential expression. (D) Volcano map of ICGC mRNA differential expression. (E) Venn diagram of miRNA from TCGA and GEO database. (F) Venn diagram of mRNA from the miRNA targeting mRNA, TCGA, and ICGC database.
+
+We used degree algorithm to calculate and analyze the network structure and the weighted connection between nodes to screened out the 20 hub genes. The interaction between them was shown in Figure 2 .
+
+Network structure and weighted connectivity between the top 20 hub genes.
+
+We also evaluated the role of miRNA and mRNA in the prognostic risk of HCC. Firstly, Cox risk models were constructed using differential miRNAs from the TCGA database, and 16 risk miRNAs were screened. The coefficients for these risk miRNAs are shown in Table 1 . Similarly, we constructed a Cox risk model using the TCGA database of hub mRNAs as a training set and screened out 6 risk mRNAs. The coefficients of these risk mRNAs are shown in Table 2 . The ICGC data were used as a test set to verify the stability and specificity of the constructed model. As shown in Figure 3A-C , the ROC of the predictive model was executed. The ROC curve validated the predictive accuracy of the risk model, and the area under the curve (AUC) was between 0.65 and 0.8, which indicates a high diagnostic ability. The survival curve showed a significant difference in OS between the 2 groups ( Figure 3D-F , P < 0.01). Survival was significantly lower in the high-risk group than that in the low-risk group.
+
+TCGA miRNA Polygenic Risk Model.
+
+TCGA mRNA Polygenic Risk Model.
+
+ROC and survival curves for different risk models. (A) ROC curve of TCGA miRNA. (B) ROC curve of TCGA mRNA. (C) ROC curve of ICGC mRNA. (D) Survival curves of TCGA miRNA. (E) Survival curves of TCGA mRNA. (F) Survival curves of ICGC mRNA.
+
+Seven univariate Cox analysis of age, gender, grade, stage, risk score, vascular invasion and alpha-fetoprotein (AFP) was done to analyze TCGA database data. Relevant variables were selected and multivariate Cox analysis was performed. The results of all COX regression analyses suggested that the risk score could serve as an independent risk factor for HCC prognosis (p < 0.05, HR > 1) ( Figure 4A-F ). The higher the risk score, the higher the patient’s risk of death. Next, we performed a correlation analysis of clinicopathological characteristics and risk score. Analysis of the TCGA database suggested that patients in the high-risk group were more likely to show poorly differentiated tumor and high AFP levels (p < 0.05), suggesting a poor clinical prognosis ( Figure 4G, H ). However, the ICGC database did not show a correlation between clinical characteristics and risk score, which may be related to the fact that ICGC included less information about the clinical characteristics of patients ( Figure 4I ). The results from different databases were generally consistent, suggesting that the risk model we constructed is a valid indicator of clinical prognosis.
+
+Correlation analysis of risk model and clinicopathological characteristics. (A-C) Univariate Cox regression analyses of TCGA miRNA, TCGA mRNA, and ICGC mRNA. (D-F) Multivariate Cox regression analyses of TCGA miRNA, TCGA mRNA, and ICGC mRNA. (G-I) Clinical correlation heatmaps of TCGA miRNA, TCGA mRNA, and ICGC mRNA. *P < 0.05, **P < 0.01, ***P < 0.001.
+
+KEGG enrichment analysis and GO enrichment analysis was performed on the gene set, and the targets were the differential miRNA and mRNA. GO enrichment analysis was performed on miRNAs derived from GEO and TCGA. The distribution results obtained are shown in the pie charts. Although the miRNA data of different databases were not the same, they are enriched on many of the same pathways, such as regulation of nucleobase, nucleoside, nucleotide, and nucleic acid metabolism, signal transduction, transport, cell communication pathway in the biological process(BP), nucleus, cytoplasm, golgi apparatus, lysosome pathway in the cellular component(CC), transcription factor activity, receptor signaling complex scaffold activity, GTPase activity, translation regulator activity pathway in the molecular function(MF) ( Figure 5 A-H ). It is suggested miRNAs may regulate the occurrence and development of HCC by influencing these pathways. Then, we also carried out GO enrichment analysis and KEGG enrichment analysis on mRNA, and the bubble diagram clearly showed that during the occurrence and development of HCC, mRNA was more involved in endocytosis regulation of protein serine/threonine kinase activity and the endosome membrane ( Figure 5 I-J ).
+
+GO and KEGG analysis of differential miRNA and mRNA. (A-D) BP, CC, MF of GO enrichment analysis, and KEGG analysis for differential miRNA from GEO. (E-H) BP, CC, MF of GO enrichment analysis, and KEGG analysis for differential miRNA from TCGA. (I, J) GO enrichment analysis and KEGG analysis for differential mRNA.
+
+
+miRNA and mRNA Expression in HCC
+
+In order to comprehensively and accurately analyze the expression of miRNA and mRNA in HCC, we conducted researches on miRNA and mRNA, respectively, based on 2 databases. GEO and TCGA were used to verify the expression of miRNA in HCC. ICGC and TCGA were used to verify mRNA expression in HCC. We determined the difference in gene expression between HCC patients and normal people with the generated data presented in the volcano map. ( Figure 1.A-D ). The results showed that most of the differential miRNAs in the GEO database played a role in promoting tumor development. On the other aspect, for the differential miRNA in the TCGA database, the differential miRNA with inhibitory effect on tumor development accounted for a larger proportion. However, whether derived from ICGC or TCGA, most mRNAs have a down-regulating effect. For miRNAs, we obtained 152 differential miRNAs in TCGA and 125 differential miRNAs in GEO. In order to intuitively and effectively learn which differential genes are commonly owned in different databases, we use the Wayne diagram to obtain the overlapped genes. The results showed that 8 differential miRNAs were shared by GEO and TCGA ( Figure 1 E ). A total of 1395 mRNAs were predicted to be targeted by the 8 miRNAs using Funrich. On the mRNA side, the number of different mRNAs obtained from ICGC was 9778, and the number of different mRNAs obtained from TCGA was 7852. In the Venn diagram, we could clearly see the distribution of differential mRNAs and eventually obtained 534 crossed differential mRNAs ( Figure 1 F ).
+
+Expression of miRNA and mRNA in liver cancer and paracancerous tissues. (A)Volcano map of GEO miRNA differential expression. (B) Volcano map of TCGA miRNA differential expression. (C) Volcano map of TCGA mRNA differential expression. (D) Volcano map of ICGC mRNA differential expression. (E) Venn diagram of miRNA from TCGA and GEO database. (F) Venn diagram of mRNA from the miRNA targeting mRNA, TCGA, and ICGC database.
+
+
+Screening of Hub Genes
+
+We used degree algorithm to calculate and analyze the network structure and the weighted connection between nodes to screened out the 20 hub genes. The interaction between them was shown in Figure 2 .
+
+Network structure and weighted connectivity between the top 20 hub genes.
+
+
+A Multi-Gene Prediction Model Was Constructed for the Prognostic Analysis of HCC
+
+We also evaluated the role of miRNA and mRNA in the prognostic risk of HCC. Firstly, Cox risk models were constructed using differential miRNAs from the TCGA database, and 16 risk miRNAs were screened. The coefficients for these risk miRNAs are shown in Table 1 . Similarly, we constructed a Cox risk model using the TCGA database of hub mRNAs as a training set and screened out 6 risk mRNAs. The coefficients of these risk mRNAs are shown in Table 2 . The ICGC data were used as a test set to verify the stability and specificity of the constructed model. As shown in Figure 3A-C , the ROC of the predictive model was executed. The ROC curve validated the predictive accuracy of the risk model, and the area under the curve (AUC) was between 0.65 and 0.8, which indicates a high diagnostic ability. The survival curve showed a significant difference in OS between the 2 groups ( Figure 3D-F , P < 0.01). Survival was significantly lower in the high-risk group than that in the low-risk group.
+
+TCGA miRNA Polygenic Risk Model.
+
+TCGA mRNA Polygenic Risk Model.
+
+ROC and survival curves for different risk models. (A) ROC curve of TCGA miRNA. (B) ROC curve of TCGA mRNA. (C) ROC curve of ICGC mRNA. (D) Survival curves of TCGA miRNA. (E) Survival curves of TCGA mRNA. (F) Survival curves of ICGC mRNA.
+
+
+Independent Risk Factors Were Used for Prognostic Analysis and Clinical Correlation Analysis of HCC
+
+Seven univariate Cox analysis of age, gender, grade, stage, risk score, vascular invasion and alpha-fetoprotein (AFP) was done to analyze TCGA database data. Relevant variables were selected and multivariate Cox analysis was performed. The results of all COX regression analyses suggested that the risk score could serve as an independent risk factor for HCC prognosis (p < 0.05, HR > 1) ( Figure 4A-F ). The higher the risk score, the higher the patient’s risk of death. Next, we performed a correlation analysis of clinicopathological characteristics and risk score. Analysis of the TCGA database suggested that patients in the high-risk group were more likely to show poorly differentiated tumor and high AFP levels (p < 0.05), suggesting a poor clinical prognosis ( Figure 4G, H ). However, the ICGC database did not show a correlation between clinical characteristics and risk score, which may be related to the fact that ICGC included less information about the clinical characteristics of patients ( Figure 4I ). The results from different databases were generally consistent, suggesting that the risk model we constructed is a valid indicator of clinical prognosis.
+
+Correlation analysis of risk model and clinicopathological characteristics. (A-C) Univariate Cox regression analyses of TCGA miRNA, TCGA mRNA, and ICGC mRNA. (D-F) Multivariate Cox regression analyses of TCGA miRNA, TCGA mRNA, and ICGC mRNA. (G-I) Clinical correlation heatmaps of TCGA miRNA, TCGA mRNA, and ICGC mRNA. *P < 0.05, **P < 0.01, ***P < 0.001.
+
+
+GSEA
+
+KEGG enrichment analysis and GO enrichment analysis was performed on the gene set, and the targets were the differential miRNA and mRNA. GO enrichment analysis was performed on miRNAs derived from GEO and TCGA. The distribution results obtained are shown in the pie charts. Although the miRNA data of different databases were not the same, they are enriched on many of the same pathways, such as regulation of nucleobase, nucleoside, nucleotide, and nucleic acid metabolism, signal transduction, transport, cell communication pathway in the biological process(BP), nucleus, cytoplasm, golgi apparatus, lysosome pathway in the cellular component(CC), transcription factor activity, receptor signaling complex scaffold activity, GTPase activity, translation regulator activity pathway in the molecular function(MF) ( Figure 5 A-H ). It is suggested miRNAs may regulate the occurrence and development of HCC by influencing these pathways. Then, we also carried out GO enrichment analysis and KEGG enrichment analysis on mRNA, and the bubble diagram clearly showed that during the occurrence and development of HCC, mRNA was more involved in endocytosis regulation of protein serine/threonine kinase activity and the endosome membrane ( Figure 5 I-J ).
+
+GO and KEGG analysis of differential miRNA and mRNA. (A-D) BP, CC, MF of GO enrichment analysis, and KEGG analysis for differential miRNA from GEO. (E-H) BP, CC, MF of GO enrichment analysis, and KEGG analysis for differential miRNA from TCGA. (I, J) GO enrichment analysis and KEGG analysis for differential mRNA.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In 2007, the international consortium for the collaboration of cancer genomes was established and began the new era on studies of cancer genomes. With the integration of data analysis followed by experimental research, more and more studies were performed on the basis of various databases and received reliable results for the further experiments. TCGA database is a multi-omics database, containing genome, transcriptome, proteome, epigenomic and related clinical data of various cancers, and also provides the data for tumorigenesis, development, metastasis, etc. 11 ICGC is a database that aims to map somatic gene mutations in 50 cancer samples from a total of 25,000 patients. 12 Gene Expression Omnibus is a gene expression database created and maintained by the National Center for Biotechnology Information. It was created in 2000 and contained high-throughput gene expression data submitted by institutions worldwide. We extracted gene expression information and clinical information of patients from these 3 databases and conducted a large number of comprehensive analyses, which reduced the contingency brought by the independent analysis of a single database, and verified the results from multiple databases to have more accurate results output.
+
+As it is known that the occurrence of complex diseases is controlled by multiple loci of multiple genes, the effect of single or a few loci are weak, and hard to predict diseases accurately. In this situation, the polygenic risk score (PRS) takes its advantages, presenting as a common strategy to realize disease prediction in a better way. 13 The multi-gene risk score achieved great success in the study of genetic factors of complex diseases for the first time and has showed good application prospects in the risk prediction of complex diseases, such as coronary artery disease 14 and Alzheimer. 15 In recent years, genomics research technology has entered a new stage with rapid development, and genome-wide association research, as an important method of molecular epidemiology research, has been gradually applied to the mechanism research of cancer. 16 Researchers from the Massachusetts general hospital and the Broad institute used PRS to identify people who have high risk of breast cancer. 17 Yiwey Shieh 18 revealed that breast cancer risk assessment could provide useful information to facilitate the decision on screening and prevention methods. Dai JC research group used a large prospective cohort to evaluate the effect of PRS in lung cancer risk prediction for the first time in the world. 19 In the field of cancer research, there are few studies on the correlation between PRS and HCC. This study screened the clinical risk factors related to the prognosis of HCC through the construction of a multi-gene risk score, aiming to prove the role of PRS in the screening and prevention strategy decision-making that deserves further consideration. Multiple databases are validated against each other to ensure the accuracy of the models in this study. TCGA and ICGC were used to analyze mRNA expression in HCC, and TCGA and GEO were used to analyze the expression of miRNA in HCC. Then we determined the intersection by Venn diagram, obtained the overlapped mRNA and miRNA in the database, and screened out hub gene by using Degree algorithm in Cytoscape software. Several prognostic models were constructed based on the clinical information from the databases, and risk group and risk scores were calculated. The role of risk values that affecting prognosis was assessed. ICGC database was used for verification at the same time. Further results showed that when we creatively combined miRNA and mRNA expression to build a polygenic risk model, this model has a good true positive rate. Kaplan-Meier curve and Cox analysis suggested that the high-risk group was associated closely with poor prognosis, and the risk score could be used as an independent risk factor for HCC. In addition, gene set enrichment analysis showed miRNA was significantly enriched in regulation of nucleobase, nucleoside, nucleotide, and nucleic acid metabolism, signal transduction, nucleus, cytoplasm, and transcription factor activity. Messenger RNA enrichment was most significant in endocytosis, regulation of protein serine/threonine kinase activity and endosome membrane. In conclusion, the study results suggest that miRNAs and mRNAs are involved in the regulation of multiple biological system functions during tumor development. MicroRNA and mRNA models constructed in this study have certain reference value in the prognostic analysis of HCC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+Our study suggested that the early warning model constructed in this study for co-expression of miRNAs and mRNAs for prejudgment was accurate and effective to a certain degree in the analysis of multiple biological system functions during tumor development. And this is the first report to set up a model which co-expression of miRNA and mRNA were used to forecast the poor prognosis of HCC based on bioinformatics analysis.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,19 @@
+Source: PMC7570778_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Construction and Validation of Nomograms for Predicting the Prognosis of Juvenile Osteosarcoma: A Real-World Analysis in the SEER Database",
+  "condition_E": 1,
+  "condition_E_reason": "The prognostic variables of osteosarcoma patients were extracted from the SEER plan, including age at diagnosis, race, year of diagnosis, tumor grade, AJCC stage, tumor size, treatment strategy, cause of death and survival time (months).",
+  "N_E": 1,
+  "N_E_reason": "We enrolled 736 adolescents with osteosarcoma from the SEER database.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Since all patient information derived from the SEER database is publicly available online.",
+  "intervention_E": 1,
+  "intervention_E_reason": "Most patients received surgery (96%) and chemotherapy (97%).",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "OS (overall survival) was defined as the time from diagnosis to death from any cause, and CSS (cancer-specific survival) was the time from diagnosis to death from osteosarcoma.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

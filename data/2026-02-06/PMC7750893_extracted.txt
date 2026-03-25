@@ -1,0 +1,90 @@
+================================================================================
+ARTICLE TITLE: Expression and Possible Molecular Mechanisms of microRNA-205-5p in Patients With Head and Neck Squamous Cell Carcinoma
+PMCID: PMC7750893
+PMID: 33327871
+KEYWORDS: microrna-205-5p, head and neck squamous cell carcinoma, gene, molecular mechanism, signaling pathway
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Head and neck squamous cell carcinoma (HNSCC) is the sixth most prevalent malignancy worldwide, with high incidence and poor survival rates. Increased expression of microRNA-205-5p (miR-205-5p) may influence the outcomes of HNSCC, but the identities of miR-205-5p target genes and the potential signaling pathways related to HNSCC remain unclear. RT-qPCR was used to detect the expression levels of miR-205-5p in the plasma of patients with HNSCC. We also performed a meta-analysis using data from relevant literature, and the Gene Expression Omnibus (GEO) and the Cancer Genome Atlas (TCGA) databases to evaluate the expression level of miR-205-5p in HNSCC. Next, we predicted the potential miR-205-5p target genes in HNSCC. We also used Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) for enrichment analyses adapted to investigate the dynamics and possible mechanisms of miR-205-5p in HNSCC. Lastly, we predicted the potential miR-205-5p target genes by evaluating their expression level and using Spearman analysis. Expression of miR-205-5p was higher in HNSCC tissues compared to normal unafflicted tissue samples (P < 0.05), and the corresponding summary receiver operating characteristic (sROC) was 0.82.The pooled sensitivity, specificity, PLR, NLR, and DOR values were 0.78 (95% CI: 0.75-0.81), 0.67 (95% CI: 0.60-0.73), 2.34 (95% CI: 1.45-3.76), 0.34 (95% CI: 0.19-0.60), and 8.16 (95% CI: 4.01-16.64), respectively. Based on GO and KEGG analyses, we found that miR-205-5p was correlated with the progression of HNSCC through association with signaling pathways, including the drug metabolism-cytochrome P450 pathway. Analysis of the target genes revealed that flavin-containing monooxygenase isoform 2 (FMO2) and alcohol dehydrogenase 1B (ADH1B) may be important targets of miR-205-5p. In summary, miR-205-5p may have a significant role in the prognosis of HNSCC and may serve as a potential biomarker in HNSCC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Head and neck squamous cell carcinoma (HNSCC) is the sixth most prevalent malignancy worldwide and occurs in areas of the upper digestive tract, including the nasal cavity, oral cavity, tongue, pharynx (nasal pharynx, oropharynx, hypopharynx), and larynx. 1 - 3 The annual incidence of HNSCC is estimated to be approximately 50,000 in the USA, and over 500,000 worldwide. 1 The causative factors that correlate with HNSCC include tobacco, alcohol, and human papilloma virus infection. 4 , 5 Surgery, radiotherapy, and chemotherapy are the main treatment options for HNSCC patients. 6 Despite the therapeutic advances over the recent decades, recurrence and metastasis remain the 2 primary reasons for the poor survival rates of patients diagnosed with HNSCC. 7 Therefore, there is an urgent need to identify new biomarkers associated with HNSCC, and to examine the efficacy of new therapeutic strategies in HNSCC patients. 8 
+
+MicroRNAs (miRNAs) are highly conserved noncoding RNAs of 19-24 nucleotides in length that can regulate gene expression by binding to the 3′ untranslated regions (3′UTR) of target messenger RNAs (mRNAs). 9 , 10 Recently, miR-205-5p, located at 1q32.2, was found to be highly expressed in NPC patients. 11 Further, studies have demonstrated that miR-205-5p is highly expressed in HNSCC cell lines and plays an important role in hepatocellular, lung, and breast cancers. 12 - 16 However, the precise role and mechanism of action of miR-205-5p in signaling pathways associated with HNSCC remain unclear. The role of miR-205-5p as a potentially novel biomarker needs to be further examined to better understand its targets and molecular mechanisms, especially in relation to HNSCC.
+
+Therefore, we sought to examine data obtained from current and relevant literature from the Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) databases. We performed a meta-analysis to assess the expression level of miR-205-5p in HNSCC patients. We also sought to examine and identify novel molecular mechanisms of miR-205-5p in HNSCC using the Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) analyses. Our three major hypotheses were as follows: (1) Expression of miR-205-5p was significantly different in the HNSCC group compared to the control group; (2) miR-205-5p has predictive value in HNSCC, and (3) miR-205-5p plays a role in drug metabolism by inhibiting the specific target genes flavin-containing monooxygenase isoform 2 (FMO2), alcohol dehydrogenase 1B (ADH1B), and stimulating cytochrome P450 family 3 subfamily A member 5 (CYP3A5).
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+This study was approved by the ethics committee. Plasma samples were collected from 15 HNSCC patients and 12 healthy people from the Radiotherapy Department. Total RNA was extracted from the plasma using the miRNeasy Serum/Plasma Kit (Qiagen; Hilden, Germany). Reverse transcription quantitative real-time PCR (RT-qPCR) was performed on a CFX96 Real-time PCR Detection System (Bio-Rad) using SYBR-Green Master Mix (Takara, Tokyo, Japan). The expression level of the target genes was calculated using the 2 -ΔΔCT method using U6 as an internal reference. The primers used for real-time PCR were as follows: U6 Forward 5′-CGGCGGTAGCTTATCAGACTGATG-3′ and Reverse 5′-CCAGTCGAGGGTCCGAGGTATT-3′; miR-205-5p Forward 5′- UCCUUCAUUCCACCGGAGUCUG-3′ and reverse mRQ 3′ primer (provided with the Mir-X miRNA qRT-PCR SYBR kit as antisense primer, Clontech). All experiments were repeated more than 3 times.
+
+
+Reverse Transcription Quantitative Real-Time PCR
+
+This study was approved by the ethics committee. Plasma samples were collected from 15 HNSCC patients and 12 healthy people from the Radiotherapy Department. Total RNA was extracted from the plasma using the miRNeasy Serum/Plasma Kit (Qiagen; Hilden, Germany). Reverse transcription quantitative real-time PCR (RT-qPCR) was performed on a CFX96 Real-time PCR Detection System (Bio-Rad) using SYBR-Green Master Mix (Takara, Tokyo, Japan). The expression level of the target genes was calculated using the 2 -ΔΔCT method using U6 as an internal reference. The primers used for real-time PCR were as follows: U6 Forward 5′-CGGCGGTAGCTTATCAGACTGATG-3′ and Reverse 5′-CCAGTCGAGGGTCCGAGGTATT-3′; miR-205-5p Forward 5′- UCCUUCAUUCCACCGGAGUCUG-3′ and reverse mRQ 3′ primer (provided with the Mir-X miRNA qRT-PCR SYBR kit as antisense primer, Clontech). All experiments were repeated more than 3 times.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+RT-qPCR results revealed that miR-205-5p was significantly upregulated in HNSCC plasma samples compared with normal plasma samples (p < 0.05, Figure 1 ).
+
+Levels of miR-205-5p in HNSCC and NC plasma samples. Compared with the control group (n = 12), miR-205-5p was significantly upregulated in HNSCC plasma (n = 15) (p < 0.01).
+
+
+miR-205-5p Is Upregulated in Plasma of HNSCC Patients
+
+RT-qPCR results revealed that miR-205-5p was significantly upregulated in HNSCC plasma samples compared with normal plasma samples (p < 0.05, Figure 1 ).
+
+Levels of miR-205-5p in HNSCC and NC plasma samples. Compared with the control group (n = 12), miR-205-5p was significantly upregulated in HNSCC plasma (n = 15) (p < 0.01).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Recent studies have indicated that miR-205-5p plays a key role in facilitating biological processes, including proliferation, migration, invasiveness, apoptosis, and senescence of neoplastic pancreatic cancer, cervical cancer, and endothelial progenitor cells (EPCs). 25 - 29 Furthermore, recent research suggests that upregulation of miR-205-5p expression boosted vascular recanalization and stabilized angiogenesis in EPCs. 28 Therefore, it has been postulated that miR-205-5p may be a novel diagnostic biomarker that can be used to predict and study cancer progression, and thus warrants further focused study. Tian et al reported that miR-205-5p induces apoptosis of laryngeal squamous cell carcinoma by targeting and influencing the Bcl-2 pathway, which suggests that miR-205-5p may correlate with the onset and progression of HNSCC. 30 However, its functional mechanism remains largely undefined. Therefore, we attempted to examine and validate the possible molecular mechanisms of miR-205-5p in HNSCC using GO and KEGG analyses.
+
+We carried out a meta-analysis using data from 768 HNSCC tissue samples and 237 unafflicted control samples that were derived from searching: 1) TCGA database, 2) 7 GSE datasets, and 3) a published article deemed eligible for our study. The results revealed high levels of miR-205-5p expression in HNSCC patients. Furthermore, we found that the measures for unpaired tissue type and age were the factors most closely associated with high levels of miR-205-5p expression by analyzing data from TCGA database. Our results suggest that miR-205-5p may be a novel biomarker for the prediction and assessment of cancer incidence. The diagnostic and prognostic roles of miR-205-5p were examined by Li and colleagues, 31 and their results indicated that miR-205-5p could be used as a biomarker with relatively accurate results for the diagnosis of lung carcinoma. Lu and colleagues 13 reported that miR-205-5p acts as a novel prognostic indicator for hepatocellular carcinoma. We sought to evaluate the predicted value of miR-205-5p in HNSCC. Therefore, we also sought to examine whether miR-205-5p represents a promising biomarker of tumorigenesis.
+
+Recent accumulating evidence indicates that miR-205-5p plays an essential role in the occurrence of malignancies by regulating certain proteins and influencing signaling pathways. 13 , 32 Gulei and colleagues 33 demonstrated that epithelial to mesenchymal transition (EMT) was suppressed following the upregulation of miR-205-5p in colon carcinoma cells that as found to be associated with E-cadherin expression. Moreover, miRNA-205-5p was shown to be an optimal biomarker for the assessment of renal carcinoma cells via its relationship to the PI3K/Akt/mTOR signaling pathway. 34 The pathways associated with miR-205-5p and their influence on HNSCC are being increasingly analyzed. For example, Zhang and colleagues 35 reported that miR-205-5p functions to target PTEN via the PI3K/AKT signaling pathway during EMT in cisplatin-resistant NPC cells. The pathways identified in the current study, especially the drug metabolism-cytochrome P450 pathway, clearly warrant further investigation.
+
+Cytochrome P450 enzymes constitute a system of metabolizing enzymes that govern as much as 80% of phase I metabolism of xenobiotics, and have been implicated in various types of cancers. 36 - 38 Polymorphisms of some of the drug-metabolizing enzymes of the cytochrome P450 system have been reported to increase susceptibility to HNSCC. 39 According to the results of our study, miR-205-5p target genes are strongly associated with the drug metabolism-cytochrome P450 pathway that is downregulated in HNSCC tissues. This result suggests that the identified target genes may influence the progression of HNSCC. Furthermore, the results suggest that both FMO2 and ADH1B were negatively correlated with miR-205-5p expression level, and that miR-205-5p may negatively regulate FMO2 and ADH1B.
+
+FMO2 belongs to the FMO family of enzymes that are known to play a crucial role in drug metabolism. 40 Phillips and colleagues showed that genetic variations in FMO2 affect the metabolism of drug substrates, which is consistent with findings in the pathway we studied. 41 Owing to its high expression in lung tissues, FMO2 is characterized as a tumor suppressor in lung adenocarcinoma. 42 However, to the best of our knowledge, there is limited research on the association between FMO2 and miR-205-5p. Thus, the results of our study are significant and may form the basis of further focused studies to examine the links between FMO2 and miR-205-5p in HNSCC patients. Our GO analyses revealed that FMO2 influences xenobiotic metabolism, drug metabolism, and organelle membranes. ADH1B is a class I member of ADH isoenzyme family that plays a key role in the transformation of ethanol to acetaldehyde. 43 Polymorphisms of ADH1B affect the susceptibility to bladder carcinoma. 44 Alcoholism is a major known risk factor for HNSCC 4 ; thus, polymorphism of ADH1B may increase the exposure to acetaldehyde converted by ADH1B during alcohol metabolism. 45 Similarly, Yan and colleagues demonstrated that ethanol metabolism might be regulated by ADH1B level. 46 Our results suggest that miR-205-5p is likely to target FMO2 and ADH1B, thereby altering the metabolic processes in HNSCC patients. However, additional experiments and more molecular studies are necessary to further validate our findings.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Our study revealed that miR-205-5p is overexpressed in the HNSCC group compared to the normal control group, and has a predictive role in HNSCC. Furthermore, we identified several target genes that are highly associated with the drug metabolism-cytochrome P450 pathway, which is important because it influences the progression of HNSCC. Overall, our findings suggest that miR-205-5p as a potential biomarker for prognosis of HNSCC patients, and will help to promote further research on the oncogenic roles of miR-205-5p in HNSCC.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

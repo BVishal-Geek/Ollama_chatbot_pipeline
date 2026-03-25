@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Molecular Classification and Emerging Targeted Therapy in Endometrial Cancer
+PMCID: PMC6685771
+PMID: 30741844
+KEYWORDS: endometrial cancer, molecular classification, targeted therapy
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Recent advances in molecular studies, especially genome-wide analyses, have revealed the landscape of genomic alterations present in endometrial carcinomas, and have provided valuable insight into the pathogenesis of this disease. The current challenges are in developing a molecular-morphological classification system to enhance traditional pathologic diagnosis and in determining the optimal approach to using this new information to guide clinical management. Molecular assays may be particularly beneficial in allowing the earlier detection of endometrial cancer or precursor lesions and in guiding personalized treatment approaches. In this review, we describe the current molecular landscape of endometrial cancers, efforts underway to incorporate molecular alterations into the current classification systems, and the development of diagnostic tools for the early detection of endometrial cancer. Finally, we present opportunities for using these data to tailor therapeutic strategies. A comprehensive understanding of the molecular alterations responsible for the origination, relapse, and resistance patterns of this disease will ultimately improve outcomes for patients with endometrial cancer.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

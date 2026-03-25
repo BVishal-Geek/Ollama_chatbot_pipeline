@@ -1,0 +1,733 @@
+================================================================================
+ARTICLE TITLE: Distinguish the Role of Radiotherapy From Chemoradiotherapy for
+Gastric Cancer With Behavior of Metastasis-Indolent in Lymph
+Node
+PMCID: PMC7653296
+PMID: 33148125
+KEYWORDS: advanced gastric cancer, chemotherapy, radiotherapy, chemoradiotherapy, lymph node
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Although the landmark INT-0116 trial and National Comprehensive Cancer
+Network (NCCN) guidelines recommended pT3-4Nx gastric cancer (GC) patients
+to receive chemoradiotherapy, the role of radiotherapy has not been
+distinguished from chemoradiotherapy.
+
+Methods::
+GC with behavior of metastasis-indolent in lymph node (MILN) being confirmed
+with more than 15 examined LNs after gastrectomy were identified using the
+Surveillance, Epidemiology and End Result (SEER) database. The
+cancer-specific survival (CSS) of subgroups for radiotherapy, chemotherapy,
+chemoradiotherapy and non-adjuvant-treatment were compared. Propensity score
+matching (PSM) was performed between radiotherapy and non-radiotherapy
+subgroups to further distinguish the role of radiotherapy from
+chemoradiotherapy. Cox regression was performed to identify whether
+radiotherapy or chemotherapy could independently improve prognosis.
+
+Results::
+We identified 690 MILN GC patients in SEER database. 5-year CSS was 71.9% in
+radiotherapy subgroup and 75.1% in non-radiotherapy subgroup(HR = 1.013, 95%
+CI = 0.714-1.438, p = 0.940), 75.6% in chemotherapy subgroup and 68.5% in
+non-chemotherapy subgroup(HR = 0.616, 95% CI = 0.430-0.884, p = 0.008),
+52.5% in radiotherapy-alone subgroup and 71.9% in non-adjuvant treatment
+group (HR = 1.604, 95% CI = 0.575-4.471, p = 0.360), 72.9% in
+chemoradiotherapy subgroup and 79.5% in chemotherapy-alone subgroup (HR =
+1.365, 95% CI = 0.859-2.172, p = 0.185), respectively. Further, PSM markedly
+improved balance of variables between radiotherapy subgroup and
+non-radiotherapy subgroup. After PSM, the role of the variables of
+radiotherapy and chemotherapy in contributing to improving CSS are
+consistent with that before PSM. Cox regression showed chemotherapy, tumor
+size, tumor invasiveness and Lauren classification were independent
+prognostic factors, but not including radiotherapy.
+
+Conclusions::
+Chemoradiotherapy confers superior prognosis to MILN GC patients compared
+with surgery alone might only be attributed to chemotherapy rather than
+radiotherapy.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Gastric cancer (GC) is a global health problem, with more than 1 million people newly
+diagnosed with GC worldwide each year. 1 , 2 Currently, surgery remains the cornerstone of treatment for local advanced GC (LAGC) 3 – 5 , and systematic chemotherapy has been demonstrated that it conferred superior
+prognosis after gastrectomy. 6 - 9 However, the role of radiotherapy was only investigated in combining with
+chemotherapy, as a part of chemoradiotherapy in Western practices.
+
+Chemoradiotherapy has become the standard treatment and been successfully translated
+to the community in Western. 10 , 11 Similarly, the National Comprehensive Cancer Network (NCCN) guidelines
+recommended that both pT3-4Nx and pTxN+ GC patients who undergo R0 resection should
+receive chemoradiotherapy. 12 As early as 2001, the landmark INT-0116 trial in the United States
+established the role of adjuvant chemoradiotherapy in the multidisciplinary approach
+to the management of LAGC. 10 , 13 Then, the INT0116 trial laid the foundation for the popularity of
+chemoradiotherapy for curatively resected GC with primaries T3 or greater and/or
+positive nodes in North America. Additionally, Kozak et al. found that the release
+of the INT 0116 trial likely reflected the increased use of chemoradiotherapy, which
+has been associated with improved survival in GC patients, suggesting that the
+improved outcome seen in this trial has been successfully translated to the community. 11 Consistently, some retrospective studies with large sample sizes have also
+shown the survival advantage of chemoradiotherapy. 14 - 16 However, these studies evaluated chemoradiotherapy versus surgery alone and
+thus could not distinguish the effect of chemotherapy and radiotherapy from
+chemoradiotherapy in prolonging survival in Western practices.
+
+On the basis of INT0116 study, the phase 3 Adjuvant chemoradiation Therapy in Stomach
+cancer (ARTIST) trial further showed that radiotherapy in addition to
+capecitabine/cisplatin chemotherapy after radical resection did not improve the
+5-year survival rate (73% vs. 75%). Nevertheless, in the subgroup of patients with
+pathological lymph node(LN) metastasis, who received chemoradiotherapy experienced
+superior disease-free survival(DFS) to those who received chemotherapy alone .Then,
+the subsequent trial, ARTIST2, was conducted to investigate whether radiotherapy is
+beneficial in LN-positive GC. However, the interim analysis of the recent ongoing
+ARTIST 2 study showed that radiotherapy did not provide further benefit in patients
+with stage II-III lymph node-positive GC after D2 radical resection. 17 Thus, currently, radiotherapy is not considered a postoperative adjuvant
+therapy for GC performed with D2 lymph node dissection in eastern Asia, especially
+in LN-negative patients. However, the effect of radiotherapy differed between
+Eastern and Western trials might be attributed to the discrepancy of surgical
+quality assurance since 54% of patients in the INT0116 trial had D1 lymphadenectomy
+or less 10 while most patients in ARTIST underwent D2 lymphadenectomy. 18 , 19 Notable, chemotherapy has been demonstrated to be effective in improving
+prognosis both in Eastern and Western practices. 6 - 9 Taking into account the difference of the setting of chemoradiotherapy and
+chemotherapy, we hypothesized that chemoradiotherapy conferred a better prognosis
+compared with surgery alone in Western practices in previous studies 10 , 11 might mainly be attributed to chemotherapy alone rather than
+radiotherapy.
+
+To explore this hypothesis, we assessed it in selected subgroups GC with the behavior
+of metastasis-indolent in lymph node (MILN: T3-4N0M0). Therefore, we investigated
+whether radiotherapy contributes to improving the prognosis of MILN GC patients who
+underwent gastrectomy in Western practices.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+This retrospective cohort study assessed the role of radiotherapy in MILN GC
+(T3-4N0M0) patients whose data were abstracted from the National Cancer
+Institute’s Surveillance, Epidemiology, and End Results (SEER) population-based
+data registry. 20 The SEER database is the most comprehensive cancer registry in the United
+States and provides information from cancer registries that comprise
+approximately 28% of the country’s population. SEERStat software version 8.3.6
+was published by SEER and was used to identify eligible patients in this study.
+The software was obtained from the official network ( https://seer.cancer.gov/ ).
+
+Within the SEER database, we identified 44528 patients with GC confirmed by
+pathological examination and with active follow-up from 2010 to 2016. The
+cut-off date in this study was 12/31/2016.
+
+We excluded patients who met the following criteria: TNM stage without being
+confirmed by gastrectomy; local LN metastasis (N+) or distant metastasis (M+);
+and age <18 years old or >85 years old at the time of diagnosis.
+
+Depending on the system, 4417 GC patients were identified. Then, to ensure that
+the patients with N0 status were MILN, the patients with <16 LN examined or
+primary tumor invasion less than T3 were also excluded. Then, 690 patients were
+diagnosed with T3/T4, including T3, T4a, T4b, and T4 Nos, N0, and M0 tumors were
+abstracted and analyzed. The patients who underwent gastrectomy were grouped
+into the radiotherapy group (n = 288) and non-radiotherapy group (n = 402). To
+control confounding factors by different indications for radiotherapy between
+arms, we performed a matched analysis, a total of 218 patients in the
+radiotherapy group and 218 patients in the non-radiotherapy group were matched
+at a 1:1 ratio (data extraction flowchart is shown in Figure 1 ).
+
+Flow chart showing study cohort. GC gastric cancer, No.LN number of lymph
+nodes.
+
+The following patients’ information was used in our study: Baseline demographics
+including sex, age, race, marital status, insurance situation; Tumor features
+including primary tumor invasion, node status, metastasis status, grade, tumor
+location, tumor size and Lauren classification; Treatment information including
+gastrectomy, radiotherapy and chemotherapy. Cancer stage was determined or
+recoded according to the AJCC/UICC TNM staging system (seventh version). 21 Age was categorized into groups of < 60 and ≥ 60 years based on
+statistical and clinical consideration. Tumor location was categorized as the
+esophagogastric junction and stomach. Tumor size was recoded as <5 cm, 5-10
+cm, >10 cm. More details can be obtained from SEERStat software version 8.3.6
+and SEER manual 2016.
+
+The endpoint of this study was CSS(Cancer-specific Survival), which was defined
+as the period from the date of diagnosis to the date of gastric cancer caused
+death, and patients who survived to the latest follow-up were censored.
+
+Descriptive statistics were used to calculate the absolute number and frequency
+among patients. The χ2, t, or Fisher’s exact test was used for intergroup
+comparisons where appropriate. The CSS was computed by the Kaplan-Meier method
+and tested by log-rank test. Survival-associated factors were evaluated using
+univariate analysis and multivariable Cox proportional hazards (PH) regression,
+adjusting for sex, age, race, marital status, insurance situation, primary tumor
+invasion, Lauren classification, grade, tumor location, tumor size, chemotherapy
+and gastrectomy.
+
+To control confounding factors by different indications for radiotherapy between
+arms, we performed a matched analysis. In the case-matched analysis, which aimed
+to balance high-dimensional observed covariates, propensity score matching (PSM)
+was applied. The matching factors were the independent prognostic factors found
+to be unbalanced between the 2 groups confirmed by univariate Cox PH regression.
+Race, Lauren classification, tumor size and chemotherapy were included.
+
+The PH and linearity assumptions for 25 continuous variables were examined using
+restricted cubic splines. Continuous variables were transformed into adequate
+forms for fitting the assumptions as appropriate. For categorical variables,
+log-log survival plots were used to identify the PH assumption, and all
+variables were fitted to the assumption. Results were considered statistically
+significant at a 2-sided P < 0.05. Data analysis were performed using IBM
+SPSS 25.0.0.0(IBM, Armonk, NY).
+
+Nomogram construction and validation analysis were performed using R 3.4.1. 22 Foreign, Hmisc, survival and rms packages were used. Data were read with
+the foreign package. 23 Variables were selected using the backward stepwise selection method in
+the Cox regression model with the survival package. 24 Based on the predictive models with the identified prognostic factors,
+nomograms were constructed to predict 3- and 5-year CSS. Nomogram validation
+consisted of discrimination and calibration. Discrimination was evaluated using
+Harrell’s concordance index (C-index) with the rms package. 25 Nomogram validation consisted of discrimination and calibration.
+Discrimination was evaluated using Harrell’s concordance index (C-index) with
+the rms package and Hmisc package. 26 Generally, a higher C-index value indicates better discrimination, with a
+value of 0.7 indicating moderate discrimination. A time-dependent receiver
+operating characteristic (ROC) curve was drawn to evaluate the accuracy of the
+nomogram. Validation was performed by comparing the means of predicted survival
+with those of actual observed survival estimated by the Kaplan-Meier method. To
+evaluate the efficacy of the nomogram better, stratification strategy was
+adopted, the X-tile program (Yale University School of Medicine, New Haven, CT,
+USA) was used to define the optimal cut-off points for the log-rank test and the
+highest specificity and sensitivity.
+
+
+Data Source and Data Selection
+
+This retrospective cohort study assessed the role of radiotherapy in MILN GC
+(T3-4N0M0) patients whose data were abstracted from the National Cancer
+Institute’s Surveillance, Epidemiology, and End Results (SEER) population-based
+data registry. 20 The SEER database is the most comprehensive cancer registry in the United
+States and provides information from cancer registries that comprise
+approximately 28% of the country’s population. SEERStat software version 8.3.6
+was published by SEER and was used to identify eligible patients in this study.
+The software was obtained from the official network ( https://seer.cancer.gov/ ).
+
+
+Patient Selection
+
+Within the SEER database, we identified 44528 patients with GC confirmed by
+pathological examination and with active follow-up from 2010 to 2016. The
+cut-off date in this study was 12/31/2016.
+
+We excluded patients who met the following criteria: TNM stage without being
+confirmed by gastrectomy; local LN metastasis (N+) or distant metastasis (M+);
+and age <18 years old or >85 years old at the time of diagnosis.
+
+Depending on the system, 4417 GC patients were identified. Then, to ensure that
+the patients with N0 status were MILN, the patients with <16 LN examined or
+primary tumor invasion less than T3 were also excluded. Then, 690 patients were
+diagnosed with T3/T4, including T3, T4a, T4b, and T4 Nos, N0, and M0 tumors were
+abstracted and analyzed. The patients who underwent gastrectomy were grouped
+into the radiotherapy group (n = 288) and non-radiotherapy group (n = 402). To
+control confounding factors by different indications for radiotherapy between
+arms, we performed a matched analysis, a total of 218 patients in the
+radiotherapy group and 218 patients in the non-radiotherapy group were matched
+at a 1:1 ratio (data extraction flowchart is shown in Figure 1 ).
+
+Flow chart showing study cohort. GC gastric cancer, No.LN number of lymph
+nodes.
+
+The following patients’ information was used in our study: Baseline demographics
+including sex, age, race, marital status, insurance situation; Tumor features
+including primary tumor invasion, node status, metastasis status, grade, tumor
+location, tumor size and Lauren classification; Treatment information including
+gastrectomy, radiotherapy and chemotherapy. Cancer stage was determined or
+recoded according to the AJCC/UICC TNM staging system (seventh version). 21 Age was categorized into groups of < 60 and ≥ 60 years based on
+statistical and clinical consideration. Tumor location was categorized as the
+esophagogastric junction and stomach. Tumor size was recoded as <5 cm, 5-10
+cm, >10 cm. More details can be obtained from SEERStat software version 8.3.6
+and SEER manual 2016.
+
+The endpoint of this study was CSS(Cancer-specific Survival), which was defined
+as the period from the date of diagnosis to the date of gastric cancer caused
+death, and patients who survived to the latest follow-up were censored.
+
+
+Statistical Analysis
+
+Descriptive statistics were used to calculate the absolute number and frequency
+among patients. The χ2, t, or Fisher’s exact test was used for intergroup
+comparisons where appropriate. The CSS was computed by the Kaplan-Meier method
+and tested by log-rank test. Survival-associated factors were evaluated using
+univariate analysis and multivariable Cox proportional hazards (PH) regression,
+adjusting for sex, age, race, marital status, insurance situation, primary tumor
+invasion, Lauren classification, grade, tumor location, tumor size, chemotherapy
+and gastrectomy.
+
+To control confounding factors by different indications for radiotherapy between
+arms, we performed a matched analysis. In the case-matched analysis, which aimed
+to balance high-dimensional observed covariates, propensity score matching (PSM)
+was applied. The matching factors were the independent prognostic factors found
+to be unbalanced between the 2 groups confirmed by univariate Cox PH regression.
+Race, Lauren classification, tumor size and chemotherapy were included.
+
+The PH and linearity assumptions for 25 continuous variables were examined using
+restricted cubic splines. Continuous variables were transformed into adequate
+forms for fitting the assumptions as appropriate. For categorical variables,
+log-log survival plots were used to identify the PH assumption, and all
+variables were fitted to the assumption. Results were considered statistically
+significant at a 2-sided P < 0.05. Data analysis were performed using IBM
+SPSS 25.0.0.0(IBM, Armonk, NY).
+
+
+Nomogram Construction and Validation
+
+Nomogram construction and validation analysis were performed using R 3.4.1. 22 Foreign, Hmisc, survival and rms packages were used. Data were read with
+the foreign package. 23 Variables were selected using the backward stepwise selection method in
+the Cox regression model with the survival package. 24 Based on the predictive models with the identified prognostic factors,
+nomograms were constructed to predict 3- and 5-year CSS. Nomogram validation
+consisted of discrimination and calibration. Discrimination was evaluated using
+Harrell’s concordance index (C-index) with the rms package. 25 Nomogram validation consisted of discrimination and calibration.
+Discrimination was evaluated using Harrell’s concordance index (C-index) with
+the rms package and Hmisc package. 26 Generally, a higher C-index value indicates better discrimination, with a
+value of 0.7 indicating moderate discrimination. A time-dependent receiver
+operating characteristic (ROC) curve was drawn to evaluate the accuracy of the
+nomogram. Validation was performed by comparing the means of predicted survival
+with those of actual observed survival estimated by the Kaplan-Meier method. To
+evaluate the efficacy of the nomogram better, stratification strategy was
+adopted, the X-tile program (Yale University School of Medicine, New Haven, CT,
+USA) was used to define the optimal cut-off points for the log-rank test and the
+highest specificity and sensitivity.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Together, 690 MILN GC patients who underwent gastrectomy between January 2010 and
+December 2016 were prospectively enrolled. As shown in Table 1 , 288(41.7%) patients received
+radiotherapy and 402(58.3%) patients not; 487(70.6%) patients received
+chemotherapy and 203(29.4%) patients not; 193(28.0%) patients received no
+adjuvant treatments, 209(30.3%) patients receive chemotherapy alone, 10 patients
+(1.4%) received radiotherapy alone and 278(40.3%) patients received
+chemoradiotherapy. Regardless of their assignment in the radiotherapy subgroup
+or non-radiotherapy subgroup, individuals younger than 60 years of age were more
+likely to receive radiotherapy than those older than 60 years [48.5% (97/200)
+vs. 38.9% (191/490), p = 0.043]. The tumor size and Lauren classification were
+unbalanced between the 2 subgroups. The patients who did not receive
+chemotherapy were generally less likely to receive radiotherapy than those who
+received treatment with chemotherapy [4.9% (10/203) vs. 57.08% (278/487), p <
+0.001]. No significant differences were found in terms of other variables.
+
+Patient and Tumor Characteristics.
+
+The balance of variables between the subgroups was markedly improved after PSM.
+Especially, for the variable of chemotherapy, which has been explicit
+demonstrated to be associated with prognosis in previous trials 6 - 9 and our study and be related to the conducting of radiotherapy in our
+study, the significance of difference (p value) between radiotherapy subgroup
+and non-radiotherapy subgroup was changed from 0.001 into >0.500.The baseline
+characteristics of patients included in this study are listed in Table 1 .
+
+After PSM, Kaplan-Meier analysis showed that 5-year CSS was 72.1% in radiotherapy
+subgroup and 78.3%in non-radiotherapy subgroup [HR = 1.259, 95% CI =
+0.788-2.012, p = 0.333]( Figure
+2A ), 76.4% in chemotherapy subgroup and 44.0% in non-chemotherapy
+subgroup (HR = 0.297, 95% CI = 0.143-0.621, p = 0.001)( Figure 2B ), 52.5% in radiotherapy alone
+subgroup and 42.9% in non-adjuvant treatment subgroup(HR = 0.591, 95% CI =
+0.132-2.647, p = 0.487)( Figure
+2C ), 73.4% in chemoradiotherapy subgroup and 79.8% in chemotherapy
+alone subgroup(HR = 1.325, 95% CI = 0.804-2.182, p = 0.266)( Figure 2D ). Result of the cohort before
+PSM were shown in Figure
+3 , overall, survival outcome between these subgroups was essentially
+the same before and after PSM.
+
+Comparison of cancer-specific survival (CSS) after propensity score
+matching. A. 5-year CSS was 72.1% in radiotherapy subgroup and 78.3%in
+non-radiotherapy subgroup [HR = 1.259, 95% CI = 0.788-2.012, p = 0.333];
+B. 76.4% in chemotherapy subgroup and 44.0% in non-chemotherapy subgroup
+(HR = 0.297, 95% CI = 0.143-0.621, p = 0.001); C. 52.5% in radiotherapy
+alone subgroup and 42.9% in non-adjuvant treatment subgroup(HR = 0.591,
+95% CI = 0.132-2.647, p = 0.487); D. 73.4% in chemoradiotherapy subgroup
+and 79.8% in chemotherapy alone subgroup(HR = 1.325, 95% CI =
+0.804-2.182, p = 0.266).
+
+Comparison of cancer-specific survival (CSS) before propensity score
+matching. A. 5-year CSS was 71.9% in radiotherapy subgroup and 75.1%(HR
+= 1.013, 95% CI = 0.714-1.438, p = 0.940); B. 5-year CSS was 75.6% in
+chemotherapy subgroup and 68.5% in non-chemotherapy subgroup(HR = 0.616,
+95% CI = 0.430-0.884, p = 0.008); C. 5-year CSS was 52.5% in
+radiotherapy-alone subgroup and 71.9% in non-adjuvant treatment
+subgroup(HR = 1.604, 95% CI = 0.575-4.471, p = 0.360); D. 5-year CSS was
+72.9% in chemoradiotherapy subgroup and 79.5% in chemotherapy-alone
+subgroup (HR = 1.365, 95% CI = 0.859-2.172, p = 0.185).
+
+To explore an optimization model of whether radiotherapy could benefit MILN GC
+patients, analyses of univariate and multivariate cox regression were conducted
+in this study ( Table
+2 ). Univariate analysis of potential prognostic factors revealed that
+the patient’s diagnosed year (2010, 2011, 2012, 2013, 2014, 2015), sex, age
+(<60 vs. ≥60 years old), race (white, black and others), marital status
+(unmarried, married and unknown), insurance situation, Lauren classification
+(intestinal, diffuse and unknown), grade (G1-G2, G3-G4 and unknown), tumor
+location (esophagogastric junction vs. stomach), primary tumor invasion (T3 vs.
+T4), tumor size (<5 cm, 5-10 cm, ≥10 cm and unknown), chemotherapy (yes or
+no), radiotherapy (yes or no) and gastrectomy (distal, total, proximal and
+Gastrectomy, Nos) were regarded as covariates. Both before and after PSM, the
+variables with p < 0.01 in the univariate survival analysis were further
+analyzed in multivariate survival analysis, and the variable of radiotherapy was
+always included in the survival analysis.
+
+Univariate and Multivariate Cox Regression Analysis for Cancer-Specific
+Survival After Psm.
+
+The univariate survival analysis revealed that race (p < 0.05), primary tumor
+invasion (p < 0.05), tumor size (p < 0.05), Lauren classification (p <
+0.05), chemotherapy (p < 0.05), and radiotherapy (p < 0.05) were
+associated with the CSS of the MILN GC patients who underwent gastrectomy, but
+radiotherapy did not improve survival at all( Table 2 ).
+
+After PSM, the multivariate survival analysis showed that the patients who had
+received chemotherapy generally had better CSS (HR = 0.32, 95% CI = 0.15-0.68).
+Furthermore, patients with T4 tumors were likely to have worse CSS than those
+with T3 tumors (HR = 1.691, CI = 1.01-2.84). Meanwhile, tumor size also
+influenced patient prognosis; specifically, patients with bigger tumors (d≥10
+cm) had worse CSS (e.g. HR = 2.48, CI = 1.46-4.22). Furthermore, compared with
+the race of white, black and other ethnic backgrounds were likely to have better
+CSS (HR = 0.47, CI = 0.18 -1.18 and HR = 0.39, CI = 0.20-0.76,
+respectively)( Table
+2 ).
+
+Meanwhile, survival analysis was also used to analyze the cohort before PSM,
+generally, the results were essentially the same, superior CSS remained
+associated with patients who had received chemotherapy, smaller tumor, less
+invasive tumors and intestinal-type classification.(Table S1). However, no
+predominant statistical significance was found for radiotherapy before or after
+PSM( Table 2 &
+Table S1).
+
+The constructed nomogram ( Figure
+4 ) can assign survival probability by adding up the scores identified
+on the points scale for each variable. The total scores projected to the bottom
+scales indicate the probability of 3- and 5-year CSS survival. The C-index for
+CSS was 0.699 (95% CI, 0.638-0.76) ( Figure 5A-B ). For validation, the
+nomogram was tested by 3000 bootstraps resamples and show that the median actual
+survival corresponded closely CSS to the predicted survival. The area under
+curve(AUC) values of the ROC predicted the 3-, and 5-year CSS of the nomogram to
+be 0.708 and 0.761, indicating good agreements between prediction and practical
+observation( Figure
+5C-D ).
+
+Nomograms predicting 3- and 5-year cancer-specific survival (CSS). The
+nomogram is used by adding up the points identified on the points scale
+for each variable. The total points projected on the bottom scales
+indicate the probability of 3- and 5-year survival.
+
+Validation of the nomogram for predicting 3- and 5-year cancer-specific
+survival(CSS) for lymph node metastasis-indolent locally advanced
+gastric cancer after gastrectomy. (A-B). Calibration plot. The x-axis
+represents the nomogram-predicted survival, and the y-axis represents
+actual survival measured by Kaplan-Meier analysis. The C-index for CSS
+was 0.699 (95% CI, 0.638-0.76). (C-D). Discrimination plot. The area
+under curve(AUC) values of the receiver operating characteristic (ROC)
+predicted the 3-, and 5-year CSS of the nomogram to be 0.708 and
+0.761.
+
+In addition, to evaluate the predicting probability of our nomogram further,
+patients were stratified into 3 incremental risk level groups: low risk(0-12),
+medium risk(12-15) and high risk(>15)) which indicate different prognosis
+depending on X-tile program ( Figure 6 ). A significant difference can be observed between
+different risk groups. The stratification strategy and result were summarized in
+supplementary figure (Supplementary Figure 1).
+
+Patients were stratified into 3 incremental risk level groups (low risk,
+median risk and high risk) to evaluate the efficacy of the nomogram.
+Significant difference can be observed between different risk
+groups.
+
+
+Baseline Characteristics and Long-Term Survival
+
+Together, 690 MILN GC patients who underwent gastrectomy between January 2010 and
+December 2016 were prospectively enrolled. As shown in Table 1 , 288(41.7%) patients received
+radiotherapy and 402(58.3%) patients not; 487(70.6%) patients received
+chemotherapy and 203(29.4%) patients not; 193(28.0%) patients received no
+adjuvant treatments, 209(30.3%) patients receive chemotherapy alone, 10 patients
+(1.4%) received radiotherapy alone and 278(40.3%) patients received
+chemoradiotherapy. Regardless of their assignment in the radiotherapy subgroup
+or non-radiotherapy subgroup, individuals younger than 60 years of age were more
+likely to receive radiotherapy than those older than 60 years [48.5% (97/200)
+vs. 38.9% (191/490), p = 0.043]. The tumor size and Lauren classification were
+unbalanced between the 2 subgroups. The patients who did not receive
+chemotherapy were generally less likely to receive radiotherapy than those who
+received treatment with chemotherapy [4.9% (10/203) vs. 57.08% (278/487), p <
+0.001]. No significant differences were found in terms of other variables.
+
+Patient and Tumor Characteristics.
+
+The balance of variables between the subgroups was markedly improved after PSM.
+Especially, for the variable of chemotherapy, which has been explicit
+demonstrated to be associated with prognosis in previous trials 6 - 9 and our study and be related to the conducting of radiotherapy in our
+study, the significance of difference (p value) between radiotherapy subgroup
+and non-radiotherapy subgroup was changed from 0.001 into >0.500.The baseline
+characteristics of patients included in this study are listed in Table 1 .
+
+After PSM, Kaplan-Meier analysis showed that 5-year CSS was 72.1% in radiotherapy
+subgroup and 78.3%in non-radiotherapy subgroup [HR = 1.259, 95% CI =
+0.788-2.012, p = 0.333]( Figure
+2A ), 76.4% in chemotherapy subgroup and 44.0% in non-chemotherapy
+subgroup (HR = 0.297, 95% CI = 0.143-0.621, p = 0.001)( Figure 2B ), 52.5% in radiotherapy alone
+subgroup and 42.9% in non-adjuvant treatment subgroup(HR = 0.591, 95% CI =
+0.132-2.647, p = 0.487)( Figure
+2C ), 73.4% in chemoradiotherapy subgroup and 79.8% in chemotherapy
+alone subgroup(HR = 1.325, 95% CI = 0.804-2.182, p = 0.266)( Figure 2D ). Result of the cohort before
+PSM were shown in Figure
+3 , overall, survival outcome between these subgroups was essentially
+the same before and after PSM.
+
+Comparison of cancer-specific survival (CSS) after propensity score
+matching. A. 5-year CSS was 72.1% in radiotherapy subgroup and 78.3%in
+non-radiotherapy subgroup [HR = 1.259, 95% CI = 0.788-2.012, p = 0.333];
+B. 76.4% in chemotherapy subgroup and 44.0% in non-chemotherapy subgroup
+(HR = 0.297, 95% CI = 0.143-0.621, p = 0.001); C. 52.5% in radiotherapy
+alone subgroup and 42.9% in non-adjuvant treatment subgroup(HR = 0.591,
+95% CI = 0.132-2.647, p = 0.487); D. 73.4% in chemoradiotherapy subgroup
+and 79.8% in chemotherapy alone subgroup(HR = 1.325, 95% CI =
+0.804-2.182, p = 0.266).
+
+Comparison of cancer-specific survival (CSS) before propensity score
+matching. A. 5-year CSS was 71.9% in radiotherapy subgroup and 75.1%(HR
+= 1.013, 95% CI = 0.714-1.438, p = 0.940); B. 5-year CSS was 75.6% in
+chemotherapy subgroup and 68.5% in non-chemotherapy subgroup(HR = 0.616,
+95% CI = 0.430-0.884, p = 0.008); C. 5-year CSS was 52.5% in
+radiotherapy-alone subgroup and 71.9% in non-adjuvant treatment
+subgroup(HR = 1.604, 95% CI = 0.575-4.471, p = 0.360); D. 5-year CSS was
+72.9% in chemoradiotherapy subgroup and 79.5% in chemotherapy-alone
+subgroup (HR = 1.365, 95% CI = 0.859-2.172, p = 0.185).
+
+
+Univariate and Multivariate Analysis
+
+To explore an optimization model of whether radiotherapy could benefit MILN GC
+patients, analyses of univariate and multivariate cox regression were conducted
+in this study ( Table
+2 ). Univariate analysis of potential prognostic factors revealed that
+the patient’s diagnosed year (2010, 2011, 2012, 2013, 2014, 2015), sex, age
+(<60 vs. ≥60 years old), race (white, black and others), marital status
+(unmarried, married and unknown), insurance situation, Lauren classification
+(intestinal, diffuse and unknown), grade (G1-G2, G3-G4 and unknown), tumor
+location (esophagogastric junction vs. stomach), primary tumor invasion (T3 vs.
+T4), tumor size (<5 cm, 5-10 cm, ≥10 cm and unknown), chemotherapy (yes or
+no), radiotherapy (yes or no) and gastrectomy (distal, total, proximal and
+Gastrectomy, Nos) were regarded as covariates. Both before and after PSM, the
+variables with p < 0.01 in the univariate survival analysis were further
+analyzed in multivariate survival analysis, and the variable of radiotherapy was
+always included in the survival analysis.
+
+Univariate and Multivariate Cox Regression Analysis for Cancer-Specific
+Survival After Psm.
+
+The univariate survival analysis revealed that race (p < 0.05), primary tumor
+invasion (p < 0.05), tumor size (p < 0.05), Lauren classification (p <
+0.05), chemotherapy (p < 0.05), and radiotherapy (p < 0.05) were
+associated with the CSS of the MILN GC patients who underwent gastrectomy, but
+radiotherapy did not improve survival at all( Table 2 ).
+
+After PSM, the multivariate survival analysis showed that the patients who had
+received chemotherapy generally had better CSS (HR = 0.32, 95% CI = 0.15-0.68).
+Furthermore, patients with T4 tumors were likely to have worse CSS than those
+with T3 tumors (HR = 1.691, CI = 1.01-2.84). Meanwhile, tumor size also
+influenced patient prognosis; specifically, patients with bigger tumors (d≥10
+cm) had worse CSS (e.g. HR = 2.48, CI = 1.46-4.22). Furthermore, compared with
+the race of white, black and other ethnic backgrounds were likely to have better
+CSS (HR = 0.47, CI = 0.18 -1.18 and HR = 0.39, CI = 0.20-0.76,
+respectively)( Table
+2 ).
+
+Meanwhile, survival analysis was also used to analyze the cohort before PSM,
+generally, the results were essentially the same, superior CSS remained
+associated with patients who had received chemotherapy, smaller tumor, less
+invasive tumors and intestinal-type classification.(Table S1). However, no
+predominant statistical significance was found for radiotherapy before or after
+PSM( Table 2 &
+Table S1).
+
+
+Prognostic Nomogram Construction and Calibration
+
+The constructed nomogram ( Figure
+4 ) can assign survival probability by adding up the scores identified
+on the points scale for each variable. The total scores projected to the bottom
+scales indicate the probability of 3- and 5-year CSS survival. The C-index for
+CSS was 0.699 (95% CI, 0.638-0.76) ( Figure 5A-B ). For validation, the
+nomogram was tested by 3000 bootstraps resamples and show that the median actual
+survival corresponded closely CSS to the predicted survival. The area under
+curve(AUC) values of the ROC predicted the 3-, and 5-year CSS of the nomogram to
+be 0.708 and 0.761, indicating good agreements between prediction and practical
+observation( Figure
+5C-D ).
+
+Nomograms predicting 3- and 5-year cancer-specific survival (CSS). The
+nomogram is used by adding up the points identified on the points scale
+for each variable. The total points projected on the bottom scales
+indicate the probability of 3- and 5-year survival.
+
+Validation of the nomogram for predicting 3- and 5-year cancer-specific
+survival(CSS) for lymph node metastasis-indolent locally advanced
+gastric cancer after gastrectomy. (A-B). Calibration plot. The x-axis
+represents the nomogram-predicted survival, and the y-axis represents
+actual survival measured by Kaplan-Meier analysis. The C-index for CSS
+was 0.699 (95% CI, 0.638-0.76). (C-D). Discrimination plot. The area
+under curve(AUC) values of the receiver operating characteristic (ROC)
+predicted the 3-, and 5-year CSS of the nomogram to be 0.708 and
+0.761.
+
+In addition, to evaluate the predicting probability of our nomogram further,
+patients were stratified into 3 incremental risk level groups: low risk(0-12),
+medium risk(12-15) and high risk(>15)) which indicate different prognosis
+depending on X-tile program ( Figure 6 ). A significant difference can be observed between
+different risk groups. The stratification strategy and result were summarized in
+supplementary figure (Supplementary Figure 1).
+
+Patients were stratified into 3 incremental risk level groups (low risk,
+median risk and high risk) to evaluate the efficacy of the nomogram.
+Significant difference can be observed between different risk
+groups.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In contrast to NCCN guidelines that recommended that pT3-4Nx GC patients undergo R0
+resection should receive chemoradiotherapy, 12 our research indicated that only chemotherapy contributed to superior
+prognosis rather than radiotherapy for MILN GC in Western practices. Thus these
+results suggested radiotherapy could be substracted for this subgroup of patients.
+The survival analysis showed the CSS in radiotherapy subgroup was similar to that in
+non-radiotherapy subgroup, while CSS in chemotherapy subgroup was significantly
+better than that in non-chemotherapy subgroup. Further analyzing showed prognosis of
+radiotherapy-alone subgroup is not significantly different from that in non-adjuvant
+treatment subgroup, and the survival of chemoradiotherapy subgroup is similar to
+that in chemotherapy-alone subgroup. These results of the survival analysis
+indicated that the variate of radiotherapy could not improve survival. Furthermore,
+the Cox regression analysis confirmed that radiotherapy could not independently
+affect survival. Consistently, when the chemotherapy situation was totally the same
+between radiotherapy subgroup and non-radiotherapy subgroup by PSM, the survival of
+radiotherapy subgroup was inferior to that in non-radiotherapy subgroup.
+
+In consistent, recently, the CRITICS trial, the first trial to directly compare
+postoperative chemoradiotherapy with perioperative chemotherapy in patients with
+resectable GC, showed that postoperative chemoradiotherapy did not improve survival
+compared with resectable GC treated with adequate preoperative chemotherapy and surgery. 27 After preoperative chemotherapy, 372 (95%) of 393 patients in the
+chemotherapy subgroup and 369 (93%) of 395 patients in the chemoradiotherapy
+subgroup proceeded to surgery. With a median follow-up of 61.4 months (IQR
+43.3-82.8), mOS was 43 months (95% CI 31-57) in the chemotherapy subgroup and 37
+months (30-48) in the chemoradiotherapy subgroup (HR 1.01, 95% CI 0.84 -1.22; p =
+0.90). This result supported our hypothesis and finding in our study that the
+survival benefit of chemoradiotherapy in Western practices may be attributed
+primarily to chemotherapy rather than to radiotherapy. The recent meta-analysis also
+showed that for advanced GC, radiochemotherapy displayed similar OS in comparison to
+chemotherapy alone. 28 From the perspective of biological characteristics, this result could also be
+explained. Stage T4aN0M0 GC, in which the tumor cells have infiltrated the serosa,
+is prone to cell exfoliation in the abdominal and thus is likely to recur. Although
+radiotherapy cannot remove these detached GC cells and potential micro-hematogenous
+metastasis, systematic chemotherapy may work to some extent due to the difference in
+the mechanism of action.
+
+To explore our hypothesis that chemoradiotherapy conferred a better prognosis
+compared with surgery-alone in previous experiences might be attributed to
+chemotherapy rather than radiotherapy even in Western practices, we investigated it
+firstly in MILN GC based on previous research. The study that analyzed the relapse
+patterns and therapeutic effects of D1 and D2 dissections found that the addition of
+postoperative chemoradiotherapy had a major impact on local recurrence in resectable
+gastric cancer with D1 dissection (2% vs 8%; p = 0.001), while there was no
+difference in patients undergoing D2 dissection. 29 So the survival benefits associated with adjuvant chemoradiotherapy may be a
+compensation for inadequate LN dissection, such as that in D1/D0 dissection.
+However, in Western practices, most patients only underwent D1/D0 dissection, so we
+decided to investigate on MILN GC patients. In addition, the defining of MILN GC as
+stage T3-4N0M0 patients with more than 15 LNs examined based on the following
+reasons. Overall, the more invasive the tumor depth is, the more extensive the LN
+involving is. 30 , 31 However, due to tumour heterogeneity, some T3-4 patients may have no LN
+metastasis, while some T1a-1b patients may confront extensive LN metastasis. Of
+course, the stage T3-4N0 GC are distinguished from the subgroup of biologically LN
+metastasis-active GC (T1a-1bN+) and could be conformed to our study demanding.
+
+Also, the association between the extent of lymphadenectomy and survival benefit of
+radiotherapy is an interesting point worthing in-depth discussing to comprehend this
+research. Dikken et al. retrospectively compared survival and recurrence patterns to
+evaluate more intensified postoperative chemoradiotherapy than those from the Dutch
+Gastric Cancer Group Trial (DGCT), which randomly assigned patients between D1 and
+D2 lymphadenectomy. 29 Survival and recurrence patterns of 91 patients with adenocarcinoma of the
+stomach who had received surgery followed by radiotherapy combined with fluorouracil
+and leucovorin (n = 5), capecitabine (n = 39), or capecitabine and cisplatin (n =
+47) were analyzed and compared with the survival and recurrence patterns of 694
+patients from the DGCT (D1, n = 369; D2, n = 325). The results revealed that the
+addition of postoperative chemoradiotherapy had a major impact on local recurrence
+in resectable gastric cancer with D1 LN dissection, while there was no difference in
+patients undergoing D2 dissection. Consistently, patients in the ARTIST 19 and ARTIST- II trial, 17 most of who underwent D2 LN dissection, did not benefit from the addition of
+radiotherapy. In addition, in the view of fundamental research, some vital
+researches have indicated epibiotic cancer cells in LNs resulting from the
+inadequate LN dissection of positive LNs would be active hubs for systemic tumor
+cell spreading and thus more prone to facilitating recurrence. 32 , 33 Thus, radiotherapy could be an important complementary measure to reduce the
+potential cancer cells in LNs. Therefore, the benefit associated with
+chemoradiotherapy may be compensation for inadequate LN dissection (D1/D0) for
+nonspecific GC. While for LAGC patients who undergo standard radical D2
+lymphadenectomy, which has been confirmed to achieve the maximum oncology efficacy
+for LAGC, 34 , 35 or who are characterized as being MILN, the prognosis benefit of radiotherapy
+would be negative. And in our study, the MILN GC patients who mainly underwent D1/D0
+LN dissection might be equal to the LN dissection effect of nonspecific GC patients
+mainly underwent D2 LN dissection. From this perspective, our results are reasonable
+and might be generalized.
+
+Considering all these factors, the extent of LN dissection, biological LN status and
+primary tumor invasion should be taken into account when discussing and determining
+radiotherapy for GC. Furthermore, from the perspective of histology, the patients
+with intestinal-type GC are more likely to benefit from chemoradiotherapy than those
+with diffuse-type GC in the subgroup analysis of the INT0116 and ARTIST trials. 10 , 19 Also, It has been acknowledged that therapeutic strategies in a
+multidisciplinary discussion for GC should be determined by individual patient characteristics. 28 Thus, identifying patients could benefit from radiotherapy or not is critical
+to subtract unnecessary treatment without undermining treatment effect. Thus,
+well-designed trials to determined tailored treatment for specific subgroups are in urgent. 36 
+
+The present study has several limitations that should be noted. This study was a
+retrospective study and the patients’ characteristics were unbalanced between
+groups. To compensate for this inherent limitation, we performed PSM with the
+variates that were unbalanced between groups and could independently affect the
+prognosis of MILN GC to improve the balance of baseline data. Notably, the
+significance of the difference in chemotherapy situation between radiotherapy
+subgroup and non-radiotherapy subgroup was changed from 0.001 to 1.000. Also,
+although we could identify whether the patients received chemotherapy or not, the
+SEER database did not provide information on the chemotherapy regimes, durations or
+the relationship with the surgery. Besides, MILN is a relevant concept, and the
+pathology result of LN-negative may not guarantee MILN nature and the number of LNs
+examined after gastrectomy might affect the detection of LN-metastasis status. 37 - 40 Thus, to compensate for this limitation, in our study, only patients with
+more than 15 LN examined were enrolled since this feature was defined as a surrogate
+for the evaluation of LN dissection. 41 , 42 
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+MILN GC could not benefit from radiotherapy, which may only work as compensation for
+the poor surgical outcomes in LAGC patients with potential LN metastasis in Western
+practices. Chemoradiotherapy confers superior prognosis to MILN GC patients compared
+with surgery alone might only be attributed to chemotherapy rather than
+radiotherapy. This finding suggested that, contrary to NCCN guidelines, radiotherapy
+could be subtracted to reduce the side effects and treatment burden of radiotherapy
+for MILN GC patients. However, determining conclusions should be further verified in
+well-designed randomized trials.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, Fig_S1 - Distinguish the Role of Radiotherapy From
+Chemoradiotherapy for Gastric Cancer With Behavior of Metastasis-Indolent in
+Lymph Node
+File: Fig_S1.jpg
+Supplemental Material, Table_S1_ - Distinguish the Role of Radiotherapy
+From Chemoradiotherapy for Gastric Cancer With Behavior of
+Metastasis-Indolent in Lymph Node
+File: Table_S1_.pdf

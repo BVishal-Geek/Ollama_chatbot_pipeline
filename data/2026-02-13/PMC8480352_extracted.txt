@@ -1,0 +1,198 @@
+================================================================================
+ARTICLE TITLE: Cervical Cancer Among Older Women: Analyses of Surveillance, Epidemiology and End Results Program Data
+PMCID: PMC8480352
+PMID: 33291971
+KEYWORDS: cervical cancer, seer program, older women, cancer disparities, cancer incidence
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+To describe age-specific cervical cancer incidence rates based on demographic and clinical characteristics.
+
+Methods::
+Women with cervical cancer in the SEER program were grouped into 3 age categories. Demographics, clinical characteristics, and incidence rates were obtained for each age group.
+
+Results::
+Older women (≥65 years) had higher incidence rates of cervical cancer than women <65 years with the highest rates in black women ≥75 years. Older black women had more adverse factors at diagnosis than similarly aged white and younger black women. There was a higher incidence rate of cervical cancer in women with lower socioeconomic status (SES), with the highest rates in older black women. However, the incidence rates were similar for older black women regardless of SES.
+
+Conclusion::
+Older black have the highest cervical cancer incidence rates, regardless of SES, suggesting an age and race disparity when compared to younger and white women.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+There are approximately 13,800 new cases of cervical cancer diagnosed annually in the United States (US), with an estimated 4,290 deaths per year. 1 The 5-year relative survival is 92% for those with localized disease, 56% for those with regional disease, and 17% for those with distant disease at diagnosis. 2 Since 1975, there has been a dramatic decline in the incidence of invasive cervical cancer due to the adoption of Pap testing for cervical cancer screening. 1 , 2 
+
+Cervical cancer incidence is bimodal with peaks at ages 30-39 years and 60-69 years, 3 and in the US, there are relatively large disparities in cervical cancer incidence, stage at diagnosis, mortality and survival based on race, ethnicity, and socioeconomic status (SES). 2 Cervical cancer incidence and mortality rates have been reported to be higher in older women, 2 , 4 - 8 and when corrected for hysterectomy status, age-specific mortality rates are highest for black women aged 85 years and older. 9 There are challenges to understanding the disparities experienced by older women with cervical cancer due to a lack of consensus about the age considered “elderly” and the underrepresentation of older women with cervical cancer in clinical trials, with little research conducted about and for this population. 6 Therefore, disparities based on race, ethnicity and SES among older women with cervical cancer should be investigated further.
+
+The purpose of this study was to describe age-specific cervical cancer incidence rates, and to examine cervical cancer frequencies and incidence rates based on demographic and clinical characteristics to identify possible age-related disparities.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+Women diagnosed with cervical cancer were identified using the Surveillance, Epidemiology, and End Results (SEER) Program database of the National Cancer Institute. 10 Women were grouped into the 3 age categories commonly shown in studies of older adults: less than 65 years (<65), 65-74 years, and 75 years and greater (≥75). 11 - 13 For this study, older women were defined as those 65-74 years and ≥75 years and the group of women <65 served as a descriptive comparison group representing younger women. Demographics included race (white, black, American Indian/Alaska Native, and Asian Pacific Islander, using the variable “Race Recode”), ethnicity (non-Hispanic black (NHB), non-Hispanic white (NHW), and Hispanic, using the variables “Race Recode” and “Origin Recode”), marital status (single/unmarried, married, separated/divorced/widowed (S/D/W)), and insurance status (insured/insured no specifics including Medicare, Medicaid, uninsured, unknown).
+
+Socioeconomic status was ascertained using area-based county measures from the American Community Survey 2013-2016, and included three variables: median family income (less than $50,000, $50,000-$75,000, $75,000-$100,000, and greater than $100,000), poverty level based on percentage of families below poverty (low <20%, high >20%), and educational attainment based on percent of population with less than a high school education (low >15%, high <15%). The collection of 21 SEER registries (for the years 2012-2016) was used to obtain demographic and clinical characteristics, with the exceptions of marital status and insurance status for which the collection of 18 SEER registries was used (2012-2015), as these factors were not available for the collection of 21 SEER registries.
+
+Clinical characteristics included stage at diagnosis (using SEER combined summary stage (2000) of localized, regional, distant, and unknown/unspecified)), histology excluding in situ cancers (Squamous Cell Carcinoma 8070-8078, 8084, 8052, 8076, and 8083, Adenocarcinoma 8140, 8141, 8143, 8144, 8146, 8441, 8460,8461,8480,8482,8574, 8384, 8323, 8098, 8255, 8260, 8262,8263,8310, Adenosquamous carcinoma 8560, 8570, Neuroendocrine carcinoma 8013, 8041, 8045, 8246 and Other 8000, 8010, 8015, 8020, 8022, 8033, 8046, 8050, 8082, 8200, 8490), and grade (well differentiated, moderately differentiated, poorly differentiated).
+
+The description of this cervical cancer patient population consisted of summary statistics (frequency and percentages) of demographic and clinical characteristics by age and race subgroups. Incidence rates and 95% confidence intervals were calculated by age group, demographics including race and ethnicity, and clinical characteristics. Statistical significance for the comparison of incidence rates was determined using 95% confidence intervals. All incidence rates were expressed as the number of cases per 100,000 women and were age-adjusted to the 2000 U.S. standard population. SEER*Stat statistical software was used to calculate incidence rates and 95% confidence intervals. 14 
+
+All data were publicly available and de-identified. With oversight from our Institutional Review Board (IRB), this study was deemed exempt from IRB and ethical board approval.
+
+
+Statistical Analysis
+
+The description of this cervical cancer patient population consisted of summary statistics (frequency and percentages) of demographic and clinical characteristics by age and race subgroups. Incidence rates and 95% confidence intervals were calculated by age group, demographics including race and ethnicity, and clinical characteristics. Statistical significance for the comparison of incidence rates was determined using 95% confidence intervals. All incidence rates were expressed as the number of cases per 100,000 women and were age-adjusted to the 2000 U.S. standard population. SEER*Stat statistical software was used to calculate incidence rates and 95% confidence intervals. 14 
+
+All data were publicly available and de-identified. With oversight from our Institutional Review Board (IRB), this study was deemed exempt from IRB and ethical board approval.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+There were 22,610 cases of cervical cancer in the 21 SEER registries from 2012-2016. Race and ethnicity characteristics by age are found in Table 1 . Clinical and SES characteristics by race and age are found in Table 2 . The majority of women (n=17,890; 79.1%) were diagnosed at an age <65 years. However, a higher percentage of older women were black (65-74, 17.3%; ≥75, 19.4%) compared to younger women (<65, 14.7%). White women had higher percentages of being insured than black women (<65, 58.6% vs 45.9%; 65-74, 76.1% vs 68.7%; ≥75, 73.5% vs 64.9%) and black women had higher percentages of having Medicaid regardless of age (<65, 40.9% vs 30.7; 65-74, 19.7% vs 17.8%; ≥75, 26.2% vs 14.8%). A higher percentage of black women had an income less than $50,000 (<65, 16.6% vs 10.6%; 65-74, 14.7% vs 10.1%; ≥75, 14.1% vs 7.4%) and lived in counties with lower levels of educational attainment (<65, 42.3% vs 38.5%; 65-74, 43.4% vs 36.1%; ≥75, 42.9% vs 36.2%) and higher poverty levels (<65, 9.3% vs 5.2; 65-74, 7.8% vs 5.0%; ≥75, 8.8% vs 4.4%). Most women aged <65 years were diagnosed with localized disease (47.9%) but a higher percentage of older women were diagnosed with regional (<65, 34%; 65-74, 41.6%; ≥75, 43.8%) and distant (<65, 13.6%; 65-74, 24.1%; ≥75, 22.7%) stage disease. For all women with cervical cancer, poorly differentiated grade was more common than well-differentiated grade in the older age groups (<65, 28.6% vs 12.2%); 65-74, 35% vs 7%; ≥75, 34.5% vs 4.5%) and these percentages were higher among black women.
+
+Race and Ethnicity of Women With Cervical Cancer in SEER 21 Registry Diagnosed From 2012-2016 Based on Age.
+
+* Alaskan Native/Asian Pacific Islander/unknown.
+
+**Non-Hispanic Alaskan Native/Asian Pacific Islander/unknown.
+
+NHW = Non-Hispanic white; NHB = Non-Hispanic black.
+
+Characteristics of Women With Cervical Cancer in SEER 21 Registry Diagnosed From 2012-2016 Based on Age and Race.
+
+¥ 2012-2015 using SEER 18.
+
+* Count suppressed since < 16.
+
+** County level data.
+
+£ Does not include unknown.
+
+Average annual (2012-2016) cervical cancer incidence rates were higher among older women, compared to those among women <65 years, with the highest rates in women aged 65-74 years ( Table 3 ). The incidence rate of cervical cancer differed by race between age groups. For women aged <65 years, the incidence rate was similar for white and black women (7.2 and 7.3 per 100,000, respectively). However, for women aged 65-74 years, black women had a considerably higher incidence rate than white women (17.4 per 100,000 compared to 9.9 per 100,000). This difference was even greater for black women aged ≥75 years who had an incidence rate that was 2.5 times that of white women (20.4 per 100,000 compared to 8.1 per 100,000). Incidence rates were also higher in older NHB women compared to Hispanic and NHW women. The incidence rate was highest for NHB women aged ≥75 years (20.6 per 100,000). The 2012-2016 cervical cancer incidence rate for white women peaked in the 40-45 year age group and decreased with advancing age. However, for black women, the incidence rate steadily increased with age and peaked in the 80-84 year age group ( Figure 1 ).
+
+Average Annual (2012-2016) Cervical Cancer Incidence Rates Per 100,000 Individuals Based on Race and Ethnicity With 95% Confidence Intervals.
+
+SEER cervical cancer incidence rates per 100,000 based on age and race from 2012 to 2016.
+
+For women aged <65 years, the cervical cancer incidence rate of localized disease at diagnosis was higher than those for regional and distant disease as shown in Table 4 . However, among women aged 65-74 years, there was a higher rate of regional disease compared to localized and distant disease and, for women aged ≥75 years, there were higher rates of regional and distant disease than for localized disease. Older black women had higher incidence rates of regional and distant disease than white women in the same age groups and black women aged <65 years ( Table 4 ). For each race and age group, the rate of squamous cell carcinoma was higher than that for any other histology. However, older black women had higher incidence rates of every histology than white women in the same age groups and younger black women. The rate of poorly differentiated or undifferentiated cancer was higher among older women compared to women aged <65 years and the rate of poorly differentiated or undifferentiated cancer was highest among black women aged ≥75 years ( Table 4 ).
+
+Cervical Cancer Incidence Rates Per 100,000 Individuals by Stage, Histology, Grade, Education Level, Poverty Level, and Income Level Based on Age and Race With 95% Confidence Intervals.
+
+Note: education level categories: low = greater than 15% of population without a higher school education; high = less than 15% of population without a high school education; poverty level categories: low = less than 20% families below poverty; high = more than 20% families below poverty.
+
+There were higher cervical cancer incidence rates among women of all age groups residing in counties with lower levels of educational attainment than in those with higher educational attainment. Incidence rates were highest among black women aged ≥75 years residing in counties with lower educational attainment (21 per 100,000). Cervical cancer incidence rates also increased with increasing poverty level for all age groups and were highest in women aged 65-74 years residing in high poverty counties (13.7 per 100,000). Black women aged ≥75 years had similar incidence rates regardless of poverty status, which was more than double the incidence for white women at the same poverty levels ( Table 4 ).
+
+Higher incidence rates of cervical cancer were identified for women residing in counties with lower median family income levels for all age groups. The highest incidence was observed among women aged 65-74 years residing in counties with median family incomes in the lowest income bracket (13 per 100,000). As income levels increased, incidence rates decreased for the entire cohort in all age groups. However, older black women had higher rates of cervical cancer than white women of the same age group in each income level. Among black women, only those <65 years had a lower incidence with increasing income, while those 65-74 years of age had higher incidence rates with higher income and black women aged ≥75 years had similar incidence rates from the lowest to the highest income. While incidence rates decreased for white women aged <65 years and 65-74 years with increasing income, incidence rates were also similar for white women aged ≥75 years across all income levels ( Table 4 ).
+
+
+Demographics and Clinical Characteristics
+
+There were 22,610 cases of cervical cancer in the 21 SEER registries from 2012-2016. Race and ethnicity characteristics by age are found in Table 1 . Clinical and SES characteristics by race and age are found in Table 2 . The majority of women (n=17,890; 79.1%) were diagnosed at an age <65 years. However, a higher percentage of older women were black (65-74, 17.3%; ≥75, 19.4%) compared to younger women (<65, 14.7%). White women had higher percentages of being insured than black women (<65, 58.6% vs 45.9%; 65-74, 76.1% vs 68.7%; ≥75, 73.5% vs 64.9%) and black women had higher percentages of having Medicaid regardless of age (<65, 40.9% vs 30.7; 65-74, 19.7% vs 17.8%; ≥75, 26.2% vs 14.8%). A higher percentage of black women had an income less than $50,000 (<65, 16.6% vs 10.6%; 65-74, 14.7% vs 10.1%; ≥75, 14.1% vs 7.4%) and lived in counties with lower levels of educational attainment (<65, 42.3% vs 38.5%; 65-74, 43.4% vs 36.1%; ≥75, 42.9% vs 36.2%) and higher poverty levels (<65, 9.3% vs 5.2; 65-74, 7.8% vs 5.0%; ≥75, 8.8% vs 4.4%). Most women aged <65 years were diagnosed with localized disease (47.9%) but a higher percentage of older women were diagnosed with regional (<65, 34%; 65-74, 41.6%; ≥75, 43.8%) and distant (<65, 13.6%; 65-74, 24.1%; ≥75, 22.7%) stage disease. For all women with cervical cancer, poorly differentiated grade was more common than well-differentiated grade in the older age groups (<65, 28.6% vs 12.2%); 65-74, 35% vs 7%; ≥75, 34.5% vs 4.5%) and these percentages were higher among black women.
+
+Race and Ethnicity of Women With Cervical Cancer in SEER 21 Registry Diagnosed From 2012-2016 Based on Age.
+
+* Alaskan Native/Asian Pacific Islander/unknown.
+
+**Non-Hispanic Alaskan Native/Asian Pacific Islander/unknown.
+
+NHW = Non-Hispanic white; NHB = Non-Hispanic black.
+
+Characteristics of Women With Cervical Cancer in SEER 21 Registry Diagnosed From 2012-2016 Based on Age and Race.
+
+¥ 2012-2015 using SEER 18.
+
+* Count suppressed since < 16.
+
+** County level data.
+
+£ Does not include unknown.
+
+
+Incidence Rates by Race and Ethnicity
+
+Average annual (2012-2016) cervical cancer incidence rates were higher among older women, compared to those among women <65 years, with the highest rates in women aged 65-74 years ( Table 3 ). The incidence rate of cervical cancer differed by race between age groups. For women aged <65 years, the incidence rate was similar for white and black women (7.2 and 7.3 per 100,000, respectively). However, for women aged 65-74 years, black women had a considerably higher incidence rate than white women (17.4 per 100,000 compared to 9.9 per 100,000). This difference was even greater for black women aged ≥75 years who had an incidence rate that was 2.5 times that of white women (20.4 per 100,000 compared to 8.1 per 100,000). Incidence rates were also higher in older NHB women compared to Hispanic and NHW women. The incidence rate was highest for NHB women aged ≥75 years (20.6 per 100,000). The 2012-2016 cervical cancer incidence rate for white women peaked in the 40-45 year age group and decreased with advancing age. However, for black women, the incidence rate steadily increased with age and peaked in the 80-84 year age group ( Figure 1 ).
+
+Average Annual (2012-2016) Cervical Cancer Incidence Rates Per 100,000 Individuals Based on Race and Ethnicity With 95% Confidence Intervals.
+
+SEER cervical cancer incidence rates per 100,000 based on age and race from 2012 to 2016.
+
+
+Incidence Rates by Stage, Histology, and Grade
+
+For women aged <65 years, the cervical cancer incidence rate of localized disease at diagnosis was higher than those for regional and distant disease as shown in Table 4 . However, among women aged 65-74 years, there was a higher rate of regional disease compared to localized and distant disease and, for women aged ≥75 years, there were higher rates of regional and distant disease than for localized disease. Older black women had higher incidence rates of regional and distant disease than white women in the same age groups and black women aged <65 years ( Table 4 ). For each race and age group, the rate of squamous cell carcinoma was higher than that for any other histology. However, older black women had higher incidence rates of every histology than white women in the same age groups and younger black women. The rate of poorly differentiated or undifferentiated cancer was higher among older women compared to women aged <65 years and the rate of poorly differentiated or undifferentiated cancer was highest among black women aged ≥75 years ( Table 4 ).
+
+Cervical Cancer Incidence Rates Per 100,000 Individuals by Stage, Histology, Grade, Education Level, Poverty Level, and Income Level Based on Age and Race With 95% Confidence Intervals.
+
+Note: education level categories: low = greater than 15% of population without a higher school education; high = less than 15% of population without a high school education; poverty level categories: low = less than 20% families below poverty; high = more than 20% families below poverty.
+
+
+Incidence Rates by Socioeconomic Status
+
+There were higher cervical cancer incidence rates among women of all age groups residing in counties with lower levels of educational attainment than in those with higher educational attainment. Incidence rates were highest among black women aged ≥75 years residing in counties with lower educational attainment (21 per 100,000). Cervical cancer incidence rates also increased with increasing poverty level for all age groups and were highest in women aged 65-74 years residing in high poverty counties (13.7 per 100,000). Black women aged ≥75 years had similar incidence rates regardless of poverty status, which was more than double the incidence for white women at the same poverty levels ( Table 4 ).
+
+Higher incidence rates of cervical cancer were identified for women residing in counties with lower median family income levels for all age groups. The highest incidence was observed among women aged 65-74 years residing in counties with median family incomes in the lowest income bracket (13 per 100,000). As income levels increased, incidence rates decreased for the entire cohort in all age groups. However, older black women had higher rates of cervical cancer than white women of the same age group in each income level. Among black women, only those <65 years had a lower incidence with increasing income, while those 65-74 years of age had higher incidence rates with higher income and black women aged ≥75 years had similar incidence rates from the lowest to the highest income. While incidence rates decreased for white women aged <65 years and 65-74 years with increasing income, incidence rates were also similar for white women aged ≥75 years across all income levels ( Table 4 ).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+The purpose of this study was to describe cervical cancer characteristics, frequencies, and incidence rates in older women to identify potential age-related disparities. Based on this analysis of data from a collection of 21 SEER registries, we found that a higher percentage of older women with cervical cancer were black and NHB, as compared to younger women. Cervical cancer incidence rates were higher in older women and were highest in black women aged ≥75 years. Women of all age groups residing in areas with lower levels of income and educational attainment and higher levels of poverty had higher cervical cancer incidence rates. The significant findings of our study are the disparities identified in older black women, including that older black women had higher cervical cancer incidence rates with increasing age but, in contrast to white women, had similar incidence rates regardless of SES. These findings may be attributable to lower rates of Pap testing in black women, women with low income and low educational attainment, and women ≥65 years of age, which could lead to higher cervical cancer incidence rates. 15 
+
+Prevention and early detection of cervical cancer has been successful at reducing incidence and mortality rates 1 ; screening with Pap testing is currently recommended every three years for women ages 21-65 years, with the addition of HPV co-testing for women ages 30-65 years to increase screening to every five years. 1 Current recommendations state that women older than 65 years may stop cervical cancer screening if they have had three or more consecutive negative Pap tests or two or more Pap tests with HPV co-testing within the prior ten years, with at least one test in the past five years. 1 However, older women still develop cervical cancer even after meeting current guidelines for screening cessation, 16 and approximately 13% of all women 60-65 years of age are not screened for cervical cancer as recommended and thus are at risk for developing cancer as they age. 17 Unfortunately, there are other barriers to cervical cancer screening, including socioeconomic factors, such as low income and low education levels, 17 - 22 which may disproportionally affect older black women, based on the results reported here.
+
+These data identify an age-based disparity for women with cervical cancer based on higher incidence rates in older women and more adverse features at diagnosis, including a higher rate of regional and distant disease and higher grade histology. The higher cervical cancer incidence rates and adverse features in older women could be due to lack of screening resulting in more advanced disease at diagnosis 16 or even potentially from different HPV strains and age-related changes of the cervical tissue in older women. 23 Adverse features in older women have been identified previously in other US studies, including analyses of SEER data; these studies have shown a higher rate of regional and distant disease in women aged ≥65 years, particularly in the Medicaid population. 24 - 26 A study of the National Cancer Database showed an increasing proportion of late stage disease with increasing age and a 2.2-2.5 times higher relative risk of advanced stage cervical cancer among women aged ≥50 years compared to younger women 21 to 34 years. 27 
+
+Racial disparities in cervical cancer incidence, mortality and survival have also been well described, especially as occurring among black women compared to white women. 28 - 32 When examining disparities more specifically by age, our data show that age-specific incidence rates for white women decreased from 2012-2016 after the age of 40 years, while the rate among black women increased with age and peaked in the 80-84 years age group. Our findings are consistent with those of Simard et al., who found a similar trend in cervical cancer incidence among black and white women by age using data up to 2009 from the SEER9 and 13 registries; however, our results include more patients as a result of using a more recent collection of SEER registries. 28 Racial and ethnic disparities are likely multifactorial and may include, not only differences in screening practices, but also treatment inequities, 33 patient preferences for treatment, 34 or other barriers to treatment such has lack of transportation or long distance to travel for treatment. 35 , 36 Not only are older black women less likely to undergo Pap testing compared to white women or Hispanic women, 37 but they are also less likely to have appropriate follow-up after an abnormal Pap test. 38 
+
+Despite the overall decline in incidence of cervical cancer, SES disparities persist based higher incidence rates for women living in poverty. 39 Women living in poverty and with low levels of educational attainment are more likely to be diagnosed with distant stage disease and to have higher cervical cancer mortality and lower five-year survival. 27 , 39 Our data also showed that cervical cancer incidence rates increased with increasing poverty levels for women of all ages. However, our data significantly contributes to what was previously known about SES disparities in cervical cancer based on the finding that older women, with the exception of white women aged 65-74, experience similar incidence rates regardless of SES factors. For example, we found that cervical cancer incidence rates increased with increasing poverty levels for women of all ages but that older black women had higher incidence rates regardless of poverty level. Black women also had similar cervical cancer incidence rates regardless of income levels but for white women aged <65 and 65-74 years, the incidence decreased with increasing income. Cervical cancer incidence in white women ≥75 also did not differ based on income. These findings may be due to lower rates of Pap testing in women with low income, low education, and those with no insurance. 15 However, despite the availability of Pap testing to low income, uninsured or underinsured women through the National Breast and Cervical Cancer Early Detection Program and through coverage of Pap testing with the Affordable Care Act, 40 a large number of eligible women are still not receiving screening. 41 
+
+The primary strength of this study lies in the quality of the SEER database, a diverse database that includes a large number of cervical cancer cases. Another strength of the study is the examination of cervical cancer incidence among older women and by race and SES, which is a significant addition to the current literature as these groups are underrepresented in the literature and underserved in clinical settings. However, the primary limitations of this study arise as a result of the limitations of available individual information included in SEER data. There are no data available concerning patient-specific information about SES, and as a result, area-based county-level measures were used to ascertain poverty, educational attainment, and income level. We also could not assess comorbidities, which could potentially contribute to more advanced stage at diagnosis for older women. Additionally, the SEER combined staging system was used and not the International Federation of Gynecology and Obstetrics (FIGO) staging more commonly used in clinical practice to more accurately determine stage at diagnosis. Additional information that could not be examined included cervical cancer screening history (to determine which cases were within screening guidelines and which cases were identified as a result of screening), hysterectomy status (which has been shown to reveal an even larger racial disparity in cervical cancer mortality than when uncorrected 9 ), and death data (which was not available in SEER and was also outside the scope of this study).
+
+Given the higher cervical cancer incidence rate in older women, consideration should be given to enhancement of education to increase awareness and knowledge of cervical cancer in this population. Additionally, increasing awareness of primary cervical cancer prevention through HPV vaccination and of compliance with recommendations following Pap testing to all women is critical and particularly important for young black women who have lower rates of HPV vaccination completion 42 and follow-up rates after an abnormal Pap test. 38 Finally, efforts to improve access to care for all women should increase as equal access to care can result in equivalent treatment and survival rates for black and white women with cervical cancer. 43 
+
+
+Strengths and Limitations
+
+The primary strength of this study lies in the quality of the SEER database, a diverse database that includes a large number of cervical cancer cases. Another strength of the study is the examination of cervical cancer incidence among older women and by race and SES, which is a significant addition to the current literature as these groups are underrepresented in the literature and underserved in clinical settings. However, the primary limitations of this study arise as a result of the limitations of available individual information included in SEER data. There are no data available concerning patient-specific information about SES, and as a result, area-based county-level measures were used to ascertain poverty, educational attainment, and income level. We also could not assess comorbidities, which could potentially contribute to more advanced stage at diagnosis for older women. Additionally, the SEER combined staging system was used and not the International Federation of Gynecology and Obstetrics (FIGO) staging more commonly used in clinical practice to more accurately determine stage at diagnosis. Additional information that could not be examined included cervical cancer screening history (to determine which cases were within screening guidelines and which cases were identified as a result of screening), hysterectomy status (which has been shown to reveal an even larger racial disparity in cervical cancer mortality than when uncorrected 9 ), and death data (which was not available in SEER and was also outside the scope of this study).
+
+
+Clinical Implications
+
+Given the higher cervical cancer incidence rate in older women, consideration should be given to enhancement of education to increase awareness and knowledge of cervical cancer in this population. Additionally, increasing awareness of primary cervical cancer prevention through HPV vaccination and of compliance with recommendations following Pap testing to all women is critical and particularly important for young black women who have lower rates of HPV vaccination completion 42 and follow-up rates after an abnormal Pap test. 38 Finally, efforts to improve access to care for all women should increase as equal access to care can result in equivalent treatment and survival rates for black and white women with cervical cancer. 43 
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Older women (65-74 years and ≥75 years) have higher incidence rates of cervical cancer than younger women (<65), with the highest rates occurring among black women aged ≥75 years. Black women aged ≥75 years had similar incidence rates regardless of poverty status; however, incidence rates among black women were more than double those of white women at the same poverty levels. Incidence rates decreased for white women aged <65 years and 65-74 years with increasing income, but incidence rates were similar for white women aged ≥75 years across all income levels. Given the higher cervical cancer incidence rate in older women and the findings of potential disparities in older women in this descriptive study, additional analysis are warranted in a prospective study with patient-level data.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

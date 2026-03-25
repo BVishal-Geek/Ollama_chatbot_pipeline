@@ -1,0 +1,19 @@
+Source: PMC7362997_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Toward an Automatic System for Computer-Aided Assessment in Facial Palsy",
+  "condition_E": 1,
+  "condition_E_reason": "Portrait photographs of 200 facial palsy patients were manually annotated.",
+  "N_E": 1,
+  "N_E_reason": "The dataset includes 1440 photographs of patients.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

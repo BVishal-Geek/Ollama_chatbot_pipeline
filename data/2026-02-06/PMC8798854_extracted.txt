@@ -1,0 +1,72 @@
+================================================================================
+ARTICLE TITLE: The role of radiation therapy and systemic therapies in elderly with breast cancer
+PMCID: PMC8798854
+PMID: 35117951
+KEYWORDS: elderly, breast cancer, radiation therapy (rt), adjuvant therapies, novel drugs
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+The focus of this review deals with the management of elderly patients with early stage breast cancer, discussing the role of systemic therapies [endocrine therapy (ET), chemotherapy, novel agents] and radiation therapy (RT). Several studies have evaluated in elderly low risk patients the possibility of omitting the RT but, at the same time, higher locoregional relapse (LR) rates without significant impact on overall survival (OS) were observed in all studies when RT was excluded. Technological improvements [intensity-modulated RT (IMRT), volumetric modulated arc therapy (VMAT), high dose brachy therapy (HDBT)] are very useful in order to reduce cosmetic outcome and improve quality of life of frail patients. The optimal sequence of ET, concomitant or sequential to RT, is currently under investigation, and specifically in the elderly it is questioned the possible choice of prolonged therapy after standard 5 years. Data regarding chemotherapy suggesting no benefit of OS in endocrine responsive diseases, whereas endocrine non-responsive breast cancer still showed a better outcome. Cyclophosphamide, methotrexate and 5-fluorouracil (CMF) regimen is recognized as the standard protocol, although age-dependent increase in therapy related mortality was reported. Neoadjuvant chemotherapy in elderly showed a lower ratio of pathological complete response in comparison to younger patients, but triple negative breast cancer patients showed a good prognosis regarding OS, comparable to younger patients. The risk of cardiotoxicity seems to increase with age, so the use trastuzumab in this setting is much debated. Currently, other anti-HER2 agents (pertuzumab, lapatinib) are used in neoadjuvant setting, but the data on elderly are still premature. Novel molecules are rapidly changing the clinical management of breast cancer patients but are tested especially in locally advanced and metastatic setting. Among these, particularly interesting are inhibitors of CDK4 and 6, alpelisib (PI3K enzymes mutations), immune checkpoint (PD1, PDL1, CTLA4) inhibitors, atezolizumab. Elderly patients are under-represented in clinical trials, although ageing can be frequently correlated with a decrease in the effectiveness of the immune system. For elderly women, treatment decisions should be individually decided, taking into account the geriatric assessment and limited life expectancy and tumor characteristics.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+In the clinical management of cancer patients, it is of paramount importance to achieve optimal loco-regional control of disease, but at the same time trying to minimize the complications ( 1 ).
+
+This recommendation is even stricter in the treatment of elderly patients.
+
+Age represent the major risk factor for breast cancer, and a significant ratio of this disease is diagnosed in women >70 years ( 2 ). At the same time, many elderly women with early stage breast cancer die of other causes (up to 80% in node negative women and 60% in women with positive axillary nodes) ( 3 ).
+
+The correct evaluation of the global health status is of paramount importance in older patients, so to avoid aggressive unnecessary treatment in frail patients and to prevent under treatments in fit elderly that can jeopardize the survival ( 4 ).
+
+In this particular subset of patients, the scientific literature presents many pitfalls, due to the discrepancies between real life and clinical trials in terms of age and health status of patients ( 5 ).
+
+Aim of this review is to depict the optimal adjuvant therapies in the management of elderly patients with breast cancer, focusing on the role of systemic therapies (hormonal therapy, chemotherapy, novel agents) and radiation therapy (RT), through a review of the available literature and the discussion of the various aspects of the clinical management of this defined subset of cancer patients.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Age per se should be evaluated together with many other parameters in the decision-making process for elderly patients with breast cancer. Specifically, the overall individual performance status, more than the age, should be considered when treatment options are being evaluated.
+
+Acute and chronic comorbidities, nutritional status, fitness, and disease-specific symptomatology all need to be taken into consideration. All the Clinicians involved in the management of elderly cancer patients should be familiar with geriatric screening test that can be used to identify patients that would benefit from a more intensive geriatric.
+
+On the other hand, the goals of treatment in elderly patients should be always the same as those in younger patients, with an emphasis on the global care of the patients more than the cure of the disease. Finally, studies including elderly people as well as patients with comorbidities need to be considered in future, as the treatment of these subgroups represent the major medical challenge of the next future.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

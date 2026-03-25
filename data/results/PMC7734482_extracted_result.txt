@@ -1,0 +1,19 @@
+Source: PMC7734482_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "microRNA-195 Promotes Small Cell Lung Cancer Cell Apoptosis via Inhibiting Rap2C Protein-Dependent MAPK Signal Transduction",
+  "condition_E": 1,
+  "condition_E_reason": "Clinicopathological data, including age, gender, tumor size, and TNM stage, were collected from 40 SCLC patients.",
+  "N_E": 1,
+  "N_E_reason": "A total of 40 SCLC patients were included in the study.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

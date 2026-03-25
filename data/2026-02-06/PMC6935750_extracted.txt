@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Microglial depletion prevents extracellular matrix changes and striatal volume reduction in a model of Huntington's disease
+PMCID: PMC6935750
+PMID: 31848580
+KEYWORDS: microglia, huntington's disease, csf1r, extracellular matrix, perineuronal nets
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Microglia are activated in Huntington’s disease prior to symptom onset. Crapser et al. show that eliminating microglia from the R6/2 mouse model of Huntington’s disease reduces motor and cognitive impairments, accumulation of mutant huntingtin, and striatal volume loss. It also prevents the loss of perineuronal nets.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

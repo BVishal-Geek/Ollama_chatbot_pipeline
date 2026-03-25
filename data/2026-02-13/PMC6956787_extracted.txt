@@ -1,0 +1,66 @@
+================================================================================
+ARTICLE TITLE: Inference of differential gene regulatory networks based on gene expression and genetic perturbation data
+PMCID: PMC6956787
+PMID: 31263873
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Motivation:
+Gene regulatory networks (GRNs) of the same organism can be different under different conditions, although the overall network structure may be similar. Understanding the difference in GRNs under different conditions is important to understand condition-specific gene regulation. When gene expression and other relevant data under two different conditions are available, they can be used by an existing network inference algorithm to estimate two GRNs separately, and then to identify the difference between the two GRNs. However, such an approach does not exploit the similarity in two GRNs, and may sacrifice inference accuracy.
+
+Results:
+In this paper, we model GRNs with the structural equation model (SEM) that can integrate gene expression and genetic perturbation data, and develop an algorithm named fused sparse SEM (FSSEM), to jointly infer GRNs under two conditions, and then to identify difference of the two GRNs. Computer simulations demonstrate that the FSSEM algorithm outperforms the approaches that estimate two GRNs separately. Analysis of a dataset of lung cancer and another dataset of gastric cancer with FSSEM inferred differential GRNs in cancer versus normal tissues, whose genes with largest network degrees have been reported to be implicated in tumorigenesis. The FSSEM algorithm provides a valuable tool for joint inference of two GRNs and identification of the differential GRN under two conditions.
+
+Availability and implementation:
+The R package fssemR implementing the FSSEM algorithm is available at https://github.com/Ivis4ml/fssemR.git . It is also available on CRAN.
+
+Supplementary information:
+ Supplementary data are available at Bioinformatics online.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+
+Supplementary information
+ Supplementary data are available at Bioinformatics online.

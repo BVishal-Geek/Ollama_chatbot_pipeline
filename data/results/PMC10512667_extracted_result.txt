@@ -1,0 +1,19 @@
+Source: PMC10512667_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Pediatric Tonsillar Synovial Sarcoma- Very Rare Localization: A Case Report and Review of the Literature",
+  "condition_E": 0,
+  "condition_E_reason": "not found",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "The patient underwent total tonsillectomy and received radiotherapy and chemotherapy.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The patient is clinically in good condition and free of tumor 30 months after the initial diagnosis.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

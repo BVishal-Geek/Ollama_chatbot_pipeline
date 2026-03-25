@@ -1,0 +1,587 @@
+================================================================================
+ARTICLE TITLE: Kinesin Family Member C1 (KIFC1) Accelerates Proliferation and
+Invasion of Endometrial Cancer Cells Through Modulating the PI3K/AKT Signaling
+Pathway
+PMCID: PMC7549169
+PMID: 33034273
+KEYWORDS: endometrial cancer (ec), kinesin family member c1 (kifc1), proliferation, invasion, pi3k/akt
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Endometrial cancer (EC) is one of the most common cancers among women worldwide.
+Kinesin family member C1 (KIFC1) has been demonstrated to play crucial roles in
+various tumors. However, the function of KIFC1 in EC remains to be revealed. In
+this study, upregulation of KIFC1 expression in human EC tissues was found from
+analysis on data from The Cancer Genome Atlas (TCGA), and positively correlated
+with short survival outcome of EC patients. In addition, the mRNA and protein
+levels of KIFC1 were confirmed to be up-regulated in EC cells (Ishikawa, HEC-1B,
+HEC-1A and KLE) compared to human normal endometrial stromal cells (hESCs) by
+quantitative real time PCR and western blot. In vitro functional experiments showed that overexpression of KIFC1 promoted
+proliferation, migration and invasion of EC cells, while KIFC1 depletion showed
+the opposite results. Moreover, KIFC1 knockdown suppressed tumor growth in mice.
+Further mechanism analysis showed that KIFC1 participated in the regulation of
+EC progression through regulating the PI3K/AKT signaling pathway. Collectively,
+KIFC1 promoted proliferation and invasion through modulating PI3K/AKT signaling
+pathway in EC, implying that KIFC1 might provide a promising therapeutic target
+for the therapy of EC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Endometrial carcinoma (EC), is a group of epithelial malignant tumors that occur in
+the endometrium, accounting for 20% to 30% of the tumors in the female reproductive system. 1 It is one of the major causes of morbidity and mortality in women. 2 EC often occurs in postmenopausal women, with an average age of onset of 60 years. 3 , 4 The 5-year survival rate of patients with early EC and distant metastases is
+more than 90% and less than 20%, respectively, and particularly, the prognosis of
+advanced, poorly differentiated or special types of EC is extremely poor. 5 , 6 Therefore, exploring the pathogenesis and effective treatment targets of EC
+is of great significance to improve the prognosis of EC.
+
+KIFC1, also known as HSET, is a type C terminal kinesin belonging to the Kinesin-14 family. 7 - 9 To date, only 3 members of the Kinesin-14 family have been found in humans,
+namely HsKIFC1 (HSET), HsKIFC2 and HsKFC3. 7 , 10 , 11 Among them, KIFC1 plays an extremely important role in spindle mitosis, 7 , 12 which has attracted much attention. It has been discovered that KIFC1 plays a
+role in vesicle and organelle transport, 13 oocyte development, 14 spermatogenesis, 9 , 15 and double-stranded DNA transport. 16 It has been recently considered that KIFC1 is redundant in normal somatic
+cells and essential in cancer cells, and KIFC1 has the role of gathering additional
+centrosomes to avoid multipolar cell division and maintain cancer cell survival. 17 - 19 These investigations indicate that anti-KIFC1 therapy may have significant
+research prospects in highly selective antitumor methods. It has been reported that
+KIFC1 is widely expressed in breast cancer, 20 , 21 ovarian cancer, 22 lung cancer, 23 stomach cancer, 24 prostate cancer 25 and other cancers. 25 - 27 Thus, KIFC1 is a reasonable target for selective tumor treatment and deserves
+further discussion. However, few studies focused on the functional role of KIFC1 in
+the pathogenesis of EC and the specific regulatory mechanism remains unclear.
+
+Therefore, the aim of the current study was to elucidate the role of KIFC1 in the
+modulation of EC and reveal the underlying molecular mechanisms both in
+vivo and in vitro . Our findings suggested that KIFC1
+promoted EC cell proliferation and invasion through regulating PI3K/AKT signaling
+pathway.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Human EC cell lines (Ishikawa, HEC-1B, HEC-1A and KLE) and human normal
+endometrial stromal cells (hESCs) were obtained from Cell Bank of Chinese
+Academy of Sciences (Shanghai, China) and cultured in DMEM supplemented with 10%
+(v/v) FBS, 100 U/mL penicillin and 100 mg/mL streptomycin at 37°C with 5%
+CO 2 . Cells were cultured in flasks or dishes containing cell
+medium supplemented with 10% FBS (Thermo Fisher Scientific) in a humidified
+atmosphere with 5% CO 2 at 37°C.
+
+Total RNA was extracted from cells via TRIzol reagent (Invitrogen, Carlsbad, CA,
+USA) and then reversed transcribed into cDNA (Roche, Germany). Quantitative PCR
+was performed on the ABI 7500 real-time PCR system (Applied Biosystems, USA).
+β-actin was selected as internal controls for standardization. The expression
+level was calculated by using relative quantitative method (2 −ΔΔCt ).
+All the primers used were as follows:
+
+KIFC1, forward, 5′-GACGCCCTGCTTCATCTG-3′, reverse, 5′-CCAGGTCCACAAGACTGAGG-3′;
+β-actin, forward, 5′-TTCCGAATGCTGACGTTGC-3′, reverse,
+5′-CCAACTGCCAAACGTGCTG-3′.
+
+Total protein was extracted from EC cells using RIPA buffer (Beyotime
+Biotechnology, Shanghai, China) and quantified by a BCA protein assay kit
+(Beyotime). Protein lysates were separated on a sodium dodecyl
+sulfate-polyacrylamide gels (SDS-PAGE), and transferred onto PVDF membrane.
+After blocked with skim milk (5%), membranes were incubated with the primary
+antibodies overnight at 4 °C. Horseradish peroxidase (HRP)-conjugated secondary
+antibodies were subsequently incubated for 1 h. The signal blots were visualized
+by an ECL kit (Millipore, Billerica, MA, USA). GAPDH was used as a loading
+control. The primary antibodies were as follows: KIFC1 (ab172620, Abcam,
+Cambridge, MA, USA), E-cadherin (ab1416, Abcam), N-cadherin (ab98952, Abcam),
+Vimentin (ab7752; Abcam), t-PI3K (ab40755; Abcam), p-PI3K (ab182651; Abcam),
+t-AKT (ab18785; Abcam), p-AKT (ab38449; Abcam) and GAPDH (ab8245, Abcam).
+
+The KIFC1 cDNA sequence was cloned into pcDNA3.1 vector to up-regulate its
+expression and then transfected into HEC-1A cells. PcDNA3.1 vector (Vector) or
+pcDNA3.1-KIFC1 (OE-KIFC1) were purchased from Gene Pharma (Shanghai, China). The
+shRNA sequences targeting KIFC1 (sh-KIFC1#1, sh-KIFC1#2) were synthesized from
+Gene Pharma (Shanghai, China) and transfected into Ishikawa cells to knock down
+its expression. Nonsense shRNA was used as a negative control (sh-NC). Cells
+were cultured to 80% confluence in 6-well plates and then were transfected using
+Lipofectamine 2000 (Invitrogen) according to the manufacturer’s instructions.
+After transfection for 48 h, the transfection efficiency was determined by
+RT-qPCR. After that, cells were treated by AKT inhibitor LY-294002 (10 μM, Sigma
+Aldrich, St. Louis, MO, USA) for 24 h. Cell infection were performed using the
+lentivirus in Ishikawa cells. Stable cells were then sorted out by puromycin and
+used in animal study.
+
+The cells were plated into 96-well plates at a density of 1 × 10 4 cells/well and cultured in DMEM with 10% FBS for indicated time points (24 h, 48
+h, 72 h, 96 h), followed by adding CCK-8 solution (10 μl). Next, the incubation
+was continued at 37°C for another 4 h. Optical density (OD) was determined using
+a microplate reader at 450 nm.
+
+1 × 10 3 cells were seeded into a 6-well culture plate and incubated to
+form colony for 2 weeks. For visualization of colonies, cells were fixed with
+methanol for 10 min, and then stained with 0.1% crystal violet for 1 h. The
+numbers of cell clones were counted and photographed manually.
+
+For the migration assay, cells suspended in serum-free DMEM medium were added to
+the upper chamber of Transwell chamber (8 µm pore size; Corning, New York, USA).
+The DMEM medium with 10% FBS was added to the bottom chamber. Cells were
+incubated at 37°C for 24 h and then the migrated cells were fixed with 4%
+paraformaldehyde for 30 min at room temperature and stained with 0.1% crystal
+violet for 20 min at room temperature. After washing with PBS, the samples were
+photographed under a light microscope (Olympus BX51, Tokyo, Japan). For the
+invasion assay, the upper chamber of Transwell chamber was pre-coated with
+Matrigel (Bection Dickinson, California, USA).
+
+The animal study was approved by the Ethics Committee of People’s Hospital of
+Quzhou City (approval no. ZQA2018044). Experiments were operated according to
+the Guidelines for the Care and Use of Laboratory Animals published by the
+National Institutes of Health. 28 Female BALB/c nude mice (7-week-old, ∼20 g). 1 × 10 6 Ishikawa
+cells that stably express sh-KIFC1 or sh-NC were inoculated subcutaneously into
+the mice (6 mice/group). Tumor sizes were determined every week, each tumor’s
+volume was respectively calculated using the formula of V =
+1/2×Length×Width 2 . At 35 days after inoculation, mice were
+euthanized and tumors were photographed and weighted, then collected for the
+subsequent analysis.
+
+Paraffin-embedded tissues were sectioned at 4µm thick. After treated with 3%
+hydrogen peroxide to quench peroxidase activity, the sections were incubated
+with anti-KIFC1 antibody (ab172620, Abcam), anti-ki-67 antibody (ab15580,
+Abcam). Thereafter, the sections were rinsed with phosphate buffered saline
+(PBS), incubated with a secondary antibody for 1 h and stained with 3,
+3′-diaminobenzidine substrate kit (DAB, Thermo Scientific Pierce). After the
+completion of hematoxylin redyeing, section was dehydrated and sealed.
+
+The statistical data were from 3 independent experiments and presented as mean ±
+standard deviation (SD). Statistical differences were analyzed using Student’s-t
+test for 2 groups and by ANOVA for multiple groups by GraphPad Prism 7 software.
+The difference was regarded as statistically significant when p value <
+0.05.
+
+
+Cell Culture
+
+Human EC cell lines (Ishikawa, HEC-1B, HEC-1A and KLE) and human normal
+endometrial stromal cells (hESCs) were obtained from Cell Bank of Chinese
+Academy of Sciences (Shanghai, China) and cultured in DMEM supplemented with 10%
+(v/v) FBS, 100 U/mL penicillin and 100 mg/mL streptomycin at 37°C with 5%
+CO 2 . Cells were cultured in flasks or dishes containing cell
+medium supplemented with 10% FBS (Thermo Fisher Scientific) in a humidified
+atmosphere with 5% CO 2 at 37°C.
+
+
+Reverse Transcription-Quantitative Polymerase Chain Reaction
+(RT-qPCR)
+
+Total RNA was extracted from cells via TRIzol reagent (Invitrogen, Carlsbad, CA,
+USA) and then reversed transcribed into cDNA (Roche, Germany). Quantitative PCR
+was performed on the ABI 7500 real-time PCR system (Applied Biosystems, USA).
+β-actin was selected as internal controls for standardization. The expression
+level was calculated by using relative quantitative method (2 −ΔΔCt ).
+All the primers used were as follows:
+
+KIFC1, forward, 5′-GACGCCCTGCTTCATCTG-3′, reverse, 5′-CCAGGTCCACAAGACTGAGG-3′;
+β-actin, forward, 5′-TTCCGAATGCTGACGTTGC-3′, reverse,
+5′-CCAACTGCCAAACGTGCTG-3′.
+
+
+Western Blot
+
+Total protein was extracted from EC cells using RIPA buffer (Beyotime
+Biotechnology, Shanghai, China) and quantified by a BCA protein assay kit
+(Beyotime). Protein lysates were separated on a sodium dodecyl
+sulfate-polyacrylamide gels (SDS-PAGE), and transferred onto PVDF membrane.
+After blocked with skim milk (5%), membranes were incubated with the primary
+antibodies overnight at 4 °C. Horseradish peroxidase (HRP)-conjugated secondary
+antibodies were subsequently incubated for 1 h. The signal blots were visualized
+by an ECL kit (Millipore, Billerica, MA, USA). GAPDH was used as a loading
+control. The primary antibodies were as follows: KIFC1 (ab172620, Abcam,
+Cambridge, MA, USA), E-cadherin (ab1416, Abcam), N-cadherin (ab98952, Abcam),
+Vimentin (ab7752; Abcam), t-PI3K (ab40755; Abcam), p-PI3K (ab182651; Abcam),
+t-AKT (ab18785; Abcam), p-AKT (ab38449; Abcam) and GAPDH (ab8245, Abcam).
+
+
+Cell Transfection and Treatment
+
+The KIFC1 cDNA sequence was cloned into pcDNA3.1 vector to up-regulate its
+expression and then transfected into HEC-1A cells. PcDNA3.1 vector (Vector) or
+pcDNA3.1-KIFC1 (OE-KIFC1) were purchased from Gene Pharma (Shanghai, China). The
+shRNA sequences targeting KIFC1 (sh-KIFC1#1, sh-KIFC1#2) were synthesized from
+Gene Pharma (Shanghai, China) and transfected into Ishikawa cells to knock down
+its expression. Nonsense shRNA was used as a negative control (sh-NC). Cells
+were cultured to 80% confluence in 6-well plates and then were transfected using
+Lipofectamine 2000 (Invitrogen) according to the manufacturer’s instructions.
+After transfection for 48 h, the transfection efficiency was determined by
+RT-qPCR. After that, cells were treated by AKT inhibitor LY-294002 (10 μM, Sigma
+Aldrich, St. Louis, MO, USA) for 24 h. Cell infection were performed using the
+lentivirus in Ishikawa cells. Stable cells were then sorted out by puromycin and
+used in animal study.
+
+
+Cell Counting Kit (CCK)-8 Assay
+
+The cells were plated into 96-well plates at a density of 1 × 10 4 cells/well and cultured in DMEM with 10% FBS for indicated time points (24 h, 48
+h, 72 h, 96 h), followed by adding CCK-8 solution (10 μl). Next, the incubation
+was continued at 37°C for another 4 h. Optical density (OD) was determined using
+a microplate reader at 450 nm.
+
+
+Colony Formation Assay
+
+1 × 10 3 cells were seeded into a 6-well culture plate and incubated to
+form colony for 2 weeks. For visualization of colonies, cells were fixed with
+methanol for 10 min, and then stained with 0.1% crystal violet for 1 h. The
+numbers of cell clones were counted and photographed manually.
+
+
+Transwell Assay
+
+For the migration assay, cells suspended in serum-free DMEM medium were added to
+the upper chamber of Transwell chamber (8 µm pore size; Corning, New York, USA).
+The DMEM medium with 10% FBS was added to the bottom chamber. Cells were
+incubated at 37°C for 24 h and then the migrated cells were fixed with 4%
+paraformaldehyde for 30 min at room temperature and stained with 0.1% crystal
+violet for 20 min at room temperature. After washing with PBS, the samples were
+photographed under a light microscope (Olympus BX51, Tokyo, Japan). For the
+invasion assay, the upper chamber of Transwell chamber was pre-coated with
+Matrigel (Bection Dickinson, California, USA).
+
+
+
+
+
+The animal study was approved by the Ethics Committee of People’s Hospital of
+Quzhou City (approval no. ZQA2018044). Experiments were operated according to
+the Guidelines for the Care and Use of Laboratory Animals published by the
+National Institutes of Health. 28 Female BALB/c nude mice (7-week-old, ∼20 g). 1 × 10 6 Ishikawa
+cells that stably express sh-KIFC1 or sh-NC were inoculated subcutaneously into
+the mice (6 mice/group). Tumor sizes were determined every week, each tumor’s
+volume was respectively calculated using the formula of V =
+1/2×Length×Width 2 . At 35 days after inoculation, mice were
+euthanized and tumors were photographed and weighted, then collected for the
+subsequent analysis.
+
+
+Immunohistochemistry (IHC)
+
+Paraffin-embedded tissues were sectioned at 4µm thick. After treated with 3%
+hydrogen peroxide to quench peroxidase activity, the sections were incubated
+with anti-KIFC1 antibody (ab172620, Abcam), anti-ki-67 antibody (ab15580,
+Abcam). Thereafter, the sections were rinsed with phosphate buffered saline
+(PBS), incubated with a secondary antibody for 1 h and stained with 3,
+3′-diaminobenzidine substrate kit (DAB, Thermo Scientific Pierce). After the
+completion of hematoxylin redyeing, section was dehydrated and sealed.
+
+
+Statistical Analysis
+
+The statistical data were from 3 independent experiments and presented as mean ±
+standard deviation (SD). Statistical differences were analyzed using Student’s-t
+test for 2 groups and by ANOVA for multiple groups by GraphPad Prism 7 software.
+The difference was regarded as statistically significant when p value <
+0.05.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+MERAV database ( http://merav.wi.mit.edu/SearchByGenes.html ) 29 was used to summarize the expression of KIFC1 in primary tumor tissues,
+tumor cells, and normal tissues from the female reproductive system. Results
+showed that the expression level of KIFC1 in the primary tumor tissues was
+significantly higher than that in the normal tissues ( Figure 1A ). The consistent results were
+found through analyzing data from UALCAN database ( http://ualcan.path.uab.edu/analysis.html ), as displayed in Figure 1B-E . In detailed,
+KIFC1 expression level in EC tissues was significantly up-regulated ( Figure 1B ), which was
+related to clinical stage Figure 1C ), menopause status ( Figure 1D ) and histological subtypes
+( Figure 1E , all P <0.001). Interestingly, through the analysis of TCGA
+data at Oncolnc dataset ( http://www.oncolnc.org/ ), it
+was found that patients with high KIFC1 expression predicted poor prognosis
+( Figure 1F , P = 0.0202). Moreover, the mRNA and protein levels of KIFC1
+were confirmed to be up-regulated in EC cell lines (Ishikawa, HEC-1B, HEC-1A and
+KLE) as compared to human normal endometrial stromal cells line hESCs by
+quantitative real time PCR and western blot ( Figure 1G-H ). Compared to other EC cell
+lines, Ishikawa cells with highest expression of KIFC1 were used for
+loss-of-function experiments and SK-HEP-1 cells that expressed lowest KIFC1
+level were used for Gain-of function experiments. Taken together, these findings
+provided the potential role of KLF1 in EC progression.
+
+KIFC1 is up-regulated in EC tissues and cells. (A) KIFC1 expression in
+primary tumor tissues, tumor cells, and normal tissues from the female
+reproductive system using the MERAV web server ( http://merav.wi.mit.edu/ ). (B) KIFC1 expression in546 EC
+and 35 controls samples from the TCGA dataset from UALCAN: http://ualcan.path.uab.edu/index.html . (C-E) KIFC1
+expression in EC samples for each stage (C), menopause status (D) and
+histological subtypes (E) were assessed in TCGA samples from UALCAN. (F)
+KIFC1 expression was related to the overall survival of EC patients. Cox
+regression analysis was performed by the OncoLnc tool to obtain the
+survival of the patients ( http://www.oncolnc.org ). Red line: high expression, blue
+line: low expression. The mRNA (G) and protein (H) levels of KIFC1 were
+measured by qRT-PCR and western blot in EC cells (Ishikawa, HEC-1B,
+HEC-1A, and KLE) and human normal endometrial stromal cells (hESCs).
+Data were shown as means ± SD. *** P < 0.001.
+
+Next, we explored the biological function of KIFC1 in EC cells. The transfection
+efficiencies were confirmed by qRT-PCR and western blot, respectively ( Figure 2A-B ). Since
+sh-KIFC#1 showed lower expression of KIFC than sh-KIFC#2, which was chosen for
+subsequent experiments. CCK-8 and colony formation assays ( Figure 2C-D ) revealed that KIFC1
+depletion prohibited viability and led to the reduction of colony numbers of
+Ishikawa cells, whereas overexpression of KIFC1 increased the viability and
+colony formation of HEC-1A cells, suggesting KIFC1 could act as a promoting
+factor in EC cell growth in vitro .
+
+KIFC1 promotes cell proliferation of EC in vitro. (A-B)
+Transfection efficiency of KIFC1 was evaluated by qRT-PCR (A) and
+western blot (B). (C) The proliferation of NSCLC cells was assessed by
+CCK-8 assay. (D) Colony formation assay was performed to evaluate cell
+proliferation. Data were shown as means ± SD. * P <
+0.05, ** P < 0.01, *** P <
+0.001.
+
+Next, we explored the effect of KIFC1 on cell migration and invasion using
+transwell assay in vitro . As shown in Figure 3A and B , KIFC1 knockdown
+inhibited the migration and invasion of Ishikawa cells, while overexpression of
+KIFC1 increased the migration and invasion of HEC-1A cells. Accumulating
+evidences have demonstrated epithelial-mesenchymal transition (EMT) is closely
+associated to cancer cell growth and exerts a critical role in the progression
+of EC. 30 , 31 Consistent with the effect of KIFC1 on cell migration and invasion, the
+expression of the epithelial marker (E-cadherin) was significantly increased,
+while the expression levels of mesenchymal makers (N-cadherin and Vimentin) were
+decreased in Ishikawa cells that transfected with KIFC1-knockdown ( Figure 3C ). On the
+contrary, the E-cadherin was significantly decreased, whereas N-cadherin and
+Vimentin expression were increased in KIFC1-overexpressed HEC-1A cells ( Figure 3C ). Taken
+together, these findings indicated that KIFC1 promoted the migration, invasion
+and EMT of EC cells.
+
+KIFC1 promotes cell migration and invasion of EC in
+vitro. The migration (A) and invasion (B) of EC cells were
+measured by transwell assay (Scale bar: 200 μm). (C) The protein levels
+of E-cadherin, N-cadherin and Vimentin were measured by western blot.
+Data were shown as means ± SD. ** P < 0.01,
+*** P < 0.001.
+
+To further verify whether KIFC1 influences tumorigenesis in
+vivo , Ishikawa cells stably down-expressing KIFC1 were subcutaneously
+implanted into the flank of nude mice. At 35days after implantation, the tumors
+were excised and the representative image was presented in Figure 4A . Tumor volume was monitored, as
+shown in Figure 4B-C ,
+the tumors in the sh-KIFC1 group exhibited smaller sizes and lighter weight as
+compared to that in the sh-NC group. Additionally, KIFC1 inhibition led to
+decreased Ki67 and KIFC1 positive cell numbers in xenograft tumors as compared
+to the sh-KIFC1 group ( Figure
+4D ). These results indicated that knockdown of KIFC1 suppressed EC
+tumor growth o in vivo .
+
+Knockdown of KIFC1 represses tumor formation in vivo. (A) After 35 days, the tumor nodules were removed and photographed.
+Tumor volume (B) and tumor weight (C) were measured after KIFC1 was
+knocked down. (D) The expression of KIFC1 and Ki-67 in tumors was
+determined by IHC (Scale bar: 100 μm). Data were shown as means ± SD.
+* P < 0.05, ** P < 0.01,
+*** P < 0.001.
+
+The PI3K/AKT signaling plays a pivotal role in the development of EC by
+regulating cell proliferation, invasion and EMT. 32 - 34 Hence, we further explored the role of KIFC1 in the regulation of
+PI3K/AKT signaling cascade. As displayed in Figure 5A , knockdown of KIFC1 reduced the
+protein expression of p-AKT and p-PI3 K, but had no significant effects on the
+protein expression of AKT and PI3K in Ishikawa cells. Inversely, overexpression
+of KIFC1 activated PI3K/AKT pathway by increasing the phosphorylation of AKT and
+PI3K in HEC-1A cells ( Figure
+5B ). Moreover, after treatment with LY294002, a specific antagonist
+of PI3K/AKT pathway, the expression levels of p-AKT and p-PI3K were decreased in
+HEC-1A cells, which abrogated the promotive effects of KIFC1 overexpression on
+PI3K/AKT pathway ( Figure
+5B ). Therefore, these findings demonstrated that KIFC1 knockdown
+blocked PI3K/AKT signaling pathway while KIFC1 overexpression activated this
+pathway. Collectively, these results suggested that PI3K/AKT pathway might
+participate in KIFC1-mediated EC cell proliferation, invasion and EMT.
+
+KIFC1 plays a carcinogenic role in EC cells through the PI3K/AKT pathway.
+(A-B) The protein levels of PI3K, p-PI3K, AKT and p-AKT in Ishikawa (A)
+and HEC-1A cells (B) were measured by western blot. Data were shown as
+means ± SD. *** P < 0.001.
+
+
+KIFC1 Is Up-Regulated in EC Tissues and Cells
+
+MERAV database ( http://merav.wi.mit.edu/SearchByGenes.html ) 29 was used to summarize the expression of KIFC1 in primary tumor tissues,
+tumor cells, and normal tissues from the female reproductive system. Results
+showed that the expression level of KIFC1 in the primary tumor tissues was
+significantly higher than that in the normal tissues ( Figure 1A ). The consistent results were
+found through analyzing data from UALCAN database ( http://ualcan.path.uab.edu/analysis.html ), as displayed in Figure 1B-E . In detailed,
+KIFC1 expression level in EC tissues was significantly up-regulated ( Figure 1B ), which was
+related to clinical stage Figure 1C ), menopause status ( Figure 1D ) and histological subtypes
+( Figure 1E , all P <0.001). Interestingly, through the analysis of TCGA
+data at Oncolnc dataset ( http://www.oncolnc.org/ ), it
+was found that patients with high KIFC1 expression predicted poor prognosis
+( Figure 1F , P = 0.0202). Moreover, the mRNA and protein levels of KIFC1
+were confirmed to be up-regulated in EC cell lines (Ishikawa, HEC-1B, HEC-1A and
+KLE) as compared to human normal endometrial stromal cells line hESCs by
+quantitative real time PCR and western blot ( Figure 1G-H ). Compared to other EC cell
+lines, Ishikawa cells with highest expression of KIFC1 were used for
+loss-of-function experiments and SK-HEP-1 cells that expressed lowest KIFC1
+level were used for Gain-of function experiments. Taken together, these findings
+provided the potential role of KLF1 in EC progression.
+
+KIFC1 is up-regulated in EC tissues and cells. (A) KIFC1 expression in
+primary tumor tissues, tumor cells, and normal tissues from the female
+reproductive system using the MERAV web server ( http://merav.wi.mit.edu/ ). (B) KIFC1 expression in546 EC
+and 35 controls samples from the TCGA dataset from UALCAN: http://ualcan.path.uab.edu/index.html . (C-E) KIFC1
+expression in EC samples for each stage (C), menopause status (D) and
+histological subtypes (E) were assessed in TCGA samples from UALCAN. (F)
+KIFC1 expression was related to the overall survival of EC patients. Cox
+regression analysis was performed by the OncoLnc tool to obtain the
+survival of the patients ( http://www.oncolnc.org ). Red line: high expression, blue
+line: low expression. The mRNA (G) and protein (H) levels of KIFC1 were
+measured by qRT-PCR and western blot in EC cells (Ishikawa, HEC-1B,
+HEC-1A, and KLE) and human normal endometrial stromal cells (hESCs).
+Data were shown as means ± SD. *** P < 0.001.
+
+
+KIFC1 Promotes the Proliferation and Colony Formation of EC Cells 
+
+Next, we explored the biological function of KIFC1 in EC cells. The transfection
+efficiencies were confirmed by qRT-PCR and western blot, respectively ( Figure 2A-B ). Since
+sh-KIFC#1 showed lower expression of KIFC than sh-KIFC#2, which was chosen for
+subsequent experiments. CCK-8 and colony formation assays ( Figure 2C-D ) revealed that KIFC1
+depletion prohibited viability and led to the reduction of colony numbers of
+Ishikawa cells, whereas overexpression of KIFC1 increased the viability and
+colony formation of HEC-1A cells, suggesting KIFC1 could act as a promoting
+factor in EC cell growth in vitro .
+
+KIFC1 promotes cell proliferation of EC in vitro. (A-B)
+Transfection efficiency of KIFC1 was evaluated by qRT-PCR (A) and
+western blot (B). (C) The proliferation of NSCLC cells was assessed by
+CCK-8 assay. (D) Colony formation assay was performed to evaluate cell
+proliferation. Data were shown as means ± SD. * P <
+0.05, ** P < 0.01, *** P <
+0.001.
+
+
+KIFC1 Promotes the Migration and Invasion of EC Cells 
+
+Next, we explored the effect of KIFC1 on cell migration and invasion using
+transwell assay in vitro . As shown in Figure 3A and B , KIFC1 knockdown
+inhibited the migration and invasion of Ishikawa cells, while overexpression of
+KIFC1 increased the migration and invasion of HEC-1A cells. Accumulating
+evidences have demonstrated epithelial-mesenchymal transition (EMT) is closely
+associated to cancer cell growth and exerts a critical role in the progression
+of EC. 30 , 31 Consistent with the effect of KIFC1 on cell migration and invasion, the
+expression of the epithelial marker (E-cadherin) was significantly increased,
+while the expression levels of mesenchymal makers (N-cadherin and Vimentin) were
+decreased in Ishikawa cells that transfected with KIFC1-knockdown ( Figure 3C ). On the
+contrary, the E-cadherin was significantly decreased, whereas N-cadherin and
+Vimentin expression were increased in KIFC1-overexpressed HEC-1A cells ( Figure 3C ). Taken
+together, these findings indicated that KIFC1 promoted the migration, invasion
+and EMT of EC cells.
+
+KIFC1 promotes cell migration and invasion of EC in
+vitro. The migration (A) and invasion (B) of EC cells were
+measured by transwell assay (Scale bar: 200 μm). (C) The protein levels
+of E-cadherin, N-cadherin and Vimentin were measured by western blot.
+Data were shown as means ± SD. ** P < 0.01,
+*** P < 0.001.
+
+
+Knockdown of KIFC1 Represses Tumor Formation 
+
+To further verify whether KIFC1 influences tumorigenesis in
+vivo , Ishikawa cells stably down-expressing KIFC1 were subcutaneously
+implanted into the flank of nude mice. At 35days after implantation, the tumors
+were excised and the representative image was presented in Figure 4A . Tumor volume was monitored, as
+shown in Figure 4B-C ,
+the tumors in the sh-KIFC1 group exhibited smaller sizes and lighter weight as
+compared to that in the sh-NC group. Additionally, KIFC1 inhibition led to
+decreased Ki67 and KIFC1 positive cell numbers in xenograft tumors as compared
+to the sh-KIFC1 group ( Figure
+4D ). These results indicated that knockdown of KIFC1 suppressed EC
+tumor growth o in vivo .
+
+Knockdown of KIFC1 represses tumor formation in vivo. (A) After 35 days, the tumor nodules were removed and photographed.
+Tumor volume (B) and tumor weight (C) were measured after KIFC1 was
+knocked down. (D) The expression of KIFC1 and Ki-67 in tumors was
+determined by IHC (Scale bar: 100 μm). Data were shown as means ± SD.
+* P < 0.05, ** P < 0.01,
+*** P < 0.001.
+
+
+KIFC1 Plays a Carcinogenic Role in EC Cells Through the PI3K/AKT
+Pathway
+
+The PI3K/AKT signaling plays a pivotal role in the development of EC by
+regulating cell proliferation, invasion and EMT. 32 - 34 Hence, we further explored the role of KIFC1 in the regulation of
+PI3K/AKT signaling cascade. As displayed in Figure 5A , knockdown of KIFC1 reduced the
+protein expression of p-AKT and p-PI3 K, but had no significant effects on the
+protein expression of AKT and PI3K in Ishikawa cells. Inversely, overexpression
+of KIFC1 activated PI3K/AKT pathway by increasing the phosphorylation of AKT and
+PI3K in HEC-1A cells ( Figure
+5B ). Moreover, after treatment with LY294002, a specific antagonist
+of PI3K/AKT pathway, the expression levels of p-AKT and p-PI3K were decreased in
+HEC-1A cells, which abrogated the promotive effects of KIFC1 overexpression on
+PI3K/AKT pathway ( Figure
+5B ). Therefore, these findings demonstrated that KIFC1 knockdown
+blocked PI3K/AKT signaling pathway while KIFC1 overexpression activated this
+pathway. Collectively, these results suggested that PI3K/AKT pathway might
+participate in KIFC1-mediated EC cell proliferation, invasion and EMT.
+
+KIFC1 plays a carcinogenic role in EC cells through the PI3K/AKT pathway.
+(A-B) The protein levels of PI3K, p-PI3K, AKT and p-AKT in Ishikawa (A)
+and HEC-1A cells (B) were measured by western blot. Data were shown as
+means ± SD. *** P < 0.001.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+EC is an epithelial tumor in the endometrium, which develops insidiously and tends to
+invasion and metastasis. 35 The treatment of EC has been improved due to the progression in surgical
+resection and postoperative chemoradiotherapy, and the overall endometrial carcinoma
+has a favorable prognosis. However, the therapeutic options are limited for patients
+with advanced metastatic or recurrent EC, which have poor survival outcomes. 36 Therefore, better understanding on the molecular mechanism underlying EC
+progression is necessary. In this study, we found that KIFC1 expression was
+upregulated in EC tissues and cells, which was closely related to poor prognosis of
+EC patients. This is the first evidence identifing that upregulated KIFC1 could
+promote cell proliferation, migration, invasion and EMT in EC. In addition, KIFC1
+might regulate EC progression by activating PI3K/AKT pathway.
+
+KIFC1 expression has also been shown to predict poor prognosis and overall survival
+of ovarian cancer and serve as a potential marker for predicting metastasis. 37 In NSCLC, KIFC1 expression can also serve as a potential marker for brain metastasis. 38 KIFC1 is upregulated in gastric cancer and knockdown of KIFC1 inhibits sphere formation. 24 A recent study demonstrated that KIFC1 was expressed at high levels in
+hepatocellular carcinoma, and was significantly associated with tumor emboli,
+metastasis, recurrence, time of recurrence and tumor-free survival rates. 39 Therefore, it is suggested that KIFC1 may have potential as a tumor
+diagnostic marker. Through the analysis on the data from MERAV and UALCAN, we found
+that KIFC1 expression levels in tumor tissues of the female reproductive system and
+in EC tissues were both significantly up-regulated, which was related to clinical
+stage, suspension status and pathological type. Further analysis on TCGA dataset
+demonstrated that EC patients with high KIFC1 expression had short survival outcome.
+Consistently, the expression of KIFC1 in EC cells was also upregulated. The results
+suggested that KIFC1 may be used as a biomarker for clinical diagnosis of EC.
+
+A previous study has reported that interfering with the expression of KIFC1 in breast
+cancer cells could significantly inhibit the cell growth activity. 20 KIFC1 knockdown was demonstrated to decrease cell viability, migration and
+invasion and induce apoptosis in hepatocellular carcinoma. 39 Consistently, our data demonstrated that KIFC1 could promote cell
+proliferation, migration and invasion in EC cells, indicating that KIFC1 could
+affect the progression of EC. Notably, a novel study proved that KIFC1 induced EMT
+and metastasis both in vitro and in vivo in
+hepatocellular carcinoma via activation of the gankyrin/AKT/TWIST1 signaling pathway. 26 As expected, our mechanism analysis also showed that KIFC1 could activate the
+PI3K/AKT signaling pathway to promote the progression of EC.
+
+In conclusion, we found the upregulated KIFC1 expression in human EC tissues and
+cells. KIFC1 expression was obviously correlated with clinical stage, suspension
+status, pathological type, and prognosis. KIFC1 was involved in the regulation of
+the proliferation, migration, and invasion of EC cells, and the underlying mechanism
+was, at least partially, through mediating PI3K/AKT axis. Therefore, our study
+highlights KIFC1 as a novel and promising therapeutic target for the treatment of
+EC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

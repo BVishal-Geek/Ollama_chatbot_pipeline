@@ -1,5 +1,6 @@
--e . 
+-e .
 python-dotenv
 PyPDF2
 openai
 ensure 
+biopython

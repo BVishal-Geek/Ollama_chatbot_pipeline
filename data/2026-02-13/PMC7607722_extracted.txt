@@ -1,0 +1,132 @@
+================================================================================
+ARTICLE TITLE: Identification of lnc RNAs Related to Prognosis of Patients With Colorectal Cancer
+PMCID: PMC7607722
+PMID: 33111631
+KEYWORDS: lncrna, prognosis, colorectal cancer, biomarker, bioinformation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+The purpose of this study was to identify long noncoding RNAs (lncRNAs) related to prognosis of patients with colorectal cancer (CRC) and develop a prognostic prediction model for CRC. Transcriptome data and survival information of CRC patients were downloaded from The Cancer Genome Atlas. The differentially expressed lncRNAs (DElncRNAs) between CRC and normal colorectal tissues were identified by the edgeR package. The association of DElncRNAs expression with prognosis of CRC patients was analyzed by the survival package. A nomogram predicting 3- and 5- year overall survival of CRC patients was drawn by the rms package. A total of 1046 DElncRNAs were identified, including 271 down-regulated and 775 up-regulated lncRNAs in CRC. Multivariate Cox regression analysis showed 10 lncRNAs related to the prognosis of CRC patients. Thereinto high expression of AC004009.1 , LHX1-DT, ELFN1-AS1, AL136307.1 , AC087379.2 , RBAKDN and AC078820.1 was associated with poorer prognosis of CRC patients. High expression of LINC01055, AL590483.1 and AC008514.1 was associated with better prognosis of CRC patients. Furthermore, the risk score model developed based on the 10 lncRNAs could effectively predict overall survival of CRC patients. In conclusion, 10 prognostic biomarkers for CRC were identified, which would be helpful to understand the role of lncRNAs in CRC progression.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Long noncoding RNAs (lncRNAs) represent a large family of RNA transcripts longer than 200 nucleotides and having no protein-coding potential. The most recent statistics from GENCODE show that human genome contains 17904 lncRNA genes that encode more than 48000 distinct lncRNA transcripts. In the last decade, human lncRNAs have received considerable attention partly due to their abundant presence in the human genome and tissue-specific expression patterns. Meanwhile, biological function and clinical significance of lncRNAs are increasingly reported in some human diseases. 1 - 3 For colorectal cancer (CRC), several lncRNAs have been reported to be involved in tumorigenesis and development. For instance, Xu et al. found that an immune-related lncRNA, MIR17HG, could promote tumorigenesis and metastasis of CRC cells and might serve as a promising therapeutic target. 4 Liu et al. demonstrated that lncRNA GAS5 could inhibit migration and invasion of CRC cells and promote autophagy by targeting miR-222-3p via the GAS5/PTEN-signaling pathway. 5 Zhao et al. revealed that LINC02418 significantly overexpressed in CRC could promote proliferation of CRC cells and inhibit apoptosis of CRC cells through the miR-1273g-3p-MELK axis. 6 Furthermore, exosomal LINC02418 could effectively distinguish CRC patients from healthy controls, suggesting that exosomal LINC02418 might be a promising diagnostic biomarker for CRC. 6 Considering that most CRC-related lncRNAs have not yet been identified, we explored prognosis-related lncRNAs by mining high-throughput RNA sequencing data of CRC patients in the current study. In addition, biological processes and pathways closely linked to prognosis-related lncRNAs were investigated by gene co-expression analysis. A prognostic prediction model for CRC was developed based on prognosis-related lncRNAs. In a word, the study would not only contribute to understanding the role of lncRNAs in CRC progression, but also provide evidence of developing effective prognostic biomarkers for CRC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Gene expression profiles and clinical data of CRC patients were obtained from The Cancer Genome Atlas (TCGA, https://portal.gdc.cancer.gov/ ). LncRNAs/mRNAs expression profiles and survival information of CRC patients were extracted by the Perl programming language. Finally, LncRNAs/mRNAs expression profiles of 647 CRC tissues and 51 normal colorectal tissues were included in the current study. The edgeR package was used to acquire standardized data and the differentially expressed lncRNAs (DElncRNAs) between CRC tissues and normal colorectal tissues. 7 , 8 DElncRNAs were selected according to the following criteria: |log2fold change| >2 and false discovery rate (FDR) < 0.05.
+
+Univariate Cox regression analysis was used to explore the relationship between each DElncRNA expression and overall survival (OS) of CRC patients. The Benjamini-Hochberg procedure was applied to adjust the false discovery rate. DElncRNAs with P < 0.05 were further explored by multivariate Cox regression analysis. Finally, DElncRNAs related to OS of CRC patients were selected according to the following criteria: P < 0.05 under multivariate analysis, which was performed by survival package in R software.
+
+A prognostic prediction model for CRC was constructed based on multivariate Cox regression analysis. Proportional hazards (PH) hypothesis testing for the model was performed using Cox.zph function in survival package. The rms package was used to draw a nomogram predicting 3- and 5- year OS of CRC patients. The concordance index (C-index) with 95% confidence interval (CI) was calculated to evaluate predictive performance of the model. Meanwhile, risk score of each CRC patient was calculated using the model formula. The time ROC package was used to draw time-dependent ROC curve and estimate area under curve (AUC). 9 CRC patients were grouped into high- or low-risk patients based on the median risk score value. Kaplan-Meier survival curve was drawn to analyze the OS difference between high-risk patients and low-risk patients. P < 0.05 was considered significant.
+
+The correlation between prognosis-related lncRNA expression and tumor stages of CRC patients was explored using Spearman’s correlation analysis in R software. A total of 599 CRC patients, including 105 stage I patients, 227 stage II patients, 179 stage III patients and 88 stage IV patients, were analyzed. P < 0.05 was considered significant.
+
+To reveal the potential function of each prognosis-related lncRNA, we analyzed the expression correlation between each prognosis-related lncRNA and all protein-coding genes, and performed biological process and pathway enrichment analysis for these protein-coding genes related to lncRNA. P < 0.05 and |correlation coefficient| >0.3 were considered relevant. The biological process and pathway with adjusted P < 0.05 were considered to be significantly enriched. These analyses were performed by clusterProfiler package in R software. 10 
+
+
+Data Sources and Processing
+
+Gene expression profiles and clinical data of CRC patients were obtained from The Cancer Genome Atlas (TCGA, https://portal.gdc.cancer.gov/ ). LncRNAs/mRNAs expression profiles and survival information of CRC patients were extracted by the Perl programming language. Finally, LncRNAs/mRNAs expression profiles of 647 CRC tissues and 51 normal colorectal tissues were included in the current study. The edgeR package was used to acquire standardized data and the differentially expressed lncRNAs (DElncRNAs) between CRC tissues and normal colorectal tissues. 7 , 8 DElncRNAs were selected according to the following criteria: |log2fold change| >2 and false discovery rate (FDR) < 0.05.
+
+
+Survival Analysis
+
+Univariate Cox regression analysis was used to explore the relationship between each DElncRNA expression and overall survival (OS) of CRC patients. The Benjamini-Hochberg procedure was applied to adjust the false discovery rate. DElncRNAs with P < 0.05 were further explored by multivariate Cox regression analysis. Finally, DElncRNAs related to OS of CRC patients were selected according to the following criteria: P < 0.05 under multivariate analysis, which was performed by survival package in R software.
+
+
+Construction of a Prognostic Prediction Model
+
+A prognostic prediction model for CRC was constructed based on multivariate Cox regression analysis. Proportional hazards (PH) hypothesis testing for the model was performed using Cox.zph function in survival package. The rms package was used to draw a nomogram predicting 3- and 5- year OS of CRC patients. The concordance index (C-index) with 95% confidence interval (CI) was calculated to evaluate predictive performance of the model. Meanwhile, risk score of each CRC patient was calculated using the model formula. The time ROC package was used to draw time-dependent ROC curve and estimate area under curve (AUC). 9 CRC patients were grouped into high- or low-risk patients based on the median risk score value. Kaplan-Meier survival curve was drawn to analyze the OS difference between high-risk patients and low-risk patients. P < 0.05 was considered significant.
+
+
+The Correlation Between Prognosis-Related lncRNA Expression and Tumor Stages of CRC Patients
+
+The correlation between prognosis-related lncRNA expression and tumor stages of CRC patients was explored using Spearman’s correlation analysis in R software. A total of 599 CRC patients, including 105 stage I patients, 227 stage II patients, 179 stage III patients and 88 stage IV patients, were analyzed. P < 0.05 was considered significant.
+
+
+Identification of Biological Processes and Pathways Closely Linked to Prognosis-Related lncRNAs
+
+To reveal the potential function of each prognosis-related lncRNA, we analyzed the expression correlation between each prognosis-related lncRNA and all protein-coding genes, and performed biological process and pathway enrichment analysis for these protein-coding genes related to lncRNA. P < 0.05 and |correlation coefficient| >0.3 were considered relevant. The biological process and pathway with adjusted P < 0.05 were considered to be significantly enriched. These analyses were performed by clusterProfiler package in R software. 10 
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+There were 1046 DElncRNAs between CRC tissues and normal colorectal tissues. Thereinto, the expression levels of 775 lncRNAs, such as AC026336.3 , FEZF1-AS1, AC105460.1 , LINC02418, AC104823.1 , TMEM132D-AS1, AC073365.1 , BX322234.2 , LINC02474 and LINC01234, were up-regulated in CRC ( Table 1 ). The expression levels of 271 lncRNAs, such as AL121974.1 , PGM5-AS1, CDKN2B-AS1, HAND2-AS1, LINC02490, AC110491.1 , AC087379.1 , LINC00974, LINC00682 and AC007182.1 , were down-regulated in CRC ( Table 1 ).
+
+Top 10 up-Regulated and Down-Regulated lncRNAs in CRC.
+
+lncRNA: long noncoding RNAs; logFC: log2 fold change; logCPM: log2 counts per million; FDR: false discovery rate.
+
+Univariate analysis showed 45 lncRNAs related to prognosis of CRC patients ( Table 2 ). Thereinto, high expression of 7 lncRNAs (LINC01055, AC008649.2 , AC079612.1 , AL590483.1 , AC008514.1 , AC092723.1 , AC022034.1 ) was associated with better prognosis. High expression of 38 lncRNAs ( AC073365.1 , LINC01980, AC010789.1 , EVX1-AS, AC093895.1 , IGFBP7-AS1, AC247036.1 , AC092969.1 , AC105219.2 , AC004080.1 , AC004009.1 , LINC02577, CLMAT3, AC078820.1 , DBET, Z97200.1 , AL079303.1 , AC011840.1 , AC016831.6, RBAKDN, BX470102.1 , AP005230.1 , LINC00973, LINC01351, LINC02241, AL136307.1 , AL662890.1 , LINC01219, ELFN1-AS1, AC048344.4 , AC020891.2 , LMO7-AS1, LHX1-DT, AC105118.1 , AL807761.3 , LINC00461, AC087379.2 , LINC01249) was associated with poorer prognosis. Further multivariate analysis showed that the expression levels of 10 lncRNAs were related to prognosis of CRC patients ( Table 3 ). Thereinto, high expression of 3 lncRNAs ( AC008514.1 , LINC01055, AL590483.1 ) was associated with better prognosis. High expression of 7 lncRNAs ( AC004009.1 , ELFN1-AS1, AC078820.1 , LHX1-DT, RBAKDN, AL136307.1 , AC087379.2 ) was associated with poorer prognosis.
+
+Identification of lncRNAs Related to Prognosis of CRC Patients.
+
+lncRNA: long noncoding RNAs; HR: Hazard Ratio; CI: Confidence Interval.
+
+The Basic Information of 10 lncRNAs Predicting the Prognosis of Colorectal Cancer.
+
+lncRNA: long noncoding RNAs.
+
+A prognostic prediction model for CRC, including the following 10 lncRNAs: AC008514.1 , LINC01055, AL590483.1 , AC004009.1 , ELFN1-AS1, AC078820.1 , LHX1-DT, RBAKDN, AL136307.1 and AC087379.2 , was constructed ( Figure 1 ). PH hypothesis testing showed that the model satisfied the PH test (P = 0.35). The C-index with 95% CI was 0.80 (0.74-0.86), suggesting that the model had an effective prediction performance. In addition, ROC curves showed that AUC of 3- and 5- year OS were 0.725 and 0.803, respectively, suggesting that the model had a moderate sensitivity and specificity ( Figure 2 ). The scatter diagram showed that mortality of high-risk patients was significantly higher than that of low-risk patients (16.8% vs 4.2%, P < 0.001, Figure 3 ). Kaplan-Meier plot showed that the OS of high-risk patients was significantly poorer than that of low-risk patients (P = 2.7e-07, Figure 4 ).
+
+A nomogram predicting 3- and 5- year OS of CRC patients based on 10-lncRNA signature.
+
+ROC curve analysis of prognostic prediction model for CRC.
+
+The relationship between overall survival and risk score in CRC patients.
+
+Kaplan-Meier survival analysis of CRC patients with high-risk and low-risk score.
+
+Correlation analysis was use to explore the correlation between prognosis-related lncRNA expression and tumor stages of CRC patients. The results showed a relatively weak correlation between RBAKDN expression and tumor stages of CRC patients (P = 0.001, r s = 0.13, Figure 5 ).
+
+The correlation between RBAKDN expression and tumor stages of CRC patients.
+
+To explore the potential biological functions of prognosis-related lncRNAs, we performed biological process and pathway enrichment analysis for protein-coding genes related to each prognosis-related lncRNA. The results showed that the protein-coding genes related to AC087379.2 were enriched in 336 biological processes and 27 pathways. The protein-coding genes related to ELFN1-AS1 were enriched in 225 biological processes and 13 pathways. The protein-coding genes related to LHX1-DT were enriched in 341 biological processes and 12 pathways. The protein-coding genes related to LINC01055 were enriched in 289 biological processes and 4 pathways. The protein-coding genes related to AC078820.1 were enriched in 41 biological processes and 2 pathways. Thereinto some enriched biological processes and pathways, such as PPAR signaling pathway, ABC transporters, oxidative phosphorylation, immune response-regulating signaling pathway and regulation of telomere maintenance, were involved in the occurrence and development of cancer.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+CRC was one of the leading causes of cancer-related death worldwide. Although a growing number of therapies were available for early and advanced CRC, the OS of CRC patients remained unsatisfactory. Therefore, it was of great importance to explore reliable biomarkers to predict the prognosis and optimize the clinical therapy decision.
+
+In the present study, we analyzed transcriptome data of CRC and normal colorectal tissues, and identified 1046 CRC-related lncRNAs. Thereinto, the expression levels of 775 and 271 lncRNAs were up-regulated and down-regulated in CRC tissues, respectively. Further survival analysis showed that the expression levels of 10 lncRNAs were associated to the prognosis of CRC patients, and might be served as independent prognostic markers. Thereinto, high expression of AC008514.1 , LINC01055 and AL590483.1 was associated with better prognosis. High expression of AC004009.1 , ELFN1-AS1, AC078820.1 , LHX1-DT, RBAKDN, AL136307.1 and AC087379.2 was associated with poorer prognosis.
+
+To further explore the biological function and and clinical significance of these lncRNAs in CRC, we searched the literature and found that ELFN1-AS1 could accelerate the proliferation and migration of CRC via regulation of miR-4644/TRIM44 axis. 11 ELFN1-AS1 up-regulation was correlated with poor prognosis of CRC patients. 11 In addition, enrichment analysis suggested that multiple biological processes and pathways related to cancer, such as PPAR signaling pathway, 12 oxidative phosphorylation, 13 - 15 immune response-regulating signaling pathway and regulation of telomere maintenance, 16 - 18 were closely linked to these prognosis-related lncRNAs. The correlation analysis showed that high expression of RBAKDN was related to advanced tumor stages of CRC, suggesting that RBAKDN could act as an oncogene participating in the occurrence and development of CRC. Based on the 10 prognosis-related lncRNAs, a risk score model effectively predicting 3- and 5- year OS of CRC patients was constructed. Further subgroup analysis based on risk score showed that the prognosis of high-risk patients was significantly poorer than that of low-risk patients. Thus, high-risk patients who required targeted treatment interventions might be identified by the 10-lncRNA signature.
+
+In conclusion, the study identified the 10-lncRNA signature, which might act as an effective tool determining the prognosis of CRC patients, and also indicate potential therapeutic targets for CRC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplementary_file - Identification of lnc RNAs Related to Prognosis of Patients With Colorectal Cancer
+File: Supplementary_file.pdf

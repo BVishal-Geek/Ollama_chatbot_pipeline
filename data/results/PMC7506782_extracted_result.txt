@@ -1,0 +1,19 @@
+Source: PMC7506782_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Preoperative Radiotherapy Is Associated With Significant Survival Benefits for Patients With Gastric Signet Ring Cell Carcinoma: A SEER-Based Approach",
+  "condition_E": 1,
+  "condition_E_reason": "The extracted table variables were: age at diagnosis, gender, race, marital status, tumor size, grade, TNM stage, tumor depth, LN metastasis, radiation, histological type, survival months, SEER cause-specific death classification, and vital status recode.",
+  "N_E": 1,
+  "N_E_reason": "Totally 4771 patients were recruited.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "The patients were divided into those with and without preoperative radiotherapy.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "Survival analysis of the entire cohort demonstrated that preoperative radiotherapy improved both cancer-specific survival and overall survival.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

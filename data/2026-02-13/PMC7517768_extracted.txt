@@ -1,0 +1,55 @@
+================================================================================
+ARTICLE TITLE: Advances in Oral Oncolytic Agents for Breast Cancer and Recommendations for Promoting Adherence
+PMCID: PMC7517768
+PMID: 33542852
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Hormone receptor positivity and early stage diagnosis are generally considered signs of good prognosis in breast cancer. However, breast cancer all too frequently can become resistant to hormone-based therapies, and women can experience recurrence of their breast cancer decades after the diagnosis of early stage disease. To address the therapeutic needs for advanced and metastatic hormone receptor–positive (HR+) and human epidermal growth factor receptor 2–negative (HER2−) breast cancer, a number of new drugs have been tested and approved for this indication, including the class of drugs that works as cyclin-dependent kinase (CDK) 4/6 inhibitors. These drugs, often combined with other hormone-based therapy, have demonstrated considerable success in clinical trials and are now being used widely in oncology practices. Because all of the currently approved CDK4/6 inhibitor agents (palbociclib, ribociclib, and abemaciclib) are given orally, issues of patient comprehension of and adherence to prescribed regimens should be at the forefront of practitioners’ concerns about these drugs. In addition, ways to support and facilitate decision-making by patients related to this class of agents and other therapies recently approved for the same indication require focused attention by health-care providers. Oncology has continued to move toward a more patient-specific, precision medicine approach. Likewise, advanced practitioners have the opportunity to identify patient characteristics, preferences, and needs that are unique to individual patients to enhance precision treatment.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section with title(s) ['introduction', 'intro'] not found
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+CONCLUSIONS
+
+Recurrent and metastatic breast cancer is a serious and increasing clinical scenario as the US population continues to age. A new class of agents, CDK4/6 inhibitors, has been approved for HR+, HER2− breast cancer, and demonstrated significant improvements in disease-free survival (palbociclib, abemaciclib, ribociclib) or OS (ribociclib, abemaciclib), when given with other endocrine therapy, or as monotherapy (abemaciclib; Kolberg et al., 2019 ; Tien et al., 2019 ). All current CDK4/6 inhibitors are oral agents. This route of administration raises concerns about patients reporting side effects as well as need for adherence to the drug regimens. Lack of adherence affects toxicities, costs, quality of life, and key outcomes, including survival. Multiple approaches to enhance adherence to oral oncolytic agents have been implemented, including “SIMPLE” strategies, application of smart technology, and drug dispensing aids and services. Limited data and lack of high levels of evidence point to a need for additional research in methods to increase drug adherence, particularly in view of the growing number of oral anticancer targeted agents.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

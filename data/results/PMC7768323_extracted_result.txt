@@ -1,0 +1,19 @@
+Source: PMC7768323_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "PIMREG, a Marker of Proliferation, Facilitates Aggressive Development of Cholangiocarcinoma Cells Partly Through Regulating Cell Cycle-Related Markers",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical information was retrieved from TCGA, including characteristics of 30 CAA samples.",
+  "N_E": 1,
+  "N_E_reason": "A total of 30 CAA samples with complete clinical data were analyzed.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data were acquired from the public TCGA database.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,575 @@
+================================================================================
+ARTICLE TITLE: Understanding a Diverse Cancer Center Catchment Area: A Qualitative Needs Assessment Built on a Theoretical Framework
+PMCID: PMC8480362
+PMID: 33372817
+KEYWORDS: qualitative needs assessment, catchment area, cancer prevention, cancer control
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+INTRODUCTION::
+Quantitative approaches to the cancer incidence and mortality of a geographic region may lack understanding of the human context in the region thereby affecting how relevant cancer prevention and control activities can best be targeted to a cancer center’s catchment area.
+
+OBJECTIVES::
+The objective of this study was to obtain and analyze qualitative data that described the barriers and facilitators in a cancer center’s catchment area. A further objective was to use the assessment to plan a comprehensive approach to cancer prevention and control activities in the region.
+
+METHODS::
+Extensive qualitative data were gathered from 32 key informants in the 13 county catchment area. We used the Warnecke Model for Analysis of Population Health and Health Disparities to analyze the qualitative data. We coded factors affecting cancer prevention and control using a directed content analysis approach guided by the Warnecke Model.
+
+RESULTS::
+Four outcome types included fundamental barriers such as political environment and discrimination, gaps in resources, and lack of coordinated activities. Social and physical barriers included distrust, diverse language and cultures, and geographic distance. Individual barriers included lack of system negotiation, health literacy, and poverty. Biological barriers were disparate disease rates in specific groups.
+
+CONCLUSION::
+The analysis and assessment led to the creation of a catchment area wide coalition that used the results to formulate a comprehensive strategic plan to address the barriers in the region.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+NCI-Designated Cancer Centers (CC) have recently been charged with describing and addressing the cancer burden within their catchment area. 1 CCs define their own catchment areas, which are designated geographic places in which the cancer control activities of the CC take place. 1 As part of the new emphasis on catchment areas, the Cancer Center Support Grant now requires a Community Outreach & Engagement (COE) portion to identify the cancer burden in the catchment area. Since the implementation of the COE section, multiple approaches have been used to understand the cancer burden in the catchment area. 2 - 4 Chief among these are quantitative approaches which identify the cancer incidence and mortality in a specific region. 5 , 6 Indeed, the National Cancer Institute (NCI) awarded a number of supplemental grant awards to aid CCs in identifying the cancer burden in the catchment area. 7 Examples of the results of these have been published in the extant literature. 8 
+
+Notable quantitative data sources for these include the Surveillance, Epidemiology, and End Results Program (SEER) Registries, 9 which identify cancer incidence and mortality in specific states and regions in the United States (US), the Behavioral Risk Factor Surveillance System (BRFSS), 10 which provides state data about cancer-related behaviors such as smoking, obesity, and physical activity, and various secondary data sources such as the Health Information National Trends Survey (HINTS) 11 and the National Health and Nutritional Examination Survey (NHANES). 12 These resources can reveal much about the cancers and cancer-related behaviors in a region.
+
+Although quantitative methods identify many of the factors influencing cancer prevention and control in a region, they may lack the richness of human experience that can contribute to understanding the context within which cancer prevention and control can occur. 13 For example, from the SEER Registry we may note that cancer incidence is higher in a specific county in a region, 13 but the diverse contextual factors, such as cultural beliefs and attitudes, as well as barriers to access to care that may contribute to such differences are information that is best obtained through qualitative means. Qualitative data complement quantitative data, allowing us to recognize and appreciate the complexity of factors influencing health and how those factors interact with each other and the broader environment. 14 , 15 
+
+Capturing such complexities can be a daunting task as the factors influencing cancer prevention and control range from explanations at the biological level to social relationships to social context and to overall social conditions. 16 - 18 The Warnecke Model for Analysis of Population Health and Health Disparities, also called the Warnecke model, outlines the various levels of features that influence regional cancer prevention and control. 18 The model (see Figure 1 ) notes the contexts that influence health outcomes; the model focuses on fundamental causes, social and physical contexts, individual risk factors, and biological pathways. Briefly, fundamental causes include many of the social determinants of health such as discrimination, lack of insurance, and the political environment. The social and physical context includes factors such as culture, language, and community characteristics. Individual demographic and risk factors include poverty, understanding the healthcare system, health illiteracy, and individual behavioral factors. Finally, biological risk factors refer to diseases that are more prevalent in specific populations, such as cervical cancer in Latina populations, as well as high mortality rates in specific populations. Each of these domains influences cancer prevention and control. 18 This framework facilitates understanding barriers and facilitators to cancer prevention and control within the entire system that influences behaviors and cancer outcomes.
+
+Factors influencing cancer prevention and control by levels of the Warnecke Model for Analysis of Population Health and Health Disparities. 18 
+
+Here we report on the qualitative components of a needs assessment guided by the Warnecke model. Specifically, we aimed to explore the perceived barriers and facilitators to reaching diverse populations for cancer prevention and control efforts in the Fred Hutchinson Cancer Research Center (Fred Hutch)/University of Washington (UW) Consortium’s (The Consortium) catchment area. Thus, we first identified barriers and facilitators to cancer prevention and control that differed throughout the Consortium catchment area. Then, we assessed if and how the barriers and facilitators interacted across the levels of the Warnecke model. Our overall assumption was that using the Warnecke model to analyze qualitative data gathered from community members through interviews would ultimately help guide the selection of cancer prevention and control interventions to address county- and region-specific cancer needs.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+This study took place in the catchment area of the Consortium. The Consortium is a Comprehensive Cancer Center funded by the National Cancer Institute (NCI), and its catchment area refers to the geographical region served by the Consortium. Our Consortium catchment area consists of 13 counties in western Washington (WA). The area includes over 5 million individuals, comprising 67.7% of the state’s population. The catchment area population is comprised of 32.3% racial/ethnic minorities as follows: 11% Asian, 10% Hispanic, 5% Black, 2% AIAN, 1% Native Hawaiian and Other Pacific Islander, and 6% more than 1 race. The percentage of residents living in poverty in the area is 10.2%, which is slightly lower than figures for WA (11.3%) and the US (14.0%). Likewise, 8.6% in the catchment area were uninsured, which was slightly lower than WA (10.2%) and the nation (13.4%). The majority (81.5%) of the residents live in an urban core, with 11.7% in suburban areas, while 6.8% reside in towns or rural areas. 19 Approximately 83% of Consortium cancer cases come from the catchment area. Geographically, the catchment area is identical to NCI’s Surveillance, Epidemiology, and End Results (SEER) Registry for WA, which allows for population-based cancer surveillance for the catchment area.
+
+We identified potential key leaders in the individual counties of the catchment area by reviewing websites of community-based organizations (CBOs), health clinics, and state and county health departments in the 13 counties. A program associate called the contacts within the organizations and asked a series of questions concerning the goals and missions of the organization; if the mission included cancer prevention or control, we asked for the name of an informed individual, usually an organizational member who knew about the organization’s cancer prevention and control activities, with whom we could speak. Further, if the mission of the organization included cancer-related activities, that is, activities to address behaviors that are thought to be linked to cancer such as obesity, level of physical inactivity, smoking, and similar behaviors, we also requested an interview with an organizational individual. In total, we identified 32 key informants across the 13 counties; these key informants were invited to participate in a private, one-on-one interview.
+
+We explained that the purpose of the interview was to elicit their perspectives about barriers and facilitators to cancer prevention and control in their county. A study team member scheduled interviews at a date, time, and location convenient for participants. Interviewees were provided the option to participate face-to-face or by telephone. All interviews were conducted in English. The average length of the interviews was 60 minutes. Participants who completed the interview were offered a $25 gift card for their time. Because the interview did not include any personal information about the informant, the activity was considered “exempt” from IRB review as reviewed by the Fred Hutch Institutional Review Board.
+
+Consortium staff developed a semi-structured interview with 13 questions, and additional related follow-up probes and questions. The instrument was designed to: 1) characterize catchment area organizations, focusing specifically on services provided for cancer or cancer-related behaviors; 2) identify the organization’s outreach and education programs and the perceived barriers and facilitators to reaching clients; 3) identify sources of cancer-related information disseminated by the organization and used by community members; and 4) identify facilitators and barriers to collaborating with the Consortium. For this assessment, we focused on the barriers and facilitators to cancer prevention and control, as well as cancer-related activities, within the catchment area counties.
+
+All interviews were audio-recorded and transcribed verbatim into a Word document. Transcripts were loaded into Atlas.ti, version 7 for qualitative data analysis (Berlin, Germany). One member of the study team reviewed transcripts and highlighted all segments of text that represented barriers or facilitators to cancer prevention and control in diverse populations. The resulting barriers and facilitators were coded using a directed content analysis approach guided by the Warnecke model. 18 , 20 The levels of the model served as the coding categories and operational definitions for each category. 20 , 21 Once barriers and facilitators were categorized by the levels of the Warnecke model, subcategories or themes were identified. 20 , 21 The coder consulted regularly with members of the study team to discuss quotes, interpretations, and appropriateness of subcategories.
+
+
+Setting
+
+This study took place in the catchment area of the Consortium. The Consortium is a Comprehensive Cancer Center funded by the National Cancer Institute (NCI), and its catchment area refers to the geographical region served by the Consortium. Our Consortium catchment area consists of 13 counties in western Washington (WA). The area includes over 5 million individuals, comprising 67.7% of the state’s population. The catchment area population is comprised of 32.3% racial/ethnic minorities as follows: 11% Asian, 10% Hispanic, 5% Black, 2% AIAN, 1% Native Hawaiian and Other Pacific Islander, and 6% more than 1 race. The percentage of residents living in poverty in the area is 10.2%, which is slightly lower than figures for WA (11.3%) and the US (14.0%). Likewise, 8.6% in the catchment area were uninsured, which was slightly lower than WA (10.2%) and the nation (13.4%). The majority (81.5%) of the residents live in an urban core, with 11.7% in suburban areas, while 6.8% reside in towns or rural areas. 19 Approximately 83% of Consortium cancer cases come from the catchment area. Geographically, the catchment area is identical to NCI’s Surveillance, Epidemiology, and End Results (SEER) Registry for WA, which allows for population-based cancer surveillance for the catchment area.
+
+
+Recruitment
+
+We identified potential key leaders in the individual counties of the catchment area by reviewing websites of community-based organizations (CBOs), health clinics, and state and county health departments in the 13 counties. A program associate called the contacts within the organizations and asked a series of questions concerning the goals and missions of the organization; if the mission included cancer prevention or control, we asked for the name of an informed individual, usually an organizational member who knew about the organization’s cancer prevention and control activities, with whom we could speak. Further, if the mission of the organization included cancer-related activities, that is, activities to address behaviors that are thought to be linked to cancer such as obesity, level of physical inactivity, smoking, and similar behaviors, we also requested an interview with an organizational individual. In total, we identified 32 key informants across the 13 counties; these key informants were invited to participate in a private, one-on-one interview.
+
+We explained that the purpose of the interview was to elicit their perspectives about barriers and facilitators to cancer prevention and control in their county. A study team member scheduled interviews at a date, time, and location convenient for participants. Interviewees were provided the option to participate face-to-face or by telephone. All interviews were conducted in English. The average length of the interviews was 60 minutes. Participants who completed the interview were offered a $25 gift card for their time. Because the interview did not include any personal information about the informant, the activity was considered “exempt” from IRB review as reviewed by the Fred Hutch Institutional Review Board.
+
+
+Interview Guide Development
+
+Consortium staff developed a semi-structured interview with 13 questions, and additional related follow-up probes and questions. The instrument was designed to: 1) characterize catchment area organizations, focusing specifically on services provided for cancer or cancer-related behaviors; 2) identify the organization’s outreach and education programs and the perceived barriers and facilitators to reaching clients; 3) identify sources of cancer-related information disseminated by the organization and used by community members; and 4) identify facilitators and barriers to collaborating with the Consortium. For this assessment, we focused on the barriers and facilitators to cancer prevention and control, as well as cancer-related activities, within the catchment area counties.
+
+
+Analysis
+
+All interviews were audio-recorded and transcribed verbatim into a Word document. Transcripts were loaded into Atlas.ti, version 7 for qualitative data analysis (Berlin, Germany). One member of the study team reviewed transcripts and highlighted all segments of text that represented barriers or facilitators to cancer prevention and control in diverse populations. The resulting barriers and facilitators were coded using a directed content analysis approach guided by the Warnecke model. 18 , 20 The levels of the model served as the coding categories and operational definitions for each category. 20 , 21 Once barriers and facilitators were categorized by the levels of the Warnecke model, subcategories or themes were identified. 20 , 21 The coder consulted regularly with members of the study team to discuss quotes, interpretations, and appropriateness of subcategories.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Thirty-two key informants from throughout the 13-county catchment area participated in an interview between October and December of 2017. Seventeen interviews were conducted in person and 15 via telephone. Interviewees represented community-based organizations (CBOs) (n = 16), state and county health departments (n = 10), and healthcare providers (n = 6). These interviews revealed both challenges and facilitators to meeting cancer-related needs in the catchment area. We report the outcomes beginning from the top tier of the Warnecke model, 17 fundamental causes, and working our way down to the biological pathways. Table 1 summarizes the barriers identified.
+
+Identification of Barriers in the Needs Assessment.
+
+Participants highlighted several fundamental causes of disparate cancer outcomes among populations in the catchment area. Concordant with the social determinants of health, these population-level barriers to meeting diverse population cancer-related needs included the political environment, discrimination, gaps in resources, insurance coverage, and the lack of coordination among cancer prevention and control efforts.
+
+CBO and health department representatives noted how the new federal administration rules and procedures around immigration created fear, thereby deterring immigrant communities from connecting with agencies and programs and minimizing their access to cancer prevention and control services.
+
+ Especially now, because [of] all the political things that are happening we have communities like…[the] Latina community and the new immigrants feeling that they don’t want to share information, they don’t want to connect with agencies and program[s] that they are not familiar with. 
+
+Especially now, because [of] all the political things that are happening we have communities like…[the] Latina community and the new immigrants feeling that they don’t want to share information, they don’t want to connect with agencies and program[s] that they are not familiar with.
+
+CBOs described the political environment as destructive to the relationships they had built within immigrant communities to work on cancer-related issues. “We have worked so many years trying to build the trust…And now it feels that we are going backward.” 
+
+CBOs and healthcare providers highlighted discrimination experienced by individuals as a major cause of disparate cancer outcomes. Respondents explained that catchment area American Indian and Alaska Native population health, for example, was impacted by low high school graduation rates, criminalization of youth in schools, continued displacement and gentrification, and discriminatory practices limiting job and economic opportunities (e.g. small business and home loans). “These barriers sometimes seem insurmountable,…people are making it…but it takes a lot of struggle. And that kind of struggle is stressful. Stress causes all kinds of health problems. And, as a result, we see really low life expectancies.” 
+
+Participants described how some populations were not receiving the standard of care. One CBO representative noted: “We were told as black women that we didn’t need to worry about breast cancer because it didn’t affect our community. That was so untrue.” Another CBO representative noted that despite being insured, African Americans were not receiving immediate treatment once diagnosed. An interviewee also expressed that American Indian community members were not provided the correct treatment at certain clinics or hospitals. “They keep being treated in a way that I believe absolutely was based on their race, based on…perceptions of them as Native people, as people of color.”
+
+Participants discussed the overall lack of understanding and available resources for meeting diverse patient and population needs. These representatives requested improved policy and practice for serving these diverse populations across the cancer prevention and control continuum. A health department representative described not having:
+
+ a lot of explanation as to why [the African American population] carry a larger [cancer] burden…They are getting breast cancer screening, but they’re still dying at a higher rate…And then the prostate cancer for those gentlemen is off the charts, and no one has ever found a reason for it. It gets to the prevention side and what can we be doing. 
+
+a lot of explanation as to why [the African American population] carry a larger [cancer] burden…They are getting breast cancer screening, but they’re still dying at a higher rate…And then the prostate cancer for those gentlemen is off the charts, and no one has ever found a reason for it. It gets to the prevention side and what can we be doing.
+
+Respondents also described issues related to outreach and education programming, screening guidelines, funding, and surveillance for diverse populations. For outreach and education, one individual was alarmed that “ the word cancer is not even covered in high school ,” highlighting the need to promote cancer prevention and risk reduction among youth (e.g. tobacco use, HPV vaccination, skin cancer). Interviewees were also concerned with the lack of evidence-based practices for specific populations (e.g. American Indian and Alaska Natives; young adult and adolescent cancer survivors). One healthcare provider explained that evidence-based practices “ very often…don’t take into consideration the unique cultural context of American Indian and Alaska Native people .” Participants described a need for improved materials for populations with low literacy levels (e.g. simpler; more visual), as well as materials in multiple languages with messaging “ that actually resonate[s] with…and speak[s] to” the populations they serve (e.g. Latino, American Indian, and Alaska Native populations).
+
+Respondents described how guidelines and related funding were barriers to meeting diverse population needs for cancer prevention and control. For example, one representative shared that because colorectal cancer screening guidelines were fifty and above, some populations (e.g. the African American population) known to have an earlier onset were unable to access screening funding from the Breast, Cervical, and Colon Health Program (BCCHP) before the age of fifty. Another respondent noted the need for stomach cancer screening guidelines and funding for high-risk populations.
+
+ Korean and Japanese Americans have really high stomach cancer rates…Asian-Americans, Native Americans, Pacific Islanders, they have much higher rates as well. But because it’s not prevalent in the mainstream community, there’s no guideline around it. There’s no funding around it. 
+
+Korean and Japanese Americans have really high stomach cancer rates…Asian-Americans, Native Americans, Pacific Islanders, they have much higher rates as well. But because it’s not prevalent in the mainstream community, there’s no guideline around it. There’s no funding around it.
+
+Funding mechanisms were perceived to encourage serving larger populations as opposed to smaller subpopulations to get “ the biggest bang for the buck ; ” a trend that was also reflected in rural areas:
+
+ As state funding comes down, it gets smaller and smaller and smaller when you get to the rural communities…so it’s looking for alternative solutions to some of these things. For instance, we have a high rate of adult smoking and higher than the state average, but we don’t get any money to work on smoking cessation. 
+
+As state funding comes down, it gets smaller and smaller and smaller when you get to the rural communities…so it’s looking for alternative solutions to some of these things. For instance, we have a high rate of adult smoking and higher than the state average, but we don’t get any money to work on smoking cessation.
+
+Interviewees recognized that population surveys and electronic medical records did not facilitate capturing inequities among diverse populations. One respondent highlighted how the Behavioral Risk Factor Surveillance System (BRFSS) is only available in English and Spanish. Gaps in data and surveillance were perceived to result in a lack of recognition of inequities. Another respondent noted the Asian population was often not included in health equity reports and attributed this to aggregating data instead of drilling down into “ specific ethnicities …[to see] very different disparities .”
+
+Respondents discussed the gaps in cancer prevention and control services for uninsured or underinsured populations. One interviewee stated,
+
+ We still have a lot of people that go unscreened. They’re not eligible for Medicaid and they can’t really afford the expansion insurance. The current resources that we have for the uninsured and underinsured still fail to meet that gap for screening. 
+
+We still have a lot of people that go unscreened. They’re not eligible for Medicaid and they can’t really afford the expansion insurance. The current resources that we have for the uninsured and underinsured still fail to meet that gap for screening.
+
+They highlighted how programs that only covered certain cancers, limited access to screening and treatment for uninsured populations (e.g. BCCHP does not cover treatment). They also stressed how rural areas experienced a primary care gap that exacerbated insurance issues, further limiting access to cancer screening.
+
+All interviewees expressed frustration with the lack of communication and coordination of cancer-related efforts. “ My biggest pet peeve is that nobody knows what anyone else is doing or offering. Everybody works in a silo. ” The challenges to coordinating cancer-related initiatives included how efforts were designed, funded, and led. Funding mechanisms were described as discouraging holistic approaches to cancer-related efforts.
+
+ “Funding still occurs in silos. If you’re going to really look at upstream approaches to addressing poverty, housing, education…then you can’t really approach it in a siloed way, but that’s what we just keep doing!” 
+
+“Funding still occurs in silos. If you’re going to really look at upstream approaches to addressing poverty, housing, education…then you can’t really approach it in a siloed way, but that’s what we just keep doing!”
+
+Respondents recommended that topic- or disease- specific funding efforts focus on prevention: “ it’s a matter of addressing social determinants of health in its entirety. ” For example, one respondent suggested “ it would be great if the Consortium was a vocal proponent of doing more upstream nutrition and physical activity and breastfeeding work. ” Despite recognizing the strength of coordinated initiatives compared to isolated ones, respondents expressed that funding mechanisms generated a territorial code that was difficult to overcome.
+
+Concerning leadership, some respondents described communication barriers and competing agendas as impacting previous attempts to collaborate. “ The problem with these state-wide coalitions is the communication. And not having a leader inside this coalition…It helps a lot, but…the darker part of this, is the political. ” A health department representative described awareness and tracking of cancer-related initiatives for collaboration purposes as one of the most pressing needs of the field. Some suggested the Consortium could assist with “… helping us connect the dots around who is involved in this work and how we can get together in some way. ”
+
+The influence of the social and physical context was the second most frequently mentioned cause of barriers to cancer outcomes across the 3 respondent types. Community-level barriers to meeting cancer-related needs included trust and fear, geographic barriers to care, and language and culture. In addition, respondents described community strengths of resilience, cohesion, communication, mobilization, leadership, and strong family values.
+
+Respondents described how social justice issues fueled mistrust and fear that impacted access to cancer prevention and control efforts. African Americans, for example, were highlighted as particularly difficult to reach for outreach and education and screening efforts by healthcare providers and CBO members. “ A big part of that is trust…of the medical community. ”
+
+Both rural and urban institutions described the importance of having community health workers (CHWs) or promotores as trusted members of communities to connect hard-to-reach populations to cancer-related services. A healthcare provider working in both rural and urban counties explained how they relied heavily on Spanish-speaking CHWs highly regarded by the Latino community they served. A CBO agent noted that because a CHW was well-known by both the women of an urban community and by provider staff, the CHW was able to bring women into screening and assist with their follow-up in a timely fashion. “ The beauty of the community health worker and the promotora is that they are part of the community. Every program has to do with trust.” 
+
+All respondents described the primary care shortage in rural populations as impacting access to cancer-related services.
+
+ A woman…may be forced to choose a provider…because the caregiver that her child sees only accepts that type of Medicaid…[and] the provider her child is seeing might not be able to take on new clients or take adults at all. 
+
+A woman…may be forced to choose a provider…because the caregiver that her child sees only accepts that type of Medicaid…[and] the provider her child is seeing might not be able to take on new clients or take adults at all.
+
+They explained the difficulty of traveling from rural areas to seek screening and treatment. “I would say just for folks to really understand what the travel challenges are for our population, and the access issues that our population has to be able to receive some of these services.” Again, respondents highlighted the importance of CHWs helping to reach these populations. A CBO member explained that the American Indian communities they served “are incredibly rural so we have to go to them always [for outreach and education].” A healthcare provider described how their CHW program helped them improve healthcare access for migrant and seasonal farmworkers in rural counties.
+
+Language was described as a barrier to both cancer screening (e.g. impacting the return of FIT kits) and care (e.g. relying on family members who speak English to interpret during appointments). The absence of cultural competency and language-appropriate services were perceived to impact cancer care. A CBO member explained: “ so, many of them [the providers] , their basic level of cultural competency is, ‘We’ve got it in Spanish and English, and we know who to call for everybody else.’” 
+
+Respondents also discussed the impact of cultural beliefs and attitudes on cancer prevention and control among communities. A healthcare provider serving the Latino population shared the challenge of promoting the HPV vaccine and colorectal cancer screening given the
+
+ “real taboo that people don’t want to talk about anything…that goes on below the belt basically. We’ve just been trying to come up with creative ideas to make it less awkward and to make it more approachable.” 
+
+“real taboo that people don’t want to talk about anything…that goes on below the belt basically. We’ve just been trying to come up with creative ideas to make it less awkward and to make it more approachable.”
+
+A CBO individual also described how fear seemed to prevent the Latino community they served from seeking follow-up care post-screening: “there seems to be a barrier wall that comes up that they don’t really want to know…or they want to put it off for many various reasons.” Similarly, a CBO representative serving the African-born community mentioned how immigrant populations come from areas with different health-related beliefs and systems that could prevent them from seeking cancer screening or care. “For these women…health concerns are taken last, and so they are diagnosed at a much later stage if they’re diagnosed, or they simply die because it’s felt that there is nothing that can be done for it.” 
+
+Respondents identified many community strengths among the different populations they served. A healthcare provider described the strength and resiliency of the American Indian community as “our ability to laugh in the face of complete darkness and to find healing where it was never expected to be.” They also shared other strengths including their ties to individual tribal communities, cultures, and overarching values:
+
+ the respect for elders, the respect for youth, the knowledge that our next generations are the ones who are going to carry us and that’s who we live for today…That…is our resilience and our strength in action. 
+
+the respect for elders, the respect for youth, the knowledge that our next generations are the ones who are going to carry us and that’s who we live for today…That…is our resilience and our strength in action.
+
+CBO representatives also identified cohesion and communication as community strengths. For example, a CBO member described small, rural American Indian communities as having “ strength in their commitment and loyalty to one another.” Another respondent highlighted how a strength of the African American community is that “ we do communicate with one another, that we go to the elders about the situation.” Leadership and mobilization were also described as a strength of many communities.
+
+ They’ve [the African American community] got these groups called Leaders in Women’s Health…that are very connected with the city of Tacoma and Pierce County, and they’re able to advocate…So they’re able to really work with health leaders of their own system to say, ‘We’ve got these disparities. We need to make sure there are programs in place to address that.’ 
+
+They’ve [the African American community] got these groups called Leaders in Women’s Health…that are very connected with the city of Tacoma and Pierce County, and they’re able to advocate…So they’re able to really work with health leaders of their own system to say, ‘We’ve got these disparities. We need to make sure there are programs in place to address that.’
+
+Lastly, respondents described how strong family and community values served as facilitators across the cancer continuum.
+
+ For the Latino community, it’s the sense of family and the importance of family. That overrides just about everything else…They’ll do anything for their kids…So…if I make it about…their kids…I’ll fill a room…So, the focus on family makes my work easier. 
+
+For the Latino community, it’s the sense of family and the importance of family. That overrides just about everything else…They’ll do anything for their kids…So…if I make it about…their kids…I’ll fill a room…So, the focus on family makes my work easier.
+
+Another person described how using a household-based strategy was effective in transmitting prevention messages to hard-to-reach segments (e.g. 40-year old males) of immigrant families. “ They live together or sometimes even though they don’t live together, always the seniors, they are the one[s]…taking care of all the grandchildren. So, then we have all the seniors be our messenger. ”
+
+Individual demographics, risk factors, and biological responses and pathways were infrequently mentioned correlates of cancer outcomes in the catchment area. The respondents described different proximal determinants of these disparate cancer screening and care outcomes, which included understanding and navigating the healthcare system, health literacy, and poverty.
+
+CBO members and healthcare providers described how a lack of understanding of the healthcare system prevented both low income and foreign-born populations from accessing cancer prevention and control services. Since the Affordable Care Act, one CBO described how these populations were not used to having contact with health agencies “ because they didn’t have insurance it wasn’t a high priority, or it’s something they don’t know they have access to. ” This person also described how those with insurance were very concerned with billing issues related to high deductibles and afraid they would have to pay for their preventive benefits.
+
+Respondents also mentioned that those with low health literacy faced the most significant barriers to cancer screening and follow-up. “ Health literacy is probably an issue owed to fear of or maybe mistrust of the healthcare providers in general. ” A CBO representative described how she tried to explain the “ jargon that goes with the health community ” to African-born populations. “ They understand it, but it’s very frightening. ” That respondent stated, “ I think a lot of the hesitation and reluctance to participate is that they just don’t know what to expect, and so I think having a little bit more of that available would be very helpful.” 
+
+All 3 respondent types discussed poverty as a critically important proximal barrier to cancer prevention and control among populations. Health department representatives highlighted the overall poor health found in rural counties. “ Yakima County, Grays Harbor County—those 2 come to mind for just about every health concern in the state, and Mason County. ” Grays Harbor County, for example, was described as having higher smoking, obesity, and cancer rates compared the rest of the state. CBO representatives also described how low-income and undocumented populations were limited to using emergency room services.
+
+ [There are] a huge percentage of people…[that] are diagnosed with their cancer in the emergency room. And they’re diagnosed with stage IV cancer usually because the…demographic is lower socioeconomic status and so people don’t have insurance and they wait until the symptoms are unmanageable and creating so much havoc in their life and that’s when they just go to the emergency room. 
+
+[There are] a huge percentage of people…[that] are diagnosed with their cancer in the emergency room. And they’re diagnosed with stage IV cancer usually because the…demographic is lower socioeconomic status and so people don’t have insurance and they wait until the symptoms are unmanageable and creating so much havoc in their life and that’s when they just go to the emergency room.
+
+Another person described how undocumented immigrants
+
+ don’t qualify for most all of the state assistance and sometimes can’t afford sliding fees, so they have to choose between a $200 doctor’s visit or putting food on the table. So, food comes first and by the time they realize they can’t wait anymore, they end up at the emergency room. 
+
+don’t qualify for most all of the state assistance and sometimes can’t afford sliding fees, so they have to choose between a $200 doctor’s visit or putting food on the table. So, food comes first and by the time they realize they can’t wait anymore, they end up at the emergency room.
+
+Healthcare providers discussed the challenges of serving low-income populations that move out of urban centers due to multiple challenges they face, such as:
+
+ not being able to stay in stable housing, not having access to the kinds of resources that they need, be it transportation to get to and from work, or to and from appointments, or just money to keep a roof over their heads or the lights on. 
+
+not being able to stay in stable housing, not having access to the kinds of resources that they need, be it transportation to get to and from work, or to and from appointments, or just money to keep a roof over their heads or the lights on.
+
+All 3 types of respondents highlighted the challenge of discussing cancer when these groups were focused on more acute health issues and general needs As described by a health department representative serving a rural county: “ If you’re facing issues around housing and being able to keep food on your table, listening to a message about cancer prevention is not something you really want to hear .”
+
+Few respondents were specific about biological responses and pathways. However, unique characteristics were associated with specific populations. These factors were related to both immediate rates of diseases in certain ethnic groups, as well as factors that were thought to perpetuate cancers. Respondents noted high stomach cancer rates in various Asian populations, high rates of multiple myeloma in African Americans, and high prostate cancer rates among African American men.
+
+Other respondents noted that certain populations were more likely to experience high mortality rates. For example, one respondent noted that African Americans “ are getting breast cancer screening, but they’re still dying at a higher rate .” Interviewees associated populations with certain behaviors and risk factors for cancer, such as “ very high smoking prevalence among Korean men and some other Southeast Asian populations ” and “ a high population of obesity…in the African-American population as well as Hispanics. ”
+
+Finally, respondents noted the high rates of cancer in American Indian and Alaska Native populations. “ I think the CDC is also puzzled why the rates for cancers continue to go up for Native Americans and Alaska Natives. ” Another respondent noted:
+
+ We [the American Indian/Alaska Native population] have some of the highest mortality rates and it’s not because we have higher diagnosis rates. It’s because we get diagnosed later and we don’t get the treatments and we die sooner…it’s the social determinants of health. 
+
+We [the American Indian/Alaska Native population] have some of the highest mortality rates and it’s not because we have higher diagnosis rates. It’s because we get diagnosed later and we don’t get the treatments and we die sooner…it’s the social determinants of health.
+
+
+Fundamental Causes of Cancer Prevention and Control
+
+Participants highlighted several fundamental causes of disparate cancer outcomes among populations in the catchment area. Concordant with the social determinants of health, these population-level barriers to meeting diverse population cancer-related needs included the political environment, discrimination, gaps in resources, insurance coverage, and the lack of coordination among cancer prevention and control efforts.
+
+CBO and health department representatives noted how the new federal administration rules and procedures around immigration created fear, thereby deterring immigrant communities from connecting with agencies and programs and minimizing their access to cancer prevention and control services.
+
+ Especially now, because [of] all the political things that are happening we have communities like…[the] Latina community and the new immigrants feeling that they don’t want to share information, they don’t want to connect with agencies and program[s] that they are not familiar with. 
+
+Especially now, because [of] all the political things that are happening we have communities like…[the] Latina community and the new immigrants feeling that they don’t want to share information, they don’t want to connect with agencies and program[s] that they are not familiar with.
+
+CBOs described the political environment as destructive to the relationships they had built within immigrant communities to work on cancer-related issues. “We have worked so many years trying to build the trust…And now it feels that we are going backward.” 
+
+CBOs and healthcare providers highlighted discrimination experienced by individuals as a major cause of disparate cancer outcomes. Respondents explained that catchment area American Indian and Alaska Native population health, for example, was impacted by low high school graduation rates, criminalization of youth in schools, continued displacement and gentrification, and discriminatory practices limiting job and economic opportunities (e.g. small business and home loans). “These barriers sometimes seem insurmountable,…people are making it…but it takes a lot of struggle. And that kind of struggle is stressful. Stress causes all kinds of health problems. And, as a result, we see really low life expectancies.” 
+
+Participants described how some populations were not receiving the standard of care. One CBO representative noted: “We were told as black women that we didn’t need to worry about breast cancer because it didn’t affect our community. That was so untrue.” Another CBO representative noted that despite being insured, African Americans were not receiving immediate treatment once diagnosed. An interviewee also expressed that American Indian community members were not provided the correct treatment at certain clinics or hospitals. “They keep being treated in a way that I believe absolutely was based on their race, based on…perceptions of them as Native people, as people of color.”
+
+Participants discussed the overall lack of understanding and available resources for meeting diverse patient and population needs. These representatives requested improved policy and practice for serving these diverse populations across the cancer prevention and control continuum. A health department representative described not having:
+
+ a lot of explanation as to why [the African American population] carry a larger [cancer] burden…They are getting breast cancer screening, but they’re still dying at a higher rate…And then the prostate cancer for those gentlemen is off the charts, and no one has ever found a reason for it. It gets to the prevention side and what can we be doing. 
+
+a lot of explanation as to why [the African American population] carry a larger [cancer] burden…They are getting breast cancer screening, but they’re still dying at a higher rate…And then the prostate cancer for those gentlemen is off the charts, and no one has ever found a reason for it. It gets to the prevention side and what can we be doing.
+
+Respondents also described issues related to outreach and education programming, screening guidelines, funding, and surveillance for diverse populations. For outreach and education, one individual was alarmed that “ the word cancer is not even covered in high school ,” highlighting the need to promote cancer prevention and risk reduction among youth (e.g. tobacco use, HPV vaccination, skin cancer). Interviewees were also concerned with the lack of evidence-based practices for specific populations (e.g. American Indian and Alaska Natives; young adult and adolescent cancer survivors). One healthcare provider explained that evidence-based practices “ very often…don’t take into consideration the unique cultural context of American Indian and Alaska Native people .” Participants described a need for improved materials for populations with low literacy levels (e.g. simpler; more visual), as well as materials in multiple languages with messaging “ that actually resonate[s] with…and speak[s] to” the populations they serve (e.g. Latino, American Indian, and Alaska Native populations).
+
+Respondents described how guidelines and related funding were barriers to meeting diverse population needs for cancer prevention and control. For example, one representative shared that because colorectal cancer screening guidelines were fifty and above, some populations (e.g. the African American population) known to have an earlier onset were unable to access screening funding from the Breast, Cervical, and Colon Health Program (BCCHP) before the age of fifty. Another respondent noted the need for stomach cancer screening guidelines and funding for high-risk populations.
+
+ Korean and Japanese Americans have really high stomach cancer rates…Asian-Americans, Native Americans, Pacific Islanders, they have much higher rates as well. But because it’s not prevalent in the mainstream community, there’s no guideline around it. There’s no funding around it. 
+
+Korean and Japanese Americans have really high stomach cancer rates…Asian-Americans, Native Americans, Pacific Islanders, they have much higher rates as well. But because it’s not prevalent in the mainstream community, there’s no guideline around it. There’s no funding around it.
+
+Funding mechanisms were perceived to encourage serving larger populations as opposed to smaller subpopulations to get “ the biggest bang for the buck ; ” a trend that was also reflected in rural areas:
+
+ As state funding comes down, it gets smaller and smaller and smaller when you get to the rural communities…so it’s looking for alternative solutions to some of these things. For instance, we have a high rate of adult smoking and higher than the state average, but we don’t get any money to work on smoking cessation. 
+
+As state funding comes down, it gets smaller and smaller and smaller when you get to the rural communities…so it’s looking for alternative solutions to some of these things. For instance, we have a high rate of adult smoking and higher than the state average, but we don’t get any money to work on smoking cessation.
+
+Interviewees recognized that population surveys and electronic medical records did not facilitate capturing inequities among diverse populations. One respondent highlighted how the Behavioral Risk Factor Surveillance System (BRFSS) is only available in English and Spanish. Gaps in data and surveillance were perceived to result in a lack of recognition of inequities. Another respondent noted the Asian population was often not included in health equity reports and attributed this to aggregating data instead of drilling down into “ specific ethnicities …[to see] very different disparities .”
+
+Respondents discussed the gaps in cancer prevention and control services for uninsured or underinsured populations. One interviewee stated,
+
+ We still have a lot of people that go unscreened. They’re not eligible for Medicaid and they can’t really afford the expansion insurance. The current resources that we have for the uninsured and underinsured still fail to meet that gap for screening. 
+
+We still have a lot of people that go unscreened. They’re not eligible for Medicaid and they can’t really afford the expansion insurance. The current resources that we have for the uninsured and underinsured still fail to meet that gap for screening.
+
+They highlighted how programs that only covered certain cancers, limited access to screening and treatment for uninsured populations (e.g. BCCHP does not cover treatment). They also stressed how rural areas experienced a primary care gap that exacerbated insurance issues, further limiting access to cancer screening.
+
+All interviewees expressed frustration with the lack of communication and coordination of cancer-related efforts. “ My biggest pet peeve is that nobody knows what anyone else is doing or offering. Everybody works in a silo. ” The challenges to coordinating cancer-related initiatives included how efforts were designed, funded, and led. Funding mechanisms were described as discouraging holistic approaches to cancer-related efforts.
+
+ “Funding still occurs in silos. If you’re going to really look at upstream approaches to addressing poverty, housing, education…then you can’t really approach it in a siloed way, but that’s what we just keep doing!” 
+
+“Funding still occurs in silos. If you’re going to really look at upstream approaches to addressing poverty, housing, education…then you can’t really approach it in a siloed way, but that’s what we just keep doing!”
+
+Respondents recommended that topic- or disease- specific funding efforts focus on prevention: “ it’s a matter of addressing social determinants of health in its entirety. ” For example, one respondent suggested “ it would be great if the Consortium was a vocal proponent of doing more upstream nutrition and physical activity and breastfeeding work. ” Despite recognizing the strength of coordinated initiatives compared to isolated ones, respondents expressed that funding mechanisms generated a territorial code that was difficult to overcome.
+
+Concerning leadership, some respondents described communication barriers and competing agendas as impacting previous attempts to collaborate. “ The problem with these state-wide coalitions is the communication. And not having a leader inside this coalition…It helps a lot, but…the darker part of this, is the political. ” A health department representative described awareness and tracking of cancer-related initiatives for collaboration purposes as one of the most pressing needs of the field. Some suggested the Consortium could assist with “… helping us connect the dots around who is involved in this work and how we can get together in some way. ”
+
+
+The political environment
+
+CBO and health department representatives noted how the new federal administration rules and procedures around immigration created fear, thereby deterring immigrant communities from connecting with agencies and programs and minimizing their access to cancer prevention and control services.
+
+ Especially now, because [of] all the political things that are happening we have communities like…[the] Latina community and the new immigrants feeling that they don’t want to share information, they don’t want to connect with agencies and program[s] that they are not familiar with. 
+
+Especially now, because [of] all the political things that are happening we have communities like…[the] Latina community and the new immigrants feeling that they don’t want to share information, they don’t want to connect with agencies and program[s] that they are not familiar with.
+
+CBOs described the political environment as destructive to the relationships they had built within immigrant communities to work on cancer-related issues. “We have worked so many years trying to build the trust…And now it feels that we are going backward.” 
+
+
+Discrimination
+
+CBOs and healthcare providers highlighted discrimination experienced by individuals as a major cause of disparate cancer outcomes. Respondents explained that catchment area American Indian and Alaska Native population health, for example, was impacted by low high school graduation rates, criminalization of youth in schools, continued displacement and gentrification, and discriminatory practices limiting job and economic opportunities (e.g. small business and home loans). “These barriers sometimes seem insurmountable,…people are making it…but it takes a lot of struggle. And that kind of struggle is stressful. Stress causes all kinds of health problems. And, as a result, we see really low life expectancies.” 
+
+Participants described how some populations were not receiving the standard of care. One CBO representative noted: “We were told as black women that we didn’t need to worry about breast cancer because it didn’t affect our community. That was so untrue.” Another CBO representative noted that despite being insured, African Americans were not receiving immediate treatment once diagnosed. An interviewee also expressed that American Indian community members were not provided the correct treatment at certain clinics or hospitals. “They keep being treated in a way that I believe absolutely was based on their race, based on…perceptions of them as Native people, as people of color.”
+
+
+Lack of appropriate resources
+
+Participants discussed the overall lack of understanding and available resources for meeting diverse patient and population needs. These representatives requested improved policy and practice for serving these diverse populations across the cancer prevention and control continuum. A health department representative described not having:
+
+ a lot of explanation as to why [the African American population] carry a larger [cancer] burden…They are getting breast cancer screening, but they’re still dying at a higher rate…And then the prostate cancer for those gentlemen is off the charts, and no one has ever found a reason for it. It gets to the prevention side and what can we be doing. 
+
+a lot of explanation as to why [the African American population] carry a larger [cancer] burden…They are getting breast cancer screening, but they’re still dying at a higher rate…And then the prostate cancer for those gentlemen is off the charts, and no one has ever found a reason for it. It gets to the prevention side and what can we be doing.
+
+Respondents also described issues related to outreach and education programming, screening guidelines, funding, and surveillance for diverse populations. For outreach and education, one individual was alarmed that “ the word cancer is not even covered in high school ,” highlighting the need to promote cancer prevention and risk reduction among youth (e.g. tobacco use, HPV vaccination, skin cancer). Interviewees were also concerned with the lack of evidence-based practices for specific populations (e.g. American Indian and Alaska Natives; young adult and adolescent cancer survivors). One healthcare provider explained that evidence-based practices “ very often…don’t take into consideration the unique cultural context of American Indian and Alaska Native people .” Participants described a need for improved materials for populations with low literacy levels (e.g. simpler; more visual), as well as materials in multiple languages with messaging “ that actually resonate[s] with…and speak[s] to” the populations they serve (e.g. Latino, American Indian, and Alaska Native populations).
+
+Respondents described how guidelines and related funding were barriers to meeting diverse population needs for cancer prevention and control. For example, one representative shared that because colorectal cancer screening guidelines were fifty and above, some populations (e.g. the African American population) known to have an earlier onset were unable to access screening funding from the Breast, Cervical, and Colon Health Program (BCCHP) before the age of fifty. Another respondent noted the need for stomach cancer screening guidelines and funding for high-risk populations.
+
+ Korean and Japanese Americans have really high stomach cancer rates…Asian-Americans, Native Americans, Pacific Islanders, they have much higher rates as well. But because it’s not prevalent in the mainstream community, there’s no guideline around it. There’s no funding around it. 
+
+Korean and Japanese Americans have really high stomach cancer rates…Asian-Americans, Native Americans, Pacific Islanders, they have much higher rates as well. But because it’s not prevalent in the mainstream community, there’s no guideline around it. There’s no funding around it.
+
+Funding mechanisms were perceived to encourage serving larger populations as opposed to smaller subpopulations to get “ the biggest bang for the buck ; ” a trend that was also reflected in rural areas:
+
+ As state funding comes down, it gets smaller and smaller and smaller when you get to the rural communities…so it’s looking for alternative solutions to some of these things. For instance, we have a high rate of adult smoking and higher than the state average, but we don’t get any money to work on smoking cessation. 
+
+As state funding comes down, it gets smaller and smaller and smaller when you get to the rural communities…so it’s looking for alternative solutions to some of these things. For instance, we have a high rate of adult smoking and higher than the state average, but we don’t get any money to work on smoking cessation.
+
+Interviewees recognized that population surveys and electronic medical records did not facilitate capturing inequities among diverse populations. One respondent highlighted how the Behavioral Risk Factor Surveillance System (BRFSS) is only available in English and Spanish. Gaps in data and surveillance were perceived to result in a lack of recognition of inequities. Another respondent noted the Asian population was often not included in health equity reports and attributed this to aggregating data instead of drilling down into “ specific ethnicities …[to see] very different disparities .”
+
+
+Insurance gaps
+
+Respondents discussed the gaps in cancer prevention and control services for uninsured or underinsured populations. One interviewee stated,
+
+ We still have a lot of people that go unscreened. They’re not eligible for Medicaid and they can’t really afford the expansion insurance. The current resources that we have for the uninsured and underinsured still fail to meet that gap for screening. 
+
+We still have a lot of people that go unscreened. They’re not eligible for Medicaid and they can’t really afford the expansion insurance. The current resources that we have for the uninsured and underinsured still fail to meet that gap for screening.
+
+They highlighted how programs that only covered certain cancers, limited access to screening and treatment for uninsured populations (e.g. BCCHP does not cover treatment). They also stressed how rural areas experienced a primary care gap that exacerbated insurance issues, further limiting access to cancer screening.
+
+
+Lack of coordination of efforts
+
+All interviewees expressed frustration with the lack of communication and coordination of cancer-related efforts. “ My biggest pet peeve is that nobody knows what anyone else is doing or offering. Everybody works in a silo. ” The challenges to coordinating cancer-related initiatives included how efforts were designed, funded, and led. Funding mechanisms were described as discouraging holistic approaches to cancer-related efforts.
+
+ “Funding still occurs in silos. If you’re going to really look at upstream approaches to addressing poverty, housing, education…then you can’t really approach it in a siloed way, but that’s what we just keep doing!” 
+
+“Funding still occurs in silos. If you’re going to really look at upstream approaches to addressing poverty, housing, education…then you can’t really approach it in a siloed way, but that’s what we just keep doing!”
+
+Respondents recommended that topic- or disease- specific funding efforts focus on prevention: “ it’s a matter of addressing social determinants of health in its entirety. ” For example, one respondent suggested “ it would be great if the Consortium was a vocal proponent of doing more upstream nutrition and physical activity and breastfeeding work. ” Despite recognizing the strength of coordinated initiatives compared to isolated ones, respondents expressed that funding mechanisms generated a territorial code that was difficult to overcome.
+
+Concerning leadership, some respondents described communication barriers and competing agendas as impacting previous attempts to collaborate. “ The problem with these state-wide coalitions is the communication. And not having a leader inside this coalition…It helps a lot, but…the darker part of this, is the political. ” A health department representative described awareness and tracking of cancer-related initiatives for collaboration purposes as one of the most pressing needs of the field. Some suggested the Consortium could assist with “… helping us connect the dots around who is involved in this work and how we can get together in some way. ”
+
+
+Social and Physical Context of Cancer Prevention and Control
+
+The influence of the social and physical context was the second most frequently mentioned cause of barriers to cancer outcomes across the 3 respondent types. Community-level barriers to meeting cancer-related needs included trust and fear, geographic barriers to care, and language and culture. In addition, respondents described community strengths of resilience, cohesion, communication, mobilization, leadership, and strong family values.
+
+Respondents described how social justice issues fueled mistrust and fear that impacted access to cancer prevention and control efforts. African Americans, for example, were highlighted as particularly difficult to reach for outreach and education and screening efforts by healthcare providers and CBO members. “ A big part of that is trust…of the medical community. ”
+
+Both rural and urban institutions described the importance of having community health workers (CHWs) or promotores as trusted members of communities to connect hard-to-reach populations to cancer-related services. A healthcare provider working in both rural and urban counties explained how they relied heavily on Spanish-speaking CHWs highly regarded by the Latino community they served. A CBO agent noted that because a CHW was well-known by both the women of an urban community and by provider staff, the CHW was able to bring women into screening and assist with their follow-up in a timely fashion. “ The beauty of the community health worker and the promotora is that they are part of the community. Every program has to do with trust.” 
+
+All respondents described the primary care shortage in rural populations as impacting access to cancer-related services.
+
+ A woman…may be forced to choose a provider…because the caregiver that her child sees only accepts that type of Medicaid…[and] the provider her child is seeing might not be able to take on new clients or take adults at all. 
+
+A woman…may be forced to choose a provider…because the caregiver that her child sees only accepts that type of Medicaid…[and] the provider her child is seeing might not be able to take on new clients or take adults at all.
+
+They explained the difficulty of traveling from rural areas to seek screening and treatment. “I would say just for folks to really understand what the travel challenges are for our population, and the access issues that our population has to be able to receive some of these services.” Again, respondents highlighted the importance of CHWs helping to reach these populations. A CBO member explained that the American Indian communities they served “are incredibly rural so we have to go to them always [for outreach and education].” A healthcare provider described how their CHW program helped them improve healthcare access for migrant and seasonal farmworkers in rural counties.
+
+Language was described as a barrier to both cancer screening (e.g. impacting the return of FIT kits) and care (e.g. relying on family members who speak English to interpret during appointments). The absence of cultural competency and language-appropriate services were perceived to impact cancer care. A CBO member explained: “ so, many of them [the providers] , their basic level of cultural competency is, ‘We’ve got it in Spanish and English, and we know who to call for everybody else.’” 
+
+Respondents also discussed the impact of cultural beliefs and attitudes on cancer prevention and control among communities. A healthcare provider serving the Latino population shared the challenge of promoting the HPV vaccine and colorectal cancer screening given the
+
+ “real taboo that people don’t want to talk about anything…that goes on below the belt basically. We’ve just been trying to come up with creative ideas to make it less awkward and to make it more approachable.” 
+
+“real taboo that people don’t want to talk about anything…that goes on below the belt basically. We’ve just been trying to come up with creative ideas to make it less awkward and to make it more approachable.”
+
+A CBO individual also described how fear seemed to prevent the Latino community they served from seeking follow-up care post-screening: “there seems to be a barrier wall that comes up that they don’t really want to know…or they want to put it off for many various reasons.” Similarly, a CBO representative serving the African-born community mentioned how immigrant populations come from areas with different health-related beliefs and systems that could prevent them from seeking cancer screening or care. “For these women…health concerns are taken last, and so they are diagnosed at a much later stage if they’re diagnosed, or they simply die because it’s felt that there is nothing that can be done for it.” 
+
+Respondents identified many community strengths among the different populations they served. A healthcare provider described the strength and resiliency of the American Indian community as “our ability to laugh in the face of complete darkness and to find healing where it was never expected to be.” They also shared other strengths including their ties to individual tribal communities, cultures, and overarching values:
+
+ the respect for elders, the respect for youth, the knowledge that our next generations are the ones who are going to carry us and that’s who we live for today…That…is our resilience and our strength in action. 
+
+the respect for elders, the respect for youth, the knowledge that our next generations are the ones who are going to carry us and that’s who we live for today…That…is our resilience and our strength in action.
+
+CBO representatives also identified cohesion and communication as community strengths. For example, a CBO member described small, rural American Indian communities as having “ strength in their commitment and loyalty to one another.” Another respondent highlighted how a strength of the African American community is that “ we do communicate with one another, that we go to the elders about the situation.” Leadership and mobilization were also described as a strength of many communities.
+
+ They’ve [the African American community] got these groups called Leaders in Women’s Health…that are very connected with the city of Tacoma and Pierce County, and they’re able to advocate…So they’re able to really work with health leaders of their own system to say, ‘We’ve got these disparities. We need to make sure there are programs in place to address that.’ 
+
+They’ve [the African American community] got these groups called Leaders in Women’s Health…that are very connected with the city of Tacoma and Pierce County, and they’re able to advocate…So they’re able to really work with health leaders of their own system to say, ‘We’ve got these disparities. We need to make sure there are programs in place to address that.’
+
+Lastly, respondents described how strong family and community values served as facilitators across the cancer continuum.
+
+ For the Latino community, it’s the sense of family and the importance of family. That overrides just about everything else…They’ll do anything for their kids…So…if I make it about…their kids…I’ll fill a room…So, the focus on family makes my work easier. 
+
+For the Latino community, it’s the sense of family and the importance of family. That overrides just about everything else…They’ll do anything for their kids…So…if I make it about…their kids…I’ll fill a room…So, the focus on family makes my work easier.
+
+Another person described how using a household-based strategy was effective in transmitting prevention messages to hard-to-reach segments (e.g. 40-year old males) of immigrant families. “ They live together or sometimes even though they don’t live together, always the seniors, they are the one[s]…taking care of all the grandchildren. So, then we have all the seniors be our messenger. ”
+
+
+Trust and fear
+
+Respondents described how social justice issues fueled mistrust and fear that impacted access to cancer prevention and control efforts. African Americans, for example, were highlighted as particularly difficult to reach for outreach and education and screening efforts by healthcare providers and CBO members. “ A big part of that is trust…of the medical community. ”
+
+Both rural and urban institutions described the importance of having community health workers (CHWs) or promotores as trusted members of communities to connect hard-to-reach populations to cancer-related services. A healthcare provider working in both rural and urban counties explained how they relied heavily on Spanish-speaking CHWs highly regarded by the Latino community they served. A CBO agent noted that because a CHW was well-known by both the women of an urban community and by provider staff, the CHW was able to bring women into screening and assist with their follow-up in a timely fashion. “ The beauty of the community health worker and the promotora is that they are part of the community. Every program has to do with trust.” 
+
+
+Geographic barriers to care
+
+All respondents described the primary care shortage in rural populations as impacting access to cancer-related services.
+
+ A woman…may be forced to choose a provider…because the caregiver that her child sees only accepts that type of Medicaid…[and] the provider her child is seeing might not be able to take on new clients or take adults at all. 
+
+A woman…may be forced to choose a provider…because the caregiver that her child sees only accepts that type of Medicaid…[and] the provider her child is seeing might not be able to take on new clients or take adults at all.
+
+They explained the difficulty of traveling from rural areas to seek screening and treatment. “I would say just for folks to really understand what the travel challenges are for our population, and the access issues that our population has to be able to receive some of these services.” Again, respondents highlighted the importance of CHWs helping to reach these populations. A CBO member explained that the American Indian communities they served “are incredibly rural so we have to go to them always [for outreach and education].” A healthcare provider described how their CHW program helped them improve healthcare access for migrant and seasonal farmworkers in rural counties.
+
+
+Language and culture
+
+Language was described as a barrier to both cancer screening (e.g. impacting the return of FIT kits) and care (e.g. relying on family members who speak English to interpret during appointments). The absence of cultural competency and language-appropriate services were perceived to impact cancer care. A CBO member explained: “ so, many of them [the providers] , their basic level of cultural competency is, ‘We’ve got it in Spanish and English, and we know who to call for everybody else.’” 
+
+Respondents also discussed the impact of cultural beliefs and attitudes on cancer prevention and control among communities. A healthcare provider serving the Latino population shared the challenge of promoting the HPV vaccine and colorectal cancer screening given the
+
+ “real taboo that people don’t want to talk about anything…that goes on below the belt basically. We’ve just been trying to come up with creative ideas to make it less awkward and to make it more approachable.” 
+
+“real taboo that people don’t want to talk about anything…that goes on below the belt basically. We’ve just been trying to come up with creative ideas to make it less awkward and to make it more approachable.”
+
+A CBO individual also described how fear seemed to prevent the Latino community they served from seeking follow-up care post-screening: “there seems to be a barrier wall that comes up that they don’t really want to know…or they want to put it off for many various reasons.” Similarly, a CBO representative serving the African-born community mentioned how immigrant populations come from areas with different health-related beliefs and systems that could prevent them from seeking cancer screening or care. “For these women…health concerns are taken last, and so they are diagnosed at a much later stage if they’re diagnosed, or they simply die because it’s felt that there is nothing that can be done for it.” 
+
+
+Community strengths
+
+Respondents identified many community strengths among the different populations they served. A healthcare provider described the strength and resiliency of the American Indian community as “our ability to laugh in the face of complete darkness and to find healing where it was never expected to be.” They also shared other strengths including their ties to individual tribal communities, cultures, and overarching values:
+
+ the respect for elders, the respect for youth, the knowledge that our next generations are the ones who are going to carry us and that’s who we live for today…That…is our resilience and our strength in action. 
+
+the respect for elders, the respect for youth, the knowledge that our next generations are the ones who are going to carry us and that’s who we live for today…That…is our resilience and our strength in action.
+
+CBO representatives also identified cohesion and communication as community strengths. For example, a CBO member described small, rural American Indian communities as having “ strength in their commitment and loyalty to one another.” Another respondent highlighted how a strength of the African American community is that “ we do communicate with one another, that we go to the elders about the situation.” Leadership and mobilization were also described as a strength of many communities.
+
+ They’ve [the African American community] got these groups called Leaders in Women’s Health…that are very connected with the city of Tacoma and Pierce County, and they’re able to advocate…So they’re able to really work with health leaders of their own system to say, ‘We’ve got these disparities. We need to make sure there are programs in place to address that.’ 
+
+They’ve [the African American community] got these groups called Leaders in Women’s Health…that are very connected with the city of Tacoma and Pierce County, and they’re able to advocate…So they’re able to really work with health leaders of their own system to say, ‘We’ve got these disparities. We need to make sure there are programs in place to address that.’
+
+Lastly, respondents described how strong family and community values served as facilitators across the cancer continuum.
+
+ For the Latino community, it’s the sense of family and the importance of family. That overrides just about everything else…They’ll do anything for their kids…So…if I make it about…their kids…I’ll fill a room…So, the focus on family makes my work easier. 
+
+For the Latino community, it’s the sense of family and the importance of family. That overrides just about everything else…They’ll do anything for their kids…So…if I make it about…their kids…I’ll fill a room…So, the focus on family makes my work easier.
+
+Another person described how using a household-based strategy was effective in transmitting prevention messages to hard-to-reach segments (e.g. 40-year old males) of immigrant families. “ They live together or sometimes even though they don’t live together, always the seniors, they are the one[s]…taking care of all the grandchildren. So, then we have all the seniors be our messenger. ”
+
+
+Individual Demographic and Risk Factors for Cancer Prevention and Control
+
+Individual demographics, risk factors, and biological responses and pathways were infrequently mentioned correlates of cancer outcomes in the catchment area. The respondents described different proximal determinants of these disparate cancer screening and care outcomes, which included understanding and navigating the healthcare system, health literacy, and poverty.
+
+CBO members and healthcare providers described how a lack of understanding of the healthcare system prevented both low income and foreign-born populations from accessing cancer prevention and control services. Since the Affordable Care Act, one CBO described how these populations were not used to having contact with health agencies “ because they didn’t have insurance it wasn’t a high priority, or it’s something they don’t know they have access to. ” This person also described how those with insurance were very concerned with billing issues related to high deductibles and afraid they would have to pay for their preventive benefits.
+
+Respondents also mentioned that those with low health literacy faced the most significant barriers to cancer screening and follow-up. “ Health literacy is probably an issue owed to fear of or maybe mistrust of the healthcare providers in general. ” A CBO representative described how she tried to explain the “ jargon that goes with the health community ” to African-born populations. “ They understand it, but it’s very frightening. ” That respondent stated, “ I think a lot of the hesitation and reluctance to participate is that they just don’t know what to expect, and so I think having a little bit more of that available would be very helpful.” 
+
+All 3 respondent types discussed poverty as a critically important proximal barrier to cancer prevention and control among populations. Health department representatives highlighted the overall poor health found in rural counties. “ Yakima County, Grays Harbor County—those 2 come to mind for just about every health concern in the state, and Mason County. ” Grays Harbor County, for example, was described as having higher smoking, obesity, and cancer rates compared the rest of the state. CBO representatives also described how low-income and undocumented populations were limited to using emergency room services.
+
+ [There are] a huge percentage of people…[that] are diagnosed with their cancer in the emergency room. And they’re diagnosed with stage IV cancer usually because the…demographic is lower socioeconomic status and so people don’t have insurance and they wait until the symptoms are unmanageable and creating so much havoc in their life and that’s when they just go to the emergency room. 
+
+[There are] a huge percentage of people…[that] are diagnosed with their cancer in the emergency room. And they’re diagnosed with stage IV cancer usually because the…demographic is lower socioeconomic status and so people don’t have insurance and they wait until the symptoms are unmanageable and creating so much havoc in their life and that’s when they just go to the emergency room.
+
+Another person described how undocumented immigrants
+
+ don’t qualify for most all of the state assistance and sometimes can’t afford sliding fees, so they have to choose between a $200 doctor’s visit or putting food on the table. So, food comes first and by the time they realize they can’t wait anymore, they end up at the emergency room. 
+
+don’t qualify for most all of the state assistance and sometimes can’t afford sliding fees, so they have to choose between a $200 doctor’s visit or putting food on the table. So, food comes first and by the time they realize they can’t wait anymore, they end up at the emergency room.
+
+Healthcare providers discussed the challenges of serving low-income populations that move out of urban centers due to multiple challenges they face, such as:
+
+ not being able to stay in stable housing, not having access to the kinds of resources that they need, be it transportation to get to and from work, or to and from appointments, or just money to keep a roof over their heads or the lights on. 
+
+not being able to stay in stable housing, not having access to the kinds of resources that they need, be it transportation to get to and from work, or to and from appointments, or just money to keep a roof over their heads or the lights on.
+
+All 3 types of respondents highlighted the challenge of discussing cancer when these groups were focused on more acute health issues and general needs As described by a health department representative serving a rural county: “ If you’re facing issues around housing and being able to keep food on your table, listening to a message about cancer prevention is not something you really want to hear .”
+
+
+Understanding and navigating the healthcare system
+
+CBO members and healthcare providers described how a lack of understanding of the healthcare system prevented both low income and foreign-born populations from accessing cancer prevention and control services. Since the Affordable Care Act, one CBO described how these populations were not used to having contact with health agencies “ because they didn’t have insurance it wasn’t a high priority, or it’s something they don’t know they have access to. ” This person also described how those with insurance were very concerned with billing issues related to high deductibles and afraid they would have to pay for their preventive benefits.
+
+
+Health literacy
+
+Respondents also mentioned that those with low health literacy faced the most significant barriers to cancer screening and follow-up. “ Health literacy is probably an issue owed to fear of or maybe mistrust of the healthcare providers in general. ” A CBO representative described how she tried to explain the “ jargon that goes with the health community ” to African-born populations. “ They understand it, but it’s very frightening. ” That respondent stated, “ I think a lot of the hesitation and reluctance to participate is that they just don’t know what to expect, and so I think having a little bit more of that available would be very helpful.” 
+
+
+Poverty
+
+All 3 respondent types discussed poverty as a critically important proximal barrier to cancer prevention and control among populations. Health department representatives highlighted the overall poor health found in rural counties. “ Yakima County, Grays Harbor County—those 2 come to mind for just about every health concern in the state, and Mason County. ” Grays Harbor County, for example, was described as having higher smoking, obesity, and cancer rates compared the rest of the state. CBO representatives also described how low-income and undocumented populations were limited to using emergency room services.
+
+ [There are] a huge percentage of people…[that] are diagnosed with their cancer in the emergency room. And they’re diagnosed with stage IV cancer usually because the…demographic is lower socioeconomic status and so people don’t have insurance and they wait until the symptoms are unmanageable and creating so much havoc in their life and that’s when they just go to the emergency room. 
+
+[There are] a huge percentage of people…[that] are diagnosed with their cancer in the emergency room. And they’re diagnosed with stage IV cancer usually because the…demographic is lower socioeconomic status and so people don’t have insurance and they wait until the symptoms are unmanageable and creating so much havoc in their life and that’s when they just go to the emergency room.
+
+Another person described how undocumented immigrants
+
+ don’t qualify for most all of the state assistance and sometimes can’t afford sliding fees, so they have to choose between a $200 doctor’s visit or putting food on the table. So, food comes first and by the time they realize they can’t wait anymore, they end up at the emergency room. 
+
+don’t qualify for most all of the state assistance and sometimes can’t afford sliding fees, so they have to choose between a $200 doctor’s visit or putting food on the table. So, food comes first and by the time they realize they can’t wait anymore, they end up at the emergency room.
+
+Healthcare providers discussed the challenges of serving low-income populations that move out of urban centers due to multiple challenges they face, such as:
+
+ not being able to stay in stable housing, not having access to the kinds of resources that they need, be it transportation to get to and from work, or to and from appointments, or just money to keep a roof over their heads or the lights on. 
+
+not being able to stay in stable housing, not having access to the kinds of resources that they need, be it transportation to get to and from work, or to and from appointments, or just money to keep a roof over their heads or the lights on.
+
+All 3 types of respondents highlighted the challenge of discussing cancer when these groups were focused on more acute health issues and general needs As described by a health department representative serving a rural county: “ If you’re facing issues around housing and being able to keep food on your table, listening to a message about cancer prevention is not something you really want to hear .”
+
+
+Biological Responses and Pathways
+
+Few respondents were specific about biological responses and pathways. However, unique characteristics were associated with specific populations. These factors were related to both immediate rates of diseases in certain ethnic groups, as well as factors that were thought to perpetuate cancers. Respondents noted high stomach cancer rates in various Asian populations, high rates of multiple myeloma in African Americans, and high prostate cancer rates among African American men.
+
+Other respondents noted that certain populations were more likely to experience high mortality rates. For example, one respondent noted that African Americans “ are getting breast cancer screening, but they’re still dying at a higher rate .” Interviewees associated populations with certain behaviors and risk factors for cancer, such as “ very high smoking prevalence among Korean men and some other Southeast Asian populations ” and “ a high population of obesity…in the African-American population as well as Hispanics. ”
+
+Finally, respondents noted the high rates of cancer in American Indian and Alaska Native populations. “ I think the CDC is also puzzled why the rates for cancers continue to go up for Native Americans and Alaska Natives. ” Another respondent noted:
+
+ We [the American Indian/Alaska Native population] have some of the highest mortality rates and it’s not because we have higher diagnosis rates. It’s because we get diagnosed later and we don’t get the treatments and we die sooner…it’s the social determinants of health. 
+
+We [the American Indian/Alaska Native population] have some of the highest mortality rates and it’s not because we have higher diagnosis rates. It’s because we get diagnosed later and we don’t get the treatments and we die sooner…it’s the social determinants of health.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Respondents representing CBOs, state and county health departments, and healthcare providers shared perceived barriers and facilitators to reaching diverse populations for cancer prevention and control efforts in the Consortium catchment area. Similar to previous catchment area needs assessments, interviewees described minority, homeless, and persons of lower socioeconomic position representing a smaller proportion of the populations as whole, but having the greatest cancer service needs. 22 Respondents highlighted barriers (e.g., historical distrust; discrimination) to reaching these groups for cancer education, service-delivery, and data collection previously reported in catchment area assessments. 22 , 23 Furthermore, interviewees described a lack of tailored resources for cancer education, surveillance, and screening guidelines among diverse populations. This suggests a need to focus on cancer communication inequalities and gathering sufficient data on vulnerable groups through a variety of sampling (e.g. purposeful oversampling) and data collection strategies. 22 , 23 Respondents also identified key facilitators to cancer prevention and control strategies, such as community strengths (e.g. strong family and community values and cohesion) 23 and community health workers’ ability to reach diverse communities. These facilitators support community-based approaches to cancer prevention and control. 23 
+
+When barriers and facilitators were analyzed using the Warnecke model, many appeared to span the 4 theoretical levels of concern (i.e. fundamental causes, social and physical context, individual demographic and risk factors, biologic responses and pathways). 18 Interviewees described how distal factors (e.g., the political environment and discrimination)influenced intermediate factors (e.g., mistrust and fear of health institutions) among underserved populations, which in turn deterred cancer screening and care among such groups experiencing the greatest cancer inequities at the proximal level of concern (i.e. biologic responses and pathways). 18 
+
+As each level of concern revealed different aspects contributing to the disparate cancer outcomes, different interventions may be required to target these inequities at each level of concern. 18 This aligns with respondents’ desire for initiatives to go beyond targeting the individual to targeting the context or upstream determinants of health. These upstream initiatives would require funding mechanisms that encourage integrated approaches required for targeting social determinants of health and other significant influencers of timely cancer prevention and control. Importantly, the respondents recognized that a multifactorial approach needed to be taken to increase funding for the social determinants of health. They spoke of diverse funding from the state (block grants), the federal government (Housing and Urban Development), and private foundations (Robert Wood Johnson) as potential resources to address such determinants.
+
+Interviewees described a lack of coordination of efforts as another significant barrier to meeting population needs in cancer prevention and control. In this state, the State Cancer Plan was last updated in 2010 and covered the period from 2009 to 2013; thus, it too does not coordinate state efforts around cancer prevention and control. Interviewees described design, funding, and lack of leadership of cancer initiatives as fueling this issue. Further in 2013, the state department of health combined 14 health-related state plans into one State Plan for Healthy Communities to align priorities and strategies that addresses common underlying issues related to health. 24 To date, 2 statewide cancer task forces, one on the human papillomavirus (HPV) and one on colorectal cancer, remain. Their input is included in the Cancer Action Coalition of the catchment area.
+
+As the only NCI-designated comprehensive cancer center in our state, our Fred Hutch/UW Cancer Consortium is uniquely positioned to coordinate cancer prevention and control efforts that serve the needs of all communities. For example, the lack of appropriate resources designed to communicate cancer prevention and control to different populations could be approached through collaboration with CBOs, healthcare providers, and health departments working to prevent and control cancer in these populations. Breaking down these silos and pooling resources and expertise may make it possible to provide visual, culturally and linguistically appropriate materials to diverse populations. This qualitative assessment provided a starting point for this coordination, as results revealed that different community stakeholders agreed on many factors influencing disparate cancer outcomes in the catchment area. Thus, there is an opportunity to unify stakeholders on a common roadmap, where activities are prioritized, and resources shared, to target modifiable factors and to advocate for needed programs and funding.
+
+The Consortium’s Community Outreach and Engagement Core (COE) is tailoring programmatic infrastructure to help establish trust with the populations living in the catchment area. COE was structured with the intent to address cancer-related needs among those populations with the biggest burden in the catchment area, those are people living in rural areas, Indigenous people, and Blacks/African-Americans. To that end, community health educators and faculty with expertise in working with these populations were incorporated into the office. In addition, the COE Core is working with the Seattle Cancer Care Alliance to restructure their patient navigation services to offer culturally relevant navigation for these same populations.
+
+The COE Core also is strengthening internal relationships as well as external relationships in order to better serve patients in the catchment area. COE staff are working with cancer basic biology program staff to encourage collaboration teams that will design research that is relevant to the populations who suffer the highest cancer burden in the catchment area. Additionally, COE staff are partnering with staff from Seattle Cancer Care Alliance programs that offer services to Indigenous communities; this work will promote smoking cessation and lung cancer screening. Externally, COE staff are partnering with community-based organizations and local health departments to disseminate information about existing programs offered by agencies for catchment area populations. For example, it is partnering with local providers, clinics and or hospitals to make screening services more accessible within people’s communities so they are not required to travel to the Consortium campus to access such services. In addition, the COE partners with external agencies to create and share messages that are culturally appropriate. One example of this is an annual Latina Health Symposium that includes presentations from experts who are able to speak to topics that are of greatest importance to Hispanic/Latino populations in the catchment area.
+
+Next steps for the Consortium have already begun. A group of stakeholders from around the catchment area has been formed as a Community Action Coalition. The Coalition’s role is to consolidate the quantitative and qualitative data into an overarching strategic plan to address cancer control in the catchment area. The strategic plan will be developed in collaboration with an Internal Advisory Committee of faculty under the eye of the Community Outreach & Engagement Core of the Consortium. After the strategic plan is developed and affirmed, the Coalition will develop an annual action plan describing the activities to take place in the following year; this action plan will be based on resources available, strong science, and largest needs. The Coalition will meet quarterly to assess and adapt the annual action plan’s outcomes and impact. Annually, a new action plan for the upcoming year will be developed. The representation of the Coalition will be assessed annually to ensure that participants reflect the characteristics of the catchment area.
+
+The study design had limitations. Neither the type of interviewee (CBO, health department, health provider representative), nor the counties were equally represented. Further, we held limited interviews with cancer patients and the general population. In addition, it may be helpful to complement stakeholders’ perceptions with those of the populations they serve. The project could have benefited from more than one coder, although her efforts were constantly reviewed by the interviewers and the supervising faculty member. In addition, the directed approach using the Warnecke model may have introduced bias in the coding. Nevertheless, this is a good beginning to understanding the needs of the region; combined with quantitative data, this analysis provides a comprehensive needs assessment of our catchment area.
+
+
+Limitations
+
+The study design had limitations. Neither the type of interviewee (CBO, health department, health provider representative), nor the counties were equally represented. Further, we held limited interviews with cancer patients and the general population. In addition, it may be helpful to complement stakeholders’ perceptions with those of the populations they serve. The project could have benefited from more than one coder, although her efforts were constantly reviewed by the interviewers and the supervising faculty member. In addition, the directed approach using the Warnecke model may have introduced bias in the coding. Nevertheless, this is a good beginning to understanding the needs of the region; combined with quantitative data, this analysis provides a comprehensive needs assessment of our catchment area.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Comprehensive community needs assessments are critical for cancer centers to gain a full understanding of the geographic areas within which they operate. In this qualitative analysis, we sought to understand how stakeholders within our catchment area viewed barriers and facilitators to cancer control. These factors led to a greater understanding of the nature of the region as well as outlining specific factors that play a role in health inequities that exist within the region. Although the antecedents of health inequities may be relatively well known, a good needs assessment can trigger not only a better understanding of the specific factors that affect cancer prevention and control, but also the strengths of disparate communities on which we can build to reduce inequities. Our next step was to convene a group of regional stakeholders to develop an action plan that builds on community strengths and addresses the barriers so we may better serve our population’s cancer prevention and control needs. These qualitative data added greatly to our comprehensive needs assessment and are being used in creation of an overall strategic plan and annual action plans for cancer prevention and control.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

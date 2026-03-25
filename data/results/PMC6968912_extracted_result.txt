@@ -1,0 +1,19 @@
+Source: PMC6968912_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Bone scan positivity in non-metastatic, castrate-resistant prostate cancer: external validation study",
+  "condition_E": 1,
+  "condition_E_reason": "The final database included information on race, age at the time of bone scans, height, weight, PSA, diagnosis date, primary treatments, clinical and pathological characteristics.",
+  "N_E": 1,
+  "N_E_reason": "Our final cohort was limited to 187 patients who had at least one bone scan after CRPC diagnosis.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Patients had received at least 1 dose of androgen deprivation therapy (ADT).",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "Bone scan results were coded as positive or negative based on the radiology reports.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

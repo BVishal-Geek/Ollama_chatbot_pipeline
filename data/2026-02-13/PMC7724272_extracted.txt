@@ -1,0 +1,691 @@
+================================================================================
+ARTICLE TITLE: The Lung Adenocarcinoma Microenvironment Mining and Its Prognostic
+Merit
+PMCID: PMC7724272
+PMID: 33280515
+KEYWORDS: lung adenocarcinoma, tcga, tumor microenvironment, estimate algorithm, overall survival
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+As a common pathological type of lung cancer, lung adenocarcinoma (LUAD) is
+mainly treated by surgery, chemotherapy, targeted therapy and radiotherapy.
+Although a relatively mature treatment system has been established, there
+are few studies on the microenvironment of LUAD.
+
+Material and Methods::
+The immune and stromal scores of patients from the LUAD cohort in the TCGA
+database were obtained by using ESTIMATE. The relationship of immune and
+stromal scores with the clinicopathological characteristics and overall
+survival of LUAD patients was assessed by R. GO, KEGG and Cox regression
+analyses were employed to analyze intersecting genes and to identify
+reliable prognostic markers. The identified genes were also analyzed in the
+GEPIA database to assess their correlations with survival, and these
+relationships were verified with the Kaplan-Meier Plotter database.
+
+Results::
+The immune score was related to the survival time and tumor topography of
+LUAD patients. There was a significant correlation between stromal score and
+tumor metastasis. Through multivariate analysis, stage (HR = 1.640, 95% CI =
+1.019-2.642, P = 0.042) and risk score (HR = 1.036, 95% CI
+= 1.026-1.046, P < 0.001). The genes (ARHGAP15, BTLA,
+CASS4, CLECL1, FAM129C, STAP1, TESPA1, and S100P) showed credible prognostic
+value in LUAD patients in TCGA through GEPIA database online analysis and
+verification in the Kaplan-Meier plotter database.
+
+Conclusions::
+In the microenvironment of lung adenocarcinoma, the differentially expressed
+genes screened by immune score and stromal score have certain value in
+evaluating the survival/prognosis of patients, as well as the invasion and
+progression of tumors.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Lung carcinoma has become the main cause of cancer-related death, with an incidence
+rate of 11.6% and a mortality rate of 18.4%, in 185 countries worldwide. 1 Therefore, as the most common form of lung malignancy, LUAD deserves further
+study. To better understand the correlation between gene expression differences and
+clinical prognosis in tumor patients, a comprehensive gene data bank such as The
+Cancer Genome Atlas (TCGA) were utilized to classify and find genomic abnormalities
+in large sample populations around the world. 2 Considering the insufficient understanding of LUAD, it is essential to
+explore the evolution and progression of tumor cells in the human body by using
+these gene expression data.
+
+The survival of humans is inseparable from the environment of the earth. Similarly,
+the survival of tumor cells cannot be considered as separate from the surrounding
+microenvironment. The tumor microenvironment (TME) usually consists of non-tumor
+cells, including immune cells, fibroblasts, endothelial cells, and adipocytes. 3 Solid malignancies are characterized by the uncontrolled proliferation and
+survival of normal cells caused by severe hypoxia and acidic stress, resulting in
+structural and functional abnormalities of the microenvironment. Therefore, a more
+detailed understanding of how adaptive responses to the microenvironment drive tumor
+progression is critical for the development of more rational cancer treatment strategies. 4 , 5 In the microenvironment of tumors, the dynamic activity of molecules and
+cells reflects the nature of tumor evolution and is the basis of tumor immune
+escape, growth and metastasis. 6 In 2013, an algorithm called ESTIMATE (Estimation of STromal and Immune cells
+in MAlignant tumor tissues using Expression data) was designed to assess tumor
+purity based on gene expression data. 7 The algorithm is based on the analysis of specific gene expression profiles
+of stromal and immune cells to predict the infiltration of non-tumor cells. It has
+been applied to prostate cancer, 8 breast cancer, 9 colon cancer, 10 cutaneous melanoma, 11 glioblastoma, 12 and clear cell renal cell carcinoma 13 so far, showing the effectiveness of this algorithm based on big data.
+However, to the best of our knowledge, the practicability of this algorithm has not
+been verified in LUAD. Therefore, we investigated the utility of LUAD on stromal
+and/or immune scores in detail.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods:
+
+Gene expression quantification of transcriptome profiles from TCGA ( https://portal.gdc.cancer.gov/ ) was downloaded. Perl (version
+5.30.0) was employed to extract mRNA expression data from the downloaded data.
+The mRNA expression data of normal tissue samples and para-carcinoma tissue
+samples were deleted by using the limma package, and the ESTIMATE scores were
+calculated by using the estimate package in R (version 3.6.1).
+
+The clinical information of esophageal cancer was obtained from TCGA. Then, we
+used Perl to integrate ESTIMATE scores with data for survival, tumor stage, and
+tumor (topography) (T), lymph node (N), and metastasis (M) stage. Finally, the
+survival package in R was used for survival correlation analysis.
+
+The analysis of differentially expressed genes between the low- and high-score
+groups was executed based on the limma package, and the heat map was drawn in R.
+The cut-off criteria were set as follows: |log2fold change (logFC)|>1; P -value < 0.05; FDR (false discovery rate) <
+0.05.
+
+R was used to draw the Venn diagram of upregulated differentially expressed genes
+and the Venn diagram of downregulated differentially expressed genes of the
+immune cell score group and stromal cell score group. Then, GO (Gene Ontology)
+and KEGG (Kyoto Encyclopedia of Genes and Genomes) enrichment analyses were
+performed using the cluster Profiler R package. For both GO and KEGG, enrichment
+terms that met the cut-off criteria of P -value < 0.05 and
+Benjamin-Hochberg adjusted P -value < 0.05 were considered
+significant.
+
+The intersecting genes were preliminarily assessed by univariate Cox regression
+analyses. Then, the multivariate Cox proportional hazards regression model was
+used to ensure the prognostic model, and risk scores were obtained.
+Subsequently, clinicopathological factors and risk scores undergo the same
+analytical procedures. Receiver operating characteristic (ROC) curve and the
+area under the ROC curve (AUC) for each clinicopathological element and risk
+score to measure the prognostic value of LUAD, which was employed by the
+“survivalROC,” with statistical significance defined as a P -value less than 0.05. Genes related to the clinical
+characteristics of LUAD were obtained by integrating the intersection genes,
+clinical data, and risk score, with the P -value set to be less
+than 0.0001. All operations were implemented in R. The Gene Expression Profiling
+Interactive Analysis (GEPIA) database ( http://gepia.cancer-pku.cn/ ) was used to determine the
+relationship between these genes and overall survival (OS). Finally, the
+Kaplan-Meier (KM) plotter database ( http://kmplot.com/analysis/ ) was used to verify the results of
+the survival analysis of these genes.
+
+
+Data Download and ESTIMATE Scores
+
+Gene expression quantification of transcriptome profiles from TCGA ( https://portal.gdc.cancer.gov/ ) was downloaded. Perl (version
+5.30.0) was employed to extract mRNA expression data from the downloaded data.
+The mRNA expression data of normal tissue samples and para-carcinoma tissue
+samples were deleted by using the limma package, and the ESTIMATE scores were
+calculated by using the estimate package in R (version 3.6.1).
+
+
+ESTIMATE Scores and Clinical Relationship
+
+The clinical information of esophageal cancer was obtained from TCGA. Then, we
+used Perl to integrate ESTIMATE scores with data for survival, tumor stage, and
+tumor (topography) (T), lymph node (N), and metastasis (M) stage. Finally, the
+survival package in R was used for survival correlation analysis.
+
+
+Differential Gene Analysis Was Performed in the Stromal Cell Group and the
+Immune Cell Group
+
+The analysis of differentially expressed genes between the low- and high-score
+groups was executed based on the limma package, and the heat map was drawn in R.
+The cut-off criteria were set as follows: |log2fold change (logFC)|>1; P -value < 0.05; FDR (false discovery rate) <
+0.05.
+
+
+Functional Enrichment Analysis
+
+R was used to draw the Venn diagram of upregulated differentially expressed genes
+and the Venn diagram of downregulated differentially expressed genes of the
+immune cell score group and stromal cell score group. Then, GO (Gene Ontology)
+and KEGG (Kyoto Encyclopedia of Genes and Genomes) enrichment analyses were
+performed using the cluster Profiler R package. For both GO and KEGG, enrichment
+terms that met the cut-off criteria of P -value < 0.05 and
+Benjamin-Hochberg adjusted P -value < 0.05 were considered
+significant.
+
+
+Survival Analysis
+
+The intersecting genes were preliminarily assessed by univariate Cox regression
+analyses. Then, the multivariate Cox proportional hazards regression model was
+used to ensure the prognostic model, and risk scores were obtained.
+Subsequently, clinicopathological factors and risk scores undergo the same
+analytical procedures. Receiver operating characteristic (ROC) curve and the
+area under the ROC curve (AUC) for each clinicopathological element and risk
+score to measure the prognostic value of LUAD, which was employed by the
+“survivalROC,” with statistical significance defined as a P -value less than 0.05. Genes related to the clinical
+characteristics of LUAD were obtained by integrating the intersection genes,
+clinical data, and risk score, with the P -value set to be less
+than 0.0001. All operations were implemented in R. The Gene Expression Profiling
+Interactive Analysis (GEPIA) database ( http://gepia.cancer-pku.cn/ ) was used to determine the
+relationship between these genes and overall survival (OS). Finally, the
+Kaplan-Meier (KM) plotter database ( http://kmplot.com/analysis/ ) was used to verify the results of
+the survival analysis of these genes.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+We first extracted mRNA expression data from downloaded TCGA data, including 535
+tumor tissue samples, 59 normal tissue samples and adjacent tissue samples.
+Then, we calculated the ESTIMATE scores of tumor tissue samples, and the scores
+of 10 samples are shown in Table 1 . Among 535 LUAD samples, the immune scores and stromal
+scores ranged from −1,247.763 to 3,377.796 and −2,350.481 to 1,910.934,
+respectively.
+
+ESTIMATE Scores of Tumor Tissue.
+
+We used the above score data to integrate the survival data and found that there
+was no significant difference in survival time between the high and low stromal
+score groups ( Figure
+1A ). However, the immune score ( Figure 1B ) was related to survival time.
+Here, our integrated survival data are the OS. We also analyzed the relationship
+between score and other clinical data. For example, tumor stage (T, N, M) was
+based on pathological results ( Figure 2 ). This result suggested that the immune score was
+correlated with tumor stage (  Figure 2B ), specifically
+with the characteristics of the T ( Figure 2E ). There was a significant
+correlation between stromal score and tumor metastasis ( Figure 2J ). As the comprehensive score,
+the ESTIMATE score is a combination of the immune score and stromal score.
+
+(A) Stromal score, (B) immune score, (C) ESTIMATE score. There was
+significant difference in survival time between low immune score and
+high immune score groups. Similar results were found between the low
+ESTIMATE score and high ESTIMATE score groups.
+
+Relationship between tumor staging and (A) stromal, (B) immune, (C)
+ESTIMATE score. Relationship between T and (D) stromal, (E) immune, (F)
+ESTIMATE score. Relationship between N and (G) stromal, (H) immune, (I)
+ESTIMATE score. Relationship between M and (J) stromal, (K) immune, (L)
+ESTIMATE score.
+
+The limma package was used to analyze the differences in gene expression data
+between the low- and high-score groups. Compared to the low score group, the
+high score group had 683 upregulated genes and 120 downregulated genes; a heat
+map was drawn ( Figure 3 )
+based on the comparison of the stromal score results. Similarly, 611 upregulated
+genes and 164 downregulated genes were found in the low score group compared to
+the high score group, and a heat map was created ( Figure 4  ) .
+
+Heat map of DEGs related to stromal scores. Red represents genes with
+increased expression, green represents genes with decreased expression,
+and black represents genes with unchanged expression.
+
+Heat map of DEGs related to immune scores. Red represents genes with
+increased expression, green represents genes with decreased expression,
+and black represents genes with unchanged expression.
+
+The Venn algorithm was used to overlap the results, which revealed a total of 300
+common upregulated DEGs ( Figure
+5A ) and 67 common downregulated DEGs ( Figure 5B ). Then, functional enrichment
+analysis was performed in 367 intersecting genes. The top 10 GO terms of the BP,
+CC, and MF categories revealed that these intersecting genes were relevant to
+the regulation of leukocyte activation, side of membrane and carbohydrate
+binding ( Figure 6A and B ). KEGG analysis
+demonstrated that DEGs were particularly enriched in arachidonic acid
+metabolism, tyrosine metabolism and xenobiotics metabolism by cytochrome P450
+( Figure 6C and D ).
+
+(A) The intersection of immune score and stromal score up-regulated
+genes. (B) The intersection of immune score and stromal score
+down-regulated genes.
+
+(A) Barpolt of GO: BP, GO: CC, and GO: MF. (B) Dotplot of GO: BP, GO: CC,
+and GO: MF. (C) Barpolt of KEGG pathways. (D) Dotplot of KEGG pathways.
+Functional enrichment analysis was performed in 367 commonly intersect
+genes.
+
+Univariate analysis of each intersecting gene revealed that 125 genes may be
+associated with prognosis ( P < 0.05) ( Figure 7 ). Subsequently, these genes were
+subjected to a multivariate comprehensive analysis, and 54 genes were selected
+as prognostic models ( Table
+2 ). Through the joint analysis of risk score and survival data, we
+obtained a trend map of patients with low risk score and patients with high risk
+( Figure 8A ) and
+found that the number of patients who died gradually increased as the risk score
+increased ( Figure 8B );
+we also determined the relationship between the expression of 54 genes and risk
+value ( Figure 8C ). To
+identify the prognostic models in predicting the clinical outcome of LUAD
+patients, we analyzed the difference in survival time between the low- and
+high-risk groups by plotting the K-M plots, and we found that the low-risk group
+lived longer than the high-risk group ( P = 0, Figure 9A ). As an
+important feature of tumors, clinicopathological factors were further analyzed,
+and T stage (HR = 1.623, 95% CI = 1.310-2.011, P < 0.001), N
+stage (HR = 1.793, 95% CI = 1.465-2.194, P < 0.001), stage
+(HR = 1.645, 95% CI = 1.397-1.937, P < 0.001) and risk score
+(HR = 1.041, 95% CI = 1.029-1.054, P < 0.001) were
+identified as significant in the univariate analysis ( Figure 9B ). However, in the subsequent
+multivariate analysis, only stage (HR = 1.640, 95% CI = 1.019-2.642, P = 0.042) and risk score (HR = 1.036, 95% CI =
+1.026-1.046, P < 0.001) had a P value less
+than 0.05 ( Figure 9C ).
+To evaluate how well the prognostic effects of clinicopathological parameters on
+LUAD patients, we performed a time-dependent ROC curve analysis ( Figure 9D ). The AUC for
+the risk score was 0.845 and stage was 0.714. To clarify the relationship
+between the above 54 genes and clinicopathological characteristics, we performed
+a T test and set the P value to 0.0001. This result suggested
+that there were significant differences in the expression levels of 16 genes in
+different groups of T, N, stage and gender ( Figures 10  - 12 ). Finally, the GEPIA website was used
+to analyze the survival prognosis of these 16 genes, among which ARHGAP15
+( P = 0.00059, Figure 13A ), BTLA ( P =
+0.0076, Figure 13B ),
+CASS4 ( P = 0.0035, Figure 13C ), CD200R1 ( P = 0.00024, Figure 13D ),
+CLEC17A ( P = 0.00052, Figure 13E ), CR2 ( P =
+0.035, Figure 13F ),
+FAM129C ( P = 0.0076, Figure 13G ), CLECL1 ( P = 0.022, Figure 13H ),
+S100P ( P = 0.016, Figure 13I ), STAP1 ( P =
+0.00013, Figure 13J ),
+TESPA1 ( P = 0.00043, Figure 13K ), COL6A5 ( P = 0.098), GAPT ( P = 0.58), KIAA0226 L ( P =
+0.22), TNFRSF13B ( P = 0.073), ADH1B ( P =
+0.17).
+
+125 genes associated with prognosis, after Univariate analysis.
+
+(A) Patient risk score distribution diagram. (B)The relationship between
+patient risk score and survival status. (C) The heat maps of risk scores
+and gene expression levels for 54 genes.
+
+(A) Kaplan-Meier plot represents that patients in the low-risk group had
+significantly longer overall survival time than those in the high-risk
+group. (B) Univariate analysis of clinicopathological parameters and
+risk score. (C) Multivariate analysis of clinicopathological and risk
+score. (D) Time-dependent ROC curve analysis for survival prediction by
+the clinicopathological parameters and risk score.
+
+Differences in gene expression between different T groups. (A) ARHGAP15,
+(B) BTLA, (C) CD200R1, (D) CLEC17A, (E) CLECL1, (F) FAM129C, (G) CR2,
+(H) RUBCNL, (I) STAP1, (J) TESPA1, (K)TNFRSF13B.
+
+Differences in gene expression between different N groups. (A) ADH1B, (B)
+CD200R1, (C) COL6A5. Differences in gene expression between different
+stage groups. (D) ARHGAP15, (E) CASS4, (F) CD200R1, (G) CLECL1, (H)
+GAPT, (I) STAP1, (J) TESPA1, (K)TNFRSF13B.
+
+Differences in gene expression between different gender groups. (A)
+CLECL1, (B) CR2, (C) S100P, (D) STAP1, (E) TESPA1.
+
+The overall survival of patients with low expressed genes was
+significantly shorter than those with high expression. (A) ARHGAP15, (B)
+BTLA, (C) CASS4, (D) CD200R1, (E) CLEC17A, (F) CR2, (G) FAM129C, (H)
+CLECL1, (J) STAP1, (K) TESPA1. The overall survival of patients with
+high expressed hub genes was significantly shorter than those with low
+expression. (I) S100P.
+
+Prognostic Model Parameters.
+
+After verification through the Kaplan-Meier plotter database, it was suggested
+that ARHGAP15 ( P = 1E-08, Figure 14A ), BTLA ( P =
+0.00047, Figure 14B ),
+CASS4 ( P = 0.0021, Figure 14C ), CLECL1 ( P = 0.0015, Figure 14D ),
+FAM129C ( P = 0.0072, Figure 14E ), S100P ( P =
+0.0064, Figure 14F ),
+STAP1 ( P = 0.00024, Figure 14G ) and TESPA1
+( P = 0.00097, Figure 14H ) were significantly
+correlated with prognosis. CD200R1 ( P = 0.21) and CR2
+( P = 0.055) showed no association with survival. CLEC17A
+was not found in the database.
+
+Validation of prognostic gene. The low expression group of (A) ARHGAP15,
+(B) BTLA, (C) CASS4, (D) CLECL1, (E) FAM129C, (G) STAP1 and (H) TESPA1
+had a worse prognosis than the high expression group. The high
+expression group of (F) S100P had a worse prognosis than the low
+expression group.
+
+We performed multivariate Cox regression analysis of these 8 genes to obtain β
+( Table 3 ). The
+prognostic index = (0.488 * expression level of ARHGAP15) + (-0.202 * expression
+level of CLECL1) + (0.412 * expression level of TESPA1) + (-0.588 * expression
+level of CASS4) + (-0.411 * expression level of FAM129C) + (-0.844 * expression
+level of STAP1) + (0.189 * expression level of S100P) + (0.367 * expression
+level of BTLA). The LUAD patients were divided into low- and high-risk groups
+according to the median PI value (value = 1.036) of the prognostic risk score.
+There was a difference in survival time between the high-risk group and the
+low-risk group, and there was a certain accuracy in predicting the 3- and 5-year
+survival rates ( Figure
+15A-C ).
+
+Multivariate Cox Regression Analysis of These 8 Genes.
+
+ Note . β, regression coefficients; exp(coef), hazard
+ratio; se(coef), standard error; Z, β / se(coef).
+
+Kaplan–Meier and ROC curves for a linear risk model based on eight genes.
+(A) Log-rank test was used for the difference between high-risk group
+and low-risk group. (B)Time-dependent ROC curves analysis of eight genes
+for 3-year survival prediction. (C) Time-dependent ROC curves analysis
+for of eight genes 5-year survival prediction.
+
+
+Data Preprocessing and ESTIMATE Scores
+
+We first extracted mRNA expression data from downloaded TCGA data, including 535
+tumor tissue samples, 59 normal tissue samples and adjacent tissue samples.
+Then, we calculated the ESTIMATE scores of tumor tissue samples, and the scores
+of 10 samples are shown in Table 1 . Among 535 LUAD samples, the immune scores and stromal
+scores ranged from −1,247.763 to 3,377.796 and −2,350.481 to 1,910.934,
+respectively.
+
+ESTIMATE Scores of Tumor Tissue.
+
+
+ESTIMATE Scores and Clinical Relationship
+
+We used the above score data to integrate the survival data and found that there
+was no significant difference in survival time between the high and low stromal
+score groups ( Figure
+1A ). However, the immune score ( Figure 1B ) was related to survival time.
+Here, our integrated survival data are the OS. We also analyzed the relationship
+between score and other clinical data. For example, tumor stage (T, N, M) was
+based on pathological results ( Figure 2 ). This result suggested that the immune score was
+correlated with tumor stage (  Figure 2B ), specifically
+with the characteristics of the T ( Figure 2E ). There was a significant
+correlation between stromal score and tumor metastasis ( Figure 2J ). As the comprehensive score,
+the ESTIMATE score is a combination of the immune score and stromal score.
+
+(A) Stromal score, (B) immune score, (C) ESTIMATE score. There was
+significant difference in survival time between low immune score and
+high immune score groups. Similar results were found between the low
+ESTIMATE score and high ESTIMATE score groups.
+
+Relationship between tumor staging and (A) stromal, (B) immune, (C)
+ESTIMATE score. Relationship between T and (D) stromal, (E) immune, (F)
+ESTIMATE score. Relationship between N and (G) stromal, (H) immune, (I)
+ESTIMATE score. Relationship between M and (J) stromal, (K) immune, (L)
+ESTIMATE score.
+
+
+Differentially Expressed Genes in the Matrix and Immune Score of Esophageal
+Cancer
+
+The limma package was used to analyze the differences in gene expression data
+between the low- and high-score groups. Compared to the low score group, the
+high score group had 683 upregulated genes and 120 downregulated genes; a heat
+map was drawn ( Figure 3 )
+based on the comparison of the stromal score results. Similarly, 611 upregulated
+genes and 164 downregulated genes were found in the low score group compared to
+the high score group, and a heat map was created ( Figure 4  ) .
+
+Heat map of DEGs related to stromal scores. Red represents genes with
+increased expression, green represents genes with decreased expression,
+and black represents genes with unchanged expression.
+
+Heat map of DEGs related to immune scores. Red represents genes with
+increased expression, green represents genes with decreased expression,
+and black represents genes with unchanged expression.
+
+
+GO and KEGG Analyses
+
+The Venn algorithm was used to overlap the results, which revealed a total of 300
+common upregulated DEGs ( Figure
+5A ) and 67 common downregulated DEGs ( Figure 5B ). Then, functional enrichment
+analysis was performed in 367 intersecting genes. The top 10 GO terms of the BP,
+CC, and MF categories revealed that these intersecting genes were relevant to
+the regulation of leukocyte activation, side of membrane and carbohydrate
+binding ( Figure 6A and B ). KEGG analysis
+demonstrated that DEGs were particularly enriched in arachidonic acid
+metabolism, tyrosine metabolism and xenobiotics metabolism by cytochrome P450
+( Figure 6C and D ).
+
+(A) The intersection of immune score and stromal score up-regulated
+genes. (B) The intersection of immune score and stromal score
+down-regulated genes.
+
+(A) Barpolt of GO: BP, GO: CC, and GO: MF. (B) Dotplot of GO: BP, GO: CC,
+and GO: MF. (C) Barpolt of KEGG pathways. (D) Dotplot of KEGG pathways.
+Functional enrichment analysis was performed in 367 commonly intersect
+genes.
+
+
+Survival Analysis of Intersecting Genes
+
+Univariate analysis of each intersecting gene revealed that 125 genes may be
+associated with prognosis ( P < 0.05) ( Figure 7 ). Subsequently, these genes were
+subjected to a multivariate comprehensive analysis, and 54 genes were selected
+as prognostic models ( Table
+2 ). Through the joint analysis of risk score and survival data, we
+obtained a trend map of patients with low risk score and patients with high risk
+( Figure 8A ) and
+found that the number of patients who died gradually increased as the risk score
+increased ( Figure 8B );
+we also determined the relationship between the expression of 54 genes and risk
+value ( Figure 8C ). To
+identify the prognostic models in predicting the clinical outcome of LUAD
+patients, we analyzed the difference in survival time between the low- and
+high-risk groups by plotting the K-M plots, and we found that the low-risk group
+lived longer than the high-risk group ( P = 0, Figure 9A ). As an
+important feature of tumors, clinicopathological factors were further analyzed,
+and T stage (HR = 1.623, 95% CI = 1.310-2.011, P < 0.001), N
+stage (HR = 1.793, 95% CI = 1.465-2.194, P < 0.001), stage
+(HR = 1.645, 95% CI = 1.397-1.937, P < 0.001) and risk score
+(HR = 1.041, 95% CI = 1.029-1.054, P < 0.001) were
+identified as significant in the univariate analysis ( Figure 9B ). However, in the subsequent
+multivariate analysis, only stage (HR = 1.640, 95% CI = 1.019-2.642, P = 0.042) and risk score (HR = 1.036, 95% CI =
+1.026-1.046, P < 0.001) had a P value less
+than 0.05 ( Figure 9C ).
+To evaluate how well the prognostic effects of clinicopathological parameters on
+LUAD patients, we performed a time-dependent ROC curve analysis ( Figure 9D ). The AUC for
+the risk score was 0.845 and stage was 0.714. To clarify the relationship
+between the above 54 genes and clinicopathological characteristics, we performed
+a T test and set the P value to 0.0001. This result suggested
+that there were significant differences in the expression levels of 16 genes in
+different groups of T, N, stage and gender ( Figures 10  - 12 ). Finally, the GEPIA website was used
+to analyze the survival prognosis of these 16 genes, among which ARHGAP15
+( P = 0.00059, Figure 13A ), BTLA ( P =
+0.0076, Figure 13B ),
+CASS4 ( P = 0.0035, Figure 13C ), CD200R1 ( P = 0.00024, Figure 13D ),
+CLEC17A ( P = 0.00052, Figure 13E ), CR2 ( P =
+0.035, Figure 13F ),
+FAM129C ( P = 0.0076, Figure 13G ), CLECL1 ( P = 0.022, Figure 13H ),
+S100P ( P = 0.016, Figure 13I ), STAP1 ( P =
+0.00013, Figure 13J ),
+TESPA1 ( P = 0.00043, Figure 13K ), COL6A5 ( P = 0.098), GAPT ( P = 0.58), KIAA0226 L ( P =
+0.22), TNFRSF13B ( P = 0.073), ADH1B ( P =
+0.17).
+
+125 genes associated with prognosis, after Univariate analysis.
+
+(A) Patient risk score distribution diagram. (B)The relationship between
+patient risk score and survival status. (C) The heat maps of risk scores
+and gene expression levels for 54 genes.
+
+(A) Kaplan-Meier plot represents that patients in the low-risk group had
+significantly longer overall survival time than those in the high-risk
+group. (B) Univariate analysis of clinicopathological parameters and
+risk score. (C) Multivariate analysis of clinicopathological and risk
+score. (D) Time-dependent ROC curve analysis for survival prediction by
+the clinicopathological parameters and risk score.
+
+Differences in gene expression between different T groups. (A) ARHGAP15,
+(B) BTLA, (C) CD200R1, (D) CLEC17A, (E) CLECL1, (F) FAM129C, (G) CR2,
+(H) RUBCNL, (I) STAP1, (J) TESPA1, (K)TNFRSF13B.
+
+Differences in gene expression between different N groups. (A) ADH1B, (B)
+CD200R1, (C) COL6A5. Differences in gene expression between different
+stage groups. (D) ARHGAP15, (E) CASS4, (F) CD200R1, (G) CLECL1, (H)
+GAPT, (I) STAP1, (J) TESPA1, (K)TNFRSF13B.
+
+Differences in gene expression between different gender groups. (A)
+CLECL1, (B) CR2, (C) S100P, (D) STAP1, (E) TESPA1.
+
+The overall survival of patients with low expressed genes was
+significantly shorter than those with high expression. (A) ARHGAP15, (B)
+BTLA, (C) CASS4, (D) CD200R1, (E) CLEC17A, (F) CR2, (G) FAM129C, (H)
+CLECL1, (J) STAP1, (K) TESPA1. The overall survival of patients with
+high expressed hub genes was significantly shorter than those with low
+expression. (I) S100P.
+
+Prognostic Model Parameters.
+
+
+Validation of the Selected Genes
+
+After verification through the Kaplan-Meier plotter database, it was suggested
+that ARHGAP15 ( P = 1E-08, Figure 14A ), BTLA ( P =
+0.00047, Figure 14B ),
+CASS4 ( P = 0.0021, Figure 14C ), CLECL1 ( P = 0.0015, Figure 14D ),
+FAM129C ( P = 0.0072, Figure 14E ), S100P ( P =
+0.0064, Figure 14F ),
+STAP1 ( P = 0.00024, Figure 14G ) and TESPA1
+( P = 0.00097, Figure 14H ) were significantly
+correlated with prognosis. CD200R1 ( P = 0.21) and CR2
+( P = 0.055) showed no association with survival. CLEC17A
+was not found in the database.
+
+Validation of prognostic gene. The low expression group of (A) ARHGAP15,
+(B) BTLA, (C) CASS4, (D) CLECL1, (E) FAM129C, (G) STAP1 and (H) TESPA1
+had a worse prognosis than the high expression group. The high
+expression group of (F) S100P had a worse prognosis than the low
+expression group.
+
+
+Construction and Analysis of the Prognosis Risk Assessment Model of the 8
+Genes
+
+We performed multivariate Cox regression analysis of these 8 genes to obtain β
+( Table 3 ). The
+prognostic index = (0.488 * expression level of ARHGAP15) + (-0.202 * expression
+level of CLECL1) + (0.412 * expression level of TESPA1) + (-0.588 * expression
+level of CASS4) + (-0.411 * expression level of FAM129C) + (-0.844 * expression
+level of STAP1) + (0.189 * expression level of S100P) + (0.367 * expression
+level of BTLA). The LUAD patients were divided into low- and high-risk groups
+according to the median PI value (value = 1.036) of the prognostic risk score.
+There was a difference in survival time between the high-risk group and the
+low-risk group, and there was a certain accuracy in predicting the 3- and 5-year
+survival rates ( Figure
+15A-C ).
+
+Multivariate Cox Regression Analysis of These 8 Genes.
+
+ Note . β, regression coefficients; exp(coef), hazard
+ratio; se(coef), standard error; Z, β / se(coef).
+
+Kaplan–Meier and ROC curves for a linear risk model based on eight genes.
+(A) Log-rank test was used for the difference between high-risk group
+and low-risk group. (B)Time-dependent ROC curves analysis of eight genes
+for 3-year survival prediction. (C) Time-dependent ROC curves analysis
+for of eight genes 5-year survival prediction.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+With the continuous innovation and development of gene detection technology, the use
+of gene sequencing technology to assess tumor tissue samples has progressed, and
+researchers are constantly exploring new targets and using statistical algorithms to
+perform external validation in LUAD. However, most of the current studies have
+failed to effectively classify and analyze the cellular components of tumor tissues,
+which may have a crucial impact on the characteristics of tumor treatment response,
+especially in precision immunotherapy. 14 
+
+To gain insight into the invasion and progression of the tumor in patients with LUAD,
+we sought to explore the components of the TME and extract DEGs with important
+prognostic value. First, the relationship between stromal/immune scores and survival
+was analyzed, and it was found that there was a significant correlation. Then, we
+conducted further analysis of the relationship between pathological stage and score
+to determine the correlation between score and tumor progression. Here, we found
+that the immune score and tumor stage had obvious relevance; specifically, the
+immune score was associated with the characteristics of the tumor size, location,
+and degree of invasion of the surrounding organs in esophageal cancer, which are
+reflected in the T part of the TNM stage, and stromal scores were associated with
+tumor metastasis. Next, we extracted 367 intersecting genes that participate in the
+immune response and extracellular matrix through differential expression analysis of
+transcripts in 535 LUAD samples with high versus low immune/stromal scores. We
+carried out functional analysis of these genes using the R package. 15 Moreover, these 367 genes were subjected to univariate Cox regression
+analyses and multivariate Cox regression analyses to identify the prognostic model.
+Then, 54 genes were screened as a prognostic model, some of which, although their P value was greater than 0.05, were complementary to other
+genes. As the website for online analysis of TCGA data, GEPIA 16 was used to analyze the prognosis of selected genes. The primary purpose of
+the Kaplan-Meier plotter database is a meta-analysis-based discovery and validation
+of survival biomarkers. 17 Finally, 8 genes were identified as survival biomarkers after validation.
+This finding suggested that LUAD patients with downregulation of S100P had a better
+prognosis, while those with upregulation of ARHGAP15, BTLA, CASS4, CLECL1, FAM129C,
+STAP1 and TESPA1 had a better prognosis according to the Kaplan-Meier plotter database. 18 
+
+As a member of the RhoGAP family, Rho GTPase activating protein 15 (ARHGAP15) plays a
+role in various biological processes of tumors, such as cell proliferation and migration. 19 - 22 It has been found in lung cancer cells that the upregulation of ARHGAP15 can
+inhibit cell proliferation, migration and invasion by reducing the expression of
+vascular endothelial growth factor (VEGF), matrix metalloproteinase-2 (MMP2), MMP9,
+and the phosphorylation of signal transducer and activator of transcription-3 (p-STAT3). 23 B and T lymphocyte associated (BTLA) plays a crucial role in the transmission
+of immunosuppressive signals. 24 , 25 It has been found to increase the expression of CD4(+) and CD8(+) T cells in
+the pleural fluid of patients with lung cancer and can downregulate the expression
+of the T cell activation marker CD25 to inhibit the production of inflammatory cytokines. 26 In addition, a recent study found that high expression of BTLA was positively
+correlated with a high level of PD-L1, and it was also found that patients with
+negative BTLA expression had longer relapse-free survival (RFS) than those with
+positive BTLA expression; in addition, patients who had negative expression of both
+had longer RFS than patients with positive expression of both. 27 Cas scaffold protein family member 4 (CASS4) has been found to promote
+non-small cell lung cancer (NSCLC) invasion by inhibiting the expression of
+E-cadherin, which involves the activation of the AKT signaling pathway. 28 , 29 The expression of C-type lectin like 1 (CLECL1) can enhance the production of
+interleukin-4 and may be involved in the regulation of the immune response, 30 , 31 but the relationship between CLECL1 and solid tumors has not been clarified.
+Because of its relationship with immune regulation, CLECL1 is a potential prognostic
+biomarker in LUAD. FAM129C is also known as niban apoptosis regulator 3, and it has
+only been found to be associated with the progression of ovarian cancer. 32 Therefore, it can be used as a new target in the study of the mechanism of
+the occurrence and progression of LUAD, which is helpful for expanding the
+information available for this gene. The protein signal transducing adaptor family
+member 1 (STAP1) participates in a positive feedback loop by upregulating the
+activity of tyrosine protein kinase Tec, and variants of this gene are associated
+with elevated LDL cholesterol levels and an increased risk of coronary vascular disease. 33 - 36 There are some studies that show that it is related to the B-cell receptor, 37 but the gene has not been explored in LUAD. At present, we lack an
+understanding of the mechanism of thymocyte expressed, positive selection associated
+1 (TESPA1), in tumors, and only a few studies have suggested that it affects
+inositol 1,4,5-trisphosphate receptor-mediated Ca2+ signaling. 38 , 39 Therefore, subsequent experiments are needed to further explore the role of
+TESPA1 in the initiation and progression of LUAD. S100 calcium binding protein P
+(S100P) has been proven to be involved in the migration, invasion, and metastasis of
+lung cancer, and detection and targeting of this gene as a therapy is an attractive
+therapeutic strategy for lung cancer. 40 , 41 
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+In general, the ESTIMATE algorithm has important significance for TME research. The
+immune score and stromal score are of great value in the prognostic evaluation of
+LUAD patients. In the microenvironment of LUAD, genes that affect the distribution
+of stromal cells and immune cells were screened by constructing a prognostic model
+and were further verified to obtain reliable prognostic monitoring indicators. New
+insight into the mechanism of LUAD could be provided by further study of these genes
+with prognostic value.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, GO_categories - The Lung Adenocarcinoma
+Microenvironment Mining and Its Prognostic Merit
+File: GO_categories.xls
+Supplemental Material, ImmuneScore_genes - The Lung Adenocarcinoma
+Microenvironment Mining and Its Prognostic Merit
+File: ImmuneScore_genes.xls
+Supplemental Material, StromalScore_genes - The Lung Adenocarcinoma
+Microenvironment Mining and Its Prognostic Merit
+File: StromalScore_genes.xls
+Supplemental Material, Supp_Mat - The Lung Adenocarcinoma
+Microenvironment Mining and Its Prognostic Merit
+File: Supp_Mat.pdf

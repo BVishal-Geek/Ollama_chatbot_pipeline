@@ -1,0 +1,65 @@
+================================================================================
+ARTICLE TITLE: Genetic variants that associate with cirrhosis have pleiotropic effects on human traits
+PMCID: PMC7395656
+PMID: 31815349
+KEYWORDS: fibrosis, genetics, phenotype, snp
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background and Aims::
+Cirrhosis is characterized by extensive fibrosis of the liver and is a major cause of liver-related mortality. Cirrhosis is partially heritable but genetic contributions to cirrhosis have not been systemically explored. Here, we carry out association analyses with cirrhosis in two large biobanks and determine the effects of cirrhosis associated variants on multiple human disease/traits.
+
+Methods::
+We carried out a genome-wide association analysis of cirrhosis as a diagnosis in UK BioBank (UKBB; 1088 cases vs. 407 873 controls) and then tested top-associating loci for replication with cirrhosis in a hospital-based cohort from the Michigan Genomics Initiative (MGI; 875 cases of cirrhosis vs. 30 346 controls). For replicating variants or variants previously associated with cirrhosis that also affected cirrhosis in UKBB or MGI, we determined single nucleotide polymorphism effects on all other diagnoses in UKBB (PheWAS), common metabolic traits/diseases and serum/plasma metabolites.
+
+Results::
+Unbiased genome-wide association study identified variants in/near PNPLA3 and HFE , and candidate variant analysis identified variants in/near TM6SF2, MBOAT7, SERPINA1, HSD17B13, STAT4 and IFNL4 that reproducibly affected cirrhosis. Most affected liver enzyme concentrations and/or aspartate transaminase-to-platelet ratio index. PheWAS, metabolic trait and serum/plasma metabolite association analyses revealed effects of these variants on lipid, inflammatory and other processes including new effects on many human diseases and traits.
+
+Conclusions::
+We identified eight loci that reproducibly associate with population-based cirrhosis and define their diverse effects on human diseases and traits.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

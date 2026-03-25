@@ -1,0 +1,64 @@
+================================================================================
+ARTICLE TITLE: Precision medicine and its implementation in patients with NTRK fusion genes: perspective from developing countries
+PMCID: PMC7350048
+PMID: 32643553
+KEYWORDS: larotrectinib, ntrk, precision medicine, tropomyosin receptor kinase family
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Precision oncology is the field that places emphasis on the diagnosis and treatment of tumors that harbor specific genomic alterations susceptible to inhibition or modulation. Although most alterations are only present in a minority of patients, a substantial effect on survival can be observed in this subgroup. Mass genome sequencing has led to the identification of a specific driver in the translocations of the tropomyosin receptor kinase family (NTRK) in a subset of rare tumors both in children and in adults, and to the development and investigation of Larotrectinib. This medication was granted approval by the US Food and Drug Administration for NTRK-positive tumors, regardless of histology or age group, as such, larotrectinib was the first in its kind to be approved under the premise that molecular pattern is more important than histology in terms of therapeutic approach. It yielded significant results in disease control with good tolerability across a wide range of diseases including rare pediatric tumors, salivary gland tumors, gliomas, soft-tissue sarcomas, and thyroid carcinomas. In addition, and by taking different approaches in clinical trial design and conducting allocation based on biomarkers, the effects of target therapies can be isolated and quantified. Moreover, and considering developing nations and resource-limited settings, precision oncology could offer a tool to reduce cancer-related disability and hospital costs. In addition, developing nations also present patients with rare tumors that lack a chance of treatment, outside of clinical trials. This, in turn, offers the possibility for international collaboration, and contributes to employment, education, and health service provisions.
+ The reviews of this paper are available via the supplemental material section. 
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+The development of molecular biology techniques in the last few decades has created the possibility for clinicians and researches to tap into the potentials of the unknown. Leading to advancements in genetics, the possibility for examining and dissecting the building blocks of the cells and, in this particular case, a wider understanding of the fundamental structure and functioning of tumor cells is now possible. Whole exome, genome, and RNA sequencing combined with leaps forward in bioinformatics have contributed to the discovery of several molecular alterations that affect the growth and spread of tumors. 1 , 2 Two massive projects known as The Cancer Genome Atlas (TCGA) and the International Cancer Genome Consortium (ICGC) have accumulated information for all common cancers and rare tumors, suggesting that almost all driver genes have been discovered. 3 – 6 The limits of applicability of these discoveries reach beyond research. Although these efforts initially attempted merely to describe the tumor genomic landscape, the idea of modification and intervention over these said discoveries has gained much ground in recent years and has permeated into clinical practice, especially in clinical oncology. This new prospect in medical care is known as precision medicine, and is explored extensively in this review.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+Precision oncology has led to several changes in clinical trial designs, patient treatment, and improvement of outcomes. The approval of larotrectinib by the FDA for the treatment of NTREK gene fusion positive solid tumors regardless of pathology or age of presentation is the pinnacle representation of precision medicine and constituted a milestone in the advancement and transition. Not only does it constitute the first molecular-based drug approval, but also solidifies the importance of genomic classification of tumors and the necessity of expanding its use even to resource limited nations by offering results that would not be achieved otherwise, both in social and clinical aspects.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Author_Response – Supplemental material for Precision medicine and its implementation in patients with NTRK fusion genes: perspective from developing countries
+File: Author_Response.pdf
+Reviewer_1_v.1 – Supplemental material for Precision medicine and its implementation in patients with NTRK fusion genes: perspective from developing countries
+File: Reviewer_1_v.1.pdf
+Reviewer_2_v.1 – Supplemental material for Precision medicine and its implementation in patients with NTRK fusion genes: perspective from developing countries
+File: Reviewer_2_v.1.pdf

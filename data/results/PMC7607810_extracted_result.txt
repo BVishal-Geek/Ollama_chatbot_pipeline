@@ -1,0 +1,19 @@
+Source: PMC7607810_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Identification of CDC25C as a Potential Biomarker in Hepatocellular Carcinoma Using Bioinformatics Analysis",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical data of HCC patients were analyzed, including expression levels of CDC25C and clinicopathological parameters.",
+  "N_E": 1,
+  "N_E_reason": "The study mentions analyzing 371 HCC samples.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data was obtained from TCGA, specifically the TCGA-HCC database.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

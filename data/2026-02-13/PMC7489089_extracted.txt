@@ -1,0 +1,250 @@
+================================================================================
+ARTICLE TITLE: Automatic extraction of cancer registry reportable information from free-text pathology reports using multitask convolutional neural networks
+PMCID: PMC7489089
+PMID: 31710668
+KEYWORDS: deep learning, multitask learning, convolutional neural network, cancer pathology reports, natural language processing, information extraction
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective:
+We implement 2 different multitask learning (MTL) techniques, hard parameter sharing and cross-stitch, to train a word-level convolutional neural network (CNN) specifically designed for automatic extraction of cancer data from unstructured text in pathology reports. We show the importance of learning related information extraction (IE) tasks leveraging shared representations across the tasks to achieve state-of-the-art performance in classification accuracy and computational efficiency.
+
+Materials and Methods:
+Multitask CNN (MTCNN) attempts to tackle document information extraction by learning to extract multiple key cancer characteristics simultaneously. We trained our MTCNN to perform 5 information extraction tasks: (1) primary cancer site (65 classes), (2) laterality (4 classes), (3) behavior (3 classes), (4) histological type (63 classes), and (5) histological grade (5 classes). We evaluated the performance on a corpus of 95 231 pathology documents (71 223 unique tumors) obtained from the Louisiana Tumor Registry. We compared the performance of the MTCNN models against single-task CNN models and 2 traditional machine learning approaches, namely support vector machine (SVM) and random forest classifier (RFC).
+
+Results:
+MTCNNs offered superior performance across all 5 tasks in terms of classification accuracy as compared with the other machine learning models. Based on retrospective evaluation, the hard parameter sharing and cross-stitch MTCNN models correctly classified 59.04% and 57.93% of the pathology reports respectively across all 5 tasks. The baseline models achieved 53.68% (CNN), 46.37% (RFC), and 36.75% (SVM). Based on prospective evaluation, the percentages of correctly classified cases across the 5 tasks were 60.11% (hard parameter sharing), 58.13% (cross-stitch), 51.30% (single-task CNN), 42.07% (RFC), and 35.16% (SVM). Moreover, hard parameter sharing MTCNNs outperformed the other models in computational efficiency by using about the same number of trainable parameters as a single-task CNN.
+
+Conclusions:
+The hard parameter sharing MTCNN offers superior classification accuracy for automated coding support of pathology documents across a wide range of cancers and multiple information extraction tasks while maintaining similar training and inference time as those of a single task–specific model.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+INTRODUCTION
+
+Cancer registries provide reliable surveillance by collecting and assimilating regional data on histological cancer evidence and characteristics. Such critical information resides in pathology reports that not only are ungrammatical, fragmented, and marred with typos and abbreviations, but also exhibit linguistic variability across pathologists even when describing the same cancer characteristics [ 1–3 ]. Consequently, information extraction (IE) from unstructured text in pathology reports remains a heavily manual effort performed by human expert coders to ensure high quality of the extracted information. Cancer registries face challenges scaling the manual effort to handle the increasing volumes of clinical reports they need to process and the amount of information they need to capture per report [ 4 ]. They capture detailed information for more than 70 different cancer sites (ie, body organs where cancer develops) and more than 500 histological types (ie, different cell types) ( https://training.seer.cancer.gov/abstracting/ ) [ 5 ].
+
+Natural language processing (NLP) is a promising technology to semi-automate the IE process [ 6 , 7 ]. Liu et al [ 8 ] described in detail the broad difficulties and different sources of error when applying NLP systems for IE from cancer pathology reports. Existing NLP efforts have focused mostly on specific cancers (ie, colorectal, breast, prostate, lung) [ 9–13 ] and single clinical settings. In addition, these systems are primarily rule-based requiring intense domain expertise and continuously evolving task-specific dictionaries of medical phrases and terms. Manually developing rule-based clinical NLP systems for cancer registry use is unsustainable due to the prohibitively large number of rules that need to be carefully curated by domain experts. Scaling NLP systems for robust use across cancer registries demands an intelligent approach which can retrain, refresh, and continuously adapt to new IE tasks to ensure high accuracy.
+
+Recently, DL algorithms have demonstrated superior performance for document-level IE and classification utilizing word embeddings. They have been successfully applied for clinical NLP applications [ 14 ] showing superior performance. Where, DL has outperformed traditional machine learning (ML) approaches in terms of accuracy [ 15 ] by being able to capture both semantic and syntactic information in clinical text without having explicit knowledge of the clinical language. Although DL applications for NLP are quite extensive, their application on cancer pathology reports is fairly limited. Qiu et al [ 16 ] presented the first CNN for IE of primary cancer site topography from breast and lung cancer pathology reports using a relatively small text corpus. Using the same corpus, Gao et al [ 17 ] boosted performance using a hierarchical attention neural network for cancer site topography and histological grade classification. However, the authors noted the significant computational demands of the hierarchical attention neural network relative to the CNN making it an impractical choice for training with high volumes of cancer pathology reports.
+
+Existing DL models are designed to operate in a single-task mode, where models are mostly focused on extracting a single cancer characteristic at a time without considering other key characteristics that might be related and could improve model performance. Single-task learning not only ignores domain knowledge shared across related IE tasks, but also imposes additional workload because a different DL model must be developed for each task separately. Therefore, Multitask learning (MTL) has been proposed as an efficient technique to develop a more general and robust model across multiple related tasks [ 18 ]. MTL considers knowledge coming from multiple partially or fully related tasks to learn shared features and has been shown to often boost model performance across tasks [ 19 ]. To date, the only multitask DL for IE from cancer pathology reports efforts are the ones presented in [ 20 , 21 ]. Although results showed a statistically significant improvement over single-task DL models, these studies were limited to 2 cancer types, 2 to 3 IE tasks, and a small corpus of pathology reports.
+
+Collectively these studies shaped critical decisions made for moving forward with a multitask CNN (MTCNN) to combine the strengths of the previous efforts; namely lack of feature engineering, computational efficiency, and better performance via shared learning. In this article, 2 different MTCNN approaches (hard parameter sharing [HS] and cross-stitch [CS]) are implemented to extract 5 cancer key characteristics from cancer pathology reports—primary site, laterality, behavior, histological type, and histological grade. Each cancer characteristic constitutes a different learning task. We show the ability of our HS MTCNN model to train in approximately one-fifth the time it takes to develop 5 individual task-specific networks. This model can achieve the best clinical performance across all tasks. The proposed approach offers sublinear scaling with the number of IE tasks, thus offering a time-efficient way to develop scalable NLP systems for cancer registries. In particular, the HS MTCNN model is able to train in approximately one-fifth the time it takes to develop 5 individual task-specific networks. Owing to privacy protection constraints with actual pathology reports from the national cancer surveillance program, we have provided a synthetically derived dataset for public access with our source code ( https://github.com/ORNL-BSEC/MT-CNN ).
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+This study was executed in accordance to the institutional review board protocol DOE000152. We obtained a text corpus of cancer pathology reports from the Louisiana Tumor Registry. The corpus consists of unstructured text from 360 202 pathology reports covering cancer cases diagnosed in Louisiana from 2004 to 2017. Each pathology report is identified by a combination of patient ID and tumor ID, which is called case ID. All documents associated with metastatic tumors were excluded from the study (93 037 reports). From the remaining corpus, documents generated within 7 days between the date of diagnosis and either path specimen collection date or the surgery date were identified as relevant to the specific case ID. The 7-day window was based on an analysis of the pathology report submissions with the vast majority of reports and addenda included within that time frame. The remaining 166 476 pathology reports that were outside the 7-day window were excluded from the total corpus. Finally, another 5458 reports were found to be duplicates and they were also excluded. The final dataset consisted of 95 231 cancer pathology reports. As labels are provided at the tumor level, pathology reports with the same case ID are concatenated as one document. This results in a dataset of 71 223 concatenated documents, each corresponding to a unique primary cancer, and the DL model is considered a tumor-level abstractor. The flow chart of data preparation is illustrated in Figure 1 .
+
+Louisiana Tumor Registry (LA) data preparation flow chart.
+
+Detailed information for each cancer case was obtained from manually abstracted and consolidated records in the cancer registry. This information served as the ground truth. Various labels were associated with each unique case ID for the 5 data elements of interest in this study—primary cancer site, laterality, behavior, histological type (or histology), and histological grade (or grade). Primary cancer site is the body organ where the cancer was detected. Laterality in cancer describes which side of a paired organ is the origin of the primary cancer. Behavior describes the way a tumor acts within the body. Histological type describes the cell type found in cancer tissue. Histological grade is used to determine how quickly the cells are growing and spreading. Except for the cancer primary site, across all other data elements some classes were condensed as one class label called “other.” This process leads to a total of 65, 4, 3, 63, and 5 labels, respectively. The number of occurrences per label of all cancer characteristics are shown in Figure 2 . See Supplementary Appendix 1 for details regarding the data cleaning process, label descriptions, rules for condensing labels, and number of concatenated pathology reports per tumor. After text cleaning, we observe that the average number of words per document is 1290 tokens and the average number of sentences per documents is 117.
+
+The number of occurrences per label of all cancer characteristics.
+
+MTL has been proposed to tackle several related tasks jointly instead of focusing on each task in isolation [ 18 ]. In the context of the specific application, we adopted MTL to train a CNN-based model to extract simultaneously different data elements from cancer pathology reports. The word-level CNN model was previously applied for primary cancer site extraction from breast and lung cancer pathology reports [ 8 ]. In this study, we extend the single-task CNN and present 2 different MTL methods, HS and CS, to train a word-level CNN.
+
+HS is the most common method in multitask learning. It is considered the standard MTL method especially for closely related tasks [ 19 ]—the features required for each task reinforce each other, resulting in more universal features relevant to all tasks. This approach reduces the risk of overfitting the shared parameters by N times compared with overfitting the task specific parameters [ 22 ]. As shown in Figure 3 , the shared layers begin with a common word embeddings layer. The convolution layers in HS are shared across all tasks; as a result, the same set of features are used across all tasks. The concatenated max pooling outputs are followed by multiple task-specific classifiers. Each task has a separate softmax fully connected layer and its size is determined by the number of labels for each task. In this study, the sizes of softmax layers for cancer primary site, laterality, behavior, histological type, and histological grade are 65, 4, 3, 63, and 5, respectively. We treated the loss weight for all tasks equally as in a prior study [ 23 ].
+
+Architecture diagram of the hard parameter sharing multitask convolutional neural network model. Colors differentiate convolution layers, in which each set of filters uses a different filter size.
+
+CS approach is a type of MTL that has been shown to perform slightly better than HS in multitask image classification settings [ 24 ]. When some of the tasks are more distinct from the others, HS MTCNNs may be less effective in capturing a shared set of features that are equally applicable toward all tasks involved. CS networks attempt to address this limitation through the use of CS operations. In a CS network, each task has its own set of feature-extraction layers (eg, convolution layers), and each feature extraction layer may be followed by a CS operation. For each task, the CS operation outputs a linear combination of the features generated across all tasks ( equation 1 ). This allows the network to selectively choose which features to use for a given task based on the feature relevance to the task. In other words, tasks that are closely related will share their features more, while tasks that are less related will share their features less. (1) C S i = ∑ j n α i j x j
+
+In equation 1 , CS i is the output of the CS operation for task i , α ij is a scalar value learned through back-propagation that represents how much of the features from task j should be used for task i , and x j are the features learned in the previous layer(s) for task j .
+
+In our CS network implementation, each task has its own set of convolution filters, as shown in Figure 4 , followed by a CS operation. Each task then has its own individual max-pool, concatenation, and softmax layers. We train our MTCNN-CS on the same 5 tasks as the HS MTCNN. Similar to the original CS MTL article, we initialize α ij to 0.9 if i = j and to 0.025 otherwise.
+
+Architecture diagram of the cross-stitch multitask convolutional neural network model.
+
+In our experiments, we compare the performance of MTCNN approaches to single-task CNNs as well as traditional ML models. For the CNN-based models, including single-task and multitask approaches, word embeddings are used for data representation. These word embeddings are randomly initialized and learned through backpropagation. To optimize the hyperparameter of CNN models, we follow the sensitivity analysis method proposed by Zhang et al [ 25 ] for sentence classification CNNs, which was shown to be effective for information extraction from cancer pathology reports [ 8 ]. The method starts with the same CNN configuration presented by Kim [ 26 ]. Then, we specify the search space of the substantial hyperparameters to be explored. We use scikit – optimize library methods to find the best CNN hyperparameters. The optimization process produces a word vector representation of size 300. The window sizes l of the convolutional filters are 3, 4, and 5 with 300 feature maps each. Rectified linear unit is used as the activation function. A dropout rate of 50% is applied to the max pooling layer outputs. Last, to account for class imbalance, we weigh the error costs so that the weights are inversely proportional to the class prevalence in the dataset.
+
+We compare the DL methods against support vector machine (SVM) random forest classifier (RFC), 2 popular choices with clinical text classification. We use term frequency-inverse document frequency (TF-IDF) on unigrams, bigrams, and trigrams as input features for the these classifiers. We apply same hyper-parameter tuning for each of the traditional ML classifiers and for each classification task. Specifically, we use the gradient boosted trees optimization as in a prior work [ 9 ]. The final hyper-parameters used for the traditional ML classifiers are listed below Table 1 . The traditional ML classifiers are implemented in Python using the scikit – learn package, while DL models are implemented using Keras with TensorFlow backend package in Python.
+
+Retrospective evaluation performance (with 95% confidence interval) of classification models on each classification task
+
+Support vector machine hyper-parameters: (C = 4.0, kernel= linear). Random forest classifier hyperparameters: (num trees = 500, max features = 0.6).
+
+CNN: convolutional neural network.
+
+ a Best-performing classifier.
+
+ b Statistically significant difference between a multitask learning model and all baseline models.
+
+Our experimental design is composed of 2 experiments. The first experiment is a retrospective analysis using the pathology reports collected from year 2004 to 2015 for model development and hyper-parameter optimization. The data is split into balanced 2 folds of sizes 23 771 and 23 772 documents. For each fold, one portion is used for training and validation with a ratio of 80:20 and the other portion is used for testing. The model performance is evaluated on the combined predicted-actual results from each fold. The second experiment is to simulate real-world production environment by performing prospective evaluation, in which models are trained on cancer pathology reports collected before a specific path specimen collection date and tested on those collected after that date. Specifically, we train and validate the model on 59 427 pathology reports collected from 2004 to 2015, and hold out 11 796 pathology reports collected in 2016 and 2017 for test purposes. Model accuracy is evaluated on the validation set after each epoch. Training stops when there is no accuracy improvement for 10 consecutive epochs. The model’s architecture and weights are saved for the model with highest validation accuracy to be evaluated on the future test set.
+
+We evaluate the models using standard NLP metrics—micro- and macro-averaged precision, recall, and F score. As micro-averaged precision, recall, and F scores are equivalent for multiclass single-label tasks [ 27 , 28 ], we report only the macro-averaged recall and precision metrics. More details about the evaluation metrics are in Supplementary Appendix 2 . For all metrics, we calculate 95% confidence intervals by bootstrapping [ 29 ] from the test set. The confidence intervals are used to determine the statistical significance of the difference in performance between the baseline model and our proposed approach. See Supplementary Appendix 2 for details on how to derive confidence intervals using the bootstrap procedure.
+
+
+Dataset Description and Preprocessing
+
+This study was executed in accordance to the institutional review board protocol DOE000152. We obtained a text corpus of cancer pathology reports from the Louisiana Tumor Registry. The corpus consists of unstructured text from 360 202 pathology reports covering cancer cases diagnosed in Louisiana from 2004 to 2017. Each pathology report is identified by a combination of patient ID and tumor ID, which is called case ID. All documents associated with metastatic tumors were excluded from the study (93 037 reports). From the remaining corpus, documents generated within 7 days between the date of diagnosis and either path specimen collection date or the surgery date were identified as relevant to the specific case ID. The 7-day window was based on an analysis of the pathology report submissions with the vast majority of reports and addenda included within that time frame. The remaining 166 476 pathology reports that were outside the 7-day window were excluded from the total corpus. Finally, another 5458 reports were found to be duplicates and they were also excluded. The final dataset consisted of 95 231 cancer pathology reports. As labels are provided at the tumor level, pathology reports with the same case ID are concatenated as one document. This results in a dataset of 71 223 concatenated documents, each corresponding to a unique primary cancer, and the DL model is considered a tumor-level abstractor. The flow chart of data preparation is illustrated in Figure 1 .
+
+Louisiana Tumor Registry (LA) data preparation flow chart.
+
+Detailed information for each cancer case was obtained from manually abstracted and consolidated records in the cancer registry. This information served as the ground truth. Various labels were associated with each unique case ID for the 5 data elements of interest in this study—primary cancer site, laterality, behavior, histological type (or histology), and histological grade (or grade). Primary cancer site is the body organ where the cancer was detected. Laterality in cancer describes which side of a paired organ is the origin of the primary cancer. Behavior describes the way a tumor acts within the body. Histological type describes the cell type found in cancer tissue. Histological grade is used to determine how quickly the cells are growing and spreading. Except for the cancer primary site, across all other data elements some classes were condensed as one class label called “other.” This process leads to a total of 65, 4, 3, 63, and 5 labels, respectively. The number of occurrences per label of all cancer characteristics are shown in Figure 2 . See Supplementary Appendix 1 for details regarding the data cleaning process, label descriptions, rules for condensing labels, and number of concatenated pathology reports per tumor. After text cleaning, we observe that the average number of words per document is 1290 tokens and the average number of sentences per documents is 117.
+
+The number of occurrences per label of all cancer characteristics.
+
+
+Multitask CNN
+
+MTL has been proposed to tackle several related tasks jointly instead of focusing on each task in isolation [ 18 ]. In the context of the specific application, we adopted MTL to train a CNN-based model to extract simultaneously different data elements from cancer pathology reports. The word-level CNN model was previously applied for primary cancer site extraction from breast and lung cancer pathology reports [ 8 ]. In this study, we extend the single-task CNN and present 2 different MTL methods, HS and CS, to train a word-level CNN.
+
+HS is the most common method in multitask learning. It is considered the standard MTL method especially for closely related tasks [ 19 ]—the features required for each task reinforce each other, resulting in more universal features relevant to all tasks. This approach reduces the risk of overfitting the shared parameters by N times compared with overfitting the task specific parameters [ 22 ]. As shown in Figure 3 , the shared layers begin with a common word embeddings layer. The convolution layers in HS are shared across all tasks; as a result, the same set of features are used across all tasks. The concatenated max pooling outputs are followed by multiple task-specific classifiers. Each task has a separate softmax fully connected layer and its size is determined by the number of labels for each task. In this study, the sizes of softmax layers for cancer primary site, laterality, behavior, histological type, and histological grade are 65, 4, 3, 63, and 5, respectively. We treated the loss weight for all tasks equally as in a prior study [ 23 ].
+
+Architecture diagram of the hard parameter sharing multitask convolutional neural network model. Colors differentiate convolution layers, in which each set of filters uses a different filter size.
+
+CS approach is a type of MTL that has been shown to perform slightly better than HS in multitask image classification settings [ 24 ]. When some of the tasks are more distinct from the others, HS MTCNNs may be less effective in capturing a shared set of features that are equally applicable toward all tasks involved. CS networks attempt to address this limitation through the use of CS operations. In a CS network, each task has its own set of feature-extraction layers (eg, convolution layers), and each feature extraction layer may be followed by a CS operation. For each task, the CS operation outputs a linear combination of the features generated across all tasks ( equation 1 ). This allows the network to selectively choose which features to use for a given task based on the feature relevance to the task. In other words, tasks that are closely related will share their features more, while tasks that are less related will share their features less. (1) C S i = ∑ j n α i j x j
+
+In equation 1 , CS i is the output of the CS operation for task i , α ij is a scalar value learned through back-propagation that represents how much of the features from task j should be used for task i , and x j are the features learned in the previous layer(s) for task j .
+
+In our CS network implementation, each task has its own set of convolution filters, as shown in Figure 4 , followed by a CS operation. Each task then has its own individual max-pool, concatenation, and softmax layers. We train our MTCNN-CS on the same 5 tasks as the HS MTCNN. Similar to the original CS MTL article, we initialize α ij to 0.9 if i = j and to 0.025 otherwise.
+
+Architecture diagram of the cross-stitch multitask convolutional neural network model.
+
+
+Hard Parameter Sharing MTCNN
+
+HS is the most common method in multitask learning. It is considered the standard MTL method especially for closely related tasks [ 19 ]—the features required for each task reinforce each other, resulting in more universal features relevant to all tasks. This approach reduces the risk of overfitting the shared parameters by N times compared with overfitting the task specific parameters [ 22 ]. As shown in Figure 3 , the shared layers begin with a common word embeddings layer. The convolution layers in HS are shared across all tasks; as a result, the same set of features are used across all tasks. The concatenated max pooling outputs are followed by multiple task-specific classifiers. Each task has a separate softmax fully connected layer and its size is determined by the number of labels for each task. In this study, the sizes of softmax layers for cancer primary site, laterality, behavior, histological type, and histological grade are 65, 4, 3, 63, and 5, respectively. We treated the loss weight for all tasks equally as in a prior study [ 23 ].
+
+Architecture diagram of the hard parameter sharing multitask convolutional neural network model. Colors differentiate convolution layers, in which each set of filters uses a different filter size.
+
+
+Cross-Stitch MTCNN
+
+CS approach is a type of MTL that has been shown to perform slightly better than HS in multitask image classification settings [ 24 ]. When some of the tasks are more distinct from the others, HS MTCNNs may be less effective in capturing a shared set of features that are equally applicable toward all tasks involved. CS networks attempt to address this limitation through the use of CS operations. In a CS network, each task has its own set of feature-extraction layers (eg, convolution layers), and each feature extraction layer may be followed by a CS operation. For each task, the CS operation outputs a linear combination of the features generated across all tasks ( equation 1 ). This allows the network to selectively choose which features to use for a given task based on the feature relevance to the task. In other words, tasks that are closely related will share their features more, while tasks that are less related will share their features less. (1) C S i = ∑ j n α i j x j
+
+In equation 1 , CS i is the output of the CS operation for task i , α ij is a scalar value learned through back-propagation that represents how much of the features from task j should be used for task i , and x j are the features learned in the previous layer(s) for task j .
+
+In our CS network implementation, each task has its own set of convolution filters, as shown in Figure 4 , followed by a CS operation. Each task then has its own individual max-pool, concatenation, and softmax layers. We train our MTCNN-CS on the same 5 tasks as the HS MTCNN. Similar to the original CS MTL article, we initialize α ij to 0.9 if i = j and to 0.025 otherwise.
+
+Architecture diagram of the cross-stitch multitask convolutional neural network model.
+
+
+Baseline Models and Hyperparameter Optimization
+
+In our experiments, we compare the performance of MTCNN approaches to single-task CNNs as well as traditional ML models. For the CNN-based models, including single-task and multitask approaches, word embeddings are used for data representation. These word embeddings are randomly initialized and learned through backpropagation. To optimize the hyperparameter of CNN models, we follow the sensitivity analysis method proposed by Zhang et al [ 25 ] for sentence classification CNNs, which was shown to be effective for information extraction from cancer pathology reports [ 8 ]. The method starts with the same CNN configuration presented by Kim [ 26 ]. Then, we specify the search space of the substantial hyperparameters to be explored. We use scikit – optimize library methods to find the best CNN hyperparameters. The optimization process produces a word vector representation of size 300. The window sizes l of the convolutional filters are 3, 4, and 5 with 300 feature maps each. Rectified linear unit is used as the activation function. A dropout rate of 50% is applied to the max pooling layer outputs. Last, to account for class imbalance, we weigh the error costs so that the weights are inversely proportional to the class prevalence in the dataset.
+
+We compare the DL methods against support vector machine (SVM) random forest classifier (RFC), 2 popular choices with clinical text classification. We use term frequency-inverse document frequency (TF-IDF) on unigrams, bigrams, and trigrams as input features for the these classifiers. We apply same hyper-parameter tuning for each of the traditional ML classifiers and for each classification task. Specifically, we use the gradient boosted trees optimization as in a prior work [ 9 ]. The final hyper-parameters used for the traditional ML classifiers are listed below Table 1 . The traditional ML classifiers are implemented in Python using the scikit – learn package, while DL models are implemented using Keras with TensorFlow backend package in Python.
+
+Retrospective evaluation performance (with 95% confidence interval) of classification models on each classification task
+
+Support vector machine hyper-parameters: (C = 4.0, kernel= linear). Random forest classifier hyperparameters: (num trees = 500, max features = 0.6).
+
+CNN: convolutional neural network.
+
+ a Best-performing classifier.
+
+ b Statistically significant difference between a multitask learning model and all baseline models.
+
+
+Experimental Design and Performance Evaluation
+
+Our experimental design is composed of 2 experiments. The first experiment is a retrospective analysis using the pathology reports collected from year 2004 to 2015 for model development and hyper-parameter optimization. The data is split into balanced 2 folds of sizes 23 771 and 23 772 documents. For each fold, one portion is used for training and validation with a ratio of 80:20 and the other portion is used for testing. The model performance is evaluated on the combined predicted-actual results from each fold. The second experiment is to simulate real-world production environment by performing prospective evaluation, in which models are trained on cancer pathology reports collected before a specific path specimen collection date and tested on those collected after that date. Specifically, we train and validate the model on 59 427 pathology reports collected from 2004 to 2015, and hold out 11 796 pathology reports collected in 2016 and 2017 for test purposes. Model accuracy is evaluated on the validation set after each epoch. Training stops when there is no accuracy improvement for 10 consecutive epochs. The model’s architecture and weights are saved for the model with highest validation accuracy to be evaluated on the future test set.
+
+We evaluate the models using standard NLP metrics—micro- and macro-averaged precision, recall, and F score. As micro-averaged precision, recall, and F scores are equivalent for multiclass single-label tasks [ 27 , 28 ], we report only the macro-averaged recall and precision metrics. More details about the evaluation metrics are in Supplementary Appendix 2 . For all metrics, we calculate 95% confidence intervals by bootstrapping [ 29 ] from the test set. The confidence intervals are used to determine the statistical significance of the difference in performance between the baseline model and our proposed approach. See Supplementary Appendix 2 for details on how to derive confidence intervals using the bootstrap procedure.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+This section presents the retrospective and prospective evaluation results. More experimental results are available in our Supplementary Appendices 3-5 to study the model confidence, the effect of class imbalance, and the impact of using different number of tasks to train a model, respectively.
+
+Given a cancer pathology report, our MTCNN models simultaneously predict 5 tumor characteristics: primary cancer site, laterality, behavior, histological type, and histological grade. In contrast, single-task CNN and traditional ML models are trained to predict 1 task at a time. Therefore, 5 separate models must be developed, 1 per task. Table 1 shows the classification performance for the 2-fold cross validation experiment across all 5 tasks. The table compares the MTCNNs with the single-task CNN and traditional classifiers in terms of micro and macro F scores, precision, and recall. The results show that DL classifiers consistently and significantly outperformed traditional ML classifiers across all 5 tasks. Comparing the best MTCNN classifier with the baseline single-task CNN, we can summarize the performance improvement as follows: Cancer primary site: CS MTCNN outperformed CNN across all metrics, with a micro F score of 0.944 and a macro F score of 0.592. This is a 3.2% and 20.6% improvement for micro and macro F scores respectively. Laterality: HS MTCNN achieved a micro F score of 0.933 and a macro F score of 0.822. These scores represent an improvement of 1.3% and 8.4% for micro and macro F scores respectively over the CNN. Behavior: HS MTCNN outperformed CNN with a micro F score of 0.975 and the macro F score of 0.952. This is an 1.8% and 4.5% improvement for micro and macro F scores, respectively. Histological type: HS MTCNN achieved a micro F score of 0.811 and a macro F score of 0.656. This is an improvement of 4.5% and 21.5% for micro and macro F scores, respectively, over the CNN. Histological grade: HS MTCNN achieved a micro F score of 0.802 and a macro F score of 0.766. These scores represent marginal improvement for micro F, but statistically significant 1.6% for macro F score over the CNN.
+
+Cancer primary site: CS MTCNN outperformed CNN across all metrics, with a micro F score of 0.944 and a macro F score of 0.592. This is a 3.2% and 20.6% improvement for micro and macro F scores respectively.
+
+Laterality: HS MTCNN achieved a micro F score of 0.933 and a macro F score of 0.822. These scores represent an improvement of 1.3% and 8.4% for micro and macro F scores respectively over the CNN.
+
+Behavior: HS MTCNN outperformed CNN with a micro F score of 0.975 and the macro F score of 0.952. This is an 1.8% and 4.5% improvement for micro and macro F scores, respectively.
+
+Histological type: HS MTCNN achieved a micro F score of 0.811 and a macro F score of 0.656. This is an improvement of 4.5% and 21.5% for micro and macro F scores, respectively, over the CNN.
+
+Histological grade: HS MTCNN achieved a micro F score of 0.802 and a macro F score of 0.766. These scores represent marginal improvement for micro F, but statistically significant 1.6% for macro F score over the CNN.
+
+The results, illustrated in Figure 5 , show that DL models once again outperform the traditional ML models on both the micro and macro F scores across all 5 tasks. The best MTCNN classifier shows marginal improvement on the micro F score as compared with the baseline single-task CNN for classifying cancer primary site, laterality, and histological type. However, it outperforms the baseline CNN for the behavior and histological grade tasks, with micro F scores of 0.981 and 0.814, which is an improvement of 3.9% and 9.9%, respectively. Furthermore, Figure 5 clearly shows that MTCNNs outperform the single-task CNN on macro F score across all 5 tasks. The HS MTCNN achieves 0.551, 0.819, 0.963, 0.687, and 0.791 macro F scores, which is an improvement of 8.5%, 4.9%, 19.9%, 6.7%, and 18.8% over the baseline CNN for cancer primary site, laterality, behavior, histological type, and histological grade, respectively.
+
+Prospective evaluation micro- and macro-averaged F scores comparing the multitask convolutional neural network (MTCNN) models and the baseline models. CS: cross-stitch; HS: hard parameter sharing; RFC: random forest classifier; SVM: support vector machine.
+
+
+Retrospective Evaluation (2-Fold Cross-Validation)
+
+Given a cancer pathology report, our MTCNN models simultaneously predict 5 tumor characteristics: primary cancer site, laterality, behavior, histological type, and histological grade. In contrast, single-task CNN and traditional ML models are trained to predict 1 task at a time. Therefore, 5 separate models must be developed, 1 per task. Table 1 shows the classification performance for the 2-fold cross validation experiment across all 5 tasks. The table compares the MTCNNs with the single-task CNN and traditional classifiers in terms of micro and macro F scores, precision, and recall. The results show that DL classifiers consistently and significantly outperformed traditional ML classifiers across all 5 tasks. Comparing the best MTCNN classifier with the baseline single-task CNN, we can summarize the performance improvement as follows: Cancer primary site: CS MTCNN outperformed CNN across all metrics, with a micro F score of 0.944 and a macro F score of 0.592. This is a 3.2% and 20.6% improvement for micro and macro F scores respectively. Laterality: HS MTCNN achieved a micro F score of 0.933 and a macro F score of 0.822. These scores represent an improvement of 1.3% and 8.4% for micro and macro F scores respectively over the CNN. Behavior: HS MTCNN outperformed CNN with a micro F score of 0.975 and the macro F score of 0.952. This is an 1.8% and 4.5% improvement for micro and macro F scores, respectively. Histological type: HS MTCNN achieved a micro F score of 0.811 and a macro F score of 0.656. This is an improvement of 4.5% and 21.5% for micro and macro F scores, respectively, over the CNN. Histological grade: HS MTCNN achieved a micro F score of 0.802 and a macro F score of 0.766. These scores represent marginal improvement for micro F, but statistically significant 1.6% for macro F score over the CNN.
+
+Cancer primary site: CS MTCNN outperformed CNN across all metrics, with a micro F score of 0.944 and a macro F score of 0.592. This is a 3.2% and 20.6% improvement for micro and macro F scores respectively.
+
+Laterality: HS MTCNN achieved a micro F score of 0.933 and a macro F score of 0.822. These scores represent an improvement of 1.3% and 8.4% for micro and macro F scores respectively over the CNN.
+
+Behavior: HS MTCNN outperformed CNN with a micro F score of 0.975 and the macro F score of 0.952. This is an 1.8% and 4.5% improvement for micro and macro F scores, respectively.
+
+Histological type: HS MTCNN achieved a micro F score of 0.811 and a macro F score of 0.656. This is an improvement of 4.5% and 21.5% for micro and macro F scores, respectively, over the CNN.
+
+Histological grade: HS MTCNN achieved a micro F score of 0.802 and a macro F score of 0.766. These scores represent marginal improvement for micro F, but statistically significant 1.6% for macro F score over the CNN.
+
+
+Prospective Evaluation (Holdout Validation)
+
+The results, illustrated in Figure 5 , show that DL models once again outperform the traditional ML models on both the micro and macro F scores across all 5 tasks. The best MTCNN classifier shows marginal improvement on the micro F score as compared with the baseline single-task CNN for classifying cancer primary site, laterality, and histological type. However, it outperforms the baseline CNN for the behavior and histological grade tasks, with micro F scores of 0.981 and 0.814, which is an improvement of 3.9% and 9.9%, respectively. Furthermore, Figure 5 clearly shows that MTCNNs outperform the single-task CNN on macro F score across all 5 tasks. The HS MTCNN achieves 0.551, 0.819, 0.963, 0.687, and 0.791 macro F scores, which is an improvement of 8.5%, 4.9%, 19.9%, 6.7%, and 18.8% over the baseline CNN for cancer primary site, laterality, behavior, histological type, and histological grade, respectively.
+
+Prospective evaluation micro- and macro-averaged F scores comparing the multitask convolutional neural network (MTCNN) models and the baseline models. CS: cross-stitch; HS: hard parameter sharing; RFC: random forest classifier; SVM: support vector machine.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Our results build a strong case for the effectiveness and robustness of DL approaches over traditional vector space approaches like TF-IDF for clinical NLP. Their advantage could be attributed to their ability to encode words with similar semantic meaning into similar embedding representations. This feature is generally lacking in TF-IDF based models. Although our study was based on randomly initialized word embeddings due to our positive experience from a previous work [ 8 ], a comprehensive analysis study is currently under way to evaluate randomly initialized vs pretrained embeddings based on state-of-the-art word embedding training models and diverse text corpora.
+
+ Figure 6 shows that MTCNNs achieve a higher accuracy across all tasks in both retrospective and prospective evaluations as compared with the single-task CNNs. Comparing separate task metrics, we observe that the HS MTCNN and CS MTCNN had similar overall performance, with CS slightly outperforming on the site task and HS slightly outperforming in the histological type and histological grade tasks. Misra et al [ 24 ] found CS with a deep CNN network for computer vision tasks to consistently outperform HS. Our different conclusion may be attributed to 2 major use case differences. First, the amount of information sharing in our CS network is not significantly greater than in the HS network because word-level CNN network with a single convolution layer uses only 1 CS operation. Second, the original CS implementation was used for image segmentation and image classification—these 2 tasks are highly related because segmented image shapes strongly correlate with image class. In our case, the relationships among the 5 clinical classification tasks are not straightforward.
+
+Comparing the multitask convolutional neural network (MTCNN) models and the baseline models in terms of number of correctly classified tasks for each document: (A) retrospective evaluation (B) prospective evaluation. CS: cross-stitch; HS: hard parameter sharing; RFC: random forest classifier; SVM: support vector machine.
+
+Our HS MTCNN uses approximately the same number of trainable parameters as a single-task CNN. In practice, this means that we can train a multitask network to do inference on all 5 tasks in approximately one-fifth the time it takes to train 5 individual task-specific networks while gaining in classification accuracy. Table 2 summarizes the number of trainable parameters and the time needed for each DL model to converge on a single NVIDIA Tesla P100 GPU (NVIDIA, Santa Clara, California). The train time improvements can be interpreted as a result of increased parallelism with finer computational granularity when training multiple tasks with a single training batch. Unlike the HS MTCNN, the CS MTCNN takes significantly longer to converge than the single-task CNNs do. As the CS MTCNN utilizes 5 parallel CNN architectures linked together by CS operations, the number of trainable parameters in the CS MTCNN is about 5 times that of a single-task CNN, after factoring out the trainable parameters from the shared word embeddings. Owing to the similar performance of the HS and CS MTCNNs on our tasks, we expect that HS CNNs may be more practical for time-sensitive applications.
+
+Summary of training time and number of trainable parameters for deep CNN–based models.
+
+For each model, 9 216 000 parameters are associated with the word embeddings.
+
+CNN: convolutional neural network.
+
+From the series of experiments in the Supplementary Appendix , the results of the class imbalance study highlight the advantage of multitask DL to boost the classification performance on the low prevalent classes by leveraging important features captured from related information extraction tasks. Also, our 2-task experiment results in Supplementary Appendix Figure S10 show that adding more learning tasks boosts mostly classification accuracy on minority classes. In addition, even if there is no additional benefit from pairwise task training, there is no negative impact on the overall performance, with 5-task MTCNNs consistently outperforming 2-task MTCNNs. Furthermore, HS MTCNNs appeared to provide more confident predictions, achieving high positive predictive value while rejecting fewer cases due to low confidence compared with the CS model.
+
+There are 2 main limitations in our study. First, CNN-based architectures can only capture linguistic relationships within a fixed window size of words—in our case, 5 words. However, certain tasks may benefit from learning linguistic relationships across longer distances. In future work, deeper CNN approaches that have a wider receptive field or recurrent neural network–based approaches such as the hierarchical attention network [ 9 ] may mitigate this issue. Second, our current MTCNN models do not consider the correlations between these tasks (eg, some histological type codes are not possible for some cancer sites). In future work, we will pursue constraint optimization with MTCNNs to eliminate the potential negative impact from predicting “unallowable” label combinations.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+Here, we present an approach to train generalized multitask learning CNN models for automated extraction of key cancer characteristics from unstructured pathology reports. The series of experiments presented in this article and in the supplementary information demonstrate that MTCNN approaches consistently outperform single-task CNNs and traditional ML classifiers. Owing to its computational efficiency while achieving similar accuracy, HS MTCNN offers a competitive advantage over CS MTCNN for large-scale application across population cancer registries.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+
+ocz153_Supplementary_Data
+File: ocz153_supplementary_data.pdf
+
+Supplementary Material
+Click here for additional data file.

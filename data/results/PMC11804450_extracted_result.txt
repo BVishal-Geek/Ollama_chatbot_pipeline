@@ -1,0 +1,19 @@
+Source: PMC11804450_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Unique molecular features and clinical outcomes in young patients with non-small cell lung cancer harboring ALK fusion genes",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical data including age, gender, and smoking status were collected for the 52 young patients with ALK fusions.",
+  "N_E": 1,
+  "N_E_reason": "The study identified 52 young patients diagnosed with ALK fusions.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Patients received crizotinib treatment as the first-line therapy.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "Progression-free survival (PFS) was measured for patients receiving crizotinib.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

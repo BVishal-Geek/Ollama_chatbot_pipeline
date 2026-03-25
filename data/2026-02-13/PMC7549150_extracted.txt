@@ -1,0 +1,646 @@
+================================================================================
+ARTICLE TITLE: High SENP3 Expression Promotes Cell Migration, Invasion, and
+Proliferation by Modulating DNA Methylation of E-Cadherin in
+Osteosarcoma
+PMCID: PMC7549150
+PMID: 33030103
+KEYWORDS: osteosarcoma, senp3, cancer metastasis, dna methylation, e-cadherin
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+SENP3, a sentrin/SUMO2/3-specific protease, is recognized as a transcriptional
+factor that accumulates under cellular oxidative stress and plays a significant
+role in the removal of SUMO2/3 modification. In our study, we examined a TCGA
+dataset and found that the transcripts per million (TPM) value of SENP3 is high
+in sarcoma, including osteosarcoma (OS). We found that SENP3 was highly
+expressed in OS cancer tissues when compared with osteofibrous dysplasia
+tissues. The survival data of SENP3 in TCGA showed that the sarcoma patients
+with higher SENP3 expression levels showed poor prognosis. In vitro, SENP3
+knockdown in OS cancer cells inhibited cell proliferation, migration, and
+invasion and induced apoptosis. In contrast, SENP3 overexpression reversed these
+effects. Next, we found that SENP3 inhibited the expression of E-cadherin
+(E-Cad) by increasing methylation of the E-Cad promoter. Finally, E-Cad
+expression was increased in the OS cell line MG63 following methylation, and the
+cell proliferation, migration, and invasion capacity were decreased. In summary,
+SENP3 played a significant role in OS carcinogenesis and may act as a potential
+biomarker in the diagnosis and treatment of OS.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Osteosarcoma is known as the most common aggressive and malignant tumor from bone,
+with a peak in incidence during childhood and adolescence. 1 The incidence of osteosarcoma is estimated at 5 per million people. 2 Osteosarcoma accounted for approximately 5% of childhood cancers and also
+almost 8.9% of childhood cancer-related deaths. 3 The high aggressiveness of OS leads to cancer spread within the diaphysis;
+migration to soft tissues, nerves, and vessels; and tumor metastasis in the lung,
+indicating the poor prognosis of OS. 4 Despite the development of complex technology for treatment in recent
+decades, early diagnoses and molecule-targeted strategies against metastatic OS have
+not achieved remarkable progress. 5 The clinical outcomes and prognosis of OS have not noticeably improved, and
+the 5-year survival of OS patients is less than 50%. 6 The slow development of diagnostic and targeted therapy strategies is mainly
+due to the limited understanding of the biology underpinning the high malignancy of OS. 7 
+
+Epithelial-mesenchymal transition (EMT) of cancer cells plays a significant role in
+cancer metastasis. 8 , 9 Cadherins exert functions at intercellular level, mainly communicating by
+cell connections through calcium ion-dependent binding. Instead, at an intracellular
+level, cadherins bind to catenin molecules establishing links with the cytoskeleton. 10 The remarkable increase in N-cadherin and decrease in E-cadherin (E-Cad) is
+the major biological feature of EMT, resulting in stroma-oriented adhesion and
+conversion of epithelial cells to a mesenchymal phenotype. 11 , 12 Accumulated evidence has shown that many signaling pathways are involved in
+accelerating the EMT of OS cells and are essential to OS development and
+pathological processes. Cadherins is the emerging targets appeared with reference to
+the OS microenvironment and critical proteins in OS regulation circuits. 13 The transforming growth factor-β (TGF-β) signaling pathway can significantly
+promote invasion and metastasis by inducing EMT in OS cells. 14 , 15 The Wnt-β-catenin pathway plays an oncogenic role in OS by increasing the
+expression of key molecules of EMT, such as N-cadherin and vimentin. 16 , 17 In addition, the dysregulated expression of the non-coding RNAs involved in
+regulating EMT progression plays a crucial role in human EMT-induced carcinogenesis. 18 , 19 
+
+SENP3 is a sentrin/SUMO2/3-specific protease and a critical redox-sensitive molecule
+that participates in the removal of SUMO2/3 modification. Recent studies have shown
+that SENP3 can serve as a core regulator of proliferation, tumorigenesis,
+angiogenesis, and EMT in cancer cells. 20 - 22 However, the involvement and function of SENP3 in OS carcinogenesis
+progression and its clinical and prognostic value in OS are unclear. Here, we tested
+SENP3 expression in OS tissues and examined its function and molecular mechanism in
+OS cell lines. Our results lend novel insights into the regulation of SENP3, which
+has key roles in OS progression and may aid in identifying new biomarkers or
+targeted therapies for OS.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The human OS cell line MG63 was purchased from the Cancer Research Institute
+(Central South University, Hunan, China) and cultured in RPMI 1640 supplemented
+with 10% fetal bovine serum (FBS, Gibco, Carlsbad, CA, USA) and 1% penicillin
+under a humidified atmosphere of 5% CO2 at 37°C. Human OS tissues, osteofibrous
+dysplasia (OFD) tissues and 40 OS Paraffin section were collected from patients
+who underwent surgical operation and were pathologically diagnosed at the Third
+Xiangya Hospital of Central South University from January 2017 to December 2018.
+All patients provided informed consent before undergoing surgical biopsy. All
+experiments were approved by the Ethics Committee of the Third Xiangya Hospital
+of Central South University.
+
+Tissue RNA was extracted from cells using TRIzol reagent (Invitrogen, Carlsbad,
+CA, USA). For qRT-PCR, RNA from the samples was reverse transcribed using a
+PrimeScript RT Reagent Kit (Takara, Dalian, China). For Twist and E-Cad
+expression, qRT-PCR was performed using a SYBR Premix Ex Taq II Kit (Takara,
+Dalian, China) with the CFX96 Real-Time PCR Detection System (Bio-Rad, Hercules,
+CA, USA). PCR amplification was performed in triplicate. The following qRT-PCR
+primers were used:
+
+E-Cad Real-time F: 5’-CAGCCTTCTTTTCGGAAGACT-3
+
+E-Cad Real-time R: 5’-GGTAGACAGCTCCCTATGACTG-3
+
+SENP3 Real-time F: 5′ -GGAGTCCGCAGTCTTACGAG-3′
+
+SENP3 Real-time R: 5′ -TCTGGAGGACCTGGTAGAGG-3′
+
+Actin Real-time F: 5’-GCTATGTCGCCCTGGATTTC-3′
+
+Actin Real-time R: 5′ -CACAGGACTCCATACCCAAGAA-3′
+
+Biopsy tissue cells and cancer cells were washed with PBS and then lysed on ice
+using RIPA buffer containing 10% proteinase inhibitor (Roche Applied Science,
+Basel, Switzerland) for 0.5 h. Proteins were quantified using a Total Protein
+Extraction Kit (ProMab, Richmond, CA, USA), separated using a 10%
+SDS-polyacrylamide gel, and transferred to a polyvinylidene fluoride membrane.
+The membranes were incubated with the following primary antibodies: anti-Twist
+(1:1000, Abcam, Cambridge, UK; ab50887), anti-E-Cad (1:50, Abcam, ab15148), and
+anti-β-Actin (1:2000, Cell Signaling Technology, Danvers, MA, USA; #3700 S) at
+4°C overnight; then, HRP-conjugated secondary antibodies were added at 37°C for
+1 h. The signals of the immunoreactive protein bands were assessed using
+densitometric analysis software and quantified by densitometry using the ImageJ
+system. β-actin served as a loading control.
+
+The migration capacity of MG63 cells was evaluated using a wound-healing assay.
+Cells (1 × 10 5 per mL) were cultivated in 6-well plates and grown to
+85–90% confluence. A 1-µL tip was used to scratch a wound in the middle of the
+monolayer, and the dislodged cellular debris was washed away with 10% PBS. The
+cells were cultured in a humidified atmosphere of 5% CO2 at 37°C. The wound was
+photographed at 0 h and 48 h under a microscope.
+
+The invasion capacity of MG63 was detected using a Transwell assay. Cells (2 ×
+10 5 ) in 200 µL serum-free medium were added to the top of an
+apical chamber; the lower chamber contained 500 µL of 20% FBS. After incubation
+for 48 h at 37°C, the invaded cells that traversed the membrane were fixed with
+100% methanol and stained with 0.1% crystal violet. Cells remaining on the upper
+chamber surface of the Transwell membrane were wiped off using a cotton bud. The
+number of invaded tumor cells was captured randomly at 6 visual fields at 20×
+magnification.
+
+The pre-treated MG63 cells were cultivated in 96-well plates (500 cells per
+well). Cell proliferation after co-culture or transfection was determined using
+a commercial 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT)
+assay kit (Sigma Aldrich, St. Louis, MO, USA) according to the manufacturer’s
+instructions. First, 50 µL MTT was added to cells in each well and incubated for
+4 h. Then, 150 µL dimethyl sulfoxide was added to dissolve the MTT crystals. The
+light absorption value of each well was measured using a spectrometer at 570 nm.
+All assays were repeated at least 3 times in triplicate wells.
+
+Cell cycle and apoptosis assays were performed using flow cytometry. The
+pre-treated MG63 cells were cultivated in 6-well plates for 48 h and then
+harvested by centrifugation. For apoptosis assays, cells were trypsinized,
+washed, resuspended in 200 µL binding buffer, and then evaluated for apoptosis
+by double staining with 5 µL 7-aminoactinomycin D and 5 µL annexin V (all from
+BD Biosciences, San Jose, CA, USA) using a FACSCalibur Flow Cytometer.
+
+Tissue DNA was extracted from cells using the phenol/chloroform method. The
+bisulfite detection method was used to examine the methylation status of the
+E-Cad promoter region.
+
+For bisulfite conversion, the QIAGEN EpiTect Bisulfite Kit (QIAGEN, Hilden,
+Germany) was used according to the manufacturer’s instructions. DNA methylation
+was determined by PCR, and the primer sequences used to examine the methylation
+status of promoter region DNA are as follows:
+
+E-Cad-Met F1: 5’-TGTAGTTACGTATTTATTTTTAGTGGCGTC-3’
+
+E-Cad-Met R1: 5’-CGAATACGATCGAATCGAACCG-3’ (methylation primers)
+
+E-Cad-unMet F1: 5’-TGGTTGTAGTTATGTATTTATTTTTAGTGGTGTT-3’
+
+E-Cad-unMet R1: 5’-ACACCAAATACAATCAAATCAAACCAAA-3’ (non-methylation primers)
+
+The expression levels of SENP3 and E-Cad in OS and OFD tissues were analyzed by
+unpaired t-test. The statistical software package GraphPrism version 5.0
+(GraphPad Software, Inc., La Jolla, CA, USA) was used for all statistical
+analyses. All experiments were performed in triplicate at the minimum, and the
+results of the analysis we re considered significant in a log-rank test if
+p < 0.05. 
+
+
+Cell Lines and Tissue
+
+The human OS cell line MG63 was purchased from the Cancer Research Institute
+(Central South University, Hunan, China) and cultured in RPMI 1640 supplemented
+with 10% fetal bovine serum (FBS, Gibco, Carlsbad, CA, USA) and 1% penicillin
+under a humidified atmosphere of 5% CO2 at 37°C. Human OS tissues, osteofibrous
+dysplasia (OFD) tissues and 40 OS Paraffin section were collected from patients
+who underwent surgical operation and were pathologically diagnosed at the Third
+Xiangya Hospital of Central South University from January 2017 to December 2018.
+All patients provided informed consent before undergoing surgical biopsy. All
+experiments were approved by the Ethics Committee of the Third Xiangya Hospital
+of Central South University.
+
+
+Quantitative Real-Time Polymerase Chain Reaction (qRT-PCR)
+
+Tissue RNA was extracted from cells using TRIzol reagent (Invitrogen, Carlsbad,
+CA, USA). For qRT-PCR, RNA from the samples was reverse transcribed using a
+PrimeScript RT Reagent Kit (Takara, Dalian, China). For Twist and E-Cad
+expression, qRT-PCR was performed using a SYBR Premix Ex Taq II Kit (Takara,
+Dalian, China) with the CFX96 Real-Time PCR Detection System (Bio-Rad, Hercules,
+CA, USA). PCR amplification was performed in triplicate. The following qRT-PCR
+primers were used:
+
+E-Cad Real-time F: 5’-CAGCCTTCTTTTCGGAAGACT-3
+
+E-Cad Real-time R: 5’-GGTAGACAGCTCCCTATGACTG-3
+
+SENP3 Real-time F: 5′ -GGAGTCCGCAGTCTTACGAG-3′
+
+SENP3 Real-time R: 5′ -TCTGGAGGACCTGGTAGAGG-3′
+
+Actin Real-time F: 5’-GCTATGTCGCCCTGGATTTC-3′
+
+Actin Real-time R: 5′ -CACAGGACTCCATACCCAAGAA-3′
+
+
+Western Blotting
+
+Biopsy tissue cells and cancer cells were washed with PBS and then lysed on ice
+using RIPA buffer containing 10% proteinase inhibitor (Roche Applied Science,
+Basel, Switzerland) for 0.5 h. Proteins were quantified using a Total Protein
+Extraction Kit (ProMab, Richmond, CA, USA), separated using a 10%
+SDS-polyacrylamide gel, and transferred to a polyvinylidene fluoride membrane.
+The membranes were incubated with the following primary antibodies: anti-Twist
+(1:1000, Abcam, Cambridge, UK; ab50887), anti-E-Cad (1:50, Abcam, ab15148), and
+anti-β-Actin (1:2000, Cell Signaling Technology, Danvers, MA, USA; #3700 S) at
+4°C overnight; then, HRP-conjugated secondary antibodies were added at 37°C for
+1 h. The signals of the immunoreactive protein bands were assessed using
+densitometric analysis software and quantified by densitometry using the ImageJ
+system. β-actin served as a loading control.
+
+
+Invasion and Migration Assays
+
+The migration capacity of MG63 cells was evaluated using a wound-healing assay.
+Cells (1 × 10 5 per mL) were cultivated in 6-well plates and grown to
+85–90% confluence. A 1-µL tip was used to scratch a wound in the middle of the
+monolayer, and the dislodged cellular debris was washed away with 10% PBS. The
+cells were cultured in a humidified atmosphere of 5% CO2 at 37°C. The wound was
+photographed at 0 h and 48 h under a microscope.
+
+The invasion capacity of MG63 was detected using a Transwell assay. Cells (2 ×
+10 5 ) in 200 µL serum-free medium were added to the top of an
+apical chamber; the lower chamber contained 500 µL of 20% FBS. After incubation
+for 48 h at 37°C, the invaded cells that traversed the membrane were fixed with
+100% methanol and stained with 0.1% crystal violet. Cells remaining on the upper
+chamber surface of the Transwell membrane were wiped off using a cotton bud. The
+number of invaded tumor cells was captured randomly at 6 visual fields at 20×
+magnification.
+
+
+Cell Proliferation Bioassays
+
+The pre-treated MG63 cells were cultivated in 96-well plates (500 cells per
+well). Cell proliferation after co-culture or transfection was determined using
+a commercial 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT)
+assay kit (Sigma Aldrich, St. Louis, MO, USA) according to the manufacturer’s
+instructions. First, 50 µL MTT was added to cells in each well and incubated for
+4 h. Then, 150 µL dimethyl sulfoxide was added to dissolve the MTT crystals. The
+light absorption value of each well was measured using a spectrometer at 570 nm.
+All assays were repeated at least 3 times in triplicate wells.
+
+
+Cell Apoptosis Assays
+
+Cell cycle and apoptosis assays were performed using flow cytometry. The
+pre-treated MG63 cells were cultivated in 6-well plates for 48 h and then
+harvested by centrifugation. For apoptosis assays, cells were trypsinized,
+washed, resuspended in 200 µL binding buffer, and then evaluated for apoptosis
+by double staining with 5 µL 7-aminoactinomycin D and 5 µL annexin V (all from
+BD Biosciences, San Jose, CA, USA) using a FACSCalibur Flow Cytometer.
+
+
+DNA Methylation Analysis
+
+Tissue DNA was extracted from cells using the phenol/chloroform method. The
+bisulfite detection method was used to examine the methylation status of the
+E-Cad promoter region.
+
+For bisulfite conversion, the QIAGEN EpiTect Bisulfite Kit (QIAGEN, Hilden,
+Germany) was used according to the manufacturer’s instructions. DNA methylation
+was determined by PCR, and the primer sequences used to examine the methylation
+status of promoter region DNA are as follows:
+
+E-Cad-Met F1: 5’-TGTAGTTACGTATTTATTTTTAGTGGCGTC-3’
+
+E-Cad-Met R1: 5’-CGAATACGATCGAATCGAACCG-3’ (methylation primers)
+
+E-Cad-unMet F1: 5’-TGGTTGTAGTTATGTATTTATTTTTAGTGGTGTT-3’
+
+E-Cad-unMet R1: 5’-ACACCAAATACAATCAAATCAAACCAAA-3’ (non-methylation primers)
+
+
+Statistical Analysis
+
+The expression levels of SENP3 and E-Cad in OS and OFD tissues were analyzed by
+unpaired t-test. The statistical software package GraphPrism version 5.0
+(GraphPad Software, Inc., La Jolla, CA, USA) was used for all statistical
+analyses. All experiments were performed in triplicate at the minimum, and the
+results of the analysis we re considered significant in a log-rank test if
+p < 0.05. 
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The TCGA dataset showed that the transcripts per million (TPM) value of SENP3 is
+the highest in many types of human cancers ( Figure 1A ). To assess SENP3 function in
+OS, we examined SENP3 expression in 8 OS and 3 OFD tissues using qRT-PCR and
+western blotting. The results showed that SENP3 was overexpressed in 8 OS
+tissues when compared with OFD tissues ( Figure 1B and C ). Based on the TCGA data, the high
+expression of SENP3 in sarcoma patients indicated a shorter disease-free
+survival ( Figure 1D ) and
+overall survival ( Figure
+1E ). Then we measured the expression clinicopathologic characteristic
+of SENP3 on paraffin-cut section of 40 OS patients by immunohistochemical.The
+expression of SENP3 was significantly related with TNM stages (p = 0.0455), and
+distant metastasis (p = 0.04223; Table 1 ). In conclusion, SENP3 is
+potentially an oncogene in sarcoma and may influence the prognosis of sarcoma
+patients.
+
+SENP3 is highly expressed in sarcomas and osteosarcoma. (A) The
+transcripts per million (TPM) value of SENP3 is the highest of many
+human cancer types. (B) SENP3 mRNA expression was higher in OS tissues
+(tumor, n = 8; osteofibrous dysplasia, n = 3; p = 0.024). (C) SENP3
+protein expression was higher in OS tissues (tumor, n = 8; osteofibrous
+dysplasia, n = 3; p = 0.0005). (D, E) The TCGA dataset showed shorter
+disease-free survival (p = 0.038) and overall survival (p = 0.026) with
+high SENP3 expression in sarcoma.All the TCGA data set was obtained from
+GEPIA website.
+
+SENP3 Expression and Clinicopathologic Characteristic on 40
+Specimens.
+
+SENP3 expression and clinicopathologic characteristics on 40 OS
+specimens.
+
+Since SENP3 can serve as a core EMT regulator in both the occurrence and
+development of cancers, 20 we examined the expression of EMT-related factors. The results showed
+lower E-Cad mRNA expression in 8 OS tissues when compared with OFD tissues the
+N-Cad and Beta-Cad expression have not shown significant difference ( Figure 2A ). The
+correlation analysis demonstrated that the expression of E-Cad mRNA was
+negatively correlated with SENP3 expression in OS and OFD tissues (p = 0.035, Figure 2B ). Western
+blotting analysis also confirmed these results ( Figure 2C ). We checked the DNA
+methylation of E-Cad. The bisulfite conversion results showed that the E-Cad
+promoter region of patients 1 and 2 had highly methylated bases compared with
+the control ( Figure 2D ).
+The PCR results showed that the E-Cad promoter region had more abnormal
+methylation of CpG islands in 8 OS patients compared with 3 OFD patients ( Figure 2E ).
+
+E-cad is downregulated in osteosarcoma, and the promoter region shows
+abnormal methylation of CpG islands. (A) E-Cad mRNA expression was lower
+in OS tissues than in osteofibrous dysplasia (Tumor, n = 8; osteofibrous
+dysplasia, n = 3; p = 0.007)N-Cad and Beta mRNA expression have not
+shown significant difference. (B) E-Cad mRNA expression was negatively
+correlated with SENP3 expression in OS and osteofibrous dysplasia
+tissues (tumor, n = 8; osteofibrous dysplasia, n = 3; p = 0.035). (C)
+The expression of SENP3 and E-Cad protein (tumor, n = 8; osteofibrous
+dysplasia, n = 3). (D) The E-Cad promoter regions of patients 1 and 2
+had highly methylated bases compared with the control. (E) The E-Cad
+promoter region showed more abnormal methylation of CpG islands in 8 OS
+patients compared with 3 osteofibrous dysplasia patients. (F) SENP3
+overexpression in MG63 cells decreased E-Cad protein expression.
+Silencing of SENP3 expression in MG63 cells increased E-Cad protein
+expression. (G) Bisulfite conversion showed that SENP3 knockdown and
+overexpression in MG63 cells decreased and increased the methylated base
+levels of E-Cad, respectively. (H) The PCR results also confirmed the
+results of bisulfite conversion.
+
+As SENP3 was highly expressed in OS and its expression was negatively related to
+E-Cad, we explored the effect of SENP3 on E-Cad expression. Western blotting
+analysis showed that SENP3 overexpression in MG63 cells decreased the protein
+expression of E-Cad, and silencing SENP3 expression in MG63 cells increased the
+protein expression of E-Cad ( Figure 2F ). To investigate the impact of SENP3 on DNA methylation of
+E-cad, we detected methylated bases using bisulfite conversion. Knockdown of
+SENP3 expression decreased the methylated base level of E-Cad, whereas SENP3
+overexpression in MG63 cells increased the methylated base level of E-Cad ( Figure 2G ). The PCR
+results also confirmed these results ( Figure 2H ).
+
+As SENP3 regulates E-Cad expression, we further explored the effect of SENP3 on
+invasion, migration, proliferation, and apoptosis of MG63 cells. The effects of
+silencing or overexpression of SENP3 on cell invasion and migration were
+examined by Transwell and wound-healing assays, respectively. Silencing SENP3
+expression decreased cell invasion and migration, whereas overexpressing SENP3
+expression increased cell migration ( Figure 3A and B ). Cell proliferation and apoptosis were
+detected by MTT and flow cytometry, respectively. Knockdown of SENP3 expression
+decreased cell proliferation and increased apoptosis, while overexpressing SENP3
+increased cell proliferation and decreased apoptosis ( Figure 3C and D ).
+
+SENP3 regulates cell invasion, migration, proliferation, and apoptosis in
+MG63 cells. (A) SENP3 overexpression increased the invasion of MG63
+cells (p = 0.0036). SENP3 knockdown decreased cell invasion (p =
+0.0022). (B) SENP3 overexpression increased the migration of MG63 cells
+(p = 0.0074). SENP3 knockdown decreased cell migration (p = 0.0013). (C)
+SENP3 overexpression increased the proliferation of MG63 cells. SENP3
+knockdown decreased cell proliferation. (D) SENP3 overexpression
+decreased cell apoptosis in MG63 cells (p = 0.0010), and SENP3 knockdown
+increased cell apoptosis (p = 0.00011).
+
+We further examined the effect of DNA methylation inhibitors on E-Cad expression
+and DNA methylation status. We treated MG63 cells with the DNA methylation
+inhibitors azartidine and 5-aza-DC. The DNA methylation inhibitors increased
+E-Cad expression, reversed SENP3-induced E-Cad downregulation ( Figure 4A and B ), and decreased the DNA
+methylation of E-Cad ( Figure
+4C ). The Transwell and wound-healing assays indicated that DNA
+methylation inhibitors reversed the SENP3-induced promotion of the invasion,
+migration, proliferation, and apoptosis of MG63 cells ( Figure 4D - G ).
+
+DNA methylation inhibitors can reverse SENP3-induced methylation effects
+on E-Cad and cell phenotypes. (A, B) The DNA methylation inhibitors
+increased the expression of E-cad protein and reversed the SENP3-induced
+downregulation of E-Cad. (C) The DNA methylation inhibitors decreased
+the DNA methylation of E-Cad. (D) The DNA methylation inhibitors
+reversed SENP3-induced promotion of cell invasion of MG63 cells
+(5-aza-DC-treated group, p = 0.0008; Azartidine-treated group, p =
+0.0006; 5-aza-DC + SENP3-treated group, p = 0.0003; Azartidine +
+SENP3-treated group, p = 0.0002). (E) The DNA methylation inhibitors
+reversed the SENP3-induced promotion of MG63 cell migration
+(5-aza-DC-treated group, p = 0.0076; Azartidine-treated group, p =
+0.0113; 5-aza-DC + SENP3-treated group, p = 0.0008; Azartidine +
+SENP3-treated group, p = 0.0001). (F) The DNA methylation inhibitors
+reversed the SENP3-induced promotion of MG63 cell proliferation. (G) The
+DNA methylation inhibitors reversed the SENP3-induced apoptosis of MG63
+cells (5-aza-DC-treated group, p = 0.0002; Azartidine-treated group, p =
+0.0001; 5-aza-DC + SENP3-treated group, p = 0.0010; Azartidine +
+SENP3-treated group, p = 0.0003).
+
+
+SENP3 Is Highly Expressed in Sarcomas and OS
+
+The TCGA dataset showed that the transcripts per million (TPM) value of SENP3 is
+the highest in many types of human cancers ( Figure 1A ). To assess SENP3 function in
+OS, we examined SENP3 expression in 8 OS and 3 OFD tissues using qRT-PCR and
+western blotting. The results showed that SENP3 was overexpressed in 8 OS
+tissues when compared with OFD tissues ( Figure 1B and C ). Based on the TCGA data, the high
+expression of SENP3 in sarcoma patients indicated a shorter disease-free
+survival ( Figure 1D ) and
+overall survival ( Figure
+1E ). Then we measured the expression clinicopathologic characteristic
+of SENP3 on paraffin-cut section of 40 OS patients by immunohistochemical.The
+expression of SENP3 was significantly related with TNM stages (p = 0.0455), and
+distant metastasis (p = 0.04223; Table 1 ). In conclusion, SENP3 is
+potentially an oncogene in sarcoma and may influence the prognosis of sarcoma
+patients.
+
+SENP3 is highly expressed in sarcomas and osteosarcoma. (A) The
+transcripts per million (TPM) value of SENP3 is the highest of many
+human cancer types. (B) SENP3 mRNA expression was higher in OS tissues
+(tumor, n = 8; osteofibrous dysplasia, n = 3; p = 0.024). (C) SENP3
+protein expression was higher in OS tissues (tumor, n = 8; osteofibrous
+dysplasia, n = 3; p = 0.0005). (D, E) The TCGA dataset showed shorter
+disease-free survival (p = 0.038) and overall survival (p = 0.026) with
+high SENP3 expression in sarcoma.All the TCGA data set was obtained from
+GEPIA website.
+
+SENP3 Expression and Clinicopathologic Characteristic on 40
+Specimens.
+
+SENP3 expression and clinicopathologic characteristics on 40 OS
+specimens.
+
+
+E-Cad Is Downregulated in OS, and the Promoter Region Shows Abnormal
+Methylation of CpG Islands
+
+Since SENP3 can serve as a core EMT regulator in both the occurrence and
+development of cancers, 20 we examined the expression of EMT-related factors. The results showed
+lower E-Cad mRNA expression in 8 OS tissues when compared with OFD tissues the
+N-Cad and Beta-Cad expression have not shown significant difference ( Figure 2A ). The
+correlation analysis demonstrated that the expression of E-Cad mRNA was
+negatively correlated with SENP3 expression in OS and OFD tissues (p = 0.035, Figure 2B ). Western
+blotting analysis also confirmed these results ( Figure 2C ). We checked the DNA
+methylation of E-Cad. The bisulfite conversion results showed that the E-Cad
+promoter region of patients 1 and 2 had highly methylated bases compared with
+the control ( Figure 2D ).
+The PCR results showed that the E-Cad promoter region had more abnormal
+methylation of CpG islands in 8 OS patients compared with 3 OFD patients ( Figure 2E ).
+
+E-cad is downregulated in osteosarcoma, and the promoter region shows
+abnormal methylation of CpG islands. (A) E-Cad mRNA expression was lower
+in OS tissues than in osteofibrous dysplasia (Tumor, n = 8; osteofibrous
+dysplasia, n = 3; p = 0.007)N-Cad and Beta mRNA expression have not
+shown significant difference. (B) E-Cad mRNA expression was negatively
+correlated with SENP3 expression in OS and osteofibrous dysplasia
+tissues (tumor, n = 8; osteofibrous dysplasia, n = 3; p = 0.035). (C)
+The expression of SENP3 and E-Cad protein (tumor, n = 8; osteofibrous
+dysplasia, n = 3). (D) The E-Cad promoter regions of patients 1 and 2
+had highly methylated bases compared with the control. (E) The E-Cad
+promoter region showed more abnormal methylation of CpG islands in 8 OS
+patients compared with 3 osteofibrous dysplasia patients. (F) SENP3
+overexpression in MG63 cells decreased E-Cad protein expression.
+Silencing of SENP3 expression in MG63 cells increased E-Cad protein
+expression. (G) Bisulfite conversion showed that SENP3 knockdown and
+overexpression in MG63 cells decreased and increased the methylated base
+levels of E-Cad, respectively. (H) The PCR results also confirmed the
+results of bisulfite conversion.
+
+
+SENP3 Regulates E-Cad Expression and Induces the DNA Methylation of
+E-Cad
+
+As SENP3 was highly expressed in OS and its expression was negatively related to
+E-Cad, we explored the effect of SENP3 on E-Cad expression. Western blotting
+analysis showed that SENP3 overexpression in MG63 cells decreased the protein
+expression of E-Cad, and silencing SENP3 expression in MG63 cells increased the
+protein expression of E-Cad ( Figure 2F ). To investigate the impact of SENP3 on DNA methylation of
+E-cad, we detected methylated bases using bisulfite conversion. Knockdown of
+SENP3 expression decreased the methylated base level of E-Cad, whereas SENP3
+overexpression in MG63 cells increased the methylated base level of E-Cad ( Figure 2G ). The PCR
+results also confirmed these results ( Figure 2H ).
+
+
+SENP3 Regulates Cell Invasion, Migration, Proliferation, and Apoptosis in
+MG63 Cells
+
+As SENP3 regulates E-Cad expression, we further explored the effect of SENP3 on
+invasion, migration, proliferation, and apoptosis of MG63 cells. The effects of
+silencing or overexpression of SENP3 on cell invasion and migration were
+examined by Transwell and wound-healing assays, respectively. Silencing SENP3
+expression decreased cell invasion and migration, whereas overexpressing SENP3
+expression increased cell migration ( Figure 3A and B ). Cell proliferation and apoptosis were
+detected by MTT and flow cytometry, respectively. Knockdown of SENP3 expression
+decreased cell proliferation and increased apoptosis, while overexpressing SENP3
+increased cell proliferation and decreased apoptosis ( Figure 3C and D ).
+
+SENP3 regulates cell invasion, migration, proliferation, and apoptosis in
+MG63 cells. (A) SENP3 overexpression increased the invasion of MG63
+cells (p = 0.0036). SENP3 knockdown decreased cell invasion (p =
+0.0022). (B) SENP3 overexpression increased the migration of MG63 cells
+(p = 0.0074). SENP3 knockdown decreased cell migration (p = 0.0013). (C)
+SENP3 overexpression increased the proliferation of MG63 cells. SENP3
+knockdown decreased cell proliferation. (D) SENP3 overexpression
+decreased cell apoptosis in MG63 cells (p = 0.0010), and SENP3 knockdown
+increased cell apoptosis (p = 0.00011).
+
+
+DNA Methylation Inhibitors Can Reverse SENP3-Induced Methylation Effects on
+E-Cad and Cell Phenotypes
+
+We further examined the effect of DNA methylation inhibitors on E-Cad expression
+and DNA methylation status. We treated MG63 cells with the DNA methylation
+inhibitors azartidine and 5-aza-DC. The DNA methylation inhibitors increased
+E-Cad expression, reversed SENP3-induced E-Cad downregulation ( Figure 4A and B ), and decreased the DNA
+methylation of E-Cad ( Figure
+4C ). The Transwell and wound-healing assays indicated that DNA
+methylation inhibitors reversed the SENP3-induced promotion of the invasion,
+migration, proliferation, and apoptosis of MG63 cells ( Figure 4D - G ).
+
+DNA methylation inhibitors can reverse SENP3-induced methylation effects
+on E-Cad and cell phenotypes. (A, B) The DNA methylation inhibitors
+increased the expression of E-cad protein and reversed the SENP3-induced
+downregulation of E-Cad. (C) The DNA methylation inhibitors decreased
+the DNA methylation of E-Cad. (D) The DNA methylation inhibitors
+reversed SENP3-induced promotion of cell invasion of MG63 cells
+(5-aza-DC-treated group, p = 0.0008; Azartidine-treated group, p =
+0.0006; 5-aza-DC + SENP3-treated group, p = 0.0003; Azartidine +
+SENP3-treated group, p = 0.0002). (E) The DNA methylation inhibitors
+reversed the SENP3-induced promotion of MG63 cell migration
+(5-aza-DC-treated group, p = 0.0076; Azartidine-treated group, p =
+0.0113; 5-aza-DC + SENP3-treated group, p = 0.0008; Azartidine +
+SENP3-treated group, p = 0.0001). (F) The DNA methylation inhibitors
+reversed the SENP3-induced promotion of MG63 cell proliferation. (G) The
+DNA methylation inhibitors reversed the SENP3-induced apoptosis of MG63
+cells (5-aza-DC-treated group, p = 0.0002; Azartidine-treated group, p =
+0.0001; 5-aza-DC + SENP3-treated group, p = 0.0010; Azartidine +
+SENP3-treated group, p = 0.0003).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+OS is a highly malignant bone tumor that remains the major cause of mortality in bone
+tumors worldwide. 23 The incidence of OS is high in childhood and adolescence, with an annual
+global incidence rate of about 3 in 1 million. 24 , 25 To enhance OS therapy, new molecular targets for its diagnosis and prognosis
+must be identified, and new treatments must be developed.
+
+As a member of the SUMO-specific protease family, the function of SENP3 is known to
+regulate deSUMOylation of chromosome-associated proteins and chromosome stability in
+multiple cellular biological processes. 26 , 27 Hypoxia is a common phenomenon in human solid tumors. Recent studies have
+shown that SENP3 is a sensitive redox sensor, as SENP3 upregulation in cells is
+triggered by oxidative modification and is responsible for HIF-1α transactivation.
+These studies indicated that SENP3 may play a key role in tumor development. 28 , 29 
+
+Growing evidence has confirmed that SENP3 is highly expressed in some types of
+malignant tumors, such as head and neck cancer, 30 ovarian cancer, 31 and gastric cancer. 22 Our findings are consistent with those of previous studies. Here, we firstly
+report that the TPM of SENP3 in sarcoma is the highest among many human cancer
+types, as analysis of a TCGA dataset demonstrated that SENP3 was upregulated in OS
+compared to that in non-tumor tissues. Additionally, SENP3 upregulation was
+significantly correlated with poor prognosis in sarcoma, suggesting that SENP3 may
+serve as a diagnostic biomarker and a novel therapeutic target for OS. Furthermore,
+upregulating SENP3 significantly promoted the proliferation, migration, and invasion
+of OS cancer cell lines, downregulating SENP3 by shRNA markedly inhibited MG63
+proliferation, migration, and invasion, these indicated that SENP3 can act as an
+essential character in the development of OS cancer and may be an importantly
+oncogene of OS.
+
+EMT is one of the core mechanisms for transforming epithelial cells into epithelial
+cancer cells by imparting migratory and invasive capabilities. 32 There is growing evidence that transcription factors participate in the
+biological processes of EMT and that abnormal expression of some transcription
+factors can promote malignant tumor occurrence and development by inducing EMT
+progression, including ZEB1, 33 STAT3, 34 TWIST1, 35 and FOXQ1. 36 This paper firstly reports SENP3 as a transcription factor that can regulate
+the EMT of OS cells by inducing the DNA methylation of E-Cad, and our research
+provides a novel perspective in understanding the role of the SUMO-specific protease
+family in OS initiation and promotion.
+
+E-Cad is a hallmark of adherens junctions, which play a pivotal role in maintaining
+the stability of epithelial cells, and a decrease in E-Cad expression can trigger
+EMT in cancer. 37 The cadherin switch hypothesis indicates that the loss of E-Cad and increases
+in N-cadherin and vimentin are the major features of EMT. 37 , 38 Downregulation of E-Cad promotes tumor invasion and migration, and
+post-translational modification is the main manner by which E-cad transcriptional
+activity is regulated, including acetylation, methylation, and poly- and mono-ubiquitination. 39 , 40 In ovarian cancer-Knockdown of SENP3 decreased the proliferation, migration,
+and invasion capability of ovarian cancer cells, down-regulated the expression of
+N-cadherin, and resulted in upregulation of p21 and E-cadherin, which indicated that
+SENP3 was a redox-sensitive molecule mediating the epithelial-mesenchymal transition. 31 Consistent with these results, in our study, SENP3 regulated E-Cad expression
+and induced the DNA methylation of E-cad in the OS carcinogenesis process, hence
+providing the first evidence for the SENP3/E-Cad EMT axis in OS cells. However, the
+exact mechanism by which SENP3 regulates the DNA methylation of E-Cad needs to be
+investigated further.
+
+In conclusion, SENP3 plays key role in the development of osteosarcoma.SENP3
+expression was highly expressed in OS, and SENP3 upregulation significantly
+increased the invasion, migration, and proliferation abilities and suppressed
+apoptosis of OS cells. Furthermore, SENP3 is potentially an oncogene in OS and may
+influence the prognosis of sarcoma patients. The inhibition or overexpression of
+SENP3 expression can respectively decrease or increase the DNA methylation of E-Cad.
+Our research indicates that SENP3 may be a prognostic biomarker and an actionable
+target for novel tumor therapies for OS.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

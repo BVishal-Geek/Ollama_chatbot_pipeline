@@ -253,26 +253,27 @@ def process_xml_to_text(xml_content, pmcid):
         return None
 
 
-def get_ids_by_query(query, max_results=100):
-    """Search PMC database and return list of PMCIDs"""
+def get_ids_by_query(query, max_results=100, min_date="2020/01/01"):
+    """Search PMC database with date filter."""
     print(f"Searching for: '{query}' in PMC...")
-    print(f"\nDEBUG: Full query being sent to PMC:")
-    print(f"{query}\n")
     
-    handle = Entrez.esearch(db="pmc", term=query, retmax=max_results, retmode="xml")
+    # Add date filter to query
+    date_filtered_query = f"{query} AND {min_date}[PDAT]"
+    
+    handle = Entrez.esearch(
+        db="pmc", 
+        term=date_filtered_query,  # Use filtered query
+        retmax=max_results, 
+        retmode="xml",
+        sort="pub_date",  # Sort by publication date
+        datetype="pdat"   # Use publication date
+    )
+    
     record = Entrez.read(handle)
     handle.close()
     
     id_list = record.get('IdList', [])
-    
-    # Debug: Show translation of query
-    if 'TranslationStack' in record:
-        print(f"DEBUG: Query translation:")
-        print(record['TranslationStack'])
-        print()
-    
-    print(f"Found {len(id_list)} PMC results.")
-    print(f"DEBUG: First 5 PMCIDs: {id_list[:5]}")
+    print(f"Found {len(id_list)} PMC results from {min_date} onwards.")
     
     return id_list
 

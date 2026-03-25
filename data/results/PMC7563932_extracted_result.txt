@@ -1,0 +1,19 @@
+Source: PMC7563932_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Data Mining Identifies Six Proteins that Can Act as Prognostic Markers for Head and Neck Squamous Cell Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Data was collected from TCPA, which contained a protein profile of 8,167 tumor samples.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

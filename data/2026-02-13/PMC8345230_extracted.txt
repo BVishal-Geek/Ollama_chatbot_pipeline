@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: The Tumor Microenvironment of Bladder Cancer
+PMCID: PMC8345230
+PMID: 34185299
+KEYWORDS: bladder cancer, tumor microenvironment, t cell-inflamed, tumor infiltrating lymphocytes, urothelial cancer, macrophages, myeloid-derived suppressor cells, dendritic cells, pericytes, immune checkpoint inhibitors
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Bladder cancer has been well known as immunotherapy-responsive disease as intravesical therapy with BCG has been the standard of care for non-muscle invasive disease for several decades. In addition, immune checkpoint inhibitors have dramatically changed the treatment of metastatic bladder cancer. However, only a small fraction of patients with bladder cancer can benefit from these therapies. As immunotherapies act on the tumor microenvironment, understanding it is essential to expand the efficacy of modern treatments. The bladder cancer microenvironment consists of various components including tumor cells, immune cells, and other stromal cells, affecting each other via immune checkpoint molecules, cytokines, and chemokines. The development of an antitumor immune response depends on tumor antigen recognition by antigen presenting cells and priming and recruitment of effector T cells. Accumulated evidence shows that these processes are impacted by multiple types of immune cells in the tumor microenvironment including regulatory T cells, tumor-associated macrophages, and myeloid derived suppressor cells. In addition, recent advances in genomic profiling have shed light on the relationship between molecular subtypes and the tumor microenvironment. Finally, emerging evidence has shown that multiple factors can impact the tumor microenvironment in bladder cancer, including tumor-oncogenic signaling, patient genetics, and the commensal microbiome.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

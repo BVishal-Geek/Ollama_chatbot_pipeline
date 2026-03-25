@@ -1,0 +1,19 @@
+Source: PMC6932864_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "From genome to phenome: Predicting multiple cancer phenotypes based on somatic genomic alterations via the genomic impact transformer",
+  "condition_E": 1,
+  "condition_E_reason": "We obtained SGA data, including SMs and SCNAs, and DEGs of 4,468 tumors consisting of 16 cancer types directly from TCGA portal.",
+  "N_E": 1,
+  "N_E_reason": "4,468 tumors profiled by The Cancer Genome Atlas (TCGA) project.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data obtained directly from TCGA portal.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

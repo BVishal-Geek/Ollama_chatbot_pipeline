@@ -1,0 +1,19 @@
+Source: PMC7724267_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Role of COL3A1 and POSTN on Pathologic Stages of Esophageal Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "The GSE92396 dataset comprises 12 esophageal cancer tissues and 10 healthy esophageal tissues.",
+  "N_E": 1,
+  "N_E_reason": "The GSE92396 dataset includes 12 esophageal cancer tissues and 10 healthy esophageal tissues.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data available in GEO under accession numbers GSE92396 and GSE100942.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

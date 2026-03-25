@@ -1,0 +1,204 @@
+================================================================================
+ARTICLE TITLE: Screening and Discovery of New Potential Biomarkers and Small Molecule Drugs for Cervical Cancer: A Bioinformatics Analysis
+PMCID: PMC7734488
+PMID: 33302814
+KEYWORDS: cervical cancer, bioinformatics analysis, novel biomarker, candidate small molecules
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Cervical cancer (CC) is the second most common type of malignant tumor survival rate is low in advanced stage, metastatic, and recurrent CC patients. This study aimed at identifying potential genes and drugs for CC diagnosis and targeting therapies.
+
+Methods::
+Three GEO mRNA microarray datasets of CC tissues and non-cancerous tissues were analyzed for differentially expressed genes (DEGs) by limma package. GO (Gene Ontologies) and KEGG (Kyoto Encyclopedia of Genes and Genomes) were used to explore the relationships between the DEGs. Protein-protein interaction (PPI) of these genes was established by the STRING database. MCODE was used for screening significant modules in the PPI networks to select hub genes. Biochemical mechanisms of the hub genes were investigated with Metascape. GEPIA database was used for validating the core genes. According to these DEGs, molecular candidates for CC were recognized from the CMAP database.
+
+Results::
+We identified 309 overlapping DEGs in the 2 tissue-types. Pathway analysis revealed that the DEGs were involved in cell cycle, DNA replication, and p53 signaling. PPI networks between overlapping DEGs showed 68 high-connectivity DEGs that were chosen as hub genes. The GEPIA database showed that the expression levels of RRM2, CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L, RFC4, RFC5, TK1, TOP2A, and TYMS in CC tissues were significantly different from those in the healthy tissues and were significantly relevant to the OS of CC. We found 10 small molecules from the CMAP database that could change the trend of gene expression in CC tissues, including piperlongumine and chrysin.
+
+Conclusions::
+The 14 DEGs identified in this study could serve as novel prognosis biomarkers for the detection and forecasting of CC. Small molecule drugs like piperlongumine and chrysin could be potential therapeutic drugs for CC treatment.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Cervical cancer (CC) is the second most common type of malignant tumor in females. Recent global figures have estimated that 265,672 deaths occur every year due to CC, and 527,624 new patients are diagnosed with CC every year. It is the main cause of deaths due to cancer in women in developing countries. 1 - 4 Many CC patients can be treated if diagnosed early, but the prognosis is poor because of lack of obvious signs and symptoms, which do not appear until the advanced stages. 5 Metastatic and recurrent CC patients also have a poor prognosis.
+
+Research has shown that HPV (Human Papilloma Virus) infection is the cause of CC 5 ; however, it is important to note that only a fraction of women infected by HPV develop CC. Therefore, HPV infection is not the only reason for CC induction. HPV acts by blocking cellular tumor suppressor pathways and causing genetic changes. 6 The p53-mediated growth arrest is inhibited by HPV infection, and c-MYC and telomerase reverse transcriptase (TERT) are activated, but genetic changes induced by other risk factors are required for the development of CC. 7 - 9 Thus, studies are necessary to explore the differential expression of key genes between CC and healthy cervix tissue samples.
+
+After the diagnosis of CC, many different treatment options are available according to the stage of cancer. Pre-invasive (stage 0) and early-stage patients (IA to IIA) are treated by surgery, and advanced-stage patients (IIB to IVB) are treated by radiation therapy and chemotherapy. 10 Cisplatin is considered to be the most active single agent against CC. 11 Numerous other chemotherapeutic drugs are also active against CC, including paclitaxe, carboplatin, bevacizumab, and topotecan. 12 - 15 Although platinum or taxane-based chemotherapy can significantly improve the survival of CC patients, the results of conventional treatments are still limited and the 5-year survival rate of CC is still low, only about 52%. 16 Consequently, the discovery of more effective, selective, and less toxic agents is urgently needed to improve the 5-year survival rate and reduce the mortality rate of CC patients.
+
+In this study, we explored new biomarkers for CC diagnosis and targeting therapies. We manipulated the microarray data of GSE63514 , GSE9750 , and GSE7803 datasets from the GEO (Gene Expression Omnibus) database to distinguish differentially expressed genes (DEGs) between CC and non-cancerous tissues. GO and pathway analysis were done to elucidate the functions of the DEGs. The hub genes related to the pathogenesis of CC were chosen by protein-protein interaction (PPI) network. The key genes displaying significantly different expression level in CC tissues and significant relation with the overall survival (OS) were identified. In addition, we identified some potential therapeutic candidates from the connectivity map (CMAP) database for treatment of CC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Three gene expression datasets [ GSE63514 , GSE9750 , and GSE7803 ] were downloaded from GEO based on the following criteria: 1 The datasets should include not less than 10 of control samples, and not less than 20 cervical Squamous cancer samples. 2 The datasets should include cervical Squamous cancer specimens of different stages and different HPV infection status. The probes were altered into corresponding gene symbols according to the annotations. The GSE63514 dataset consisted of 28 CC cervical tissue samples and 24 healthy cervical tissue samples; GSE9750 dataset consisted of 33 CC cervical tissue samples and 24 healthy tissue samples; GSE7803 included 21 CC cervical tissue samples and 10 healthy cervical tissue samples.
+
+The DEGs between CC and healthy tissue samples were analyzed in R language with the limma package. In order to balance genes and false-positive discovery rates, modified P-values and Benjamini/Hochberg false discovery levels were introduced. Non-meaning probe sets, including those without gene markers or genes present in only 1 sample set were omitted or averaged. The collection of significant DEGs was set to P-value < 0.01 and |logFC| > 1.
+
+We used GO analysis to explore the potential functions of the common DEGs. GO is a widely used bioinformatics tool to identify genes and study-related biological processes. We employed KEGG to search for potential pathways of the overlapping DEGs. KEGG is a database to study gene functions and pathways from big datasets sourced from high-throughput experiments. DAVID, an online biological database, was used to analyze the GO and KEGG terms. The top 5 terms were considered statistically significant.
+
+PPI network was established using the STRING database (version 10.0). We found a statistically significant association of DEG proteins expected by STRING with a combined score > 0.4. To display the molecular interaction networks, Cytoscape (version 3.7.2) was used. The Cytoscape plug-in MCODE (version 1.5.1) was used to screen main modules for the collection of the hub genes in the PPI networks. The criteria for selection were: degree cut-off = 10, node score cut-off = 0.2, Max depth = 100, and k-score = 2. Metascape ( http://metascape.org , an online annotation analysis tool for gene function) was used to identify the biological cycle of the hub genes.
+
+In order to analyze the effect of the hub genes on the prognosis of the patient, GEPIA (Gene Expression Profiling Integrated Analysis) software was used. The mRNA expression level of the hub genes was verified by the GEPIA platform. Referring to the median expression levels of the hub genes, the overall survival analyses were executed using the Kaplan-Meier curve in the GEPIA database. The expression level of genes in CC tissues was significantly different from normal tissues and was significantly related to the OS were considered to be the key genes. Online database Oncomine was used to verify the mRNA expression of the key genes in CC tissue samples. Finally, the PPI network was established according to the key genes by STRING with a combined score > 0.7, and KEGG pathway was analyzed by STRING too. Online database Human Protein Atlas (HPA, https://www.proteinatlas.org/ ) was used to verify qualitative data of protein in CC. Protein expression score is based on immunohistochemical data manually scored with regard to staining intensity (negative, weak, moderate or strong) and fraction of stained cells (<25%, or >25%). Each combination of intensity and fractions is automatically converted into a protein expression level score as follows: negative—not detected; weak <25%; positive-weak combined with weak fraction of stained cells >25%, moderate or strong intensity.
+
+CMAP database has information on a large number of molecular interfering experiments and gene expression. We matched DEGs with the genes involved in small molecular interference to identify some small molecules. First, the overlapping DEGs among the 3 datasets were grouped on the basis of their up- and down-regulated expression. These probes were mapped to the database to get relevant active small molecules, and the enrichment values were calculated. Values closer to −1 suggested that the small molecule could imitate the state of the normal cell, and values closer to 1 indicated that the compound might imitate the state of colonial carcinoma cells.
+
+
+Microarray Data
+
+Three gene expression datasets [ GSE63514 , GSE9750 , and GSE7803 ] were downloaded from GEO based on the following criteria: 1 The datasets should include not less than 10 of control samples, and not less than 20 cervical Squamous cancer samples. 2 The datasets should include cervical Squamous cancer specimens of different stages and different HPV infection status. The probes were altered into corresponding gene symbols according to the annotations. The GSE63514 dataset consisted of 28 CC cervical tissue samples and 24 healthy cervical tissue samples; GSE9750 dataset consisted of 33 CC cervical tissue samples and 24 healthy tissue samples; GSE7803 included 21 CC cervical tissue samples and 10 healthy cervical tissue samples.
+
+
+DEGs Screening
+
+The DEGs between CC and healthy tissue samples were analyzed in R language with the limma package. In order to balance genes and false-positive discovery rates, modified P-values and Benjamini/Hochberg false discovery levels were introduced. Non-meaning probe sets, including those without gene markers or genes present in only 1 sample set were omitted or averaged. The collection of significant DEGs was set to P-value < 0.01 and |logFC| > 1.
+
+
+GO Enrichment and KEGG Pathway Analysis of DEGs
+
+We used GO analysis to explore the potential functions of the common DEGs. GO is a widely used bioinformatics tool to identify genes and study-related biological processes. We employed KEGG to search for potential pathways of the overlapping DEGs. KEGG is a database to study gene functions and pathways from big datasets sourced from high-throughput experiments. DAVID, an online biological database, was used to analyze the GO and KEGG terms. The top 5 terms were considered statistically significant.
+
+
+PPI Network Construction and Analysis
+
+PPI network was established using the STRING database (version 10.0). We found a statistically significant association of DEG proteins expected by STRING with a combined score > 0.4. To display the molecular interaction networks, Cytoscape (version 3.7.2) was used. The Cytoscape plug-in MCODE (version 1.5.1) was used to screen main modules for the collection of the hub genes in the PPI networks. The criteria for selection were: degree cut-off = 10, node score cut-off = 0.2, Max depth = 100, and k-score = 2. Metascape ( http://metascape.org , an online annotation analysis tool for gene function) was used to identify the biological cycle of the hub genes.
+
+
+Validation of Key Genes
+
+In order to analyze the effect of the hub genes on the prognosis of the patient, GEPIA (Gene Expression Profiling Integrated Analysis) software was used. The mRNA expression level of the hub genes was verified by the GEPIA platform. Referring to the median expression levels of the hub genes, the overall survival analyses were executed using the Kaplan-Meier curve in the GEPIA database. The expression level of genes in CC tissues was significantly different from normal tissues and was significantly related to the OS were considered to be the key genes. Online database Oncomine was used to verify the mRNA expression of the key genes in CC tissue samples. Finally, the PPI network was established according to the key genes by STRING with a combined score > 0.7, and KEGG pathway was analyzed by STRING too. Online database Human Protein Atlas (HPA, https://www.proteinatlas.org/ ) was used to verify qualitative data of protein in CC. Protein expression score is based on immunohistochemical data manually scored with regard to staining intensity (negative, weak, moderate or strong) and fraction of stained cells (<25%, or >25%). Each combination of intensity and fractions is automatically converted into a protein expression level score as follows: negative—not detected; weak <25%; positive-weak combined with weak fraction of stained cells >25%, moderate or strong intensity.
+
+
+Identification of Small Molecules
+
+CMAP database has information on a large number of molecular interfering experiments and gene expression. We matched DEGs with the genes involved in small molecular interference to identify some small molecules. First, the overlapping DEGs among the 3 datasets were grouped on the basis of their up- and down-regulated expression. These probes were mapped to the database to get relevant active small molecules, and the enrichment values were calculated. Values closer to −1 suggested that the small molecule could imitate the state of the normal cell, and values closer to 1 indicated that the compound might imitate the state of colonial carcinoma cells.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+After normalization of the data, DEGs (3753 in GSE63514 , 2064 in GSE9750 , and 560 in GSE7803 ) were identified by the limma package; a total of 309 overlapping DEGs in both the tissue samples were ascertained from the 3 datasets, which included 155 down-regulated genes and 154 up-regulated genes ( Figure 1 ).
+
+Venn diagram.
+
+We used DAVID to perform KEGG and GO analysis of the overlapping DEGs. The functional classification of these genes (p < 0.05) indicated significant enrichment in corresponding items. BP (Biological Process) analysis revealed that these DEGs were mostly enriched in response to DNA replication, mitotic cell cycle transformation, and cell division. Cellular Component was mainly enriched in nucleoplasm, cornified envelope, and cytoplasm. MF (Molecular Feature) was enriched in protein binding, chromatin binding, and peptidase activity of the serine form. KEGG analysis showed enrichment in a variety of pathways, such as cell cycle, DNA replication, and p53 signaling ( Figure 2 and Table 1 ).
+
+GO enrichment and signaling pathway analysis of the overlapped DEGs in CC and healthy tissues. Abbreviations: GO, Gene Ontologies; DEGs, Differentially expressed genes; CC, Cervical cancer; BP, Biological Process; MF, Molecular Feature; KEGG, Kyoto Encyclopedia of Genes and Genomes.
+
+GO and KEGG Pathway Enrichment Analysis of DEGs in CC.
+
+PPI network of the potential interactions between the overlapping DEGs was built using the STRING and Cytoscape databases. ( Figure 3A ). The major module was chosen by the PPI network using MCODE. Sixty-eight high-connectivity DEGs were selected as the hub genes, which were speculated to play important roles in CC pathogenesis ( Figure 3B ). The abbreviations, names, and functions of these genes are displayed in Table 2 . The functions of these hub genes were analyzed by Metascape, which showed that the hub genes were enriched in cell cycle, cell cycle phase transition, cell division, and DNA replication.( Figure 3C ).
+
+(A) PPI network of DEGs, nodes with red and green represent the up- and down-regulated genes. (B) The hub genes obtained from the PPI network (all nodes are up-regulated genes). (C) Bar graph of the enriched terms across input hub genes by Metascape, colored by P-values. Abbreviations: PPI, Protein interaction; DEGs, Differentially expressed genes;
+
+Name and Functional Roles of 68 Hub Genes.
+
+We found that the expression levels of the following genes was higher in CC tissues as compared to that in the healthy tissues: RRM2, CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L, RFC4, RFC5, TK1, TOP2A, and TYMS ( Figure 4A ). Up-regulated expression of CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L, RFC4, RFC5, TK1, TOP2A, and TYMS was linked to high survival rate of CC patients, whereas the over-expression of RRM2 in CC tissues was linked to lower survival rate of CC patients ( Figure 4B ); these results were in accordance with the results of GEPIA database. We also found that mRNA of the key genes were significantly overexpressed in CC tissues as compared to that in the healthy tissues, by analyzing 5 different Oncomine databases ( Figure 4C ). PPI network was established according to the key genes ( Figure 4D ). The KEGG pathway analysis indicated that the key genes were mainly enriched in DNA replication, mismatch repair, and nucleotide excision repair ( Figure 4E ). We verified the qualitative data of protein in CC by HPA too. Immunohistochemistry confirmed the differential positive expression rate of key genes protein ( Figure 5 ). Both the antibody staining and intensity of key genes protein in CC samples were higher than normal tissue ( Figure 6 ). Thus, RRM2, CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L RFC4, RFC5, TK1, TOP2A, and TYMS could act as potential key biomarkers for CC.
+
+(A) Expression boxplots of key genes by GEPIA. (B) Survival curves of key genes by GEPIA. (C) Oncomine Log rank analysis Heat maps of the key genes mRNA expression in clinical CC samples vs. normal tissues. 1. Cervical Squamous Cell Carcinoma vs. Normal, Biewenga Cervix, Gynecol Oncol, 2008. 2. Cancer Type: Cervical Cancer, Bittner Multi-cancer, Not Published, 2006. 3. Cervical Cancer vs. Normal, Pyeon Multi-cancer, Cancer Res, 2007. 4. Cervical Squamous Cell Carcinoma vs. Normal, Scotto Cervix 2, Genes Chromosomes Cancer, 2008. 5. Cervical Squamous Cell Carcinoma Epithelia vs. Normal Zhai Cervix, Cancer Res, 2007. The rank for a gene is the median rank for that gene across each of the analyses. The p-Value for a gene is its p-Value for the median-ranked analysis. (D) PPI network of key genes. Colored nodes: query proteins and first shell of interactors, empty nodes: proteins of unknown 3D structure, filled nodes: some 3D structure is known or predicted, line thickness indicates the strength of data support. (E) KEGG pathway enrichment analysis of key genes in CC sample. Abbreviations: GEPIA, Gene Expression Profiling Integrated Analysis; CC, Cervical Cancer; KEGG; Kyoto Encyclopedia of Genes and Genomes; TPM, transcripts per million.
+
+Immunohistochemistry confirmed the differential expression of key genes in CC tissues and normal tissues based on HPA. Abbreviations: HPA, Human Protein Atlas.
+
+Immunohistochemistry confirmed the differential expression of key genes in CC tissues and normal tissues based on HPA. Abbreviations: HPA, Human Protein Atlas.
+
+ Table 3 shows the top 10 small molecules that significantly corresponded to changes in expression of the key genes. The small molecules with enrichment close to 1 were considered as robust inducers of CC. In contrast, small molecules like piperlongumine (PL) and chrysin (enrichment: −0.973 and −0.934) mimicked normal cells, which suggested that they could repair the cancerous state of CC cells; hence, they are potential lead compounds for development of new drugs for CC patients.
+
+List of Top 10 Small Molecules That Can Imitate the Status of Normal Cells.
+
+
+Microarray Data Analysis and Identification of DEGs
+
+After normalization of the data, DEGs (3753 in GSE63514 , 2064 in GSE9750 , and 560 in GSE7803 ) were identified by the limma package; a total of 309 overlapping DEGs in both the tissue samples were ascertained from the 3 datasets, which included 155 down-regulated genes and 154 up-regulated genes ( Figure 1 ).
+
+Venn diagram.
+
+
+GO Enrichment and KEGG Pathway Analyses of DEGs
+
+We used DAVID to perform KEGG and GO analysis of the overlapping DEGs. The functional classification of these genes (p < 0.05) indicated significant enrichment in corresponding items. BP (Biological Process) analysis revealed that these DEGs were mostly enriched in response to DNA replication, mitotic cell cycle transformation, and cell division. Cellular Component was mainly enriched in nucleoplasm, cornified envelope, and cytoplasm. MF (Molecular Feature) was enriched in protein binding, chromatin binding, and peptidase activity of the serine form. KEGG analysis showed enrichment in a variety of pathways, such as cell cycle, DNA replication, and p53 signaling ( Figure 2 and Table 1 ).
+
+GO enrichment and signaling pathway analysis of the overlapped DEGs in CC and healthy tissues. Abbreviations: GO, Gene Ontologies; DEGs, Differentially expressed genes; CC, Cervical cancer; BP, Biological Process; MF, Molecular Feature; KEGG, Kyoto Encyclopedia of Genes and Genomes.
+
+GO and KEGG Pathway Enrichment Analysis of DEGs in CC.
+
+
+PPI Network Construction and Analysis
+
+PPI network of the potential interactions between the overlapping DEGs was built using the STRING and Cytoscape databases. ( Figure 3A ). The major module was chosen by the PPI network using MCODE. Sixty-eight high-connectivity DEGs were selected as the hub genes, which were speculated to play important roles in CC pathogenesis ( Figure 3B ). The abbreviations, names, and functions of these genes are displayed in Table 2 . The functions of these hub genes were analyzed by Metascape, which showed that the hub genes were enriched in cell cycle, cell cycle phase transition, cell division, and DNA replication.( Figure 3C ).
+
+(A) PPI network of DEGs, nodes with red and green represent the up- and down-regulated genes. (B) The hub genes obtained from the PPI network (all nodes are up-regulated genes). (C) Bar graph of the enriched terms across input hub genes by Metascape, colored by P-values. Abbreviations: PPI, Protein interaction; DEGs, Differentially expressed genes;
+
+Name and Functional Roles of 68 Hub Genes.
+
+
+Validation of Key Genes
+
+We found that the expression levels of the following genes was higher in CC tissues as compared to that in the healthy tissues: RRM2, CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L, RFC4, RFC5, TK1, TOP2A, and TYMS ( Figure 4A ). Up-regulated expression of CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L, RFC4, RFC5, TK1, TOP2A, and TYMS was linked to high survival rate of CC patients, whereas the over-expression of RRM2 in CC tissues was linked to lower survival rate of CC patients ( Figure 4B ); these results were in accordance with the results of GEPIA database. We also found that mRNA of the key genes were significantly overexpressed in CC tissues as compared to that in the healthy tissues, by analyzing 5 different Oncomine databases ( Figure 4C ). PPI network was established according to the key genes ( Figure 4D ). The KEGG pathway analysis indicated that the key genes were mainly enriched in DNA replication, mismatch repair, and nucleotide excision repair ( Figure 4E ). We verified the qualitative data of protein in CC by HPA too. Immunohistochemistry confirmed the differential positive expression rate of key genes protein ( Figure 5 ). Both the antibody staining and intensity of key genes protein in CC samples were higher than normal tissue ( Figure 6 ). Thus, RRM2, CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L RFC4, RFC5, TK1, TOP2A, and TYMS could act as potential key biomarkers for CC.
+
+(A) Expression boxplots of key genes by GEPIA. (B) Survival curves of key genes by GEPIA. (C) Oncomine Log rank analysis Heat maps of the key genes mRNA expression in clinical CC samples vs. normal tissues. 1. Cervical Squamous Cell Carcinoma vs. Normal, Biewenga Cervix, Gynecol Oncol, 2008. 2. Cancer Type: Cervical Cancer, Bittner Multi-cancer, Not Published, 2006. 3. Cervical Cancer vs. Normal, Pyeon Multi-cancer, Cancer Res, 2007. 4. Cervical Squamous Cell Carcinoma vs. Normal, Scotto Cervix 2, Genes Chromosomes Cancer, 2008. 5. Cervical Squamous Cell Carcinoma Epithelia vs. Normal Zhai Cervix, Cancer Res, 2007. The rank for a gene is the median rank for that gene across each of the analyses. The p-Value for a gene is its p-Value for the median-ranked analysis. (D) PPI network of key genes. Colored nodes: query proteins and first shell of interactors, empty nodes: proteins of unknown 3D structure, filled nodes: some 3D structure is known or predicted, line thickness indicates the strength of data support. (E) KEGG pathway enrichment analysis of key genes in CC sample. Abbreviations: GEPIA, Gene Expression Profiling Integrated Analysis; CC, Cervical Cancer; KEGG; Kyoto Encyclopedia of Genes and Genomes; TPM, transcripts per million.
+
+Immunohistochemistry confirmed the differential expression of key genes in CC tissues and normal tissues based on HPA. Abbreviations: HPA, Human Protein Atlas.
+
+Immunohistochemistry confirmed the differential expression of key genes in CC tissues and normal tissues based on HPA. Abbreviations: HPA, Human Protein Atlas.
+
+
+Identification of Active Small Molecules Related to Key Genes
+
+ Table 3 shows the top 10 small molecules that significantly corresponded to changes in expression of the key genes. The small molecules with enrichment close to 1 were considered as robust inducers of CC. In contrast, small molecules like piperlongumine (PL) and chrysin (enrichment: −0.973 and −0.934) mimicked normal cells, which suggested that they could repair the cancerous state of CC cells; hence, they are potential lead compounds for development of new drugs for CC patients.
+
+List of Top 10 Small Molecules That Can Imitate the Status of Normal Cells.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+CC is the second most common type of malignant tumor in females with a 5-year survival rate of only about 52%. Thus, more research is required to discover candidate genes and drugs for improving the 5-year survival rate and reducing the mortality rate of CC patients.
+
+Over the past few years, microarray assay and bioinformatics tools have been commonly applied to screen gene mutations and gene expression levels to distinguish DEGs involved in tumor formation and development, and for their functional analysis. In the current study, the DEGs between the CC and non-cancerous tissues were collected from 3 mRNA datasets. A total of 309 overlapping DEGs were identified. It was speculated that these DEGs could play a role in the pathogenesis of CC and act as potential targets for clinical treatment. To understand the roles of these DEGs, GO and KEGG analyses were performed. GO term analysis was performed via 3 directions: BP, MF, and Cellular Component. BP analysis showed that these genes were mainly enriched in DNA replication, mitotic cycle transformation, and cell division. These Process were related to the proliferation and differentiation of tumor. MF analysis suggested that the DEGs were mostly associated with the binding of proteins, chromatin binding, and peptidase activity of the serine form. Protein function changes caused by protein binding, and chromatin changes caused by chromatin binding have been confirmed to play a key role in tumorigenesis. 17 Serine protease has been proved as potential diagnostic, prognostic targets for several human tumors, including CC. 18 , 19 Cellular Component was mainly enriched in nucleoplasm, cornified envelope, and cytoplasm. The KEGG analysis showed involvement of many pathways, such as cell cycle, DNA and p53 signaling pathway. The HPV oncoproteins, E7, play a major role in the development of CC. The major characteristic of E7 is to influence the cell cycle by inactivation of pRb, so the major driver of CC may be the cell cycle. 20 Moreover, previous studies have confirmed that numerous DEGs, for example, AURKA, CDK1, and PLK4, can adjust the cell cycle to influence CC progression. 21 - 23 Many DEGs, such as MCM, PCNA, RFC4, RFC5 are involved in the control of cell cycle by approving DNA replication, which highlights the significance of DNA replication in CC. 24 , 25 It is well known that HPV infection can inhibit the p53-mediated growth arrest. In accordance with this report, we found that the p53 signaling pathway was another critical pathway in the development of CC. 26 Thus, GO and KEGG pathways provide a range of explanations behind the molecular mechanism of CC.
+
+A PPI network was established using 309 DEGs and 68 DEGs were identified as the hub genes. The functional analysis of the hub genes by Metascape indicated that they were mainly enriched in cell cycle, cell cycle phase transition, cell division, and DNA replication. These results were broadly in line with our analysis on DEGs.
+
+To further understand the role of these 68 genes in CC development, we analyzed the expression level of these genes and overall survival of CC patients via GEPIA database. We found that the expression level of RRM2, CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L, RFC4, RFC5, TK1, TOP2A, and TYMS in CC tissues was higher than that in the normal tissues. CC patients with high expression of RRM2 had a lower survival rate than those with low expression, and high expression levels of CDC45, GINS2, HELLS, KNTC1, MCM2, MYBL2, PCNA, RAD54 L, RFC4, RFC5, TK1, TOP2A, and TYMS were related to high survival rate of CC patients. To further clarified the key role of these genes, we verified the qualitative data of protein in CC by HPA too. We found differential positive expression rate of key genes protein in CC sample, both the antibody staining and intensity of key genes protein in CC samples were higher than normal tissue. These results suggested that the expression of these genes was different from that of normal tissues at both mRNA and protein levels, and should play a key role in the development of CC.
+
+RRM2 is for dNDP synthesis by ribonucleotide reductase (RNR). 27 RRM2 is strongly linked to cancer biological pathways. High expression of RRM2 is linked to the invasive ability of cell, tumor angiogenesis, metastasis, and poor prognosis. 28 , 29 RRM2 has been found to activate a variety of oncogenes, including NF-κB, c-Myc, and v-fes. 30 , 31 Wang et al reported that the upregulation of RRM2 expression could promote the development of CC by ROS-ERK1/2-HIF-1α-VEGF-induced angiogenesis. 32 Su et al found that over-expression of RRM2 could lead to poor survival of CC patients. 33 In our study, we found that the patients with high expression of RRM2 had a low survival rate than those with low expression; thus, RRM2 could act as a new therapeutic target for developing treatments of CC.
+
+CDC45, MCM2, and GINS2, a part of the Cdc45-MCM-GINS complex, are important DNA replication genes in oncogenesis. 34 Over-expression of CDC45, MCM2, and GINS2 is reported to occur in the progression of many tumors, including CC. 35 - 38 HELLS, a member of the SNF2 family, is essential for DNA replication, methylation, and repair because of its ATPase activity, and has been found to be conspicuously up-regulated in different type of cancers. 39 - 41 KNTC1 is a gene involved in cell division but has not yet been studied in cancer. 42 MYBL2 (B-Myb) belongs to the MYB family and is a regulator of cell proliferation, cell survival and differentiation, and can be induced by expression of HPV16 E7 protein. 43 , 44 TOP2A is an isoenzyme, which mediates the catalytic activity of type II topoisomerases and can be transactivated by MYBL2. 45 Both TOP2A and MYBL2 were found to be involved in the pathogenesis of CC in different CC cell lines. 46 , 47 PCNA is widely recognized as a cell proliferation marker and is known to be activated by HPV infection in CC. 48 Its main function is DNA replication and repair, and it is considered to be a sign of poor prognosis for a variety of tumors. 49 - 51 RFC4 and RFC5 are members of the RFC family and play important roles in DNA replication and repair. 52 RFC family together with PCNA is an important part of the large loop DNA repair synthesis pathway. 53 RFC4 and RFC5 have been reported to be deregulated in cancer (for example, CC, head, and neck squamous cell carcinomas and prostate cancer) cells and are considered to be a predictor of poor overall survival. 54 - 58 RAD54 L, plays a key role in DNA repair in some cancers; however, this has not been proven in CC. 59 , 60 TK1 has a key function in DNA synthesis and repair. 61 Increased expression of TK1 is found in solid malignancies, and it has been associated with a poor outcome. 62 - 64 TYMS encodes for thymidylate synthase (TS), an enzyme involved in DNA replication and repair. 65 Some studies have proven that TYMS plays a role in cancer, and its expression indicates poor survival rate, but its role has not yet been studied in CC. 66 , 67 The 14 genes identified in this study are considered oncogenes in most tumors, and are indicators of poor prognosis of tumor patients. Some of these genes have also indicated poor prognosis of CC patients. But in our study, high expression of these genes was significantly related to high survival rate of CC patients. The mechanism responsible for this discrepancy in results is unclear; however, the following reasons could be responsible: 1. Zhang et al found that HPV infection might increase DNA repair mechanisms, which could limit the build-up of fatal cell mutations in head and neck carcinomas patients and lead to a better prognosis. 68 However, 2 important KEGG pathways that were found related to the key genes in our study were mismatch repair and nucleotide excision repair. Therefore, we speculated that over-activation of DNA repair mechanisms may responsible for the high survival rate of CC patients. 2. Like the expression of PCNA in breast cancer, high expression of certain genes may have affected the sensitivity to chemotherapy and reduced the risk of death. 69 , 70 3. Small datasets and difference in ethnicity of the patients could also be one of the reasons. Therefore, further exploration is required to elucidate the mechanisms of these genes in CC pathogenesis.
+
+In addition, assisted by the CMAP database, we identified 10 small molecule candidates that could potentially reverse the expression of the overlapping genes in CC patients. PL (enrichment = −0.973) is a natural product extracted from the plant species Piper longum L 71 ; it has a marked cytotoxic effect in numerous cancers, such as breast, colon, head and neck, ovarian, and prostate via multiple signaling pathways. 72 - 76 Seber et al demonstrated that PL could induce the apoptosis of HeLa cells. 77 A previous research suggested that PL induced cell death/apoptosis in breast cancer cells by regulating the members involved in apoptotic and survival pathways, including p53 and its targets. 78 One of the GO enrichment terms for the DEGs identified in this study was the p53 signaling pathway; thus, we speculated that the p53 signaling pathway could be one of the mechanisms used by PL against CC. Further experiments should be performed on CC tissues to test this hypothesis. Chrysin (enrichment = −0.934) is a bioactive flavone widely distributed in plants, and it is used as an herbal medicine in China. Zhang et al demonstrated that chrysin inhibited the growth of HeLa cells by apoptosis induction. 79 Another study indicated that chrysin could induce p38 and activate NF-κB/p65 in the HeLa cells; the MAPK p38 pathway is involved in cell cycle arrest and apoptosis. 80 Another important GO enrichment term found associated with the DEGs was the cell cycle pathway. Therefore, the drugs identified from the CMAP database were consistent with the results of the GO enrichment analysis. These drugs could be used in therapeutic regimen against CC in future. Experiments should be carried out to explore the anti-tumor mechanism of these molecules, which could be a new option for tumor therapy.
+
+Although several articles have been published based on GSE63514 , GSE9750 , and GSE7803 , each article used different tools and explored different issues. Dai et al focused on microRNA and its target gene, Gong et al focused on the effect of propranolol in CC, and the research focus of Kori et al is co expression network. Our major research focus was on the genes that affect the prognosis of CC and the potential therapeutic drugs, and we did find some new genes and drugs. However, this study has several limitations. First, it was a study only based on TCGA database, we should validate the key genes with our own cohort in the future. Second, we should validate which pathways do these key genes work through on the development of cervical cancer. Third, further experiments with piperlongumine and chrysin should perform to confirm which pathway they work with on the treatment of cervical cancer.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+In this study, we identified 14 key genes that were related to the survival rate of CC. We found potential drugs, such as PL and chrysin, which may act effectively against CC. However, the mechanism of these genes and drugs in CC patients is still unclear; further experiments are required to elucidate these mechanisms.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

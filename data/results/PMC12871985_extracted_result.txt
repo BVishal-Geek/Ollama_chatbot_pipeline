@@ -1,0 +1,19 @@
+Source: PMC12871985_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Taurocholic acid induces intrahepatic cholangiocyte cell proliferation via activating NRAS and YAP1",
+  "condition_E": 1,
+  "condition_E_reason": "Public and freely available RNAseq data of cholangiocyte organoids generated from livers of normal and biliary atresia patients at diagnosis and transplant were obtained.",
+  "N_E": 1,
+  "N_E_reason": "Data includes cholangiocyte organoids from normal (n=3), biliary atresia patients at diagnosis (n=5), and transplant (n=6).",
+  "dataset_E": 1,
+  "dataset_E_reason": "RNAseq data is available in GEO database under accession GSE186444.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,19 @@
+Source: PMC8799199_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "NDRG1 was downregulated and worked as favorable biomarker in the development of gastric cancer",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical, transcriptome and methylation data of GC patients was downloaded from TCGA.",
+  "N_E": 1,
+  "N_E_reason": "Thirty adjacent normal and 344 GC samples were obtained in transcriptome data.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

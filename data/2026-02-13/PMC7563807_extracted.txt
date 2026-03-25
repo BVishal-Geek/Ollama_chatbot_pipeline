@@ -1,0 +1,1079 @@
+================================================================================
+ARTICLE TITLE: Circular RNA hsa_Circ_101141 as a Competing Endogenous RNA
+Facilitates Tumorigenesis of Hepatocellular Carcinoma by Regulating
+miR-1297/ROCK1 Pathway
+PMCID: PMC7563807
+PMID: 32787581
+KEYWORDS: circular rna, circ_101141, hepatocellular carcinoma, mir-1297, rock1
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+As a novel class of noncoding RNAs, circular RNAs (circRNAs) have been recently
+reported to be involved in cell development and function. However, the
+functional role of circRNAs in hepatocellular carcinoma (HCC) remains unclear.
+In the present study, we found that the expression of human circ_101141 was
+upregulated in HCC tissues and cells. In addition, downregulation of circ_101141
+dramatically inhibited cell proliferation, migration, and invasion in HCC cells.
+In addition, by using the bioinformatics tools, the potential target of
+circ_101141 was predicted. Mechanistic investigations indicated that circ_101141
+acted as a miR-1297 “sponge”; meanwhile, Rho-associated, coiled-coil-containing
+protein kinase 1 (ROCK1) was a direct target of miR-1297. Further experiments
+demonstrated that circ_101141 contributed to the progression of HCC by acting as
+competing endogenous RNA (ceRNA) of miR-1297 to regulate ROCK1 expression.
+Furthermore, knockdown of circ_101141 attenuated HCC tumorigenesis in vivo.
+Taken together, these findings indicated that circRNA circ_101141 acted as a
+ceRNA to facilitate tumorigenesis of HCC by regulating miR-1297/ROCK1
+pathway.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Hepatocellular carcinoma (HCC) is the most commonly diagnosed type of primary liver
+cancer, which contributes up to 40% of total liver cancer deaths 1 – 3 . Chronic hepatitis B virus or hepatitis C virus infection, excessive alcohol
+consumption, immune-related hepatitis, and obesity are generally considered to be
+major risk factors for HCC 4 , 5 . The molecular pathogenesis of HCC is very complex, including gene mutations,
+chromosomal aberrations, as well as molecular-pathway-related factor alterations 6 – 8 . In recent years, although the survival rate of patients with liver cancer
+has improved, the outcomes of HCC patients remain unsatisfactory due to the delayed
+diagnosis, drug resistance, and high adverse side effects. Therefore, it is
+necessary to explore the new molecular factors and new pathways involved in HCC
+tumorigenesis, which may be specific targets for the treatment of HCC.
+
+Circular RNAs (circRNAs) are a new class of noncoding RNAs that were previously
+considered as a product of abnormal RNA splicing without biological function 9 , 10 . Recently, increasing evidence suggested that circRNAs are able to regulate
+gene expression at the transcriptional or post-transcriptional level by contacting
+with microRNAs (miRNAs) or other molecules 11 – 13 . CircRNAs are mainly present in the cytoplasm and are characterized as a
+covalent closed-loop structure lack of 3′ and 5′ ends, which may act as regulators
+for carcinogenesis in variety of cancers, such as bladder cancer, colorectal cancer,
+gastric cancer, etc. 13 , 14 . In HCC, several circRNAs have been identified to be involved in HCC
+progression. For instance, circRNA-100338 directly interacted with miR-141-3p to
+regulate invasion potential in liver cancer cells 15 . Another study showed that circ_0005986 could inhibit tumorigenesis by
+regulating miR-129-5p 16 . CircRNA cSMARCA5 was able to inhibit the growth and metastasis of HCC by
+regulating miR-17-3p and miR-181b-5p 17 . The above studies indicate that circRNAs may be involved in the development
+of HCC. However, the underlying mechanism of circRNAs in HCC tumorigenesis is not
+completely clear, and further research is still needed.
+
+In published literatures, we found that a specific circRNA called circ_101141 was
+upregulated in acute myeloid leukemia and could target the miR-181 family 18 . To our knowledge, most of the target genes of miR-181 family were involved
+in the tumor pathological process, suggesting that circ_101141 might be an important
+regulator in the tumor development. However, the role and mechanism of circ_101141
+remain unclear in HCC.
+
+Based on this information, our hypothesis is that circ_101141 might be specifically
+enriched in HCC cells and may interact with other molecular factors that participate
+in tumorigenesis. The findings might set a novel sight into pathologic mechanism of
+HCC and provide new therapeutic strategies in future treatment of HCC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The protocols of human studies were approved by the Ethical Committee of The
+First Affiliated Hospital of Xinjiang Medical University (No. 20150402-05). All
+patients enrolled in this study have given their written informed consents prior
+to conduct the clinical research–related procedure. None of these patients had
+received chemotherapy treatment before the surgery. Samples (60 HCC tussles and
+adjacent paired nontumor tissues) were collected from The First Affiliated
+Hospital of Xinjiang Medical University. These fresh tissue samples were stored
+at −80°C for further analysis.
+
+Cell lines used in this study include human HCC cell lines (MHCC97 H, HCCLM3,
+SK-HEP-1, Hep3B, and Huh7), normal human liver cell line (LO2), as well as
+HEK293 cell line, and they were all obtained from American Type Culture
+Collection (ATCC, Manassas, VA, USA). RPMI-1640 medium (Invitrogen, Carlsbad,
+CA, USA) supplemented with 1/10 of fetal bovine serum (FBS) and 1%
+penicillin/streptomycin was used as culture medium. The culture environment
+maintained at 37′°C contains 5% CO 2 .
+
+For cell transfection, short hairpin RNA (shRNA) targeting circ_101141
+(sh1-circRNA and sh2-circRNA) or linear ANAPC7 (sh-ANAPC7) and negative control
+(sh-NC); miR-1297 mimic, inhibitor, and their control plasmids (NC mimic, NC
+inhibitor); plasmid pcDNA3.1 Rho-associated, coiled-coil-containing protein
+kinase 1 (ROCK1); and control vector were purchased from Thermo Fisher
+Scientific (Carlsbad, CA, USA). Transfection of cells was performed using
+Lipofectamine 3000 (Invitrogen) according to the manufacturer’s instructions.
+All cells were harvested 48 h after transfection for further tests.
+
+Total RNAs from human HCC tissue and HCC cells were extracted using TRIzol
+(Invitrogen). Then, extracted RNAs were reverse transcribed into cDNA. In
+addition, for miRNAs, MicroRNA Reverse Transcription Kit (Dalian, Takara
+Biotechnology, Japan) was used to perform reverse transcription. The primers
+used in the current experiments were designed and purchased from Sangon Biotech
+(Shanghai, China), which are listed in Table 1 . Quantitative real-time
+polymerase chain reaction (qRT-PCR) was carried out on ABI 7500 fast PCR System
+(Thermofisher, Carlsbad, CA, USA). For RNase R treatment, 1 unit of RNase R was
+added to digest 1 µg of RNA for 15 min at 37°C. Glyceraldehyde 3-phosphate
+dehydrogenase and U6 applied as internal references for mRNAs and miRNAs,
+respectively. The relative expressions were derived with 2 –ΔΔCT method.
+
+Primers Used in the Present Study.
+
+GAPDH: glyceraldehyde 3-phosphate dehydrogenase; ROCK1: Rho-associated,
+coiled-coil-containing protein kinase 1.
+
+For in situ hybridization (ISH) test, tissue microarray (TMA) was first prepared
+consisted of triplicate 0.6-mm cores using manual tissue microarrayer (Beecher
+Instruments, Sun Prarie, WI, USA). Then, circ_101141 was labeled with
+digoxin-labeled RNA probe (Wuhan, BOSTER, China). The probe sequence was as
+follows: 5′-dig-GGUCCUCUGCUUUUAUGUCAGUUCUCA-3′. After washing with phosphate
+buffered saline, the samples were treated with 0.5% Triton X-100 at 4°C for 5
+min. Next, TMA was hybridized with circ_101141 probe, as well as its positive
+control and NC, followed by incubation with antibody against digoxigenin for 30
+min at 37°C. Afterward, the signal was determined by diaminobenzidine (DAB)
+solution.
+
+For fluorescence in situ hybridization (FISH) assay, a cy3-labeled probe for
+detecting circ_101141 (5′-TCATGCCTGTTTTTGTCCTGTACCAGC-3′) and FAM-labeled probes
+(5′-GTTCCACCAGCATGCCTGCTGA-3′) for detecting miR-1297 were synthesized by
+GenePharma (Shanghai, China). After fixation, cells were incubated with
+prehybridization buffer, and then, hybridization was conducted at 55°C for 2 h.
+Afterwards, the nuclei were stained with 4’,6-diamidino-2-phenylindole (DAPI).
+Images were captured using Leica SP8 laser scanning confocal microscope.
+
+Transfected Hep3B and Huh7 cells (3 × 10 3 per well) were plated onto
+96-well plates. Cell Counting Kit-8 (CCK-8) reagents (ab228554, Abcam,
+Cambridge, UK) and Dulbecco’s modified Eagle medium were added into each well.
+After incubation with these reagents, optical density of cells was measured at
+450′nm at different time points (24, 48, 72, and 96 h).
+
+For 5-ethynyl-2’-deoxyuridine (EdU) assay, KeyFluor647 Click-iT EdU Kit (Keygen,
+Jiangsu, China) was used for our experiments. Hep3B and Huh7 cells were treated
+with culture medium containing 20 μM EdU reagent. Then, cells were incubated in
+an incubator for 2 h; afterward, they were fixed with paraformaldehyde. The
+nuclei were stained with DAPI. The percentage of EdU positive cells were
+quantified and analyzed.
+
+Cell cycle was detected using flow cytometry analysis. Different groups of
+transfected Hep3B and Huh7 cells (1 × 10 6 ) were dissociated with
+0.25% trypsin and fixed with 70% ice-cold ethyl alcohol for 24 h. Next, Cells
+were stained with propidium iodide and treated with RNAse A (0.1 mg/ml, Sigma,
+St. Louis, MO, USA) at 37°C for 30 min, followed by flow cytometry analysis (BD
+Biosciences, Carlsbad, CA, USA).
+
+Different groups of Hep3B and Huh7 cells were seeded into six-well plates. Cell
+monolayer was scratched using a pipette tip. After 24 h, cell movements were
+recorded by an Olympus microscope (100). The percentage of wound closure was
+analyzed using the following formula: (original width − width after
+migration)/original width.
+
+Transwell assay was carried out for detecting cell migration abilities. Briefly,
+a number of 5 × 10 3 cells were seeded into the upper compartments of
+transwell chambers (Corning, New York, NY, USA) and cultured with basal medium
+without FBS, while in the lower chamber, the culture medium was supplemented
+with 10% FBS. The following day, the invaded cells were fixed and stained, and
+then calculated under an Olympus microscope (400).
+
+Total proteins from HCC cells were extracted using radioimmunoprecipitation assay
+lysis buffer and qualified by a bicinchoninic acid assay detecting kit (Thermo
+Fisher Scientific, Waltham, MA, USA). Proteins (20 μg) were boiled at 100°C in
+sodium dodecyl sulfate (SDS) sample buffer for 5 min and separated with
+SDS-polyacrylamide gel electrophoresis and then transferred onto a
+polyvinylidene difluoride membrane. After blocking, membranes were incubated
+with primary anti-ROCK1 (ab134181, Abcam, Cambridge, UK; 1:1,000), anti-cylinD1
+(ab251892, Abcam, 1:500), anti-p21 (ab218311, Abcam, 1:1,000), anti-E-cadherin
+(ab194982, Abcam, 1:500), and anti-MMP2 (ab97779, 1:1,000) antibodies for
+overnight. The following day, secondary anti-rabbit or anti-mouse antibodies
+(ab6940, ab97035, Abcam, 1:2,000) were added and incubated with membranes for 1
+h at room temperature. The captured bands were quantified using Image Lab™
+Software (Bio-Rad, Hercules, California, USA).
+
+The sequence of circ_101141 and the corresponding miR-1297 mutants were cloned
+and inserted into the 3′-untranslated region (3′UTR) of mirGLO vector (Promega,
+Madison, WI, USA). In addition, the fragments from ROCK1 3′UTR containing the
+predicted miR-1297 binding site or the corresponding mutants created by mutating
+the miR-1297 seed region binding site were also cloned into the pmiRGLO vector.
+In six-well plates, HEK293 cells were cotransfected with either wild-type (WT)
+or mutant luciferase reporter vector (2 μg) and either mimic miRNAs or NC. The
+relative luciferase activities were performed in Dual-Luciferase Reporter Assay
+System (Promega, Madison, WI, USA).
+
+RNA Immunoprecipitation (RIP) assay was performed with EZ-Magna RIP™ RNA-Binding
+Protein Immunoprecipitation Kit (Millipore, Billerica, MA, USA). Briefly,
+different groups of Hep3B and Huh7 cells were lysed with RIP lysis buffer; then,
+magnetic beads conjugated with anti-Ago2 antibody or IgG was added. The
+expressions of Circ_101141 and miR-1297 were analyzed by qRT-PCR.
+
+The protocols for animal experiments were approved by the Ethical Committee of
+The First Affiliated Hospital of Xinjiang Medical University (Approval No.
+IACUC-20180225-49). Twelve 5-week-old male BALB/c nude mice (16–20 g) were
+purchased from Charles River (Beijing, China) and kept under sterile-specific
+pathogen-free facility. Hep3B cells (2 × 10 6 ) transfected with
+shRNA-circ_101141 or sh-NC were inoculated subcutaneously in the right flank of
+these mice. The tumor size was monitored every 7 days up to 28 days after
+initial injection. Mice were sacrificed after 4 weeks and tumor weight was then
+weighted.
+
+Expression of ROCK1 and proliferative indicator Ki67 were detected by
+immunohistochemistry (IHC) in tumor tissues from nude mice. Firstly, tissues
+were embedded in paraffin and cut into 4 µm sections. Next, endogenous
+peroxidases were blocked with 3% H 2 O 2 solution for
+avoiding nonspecific binding of primary antibodies. Then, those sections were
+incubated with primary anti-ROCK1 antibody (ab45171, 1:1,000, Abcam, Cambridge,
+MA, UK), anti-Ki67 (ab15580, 1:1,000, Abcam) at 4°C. Twenty-four hours later,
+the secondary anti-rabbit antibody was added and coincubated with sections, and
+then sections were immunostained using DAB plus kit. The images were then
+captured and analyzed.
+
+All cell experiments were independently repeated at least in triplicate. Data
+were presented as mean ± standard deviation and analyzed using SPSS v19.0 (Inc.,
+Chicago, IL). The figures were made by Graph Pad Prism7. Statistical
+significance was determined by the Student’s t -test or one-way
+analysis of variance (ANOVA) test. Tukey honestly significant difference (HSD)
+test was used as post hoc following ANOVA (* P value < 0.05;
+** P < 0.01; *** P < 0.001 considered
+statistically significant). Moreover, Pearson’s correlation coefficient and
+Kaplan–Meier analysis were used for analyzing statistical correlation and
+survival curves, respectively.
+
+
+Tumor Sample Collection
+
+The protocols of human studies were approved by the Ethical Committee of The
+First Affiliated Hospital of Xinjiang Medical University (No. 20150402-05). All
+patients enrolled in this study have given their written informed consents prior
+to conduct the clinical research–related procedure. None of these patients had
+received chemotherapy treatment before the surgery. Samples (60 HCC tussles and
+adjacent paired nontumor tissues) were collected from The First Affiliated
+Hospital of Xinjiang Medical University. These fresh tissue samples were stored
+at −80°C for further analysis.
+
+
+Cell Culture and Transfection
+
+Cell lines used in this study include human HCC cell lines (MHCC97 H, HCCLM3,
+SK-HEP-1, Hep3B, and Huh7), normal human liver cell line (LO2), as well as
+HEK293 cell line, and they were all obtained from American Type Culture
+Collection (ATCC, Manassas, VA, USA). RPMI-1640 medium (Invitrogen, Carlsbad,
+CA, USA) supplemented with 1/10 of fetal bovine serum (FBS) and 1%
+penicillin/streptomycin was used as culture medium. The culture environment
+maintained at 37′°C contains 5% CO 2 .
+
+For cell transfection, short hairpin RNA (shRNA) targeting circ_101141
+(sh1-circRNA and sh2-circRNA) or linear ANAPC7 (sh-ANAPC7) and negative control
+(sh-NC); miR-1297 mimic, inhibitor, and their control plasmids (NC mimic, NC
+inhibitor); plasmid pcDNA3.1 Rho-associated, coiled-coil-containing protein
+kinase 1 (ROCK1); and control vector were purchased from Thermo Fisher
+Scientific (Carlsbad, CA, USA). Transfection of cells was performed using
+Lipofectamine 3000 (Invitrogen) according to the manufacturer’s instructions.
+All cells were harvested 48 h after transfection for further tests.
+
+
+Quantitative Real-Time Polymerase Chain Reaction and RNase R
+Treatment
+
+Total RNAs from human HCC tissue and HCC cells were extracted using TRIzol
+(Invitrogen). Then, extracted RNAs were reverse transcribed into cDNA. In
+addition, for miRNAs, MicroRNA Reverse Transcription Kit (Dalian, Takara
+Biotechnology, Japan) was used to perform reverse transcription. The primers
+used in the current experiments were designed and purchased from Sangon Biotech
+(Shanghai, China), which are listed in Table 1 . Quantitative real-time
+polymerase chain reaction (qRT-PCR) was carried out on ABI 7500 fast PCR System
+(Thermofisher, Carlsbad, CA, USA). For RNase R treatment, 1 unit of RNase R was
+added to digest 1 µg of RNA for 15 min at 37°C. Glyceraldehyde 3-phosphate
+dehydrogenase and U6 applied as internal references for mRNAs and miRNAs,
+respectively. The relative expressions were derived with 2 –ΔΔCT method.
+
+Primers Used in the Present Study.
+
+GAPDH: glyceraldehyde 3-phosphate dehydrogenase; ROCK1: Rho-associated,
+coiled-coil-containing protein kinase 1.
+
+
+In Situ Hybridization and Fluorescence In Situ Hybridization
+
+For in situ hybridization (ISH) test, tissue microarray (TMA) was first prepared
+consisted of triplicate 0.6-mm cores using manual tissue microarrayer (Beecher
+Instruments, Sun Prarie, WI, USA). Then, circ_101141 was labeled with
+digoxin-labeled RNA probe (Wuhan, BOSTER, China). The probe sequence was as
+follows: 5′-dig-GGUCCUCUGCUUUUAUGUCAGUUCUCA-3′. After washing with phosphate
+buffered saline, the samples were treated with 0.5% Triton X-100 at 4°C for 5
+min. Next, TMA was hybridized with circ_101141 probe, as well as its positive
+control and NC, followed by incubation with antibody against digoxigenin for 30
+min at 37°C. Afterward, the signal was determined by diaminobenzidine (DAB)
+solution.
+
+For fluorescence in situ hybridization (FISH) assay, a cy3-labeled probe for
+detecting circ_101141 (5′-TCATGCCTGTTTTTGTCCTGTACCAGC-3′) and FAM-labeled probes
+(5′-GTTCCACCAGCATGCCTGCTGA-3′) for detecting miR-1297 were synthesized by
+GenePharma (Shanghai, China). After fixation, cells were incubated with
+prehybridization buffer, and then, hybridization was conducted at 55°C for 2 h.
+Afterwards, the nuclei were stained with 4’,6-diamidino-2-phenylindole (DAPI).
+Images were captured using Leica SP8 laser scanning confocal microscope.
+
+
+Cell Counting Kit-8 Assay
+
+Transfected Hep3B and Huh7 cells (3 × 10 3 per well) were plated onto
+96-well plates. Cell Counting Kit-8 (CCK-8) reagents (ab228554, Abcam,
+Cambridge, UK) and Dulbecco’s modified Eagle medium were added into each well.
+After incubation with these reagents, optical density of cells was measured at
+450′nm at different time points (24, 48, 72, and 96 h).
+
+
+EdU Assay
+
+For 5-ethynyl-2’-deoxyuridine (EdU) assay, KeyFluor647 Click-iT EdU Kit (Keygen,
+Jiangsu, China) was used for our experiments. Hep3B and Huh7 cells were treated
+with culture medium containing 20 μM EdU reagent. Then, cells were incubated in
+an incubator for 2 h; afterward, they were fixed with paraformaldehyde. The
+nuclei were stained with DAPI. The percentage of EdU positive cells were
+quantified and analyzed.
+
+
+Cell Cycle Detection
+
+Cell cycle was detected using flow cytometry analysis. Different groups of
+transfected Hep3B and Huh7 cells (1 × 10 6 ) were dissociated with
+0.25% trypsin and fixed with 70% ice-cold ethyl alcohol for 24 h. Next, Cells
+were stained with propidium iodide and treated with RNAse A (0.1 mg/ml, Sigma,
+St. Louis, MO, USA) at 37°C for 30 min, followed by flow cytometry analysis (BD
+Biosciences, Carlsbad, CA, USA).
+
+
+Wound-Healing Assay
+
+Different groups of Hep3B and Huh7 cells were seeded into six-well plates. Cell
+monolayer was scratched using a pipette tip. After 24 h, cell movements were
+recorded by an Olympus microscope (100). The percentage of wound closure was
+analyzed using the following formula: (original width − width after
+migration)/original width.
+
+
+Transwell Assay
+
+Transwell assay was carried out for detecting cell migration abilities. Briefly,
+a number of 5 × 10 3 cells were seeded into the upper compartments of
+transwell chambers (Corning, New York, NY, USA) and cultured with basal medium
+without FBS, while in the lower chamber, the culture medium was supplemented
+with 10% FBS. The following day, the invaded cells were fixed and stained, and
+then calculated under an Olympus microscope (400).
+
+
+Western Blot Assay
+
+Total proteins from HCC cells were extracted using radioimmunoprecipitation assay
+lysis buffer and qualified by a bicinchoninic acid assay detecting kit (Thermo
+Fisher Scientific, Waltham, MA, USA). Proteins (20 μg) were boiled at 100°C in
+sodium dodecyl sulfate (SDS) sample buffer for 5 min and separated with
+SDS-polyacrylamide gel electrophoresis and then transferred onto a
+polyvinylidene difluoride membrane. After blocking, membranes were incubated
+with primary anti-ROCK1 (ab134181, Abcam, Cambridge, UK; 1:1,000), anti-cylinD1
+(ab251892, Abcam, 1:500), anti-p21 (ab218311, Abcam, 1:1,000), anti-E-cadherin
+(ab194982, Abcam, 1:500), and anti-MMP2 (ab97779, 1:1,000) antibodies for
+overnight. The following day, secondary anti-rabbit or anti-mouse antibodies
+(ab6940, ab97035, Abcam, 1:2,000) were added and incubated with membranes for 1
+h at room temperature. The captured bands were quantified using Image Lab™
+Software (Bio-Rad, Hercules, California, USA).
+
+
+Dual-Luciferase Reporter Assay
+
+The sequence of circ_101141 and the corresponding miR-1297 mutants were cloned
+and inserted into the 3′-untranslated region (3′UTR) of mirGLO vector (Promega,
+Madison, WI, USA). In addition, the fragments from ROCK1 3′UTR containing the
+predicted miR-1297 binding site or the corresponding mutants created by mutating
+the miR-1297 seed region binding site were also cloned into the pmiRGLO vector.
+In six-well plates, HEK293 cells were cotransfected with either wild-type (WT)
+or mutant luciferase reporter vector (2 μg) and either mimic miRNAs or NC. The
+relative luciferase activities were performed in Dual-Luciferase Reporter Assay
+System (Promega, Madison, WI, USA).
+
+
+RNA Immunoprecipitation Assay
+
+RNA Immunoprecipitation (RIP) assay was performed with EZ-Magna RIP™ RNA-Binding
+Protein Immunoprecipitation Kit (Millipore, Billerica, MA, USA). Briefly,
+different groups of Hep3B and Huh7 cells were lysed with RIP lysis buffer; then,
+magnetic beads conjugated with anti-Ago2 antibody or IgG was added. The
+expressions of Circ_101141 and miR-1297 were analyzed by qRT-PCR.
+
+
+Tumor Xenograft Experiments
+
+The protocols for animal experiments were approved by the Ethical Committee of
+The First Affiliated Hospital of Xinjiang Medical University (Approval No.
+IACUC-20180225-49). Twelve 5-week-old male BALB/c nude mice (16–20 g) were
+purchased from Charles River (Beijing, China) and kept under sterile-specific
+pathogen-free facility. Hep3B cells (2 × 10 6 ) transfected with
+shRNA-circ_101141 or sh-NC were inoculated subcutaneously in the right flank of
+these mice. The tumor size was monitored every 7 days up to 28 days after
+initial injection. Mice were sacrificed after 4 weeks and tumor weight was then
+weighted.
+
+
+Immunohistochemistry
+
+Expression of ROCK1 and proliferative indicator Ki67 were detected by
+immunohistochemistry (IHC) in tumor tissues from nude mice. Firstly, tissues
+were embedded in paraffin and cut into 4 µm sections. Next, endogenous
+peroxidases were blocked with 3% H 2 O 2 solution for
+avoiding nonspecific binding of primary antibodies. Then, those sections were
+incubated with primary anti-ROCK1 antibody (ab45171, 1:1,000, Abcam, Cambridge,
+MA, UK), anti-Ki67 (ab15580, 1:1,000, Abcam) at 4°C. Twenty-four hours later,
+the secondary anti-rabbit antibody was added and coincubated with sections, and
+then sections were immunostained using DAB plus kit. The images were then
+captured and analyzed.
+
+
+Statistical Analysis
+
+All cell experiments were independently repeated at least in triplicate. Data
+were presented as mean ± standard deviation and analyzed using SPSS v19.0 (Inc.,
+Chicago, IL). The figures were made by Graph Pad Prism7. Statistical
+significance was determined by the Student’s t -test or one-way
+analysis of variance (ANOVA) test. Tukey honestly significant difference (HSD)
+test was used as post hoc following ANOVA (* P value < 0.05;
+** P < 0.01; *** P < 0.001 considered
+statistically significant). Moreover, Pearson’s correlation coefficient and
+Kaplan–Meier analysis were used for analyzing statistical correlation and
+survival curves, respectively.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+In our pre-analysis of GEO data (No. GSE94508 , GSE97332 ), we found that
+hsa_circRNA_101141 was one of the upregulated circRNAs in HCC. Thus, the
+expression of circ_101141 was supposed to be upregulated in HCC. To confirm this
+hypothesis, we detected the expression of circ_101141 in HCC tissue and normal
+tissue using qRT-PCR. The results showed that the expression of circ_101141 was
+markedly upregulated in HCC tissues ( P < 0.01, Fig. 1A ) compared with
+adjacent normal tissue. Moreover, in ISH image with ×40 and ×100 magnification,
+we found that the expression of circ_101141 was significantly higher in HCC
+tissues compared with nontumor tissue ( P < 0.01, Fig. 1B ). In addition,
+correlation analysis showed that the expression of circ_101141 was related with
+lower overall survival rate ( P = 0.0427, Fig. 1C ). Moreover, we conducted the in
+vitro experiments, and the expression of circ_101141 was determined in different
+cell lines including normal liver cell line (LO2) and HCC cell lines (MHCC97 H,
+HCCLM3, SK-HEP-1, Hep3B, and Huh7). The results demonstrated that the expression
+of circ_101141 was significantly increased in all HCC cell lines (MHCC97 H,
+HCCLM3, SK-HEP-1, Hep3B, and Huh7) ( P < 0.01, Fig. 1D ), especially
+higher in Hep3B and Huh7 cell lines. Therefore, we selected Hep3B and Huh7 for
+further experiments. Furthermore, we found linear ANAPC7 but not circRNA ANAPC7
+(circ_101141) was degraded by Rnase R in Hep3B and Huh7 cell lines
+( P < 0.01, Fig. 1E ). Finally, we examined the
+expression of circ_101141 in nuclear and cytoplasm in Hep3B and Huh7 cell lines,
+respectively. The results showed that circ_101141 expressed not only in nuclear
+but also in cytoplasm. Moreover, in the cytoplasm, the percentage of circular
+ANAPC7 (circ_101141) was higher than linear RNA ANAPC7 ( P <
+0.01, Fig. 1F ). Taken
+the above results together, we concluded that circular circ_101141 was highly
+expressed in HCC tissues and cells, and it was mainly expressed in cell
+cytoplasm.
+
+The expression of circ_101141 was detected in HCC tissues and cells. (A)
+The expression of circ_101141 in 60 pairs of HCC tissues and normal
+tissues was detected by qRT-PCR. (B) ISH test was conducted to detect
+the expression of circ_101141 in HCC tissues and normal tissues (with
+×40 and ×100 magnification). (C) The overall survival curves of HCC
+patients with low and high circ_101141 expression based on median
+circ_101141 value. (D) qRT-PCR was used to assess the expression of
+circ_101141 in normal human liver cell line (LO2) and HCC cell lines
+(MHCC97 H, HCCLM3, SK-HEP-1, Hep3B, and Huh7). (E) qRT-PCR analysis of
+linear ANAPC7 mRNA and circ_101141 in Hep3B and Huh7 cells treated with
+Rnase R. (F) The expression of linear ANAPC7 mRNA and circ_101141 in
+Hep3B and Huh7 cells was determined in nuclear and cytoplasm,
+respectively. Statistical significance was determined by the Student’s t -test or one-way ANOVA. Data were expressed as
+mean ± SD. ** P < 0.01 represent statistically
+difference. HCC: hepatocellular carcinoma; ISH: in situ hybridization;
+qRT-PCR: quantitative real-time polymerase chain reaction; SD: standard
+deviation.
+
+To further investigate the biofunctional role of circ_101141 in HCC, we conducted
+a series of loss-of-function experiments. At the very beginning, two shRNAs for
+circ_101141 (sh1-circRNA and sh2-circRNA) and one shRNA for linear ANAPC7
+(sh-ANAPC7) were checked for their knockdown efficiency in Hep3B and Huh7 cells.
+As shown in Fig. 2A ,
+both sh1-circRNA and sh2-circRNA were able to specifically knockdown
+circ_101141, not linear ANAPC7 in HCC cell lines, indicating that the present
+knockdown system can be used in further experiments. Furthermore, because of
+better knockdown efficiency, sh1-circRNA was chosen for further experiments
+( P < 0.01, Fig. 2A ). CCK-8 assay demonstrated that
+downregulation of circ-101141 with sh1-circRNA significantly suppressed
+proliferation vitality of Hep3B and Huh7 cells in a time-dependent manner
+( P < 0.05, P < 0.01, Fig. 2B ). Colony formation
+assay implied that knockdown of circ_101141 decreased the clone number of HCC
+cells ( P < 0.05, P < 0.01, Fig. 2C ). Furthermore, the
+percentage of EdU positive cell was lower in sh1-circRNA group, suggesting that
+knockdown of circ_101141 could inhibit proliferation of HCC cells
+( P < 0.01, Fig. 2D ). Utilizing flow cytometry, we
+found that interference of circ_101141 partially blocked cell cycle in G1 phase
+( P < 0.05, P < 0.01, Fig. 2E ).
+
+Knockdown of circ_101141 suppressed cell proliferation in Hep3 and Huh7
+cells. (A) The expression level of circ_101141 was measured by qRT-PCR
+in Hep3 and Huh7 cells transfected with shRNAs (sh1-circRNA,
+sh2-circRNA, and sh-ANAPC7). (B) The proliferation of Hep3 and Huh7
+cells that were transfected with sh1-circRNA or sh-NC was examined in
+different time points (0, 24, 48, 72, and 96 h). (C) Colony formation
+assay was conducted in Hep3 and Huh7 cells that were transfected with
+sh1-circRNA or sh-NC. (D) Proliferation was detected in Hep3 and Huh7
+cells transfected with sh1-circRNA or sh-NC by EdU assay. (E) Cell cycle
+was determined in Hep3 and Huh7 cells transfected with sh1-circRNA or
+sh-NC by flow cytometry assay. Statistical significance was determined
+by the Student’s t -test or one-way ANOVA. Data were
+expressed as mean ± SD. * P < 0.05,
+** P < 0.01 represent statistically difference.
+ANOVA: analysis of variance; NC: negative control; qRT-PCR: quantitative
+real-time polymerase chain reaction.
+
+Wound-healing assay results demonstrated that knockdown of circ_101141 exhibited
+a slower closing of scratch wound compared with control. The migration rate was
+reduced nearly 20% in sh1-circRNA group compared with sh-NC group
+( P < 0.05, Fig. 3A ). Transwell assay showed that
+transfection with sh1-circRNA suppressed the invasion rate of Hep3B and Huh7
+cells compared with sh-NC group ( P < 0.05, P < 0.01, Fig. 3B ). Overall, these data suggested
+that downregulation of circ_101141 inhibited cell proliferation, migration, and
+invasion in HCC cell lines.
+
+Knockdown of circ_101141 inhibited cell migration and invasion in Hep3
+and Huh7 cells. (A) The effect of knockdown of circ_101141 on the
+migration ability of Hep3 and Huh7 cells was determined by wound-healing
+assay. (B) Transwell assay was conducted to determine the effect of
+circ_101141 on invasion ability of Hep3 and Huh7 cells. Statistical
+significance was determined by the Student’s t -test.
+Data were expressed as mean ± SD. * P < 0.05,
+** P < 0.01, represent statistically difference.
+SD: standard deviation.
+
+In the recent years, accumulating evidence has suggested that miRNAs play as
+critical modulators to participate in action of other noncoding RNAs. To further
+explore the underlying mechanism, we used bioinformatics tool to predict the
+potential target of circ_101141 (starbase: http://starbase.sysu.edu.cn/ ). Fig. 4A shows the potential target of
+circ_101141 called miR-1297 and its potential binding site. Then, circ_101141 WT
+luciferase plasmids and mutated version (MUT) which containing the potential
+miR-1297 binding sites or miR-NC was generated. As shown in Fig. 4B , the results of dual-luciferase
+reporter assay demonstrated that miR-1297 was a direct target of circ_101141
+( P < 0.01, Fig. 4B ). Furthermore, result from RIP
+assay confirmed that endogenous level of miR-1297 was specifically increased in
+cells transfected with circ_101141 overexpression plasmid in AGO2 cargo
+( P < 0.01, Fig. 4C ). Subsequently, FISH test was
+performed to determine the colocalization of circ_101141 and miR-1297. As shown
+in Fig. 4D , both two
+factors were expressed in the cytoplasm of HCC cells. Moreover, the expression
+of miR-1297 was identified in HCC cells, which transfected with sh1-circRNA or
+control plasmids (sh-NC). The data revealed that circ_101141 is negatively
+targeted by miR-1297 ( P < 0.01, Fig. 4E ). Meantime, the expression of
+miR-1297 was much lower in HCC tumor tissue compared with normal tissue
+( P < 0.01, Fig. 4F ). Pearson’s correlation analysis
+showed that the expression of circ_101141 and miR-1297 exhibited a dramatically
+negative correlation ( Fig.
+4G ) ( r = −0.6620, P < 0.001).
+These data suggested that circ_101141 may act as a miR-1297 “sponge.”
+
+Circ_101141 inversely interacted with miR-1297. (A) Circ_101141 wide-type
+(WT) and the mutated-type (MUT) in the miR-1297 binding sites were
+shown. (B) Luciferase activity of HEK293 T cells cotransfected with
+miR-1297 mimics or NC mimics and luciferase reporters containing
+circ_101141 WT or MUT were detected. (C) Endogenous miR-1297
+precipitated by AGO2 upon overexpression of circ_101141 were determined
+by RIP assay in HCC cells. (D) The colocalization of circ_101141 and
+miR-1297 was determined by FISH assay. (E) The expression of miR-1297
+was detected in different groups by qRT-PCR. (F) The expression of
+miR-1297 was detected in tumor tissues and nontumor tissues by qRT-PCR.
+(G) The correlation between circ_101141 and miR-1297 was analyzed.
+Statistical significance was determined by the Student’s t -test or one-way ANOVA. Data were expressed as
+mean ± SD. ** P < 0.01, represent statistically
+difference. ANOVA: analysis of variance; FISH: fluorescence in situ
+hybridization; HCC: hepatocellular carcinoma; RIP: RNA
+immunoprecipitation; qRT-PCR: quantitative real-time polymerase chain
+reaction; SD: standard deviation.
+
+To further explore the underlying mechanism of circ_101141 and miR-1297 in HCC,
+we tried to find out the direct target of miR-1297. Among the putative targets,
+we focused on ROCK1, which mediates the expression of a variety of genes in
+response to HCC cell functions. The binding site of ROCK1 and miR-1297 was shown
+in Fig. 5A .
+Subsequently, luciferase reporter assay was performed in HEK 293 cells, which
+were cotransfected with miR-1297 mimics or NC mimics and ROCK1 3′-UTR WT or
+ROCK1 3′-UTR MUT transcript. The results indicated that ROCK1 was a target of
+miR-1297 ( P < 0.01, Fig. 5B ). Then, the expression of mRNA
+and protein of ROCK1 were detected in Hep3B and Huh7 cells transfected with
+miR-1297 mimic, miR-NC, miR-1297 inhibitor, or inhibitor-NC. As shown in Fig. 5C, D , the expression
+of mRNA and protein of ROCK1 was highly suppressed by overexpression of
+miR-2197, while increased by miR-1297 inhibitor, suggesting that the expression
+of ROCK1 was negatively regulated by expression of miR-1297 ( P < 0.05, P < 0.01). Further, the mRNA and protein
+expression levels of ROCK1 were also determined in HCC tumor tissue and nontumor
+tissues. The results showed that both mRNA and protein expression of ROCK1 were
+higher in HCC tissues compared with normal tissue ( P < 0.01, Fig. 5E, F ). In
+addition, correlation analysis showed that the expression level of ROCK1 was
+positively correlated with expression of circ_101141 ( r =
+0.6460, P < 0.001), while negatively correlated with
+expression of miR-1297 ( r = −0.6256, P <
+0.001, Fig. 5G ).
+Collectively, these data indicate that ROCK1 was a direct target of
+miR-1297.
+
+ROCK1 was a direct target of miR-1297. (A) ROCK1 wide-type (WT) and the
+mutated-type (MUT) in the miR-1297 binding sites were shown. (B)
+Luciferase activity of HEK293 T cells cotransfected with miR-1297 mimics
+or NC mimics and luciferase reporters containing ROCK1 WT or MUT were
+detected. (C and D) The expression of ROCK1 mRNA and protein level were
+determined by qRT-PCR and western blot in HCC cells that were
+transfected with miR-1297 mimic, miR-NC, miR-1297 inhibitor, or
+inhibitor-NC. (E and F) The ROCK1 mRNA and protein expression levels
+were determined by qRT-PCR and western blot in HCC tissues and nontumor
+tissues. (G) The correlation between ROCK1 and circ_101141 or miR-1297
+was analyzed. Statistical significance was determined by the Student’s t -test or one-way ANOVA. Data were expressed as
+mean ± SD. * P < 0.05, ** P <
+0.01, *** P < 0.001 represent statistically
+difference. ANOVA: analysis of variance; HCC: hepatocellular carcinoma;
+NC: negative control; qRT-PCR: quantitative real-time polymerase chain
+reaction; ROCK1: Rho-associated, coiled-coil-containing protein kinase
+1; SD: standard deviation.
+
+Given that circ_101141 plays a role in regulating HCC cell proliferation,
+migration, and invasion, meanwhile, it was directly interacted with miR-1297, we
+hypnotized that circ_101141 might exert its role in regulating cell
+proliferation, migration, and invasion via targeting miR-1297 and maybe further
+influence the expression of ROCK1. To this end, we first detected the expression
+of ROCK1 mRNA in three different groups (sh-NC + inh-NC, sh1-circRNA + inh-NC,
+and sh1-circRNA + miR-1297 inh), and the results showed that the expression of
+ROCK1 mRNA was downregulated by knockdown of circ_101141, while this effect was
+reversed by inhibiting miR-1297 ( P < 0.01, Fig. 6A ). Further, a
+series of gain-of-function and loss-of-function experiments were conducted in
+Hep3B and Huh7 cells that were cotransfected with sh1-circRNA or sh-NC and
+plasmid pcDNA3.1 ROCK1 or control vector. Then, in transfected Hep3B and Huh7
+cells, the proliferation ability, cell cycle, cell migration, and invasion
+abilities were determined by CCK-8 assay, flow cytometry assay, wound-healing
+assay, and transwell assay, respectively. As shown in Fig. 6B–E , interference of circ_101141
+markedly inhibited the proliferation, cell cycle, cell migration, and invasion
+abilities of Hep3B and Huh7 cells ( P < 0.05, P < 0.01). However, these effects were abolished by
+overexpression of ROCK1 ( P < 0.05, P <
+0.01). In addition, the protein level of ROCK1 as well as biomarkers for cell
+cycle (cylinD1, p21), cell migration, and invasion (E-cadherin MMP2) were
+determined by western blot in different groups of HCC cells. As shown in Fig. 6F , level of cylinD1,
+MMP2 were down-regulated, p21 and E-cadherin were up-regulated in circ_101141
+inhibited group, however, overexpression of ROCK1 reversed these effects
+( P < 0.05, P < 0.01, Fig. 6F ). These results
+indicated that circ_101141 could promote HCC progression by acting as competing
+endogenous RNA (ceRNA) of miR-1297 to regulate ROCK1 expression.
+
+Circ_101141 promoted HCC progression by acting as ceRNA of miR-1297 to
+regulate ROCK1 expression. (A) The protein level of ROCK1 was determined
+in HCC cells cotransfected with sh1-circRNA or sh-NC and miR-1297
+inhibitor or control NC. (B–E) CCK-8 assay, flow cytometry assay,
+wound-healing assay, and transwell assay were conducted in Hep3 and Huh7
+cells that were cotransfected with sh1-circRNA or sh-NC and plasmid
+pcDNA3.1 ROCK1 or control vector. (F) The protein level of ROCK1,
+biomarkers for cell cycle (cylinD1, p21), cell migration, and invasion
+(E-cadherin MMP2) were determined by western blot in different groups of
+HCC cells. Statistical significance was determined by the Student’s t -test or one-way ANOVA. Data were expressed as
+mean ± SD. ** P < 0.05, ** P <
+0.01, *** P < 0.001 represent statistically
+difference. ANOVA: analysis of variance; ceRNA: competing endogenous
+RNA; HCC: hepatocellular carcinoma; NC: negative control; qRT-PCR:
+quantitative real-time polymerase chain reaction; ROCK1: Rho-associated,
+coiled-coil-containing protein kinase 1; SD: standard deviation.
+
+Finally, the effect of circ_101141 on tumorigenesis in vivo was determined using
+orthotopic xenograft mouse models. Briefly, male BALB/c nude mice
+( n = 6 each group) were implanted with a total amount of 5
+× 10 6 Hep3B cells that were transfected with shRNA-circ_101141 or
+sh-NC by subcutaneous inoculation. Then, the expression of circRNA_101141 and
+miR-1297 was examined in both groups. As shown in Fig. 7A , compared with control group, the
+expression of circRNA_101141 was significantly downregulated in
+shRNA-circ_101141 group, while miR-1297 was upregulated ( P <
+0.01). For the tumor volume (measured every 7 days, up to 28 days) and tumor
+weight, as shown in Fig. 7B,
+C , the tumor volume and weight were dramatically reduced in
+circRNA_101141 shRNA treated group compared with sh-NC group ( P < 0.05, P < 0.01). hematoxylin-eosin (HE) staining of
+tumor tissues in each group demonstrated that circRNA_101141 shRNA group had
+less tumor feature than control group ( Fig. 7D ). Moreover, the expression of
+ROCK1 and proliferative indicator Ki67 were detected in each group by IHC assay.
+The results demonstrated that the level of ROCK1 and Ki67 exhibited relatively
+low expression in shRNA circRNA_101141 group ( Fig. 7E ). These results revealed that
+knockdown of circ_101141 inhibited HCC tumorigenesis in vivo.
+
+Knockdown of circ_101141 attenuates HCC tumorigenesis in vivo. (A) The
+expression of circ_101141 and miR-1297 was tested in mice inoculated
+with Hep3B cells transfected with shcircRNA or sh-NC plasmid. (B) Tumors
+were harvested in day 28. (C) Tumor volume was measured every 7 days
+after the initial injection and up to 28 days. Tumor weight was measured
+after tumors were harvested. (D) HE staining was conducted in different
+groups (shcircRNA and sh-NC). (E) The expression of proliferation marker
+Ki67 and ROCK1 was detected by IHC assay. Statistical significance was
+determined by the Student’s t -test. Data were expressed
+as mean ± SD. ** P < 0.01 represent statistically
+difference. HCC: hepatocellular carcinoma; NC: negative control; ROCK1:
+Rho-associated, coiled-coil-containing protein kinase 1; SD: standard
+deviation.
+
+
+Circ_101141 was Highly Expressed in HCC Tissues and Cells
+
+In our pre-analysis of GEO data (No. GSE94508 , GSE97332 ), we found that
+hsa_circRNA_101141 was one of the upregulated circRNAs in HCC. Thus, the
+expression of circ_101141 was supposed to be upregulated in HCC. To confirm this
+hypothesis, we detected the expression of circ_101141 in HCC tissue and normal
+tissue using qRT-PCR. The results showed that the expression of circ_101141 was
+markedly upregulated in HCC tissues ( P < 0.01, Fig. 1A ) compared with
+adjacent normal tissue. Moreover, in ISH image with ×40 and ×100 magnification,
+we found that the expression of circ_101141 was significantly higher in HCC
+tissues compared with nontumor tissue ( P < 0.01, Fig. 1B ). In addition,
+correlation analysis showed that the expression of circ_101141 was related with
+lower overall survival rate ( P = 0.0427, Fig. 1C ). Moreover, we conducted the in
+vitro experiments, and the expression of circ_101141 was determined in different
+cell lines including normal liver cell line (LO2) and HCC cell lines (MHCC97 H,
+HCCLM3, SK-HEP-1, Hep3B, and Huh7). The results demonstrated that the expression
+of circ_101141 was significantly increased in all HCC cell lines (MHCC97 H,
+HCCLM3, SK-HEP-1, Hep3B, and Huh7) ( P < 0.01, Fig. 1D ), especially
+higher in Hep3B and Huh7 cell lines. Therefore, we selected Hep3B and Huh7 for
+further experiments. Furthermore, we found linear ANAPC7 but not circRNA ANAPC7
+(circ_101141) was degraded by Rnase R in Hep3B and Huh7 cell lines
+( P < 0.01, Fig. 1E ). Finally, we examined the
+expression of circ_101141 in nuclear and cytoplasm in Hep3B and Huh7 cell lines,
+respectively. The results showed that circ_101141 expressed not only in nuclear
+but also in cytoplasm. Moreover, in the cytoplasm, the percentage of circular
+ANAPC7 (circ_101141) was higher than linear RNA ANAPC7 ( P <
+0.01, Fig. 1F ). Taken
+the above results together, we concluded that circular circ_101141 was highly
+expressed in HCC tissues and cells, and it was mainly expressed in cell
+cytoplasm.
+
+The expression of circ_101141 was detected in HCC tissues and cells. (A)
+The expression of circ_101141 in 60 pairs of HCC tissues and normal
+tissues was detected by qRT-PCR. (B) ISH test was conducted to detect
+the expression of circ_101141 in HCC tissues and normal tissues (with
+×40 and ×100 magnification). (C) The overall survival curves of HCC
+patients with low and high circ_101141 expression based on median
+circ_101141 value. (D) qRT-PCR was used to assess the expression of
+circ_101141 in normal human liver cell line (LO2) and HCC cell lines
+(MHCC97 H, HCCLM3, SK-HEP-1, Hep3B, and Huh7). (E) qRT-PCR analysis of
+linear ANAPC7 mRNA and circ_101141 in Hep3B and Huh7 cells treated with
+Rnase R. (F) The expression of linear ANAPC7 mRNA and circ_101141 in
+Hep3B and Huh7 cells was determined in nuclear and cytoplasm,
+respectively. Statistical significance was determined by the Student’s t -test or one-way ANOVA. Data were expressed as
+mean ± SD. ** P < 0.01 represent statistically
+difference. HCC: hepatocellular carcinoma; ISH: in situ hybridization;
+qRT-PCR: quantitative real-time polymerase chain reaction; SD: standard
+deviation.
+
+
+Downregulation of Circ_101141 Suppressed Cell Proliferation, Migration, and
+Invasion in HCC Cells
+
+To further investigate the biofunctional role of circ_101141 in HCC, we conducted
+a series of loss-of-function experiments. At the very beginning, two shRNAs for
+circ_101141 (sh1-circRNA and sh2-circRNA) and one shRNA for linear ANAPC7
+(sh-ANAPC7) were checked for their knockdown efficiency in Hep3B and Huh7 cells.
+As shown in Fig. 2A ,
+both sh1-circRNA and sh2-circRNA were able to specifically knockdown
+circ_101141, not linear ANAPC7 in HCC cell lines, indicating that the present
+knockdown system can be used in further experiments. Furthermore, because of
+better knockdown efficiency, sh1-circRNA was chosen for further experiments
+( P < 0.01, Fig. 2A ). CCK-8 assay demonstrated that
+downregulation of circ-101141 with sh1-circRNA significantly suppressed
+proliferation vitality of Hep3B and Huh7 cells in a time-dependent manner
+( P < 0.05, P < 0.01, Fig. 2B ). Colony formation
+assay implied that knockdown of circ_101141 decreased the clone number of HCC
+cells ( P < 0.05, P < 0.01, Fig. 2C ). Furthermore, the
+percentage of EdU positive cell was lower in sh1-circRNA group, suggesting that
+knockdown of circ_101141 could inhibit proliferation of HCC cells
+( P < 0.01, Fig. 2D ). Utilizing flow cytometry, we
+found that interference of circ_101141 partially blocked cell cycle in G1 phase
+( P < 0.05, P < 0.01, Fig. 2E ).
+
+Knockdown of circ_101141 suppressed cell proliferation in Hep3 and Huh7
+cells. (A) The expression level of circ_101141 was measured by qRT-PCR
+in Hep3 and Huh7 cells transfected with shRNAs (sh1-circRNA,
+sh2-circRNA, and sh-ANAPC7). (B) The proliferation of Hep3 and Huh7
+cells that were transfected with sh1-circRNA or sh-NC was examined in
+different time points (0, 24, 48, 72, and 96 h). (C) Colony formation
+assay was conducted in Hep3 and Huh7 cells that were transfected with
+sh1-circRNA or sh-NC. (D) Proliferation was detected in Hep3 and Huh7
+cells transfected with sh1-circRNA or sh-NC by EdU assay. (E) Cell cycle
+was determined in Hep3 and Huh7 cells transfected with sh1-circRNA or
+sh-NC by flow cytometry assay. Statistical significance was determined
+by the Student’s t -test or one-way ANOVA. Data were
+expressed as mean ± SD. * P < 0.05,
+** P < 0.01 represent statistically difference.
+ANOVA: analysis of variance; NC: negative control; qRT-PCR: quantitative
+real-time polymerase chain reaction.
+
+Wound-healing assay results demonstrated that knockdown of circ_101141 exhibited
+a slower closing of scratch wound compared with control. The migration rate was
+reduced nearly 20% in sh1-circRNA group compared with sh-NC group
+( P < 0.05, Fig. 3A ). Transwell assay showed that
+transfection with sh1-circRNA suppressed the invasion rate of Hep3B and Huh7
+cells compared with sh-NC group ( P < 0.05, P < 0.01, Fig. 3B ). Overall, these data suggested
+that downregulation of circ_101141 inhibited cell proliferation, migration, and
+invasion in HCC cell lines.
+
+Knockdown of circ_101141 inhibited cell migration and invasion in Hep3
+and Huh7 cells. (A) The effect of knockdown of circ_101141 on the
+migration ability of Hep3 and Huh7 cells was determined by wound-healing
+assay. (B) Transwell assay was conducted to determine the effect of
+circ_101141 on invasion ability of Hep3 and Huh7 cells. Statistical
+significance was determined by the Student’s t -test.
+Data were expressed as mean ± SD. * P < 0.05,
+** P < 0.01, represent statistically difference.
+SD: standard deviation.
+
+
+Circ_101141 Acts as a miR-1297 “Sponge”
+
+In the recent years, accumulating evidence has suggested that miRNAs play as
+critical modulators to participate in action of other noncoding RNAs. To further
+explore the underlying mechanism, we used bioinformatics tool to predict the
+potential target of circ_101141 (starbase: http://starbase.sysu.edu.cn/ ). Fig. 4A shows the potential target of
+circ_101141 called miR-1297 and its potential binding site. Then, circ_101141 WT
+luciferase plasmids and mutated version (MUT) which containing the potential
+miR-1297 binding sites or miR-NC was generated. As shown in Fig. 4B , the results of dual-luciferase
+reporter assay demonstrated that miR-1297 was a direct target of circ_101141
+( P < 0.01, Fig. 4B ). Furthermore, result from RIP
+assay confirmed that endogenous level of miR-1297 was specifically increased in
+cells transfected with circ_101141 overexpression plasmid in AGO2 cargo
+( P < 0.01, Fig. 4C ). Subsequently, FISH test was
+performed to determine the colocalization of circ_101141 and miR-1297. As shown
+in Fig. 4D , both two
+factors were expressed in the cytoplasm of HCC cells. Moreover, the expression
+of miR-1297 was identified in HCC cells, which transfected with sh1-circRNA or
+control plasmids (sh-NC). The data revealed that circ_101141 is negatively
+targeted by miR-1297 ( P < 0.01, Fig. 4E ). Meantime, the expression of
+miR-1297 was much lower in HCC tumor tissue compared with normal tissue
+( P < 0.01, Fig. 4F ). Pearson’s correlation analysis
+showed that the expression of circ_101141 and miR-1297 exhibited a dramatically
+negative correlation ( Fig.
+4G ) ( r = −0.6620, P < 0.001).
+These data suggested that circ_101141 may act as a miR-1297 “sponge.”
+
+Circ_101141 inversely interacted with miR-1297. (A) Circ_101141 wide-type
+(WT) and the mutated-type (MUT) in the miR-1297 binding sites were
+shown. (B) Luciferase activity of HEK293 T cells cotransfected with
+miR-1297 mimics or NC mimics and luciferase reporters containing
+circ_101141 WT or MUT were detected. (C) Endogenous miR-1297
+precipitated by AGO2 upon overexpression of circ_101141 were determined
+by RIP assay in HCC cells. (D) The colocalization of circ_101141 and
+miR-1297 was determined by FISH assay. (E) The expression of miR-1297
+was detected in different groups by qRT-PCR. (F) The expression of
+miR-1297 was detected in tumor tissues and nontumor tissues by qRT-PCR.
+(G) The correlation between circ_101141 and miR-1297 was analyzed.
+Statistical significance was determined by the Student’s t -test or one-way ANOVA. Data were expressed as
+mean ± SD. ** P < 0.01, represent statistically
+difference. ANOVA: analysis of variance; FISH: fluorescence in situ
+hybridization; HCC: hepatocellular carcinoma; RIP: RNA
+immunoprecipitation; qRT-PCR: quantitative real-time polymerase chain
+reaction; SD: standard deviation.
+
+
+ROCK1 was a Direct Target of miR-1297
+
+To further explore the underlying mechanism of circ_101141 and miR-1297 in HCC,
+we tried to find out the direct target of miR-1297. Among the putative targets,
+we focused on ROCK1, which mediates the expression of a variety of genes in
+response to HCC cell functions. The binding site of ROCK1 and miR-1297 was shown
+in Fig. 5A .
+Subsequently, luciferase reporter assay was performed in HEK 293 cells, which
+were cotransfected with miR-1297 mimics or NC mimics and ROCK1 3′-UTR WT or
+ROCK1 3′-UTR MUT transcript. The results indicated that ROCK1 was a target of
+miR-1297 ( P < 0.01, Fig. 5B ). Then, the expression of mRNA
+and protein of ROCK1 were detected in Hep3B and Huh7 cells transfected with
+miR-1297 mimic, miR-NC, miR-1297 inhibitor, or inhibitor-NC. As shown in Fig. 5C, D , the expression
+of mRNA and protein of ROCK1 was highly suppressed by overexpression of
+miR-2197, while increased by miR-1297 inhibitor, suggesting that the expression
+of ROCK1 was negatively regulated by expression of miR-1297 ( P < 0.05, P < 0.01). Further, the mRNA and protein
+expression levels of ROCK1 were also determined in HCC tumor tissue and nontumor
+tissues. The results showed that both mRNA and protein expression of ROCK1 were
+higher in HCC tissues compared with normal tissue ( P < 0.01, Fig. 5E, F ). In
+addition, correlation analysis showed that the expression level of ROCK1 was
+positively correlated with expression of circ_101141 ( r =
+0.6460, P < 0.001), while negatively correlated with
+expression of miR-1297 ( r = −0.6256, P <
+0.001, Fig. 5G ).
+Collectively, these data indicate that ROCK1 was a direct target of
+miR-1297.
+
+ROCK1 was a direct target of miR-1297. (A) ROCK1 wide-type (WT) and the
+mutated-type (MUT) in the miR-1297 binding sites were shown. (B)
+Luciferase activity of HEK293 T cells cotransfected with miR-1297 mimics
+or NC mimics and luciferase reporters containing ROCK1 WT or MUT were
+detected. (C and D) The expression of ROCK1 mRNA and protein level were
+determined by qRT-PCR and western blot in HCC cells that were
+transfected with miR-1297 mimic, miR-NC, miR-1297 inhibitor, or
+inhibitor-NC. (E and F) The ROCK1 mRNA and protein expression levels
+were determined by qRT-PCR and western blot in HCC tissues and nontumor
+tissues. (G) The correlation between ROCK1 and circ_101141 or miR-1297
+was analyzed. Statistical significance was determined by the Student’s t -test or one-way ANOVA. Data were expressed as
+mean ± SD. * P < 0.05, ** P <
+0.01, *** P < 0.001 represent statistically
+difference. ANOVA: analysis of variance; HCC: hepatocellular carcinoma;
+NC: negative control; qRT-PCR: quantitative real-time polymerase chain
+reaction; ROCK1: Rho-associated, coiled-coil-containing protein kinase
+1; SD: standard deviation.
+
+
+Circ_101141 Promoted HCC Progression by Acting as Competing Endogenous RNA of
+miR-1297 to Regulate ROCK1 Expression
+
+Given that circ_101141 plays a role in regulating HCC cell proliferation,
+migration, and invasion, meanwhile, it was directly interacted with miR-1297, we
+hypnotized that circ_101141 might exert its role in regulating cell
+proliferation, migration, and invasion via targeting miR-1297 and maybe further
+influence the expression of ROCK1. To this end, we first detected the expression
+of ROCK1 mRNA in three different groups (sh-NC + inh-NC, sh1-circRNA + inh-NC,
+and sh1-circRNA + miR-1297 inh), and the results showed that the expression of
+ROCK1 mRNA was downregulated by knockdown of circ_101141, while this effect was
+reversed by inhibiting miR-1297 ( P < 0.01, Fig. 6A ). Further, a
+series of gain-of-function and loss-of-function experiments were conducted in
+Hep3B and Huh7 cells that were cotransfected with sh1-circRNA or sh-NC and
+plasmid pcDNA3.1 ROCK1 or control vector. Then, in transfected Hep3B and Huh7
+cells, the proliferation ability, cell cycle, cell migration, and invasion
+abilities were determined by CCK-8 assay, flow cytometry assay, wound-healing
+assay, and transwell assay, respectively. As shown in Fig. 6B–E , interference of circ_101141
+markedly inhibited the proliferation, cell cycle, cell migration, and invasion
+abilities of Hep3B and Huh7 cells ( P < 0.05, P < 0.01). However, these effects were abolished by
+overexpression of ROCK1 ( P < 0.05, P <
+0.01). In addition, the protein level of ROCK1 as well as biomarkers for cell
+cycle (cylinD1, p21), cell migration, and invasion (E-cadherin MMP2) were
+determined by western blot in different groups of HCC cells. As shown in Fig. 6F , level of cylinD1,
+MMP2 were down-regulated, p21 and E-cadherin were up-regulated in circ_101141
+inhibited group, however, overexpression of ROCK1 reversed these effects
+( P < 0.05, P < 0.01, Fig. 6F ). These results
+indicated that circ_101141 could promote HCC progression by acting as competing
+endogenous RNA (ceRNA) of miR-1297 to regulate ROCK1 expression.
+
+Circ_101141 promoted HCC progression by acting as ceRNA of miR-1297 to
+regulate ROCK1 expression. (A) The protein level of ROCK1 was determined
+in HCC cells cotransfected with sh1-circRNA or sh-NC and miR-1297
+inhibitor or control NC. (B–E) CCK-8 assay, flow cytometry assay,
+wound-healing assay, and transwell assay were conducted in Hep3 and Huh7
+cells that were cotransfected with sh1-circRNA or sh-NC and plasmid
+pcDNA3.1 ROCK1 or control vector. (F) The protein level of ROCK1,
+biomarkers for cell cycle (cylinD1, p21), cell migration, and invasion
+(E-cadherin MMP2) were determined by western blot in different groups of
+HCC cells. Statistical significance was determined by the Student’s t -test or one-way ANOVA. Data were expressed as
+mean ± SD. ** P < 0.05, ** P <
+0.01, *** P < 0.001 represent statistically
+difference. ANOVA: analysis of variance; ceRNA: competing endogenous
+RNA; HCC: hepatocellular carcinoma; NC: negative control; qRT-PCR:
+quantitative real-time polymerase chain reaction; ROCK1: Rho-associated,
+coiled-coil-containing protein kinase 1; SD: standard deviation.
+
+
+Knockdown of Circ_101141 Attenuated HCC Tumorigenesis In Vivo
+
+Finally, the effect of circ_101141 on tumorigenesis in vivo was determined using
+orthotopic xenograft mouse models. Briefly, male BALB/c nude mice
+( n = 6 each group) were implanted with a total amount of 5
+× 10 6 Hep3B cells that were transfected with shRNA-circ_101141 or
+sh-NC by subcutaneous inoculation. Then, the expression of circRNA_101141 and
+miR-1297 was examined in both groups. As shown in Fig. 7A , compared with control group, the
+expression of circRNA_101141 was significantly downregulated in
+shRNA-circ_101141 group, while miR-1297 was upregulated ( P <
+0.01). For the tumor volume (measured every 7 days, up to 28 days) and tumor
+weight, as shown in Fig. 7B,
+C , the tumor volume and weight were dramatically reduced in
+circRNA_101141 shRNA treated group compared with sh-NC group ( P < 0.05, P < 0.01). hematoxylin-eosin (HE) staining of
+tumor tissues in each group demonstrated that circRNA_101141 shRNA group had
+less tumor feature than control group ( Fig. 7D ). Moreover, the expression of
+ROCK1 and proliferative indicator Ki67 were detected in each group by IHC assay.
+The results demonstrated that the level of ROCK1 and Ki67 exhibited relatively
+low expression in shRNA circRNA_101141 group ( Fig. 7E ). These results revealed that
+knockdown of circ_101141 inhibited HCC tumorigenesis in vivo.
+
+Knockdown of circ_101141 attenuates HCC tumorigenesis in vivo. (A) The
+expression of circ_101141 and miR-1297 was tested in mice inoculated
+with Hep3B cells transfected with shcircRNA or sh-NC plasmid. (B) Tumors
+were harvested in day 28. (C) Tumor volume was measured every 7 days
+after the initial injection and up to 28 days. Tumor weight was measured
+after tumors were harvested. (D) HE staining was conducted in different
+groups (shcircRNA and sh-NC). (E) The expression of proliferation marker
+Ki67 and ROCK1 was detected by IHC assay. Statistical significance was
+determined by the Student’s t -test. Data were expressed
+as mean ± SD. ** P < 0.01 represent statistically
+difference. HCC: hepatocellular carcinoma; NC: negative control; ROCK1:
+Rho-associated, coiled-coil-containing protein kinase 1; SD: standard
+deviation.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Due to the current therapeutic limitations, understanding the underlying molecular
+mechanism of HCC tumorigenesis has attracted widespread attention from clinicians
+and researchers. As a novel gene regulator, circRNAs have been confirmed to play
+important roles in occurrence and progression of HCC as previously reported 15 – 17 . In our study, we focused on a novel circRNA called circ_101141, which was
+confirmed highly expressed in human HCC tissue and cell lines. Then, in order to
+investigate the functional role of circ_101141 in HCC pathologic process,
+loss-of-function experiments were conducted in circ_101141 knockdown systems. The
+results showed that downregulation of circ_101141 inhibited the proliferation,
+migration, and invasion of HCC cells, indicating that circ_101141 indeed plays a
+functional regulatory role in the pathogenesis and development of HCC.
+
+To further explore the molecular mechanism of how circ_101141 exerts its functional
+role in HCC progression, we investigated the relationship between circ_101141 and
+its target miRNAs. As another essential member of noncoding RNA family, miRNAs also
+play crucial roles in pathologic process of HCC along with circRNAs 19 . Unlike circRNAs that lack of 5′ caps and 3′ polyadenylated tails, miRNAs
+usually consist of 22–25 nucleotides and are responsible for regulation of many
+genes post-transcriptionally by targeting 3′-UTRs of mRNA 20 . In some cases, circRNAs might act as ceRNAs, or in other word “sponge,” in
+the regulatory network referring to circRNAs, miRNA, and target genes 21 – 24 . So far in the HCC-related studies, Xiong et al. collected three gene chips
+from the GEO database and constructed a circRNA–miRNA–mRNA network, and they found
+circRNA_100291 and circRNA_104515 serve as ceRNAs in HCC 25 . Moreover, the expression of circFBLIM1 was also confirmed upregulated in HCC
+tissues and cell lines. It can be served as ceRNA of miR-346 to promote cell
+proliferation and inhibit cell apoptosis in HCC cells 26 . Another circRNA termed circRNA-101368 can not only function as ceRNA to
+regulate miR-200a but also target HMGB1/RAGE signaling pathway 27 . In our study, bioinformatics tools were used to predict the target of
+circ_101141 and key factors for its functional network. By using dual-luciferase
+reporter assay, RIP, and qRT-PCR, we found that circ_101141 acted as a “sponge” for
+miR-1297, and ROCK1 was a direct target of miR-1297. These findings revealed that
+circ_101141 could positively regulate ROCK1 expression by acting as a ceRNA of
+miR-1297.
+
+As important downstream factors in our study, miR-1297 and ROCK1 both play important
+roles in HCC pathogenesis. In the published data, miR-1297 was shown to play an
+inhibitory role to suppress progression of HCC by inhibiting cell proliferation and
+enhancing cell apoptosis 28 , 29 . ROCK1 is a major member of ROCK family. ROCK controls the organization of
+actin cytoskeleton and cell movement by phosphorylating other factors, such as
+myosin light chain, myosin-binding subunit (MYPT1), and LIM kinase-1 and 2 30 . In HCC, ROCK1 has been confirmed to be involved in tumor invasiveness. For
+instance, in Ding et al.’s study, they found that ROCK1 was a target of miR-145 and
+contributed to the progression and metastasis of HCC 31 . In addition, Zhan et al. showed that miR-199a/b-5p suppressed HCC
+progression by post-transcriptionally inhibiting ROCK1 32 . In the current study, in order to explore how circ_101141 exert its role in
+regulating cell proliferation, migration, and invasion, the rescue experiments were
+carried out by using Hep3B and Huh7 cells cotransfected with sh1-circRNA or sh-NC
+and plasmid pcDNA3.1 ROCK1 or control vector. The results demonstrated that
+circ_101141 promoted HCC progression via targeting miR-1297/ROCK1 in HCC. Further in
+in vivo study, we confirmed that knockdown of circ_101141 inhibited HCC
+tumorigenesis. Therefore, our study provided a novel insight into the
+circRNAs–miRNA–mRNA regulatory network in the pathogenesis of HCC. However, in the
+current study, we only confirmed that the high expression of circ_101141 was
+negatively correlated with survival rate of HCC patients, and the correlation
+between circ_101141 expression and other clinical features remains unknown. In the
+future, in order to comprehensively understand the role of circ_101141 in different
+stages of HCC, further detailed correlation analysis between circ_101141 and other
+clinical features will be investigated.
+
+In conclusion, this study provides the evidence of circ_101141 as a regulator of HCC
+cell functions, including cell proliferation, migration, and invasion. Moreover,
+circ_101141 may have negative impact on the pathological process of HCC and function
+as a ceRNA for miR-1297 to modulate ROCK1 expression. Our study demonstrated a novel
+circRNAs–miRNA–mRNA regulatory network, which contributes to a better understanding
+of the occurrence and development of HCC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

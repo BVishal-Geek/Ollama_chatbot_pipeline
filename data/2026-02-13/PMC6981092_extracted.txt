@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Poor maternal nutrition during gestation in sheep alters prenatal muscle growth and development in offspring
+PMCID: PMC6981092
+PMID: 31875422
+KEYWORDS: fetal programming, muscle, myogenesis, nutrition, sheep
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Poor maternal nutrition during gestation can have immediate and life-long negative effects on offspring growth and health. In livestock, this leads to reduced product quality and increased costs of production. Based on previous evidence that both restricted- and overfeeding during gestation decrease offspring muscle growth and alter metabolism postnatally, we hypothesized that poor maternal nutrition during gestation would reduce the growth and development of offspring muscle prenatally, reduce the number of myogenic progenitor cells, and result in changes in the global expression of genes involved in prenatal muscle development and function. Ewes were fed a control (100% NRC)-, restricted (60% NRC)-, or overfed (140% NRC) diet beginning on day 30 of gestation until days 45, 90, and 135 of gestation or until parturition. At each time point fetuses and offspring (referred to as CON, RES, and OVER) were euthanized and longissimus dorsi ( LM ), semitendinosus ( STN ), and triceps brachii ( TB ) were collected at each time point for histological and RNA-Seq analysis. In fetuses and offspring, we did not observe an effect of diet on cross-sectional area ( CSA ), but CSA increased over time ( P < 0.05). At day 90, RES and OVER had reduced secondary:primary muscle fiber ratios in LM ( P < 0.05), but not in STN and TB. However, in STN and TB percent PAX7-positive cells were decreased compared with CON ( P < 0.05). Maternal diet altered LM mRNA expression of 20 genes (7 genes downregulated in OVER and 2 downregulated in RES compared with CON; 5 downregulated in OVER compared with RES; false discovery rate ( FDR )-adj. P < 0.05). A diet by time interaction was not observed for any genes in the RNA-Seq analysis; however, 2,205 genes were differentially expressed over time between days 90 and 135 and birth (FDR-adj. P < 0.05). Specifically, consistent with increased protein accretion, changes in muscle function, and increased metabolic activity during myogenesis, changes in genes involved in cell cycle, metabolic processes, and protein synthesis were observed during fetal myogenesis. In conclusion, poor maternal nutrition during gestation contributes to altered offspring muscle growth during early fetal development which persists throughout the fetal stage. Based on muscle-type-specific effects of maternal diet, it is important to evaluate more than one type of muscle to fully elucidate the effects of maternal diet on offspring muscle development.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

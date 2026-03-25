@@ -1,0 +1,19 @@
+Source: PMC7768314_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "The Prevalence, Associated Factors for Lung Metastases Development and Prognosis in Ovarian Serous Cancer Based on SEER Database",
+  "condition_E": 1,
+  "condition_E_reason": "The patients’ age of diagnosis, race, sex, marital status, T stage, N stage, grade, laterality, insurance, histology, survival time, survival status, chemotherapy, radiation, surgery were downloaded.",
+  "N_E": 1,
+  "N_E_reason": "A total of 10,146 eligible serous ovarian cancer (SOC) patients were included.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

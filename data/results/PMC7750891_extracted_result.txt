@@ -1,0 +1,19 @@
+Source: PMC7750891_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Identifications of Candidate Genes Significantly Associated With Rectal Cancer by Integrated Bioinformatics Analysis",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical information and sequence data were acquired from gene expression profiles of GSE15781 and GSE20842.",
+  "N_E": 1,
+  "N_E_reason": "A total of 167 rectal cancer tissues and 10 normal controls were included for subsequent analysis.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data were downloaded from GEO and TCGA databanks.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

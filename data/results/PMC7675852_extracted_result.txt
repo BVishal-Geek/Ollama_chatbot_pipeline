@@ -1,0 +1,19 @@
+Source: PMC7675852_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Establishment and Validation of Nomogram Model Integrated With Inflammation-Based Factors for the Prognosis of Advanced Non-Small Cell Lung Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "The study evaluated 887 patients with advanced NSCLC, collecting clinical characteristics including age and stage.",
+  "N_E": 1,
+  "N_E_reason": "A total of 887 patients were enrolled in the study.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Patients were treated with definitive chemotherapy with or without radiation.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "Overall survival (OS) was calculated from diagnosis until death or last follow-up.",
+  "R_criteria_E": 1,
+  "R_criteria_E_reason": "The nomogram included variables such as age, clinical stage, CAR, and NEU to predict OS."
+}

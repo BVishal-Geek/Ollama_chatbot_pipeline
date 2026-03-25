@@ -1,0 +1,263 @@
+================================================================================
+ARTICLE TITLE: Identification of genes in hepatocellular carcinoma induced by non-alcoholic fatty liver disease
+PMCID: PMC7685598
+PMID: 32623384
+KEYWORDS: expression, bioinformatics, hepatocellular carcinoma, non-alcoholic fatty liver disease, cep192
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+BACKGROUND::
+Hepatocellular carcinoma (HCC) is the leading cause of mortality worldwide. In recent years, the incidence of HCC induced by NAFLD is growing rapidly.
+
+OBJECTIVE::
+To screen for new pathogenic genes and related pathways both in NAFLD and HCC, and to explore the pathogenesis of progression from NAFLD to HCC.
+
+METHODS::
+Gene expression microarrays ( GSE74656 , GSE62232 ) were used for identifying differentially expressed genes (DEGs). Functional enrichment and pathway enrichment analyses indicated that these DEGs were related to cell cycle and extracellular exosome, which were closely related to NAFLD and HCC development. We then used the Search Tool for the Retrieval of Interacting Genes (STRING) to establish the protein-protein interaction (PPI) network and visualized them in Cytoscape. And the overall survival (OS) analysis and gene expression validation in TCGA of hub genes was performed.
+
+RESULTS::
+Seven hub genes, including CDK1, HSP90AA1, MAD2L1, PRKCD, ITGB3BP, CEP192, and RHOB were identified. Finally, we verified the expression level of ITGB3BP and CEP192 by quantitative real-time PCR in vitro .
+
+CONCLUSIONS::
+The present study implied possible DEGs, especially the new gene CEP192, in the progression of NAFLD developing to HCC. Further rigorous experiments are required to verify the above results.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Hepatocellular carcinoma (HCC), the most common type of liver cancer, is one of the leading causes of tumor death worldwide [ 1 ]. Multiple studies have shown that the main risk factors for HCC are chronic hepatitis B virus (HBV) infection, hepatitis C virus (HCV) infection, nonalcoholic fatty liver disease (NAFLD), alcohol abuse, and obesity [ 2 ]. In recent years, the incidence of HCC induced by NAFLD has increased rapidly. NAFLD is one of the common chronic liver diseases in the world [ 3 ]. It is expected to be the main cause of end-stage liver disease and HCC by 2025. Basic research and clinical research have shown that NAFLD can develop into more severe forms of non-alcoholic steatohepatitis (NASH) and cirrhosis, which is associated with a high risk of HCC [ 4 , 5 ]. Additionally, owing to the limited effects of radiotherapy and chemotherapy, complete tumor resection is the only option for cure or long-term survival. However, patients with HCC are usually diagnosed at late stages, and therefore they are ineligible for surgical excision. In summary, despite the convincing link between HCC and NAFLD, the underlying molecular mechanisms are still elusive.
+
+In recent decades, the introduction of high-throughput technologies and bioinformatics analysis enabled identifying the pathogenic genes in carcinogenesis and screening potential biomarkers of cancer [ 6 ]. Many studies have used microarray-based cDNA expression profiling of HCC to identify potential genes and pathways involved [ 7 ]. In addition, gene expression profiles have also been used to identify factors related to the progress of NAFLD [ 8 , 9 , 10 ].
+
+Previous studies have confirmed the genetic polymorphisms of patatin-like phospholipase domain containing 3 (PNPLA3) [ 11 ] and transmembrane 6 superfamily member 2 (TM6SF2) [ 12 ] are associated with a higher risk of HCC in patients with NAFLD. However, there has been no research analyzing the cDNA microarrays in the progression of NAFLD together with HCC. In this research, we integrated two cDNA microarrays ( GSE24807 and GSE62232 ) and screened the overlapping differentially expressed genes (DEGs). Subsequently, we performed the functional and pathway enrichment analysis, established protein-protein interaction networks, and identified hub genes. Thus, this study can potentially provide new pathogenic genes and related pathways both in NAFLD and HCC, and explore the pathogenesis of progression from NAFLD to HCC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and methods
+
+The database of the Gene Expression Omnibus (GEO) is the largest fully public repository for high-throughput gene sequencing. Eligible GEO datasets were selected based on the inclusion criteria: 1) All tissues were diagnosed by pathology and 2) normal liver tissues were used as negative controls. In this work, we selected two cDNA profiling microarrays ( GSE24807 and GSE62232 ) from the GEO database. GSE24807 consisted of 17 tissue samples (12 cases of NASH, and 5 cases of the normal liver) [ 13 ]. And GSE62232 consisted of 91 tissue samples (81 cases of HCC and 10 cases of the normal liver) [ 14 ].
+
+GEO2R, an R-based tool in the web of GEO, enables users in screening DEGs from two groups of samples [ 15 ]. We then screened DEGs between NASH and normal samples and between HCC and normal samples by applying GEO2R. The Cut-off criteria was set to | log fold change | > 0.5, and the adjusted P -value < 0.05. FunRich ( http://www.funrich.org ) is an open-access tool that provides a graphical representation of the data with customizable font, proportions, and color (Venn diagram, heatmap, pie charts, column and bar graphs) [ 16 ]. Subsequently, we adopted FunRich to draw Venn diagrams to identify overlapping upregulated DEGs, and overlapping downregulated DEGs in the two cDNA microarrays of GSE24807 and GSE62232 .
+
+An online program, Database for Annotation, Visualization, and Integrated Discovery (DAVID) is an open-access website that provides functional annotation for users to comprehend biological meaning in the context of numerous genes [ 17 ]. The overlapping upregulated and downregulated DEGs were subjected to Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis in DAVID [ 18 ]. the cut-off criterion was set to P < 0.05.
+
+The interaction between proteins plays a key role in the development of tumors. In this research, we used the Search Tool for the Retrieval of Interacting Genes (STRING) database to construct the PPI network of DEGs. The Cut-off standard was set to an interaction score ⩾ 0.4, and we visualized the PPI by Cytoscape version 3.5.1 [ 19 ]. Subsequently, by using molecular complex detection (MCODE) in Cytoscape, we constructed gene association modules within the PPI network. The parameters were set as follows: k-core = 2, degree cutoff = 2, max. depth = 100, and node score cutoff = 0.2 [ 20 ]. Hub genes were defined to be included in the hub module and have a degree ⩾ 5.
+
+The survival data of hub genes were analyzed by the online website OncoLnc, which linked to the database of the Cancer Genome Atlas (TCGA) [ 21 ]. Using the data in TCGA, we divided HCC patients into two groups based on the high and low expression of specific genes and analyzed the overall survival rate using Kaplan-Meier charts. OncoLnc could calculate and display the log-rank P-value.
+
+The TCGA database has provided comprehensive, multidimensional data of the alterations in key genes in various types of cancers. We then downloaded the data of fifty tissue samples (fifty cases of HCC and fifty adjacent normal liver) from the TCGA database to confirm the expression of hub genes.
+
+ Figure 1. Identification of differentially expressed genes in mRNA expression profiling datasets ( GSE24807 , GSE62232 ). (A) High expression gens; (B) Low expression genes. 
+
+Identification of differentially expressed genes in mRNA expression profiling datasets ( GSE24807 , GSE62232 ). (A) High expression gens; (B) Low expression genes.
+
+ Figure 2. Protein-protein interaction (PPI) network and core modules of PPI network. (A) High and low expression genes; (B) Core modules. The pink circles represent high expression genes, and the blue circles represent low expression genes. 
+
+Protein-protein interaction (PPI) network and core modules of PPI network. (A) High and low expression genes; (B) Core modules. The pink circles represent high expression genes, and the blue circles represent low expression genes.
+
+In this study, four human HCC cell lines (LM3, Hep3B, Huh7, and HepG2) compared with two normal hepatic cell lines (L-02 and QSG-7701) were used. LM3, Hep3B, Huh7, and HepG2 were maintained in DMEM (Gibco) supplemented with 1% penicillin-streptomycin as well as 10% fetal bovine serum (FBS; Gibco) in a hominid incubator (5% CO2 with 37 ∘ C). Under the same conditions, QSG-7701 and L-02 cells were maintained in RPMI 1640 (Gibco). Subsequently, to model steatotic hepatic cells, QSG-7701 and L-02 cells were seeded in 6-well plates 500,000 per cell for 48 h and treated with 5% bovine serum albumin (BSA; Sigma-Aldrich) or 0.6 mM palmitic acid (PA; Sigma-Aldrich) complexed to 5% BSA for 24 h.
+
+Based on the manufacturer’s instructions, total RNA from cultured cells was isolated using the TRIzol reagent (Invitrogen), and reverse-transcribed to obtain cDNA utilizing the Takara PrimeScript RT reagent Kit. Quantitative real-time PCR (qRT-PCR) was performed using SYBR Green (Takara) on an Applied Biosystems 7500 real-time PCR System (ABI, USA). Primers used for CEP192, ITGB3BP and GAPDH were as follows: CEP192-F (5’-CAC TTG CTA GGG ATA GAT CCA GC-3’) and CEP192-R (5’-ACC CGG ATG GAA CTG AAA ATC-3’); ITGB3BP-F (5’-AAT CTC CTG TGC ATC ACA TTT CT-3’) and ITGB3BP-R (5’-TTC ATA GCT GTC AAG ATG ACG TG-3’); GAPDH-F (5’-TCA ACG ACC ACT TTG TCA AGC TCA-3’) and GAPDH-R (5’-GCT GGT GGT CCA GGG GTC TTA CT-3’). Human GAPDH was used as an internal standard for calculating the relative expression, using the 2- Δ ⁢ Δ CT method.
+
+All Statistical analyses were performed using GraphPad Prism software version 6 (GraphPad Software, San Diego, CA, USA). Values are shown as the mean ± SD. Student’s two-tailed t-tests were performed to determine significant differences. The statistical difference of the data are indicated with asterisks: P * < 0.05, P * * < 0.01, P * ⁣ * * < 0.001, and P * ⁣ * ⁣ * * < 0.0001.
+
+
+Microarray data acquisition
+
+The database of the Gene Expression Omnibus (GEO) is the largest fully public repository for high-throughput gene sequencing. Eligible GEO datasets were selected based on the inclusion criteria: 1) All tissues were diagnosed by pathology and 2) normal liver tissues were used as negative controls. In this work, we selected two cDNA profiling microarrays ( GSE24807 and GSE62232 ) from the GEO database. GSE24807 consisted of 17 tissue samples (12 cases of NASH, and 5 cases of the normal liver) [ 13 ]. And GSE62232 consisted of 91 tissue samples (81 cases of HCC and 10 cases of the normal liver) [ 14 ].
+
+
+Data processing
+
+GEO2R, an R-based tool in the web of GEO, enables users in screening DEGs from two groups of samples [ 15 ]. We then screened DEGs between NASH and normal samples and between HCC and normal samples by applying GEO2R. The Cut-off criteria was set to | log fold change | > 0.5, and the adjusted P -value < 0.05. FunRich ( http://www.funrich.org ) is an open-access tool that provides a graphical representation of the data with customizable font, proportions, and color (Venn diagram, heatmap, pie charts, column and bar graphs) [ 16 ]. Subsequently, we adopted FunRich to draw Venn diagrams to identify overlapping upregulated DEGs, and overlapping downregulated DEGs in the two cDNA microarrays of GSE24807 and GSE62232 .
+
+
+Enrichment analysis
+
+An online program, Database for Annotation, Visualization, and Integrated Discovery (DAVID) is an open-access website that provides functional annotation for users to comprehend biological meaning in the context of numerous genes [ 17 ]. The overlapping upregulated and downregulated DEGs were subjected to Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis in DAVID [ 18 ]. the cut-off criterion was set to P < 0.05.
+
+
+Protein-protein interaction (PPI) network establishment
+
+The interaction between proteins plays a key role in the development of tumors. In this research, we used the Search Tool for the Retrieval of Interacting Genes (STRING) database to construct the PPI network of DEGs. The Cut-off standard was set to an interaction score ⩾ 0.4, and we visualized the PPI by Cytoscape version 3.5.1 [ 19 ]. Subsequently, by using molecular complex detection (MCODE) in Cytoscape, we constructed gene association modules within the PPI network. The parameters were set as follows: k-core = 2, degree cutoff = 2, max. depth = 100, and node score cutoff = 0.2 [ 20 ]. Hub genes were defined to be included in the hub module and have a degree ⩾ 5.
+
+
+Survival analysis of hub genes
+
+The survival data of hub genes were analyzed by the online website OncoLnc, which linked to the database of the Cancer Genome Atlas (TCGA) [ 21 ]. Using the data in TCGA, we divided HCC patients into two groups based on the high and low expression of specific genes and analyzed the overall survival rate using Kaplan-Meier charts. OncoLnc could calculate and display the log-rank P-value.
+
+
+Gene expression of the hub genes
+
+The TCGA database has provided comprehensive, multidimensional data of the alterations in key genes in various types of cancers. We then downloaded the data of fifty tissue samples (fifty cases of HCC and fifty adjacent normal liver) from the TCGA database to confirm the expression of hub genes.
+
+ Figure 1. Identification of differentially expressed genes in mRNA expression profiling datasets ( GSE24807 , GSE62232 ). (A) High expression gens; (B) Low expression genes. 
+
+Identification of differentially expressed genes in mRNA expression profiling datasets ( GSE24807 , GSE62232 ). (A) High expression gens; (B) Low expression genes.
+
+ Figure 2. Protein-protein interaction (PPI) network and core modules of PPI network. (A) High and low expression genes; (B) Core modules. The pink circles represent high expression genes, and the blue circles represent low expression genes. 
+
+Protein-protein interaction (PPI) network and core modules of PPI network. (A) High and low expression genes; (B) Core modules. The pink circles represent high expression genes, and the blue circles represent low expression genes.
+
+
+Cell culture and construction of the cell model
+
+In this study, four human HCC cell lines (LM3, Hep3B, Huh7, and HepG2) compared with two normal hepatic cell lines (L-02 and QSG-7701) were used. LM3, Hep3B, Huh7, and HepG2 were maintained in DMEM (Gibco) supplemented with 1% penicillin-streptomycin as well as 10% fetal bovine serum (FBS; Gibco) in a hominid incubator (5% CO2 with 37 ∘ C). Under the same conditions, QSG-7701 and L-02 cells were maintained in RPMI 1640 (Gibco). Subsequently, to model steatotic hepatic cells, QSG-7701 and L-02 cells were seeded in 6-well plates 500,000 per cell for 48 h and treated with 5% bovine serum albumin (BSA; Sigma-Aldrich) or 0.6 mM palmitic acid (PA; Sigma-Aldrich) complexed to 5% BSA for 24 h.
+
+
+RNA extraction and Quantitative real-time PCR
+
+Based on the manufacturer’s instructions, total RNA from cultured cells was isolated using the TRIzol reagent (Invitrogen), and reverse-transcribed to obtain cDNA utilizing the Takara PrimeScript RT reagent Kit. Quantitative real-time PCR (qRT-PCR) was performed using SYBR Green (Takara) on an Applied Biosystems 7500 real-time PCR System (ABI, USA). Primers used for CEP192, ITGB3BP and GAPDH were as follows: CEP192-F (5’-CAC TTG CTA GGG ATA GAT CCA GC-3’) and CEP192-R (5’-ACC CGG ATG GAA CTG AAA ATC-3’); ITGB3BP-F (5’-AAT CTC CTG TGC ATC ACA TTT CT-3’) and ITGB3BP-R (5’-TTC ATA GCT GTC AAG ATG ACG TG-3’); GAPDH-F (5’-TCA ACG ACC ACT TTG TCA AGC TCA-3’) and GAPDH-R (5’-GCT GGT GGT CCA GGG GTC TTA CT-3’). Human GAPDH was used as an internal standard for calculating the relative expression, using the 2- Δ ⁢ Δ CT method.
+
+
+Statistical analysis
+
+All Statistical analyses were performed using GraphPad Prism software version 6 (GraphPad Software, San Diego, CA, USA). Values are shown as the mean ± SD. Student’s two-tailed t-tests were performed to determine significant differences. The statistical difference of the data are indicated with asterisks: P * < 0.05, P * * < 0.01, P * ⁣ * * < 0.001, and P * ⁣ * ⁣ * * < 0.0001.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+We analyzed data of each microarray to screen DEGs by using GEO2R. Amon all DEGs from two gene expression microarrays ( GSE24807 and GSE62232 ), there were 1978 ( GSE24807 ) and 3474 upregulated genes ( GSE62232 ), and 1536 ( GSE24807 ) and 1479 downregulated genes ( GSE62232 ), respectively. Subsequently, 176 overlapping upregulated genes and 80 overlapping downregulated genes were obtained (Fig. 1 ).
+
+Table 1 showed GO terms of functional enrichment analysis performed by using DAVID. The overlapping highly expressed genes were associated with a variety of biological processes (BP), including mitotic nuclear division, cell division, and G2/M transition of the mitotic cell cycle. And these genes enriched in molecular functions (MF) of protein binding, GPI anchor binding, and protein homodimerization activity. In addition, cell components (CC) enrichment of these genes showed terms of the cytoplasm, extracellular exosome, nucleus, and cytosol and membrane, which indicated that highly expressed genes may be related to the cell cycle.
+
+ Table 1 Functional enrichment analysis of DEGs both in non-alcoholic steatohepatitis and hepatocellular carcinoma Category GO analysis Terms Count P value High expression GOTERM_BP_DIRECT Mitotic nuclear division 10 6.0E-4 GOTERM_BP_ DIRECT Cell division 10 1.9E-3 GOTERM_BP_ DIRECT G2/M transition of mitotic cell cycle 7 1.9E-3 GOTERM_BP_ DIRECT Positive regulation of release of sequestered calcium ion into cytosol 4 2.1E-3 GOTERM_BP_ DIRECT Antigen processing and presentation of peptide antigen via MHC class I 4 2.8E-3 GOTERM_CC_ DIRECT Cytoplasm 71 4.0E-5 GOTERM_CC_ DIRECT Extracellular exosome 41 1.2E-3 GOTERM_CC_ DIRECT Nucleus 66 2.4E-3 GOTERM_CC_ DIRECT Cytosol 45 2.7E-3 GOTERM_CC_ DIRECT Membrane 33 3.0E-3 GOTERM_MF_ DIRECT Protein binding 118 6.2E-8 GOTERM_MF_ DIRECT GPI anchor binding 33 1.8E-3 GOTERM_MF_ DIRECT Protein homodimerization activity 14 2.3E-2 GOTERM_MF_ DIRECT Ubiquitin binding 4 3.9E-2 GOTERM_MF_ DIRECT CXCR3 chemokine receptor binding 2 4.7E-2 Low expression GOTERM_BP_ DIRECT Endoderm formation 2 3.0E-2 GOTERM_BP_ DIRECT Positive regulation of angiogenesis 3 6.2E-2 GOTERM_BP_ DIRECT Positive regulation of exocytosis 2 6.9E-2 GOTERM_BP_ DIRECT Positive regulation of transforming growth factor beta receptor signaling pathway 2 8.4E-2 GOTERM_BP_ DIRECT Negative regulation of cell cycle 2 8.8E-2 GOTERM_CC_ DIRECT External side of plasma membrane 5 5.5E-3 GOTERM_CC_ DIRECT Fibrinogen complex 2 3.1E-2 GOTERM_CC_ DIRECT Blood microparticle 3 4.4E-2 GOTERM_CC_ DIRECT Platelet alpha granule 2 5.2E-2 GOTERM_CC_ DIRECT Basolateral plasma membrane 3 6.0E-2 GOTERM_MF_ DIRECT Transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding 4 6.9E-3 GOTERM_MF_ DIRECT Low-density lipoprotein particle binding 2 4.8E-2 GOTERM_MF_ DIRECT Protein tyrosine phosphatase activity 3 5.0E-2 GOTERM_MF_ DIRECT MAP kinase tyrosine/serine/threonine phosphatase activity 2 5.2E-2 GO: Gene ontology; BP: Biological process; CC: Component content; MF: Molecular function. 
+
+Functional enrichment analysis of DEGs both in non-alcoholic steatohepatitis and hepatocellular carcinoma
+
+GO: Gene ontology; BP: Biological process; CC: Component content; MF: Molecular function.
+
+For overlapping low expression genes, they were enriched in BP of endoderm formation, positive regulation of angiogenesis, and positive regulation of exocytosis. MF enrichment indicated transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding, and low-density lipoprotein particle binding. Furthermore, the enriched CC included the external side of the plasma membrane and the fibrinogen complex.
+
+KEGG pathway analysis (Table 2 ) of the highly expressed genes enriched in lysosome-related pathways, Epstein-Barr virus infection, and Fc gamma R-mediated phagocytosis, while low expression genes enriched in the TGF-beta signaling pathway.
+
+The PPI network of overlapping DEGs in both NASH and HCC was established in the STRING database and visualized by Cytoscape software (Fig. 2 A). In addition, the key gene modules were identified from the PPI network in Cytoscape by using the MCODE plugin (Fig. 2 B). There were 16 hub genes:
+
+ • cyclin-dependent kinase 1 (CDK1), heat shock protein 90 alpha family class A member 1 (HSP90AA1), euchromatic histone lysine methyltransferase 2 (EHMT2), mitotic arrest deficient 2 like 1 (MAD2L1), collagen type 1 alpha 1 chain (COL1A1), n-acetylneuraminate pyruvate lyase (NPL), protein kinase C delta (PRKCD/PAK1), ras homolog family member C (RHOC), collagen type 1 alpha 2 chain (COL1A2), integrin subunit beta 3 binding protein (ITGB3BP), kinetochore scaffold 1 (KNL1/CASC5), centrosomal protein 192 (CEP192), tubulin gamma complex associated protein 6 (TUBGCP6), ras homolog family member B (RHOB) and MCL1 apoptosis regulator (MCL1). 
+
+cyclin-dependent kinase 1 (CDK1), heat shock protein 90 alpha family class A member 1 (HSP90AA1), euchromatic histone lysine methyltransferase 2 (EHMT2), mitotic arrest deficient 2 like 1 (MAD2L1), collagen type 1 alpha 1 chain (COL1A1), n-acetylneuraminate pyruvate lyase (NPL), protein kinase C delta (PRKCD/PAK1), ras homolog family member C (RHOC), collagen type 1 alpha 2 chain (COL1A2), integrin subunit beta 3 binding protein (ITGB3BP), kinetochore scaffold 1 (KNL1/CASC5), centrosomal protein 192 (CEP192), tubulin gamma complex associated protein 6 (TUBGCP6), ras homolog family member B (RHOB) and MCL1 apoptosis regulator (MCL1).
+
+ Table 2 Pathway enrichment analysis of DEGs both in non-alcoholic steatohepatitis and hepatocellular carcinoma Pathway ID Term Count P value High expression hsa04142 Lysosome 6 7.4E-3 hsa05169 Epstein-Barr virus infection 6 4.3E-2 hsa04666 Fc gamma R-mediated phagocytosis 4 5.3E-2 hsa05203 Viral carcinogenesis 6 5.6E-2 hsa04914 Progesterone-mediated oocyte maturation 4 5.8E-2 Low expression hsa04350 TGF-beta signaling pathway 3 6.4E-2 
+
+Pathway enrichment analysis of DEGs both in non-alcoholic steatohepatitis and hepatocellular carcinoma
+
+To obtain the prognostic values of 16 hub genes, we drew the Kaplan-Meier plots with P-values by OncoLnc and presented in Fig. 3 . Among the 360 HCC patients included in the TCGA database, we divided them into high expression and low expression according to the gene expression. And higher mRNA expression of CDK1 ( P = 0.00959), as well as HSP90AA1 ( P = 0.0115), EHMT2 ( P = 0.000766), MAD2L1 ( P = 0.000168), PRKCD ( P = 0.0094), NPL ( P = 0.0417), ITGB3BP ( P = 0.0336) and CEP192 ( P = 0.00921), was significantly correlated with lower overall survival rate. Moreover, lower mRNA expression of RHOB ( P = 0.00855) was significantly correlated with a lower overall survival rate.
+
+ Figure 3. Overall survivals of significant hub genes selected from aberrantly methylated-DEGs. Hub genes included CDK1, HSP90AA1, EHMT2, MAD2L1, COL1A1, PRKCD, NPL, PAK1, RHOC, COL1A2, ITGB3BP, CASC5, CEP192, TUBGCP6, RHOB and MCL1. P < 0.05 was considered statistically significant. 
+
+Overall survivals of significant hub genes selected from aberrantly methylated-DEGs. Hub genes included CDK1, HSP90AA1, EHMT2, MAD2L1, COL1A1, PRKCD, NPL, PAK1, RHOC, COL1A2, ITGB3BP, CASC5, CEP192, TUBGCP6, RHOB and MCL1. P < 0.05 was considered statistically significant.
+
+The expression of Eight hub genes that affect the survival of HCC patients was verified using paired fifty HCC samples and fifty HCC adjacent non-tumor tissues from the TCGA database (Fig. 4 ). And the expression of CDK1, HSP90AA1, MAD2L1, PRKCD, ITGB3BP, CEP192 were significantly higher in HCC samples than non-tumor tissues, while HCC samples expressed lower levels of RHOB than non-tumor tissues. Among them, integrin subunit beta 3 binding protein (ITGB3BP) and centrosomal protein 192 (CEP192) have not yet been described in NAFLD and HCC. Therefore, we further verified the gene expression of ITGB3BP and CEP192 in vitro .
+
+ Figure 4. Gene expression statuses of 8 hub genes were validated in TCGA database. The results are expressed as the mean ± SD of 50 paired HCC samples and adjacent normal liver samples. p * < 0.05, p * * < 0.01, p * ⁣ * * < 0.001, p * ⁣ * ⁣ * * ⁢ ï ⁢ ¼ ⁢ 0.0001. 
+
+Gene expression statuses of 8 hub genes were validated in TCGA database. The results are expressed as the mean ± SD of 50 paired HCC samples and adjacent normal liver samples. p * < 0.05, p * * < 0.01, p * ⁣ * * < 0.001, p * ⁣ * ⁣ * * ⁢ ï ⁢ ¼ ⁢ 0.0001.
+
+To compare the expression of ITGB3BP and CEP192 in HCC cell lines with normal hepatic cell lines, we performed qRT-PCR in LM3, Hep3B, Huh7, HepG2, L-02, and QSG-7701 cells. Subsequently, L02 and 7701 cells were treated with PA to model steatotic hepatic cells and harvested for quantification. The results revealed that CEP192 was higher expressed in HCC cells than normal hepatic cells and in PA-treated cells than BSA-treated cells, while ITGB3BP showed results that were inconsistent with the bioinformatics analysis (Fig. 5 ).
+
+
+Screen DEGs in both HCC and NAFLD
+
+We analyzed data of each microarray to screen DEGs by using GEO2R. Amon all DEGs from two gene expression microarrays ( GSE24807 and GSE62232 ), there were 1978 ( GSE24807 ) and 3474 upregulated genes ( GSE62232 ), and 1536 ( GSE24807 ) and 1479 downregulated genes ( GSE62232 ), respectively. Subsequently, 176 overlapping upregulated genes and 80 overlapping downregulated genes were obtained (Fig. 1 ).
+
+
+Functional and pathway enrichment analysis
+
+Table 1 showed GO terms of functional enrichment analysis performed by using DAVID. The overlapping highly expressed genes were associated with a variety of biological processes (BP), including mitotic nuclear division, cell division, and G2/M transition of the mitotic cell cycle. And these genes enriched in molecular functions (MF) of protein binding, GPI anchor binding, and protein homodimerization activity. In addition, cell components (CC) enrichment of these genes showed terms of the cytoplasm, extracellular exosome, nucleus, and cytosol and membrane, which indicated that highly expressed genes may be related to the cell cycle.
+
+ Table 1 Functional enrichment analysis of DEGs both in non-alcoholic steatohepatitis and hepatocellular carcinoma Category GO analysis Terms Count P value High expression GOTERM_BP_DIRECT Mitotic nuclear division 10 6.0E-4 GOTERM_BP_ DIRECT Cell division 10 1.9E-3 GOTERM_BP_ DIRECT G2/M transition of mitotic cell cycle 7 1.9E-3 GOTERM_BP_ DIRECT Positive regulation of release of sequestered calcium ion into cytosol 4 2.1E-3 GOTERM_BP_ DIRECT Antigen processing and presentation of peptide antigen via MHC class I 4 2.8E-3 GOTERM_CC_ DIRECT Cytoplasm 71 4.0E-5 GOTERM_CC_ DIRECT Extracellular exosome 41 1.2E-3 GOTERM_CC_ DIRECT Nucleus 66 2.4E-3 GOTERM_CC_ DIRECT Cytosol 45 2.7E-3 GOTERM_CC_ DIRECT Membrane 33 3.0E-3 GOTERM_MF_ DIRECT Protein binding 118 6.2E-8 GOTERM_MF_ DIRECT GPI anchor binding 33 1.8E-3 GOTERM_MF_ DIRECT Protein homodimerization activity 14 2.3E-2 GOTERM_MF_ DIRECT Ubiquitin binding 4 3.9E-2 GOTERM_MF_ DIRECT CXCR3 chemokine receptor binding 2 4.7E-2 Low expression GOTERM_BP_ DIRECT Endoderm formation 2 3.0E-2 GOTERM_BP_ DIRECT Positive regulation of angiogenesis 3 6.2E-2 GOTERM_BP_ DIRECT Positive regulation of exocytosis 2 6.9E-2 GOTERM_BP_ DIRECT Positive regulation of transforming growth factor beta receptor signaling pathway 2 8.4E-2 GOTERM_BP_ DIRECT Negative regulation of cell cycle 2 8.8E-2 GOTERM_CC_ DIRECT External side of plasma membrane 5 5.5E-3 GOTERM_CC_ DIRECT Fibrinogen complex 2 3.1E-2 GOTERM_CC_ DIRECT Blood microparticle 3 4.4E-2 GOTERM_CC_ DIRECT Platelet alpha granule 2 5.2E-2 GOTERM_CC_ DIRECT Basolateral plasma membrane 3 6.0E-2 GOTERM_MF_ DIRECT Transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding 4 6.9E-3 GOTERM_MF_ DIRECT Low-density lipoprotein particle binding 2 4.8E-2 GOTERM_MF_ DIRECT Protein tyrosine phosphatase activity 3 5.0E-2 GOTERM_MF_ DIRECT MAP kinase tyrosine/serine/threonine phosphatase activity 2 5.2E-2 GO: Gene ontology; BP: Biological process; CC: Component content; MF: Molecular function. 
+
+Functional enrichment analysis of DEGs both in non-alcoholic steatohepatitis and hepatocellular carcinoma
+
+GO: Gene ontology; BP: Biological process; CC: Component content; MF: Molecular function.
+
+For overlapping low expression genes, they were enriched in BP of endoderm formation, positive regulation of angiogenesis, and positive regulation of exocytosis. MF enrichment indicated transcriptional repressor activity, RNA polymerase II core promoter proximal region sequence-specific binding, and low-density lipoprotein particle binding. Furthermore, the enriched CC included the external side of the plasma membrane and the fibrinogen complex.
+
+KEGG pathway analysis (Table 2 ) of the highly expressed genes enriched in lysosome-related pathways, Epstein-Barr virus infection, and Fc gamma R-mediated phagocytosis, while low expression genes enriched in the TGF-beta signaling pathway.
+
+
+PPI network establishment and analysis
+
+The PPI network of overlapping DEGs in both NASH and HCC was established in the STRING database and visualized by Cytoscape software (Fig. 2 A). In addition, the key gene modules were identified from the PPI network in Cytoscape by using the MCODE plugin (Fig. 2 B). There were 16 hub genes:
+
+ • cyclin-dependent kinase 1 (CDK1), heat shock protein 90 alpha family class A member 1 (HSP90AA1), euchromatic histone lysine methyltransferase 2 (EHMT2), mitotic arrest deficient 2 like 1 (MAD2L1), collagen type 1 alpha 1 chain (COL1A1), n-acetylneuraminate pyruvate lyase (NPL), protein kinase C delta (PRKCD/PAK1), ras homolog family member C (RHOC), collagen type 1 alpha 2 chain (COL1A2), integrin subunit beta 3 binding protein (ITGB3BP), kinetochore scaffold 1 (KNL1/CASC5), centrosomal protein 192 (CEP192), tubulin gamma complex associated protein 6 (TUBGCP6), ras homolog family member B (RHOB) and MCL1 apoptosis regulator (MCL1). 
+
+cyclin-dependent kinase 1 (CDK1), heat shock protein 90 alpha family class A member 1 (HSP90AA1), euchromatic histone lysine methyltransferase 2 (EHMT2), mitotic arrest deficient 2 like 1 (MAD2L1), collagen type 1 alpha 1 chain (COL1A1), n-acetylneuraminate pyruvate lyase (NPL), protein kinase C delta (PRKCD/PAK1), ras homolog family member C (RHOC), collagen type 1 alpha 2 chain (COL1A2), integrin subunit beta 3 binding protein (ITGB3BP), kinetochore scaffold 1 (KNL1/CASC5), centrosomal protein 192 (CEP192), tubulin gamma complex associated protein 6 (TUBGCP6), ras homolog family member B (RHOB) and MCL1 apoptosis regulator (MCL1).
+
+ Table 2 Pathway enrichment analysis of DEGs both in non-alcoholic steatohepatitis and hepatocellular carcinoma Pathway ID Term Count P value High expression hsa04142 Lysosome 6 7.4E-3 hsa05169 Epstein-Barr virus infection 6 4.3E-2 hsa04666 Fc gamma R-mediated phagocytosis 4 5.3E-2 hsa05203 Viral carcinogenesis 6 5.6E-2 hsa04914 Progesterone-mediated oocyte maturation 4 5.8E-2 Low expression hsa04350 TGF-beta signaling pathway 3 6.4E-2 
+
+Pathway enrichment analysis of DEGs both in non-alcoholic steatohepatitis and hepatocellular carcinoma
+
+
+Survival analysis
+
+To obtain the prognostic values of 16 hub genes, we drew the Kaplan-Meier plots with P-values by OncoLnc and presented in Fig. 3 . Among the 360 HCC patients included in the TCGA database, we divided them into high expression and low expression according to the gene expression. And higher mRNA expression of CDK1 ( P = 0.00959), as well as HSP90AA1 ( P = 0.0115), EHMT2 ( P = 0.000766), MAD2L1 ( P = 0.000168), PRKCD ( P = 0.0094), NPL ( P = 0.0417), ITGB3BP ( P = 0.0336) and CEP192 ( P = 0.00921), was significantly correlated with lower overall survival rate. Moreover, lower mRNA expression of RHOB ( P = 0.00855) was significantly correlated with a lower overall survival rate.
+
+ Figure 3. Overall survivals of significant hub genes selected from aberrantly methylated-DEGs. Hub genes included CDK1, HSP90AA1, EHMT2, MAD2L1, COL1A1, PRKCD, NPL, PAK1, RHOC, COL1A2, ITGB3BP, CASC5, CEP192, TUBGCP6, RHOB and MCL1. P < 0.05 was considered statistically significant. 
+
+Overall survivals of significant hub genes selected from aberrantly methylated-DEGs. Hub genes included CDK1, HSP90AA1, EHMT2, MAD2L1, COL1A1, PRKCD, NPL, PAK1, RHOC, COL1A2, ITGB3BP, CASC5, CEP192, TUBGCP6, RHOB and MCL1. P < 0.05 was considered statistically significant.
+
+
+Gene expression of the hub genes from the TCGA database
+
+The expression of Eight hub genes that affect the survival of HCC patients was verified using paired fifty HCC samples and fifty HCC adjacent non-tumor tissues from the TCGA database (Fig. 4 ). And the expression of CDK1, HSP90AA1, MAD2L1, PRKCD, ITGB3BP, CEP192 were significantly higher in HCC samples than non-tumor tissues, while HCC samples expressed lower levels of RHOB than non-tumor tissues. Among them, integrin subunit beta 3 binding protein (ITGB3BP) and centrosomal protein 192 (CEP192) have not yet been described in NAFLD and HCC. Therefore, we further verified the gene expression of ITGB3BP and CEP192 in vitro .
+
+ Figure 4. Gene expression statuses of 8 hub genes were validated in TCGA database. The results are expressed as the mean ± SD of 50 paired HCC samples and adjacent normal liver samples. p * < 0.05, p * * < 0.01, p * ⁣ * * < 0.001, p * ⁣ * ⁣ * * ⁢ ï ⁢ ¼ ⁢ 0.0001. 
+
+Gene expression statuses of 8 hub genes were validated in TCGA database. The results are expressed as the mean ± SD of 50 paired HCC samples and adjacent normal liver samples. p * < 0.05, p * * < 0.01, p * ⁣ * * < 0.001, p * ⁣ * ⁣ * * ⁢ ï ⁢ ¼ ⁢ 0.0001.
+
+
+Expression of ITGB3BP and CEP192 verified by qRT-PCR
+
+To compare the expression of ITGB3BP and CEP192 in HCC cell lines with normal hepatic cell lines, we performed qRT-PCR in LM3, Hep3B, Huh7, HepG2, L-02, and QSG-7701 cells. Subsequently, L02 and 7701 cells were treated with PA to model steatotic hepatic cells and harvested for quantification. The results revealed that CEP192 was higher expressed in HCC cells than normal hepatic cells and in PA-treated cells than BSA-treated cells, while ITGB3BP showed results that were inconsistent with the bioinformatics analysis (Fig. 5 ).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Despite recent advances in both prevention and treatment, HCC remains the leading cause of tumor mortality in the world [ 2 ]. Therefore, exploring the mechanism and biomarkers by which NAFLD progresses to HCC are important for diagnosis, treatment, and prognosis evaluation. In recent years, the introduction and rapid development of microarray technology enabled researchers to identify changes in genetics and epigenetics of NAFLD and HCC.
+
+ Figure 5. Gene expression status of CEP192 and ITGB3BP were validated by qRT-PCR. (A, C) The expression of CEP192 and ITGB3BP in 4 human HCC cells (HepG2, Hep3B, Huh7 and LM3) and 2 normal human hepatic cells (QSG-7701 and L-02); (B, D) The expression of CEP192 and ITGB3BP in PA-treated cells (QSG-7701 and L-02) and normal controls. The results are expressed as the mean ± SD. p * < 0.05, p * * < 0.01. 
+
+Gene expression status of CEP192 and ITGB3BP were validated by qRT-PCR. (A, C) The expression of CEP192 and ITGB3BP in 4 human HCC cells (HepG2, Hep3B, Huh7 and LM3) and 2 normal human hepatic cells (QSG-7701 and L-02); (B, D) The expression of CEP192 and ITGB3BP in PA-treated cells (QSG-7701 and L-02) and normal controls. The results are expressed as the mean ± SD. p * < 0.05, p * * < 0.01.
+
+In this research, we obtained 176 upregulated genes and 80 downregulated genes from a NAFLD cDNA microarray ( GSE24807 ) and an HCC cDNA microarray ( GSE62232 ). Subsequent pathways and functional enrichment analyses were conducted in DAVID, which revealed highly expressed genes were associated with BP of mitotic nuclear division, cell division, and G2/M transition of the mitotic cell cycle. Previous studies have shown that cell-cycle dysfunction and chromosomal abnormalities played an essential role in the pathogenesis of cancer [ 22 , 23 , 24 ]. In addition, CC of highly expressed genes mainly enriched in extracellular exosomes. Exosomes are small (30–100 nm diameters) nanoparticles that are generated by the intraluminal budding events on endosomal membranes of the multivesicular bodies (MVBs). Exosomes not only is an important regulator of cellular homeostasis but may also play a vital role in the pathogenesis of the various disease [ 25 ]. NASH is the progressive form of NAFLD, characterized by lipids excess accumulation in the liver with hepatocyte death, dysfunction, and macrophage-associated inflammation. Specifically, studies have demonstrated that hepatocytes increase the release of exosomes in response to lipotoxic fatty acids, then stellate cells internalized the exosomes which leads to the activation [ 26 ]. And clinical research revealed that natural killer T cells and macrophages in patients with NAFLD significantly increased the release of exosomes [ 27 ]. Circulating exosomes also participate in the innate immune response to steatosis, which indicates its role in aggravating tissue damage. In addition, a series of studies have shown that exosomes play a role in the development of liver cancer [ 28 , 29 , 30 ]. Above all, we may conclude that exosomes play a crucial role in NAFLD progression to HCC.
+
+For overlapping low expression genes, GO functional enrichment indicated term of the biological processes of endoderm formation, positive regulation of angiogenesis, and positive regulation of exocytosis, and positive regulation of the transforming growth factor-beta (TGF β ) receptor signaling pathway. Many studies have revealed that angiogenesis plays a pivotal role in carcinogenesis [ 31 , 32 ]. In addition, it has been recognized that the TGF β pathway plays an anti-tumor role throughout the progression of cancer for a long time [ 33 ].
+
+The PPI network of overlapping genes displayed functional interactions and enabled the selection of hub genes. Survival analysis of these genes and validation of their gene expression in the TCGA database between HCC samples and normal samples demonstrated that CDK1, HSP90AA1, MAD2L1, PRKCD, ITGB3BP, CEP192, and RHOB were still significantly differentially expressed. A clear link between oxidative stress and pathological polyploidization during NAFLD was found, which resulted from the inactivation of the cyclin B1/CDK1 complex [ 34 ]. During HCC progression, upregulation of the chromodomain helicase/ATPase DNA binding protein 1–like gene (CHD1L) decreases CDK1 activity, subsequently accelerating mitotic exit [ 35 ]. Additionally, studies have shown that high expression of HSP90AA1 is also related to the occurrence and development of HCC and poor prognosis [ 36 ]. And it was concluded that the loss of Mad2l1 in adult tissues can be strongly oncogenic, especially for HCC development [ 37 ]. PRKCD was found to be suppressed in HCC cells, and decreased cell viability is mediated by PRKCD activation [ 38 ]. Additionally, the RHOB-VEGFA-VEGFR2 angiogenesis pathway was identified as activated and significantly correlated with poor prognosis in HCC [ 39 ]. A study revealed that higher ITGB3BP expression was associated with lower survival rates in patients with metastasis-free breast cancer [ 40 ]. CEP192 is a centrosomal protein that lies at the top of the hierarchy of protein recruitment during both centriole duplication and centrosome maturation [ 41 ]. In the present research, we validated the higher expression of CEP192 in HCC cell lines than normal hepatic cell lines and in PA-treated cells than normal controls by qRT-PCR. Hereby, we made two hypotheses. First, CEP192 was a pathogenic factor both in NAFLD and in HCC development. Second, the gene expression of CEP192 was upregulated in patients with NAFLD, which acted as a carcinogenic factor and resulted in the occurrence of HCC. Most importantly, CEP192 might serve as a biomarker for HCC and a therapeutic target to prevent NAFLD patients from progressing to HCC.
+
+Despite all these results, this study still has some limitations. First, verification experiments were not performed in liver tissue samples, including patients with NAFLD and HCC. Second, we did not obtain the results of further mechanistic studies. Therefore, more rigorous experiments are required to verify the above results.
+
+In conclusion, this research aimed to screen for new pathogenic genes and related pathways both in NAFLD and HCC and to explore the pathogenesis of progression from NAFLD to HCC. Seven hub genes were obtained, of which CEP192 is considered to be involved in the development of NAFLD and HCC simultaneously. Therefore, CEP192 may be a potentially useful biomarker for the prediction and treatment of HCC in patients with NAFLD.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

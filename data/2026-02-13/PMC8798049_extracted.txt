@@ -1,0 +1,70 @@
+================================================================================
+ARTICLE TITLE: Treatment and patient related quality of life issues in elderly and very elderly breast cancer patients
+PMCID: PMC8798049
+PMID: 35117958
+KEYWORDS: breast cancer, elderly, frailty, geriatric assessment, quality of life
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+As the number of aging population increases, a significant amount of elderly cancer patients need more personalized care for their cancer treatment. Breast cancer is the most common cancer in women, and almost half of the newly diagnosed patients are older than the age of 65 years. With their peculiar characteristics, elderly patients with breast cancer should be held with a comprehensive geriatric assessment. It is vital to make the choice of correct treatment more delicately, to better predict the prognosis of the patient and risks associated with specific treatments. The current article focuses on how various methods of treatment in elderly breast cancer affect their quality of life and the challenges they experience among age from 70 to 79 and age from 80 and over subgroups of this population. Treatment (surgery, radiation therapy, chemotherapy, and endocrine therapy) and patient-related (mental health, physical function, frailty, cognitive function, nutrition) quality of life issues are revisited in the light of recent literature.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Cancer of the female breast is one of the top three cancer types in terms of incidence and ranked as fifth in terms of mortality. Since the prognosis is relatively favorable, when compared with other cancers types such as lung cancer, colorectal cancer, etc., at least in more developed countries, it is responsible for 627,000 deaths (6.6% of the total) according to the latest global cancer data in 2018 ( 1 ).
+
+Age is an important risk factor for breast cancer. It is accepted by most of the developed world countries that chronological age of 65 years as a definition of “elderly” or “older person” ( 2 ). On the other hand, Breast International Group proposed age of 70 years if chronological age would be used as a frame of reference to define the elderly population ( 3 ) Therefore, “elderly patients” are mostly referred to patients as 65 or 70 for the lower age limit, however, there is no described age for the upper limit to this cohort of patients.
+
+Given the fact that cancer is on the rise in the elderly as well as other diseases (e.g., diabetes, cardiovascular conditions, pulmonary disease), patients older than 65 years of age are reported to comprise almost 45% of newly diagnosed breast cancer cases ( 4 ). An average 65-year-old patient is expected to live 20 years more, likewise, a 75-year-old patient is substantially expected to live 12 years more. For some types of breast cancer such as triple-negative pathology may frequently have an early relapse which put such patients at high risk for recurrence ( 5 ).
+
+Until recently elderly breast cancer patients were used to be underrepresented in clinical trials ( 6 , 7 ). It is promising that more specific trials are being tailored mainly addressing older women with both localized and metastatic breast cancer ( 8 - 12 ). As more detailed information about clinicopathological features of breast cancer in the elderly is obtained, it becomes more important it is to understand that it differs in a unique way from the features of breast cancer in the younger population ( 13 ).
+
+The elderly patient’s status of health should be assessed by using geriatric assessment tools which is a validated instrument. Estimation of life expectancy and mortality are among aspects of it. It’s a thorough challenge for oncologists to prescribe an appropriate treatment that strikes a delicate balance in a patient’s quality of life ( 14 ).
+
+The current article focuses on how various modalities of treatment in elderly breast cancer affect patients’ QoL and the challenges they experience among age from 70 to 79 and age from 80 and over subgroups of this population. Treatment and patient-related QoL issues are revisited in the light of recent literature.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Due to the rapid advances in the field of medicine, the life expectancy of human gets longer, and the number of malignancies increases in the elderly population. Breast cancer risk rises with the age, plus almost half of the women diagnosed with breast cancer are over age 65 years and over. However, there is no consensus for standard therapy of this patient population, and they are either likely to have less treatment or discontinue the standard treatments. In the light of growing evidence, it is now advised that each elderly patient should be handled with comprehensive geriatric assessment tools and a multidisciplinary approach should be conducted. For fit elderly patients, standard treatments should be offered irrespective of age.
+
+Clinicopathologic features of breast cancers in the elderly show a distinction between women aged 65 and over and women aged 80 and over. While offering the treatment choices, efforts should be made for patients and family members understand the possibilities for a cure, potential side effects of treatment, the impact of their consequences on quality of life. Good QoL should be the primary concern in the treatment of elderly breast cancer patients. Treatment-related and patient-related quality of life issues should be evaluated diligently.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

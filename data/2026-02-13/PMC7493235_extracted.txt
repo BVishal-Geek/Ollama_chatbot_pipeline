@@ -1,0 +1,197 @@
+================================================================================
+ARTICLE TITLE: The Risk of Prior Opioid Exposure on Future Opioid Use and Comorbidities in Individuals With Non-Acute Musculoskeletal Knee Pain
+PMCID: PMC7493235
+PMID: 32909510
+KEYWORDS: opioids, opioid risk, opioid naive, patellofemoral pain, musculoskeletal pain, knee, comorbidities, health services research
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objectives:
+Due to their potentially deleterious effects, minimizing the use of opioids for musculoskeletal pain is a priority for healthcare systems. The objective of this study was to examine the risk of future opioid prescription use based on prior opioid use within a non-surgical cohort with musculoskeletal knee pain. We also examined the risk of pre-existing comorbidities on future opioid use, and the risk of prior opioid use on future comorbidities (sleep, mental health, cardiometabolic disorders).
+
+Methods:
+Data came from the Military Health System Data Repository for 80 290 consecutive beneficiaries with an initial episode of care for patellofemoral pain from January 1, 2010 through December 31, 2011. Risk was calculated using 2 × 2 tables based on pre- and post-opioid utilization and comorbid diagnosis. Risk ratios, relative and absolute risk increases, and numbers needed to harm were calculated, all with 95% confidence intervals.
+
+Results:
+Prior opioid use resulted in a risk ratio of 18.0 (95 CI 17.1, 19.0) and an absolute risk increase of 61.6% for future opioid use (numbers needed to harm = 2). The presence of all comorbidities (except cardiometabolic syndrome) were associated with a significant relative risk for future opioid use (RR range 1.2-1.5), but the absolute risk increase was trivial (range 0.7%-2.2%). The relative risk for a chronic pain diagnosis, traumatic brain injury/concussion, insomnia, depression, and PTSD were all significantly higher in those with prior opioid use (1.3-1.6), but absolute risk increase was minimal (1.1%-6.5%).
+
+Discussion:
+Prior opioid use was a strong risk factor for future opioid use in non-surgical patients with knee pain. These findings show that history of prior opioid use is important when assessing the risk of future opioid use, whereas prior comorbidities may not be as important. Opioid history assessment should be standard practice for all patients with patellofemoral pain in whom an opioid prescription is considered.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+As a result of the ongoing opioid epidemic, the use of opioids to treat pain has been subjected to increasing scrutiny. While more common for cancer-related pain, opioids often have a role in managing acute and/or postoperative musculoskeletal pain. In many cases, management of postoperative pain is the patient’s introduction to opioids. 1 The use of opioids is benign for most individuals; however, a substantial percentage (21%-29%) go on to misuse opioids. 2 In addition to overdose and death, chronic opioid use is associated with a multitude of other adverse health-related events (eg, immunosuppression, endocrine dysfunction, disordered sleep). 3 - 5 Identifying risks for and preventing chronic opioid use is a key initiative for clinicians, healthcare leaders, and policy-makers.
+
+One of the strongest predictors of chronic postoperative opioid use is preoperative use. 6 - 10 Preoperative opioid use is also a strong predictor of worse outcomes, higher complication rates, and increased downstream costs. 8 , 11 A relationship has also been identified between opioid use and several comorbidities, such as sleep disorders, 12 depression, 13 chronic pain, 14 concussion, 15 and metabolic syndromes. 16 The predictive value of prior opioid use on future opioid use is well established in surgical cohorts. 9 , 17 - 19 Work has also been done to identify rates and predictors of opioid use for many conditions including musculoskeletal pain in non-surgical primary care settings. 20 However, outside of low back pain, 21 we have not found any investigation into the predictive value of prior opioid use for future opioid use in non-surgical and non-cancer pain cohorts.
+
+Although relative risk (RR), absolute risk (AR), AR increase (ARI), RR increase (RRI), and numbers needed to harm (NNH) all describe the effect size, each must be taken into context within baseline prevalence and clinical relevance. 22 Absolute risk reduction (ARR) or increase (ARI), also termed risk difference, is the most appropriate to help with decision-making. Relative risk has limitations because it only compares risk in relation to a comparison group, which can commonly overestimate the effect. 22 In contrast, absolute risk can provide a better representation of the clinical impact of an exposure. 23 The numbers needed to harm is the number of patients exposed to the event of interest (eg, opioids) needed before the outcome of interest is present (ie, future opioid use), 24 and provides a clinically relevant value that is simple for clinicians to use. We hypothesized that prior opioid use and prior comorbid diagnoses would be significant risk factors for future opioid use.
+
+The primary aim of this study was (1) to evaluate the risk and numbers needed to harm associated with prior exposure to opioids on future opioid use in individuals with patellofemoral pain (PFP). Secondary aims were to (2a) evaluate pre-existing comorbidities as risk factors for future opioid use and compare this with the risk of prior exposure to opioids, and (2b) evaluate the influence of prior opioid use on future comorbidity. We identified the Military Health System (MHS) for this assessment due to high prevalence of chronic pain and opioid utilization, 25 , 26 and because we had access to a population-level cohort of patients receiving non-surgical management. We selected PFP because it presented a sample of convenience. It is also the most common cause of knee pain and typically self-limiting, although a substantial number of cases become chronic. 27 - 29 The condition is generally not treated initially with opioids and surgery is not common. 30
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+This was a retrospective cohort study including all patients with an initial episode of care for PFP occurring within the Military Health System (MHS) between January 1, 2010 and December 31, 2011. All encounters 12 months before and 24 months after the initial injury were captured for every individual (January 2009-December 2013). The REporting of studies Conducted using Observational Routinely collected Data (RECORD) 31 extension to the Strengthening of the Reporting of OBservational studies in Epidemiology (STROBE) checklist 32 was used to guide the reporting of this study. The study received ethics approval from the U.S. Army Central Regional Health Command Institutional Review Board.
+
+All data were extracted from the Military Health System Data Repository (MDR), which serves as the centralized data repository for all Defense Health Agency corporate health care data. All medical care for any MHS beneficiary, to include inpatient and outpatient encounters in both military hospitals and in the civilian hospital network around the world are captured at the person-level in the MDR.
+
+We identified patients with a diagnosis of chondromalacia patella, as rendered by the International Statistical Classification of Diseases and Related Health Problems (ICD), 9th edition code 717.7, as this diagnosis is synonymous with PFP syndrome. 33 We included only persons with no prior knee-related care encounters in the year prior, so this was an initial episode of care for knee pain. To ensure an accurate diagnosis, we excluded patients where the initial diagnosis of PFP was followed by a different knee diagnosis within 6 months. We also excluded anyone under the age of 18, unless they were emancipated minors on active military duty (can join at 17 years of age). Because opioid use was the primary outcome, we excluded all persons who, after the index date (the initial medical visit for PFP), had fractures of the leg and any individuals that underwent any surgical procedures of the musculoskeletal system, defined by Current Procedural Terminology (CPT) codes 20100 to 29999. We also excluded anyone with a diagnosis of a neoplasm in the 12 months before or 24 months after the index injury, as pain from cancer and bone fractures is often treated with opioids. Finally, we excluded anyone that wad not fully eligible for medical care in this system the entire 12 months before and 24 months after the initial PFP visit, to ensure continuous eligibility for the full 36-month period of surveillance.
+
+Descriptive variables: to characterize the sample, we included age, sex, race, military service branch, beneficiary category (military, civilian, etc.), and socioeconomic status, which was based on the rank category of the sponsor (the family member with the direct military affiliation). All variables were taken from the time of initial diagnosis (index date).
+
+Predictor variables: we targeted 2 primary predictor variables for risk analyses present in the 1 year prior to the index date for each individual: (1) opioid exposure and (2) presence of relevant comorbidities. Comorbid conditions included diagnoses of chronic pain, traumatic brain injury (TBI)/concussion, post-traumatic stress disorder (PTSD), cardiometabolic syndromes, insomnia, depression, sleep apnea, and tobacco or substance abuse disorders. These comorbid conditions were chosen because they have an established relationship with opioid use, and they have been shown to impact the prognosis of musculoskeletal disorders. 34 The specific International ICD codes used to identify these comorbidities are listed in the Supplemental Appendix . Based on guidelines used by the Armed Forces Health Surveillance Branch (central epidemiologic resource for the U.S. Armed Forces), 35 at least 2 separate visits for each comorbidity needed to be present for it to be counted. Opioid exposure was defined as any opioid utilization based on a filled prescription identified through the Pharmacy Data Transaction Service (PDTS) within MDR, based on American Hospital Formulary Service (AHFS) classification codes of 280808 and 280812 and the number of unique prescription fills (generic names of all opioid prescribed are listed in the Supplemental Appendix ).
+
+Outcome variables: we targeted 2 distinct outcome variables. The first involved any opioid prescription filled and the second involved a comorbidity diagnosis, both occurring within the 2 years after the initial episode of care for PFP (index date).
+
+The MDR collects data within a closed single-payer healthcare system. This means that almost all care for these beneficiaries is captured exclusively in the system. The MDR is a comprehensive database that uses multiple checkpoints to improve the quality of the data that arrive from multiple sources; consequently, it has minimal missing values. Data feeds into the MDR are initially given a “raw” designation as they go through a 90-day validation process, where missing values are imputed by cross-referencing across multiple other databases, continuously feeding into the MDR. After this validation process, data are transformed from “raw” to final and are then sourced for analyses, and thus missing data are minimal. In this cohort 0.4% and 0.1% of the beneficiary status and sex variables were missing, respectively.
+
+All risk statistics were calculated using the Physiotherapy Evidence Database (PEDro) Confidence Interval Calculator (free to download and use). 36 Frequencies of descriptive variables for those with opioid prescription fills or with a relevant comorbidity diagnosis were analyzed independently.
+
+All risk statistics as previously defined were calculated for each model. Group or absolute risk is the prevalence (by percentage) of a defined event (future opioid use) occurring over a stated observation period (2 years) within a particular group of interest (2 groups: individuals seeking initial care for PFP with or without prior opioid use). Relative risk is the comparison of the absolute risk for future opioid use in the 2 groups, calculated by dividing 1 absolute risk from the other (AR in group with prior exposure to opioids/AR in group with no-prior exposure to opioids). The absolute risk increase, also termed the “risk difference,” is calculated by simply taking the difference between the absolute risk in each of the 2 groups (AR in group with prior opioid exposure—AR in group with no prior opioid exposure). The relative risk increase takes the absolute risk increase value and divides it by the absolute risk of the group with no prior opioid exposure. Lastly, the numbers needed to harm represent the number of patients that need to be exposed to the event of interest (eg, opioids within 12 months prior to the PFP visit) before the outcome of interest (ie, downstream opioid use) manifests itself in comparison to patients without the exposure (opioid naive). Lower numbers indicate a stronger contribution from the exposure event to the outcome event. The numbers needed to harm is calculated by taking 1/ARI. Risk statistics with 95% confidence intervals are reported for all values.
+
+
+Design and Setting
+
+This was a retrospective cohort study including all patients with an initial episode of care for PFP occurring within the Military Health System (MHS) between January 1, 2010 and December 31, 2011. All encounters 12 months before and 24 months after the initial injury were captured for every individual (January 2009-December 2013). The REporting of studies Conducted using Observational Routinely collected Data (RECORD) 31 extension to the Strengthening of the Reporting of OBservational studies in Epidemiology (STROBE) checklist 32 was used to guide the reporting of this study. The study received ethics approval from the U.S. Army Central Regional Health Command Institutional Review Board.
+
+
+Data Sources/Measurement
+
+All data were extracted from the Military Health System Data Repository (MDR), which serves as the centralized data repository for all Defense Health Agency corporate health care data. All medical care for any MHS beneficiary, to include inpatient and outpatient encounters in both military hospitals and in the civilian hospital network around the world are captured at the person-level in the MDR.
+
+
+Inclusion/Exclusion Criteria
+
+We identified patients with a diagnosis of chondromalacia patella, as rendered by the International Statistical Classification of Diseases and Related Health Problems (ICD), 9th edition code 717.7, as this diagnosis is synonymous with PFP syndrome. 33 We included only persons with no prior knee-related care encounters in the year prior, so this was an initial episode of care for knee pain. To ensure an accurate diagnosis, we excluded patients where the initial diagnosis of PFP was followed by a different knee diagnosis within 6 months. We also excluded anyone under the age of 18, unless they were emancipated minors on active military duty (can join at 17 years of age). Because opioid use was the primary outcome, we excluded all persons who, after the index date (the initial medical visit for PFP), had fractures of the leg and any individuals that underwent any surgical procedures of the musculoskeletal system, defined by Current Procedural Terminology (CPT) codes 20100 to 29999. We also excluded anyone with a diagnosis of a neoplasm in the 12 months before or 24 months after the index injury, as pain from cancer and bone fractures is often treated with opioids. Finally, we excluded anyone that wad not fully eligible for medical care in this system the entire 12 months before and 24 months after the initial PFP visit, to ensure continuous eligibility for the full 36-month period of surveillance.
+
+
+Variables
+
+Descriptive variables: to characterize the sample, we included age, sex, race, military service branch, beneficiary category (military, civilian, etc.), and socioeconomic status, which was based on the rank category of the sponsor (the family member with the direct military affiliation). All variables were taken from the time of initial diagnosis (index date).
+
+Predictor variables: we targeted 2 primary predictor variables for risk analyses present in the 1 year prior to the index date for each individual: (1) opioid exposure and (2) presence of relevant comorbidities. Comorbid conditions included diagnoses of chronic pain, traumatic brain injury (TBI)/concussion, post-traumatic stress disorder (PTSD), cardiometabolic syndromes, insomnia, depression, sleep apnea, and tobacco or substance abuse disorders. These comorbid conditions were chosen because they have an established relationship with opioid use, and they have been shown to impact the prognosis of musculoskeletal disorders. 34 The specific International ICD codes used to identify these comorbidities are listed in the Supplemental Appendix . Based on guidelines used by the Armed Forces Health Surveillance Branch (central epidemiologic resource for the U.S. Armed Forces), 35 at least 2 separate visits for each comorbidity needed to be present for it to be counted. Opioid exposure was defined as any opioid utilization based on a filled prescription identified through the Pharmacy Data Transaction Service (PDTS) within MDR, based on American Hospital Formulary Service (AHFS) classification codes of 280808 and 280812 and the number of unique prescription fills (generic names of all opioid prescribed are listed in the Supplemental Appendix ).
+
+Outcome variables: we targeted 2 distinct outcome variables. The first involved any opioid prescription filled and the second involved a comorbidity diagnosis, both occurring within the 2 years after the initial episode of care for PFP (index date).
+
+
+Missing Values
+
+The MDR collects data within a closed single-payer healthcare system. This means that almost all care for these beneficiaries is captured exclusively in the system. The MDR is a comprehensive database that uses multiple checkpoints to improve the quality of the data that arrive from multiple sources; consequently, it has minimal missing values. Data feeds into the MDR are initially given a “raw” designation as they go through a 90-day validation process, where missing values are imputed by cross-referencing across multiple other databases, continuously feeding into the MDR. After this validation process, data are transformed from “raw” to final and are then sourced for analyses, and thus missing data are minimal. In this cohort 0.4% and 0.1% of the beneficiary status and sex variables were missing, respectively.
+
+
+Statistical Methods
+
+All risk statistics were calculated using the Physiotherapy Evidence Database (PEDro) Confidence Interval Calculator (free to download and use). 36 Frequencies of descriptive variables for those with opioid prescription fills or with a relevant comorbidity diagnosis were analyzed independently.
+
+All risk statistics as previously defined were calculated for each model. Group or absolute risk is the prevalence (by percentage) of a defined event (future opioid use) occurring over a stated observation period (2 years) within a particular group of interest (2 groups: individuals seeking initial care for PFP with or without prior opioid use). Relative risk is the comparison of the absolute risk for future opioid use in the 2 groups, calculated by dividing 1 absolute risk from the other (AR in group with prior exposure to opioids/AR in group with no-prior exposure to opioids). The absolute risk increase, also termed the “risk difference,” is calculated by simply taking the difference between the absolute risk in each of the 2 groups (AR in group with prior opioid exposure—AR in group with no prior opioid exposure). The relative risk increase takes the absolute risk increase value and divides it by the absolute risk of the group with no prior opioid exposure. Lastly, the numbers needed to harm represent the number of patients that need to be exposed to the event of interest (eg, opioids within 12 months prior to the PFP visit) before the outcome of interest (ie, downstream opioid use) manifests itself in comparison to patients without the exposure (opioid naive). Lower numbers indicate a stronger contribution from the exposure event to the outcome event. The numbers needed to harm is calculated by taking 1/ARI. Risk statistics with 95% confidence intervals are reported for all values.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Of 221 093 individuals with a new knee disorder diagnosis during the 2-year surveillance period, 54.9% included a diagnosis of PFP. After removing all exclusions, there were 80 521 patients remaining in the cohort (mean age 33.3 years, SD 8.9) that met the criteria ( Figure 1 ). Overall opioid use was low, with only 4.7% (n = 3757) of the sample receiving opioid-based pain medication at any point in the 2 years after the initial knee diagnosis. Table 1 outlines the demographics of the cohort and each group.
+
+Flow diagram of cohort derivation.
+
+Abbreviation: ICD9: International Statistical Classification of Diseases and Related Health Problems, 9th edition.
+
+Descriptive and Demographic Variables for Cohort Based on Opioid Use Before and After Initial Knee Pain Diagnosis.
+
+Values are N (percentage) unless otherwise stated.
+
+Group risk percentages for opioid use after the initial knee diagnosis were high (65.2%) in individuals with prior exposure to opioids compared to only 3.6% of individuals without previous exposure ( Table 2 ). Likewise, the group risk for future opioid use was higher in individuals with a prior comorbidity diagnosis (range from 5.0% to 19.6%) compared to those without (range from 3.6% to 4.7%; Table 2 ). The group risk for future comorbidity diagnosis was also higher if individuals filled an opioid prescription in the 1-year prior (ranging from 3.0% to 18.2%) compared to those who did not have prior opioid use (range from 2.9% to 13.0%; Table 3 ).
+
+Absolute Risk (Within Group) for Opioid Use After Initial Knee Diagnosis.
+
+Abbreviation: TBI: traumatic brain injury.
+
+Both columns represent the number and percentages of individuals with opioid use after initial knee diagnosis. The total n receiving opioid use after the index knee diagnosis was 3757.
+
+Absolute Risk (Within Group) for Specific Comorbidity Diagnoses Present After Initial Knee Diagnosis Based on Prior Opioid Use.
+
+Both columns represent number and percentages of opioid use history before initial knee diagnosis for individuals that were given each comorbidity diagnosis after the initial knee pain visit.
+
+Table 4 outlines the relative and absolute risks and numbers needed to harm associated with any opioid use after the initial knee diagnosis. Prior opioid use provided the strongest risk for post-knee diagnosis opioid use, with a RR of 18.0 (95% CI 17.1, 19.0), a RR increase of 1700%, an AR increase of 61.6%. For every 2 patients that had a prior opioid prescription fill (NNH = 2), 1 patient would go on to fill an opioid prescription after their initial knee diagnosis ( Table 4 ). There was also a very small relative risk of opioid use after the initial PFP diagnosis if the individual had a comorbidity in the year prior (RR range from 1.2 to 1.5). However, these differences are likely not clinically relevant, with small AR increases ranging from 0.7% to 2.2% and NNH ranging from 45 to 136 ( Table 4 ).
+
+Risk of Future Opioid Utilization Based on Presence of the Predictor Prior to Initial Knee Diagnosis.
+
+Not calculated as RR is not significant (95% confidence intervals cross 1.00). All values calculated with: Herbert R. Confidence Interval Calculator (2013). https://www.pedro.org.au/english/downloads/confidence-interval-calculator/ . Accessed February 19, 2020.
+
+The risk of a future comorbidity diagnosis based on prior opioid exposure was significant for several comorbidities ( Table 5 ). Patients with prior opioid use were at higher relative risk for a future diagnosis of chronic pain (RR = 1.4; 95 CI 1.3, 1.5), TBI/concussion (RR = 1.5; 95 CI 1.1, 1.9), insomnia (RR = 1.3; 95 CI 1.1, 1.4), depression (RR = 1.6; 95 CI 1.5, 1.8), and PTSD (RR = 1.3; 95 CI 1.0, 1.6) compared to opioid-naive individuals ( Table 5 ). While these risk ratios were significant, the clinical relevance is questionable, with corresponding absolute risk increases ranging from 1.1% to 6.5% and NNH ranging from 15 to 91.
+
+Risk of Comorbidity Diagnosis After Initial Knee Diagnosis Based on Presence of Prior Opioid Use.
+
+Not calculated as RR is not significant (95% confidence intervals cross 1.0). All values calculated with: Herbert R. Confidence Interval Calculator (2013). https://www.pedro.org.au/english/downloads/confidence-interval-calculator/ . Accessed February 19, 2020.
+
+
+Future Opioid Use
+
+Table 4 outlines the relative and absolute risks and numbers needed to harm associated with any opioid use after the initial knee diagnosis. Prior opioid use provided the strongest risk for post-knee diagnosis opioid use, with a RR of 18.0 (95% CI 17.1, 19.0), a RR increase of 1700%, an AR increase of 61.6%. For every 2 patients that had a prior opioid prescription fill (NNH = 2), 1 patient would go on to fill an opioid prescription after their initial knee diagnosis ( Table 4 ). There was also a very small relative risk of opioid use after the initial PFP diagnosis if the individual had a comorbidity in the year prior (RR range from 1.2 to 1.5). However, these differences are likely not clinically relevant, with small AR increases ranging from 0.7% to 2.2% and NNH ranging from 45 to 136 ( Table 4 ).
+
+Risk of Future Opioid Utilization Based on Presence of the Predictor Prior to Initial Knee Diagnosis.
+
+Not calculated as RR is not significant (95% confidence intervals cross 1.00). All values calculated with: Herbert R. Confidence Interval Calculator (2013). https://www.pedro.org.au/english/downloads/confidence-interval-calculator/ . Accessed February 19, 2020.
+
+
+Future Comorbidity Diagnosis
+
+The risk of a future comorbidity diagnosis based on prior opioid exposure was significant for several comorbidities ( Table 5 ). Patients with prior opioid use were at higher relative risk for a future diagnosis of chronic pain (RR = 1.4; 95 CI 1.3, 1.5), TBI/concussion (RR = 1.5; 95 CI 1.1, 1.9), insomnia (RR = 1.3; 95 CI 1.1, 1.4), depression (RR = 1.6; 95 CI 1.5, 1.8), and PTSD (RR = 1.3; 95 CI 1.0, 1.6) compared to opioid-naive individuals ( Table 5 ). While these risk ratios were significant, the clinical relevance is questionable, with corresponding absolute risk increases ranging from 1.1% to 6.5% and NNH ranging from 15 to 91.
+
+Risk of Comorbidity Diagnosis After Initial Knee Diagnosis Based on Presence of Prior Opioid Use.
+
+Not calculated as RR is not significant (95% confidence intervals cross 1.0). All values calculated with: Herbert R. Confidence Interval Calculator (2013). https://www.pedro.org.au/english/downloads/confidence-interval-calculator/ . Accessed February 19, 2020.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Prior opioid use was a very strong risk factor for future prior opioid use (RR 18.1), with an absolute risk increase of 61.6%. While this risk factor has been well established in surgical patients with musculoskeletal pain, 6 - 9 , 18 , 37 much less is known about the risk in non-surgical patients. In addition, even in surgical cohorts, ARI is seldom reported, making it challenging to interpret the clinical relevance of the risk ratios reported. This investigation in a large cohort of patients within a large health system increases our understanding of the influence that prior opioid use has on future opioid use, and in non-surgical patients seeking care for musculoskeletal pain.
+
+There has been prior investigation into the influence of opioids on the development of comorbidities. One single dose of opioids has been shown to adversely alter sleep architecture, 38 and chronic opioid use can lead to the development of sleep apnea. 39 Opioid use is associated with greater severity and risk for depression, 13 and worse outcomes in patients with post-concussion syndrome 40 or post-concussive headaches. 41 Surgery itself may be a risk factor for developing downstream comorbidities, in part because of the required lifestyle changes and associated opioid use. 42 Because opioid use is less common in patients that have not undergone surgery, these relationships could differ in non-surgical populations. We found significant relative risk of a comorbidity diagnosis (except sleep apnea and cardiometabolic syndromes) after the initial knee pain episode in those with prior opioid use, however the absolute risk increase was small (ranging from 0.2% to 6.5%).
+
+Reporting absolute risk increase is critical in order to not overestimate the relationships between these risk factors. While the relative risk increase was >20% for the risk of most comorbidities on downstream opioid utilization ( Table 4 ), the corresponding absolute risk increase was much smaller (0.7%-2.2%) providing a more realistic assessment of actual risk across the entire cohort. In addition, when risk ratios are very similar, the numbers needed to harm may be substantially different depending on the size of the cohort. For example, the relative risk for downstream opioid use with a prior diagnosis of PTSD or depression were similar (1.3 vs 1.5; Table 4 ). However, the numbers needed to harm for depression was 86 compared to only 45 for those with a prior diagnosis of PTSD. The contribution of PTSD to the risk of future opioid use could be greater, with a smaller number needed to harm, despite the relative risk being almost equal to that of depression. However, the size of the groups can also influence these values and there were less than half the number of individuals with PTSD compared to depression.
+
+Much less investigation has focused on examining the absolute risk of prior opioid use on downstream comorbidities. The results from the current study suggest that the relative risk increase of developing a comorbidity if opioids were used prior to injury is 62.9% for depression, 46.0% for TBI/concussion, 40.0% for chronic pain, 27.7% for PTSD, and 25.2% for insomnia. However, the corresponding absolute risk increases for these same comorbidities were actually much smaller at 6.5%, 1.2%, 1.0%, 5.2%, 1.1%, and 3.0%, respectively. In both cases however, the risk for future opioid use is not nearly as high as that of prior opioid use on future opioid use. Therefore, no recommendations related to the risk of opioid use on developing comorbidities can be made based on these findings. Further research should look at this relationship more closely to include the potential for dose-dependent relationships or groups with multiple risk factors.
+
+Clinical interpretation of risk statistics requires measures of absolute risk, as risk ratios, relative risk increase (or decrease), and absolute risk increase (or decrease). Each independent value cannot provide complete clinical relevance alone. Researchers should report the full spectrum of risk statistics (RR, RR increase, AR increase, and NNH/NNT). Based on the findings from this study, clinicians should consider prior opioid use patterns when initially managing patients with patellofemoral pain. While prior opioid utilization is not something that can be modified at the point of care, it can provide valuable information that can potentially influence future care decisions. Further research is needed to better understand the relationship between opioids and comorbidities.
+
+The main strength of this paper is the large size of the cohort which represents all patients meeting these conditions in this health system, rather than just a sample of patients from a health system. Opioid pain medication is not typical for the management of PFP, and therefore these lower numbers of overall use are not surprising but may be different for other non-surgical conditions. These findings should be validated with other conditions and in other settings. There are several limitations, including those that are inherent when using data collected from electronic medical records. The diagnostic codes are only as accurate as how they were entered. Some individuals may have been diagnosed with chondromalacia patella for what was in reality a different condition. For these reasons, we took additional steps to further characterize the cohort. For example, we excluded those with other concurrent knee diagnoses or those with a knee surgery within 6 months of the diagnosis, as surgery is rare and not a typical intervention for PFP. Finally, the exact reasons for the opioid prescription could not be determined based on the nature of this data. We attempted to exclude individuals with other conditions where opioids would be potentially merited (eg, surgical procedures, fractures, dislocation).
+
+
+Strengths/Limitations
+
+The main strength of this paper is the large size of the cohort which represents all patients meeting these conditions in this health system, rather than just a sample of patients from a health system. Opioid pain medication is not typical for the management of PFP, and therefore these lower numbers of overall use are not surprising but may be different for other non-surgical conditions. These findings should be validated with other conditions and in other settings. There are several limitations, including those that are inherent when using data collected from electronic medical records. The diagnostic codes are only as accurate as how they were entered. Some individuals may have been diagnosed with chondromalacia patella for what was in reality a different condition. For these reasons, we took additional steps to further characterize the cohort. For example, we excluded those with other concurrent knee diagnoses or those with a knee surgery within 6 months of the diagnosis, as surgery is rare and not a typical intervention for PFP. Finally, the exact reasons for the opioid prescription could not be determined based on the nature of this data. We attempted to exclude individuals with other conditions where opioids would be potentially merited (eg, surgical procedures, fractures, dislocation).
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Appendix_V2 – Supplemental material for The Risk of Prior Opioid Exposure on Future Opioid Use and Comorbidities in Individuals With Non-Acute Musculoskeletal Knee Pain
+File: Appendix_V2.docx

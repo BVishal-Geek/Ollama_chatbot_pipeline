@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Psychosocial Stress, Glucocorticoid Signaling, and Prostate Cancer Health Disparities in African American Men
+PMCID: PMC8896511
+PMID: 35252767
+KEYWORDS: african american, african ancestry, clinical trials, glucocorticoid receptor, glucocorticoid signaling, health disparities, prostate cancer, psychosocial stress
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Recent advances in our understanding of racial disparities in prostate cancer (PCa) incidence and mortality that disproportionately affect African American (AA) men have provided important insights into the psychosocial, socioeconomic, environmental, and molecular contributors. There is, however, limited mechanistic knowledge of how the interplay between these determinants influences prostate tumor aggressiveness in AA men and other men of African ancestry. Growing evidence indicates that chronic psychosocial stress in AA populations leads to sustained glucocorticoid signaling through the glucocorticoid receptor (GR), with negative physiological and pathological consequences. Compelling evidence indicates that treatment of castration-resistant prostate cancer (CRPC) with anti-androgen therapy activates GR signaling. This enhanced GR signaling bypasses androgen receptor (AR) signaling and transcriptionally activates both AR-target genes and GR-target genes, resulting in increased prostate tumor resistance to anti-androgen therapy, chemotherapy, and radiotherapy. Given its enhanced signaling in AA men, GR—together with specific genetic drivers—may promote CRPC progression and exacerbate tumor aggressiveness in this population, potentially contributing to PCa mortality disparities. Ongoing and future CRPC clinical trials that combine standard of care therapies with GR modulators should assess racial differences in therapy response and clinical outcomes in order to improve PCa health disparities that continue to exist for AA men.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

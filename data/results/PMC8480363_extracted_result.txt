@@ -1,0 +1,19 @@
+Source: PMC8480363_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Breast-Conserving Therapy Versus Mastectomy in Young Breast Cancer Patients Concerning Molecular Subtypes: A SEER Population-Based Study",
+  "condition_E": 1,
+  "condition_E_reason": "Data including age at diagnosis, race, pathological type, histological grade, tumor size, axillary lymph node status, American Joint Committee on Cancer stage, HR and HER-2 status, surgical method, chemotherapy, radiotherapy, distant metastasis, death events, and time of follow-up were extracted.",
+  "N_E": 1,
+  "N_E_reason": "A total of 8656 young patients (≤40 years of age) who were diagnosed with invasive breast cancer were selected for analysis.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Among the 8656 selected young patients, 4524 (52.3%) underwent radical or modified radical mastectomy and 4132 (47.7%) underwent BCT.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The primary endpoint was overall survival (OS), whereas the secondary endpoint was breast cancer-specific survival (BCSS).",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

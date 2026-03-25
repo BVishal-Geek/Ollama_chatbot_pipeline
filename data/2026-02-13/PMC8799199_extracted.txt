@@ -1,0 +1,220 @@
+================================================================================
+ARTICLE TITLE: NDRG1 was downregulated and worked as favorable biomarker in the development of gastric cancer
+PMCID: PMC8799199
+PMID: 35117175
+KEYWORDS: n-myc downstream regulated gene 1 (ndrg1), gastric cancer, methylation, bioinformatics analysis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+This study clarified the relationship between N-myc downstream regulated gene 1 (NDRG1) expression and the clinicopathological features, DNA methylation, prognosis and relevant signal pathways in gastric cancer (GC).
+
+Methods:
+NDRG1 expression was examined by Western blot, immunohistochemistry and qRT-PCR. The clinical, transcriptome and methylation data of GC was downloaded from The Cancer Genome Atlas (TCGA), and extracted by R software. The overall survival (OS) rate of NDRG1 was analyzed by Kaplan-Meier plotter. The NDRG1-related gene set enrichment analysis (GSEA) was performed by GSEA-3.0.
+
+Results:
+NDRG1 expression was down-regulated at both mRNA and protein levels, and immunohistochemically correlated with tumor diameter, depth of invasion, lymph node metastasis and lymphatic invasion, tissue differentiation at a negative manner. The mRNA expression of NDRG1 was negatively related to its methylation. Kaplan-Meier plotter results indicated that NDRG1 was positively correlated with the prognosis of GC patients. NDRG1 was involved in cancer, Notch, PPAR, ERBB, adherens junction, and tight junction signal pathways.
+
+Conclusions:
+In GC, NDRG1 expression was down-regulated, possibly due to DNA methylation. NDRG1 could play a role of tumor suppressor in the tumorigenesis by inhibiting multiple oncogenic signal pathways. The hypo-expression of NDRG1 was positively associated with malignant biological behavior and adverse prognosis in gastric cancer.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Gastric cancer is one of most common malignant cancers and the third reason of cancer-related deaths in the past two decades worldwide ( 1 ). Gastric cancer (GC) ranks the second among cancer deaths, and the incidence of GC is still increasing in China ( 2 ). Recent studies reported that GC is affected by Helicobacter pylori infection, high salty-diets, smoking and so on ( 3 - 5 ).
+
+N-myc downstream regulated gene 1 (NDRG1), namely CAP43, DRG-1, RIT42, is a firstly-discovered member of NDRG family. Located at 8q24.22, it spans 60 kb ( 6 ). NDRG1 protein was about 43 kD ( 6 , 7 ) and located in cytoplasm, cellular membrane and nucleus ( 8 , 9 ). Reportedly, NDRG1 could inhibit proliferation ( 10 ), autophagy ( 11 ) and promote apoptosis ( 12 , 13 ), differentiation ( 14 ). Other researchers found that NDRG1 could suppress migration and invasion ( 15 ), thus inhibit epithelial-mesenchymal transition (EMT) ( 10 , 15 , 16 ). These evidences indicated that NDRG1 suppressed the aggressive phenotypes as a tumor suppressor.
+
+A body of evidences reported that NDRG1 was decreased in glioma ( 6 ), prostate cancer ( 17 ), colorectal cancer ( 12 , 13 , 15 , 18 ), and ovarian cancer ( 19 ). But, NDRG1 expression is still controversial in GC ( 20 , 21 ). Ureshino et al. ( 20 ) reported that the NDRG1 over-expression was closely correlated with unfavorable prognosis of GC. However, Chang et al. ( 21 ) proved that NDRG1 was correlated inversely with clinicopathological characteristics of GC. Therefore, our aim was to illustrate the relationship between NDRG1 expression and GC by combining clinical data with bioinformatics data. Furthermore, combining with previous work by other researchers, we conducted GSEA to analyze NDRG1-related signal pathways, so as to reveal NDRG1 function in gastric cancer.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+All tissues were provided by our hospital between 2012 to 2015. Thirty-four pairs of gastric cancer and adjacent samples were stored in −80 °C refrigerator, and 160 gastric cancer and 86 adjacent samples were prepared in pathological blocks. Patients received no radiotherapy, chemotherapy, or adjuvant treatment before surgery. We were allowed to use their tissues for clinical research, and the study was approved by regional ethics committee of The First Affiliated Hospital of Jinzhou Medical University Medical Ethics Committee.
+
+Total RNA of 18 pairs of samples were extracted by RNeasy mini kit (QIAGEN, Germany), and then cDNA was synthesized by reverse transcriptase (M-MLV, Takara, Japan) and random primers (Takara, Japan). GAPDH primers: forward 5'-CAATGACCCCTTCATTGACC-3', reverse 5'-TGGAAGATGGTGATGGGATT-3'. NDRG1 primers: forward 5'-GGGCTGAAAAGCATTATTGG-3', reverse 5'-CTCCACCATCTCAGGGTTGT-3'. The iTaq TM universal SYBR ® green supermix (BIO-RAD, USA) was used to amplify gene by CFX96 TM real-time system (BIO-RAD, Bio-Rad Laboratories, Inc., Singapore). The three-step PCR was selected to amplify gene, and the thermocycling conditions were listed as follows: 1 cycle of 95 °C for 5 min, followed by 60 cycles of 95 °C, 55 °C and 72 °C for 30 s respectively. The gene expression level was calculated as 2 −ΔΔCt , where ΔCt=Ct (NDRG1) − Ct (GAPDH), and ΔΔCt=ΔCt (Cancer) − ΔCt (Normal), with GAPDH as an internal control.
+
+Proteins were extracted from 16 pairs of samples by RIPA lysis buffer, segregated by 12% SDS-PAGE, and then transferred to PVDF membranes (Millipore, USA, IPVH00010). Skim milk powder was dissolved in TBST, and membranes were blocked in 5% skim milk for 2 h, and incubated with rabbit anti-NDRG1 (#9485, CST) or rabbit anti-GAPDH (AB-P-R 001, Hangzhou Goodhere Biotechnology Co.,). The PVDF membranes were washed for 3 times, and then incubated with anti-rabbit antibody with horseradish peroxidase (HRP, #7074S, CST). Protein Bands were captured with C300 (Azure Biosystems, Azure biosystem Inc, USA) by Western Bright TM ECL western blotting detection kit (Advansta, USA). The gray values of protein bands were measured by Image J software (v1.8.0), with GAPDH as an internal control.
+
+Tumor or adjacent normal tissues were identified by microscope, and tissue microarrayer (KIN-2, Azumaya Co., Ltd., Japan) was used to transfer corresponding tissue cores to a recipient block. Consecutive sections were incised and then transferred to glass slides coated with poly-lysine. The slides were deparaffinized and rehydrated, and then conducted antigen retrieval. The slides were blocked with 3% hydrogen peroxide, and then 5% bovine serum albumin was used to block non-specific binding sites. The slides were incubated with rabbit anti-NDRG1 (#9485, CST) for overnight at 4 °C. After rinsed with PBS for 3 times, the slides were incubated with polyclonal swine anti-rabbit antibody with HRP (P0399, DAKO) in room temperature for 2 h. DAB (BOSTER, USA) was used to visualize the specific binding sites. After stained with hematoxylin (Solarbio, China), the slides were dehydrated, cleared, mounted and visualize by a microscope (Nikon, Nikon Corporation, Japan).
+
+The proportion of positive cells (0 = negative; 1 = 1–50%; 2 = 50–74%; 3 ≥75%) was used to evaluate the positive rate of NDRG1 expression, and the staining intensity (0=negative; 1 = weak; 2 = intermediate; and 3 = strong) was used to estimate NDRG1 expression level. Therefore, a final score was obtained by multiplying the score of NDRG1 positive rate and staining intensity, which determined NDRG1 expression as (− = 0; + = 1–3; ++ = 4–6; +++ = 7–9). The final score of 0–3 was considered as low NDRG1 expression and that of 3–9 was considered as high NDRG1 expression.
+
+Transcriptome, clinical and methylation data of GC patients was downloaded from TCGA database ( https://portal.gdc.cancer.gov/ ). Thirty adjacent normal and 344 GC samples were obtained in transcriptome data. The normalized transcriptome data of GC patients was also used to conduct GSEA. The raw NDRG1 clinical data was obtained by integrating clinical with transcriptome data, and used to compare NDRG1 expression with clinicopathological parameters. The transcriptome and methylation data were used to perform NDRG1 methylation analysis. The overall survival rate of NDRG1 was downloaded from Kaplan-Meier plotter ( http://www.kmplot.com/ ).
+
+The methylation and transcriptome data were employed to analyze the relationship between NDRG1 methylation and mRNA expression, survival rate. DNA methylation was measured by Illumina Human Methylation 450, and methylated and unmethylated signals were used to calculate beta (β) values, which were quantitative scores of the DNA methylation levels. The correlation between NDRG1 methylation and mRNA expression was analyzed by Pearson’s correlation analysis. The median values of β and mRNA expression were used as cut-off values, and then Kaplan-Meier survival curves of NDRG1 methylation were obtained.
+
+GSEA-3.0 was downloaded from http://software.broadinstitute.org/ , and GSEA was conducted by gsea.3.0. The mRNA expression data of NDRG1 was divided into two groups (H vs. L) according to the median value of GC patients. NDRG1 mRNA expression level was used as a phenotype label and the normalized expression matrix of GC patients was used as expression dataset. C2.cp.kegg.v6.2.symbols.gmt was used as gene set database to analyze NDRG1-related KEGG signal pathways.
+
+R (v.3.5.3) was downloaded from https://www.r-project.org/ and used to extract and analyze raw data of TCGA-GC. Pearson’s correlation test, log-rank test and students’ t test were used to analyze the relationship between NDRG1 expression and methylation, NDRG1 methylation and survival and compare the means respectively. Chi-square test was used to evaluate NDRG1 expression level in gastric cancer and para-cancer tissues and the relationship between NDRG1 expression and clinicopathological parameters. All the data was handled by SPSS 12.0 software and graphpad prism 6. P<0.05 was regarded as statistically significant.
+
+
+Subjects
+
+All tissues were provided by our hospital between 2012 to 2015. Thirty-four pairs of gastric cancer and adjacent samples were stored in −80 °C refrigerator, and 160 gastric cancer and 86 adjacent samples were prepared in pathological blocks. Patients received no radiotherapy, chemotherapy, or adjuvant treatment before surgery. We were allowed to use their tissues for clinical research, and the study was approved by regional ethics committee of The First Affiliated Hospital of Jinzhou Medical University Medical Ethics Committee.
+
+
+Quantitative reverse transcription- polymerase chain reaction (qRT-PCR)
+
+Total RNA of 18 pairs of samples were extracted by RNeasy mini kit (QIAGEN, Germany), and then cDNA was synthesized by reverse transcriptase (M-MLV, Takara, Japan) and random primers (Takara, Japan). GAPDH primers: forward 5'-CAATGACCCCTTCATTGACC-3', reverse 5'-TGGAAGATGGTGATGGGATT-3'. NDRG1 primers: forward 5'-GGGCTGAAAAGCATTATTGG-3', reverse 5'-CTCCACCATCTCAGGGTTGT-3'. The iTaq TM universal SYBR ® green supermix (BIO-RAD, USA) was used to amplify gene by CFX96 TM real-time system (BIO-RAD, Bio-Rad Laboratories, Inc., Singapore). The three-step PCR was selected to amplify gene, and the thermocycling conditions were listed as follows: 1 cycle of 95 °C for 5 min, followed by 60 cycles of 95 °C, 55 °C and 72 °C for 30 s respectively. The gene expression level was calculated as 2 −ΔΔCt , where ΔCt=Ct (NDRG1) − Ct (GAPDH), and ΔΔCt=ΔCt (Cancer) − ΔCt (Normal), with GAPDH as an internal control.
+
+
+Western blot
+
+Proteins were extracted from 16 pairs of samples by RIPA lysis buffer, segregated by 12% SDS-PAGE, and then transferred to PVDF membranes (Millipore, USA, IPVH00010). Skim milk powder was dissolved in TBST, and membranes were blocked in 5% skim milk for 2 h, and incubated with rabbit anti-NDRG1 (#9485, CST) or rabbit anti-GAPDH (AB-P-R 001, Hangzhou Goodhere Biotechnology Co.,). The PVDF membranes were washed for 3 times, and then incubated with anti-rabbit antibody with horseradish peroxidase (HRP, #7074S, CST). Protein Bands were captured with C300 (Azure Biosystems, Azure biosystem Inc, USA) by Western Bright TM ECL western blotting detection kit (Advansta, USA). The gray values of protein bands were measured by Image J software (v1.8.0), with GAPDH as an internal control.
+
+
+Tissue microarray (TMA) and Immunohistochemistry (IHC)
+
+Tumor or adjacent normal tissues were identified by microscope, and tissue microarrayer (KIN-2, Azumaya Co., Ltd., Japan) was used to transfer corresponding tissue cores to a recipient block. Consecutive sections were incised and then transferred to glass slides coated with poly-lysine. The slides were deparaffinized and rehydrated, and then conducted antigen retrieval. The slides were blocked with 3% hydrogen peroxide, and then 5% bovine serum albumin was used to block non-specific binding sites. The slides were incubated with rabbit anti-NDRG1 (#9485, CST) for overnight at 4 °C. After rinsed with PBS for 3 times, the slides were incubated with polyclonal swine anti-rabbit antibody with HRP (P0399, DAKO) in room temperature for 2 h. DAB (BOSTER, USA) was used to visualize the specific binding sites. After stained with hematoxylin (Solarbio, China), the slides were dehydrated, cleared, mounted and visualize by a microscope (Nikon, Nikon Corporation, Japan).
+
+
+Evaluation of IHC
+
+The proportion of positive cells (0 = negative; 1 = 1–50%; 2 = 50–74%; 3 ≥75%) was used to evaluate the positive rate of NDRG1 expression, and the staining intensity (0=negative; 1 = weak; 2 = intermediate; and 3 = strong) was used to estimate NDRG1 expression level. Therefore, a final score was obtained by multiplying the score of NDRG1 positive rate and staining intensity, which determined NDRG1 expression as (− = 0; + = 1–3; ++ = 4–6; +++ = 7–9). The final score of 0–3 was considered as low NDRG1 expression and that of 3–9 was considered as high NDRG1 expression.
+
+
+Bioinformatics analysis
+
+Transcriptome, clinical and methylation data of GC patients was downloaded from TCGA database ( https://portal.gdc.cancer.gov/ ). Thirty adjacent normal and 344 GC samples were obtained in transcriptome data. The normalized transcriptome data of GC patients was also used to conduct GSEA. The raw NDRG1 clinical data was obtained by integrating clinical with transcriptome data, and used to compare NDRG1 expression with clinicopathological parameters. The transcriptome and methylation data were used to perform NDRG1 methylation analysis. The overall survival rate of NDRG1 was downloaded from Kaplan-Meier plotter ( http://www.kmplot.com/ ).
+
+
+Methylation analysis
+
+The methylation and transcriptome data were employed to analyze the relationship between NDRG1 methylation and mRNA expression, survival rate. DNA methylation was measured by Illumina Human Methylation 450, and methylated and unmethylated signals were used to calculate beta (β) values, which were quantitative scores of the DNA methylation levels. The correlation between NDRG1 methylation and mRNA expression was analyzed by Pearson’s correlation analysis. The median values of β and mRNA expression were used as cut-off values, and then Kaplan-Meier survival curves of NDRG1 methylation were obtained.
+
+
+Gene set enrichment analysis (GSEA)
+
+GSEA-3.0 was downloaded from http://software.broadinstitute.org/ , and GSEA was conducted by gsea.3.0. The mRNA expression data of NDRG1 was divided into two groups (H vs. L) according to the median value of GC patients. NDRG1 mRNA expression level was used as a phenotype label and the normalized expression matrix of GC patients was used as expression dataset. C2.cp.kegg.v6.2.symbols.gmt was used as gene set database to analyze NDRG1-related KEGG signal pathways.
+
+
+Statistical analysis
+
+R (v.3.5.3) was downloaded from https://www.r-project.org/ and used to extract and analyze raw data of TCGA-GC. Pearson’s correlation test, log-rank test and students’ t test were used to analyze the relationship between NDRG1 expression and methylation, NDRG1 methylation and survival and compare the means respectively. Chi-square test was used to evaluate NDRG1 expression level in gastric cancer and para-cancer tissues and the relationship between NDRG1 expression and clinicopathological parameters. All the data was handled by SPSS 12.0 software and graphpad prism 6. P<0.05 was regarded as statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+TCGA database and qRT-PCR indicated that the mRNA expression was decreased in GC (P<0.001, Figure 1A,B,C ). It was the same according to western blot results (P<0.001, Figure 1D,E,F ). NDRG1 protein was positively detected in adjacent normal tissue ( Figure 2A ), intestinal-type ( Figure 2B ) and diffuse-type gastric cancer ( Figure 2C ). Immunohistochemically, the high expression rate of NDRG1 was lower in GC than that in adjacent normal tissues (25.6% vs. 69.8%, P=0.001, Table 1 ).
+
+NDRG1 was downregulated at mRNA and protein levels in gastric cancer. NDRG1 mRNA expression in TCGA database (A) and in GC (Tumor) and adjacent normal tissues (B) respectively. The average NDRG1 mRNA in GC and adjacent normal tissues (C). The NDRG1 protein level in GC and adjacent normal tissues (D-F). GAPDH was used as internal control and Image J was used to evaluate the gray value of protein bands. Data were presented as mean ± standard deviation. ***P<0.001; Normal (N): adjacent normal tissues; Tumor (T): gastric cancer tissues.
+
+Typical pictures of IHC. NDRG1 expression was observed in normal tissue (A), intestinal gastric cancer (B), diffuse gastric cancer (C). All the pictures were captured by 200× microscope.
+
+HER, high expression rate; Normal, adjacent normal tissues. *P<0.05.
+
+The IHC results showed that NDRG1 expression was negatively associated with tumor diameter (P=0.002), depth of invasion (P=0.002), lymph node metastasis (P=0.012), lymphatic invasion (P=0.035) and differentiation (P=0.013), and not correlated with age, sex or distant metastasis ( Table 2 ). And NDRG1 expression was lower in diffuse-type than intestinal-type carcinomas (P=0.034).
+
+T is , cancer in situ; T1, lamina propria and submucosa; T2, muscularis propria and subserosa; T3, exposure to serosa; T4, invasion into serosa. *P<0.05.
+
+The transcriptome and clinical data were extracted as mentioned above, and then raw NDRG1 clinical data was obtained. Regardless of survival days, NDRG1 expression was lower in T3–4 than that in T1–2 group (P<0.05, Figure 3A ). In the old (age >60 years), male, G3, stage I–II, N0–1 and M0 groups, NDRG1 expression was also lower in T3–4 than that in T1–2 group (P<0.05, Figure 3B,C,D,E,F,G ). In the old group (age >60 years), we observed that NDRG1 expression was weaker in stage III–IV than that in stage I–II group (P<0.05, Figure 3H ).
+
+The correlation between NDRG1 mRNA expression and clinicopathological features of gastric cancer based on TCGA. NDRG1 expression was negatively correlated with T staging in the survival time, old, male, grade 3, stage I–II, N0–1 and M0 groups respectively (A-G). And NDRG1 was also negatively associated with stage in the old group (H). Data were presented as mean ± standard deviation. *P<0.05; ***P<0.001; Note: 388 was the median survival time of the total gastric cancer patients.
+
+NDRG1 mRNA expression was negatively associated with DNA methylation (P=8.282e −08 , Figure 4A ). However, there was no relationship between NDRG1 methylation or mRNA expression and survival rate (P=0.806 and P=0.663, Figure 4B,C ). Twenty-six methylation sites of NDRG1 were extracted, but only seven significant methylation sites were negatively correlated with NDRG1 expression ( Table 3 ). Pearson’s correlation coefficient (PCC ≥−0.30) was considered as significant.
+
+The analysis of NDRG1 promoter methylation in gastric cancer. The relationship between NDRG1 methylation and its mRNA expression level (A). The Kaplan-Meier survival curves for NDRG1 methylation (B) and the integrative analysis of NDRG1 (C). NDRG1 hypo & high expression: NDRG1 hypo-methylation and high mRNA expression; NDRG1 hyper & low expression: NDRG1 hyper- methylation and low mRNA expression.
+
+PCC, Pearson correlation coefficient.
+
+According to Kaplan-Meier plotter, in most cases, the mRNA down-regulation of NDRG1 was positively associated with low overall survival rate in GC ( Table 4 ), especially with higher invasion (T), lymph node metastasis (N), higher pathological stage (Stage), diffuse-type manner and HER2 positivity. Taken together, the low NDRG1 expression may be related to poor prognosis of GC patients.
+
+HR, hazard ratio; CI, confidence interval; T, tumor; N, lymph node metastasis; M, distant metastasis; Stage, pathological stage.
+
+As mentioned above, we conducted a GSEA to analyze NDRG1-related signal pathways in GC. According to nominal P value, significant enriched pathways were related to biological process of GC. The results showed that TCGA-GC patients in high NDRG1 expression group were enriched in many signal pathways, including cancer, Notch, PPAR, ERBB, adherens junction and tight junction signal pathways (P<0.05, Figure 5 ). NDRG1 was also enriched in other cancer signal pathways, such as bladder, thyroid, prostate, renal cell, pancreatic cancer and acute myeloid leukemia (P<0.05, Figure S1 ).
+
+Enrichment plots from gene set enrichment analysis (GSEA). GSEA results showed that NDRG1 mRNA expression was positively correlated with the cancer (A), Notch (B), PPAR (C), ERBB (D), adherens junction (E) and tight junction (F) signal pathways respectively. ES, enrichment score; NES, normalized ES; FDR, false discovery rate.
+
+
+NDRG1 expression in gastric cancer
+
+TCGA database and qRT-PCR indicated that the mRNA expression was decreased in GC (P<0.001, Figure 1A,B,C ). It was the same according to western blot results (P<0.001, Figure 1D,E,F ). NDRG1 protein was positively detected in adjacent normal tissue ( Figure 2A ), intestinal-type ( Figure 2B ) and diffuse-type gastric cancer ( Figure 2C ). Immunohistochemically, the high expression rate of NDRG1 was lower in GC than that in adjacent normal tissues (25.6% vs. 69.8%, P=0.001, Table 1 ).
+
+NDRG1 was downregulated at mRNA and protein levels in gastric cancer. NDRG1 mRNA expression in TCGA database (A) and in GC (Tumor) and adjacent normal tissues (B) respectively. The average NDRG1 mRNA in GC and adjacent normal tissues (C). The NDRG1 protein level in GC and adjacent normal tissues (D-F). GAPDH was used as internal control and Image J was used to evaluate the gray value of protein bands. Data were presented as mean ± standard deviation. ***P<0.001; Normal (N): adjacent normal tissues; Tumor (T): gastric cancer tissues.
+
+Typical pictures of IHC. NDRG1 expression was observed in normal tissue (A), intestinal gastric cancer (B), diffuse gastric cancer (C). All the pictures were captured by 200× microscope.
+
+HER, high expression rate; Normal, adjacent normal tissues. *P<0.05.
+
+
+The relationship between NDRG1 protein expression and clinicopathological characteristics of gastric cancer
+
+The IHC results showed that NDRG1 expression was negatively associated with tumor diameter (P=0.002), depth of invasion (P=0.002), lymph node metastasis (P=0.012), lymphatic invasion (P=0.035) and differentiation (P=0.013), and not correlated with age, sex or distant metastasis ( Table 2 ). And NDRG1 expression was lower in diffuse-type than intestinal-type carcinomas (P=0.034).
+
+T is , cancer in situ; T1, lamina propria and submucosa; T2, muscularis propria and subserosa; T3, exposure to serosa; T4, invasion into serosa. *P<0.05.
+
+
+The correlation between NDRG1 mRNA expression and clinicopathological features of gastric cancer
+
+The transcriptome and clinical data were extracted as mentioned above, and then raw NDRG1 clinical data was obtained. Regardless of survival days, NDRG1 expression was lower in T3–4 than that in T1–2 group (P<0.05, Figure 3A ). In the old (age >60 years), male, G3, stage I–II, N0–1 and M0 groups, NDRG1 expression was also lower in T3–4 than that in T1–2 group (P<0.05, Figure 3B,C,D,E,F,G ). In the old group (age >60 years), we observed that NDRG1 expression was weaker in stage III–IV than that in stage I–II group (P<0.05, Figure 3H ).
+
+The correlation between NDRG1 mRNA expression and clinicopathological features of gastric cancer based on TCGA. NDRG1 expression was negatively correlated with T staging in the survival time, old, male, grade 3, stage I–II, N0–1 and M0 groups respectively (A-G). And NDRG1 was also negatively associated with stage in the old group (H). Data were presented as mean ± standard deviation. *P<0.05; ***P<0.001; Note: 388 was the median survival time of the total gastric cancer patients.
+
+
+The methylation analysis of NDRG1 in gastric cancer
+
+NDRG1 mRNA expression was negatively associated with DNA methylation (P=8.282e −08 , Figure 4A ). However, there was no relationship between NDRG1 methylation or mRNA expression and survival rate (P=0.806 and P=0.663, Figure 4B,C ). Twenty-six methylation sites of NDRG1 were extracted, but only seven significant methylation sites were negatively correlated with NDRG1 expression ( Table 3 ). Pearson’s correlation coefficient (PCC ≥−0.30) was considered as significant.
+
+The analysis of NDRG1 promoter methylation in gastric cancer. The relationship between NDRG1 methylation and its mRNA expression level (A). The Kaplan-Meier survival curves for NDRG1 methylation (B) and the integrative analysis of NDRG1 (C). NDRG1 hypo & high expression: NDRG1 hypo-methylation and high mRNA expression; NDRG1 hyper & low expression: NDRG1 hyper- methylation and low mRNA expression.
+
+PCC, Pearson correlation coefficient.
+
+
+The relationship between NDRG1 expression and prognosis in gastric cancer
+
+According to Kaplan-Meier plotter, in most cases, the mRNA down-regulation of NDRG1 was positively associated with low overall survival rate in GC ( Table 4 ), especially with higher invasion (T), lymph node metastasis (N), higher pathological stage (Stage), diffuse-type manner and HER2 positivity. Taken together, the low NDRG1 expression may be related to poor prognosis of GC patients.
+
+HR, hazard ratio; CI, confidence interval; T, tumor; N, lymph node metastasis; M, distant metastasis; Stage, pathological stage.
+
+
+NDRG1-related signal pathways in gastric cancer
+
+As mentioned above, we conducted a GSEA to analyze NDRG1-related signal pathways in GC. According to nominal P value, significant enriched pathways were related to biological process of GC. The results showed that TCGA-GC patients in high NDRG1 expression group were enriched in many signal pathways, including cancer, Notch, PPAR, ERBB, adherens junction and tight junction signal pathways (P<0.05, Figure 5 ). NDRG1 was also enriched in other cancer signal pathways, such as bladder, thyroid, prostate, renal cell, pancreatic cancer and acute myeloid leukemia (P<0.05, Figure S1 ).
+
+Enrichment plots from gene set enrichment analysis (GSEA). GSEA results showed that NDRG1 mRNA expression was positively correlated with the cancer (A), Notch (B), PPAR (C), ERBB (D), adherens junction (E) and tight junction (F) signal pathways respectively. ES, enrichment score; NES, normalized ES; FDR, false discovery rate.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Based on pathological and bioinformatics results, NDRG1 expression was decreased in GC, which was consistent with many other cancers ( 6 , 13 - 14 , 17 - 19 ). Chang et al. ( 22 ) reported that NDRG1 was down-regulated significantly in gastric cancer. The results of IHC and TCGA were basically consistent with our previous article ( 23 ). In addition, NDRG1 expression was decreased not only in prostate cancer ( 17 ), pancreatic cancer ( 24 ) and but also acute myeloid leukemia ( 25 ), renal cell carcinoma ( 26 ). Compared with these tumors, NDRG1 may have similar tumorigenesis mechanism in GC. However, the NDRG1 expression was up-regulated in bladder cancer ( 27 ) and thyroid cancer ( 28 ), contrary to our GSEA results. This discrepancy might be owing to tissue specificity or other mechanisms might be involved in the tumorigenesis. It was indicated that NDRG1 hypo-expression might participated in the tumorgenesis. As we all known, DNA methylation might inhibit gene expression. NDRG1 methylation has been found in prostate cancer ( 17 ), pancreatic cancer ( 24 ), breast cancer ( 29 ), but was barely reported in GC. In our study, NDRG1 down-regulation was associated with gene methylation. NDRG1 methylation could silence gene expression and activate oncogenes, and then disorder cell proliferation and apoptosis ( 17 ).
+
+Reportedly, NDRG1 was involved in inhibiting multiple oncogenic signal pathways. Therefore, we conducted a GSEA to investigate the function of NDRG1 in GC. In high expression phenotype group, NDRG1 was enriched in cancer signal pathway. Notch signal pathway is a conserved signaling system, the activation of which may induce the expression of downstream target genes, including NF-κB, Cyclin D1, p21, GATA3, c-Myc, Deltex1 ( 30 ). Notch signal pathway could induce cell proliferation, metastasis, drug resistance, and inhibit apoptosis ( 31 ). In GC, the activation of Notch signal pathway could promote GC progression ( 32 ). However, it was reported that NDRG1 could inhibit NF-κB signal pathway ( 33 - 35 ). Cai et al. ( 36 ) reported that NDRG1 could induce PPARγ expression. PPARγ could inhibit the proliferation, migration and Wnt/β-catenin signal pathway and promoted apoptosis of GC cell lines ( 37 , 38 ). Jin et al. ( 39 ) reported that NDRG1 could suppress nuclear translocation of β-catenin via WNT/β-catenin signal pathway. The activation of ERBB signal pathway could continue activating downstream oncogenic signal pathways, such as Ras-Raf-MAPK signal pathway and PI3K-AKT signal pathway, which were involved in suppressing apoptosis, promoting proliferation, angiogenesis, migration, invasion, and metastasis ( 40 ). NDRG1 could suppress ERBB signal pathway by inhibiting the expression and activation of key factors, such as EGFR (ERBB), HER2 (ERBB2) and HER3, and the formation of the heterodimers ( 41 ). Over-expression or amplification of EGFR and HER2 were associated with a poor prognosis in GC ( 42 ). NDRG1 could suppress Ras-Raf-MAPK, PI3K-AKT signal pathways ( 43 - 45 ). Reportedly, NDRG1 was closely associated with adherens junction, and participated in forming E-cadherin/catenin complex ( 46 ). Gon et al. ( 47 ) proved that NDRG1 down-regulation disrupted tight junctions. The disruption of adherens junction and tight junction was one of critical processes of EMT. Increasing evidences ( 10 , 15 , 16 ) proved that NDRG1 inhibited EMT. Taken together, NDRG1 could play a role of tumor suppressor via the six signal pathways in the tumorigenesis of GC. NDRG1 down-regulation was negatively correlated with some clinicopathological characteristics and positively associated with poor prognosis in GC, which was validated by pathological and Kaplan-Meier plotter results.
+
+Several limitations should be considered in this paper. Firstly, the tissues of gastric cancer patients were too few. For example, the patients with distant metastasis only has eight samples. Secondly, without corresponding experimental data, we analyzed the signal pathways by combining limited existing data with the published works in the PubMed, which was the biggest drawback in this work.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+NDRG1 expression was down-regulated in gastric cancer, which was negatively associated with gene methylation. NDRG1 could play a role of tumor suppressor in the tumorgenesis by inhibiting multiple oncogenic signal pathways. NDRG1 down-regulation was positively associated with aggressive behaviors and poor prognosis, which could be used as a new biomarker for the assessment and treatment of gastric cancer.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

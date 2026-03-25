@@ -1,0 +1,19 @@
+Source: PMC7780331_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "The study includes clinical data from patients with LSCC and adjacent tissues.",
+  "N_E": 1,
+  "N_E_reason": "A total of 69 LSCC tissues and 50 adjacent tissues samples were included in this study.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data was obtained from GEO database, including datasets GSE143224, GSE84957, GSE59652, GSE59102, and GSE51985.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

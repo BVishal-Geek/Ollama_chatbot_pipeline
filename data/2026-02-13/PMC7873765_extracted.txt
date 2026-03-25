@@ -1,0 +1,248 @@
+================================================================================
+ARTICLE TITLE: Establishment of Immune-related Gene Pair Signature to Predict Lung Adenocarcinoma Prognosis
+PMCID: PMC7873765
+PMID: 33334139
+KEYWORDS: lung adenocarcinoma, tumor microenvironment, immune-related gene pair, prognosis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Tumor microenvironment (TME) has critical impacts on the pathogenesis of lung adenocarcinoma (LUAD). However, the molecular mechanism of TME effects on the prognosis of LUAD patients remains unclear. Our study aimed to establish an immune-related gene pair (IRGP) model for prognosis prediction and internal mechanism investigation. Based on 702 TME-related differentially expressed genes (DEGs) extracted from The Cancer Genome Atlas (TCGA) training cohort using the ESTIMATE algorithm, a 10-IRGP signature was established to predict LUAD patient prognosis. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes analyses showed that DEGs were significantly associated with tumor immune response. In both TCGA training and Gene Expression Omnibus validation datasets, the risk score was an independent prognostic factor for LUAD patients using Lasso-Cox analysis, and patients in the high-risk group had poorer prognosis than those in the low-risk one. In the high-risk group, M2 macrophage and neutrophil infiltrations were higher, while the levels of T cell follicular helpers were significantly lower. The gene set enrichment analysis results showed that DNA repair signaling pathways were involved. In summary, we established an IRGP signature as a potential biomarker to predict the prognosis of LUAD patients.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Lung cancer is the most frequent malignant carcinoma, as well as the major cause of cancer death 1 . Based on histopathologic characteristics, non-small cell lung cancer (NSCLC) accounts for roughly 85% of all lung carcinoma, and lung adenocarcinoma (LUAD) is the major component of NSCLC 2 . Although LUAD patients benefited from multiple treatments, including radiotherapy, chemotherapy, and immunotherapy, the 5-year survival rate was still under 20% 3 . Therefore, it is urgent to identify novel biomarkers for early detection, early diagnosis, and better prediction of LUAD patient prognosis.
+
+Tumor microenvironment (TME) composes of cells (endothelial, neuroendocrine and immune cells, etc.) and extracellular components (cytokines, chemokines and extracellular matrix, etc.). TME has crucial effects on the initiation, development, metastasis, and recurrence of carcinoma 4 , 5 . As the essential ingredients of TME, immune and stromal cells play substantial roles in signal transduction, immune surveillance, immune escape, and patient prognosis 6 , 7 . For instance, the activation of CD8+ T cells, which are the important components of immune cells, could improve the survival in gastric cancer mouse models 8 .
+
+To accurately evaluate the percentage of immune and stromal cells in TME, Yoshihara et al. calculated the scores of tumor purity, as well as immune and stromal cell infiltration in tumor tissues, based on gene expression levels using the ESTIMATE algorithm 9 . Previous studies also suggested that TME-related biomarkers, which were obtained using big-data-based ESTIMATE algorithm, were helpful in histological diagnosis and prognostic prediction 10 , 11 . By this algorithm, Zeng et al. identified three novel biomarkers including IL10, IGLL5, and POU2AF1 for therapy targets and prognosis evaluation in renal cell carcinoma 11 .
+
+Unlike traditional filtering approaches just separating high and low gene clusters according to median values, the ESTIMATE algorithm was applied in our research to screen differentially expressed genes (DEGs) associated with immune and stromal scores from TCGA database. This approach aimed to make connections between TME and the expression of genes. Increasing evidence suggested that the application of immunotherapy targeting immune checkpoints such as PD-L1 and CLTA4 were beneficial to LUAD patients in clinic 12 . Previous studies reported immune-related gene signatures to estimate the prognosis of head and neck squamous cell carcinoma, breast cancer, and so on 13 , 14 . Nevertheless, due to the intricate data process and technical bias of different platforms, these models were difficult to apply for clinical evaluation temporarily. In this study, we established and validated an immune-related gene pair (IRGP) signature, in which the normalization and scaling for samples were not required.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The integrated research design was exhibited in Fig. 1 . The LUAD patients’ transcription profiles and clinical data were obtained from TCGA GDC website 15 . Another microarray dataset ( GSE68465 , n = 462) was downloaded from Gene Expression Omnibus (GEO) portal for further validation of the signature. The immune-related gene cohorts were obtained from ImmPort database ( https://immport.niaid.nih ) 16 .
+
+The workflow of current study. The TCGA-LUAD cohort was set as the training dataset, and the GSE68465 cohort was set as the validation dataset. LUAD: lung adenocarcinoma; TCGA: The Cancer Genome Atlas.
+
+After normalization of the TCGA dataset, the immune/stromal/estimate scores were calculated using Estimate R package (  http://r-forge.rproject.org;repos=rforge;dependencies=TRUE ). Bioconductor limma package was applied to screen DEGs from the immune and stromal score groups. |log2 fold change (FC)| ≥ 1 and false discovery rate (FDR) < 0.05 were set as the cut-offs to screen DEGs 17 . Heatmap and Venn were drawn using of heatmap and VennDiagram R packages, respectively 18 , 19 .
+
+The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed to explore various functions of DEGs using clusterProfiler R package. GO analysis was divided into three parts, including biological processes (BPs), molecular functions (MFs), and cellular components (CCs). The enrichplot and ggplot2 R packages were applied to visualize the results accurately 20 . P < 0.05 was considered to be statistically significance. The Gene Set Enrichment Analysis (GSEA) was conducted with basic document named c2.cp.kegg.v7.0.symbols.gmt, which was downloaded from molecular signatures database ( https://www.gsea-msigdb.org/gsea/datasets.jsp ) 21 . The number of permutations was set as 1,000 times.
+
+The stable prognostic model was extracted from TCGA dataset. Immune-related DEGs were obtained from DEGs using ImmPort database, and 66 immune-related genes with relative high variation (evaluated by median absolute deviation > 0.5) were identified. The expression value of each one was compared with others’ in the same independent sample. A total of 2,145 different pairwise combinations were obtained. If the expression level of former one was higher than the later one, this IRGP was labeled as 1. If not, it was labeled as 0. Finally, if the score of an IRGP was 0 or 1 in more than 80% of the TCGA samples, it was discarded 22 . The remaining 359 IRGPs were analyzed with univariate Cox regression to obtain 15 prognostic-related candidate IRGPs. Lasso-Cox analysis (iteration = 1,000) and 10-fold cross-validation were then applied to construct a more stable 10-IRGP model for prognosis evaluation by glmnet R package. The formula of the risk score model is described as follows:
+
+where βκ refers to the coefficients of each gene pair, and Xκ represents 0 or 1, which is obtained from the comparison of expression level in each pair. The optimal cut-off of the IRGP was determined using time-dependent receiver operating characteristic (ROC) curve analysis (“survivalROC” R package) at 1 year in the training cohort for overall survival (OS). The cut-off value was defined as the risk score corresponding to the minimum distance between ROC curve and the point standing for 100% true positive rate and 0% false-positive rate 23 .
+
+In GEO validation dataset, the patients were divided into the high- and low-risk groups according to the cut-off value, which obtained from the formula of risk model. The ROC curve analysis was performed and the area under the curve (AUC) was calculated. The Kaplan–Meier (K-M) survival curve analysis was used to figure out differences of OS between the high- and low-risk groups in both TCGA and GEO datasets (survdiff(formula = Surv(Time, Status) ∼ Group, data = read table)) 24 . The formula of survival curve analysis is as follows:
+
+The concordance index (C-index) was calculated using the coxph function of “survival” R package. The uni- and multi-variate Cox regression analyses were used to validate the risk score as an independent prognostic factor.
+
+The CIBERSORT R package (Version 1.03) was applied to quantify immune cell fractions including T cells, T cell follicular helpers (Tfh), macrophages, and neutrophils, in the high- and low-risk groups 25 . The P -value was calculated using the deconvolution approach. P < 0.05 was considered as a criterion. The results were shown in radar chart by R package “fmsb.”
+
+
+Study Design and Data Collection
+
+The integrated research design was exhibited in Fig. 1 . The LUAD patients’ transcription profiles and clinical data were obtained from TCGA GDC website 15 . Another microarray dataset ( GSE68465 , n = 462) was downloaded from Gene Expression Omnibus (GEO) portal for further validation of the signature. The immune-related gene cohorts were obtained from ImmPort database ( https://immport.niaid.nih ) 16 .
+
+The workflow of current study. The TCGA-LUAD cohort was set as the training dataset, and the GSE68465 cohort was set as the validation dataset. LUAD: lung adenocarcinoma; TCGA: The Cancer Genome Atlas.
+
+
+Screening of DEGs
+
+After normalization of the TCGA dataset, the immune/stromal/estimate scores were calculated using Estimate R package (  http://r-forge.rproject.org;repos=rforge;dependencies=TRUE ). Bioconductor limma package was applied to screen DEGs from the immune and stromal score groups. |log2 fold change (FC)| ≥ 1 and false discovery rate (FDR) < 0.05 were set as the cut-offs to screen DEGs 17 . Heatmap and Venn were drawn using of heatmap and VennDiagram R packages, respectively 18 , 19 .
+
+
+Functional and Signal Pathways Enrichment Analysis
+
+The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed to explore various functions of DEGs using clusterProfiler R package. GO analysis was divided into three parts, including biological processes (BPs), molecular functions (MFs), and cellular components (CCs). The enrichplot and ggplot2 R packages were applied to visualize the results accurately 20 . P < 0.05 was considered to be statistically significance. The Gene Set Enrichment Analysis (GSEA) was conducted with basic document named c2.cp.kegg.v7.0.symbols.gmt, which was downloaded from molecular signatures database ( https://www.gsea-msigdb.org/gsea/datasets.jsp ) 21 . The number of permutations was set as 1,000 times.
+
+
+Construction of the Prognostic Signature Based on IRGPs
+
+The stable prognostic model was extracted from TCGA dataset. Immune-related DEGs were obtained from DEGs using ImmPort database, and 66 immune-related genes with relative high variation (evaluated by median absolute deviation > 0.5) were identified. The expression value of each one was compared with others’ in the same independent sample. A total of 2,145 different pairwise combinations were obtained. If the expression level of former one was higher than the later one, this IRGP was labeled as 1. If not, it was labeled as 0. Finally, if the score of an IRGP was 0 or 1 in more than 80% of the TCGA samples, it was discarded 22 . The remaining 359 IRGPs were analyzed with univariate Cox regression to obtain 15 prognostic-related candidate IRGPs. Lasso-Cox analysis (iteration = 1,000) and 10-fold cross-validation were then applied to construct a more stable 10-IRGP model for prognosis evaluation by glmnet R package. The formula of the risk score model is described as follows:
+
+where βκ refers to the coefficients of each gene pair, and Xκ represents 0 or 1, which is obtained from the comparison of expression level in each pair. The optimal cut-off of the IRGP was determined using time-dependent receiver operating characteristic (ROC) curve analysis (“survivalROC” R package) at 1 year in the training cohort for overall survival (OS). The cut-off value was defined as the risk score corresponding to the minimum distance between ROC curve and the point standing for 100% true positive rate and 0% false-positive rate 23 .
+
+
+Validation of the IRGP Signature
+
+In GEO validation dataset, the patients were divided into the high- and low-risk groups according to the cut-off value, which obtained from the formula of risk model. The ROC curve analysis was performed and the area under the curve (AUC) was calculated. The Kaplan–Meier (K-M) survival curve analysis was used to figure out differences of OS between the high- and low-risk groups in both TCGA and GEO datasets (survdiff(formula = Surv(Time, Status) ∼ Group, data = read table)) 24 . The formula of survival curve analysis is as follows:
+
+The concordance index (C-index) was calculated using the coxph function of “survival” R package. The uni- and multi-variate Cox regression analyses were used to validate the risk score as an independent prognostic factor.
+
+
+Immune Cell Infiltration
+
+The CIBERSORT R package (Version 1.03) was applied to quantify immune cell fractions including T cells, T cell follicular helpers (Tfh), macrophages, and neutrophils, in the high- and low-risk groups 25 . The P -value was calculated using the deconvolution approach. P < 0.05 was considered as a criterion. The results were shown in radar chart by R package “fmsb.”
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+In TCGA-LUAD training dataset, three different kinds of scores were calculated: immune scores (from −936.191 to 3453.015), stromal scores (from −1783.99 to 2107.561), and estimate scores (from −2344.43 to 4911.592). The clinical characteristics of LUAD patients were classified ( Table 1 ). The tumor stages ( Fig. 2A ) were significantly correlated with the immune ( P = 0.034) and estimate ( P = 0.048) scores. The tumor sizes ( Fig. 2B ) were also significantly correlated with the immune ( P = 0.003) and estimate ( P = 0.028) scores. However, there were no statistically significant differences between these scores and lymph node metastases ( Fig. 2C ). The LUAD patients with distant metastases ( Fig. 2D ) had lower stromal ( P = 0.007) and estimate ( P = 0.016) scores.
+
+Clinical Characteristics of the 522 LUAD Patients from the TCGA Cohort.
+
+ a Partial missing of clinical characteristics.
+
+LUAD: lung adenocarcinoma; TCGA: The Cancer Genome Atlas.
+
+The correlations between immune/stromal/estimate scores and clinical features. (A) High stages were significantly associated with low immune ( P = 0.034) and estimate ( P = 0.048) scores. (B) Larger sizes of tumor were significantly associated with low immune ( P = 0.003) and estimate ( P = 0.028) scores. (C) There was no statistically significant difference between lymph node metastases and immune/stromal/estimate scores. (D) Distant metastasis was significantly associated with low stromal ( P = 0.007) and estimate ( P = 0.016) scores. The P -values were calculated using Wilcox test for the comparison of two groups and Kruskal test for three groups or more.
+
+According to the median scores, the LUAD patients were divided into corresponding high and low score groups (immune scores High/Low , stromal scores High/Low , and estimate scores High/Low ). The patients in the immune scores High or estimate scores High groups had longer OS than those in the immune scores Low or estimate scores Low groups ( Fig. 3 ). These results indicated that the immune and estimate scores were significantly associated with the OS of LUAD patients.
+
+The correlations between the immune/stromal/estimate scores and OS. (A, C) The LUAD patients with high immune ( P = 0.021) and estimate ( P = 0.034) scores had better OS than those with low scores. (B) No statistically significant difference between the stromal scores and the OS of patients ( P = 0.103). The P -value was calculated using the Log-rank test. LUAD: lung adenocarcinoma; OS: overall survival.
+
+According to the threshold values (|log2 FC| ≥ 1 and FDR < 0.05), the DEGs were obtained from transcription profiles of TCGA-LUAD samples using ESTIMATE algorithm. The heatmap based on the immune scores exhibited 1,092 upregulated and 302 down-regulated genes ( Fig. 4A ). On the basis of the stromal scores, we identified 1,429 upregulated genes and 211 down-regulated genes ( Fig. 4B ). A total of 589 upregulated genes and 113 down-regulated genes were obtained by the intersection of corresponding groups ( Fig. 4C, D ). These 702 genes were defined as DEGs for subsequent analysis. Moreover, the immune/stromal scores of GSE68465 samples were also calculated (Supplemental Table 1).
+
+Gene expression profiles of immune/stromal score groups in the TCGA-LUAD training dataset. (A, B) Heatmaps of gene expressions in immune/stromal score High/Low groups. |log2 FC| ≥ 1 and FDR < 0.05 were considered as criterion. (C, D) Venn diagrams of up- and down-regulated DEGs in immune/stromal score groups. DEG: differentially expressed gene; FC: fold change; FDR: false discovery rate; LUAD: lung adenocarcinoma; TCGA: The Cancer Genome Atlas..
+
+To explore the biological functions of DEGs, GO and KEGG enrichment analyses were applied. The GO terms were consisted of three parts: BPs, MFs, and CCs, and the top 10 enrichment results in each catalog were shown in Fig. 5A . The DEGs were involved in the processes of immune response, such as complement activation, antigen binding, activation of cell surface receptor, and so on. The similar results were also observed in the KEGG analysis ( Fig. 5B ). The consequences of KEGG functional enrichment were also mainly associated with immune response signal pathways including cytokine–cytokine receptor interaction, chemokine signaling pathway, and NF-κB signaling pathway. These enrichment results confirmed reversely that ESTIMATE method was appropriate and accurate for DEG screening.
+
+Functional analyses of DEGs. (A) The GO analysis of DEGs in three categories (BPs, MFs, and CCs). (B) The highly enriched signal pathways of DEGs in KEGG analysis. BPs: biological processes; CCs: cellular components; DEG: differentially expressed gene; GO: Gene Ontology; KEGG: Kyoto Encyclopedia of Genes and Genomes; MFs: molecular functions.
+
+Based on the combined application of ImmPort database and acquired DEGs dataset, we obtained 66 immune-related DEGs, which could generate 2,145 IRGPs. After removing IRGPs with a value of 0 (or 1) in more than 80% TCGA-LUAD samples, 359 IRGPs were identified. Univariate Cox regression analysis was then applied to obtain 15 prognostic-related candidate IRGPs ( P < 0.01, Supplemental Table 2). Each gene pair was identified as an independent variable with coefficient trajectories ( Fig. 6A ). To confirm the accuracy of this risk model, 10-fold cross-validation was performed to obtain the confidence interval under each lambda ( Fig. 6B ). An IRGP risk model including 10 gene pairs was established ( Table 2 ). Using time-dependent ROC curve analysis in TCGA training dataset, the optimal cut-off (value: −0.981) was applied to divide LUAD patients into the high- and low-risk groups. AUC value of 1-year survival rate was 0.702, and the C-index was 0.73 ( Fig. 6C ). The AUC of 2- and 5- year survival rates were 0.699 and 0.690 in the TCGA training set (Supplemental Fig. 1). Our results showed that the patients in the low-risk group had longer OS than those in the high-risk group ( P = 2.148×10 −5 , Fig. 6D ). According to the risk scores, the distribution of 10 IRGP scores and living status of LUAD patients in the training dataset were shown in Fig. 6E .
+
+The Detailed Information About the 10-IRGPs Signature.
+
+IRGP: immune-related gene pair.
+
+Construction of a 10-IRGP prognostic signature. (A) Lasso coefficient profiles of 15 IRGPs with P < 0.01. (B) Ten-fold cross-validation result identified optimal values of the penalty parameter λ . (C) Time-dependent ROC curve for IRGPs in the training set (1-year AUC = 0.702, cut-off value: −0.981). (D) The K-M curve in the training cohort (high- vs. low-risk, P = 2.148×10 −7 ). (E) The heatmap showed the 10-IRGP scores based on the risk scores, the risk score distribution of TCGA-LUAD patients, and the survival state of patients according to the risk scores. AUC: area under the curve; IRGP: immune-related gene pair; K-M: Kaplan–Meier; LUAD: lung adenocarcinoma; ROC: receiver operating characteristic; TCGA: The Cancer Genome Atlas.
+
+To better explore the accuracy of this IRGP signature, the uni- and multi-variate Cox analyses were applied in TCGA training and GEO validation datasets. Both the 10-IRGP signature and N-stage were independent prognostic elements ( Table 3 ). In the validation dataset using the same risk model, the 1-year AUC was 0.692, the optimal cut-off score was −0.659, and a high C-index value of 0.72 could still be achieved ( Fig. 7A ). The AUC of 2- and 5- year survival rates were 0.632 and 0.620 in GSE68465 validation dataset (Supplemental Fig. 1). The patients in GSE68465 were also divided into the high- and low-risk groups based on the cut-off value. The low-risk patients had longer OS than the high-risk ones in general ( Fig. 7B ). According to the risk scores, the distribution of the 10 IRGP scores and living status of LUAD patients in the validation dataset were shown in Fig. 7C . These results suggested that our IRGP signature was successfully established to predict the survival of LUAD patients.
+
+Uni- and Multi-Variate Analyses of the Prognostic Factors in Both the Training and Validation Cohorts.
+
+CI: confidence interval; HR: hazard ratio; TCGA: The Cancer Genome Atlas.
+
+Validation of the 10-IRGP prognostic signature in the GEO validation dataset. (A) Time-dependent ROC curve for IRGPs (1-year AUC = 0.692, cut-off value: −0.659). (B) The K-M curve in the validation cohort (high- vs low-risk, P = 9.191×10 −5 ). (C) The heatmap showed the 10-IRGP scores based on the risk scores, the risk score distribution of GSE68465 patients, and the survival state of patients according to the risk scores. AUC: area under the curve; GEO: Gene Expression Omnibus; IRGP: immune-related gene pair; K-M: Kaplan–Meier; ROC: receiver operating characteristic.
+
+Previous studies indicated that immune cell infiltration had effects on LUAD progression, development, and prognosis. To examine the relevance of the risk scores with immune cell infiltration, CIBERSORT algorithm was used to compare the relative abundance of immune cells in different groups. Our results suggested that regulatory T cells (Tregs), resting dendritic cells, plasma cells, CD4 memory resting T cells, and Tfh were highly expressed in the low-risk group, while M2 and M0 macrophages, activated dendritic cells, and neutrophils were lower in the low-risk group ( Fig. 8 and Supplemental Fig. 2).
+
+Immune cell infiltration in both the high- and low-risk groups. (A) The relative abundance of immune cells in different risk groups. (B, C) M2 macrophage ( P = 0.001) and neutrophil ( P = 0.002) infiltrations in the low-risk group were significantly lower than those in the high-risk groups. (D) Tfh was significantly higher in the low-risk group ( P = 0.03). Tfh: T cell follicular helpers.
+
+To explore the signal pathways involved in this IRGP model, the functional enrichment analyses were compared in both the high- and low-risk groups using GSEA ( Fig. 9 and Supplemental Fig. 3). For the high-risk group, the enriched signal pathways were associated with DNA repair, homologous recombination, mismatch repair, and so on (Supplemental Table 3). These results provided additional evidence that immunity was associated with DNA damage-related signal pathways.
+
+Functional assessment of the IRGP signature using GSEA. The results showed that the top six vital KEGG pathways in the high-risk group. GSEA: Gene Set Enrichment Analysis; IRGP: immune-related gene pair; KEGG: Kyoto Encyclopedia of Genes and Genomes.
+
+
+Immune and Stromal Scores Were Associated with LUAD Clinical Features
+
+In TCGA-LUAD training dataset, three different kinds of scores were calculated: immune scores (from −936.191 to 3453.015), stromal scores (from −1783.99 to 2107.561), and estimate scores (from −2344.43 to 4911.592). The clinical characteristics of LUAD patients were classified ( Table 1 ). The tumor stages ( Fig. 2A ) were significantly correlated with the immune ( P = 0.034) and estimate ( P = 0.048) scores. The tumor sizes ( Fig. 2B ) were also significantly correlated with the immune ( P = 0.003) and estimate ( P = 0.028) scores. However, there were no statistically significant differences between these scores and lymph node metastases ( Fig. 2C ). The LUAD patients with distant metastases ( Fig. 2D ) had lower stromal ( P = 0.007) and estimate ( P = 0.016) scores.
+
+Clinical Characteristics of the 522 LUAD Patients from the TCGA Cohort.
+
+ a Partial missing of clinical characteristics.
+
+LUAD: lung adenocarcinoma; TCGA: The Cancer Genome Atlas.
+
+The correlations between immune/stromal/estimate scores and clinical features. (A) High stages were significantly associated with low immune ( P = 0.034) and estimate ( P = 0.048) scores. (B) Larger sizes of tumor were significantly associated with low immune ( P = 0.003) and estimate ( P = 0.028) scores. (C) There was no statistically significant difference between lymph node metastases and immune/stromal/estimate scores. (D) Distant metastasis was significantly associated with low stromal ( P = 0.007) and estimate ( P = 0.016) scores. The P -values were calculated using Wilcox test for the comparison of two groups and Kruskal test for three groups or more.
+
+According to the median scores, the LUAD patients were divided into corresponding high and low score groups (immune scores High/Low , stromal scores High/Low , and estimate scores High/Low ). The patients in the immune scores High or estimate scores High groups had longer OS than those in the immune scores Low or estimate scores Low groups ( Fig. 3 ). These results indicated that the immune and estimate scores were significantly associated with the OS of LUAD patients.
+
+The correlations between the immune/stromal/estimate scores and OS. (A, C) The LUAD patients with high immune ( P = 0.021) and estimate ( P = 0.034) scores had better OS than those with low scores. (B) No statistically significant difference between the stromal scores and the OS of patients ( P = 0.103). The P -value was calculated using the Log-rank test. LUAD: lung adenocarcinoma; OS: overall survival.
+
+
+Screening DEGs Based on Immune/Stromal Scores
+
+According to the threshold values (|log2 FC| ≥ 1 and FDR < 0.05), the DEGs were obtained from transcription profiles of TCGA-LUAD samples using ESTIMATE algorithm. The heatmap based on the immune scores exhibited 1,092 upregulated and 302 down-regulated genes ( Fig. 4A ). On the basis of the stromal scores, we identified 1,429 upregulated genes and 211 down-regulated genes ( Fig. 4B ). A total of 589 upregulated genes and 113 down-regulated genes were obtained by the intersection of corresponding groups ( Fig. 4C, D ). These 702 genes were defined as DEGs for subsequent analysis. Moreover, the immune/stromal scores of GSE68465 samples were also calculated (Supplemental Table 1).
+
+Gene expression profiles of immune/stromal score groups in the TCGA-LUAD training dataset. (A, B) Heatmaps of gene expressions in immune/stromal score High/Low groups. |log2 FC| ≥ 1 and FDR < 0.05 were considered as criterion. (C, D) Venn diagrams of up- and down-regulated DEGs in immune/stromal score groups. DEG: differentially expressed gene; FC: fold change; FDR: false discovery rate; LUAD: lung adenocarcinoma; TCGA: The Cancer Genome Atlas..
+
+
+Roles of DEGs During LUAD Pathogenesis
+
+To explore the biological functions of DEGs, GO and KEGG enrichment analyses were applied. The GO terms were consisted of three parts: BPs, MFs, and CCs, and the top 10 enrichment results in each catalog were shown in Fig. 5A . The DEGs were involved in the processes of immune response, such as complement activation, antigen binding, activation of cell surface receptor, and so on. The similar results were also observed in the KEGG analysis ( Fig. 5B ). The consequences of KEGG functional enrichment were also mainly associated with immune response signal pathways including cytokine–cytokine receptor interaction, chemokine signaling pathway, and NF-κB signaling pathway. These enrichment results confirmed reversely that ESTIMATE method was appropriate and accurate for DEG screening.
+
+Functional analyses of DEGs. (A) The GO analysis of DEGs in three categories (BPs, MFs, and CCs). (B) The highly enriched signal pathways of DEGs in KEGG analysis. BPs: biological processes; CCs: cellular components; DEG: differentially expressed gene; GO: Gene Ontology; KEGG: Kyoto Encyclopedia of Genes and Genomes; MFs: molecular functions.
+
+
+A 10-IRGP Risk Model was Established to Evaluate LUAD Prognosis
+
+Based on the combined application of ImmPort database and acquired DEGs dataset, we obtained 66 immune-related DEGs, which could generate 2,145 IRGPs. After removing IRGPs with a value of 0 (or 1) in more than 80% TCGA-LUAD samples, 359 IRGPs were identified. Univariate Cox regression analysis was then applied to obtain 15 prognostic-related candidate IRGPs ( P < 0.01, Supplemental Table 2). Each gene pair was identified as an independent variable with coefficient trajectories ( Fig. 6A ). To confirm the accuracy of this risk model, 10-fold cross-validation was performed to obtain the confidence interval under each lambda ( Fig. 6B ). An IRGP risk model including 10 gene pairs was established ( Table 2 ). Using time-dependent ROC curve analysis in TCGA training dataset, the optimal cut-off (value: −0.981) was applied to divide LUAD patients into the high- and low-risk groups. AUC value of 1-year survival rate was 0.702, and the C-index was 0.73 ( Fig. 6C ). The AUC of 2- and 5- year survival rates were 0.699 and 0.690 in the TCGA training set (Supplemental Fig. 1). Our results showed that the patients in the low-risk group had longer OS than those in the high-risk group ( P = 2.148×10 −5 , Fig. 6D ). According to the risk scores, the distribution of 10 IRGP scores and living status of LUAD patients in the training dataset were shown in Fig. 6E .
+
+The Detailed Information About the 10-IRGPs Signature.
+
+IRGP: immune-related gene pair.
+
+Construction of a 10-IRGP prognostic signature. (A) Lasso coefficient profiles of 15 IRGPs with P < 0.01. (B) Ten-fold cross-validation result identified optimal values of the penalty parameter λ . (C) Time-dependent ROC curve for IRGPs in the training set (1-year AUC = 0.702, cut-off value: −0.981). (D) The K-M curve in the training cohort (high- vs. low-risk, P = 2.148×10 −7 ). (E) The heatmap showed the 10-IRGP scores based on the risk scores, the risk score distribution of TCGA-LUAD patients, and the survival state of patients according to the risk scores. AUC: area under the curve; IRGP: immune-related gene pair; K-M: Kaplan–Meier; LUAD: lung adenocarcinoma; ROC: receiver operating characteristic; TCGA: The Cancer Genome Atlas.
+
+
+Assessment of the IRGP Model Accuracy
+
+To better explore the accuracy of this IRGP signature, the uni- and multi-variate Cox analyses were applied in TCGA training and GEO validation datasets. Both the 10-IRGP signature and N-stage were independent prognostic elements ( Table 3 ). In the validation dataset using the same risk model, the 1-year AUC was 0.692, the optimal cut-off score was −0.659, and a high C-index value of 0.72 could still be achieved ( Fig. 7A ). The AUC of 2- and 5- year survival rates were 0.632 and 0.620 in GSE68465 validation dataset (Supplemental Fig. 1). The patients in GSE68465 were also divided into the high- and low-risk groups based on the cut-off value. The low-risk patients had longer OS than the high-risk ones in general ( Fig. 7B ). According to the risk scores, the distribution of the 10 IRGP scores and living status of LUAD patients in the validation dataset were shown in Fig. 7C . These results suggested that our IRGP signature was successfully established to predict the survival of LUAD patients.
+
+Uni- and Multi-Variate Analyses of the Prognostic Factors in Both the Training and Validation Cohorts.
+
+CI: confidence interval; HR: hazard ratio; TCGA: The Cancer Genome Atlas.
+
+Validation of the 10-IRGP prognostic signature in the GEO validation dataset. (A) Time-dependent ROC curve for IRGPs (1-year AUC = 0.692, cut-off value: −0.659). (B) The K-M curve in the validation cohort (high- vs low-risk, P = 9.191×10 −5 ). (C) The heatmap showed the 10-IRGP scores based on the risk scores, the risk score distribution of GSE68465 patients, and the survival state of patients according to the risk scores. AUC: area under the curve; GEO: Gene Expression Omnibus; IRGP: immune-related gene pair; K-M: Kaplan–Meier; ROC: receiver operating characteristic.
+
+
+Immune cell Infiltration in the High- and Low-Risk Groups
+
+Previous studies indicated that immune cell infiltration had effects on LUAD progression, development, and prognosis. To examine the relevance of the risk scores with immune cell infiltration, CIBERSORT algorithm was used to compare the relative abundance of immune cells in different groups. Our results suggested that regulatory T cells (Tregs), resting dendritic cells, plasma cells, CD4 memory resting T cells, and Tfh were highly expressed in the low-risk group, while M2 and M0 macrophages, activated dendritic cells, and neutrophils were lower in the low-risk group ( Fig. 8 and Supplemental Fig. 2).
+
+Immune cell infiltration in both the high- and low-risk groups. (A) The relative abundance of immune cells in different risk groups. (B, C) M2 macrophage ( P = 0.001) and neutrophil ( P = 0.002) infiltrations in the low-risk group were significantly lower than those in the high-risk groups. (D) Tfh was significantly higher in the low-risk group ( P = 0.03). Tfh: T cell follicular helpers.
+
+
+Functional Assessment of the IRGP Signature
+
+To explore the signal pathways involved in this IRGP model, the functional enrichment analyses were compared in both the high- and low-risk groups using GSEA ( Fig. 9 and Supplemental Fig. 3). For the high-risk group, the enriched signal pathways were associated with DNA repair, homologous recombination, mismatch repair, and so on (Supplemental Table 3). These results provided additional evidence that immunity was associated with DNA damage-related signal pathways.
+
+Functional assessment of the IRGP signature using GSEA. The results showed that the top six vital KEGG pathways in the high-risk group. GSEA: Gene Set Enrichment Analysis; IRGP: immune-related gene pair; KEGG: Kyoto Encyclopedia of Genes and Genomes.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Lung cancer draws more attention due to its substantial morbidity and mortality. The noteworthy features of lung cancer are rapid progression, high malignancy, low rates of early diagnosis, and adverse prognosis 1 . LUAD is the most prevalent subtype of lung cancer. During past years, numerous studies suggested that TME played important roles in tumorigenesis, development, and metastasis 4 , 26 , 27 . TME-related biomarkers were reported to predict prognosis for patients as novel targets for immunotherapy 10 , 28 . Several immune-related gene-related prognostic models were reported as well 12 , 13 . While these researches had singular focus on TME-related or immune-related genes, the accuracy of these predictive models remained uncertain and they were difficult to be used in clinic.
+
+Our study, for the first time, established a prognostic model for LUAD patients using ESTIMATE algorithm and Lasso-Cox analysis. Traditional IRGs were replaced by IRGPs to establish the model in our research. In the models established on IRGs, the significant genes were just extracted according to their expression levels, and the heterogeneity of patients was ignored. Applying IRGPs to construct the signature, risk scores could be calculated via comparing the relative expression of gene pairs in the same sample, and the scaling and normalization of data could be avoided.
+
+First, we obtained 702 TME-related DEGs from the TCGA-LUAD training dataset by ESTIMATE algorithm. The GO and KEGG analysis showed that these DEGs participated in inflammatory response and innate/adaptive immune response. These results accorded with previous reports on the functions of immune and stromal cells in the TME of LUAD patients 29 – 31 . We extracted 16 immune genes from these DEGs to build a 10-IRGP prognostic signature via Lasso-Cox analysis. Most of these genes were cytokines and chemokine ligands. These genes participated in the progression of tumors and affected the prognosis of patents by identifying and presenting antigen in immune system. Previous studies analyzed the roles of PTX3 in cancer progression. It has been proved that PTX3 is produced by lung cancer cells, which consists of higher PTX3 plasma levels in lung cancer patients than healthy people 32 . Furthermore, the higher expression of PTX3, the worse progression-free survival for lung cancer patients 33 . The deficiency of PTX3 promoted cancer-associated inflammatory response and activated complement pathways, such as upregulation of C3 and C5a 34 , 35 . In lung cancer, CXCL6 promotes tumor metastasis via targeting miR-515-5p 36 . In colorectal cancer, the poor prognosis was attributed to CXCL10/11 secretion, enhancing the infiltration of tumor-associated macrophages into tissues and promoting cell invasion 37 , 38 . CXCL10 also induces chemotaxis of CXCR3 + T lymphocytes and CD11c + DCs into the TME to eliminate tumor cells after IFN-γ treatment 39 . CCL23 promotes the migration of ovarian cancer through ERK1/2 and PI3 K pathway activation 40 . Moreover, CCL23 binds to CCR1 and thus exerts chemotactic activities on monocytes, DCs, and resting T lymphocytes 41 . TLR4 was demonstrated to promote the progression of tumor growth and apoptosis resistance via secreting various factors, such as antiapoptotic protein. However, activated TLR4 also has the antitumor effects. Activated TLR4 suppressed tumor progression via increasing CD8+ T cell infiltration in osteosarcoma 42 and developed resistance to anti-epidermal growth factor receptor (anti-EGFR) therapy in head and neck squamous cell carcinoma 43 . It had been proved that tumor-derived autophagosomes induce B cell activation and T cell immune responses. Macrophages enhance this process through the TLR4 and MyD88 signaling pathways 44 . The expression of TLR7 had different predictive values for different cancers. Its higher levels indicated lower OS in breast cancer and lung cancer 45 , but the higher OS in melanoma 46 , 47 . Costimulation of CD9-specific chimeric antigen receptors and CD28 was reported to have an improved antitumor effect in adoptively transferred T cells 48 . In the upper dermis of the basal cell carcinoma lesion, the percentage of CD30 ligand (CD30 L, TNFSF8) positive mast cells were increased significantly 49 , 50 . Researches showed that high expression of S100P was correlated with poor clinical outcomes. Moreover, S100P was specifically overexpressed in lung metastatic tissues 51 .
+
+Based on this IRGP model, the patients were divided into the high- and low-risk groups. Overall, the K-M analysis showed that low-risk patients had longer OS than high-risk ones. However, two patients in the high-risk group and one patient in the low-risk group were survived after 14 years in validation dataset. This phenomenon probably resulted from the heterogeneity of the patients, the limited number of samples and datasets included in this study, and the different efficiency of clinical treatments such as radio- or chemo-therapy in patients. The details of immunotherapy were lacked in the GSE68465 dataset, which might contribute to the survival of these two high-risk patients. More importantly, for the majority (439/442) of patients and for less than 14 years, our model presented excellent predictive functions. The high AUC and C-index values indicated the good performance of our model.
+
+To understand the immune mechanisms in different groups, the immune cell infiltration analyses were explored with CIBERSORT. We founded that M2 macrophage and neutrophil infiltration in the low-risk group were significantly lower than those in the high-risk group. Previous studies proved that high levels of M2 macrophages were associated with poor OS in diffused large B-cell lymphoma and gastric cancer 52 , 53 . The number of neutrophils could be a negative prognostic factor in many types of carcinoma, such as lung and ovarian cancers 54 . In addition, Tfh was significantly higher in the low-risk group. The density of Tfh cells was positively associated with patients’ survival in colorectal and breast cancer 55 . Our research showed that Tregs were highly expressed in the low-risk group, and they were partially related to the clinical response for treatments in patients. It was proved that Tregs were activated in response to radiation damage, but there was an important homeostatic mechanism between radiotherapeutic benefit and damage. Because of the balance between increased Tregs and radiotherapy effects, patients would get more benefits from radiotherapy combined with immune modulation about Tregs 56 . It also indicated better survival for patients. This was consistent with better OS in the low-risk group.
+
+Moreover, the GSEA was used to investigate signal pathways involved with IRGP-related immune process. In the high-risk group, most pathways were involved in DNA repair to ensure the genome integrality. It was worth to note that radiotherapy, as the traditional therapy, enhanced immune response through radio-related DNA damage. The DNA repair capacity of damaged cells was associated with resistance to radiation 57 . The poor survival in the high-risk group might partly resulted from the strong capacity for DNA repair.
+
+In clinical diagnosis and treatment, as the genetic heterogeneity, patients showed different survival outcomes, even though they had same clinical characteristics, pathologic conditions, and treatments 58 . So, our prognosis model can serve as an individualized, single-sample estimate for LUAD patients’ survival. Meanwhile, the IRGP signature can be used to predict the infiltration of immune cells in patients, which is conducive to the prediction of patient sensitivity to immunotherapy. Our study holds great promise for the clinical application. In the same patient, we can analyze the expression of 16 genes in the IRGP signature and calculated the scores by particular pairwise comparison. The patients could be divided into the high- or low- risk group according to the risk scores and then predicted with different survival outcomes. Meanwhile, the sensitivity to immunotherapy for patients can be predicted according to the infiltration of immune cells in different risk groups.
+
+There were several limitations in our current study. First, there were only one TCGA-LUAD training and one GSE68465 validation datasets. Second, our study was based on publicly accessible database using the computational biology algorithm and these results should be further validated with more experiments in vivo and in vitro. Third, the heterogeneity of tumors might bring unavoidable sampling bias. In future, these bias could be reduced with the expanding of datasets and increasing the sample counts.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+An IRGP signature was established to predict LUAD prognosis. Based on this model, a novel classification method for LUAD patients was developed mainly based on the risk score, which was an independent predictive factor. Moreover, our studies provided promising perspectives about therapeutical targets for LUAD immunotherapy.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, sj-pdf-1-cll-10.1177_0963689720977131 - Establishment of Immune-related Gene Pair Signature to Predict Lung Adenocarcinoma Prognosis
+File: sj-pdf-1-cll-10.1177_0963689720977131.pdf

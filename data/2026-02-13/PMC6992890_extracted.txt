@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Region-specific transcriptomic and functional signatures of mononuclear phagocytes in the epididymis
+PMCID: PMC6992890
+PMID: 31778536
+KEYWORDS: macrophages, dendritic cells, rna sequencing, immune regulation, male reproductive tract, post-testicular regulation, male fertility
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+In the epididymis, prevention of autoimmune responses against spermatozoa and simultaneous protection against pathogens is important for male fertility. We have previously shown that mononuclear phagocytes (MPs) are located either in the epididymal interstitium or in close proximity to the epithelium. In the initial segments (IS), these ‘intraepithelial’ MPs extend slender luminal-reaching projections between epithelial cells. In this study, we performed an in-depth characterisation of MPs isolated from IS, caput–corpus and cauda epididymis of CX3CR1 EGFP+/− mice that express EGFP in these cells. Flow cytometry analysis revealed region-specific subsets of MPs that express combinations of markers traditionally described in ‘dendritic cells’ or ‘macrophages’. RNA sequencing identified distinct transcriptomic signatures in MPs from each region and revealed specific genes involved in inflammatory and anti-inflammatory responses, phagosomal activity and antigen processing and presentation. Functional fluorescent in vivo labelling assays showed that higher percentages of CX3CR1 + MPs that captured and processed antigens were detected in the IS compared to other regions. Confocal microscopy showed that in the IS, caput and corpus, circulatory antigens were internalised and processed by interstitial and intraepithelial MPs. However, in the cauda only interstitial MPs internalised and processed antigens, while intraepithelial MPs did not take up antigens, indicating that all antigens have been captured before they reached the epithelial lining. Cauda MPs may thus confer a stronger protection against blood-borne pathogens compared to proximal regions. By identifying immunoregulatory mechanisms in the epididymis, our study may lead to new therapies for male infertility and epididymitis and identify potential targets for immunocontraception.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

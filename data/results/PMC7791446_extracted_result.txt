@@ -1,0 +1,19 @@
+Source: PMC7791446_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "The Change Trend of Cause of Death in Patients With Stage I Non-Small Cell Lung Cancer After Surgery in US: A Long-Term Follow-Up Study Based on SEER Database",
+  "condition_E": 1,
+  "condition_E_reason": "Age at diagnosis, gender, race, laterality, degree of tumor differentiation, pathological subtypes, marital status and cause of death were included in our work as variables.",
+  "N_E": 1,
+  "N_E_reason": "Finally, a total of 23,652 patients with stage I NSCLC after surgery diagnosed from 2004 to 2015 were screened from the SEER database.",
+  "dataset_E": 1,
+  "dataset_E_reason": "The SEER database is one of the world’s largest public cancer databases, established by the National Cancer Institute of the United States.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

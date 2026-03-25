@@ -1,0 +1,19 @@
+Source: PMC7711228_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "MicroRNA-126-5p Inhibits the Migration of Breast Cancer Cells by Directly Targeting CNOT7",
+  "condition_E": 1,
+  "condition_E_reason": "Twenty primary breast cancer tissue samples and 20 corresponding adjacent normal mammary tissue samples were obtained from XuZhou Central Hospital.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

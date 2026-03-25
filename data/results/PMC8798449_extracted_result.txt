@@ -1,0 +1,19 @@
+Source: PMC8798449_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Predictions for high COL1A1 and COL10A1 expression resulting in a poor prognosis in esophageal squamous cell carcinoma by bioinformatics analyses",
+  "condition_E": 1,
+  "condition_E_reason": "GSE20347 contains 17 tumor tissues and 17 matched normal adjacent tissues from 17 ESCC patients.",
+  "N_E": 1,
+  "N_E_reason": "A total of 34 ESCC samples and 34 normal samples from two datasets were collected for DEGs analysis.",
+  "dataset_E": 1,
+  "dataset_E_reason": "GSE20347 and GSE70409 datasets from GEO are publicly accessible.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

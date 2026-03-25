@@ -1,0 +1,828 @@
+================================================================================
+ARTICLE TITLE: ACA Medicaid Expansion Associated With Increased Medicaid
+Participation and Improved Health Among Near-Elderly: Evidence From the Health
+and Retirement Study
+PMCID: PMC7388087
+PMID: 32720837
+KEYWORDS: patient protection and affordable care act, medicaid, insurance coverage, health status, crowd-out, near-elderly adults, difference-in-differences
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+The Affordable Care Act (ACA) dramatically expanded health insurance, but
+questions remain regarding its effects on health. We focus on older adults for
+whom health insurance has greater potential to improve health and well-being
+because of their greater health care needs relative to younger adults. We
+further focus on low-income adults who were the target of the Medicaid
+expansion. We believe our study provides the first evidence of the
+health-related effects of ACA Medicaid expansion using the Health and Retirement
+Study (HRS). Using geo-coded data from 2010 to 2016, we estimate
+difference-in-differences models, comparing changes in outcomes before and after
+the Medicaid expansion in treatment and control states among a sample of over
+3,000 unique adults aged 50 to 64 with income below 100% of the federal poverty
+level. The HRS allows us to examine morbidity outcomes not available in
+administrative data, providing evidence of the mechanisms underlying emerging
+evidence of mortality reductions due to expanded insurance coverage among the
+near-elderly. We find that the Medicaid expansion was associated with a 15
+percentage point increase in Medicaid coverage which was largely offset by
+declines in other types of insurance. We find improvements in several measures
+of health including a 12% reduction in metabolic syndrome; a 32% reduction in
+complications from metabolic syndrome; an 18% reduction in the likelihood of
+gross motor skills difficulties; and a 34% reduction in compromised activities
+of daily living (ADLs). Our results thus suggest that the Medicaid expansion led
+to improved physical health for low-income, older adults.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+A major objective of the 2010 Affordable Care Act (ACA) was to increase health
+insurance coverage among low-income adults by expanding Medicaid. However, a 2012
+U.S. Supreme Court ruling allowed states to maintain federal funding for their
+pre-ACA-covered populations even if they did not expand; in response, many states
+chose not to comply. The resulting policy variation across states has generated a
+large literature examining the impact of the Medicaid expansion on several outcomes.
+Literature reviews conclude that the expansion led to significant increases in
+coverage and access to care for low-income individuals in expansion
+states. 1 , 2
+
+The evidence on the effects of the Medicaid expansion on health, however, is less
+clear. While some studies document improvements in self-reported health, 3 - 8 cardiac health, 9 and survival from end-stage renal disease, 10 others find no significant improvements. 11 - 15 These studies generally focus
+on all non-elderly adults ages 18 to 64, sometimes limited to those with low levels
+of income or formal education.
+
+In this article, we focus on near-elderly adults aged 50 to 64—who are, on average,
+in worse health and have greater health care needs than younger adults. 16 - 21 Health insurance, especially
+generous coverage with low out-of-pocket (OOP) costs, may facilitate access to
+effective medical care and correspondingly improve health more among this group than
+among a younger population. This is consistent with recent evidence showing that new
+coverage or more generous coverage leads to reduced mortality among near-elderly
+adults. Studies using the natural experiment created by the ACA Medicaid expansion
+show that the expansion led to lower cardiovascular mortality among all adults aged
+45 to 64 9 and a decline in mortality among low-income adults who were aged 55 to 64 in 2014. 22 Evidence from a randomized study shows that receiving an informational letter
+on penalties associated with not having insurance leads to increased coverage (for
+all ages) and lower mortality for those aged 45-64. 23 By examining morbidity outcomes not available in administrative data, our
+study is the first to investigate the mechanisms underlying this emerging evidence
+of mortality reductions among the near-elderly.
+
+We use newly released 2010 to 2016 Health and Retirement Study (HRS) data to
+understand how the ACA Medicaid expansion affects insurance coverage among the
+low-income near-elderly and the implications for health status. The recent release
+of the state geo-coded 2016 HRS (Wave 13) provides an important new source of
+evidence on the effects of the ACA Medicaid expansion. With the 2010–2016 HRS, we
+are able to examine these questions using information on over 3000 unique
+low-income, near-elderly individuals.
+
+Our article makes 2 key contributions. First, although evidence of the effect of the
+ACA Medicaid expansion on health is mixed, we expect health improvements to be more
+pronounced among the near-elderly who are in worse health and are likely to benefit
+more from effective medical care than the general population. Thus, we provide some
+of the first evidence of the effect of the ACA Medicaid expansion on morbidity among
+a group shown to experience reduced mortality. 9 , 22 , 23 We also provide what we
+believe to be the first evidence of the health-related effects of the ACA Medicaid
+expansion using data from the HRS.
+
+Second, we provide suggestive evidence of possible mechanisms underlying these
+morbidity improvements. Although the estimates are fragile and fail to achieve
+statistical significance at conventional statistical standards, we observe a pattern
+consistent with a reduction in OOP costs and an increase in some measures of health
+care utilization.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+We use a “difference-in-differences” identification strategy, comparing changes over
+time in outcomes between states exposed to the ACA Medicaid expansion relative to
+those not exposed. 39 Our regression model is given below:
+
+ y i s t = β 0 + β 1 E x p a n d s × P o s t t + β 2 X i s t + μ s + δ t + ε i s t 
+
+where y i s t is the outcome for person i residing in state s in year t , E x p a n d s is a binary variable indicating whether the state expanded their
+Medicaid program between 2014 and 2016, P o s t t is equal to one beginning in the year of expansion,
+µ s represents state fixed effects, δ t represents year fixed effects, and ε i s t is the error term. X i s t is a vector of covariates. We include the following controls: age,
+gender, race, ethnicity, educational attainment, marital status, total household
+income (in 2016 $), and the state unemployment rate. We include a control for
+veteran status because of documented differences in access to care for uninsured
+nonelderly veterans relative to uninsured non-veterans. 40 We estimate these difference-in-differences models using ordinary least
+squares, and when the dependent variable is binary, we estimate linear probability
+models. We present means of the covariates in Supplemental Appendix Table A2 . We identify the states that expanded
+Medicaid under the ACA using information from the Kaiser Family Foundation. 41 All regressions are weighted using HRS sampling weights and standard errors
+are clustered at the state level.
+
+The key identifying assumption for our study design is that there are no unobserved
+factors that might cause trends in the outcome variable to differ between states
+that expanded Medicaid versus those that did not. We assess the validity of this
+assumption by comparing pre-existing trends in outcomes between expansion and
+nonexpansion states. The graphs of the event study analyses are presented in Supplemental Appendix 9 , and the P value from an F test of joint significance of the pretreatment events is
+presented in the results table for each regression.
+
+We also present 3 sets of robustness checks. First, we exclude those states that
+partially expanded Medicaid prior to 2014, all of which also expanded Medicaid in
+2014, but for whom the 2014 expansion represented less dramatic increases in
+coverage. These states are Delaware, the District of Columbia, Massachusetts, New
+York, and Vermont. 11 , 42 Our second set of robustness checks excludes states that
+expanded Medicaid after January 1, 2014, and would have had less time in the post
+period to experience changes in outcomes. These states are as follows: Michigan, New
+Hampshire, Pennsylvania, Indiana, Alaska, and Louisiana. Our third set of robustness
+checks addresses the 2-year gap between interview waves of the HRS, which means that
+questions about health status in 2014 could reflect health conditions that presented
+for the first time between the 2012 and 2014 surveys (and before the Medicaid
+expansion was in place). Our third set of robustness checks excludes responses from
+wave 12.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Table 1 contains the
+results for health insurance. In Column 1, we find that the Medicaid expansion
+led to a small, statistically insignificant reduction in the rate of uninsurance
+(while the effect of the expansion on being uninsured is not statistically
+significant, we note that the 95% confidence interval [CI] includes reductions
+in the likelihood of being uninsured as large as 8.8 percentage points). Our
+estimates suggest that this small reduction was the combination of a large
+increase in Medicaid coverage offset by reductions in other types of coverage.
+Rates of Medicaid coverage increased by 16 percentage points (Column 2; 95% CI:
+0.10, 0.22) while rates of Medicare coverage, employer-provided insurance, and
+private insurance not through an employer, declined by 4.4 (Column 3; 95% CI:
+−0.09, 0.001), 4.9 (column 4; 95% CI: −0.12, 0.03), and 3.4 (Column 5; 95% CI:
+−0.07, 0.001) percentage points, respectively. In results available upon
+request, we confirm that, in our sample, the reduction in Medicare is matched by
+a 5.2 percentage point reduction in Social Security Disability Insurance
+( t = 1.51). Only the effects on Medicaid coverage,
+Medicare, and private insurance not through an employer are statistically
+significant at the 10% level. We note that, for the Medicare outcome, the
+parallel trends assumption is not satisfied.
+
+Effect of ACA Medicaid Expansion on Health Insurance Among Low-Income
+Adults Ages 50 to 64.
+
+Note. The sample consists of respondents to the
+2010-16 HRS who are ages 50 to 64 and have income below the federal
+poverty level. Regressions also include controls for age, gender,
+race, ethnicity, educational attainment, marital status, veteran
+status, total household income in 2016 $, state unemployment rate,
+and state and year fixed effects. (Event study results included in Supplemental Appendix 9 .) Sample weights are used in
+model estimation. Standard errors clustered by state are reported in
+parentheses. ACA = Affordable Care Act; HRS = Health and Retirement
+Study.
+
+Statistical significance is indicated by ***for the .01 level, **for
+the .05 level and *for the .10 level.
+
+Based on the HRS data, we observe that, prior to the expansion, among this
+low-income population with insurance other than Medicaid, 23% had
+employer-provided insurance, 55% had Medicare and 22% had some other type of
+private insurance. Because private health insurance and even Medicare,
+particularly among those without private supplemental coverage, both have higher
+cost-sharing than Medicaid, most of those newly gaining Medicaid may have
+experienced declines in cost-sharing associated with their coverage change.
+
+In Supplemental Appendix Table A3 , we examine whether there was a
+corresponding reduction in OOP costs in expansion states. We consider 2 measures
+of OOP spending. The first captures both health insurance premiums and other OOP
+spending (e.g., co-payments, deductibles, coinsurance, and costs for services
+not covered) in a measure of monthly OOP spending (the HRS questions concerning
+premiums and other medical expenses do not match in terms of time period
+covered; the HRS asks respondents about their monthly private
+health insurance premiums at the time of the survey but asks about other OOP
+expenses over the past 2 years . We combine these 2 variables to
+construct a measure of total monthly OOP spending that combines payments for
+premiums and cost-sharing by calculating the average of monthly other OOP
+spending and adding it to monthly premiums). We also examine the effect on
+other, nonpremium OOP spending over the past 2 years.
+
+Although these results are merely suggestive, they are consistent with OOP
+expenses falling. In Column 1, we find that OOP costs declined by about $54 per
+month (including premiums) in a pre-post DD comparison, but we lack support for
+the parallel trends assumption with this measure. In column 2, we document a
+$992 reduction in costs over 2 years (excluding premiums); this estimate passes
+the parallel trends assumption but fails to achieve statistical significance
+( t = 1.53). These (fragile) estimates reflect both total
+(premium plus OOP) and OOP expenses falling by about 40% given pre-period mean
+monthly total costs of $122 and mean OOP spending over 2 years of $2259.
+Together, these estimates suggest that OOP costs may fall by between $496
+($992.4/2) and $648 ($54*12) per year. Previous work documented that the
+Medicaid expansion led to a $382 reduction per year, 43 among low-income adults ages 18 to 64. Thus, these suggestive, larger
+estimates of reductions between $496 and $648 per year are consistent with our
+hypothesis that the impact on OOP expenditures would be greater for the
+near-elderly than for non-elderly adults of all ages.
+
+In Table 2 , we report
+results for the effects of the ACA Medic-aid expansion on health outcomes. We
+find improvements in physical health and motor skills with no change in mental
+health; these results are robust in terms of statistical significance and
+parallel trends assumptions. In Column 1, we find a reduction in the count of
+conditions underlying metabolic syndrome (obesity, high blood pressure, and
+diabetes) of 0.16 (95% CI, −0.27, −0.04). From a preperiod mean of 1.3
+conditions, this constitutes a reduction of 12%. In Table 3 , we present results that
+separately examine the components of metabolic syndrome. We find no
+statistically significant reduction in obesity, but document statistically
+significant reductions in the incidence of high blood pressure and diabetes.
+
+Effect of ACA Medicaid Expansion on Health Outcomes Among Low-Income
+Adults Ages 50 to 64.
+
+Note. The sample consists of respondents to the
+2010-2016 HRS who are ages 50 to 64 and have income under 100% of
+the federal poverty level. The count of conditions underlying
+metabolic syndrome is constructed by taking the sum of 3 binary
+variables (obesity, diabetes, and high blood pressure). The count of
+complications arising from metabolic syndrome is constructed by
+taking the sum of 2 binary variables (stroke and the RAND variable
+for “any heart problem” which includes heart attack, coronary heart
+disease, angina, congestive heart failure, or “other heart
+problems”). The CESD index is the sum of a binary measure of feeling
+depressed, as though everything is an effort, sleep was restless,
+felt lonely, felt sad, could not get going, (1- was happy), and (1-
+enjoyed life) much of the time. The measure of any difficulties with
+gross motor skills is a binary variable that equals one if the
+respondent reports any difficulty walking one block, walking across
+a room, climbing a flight of stairs, or bathing. The count of
+difficulties with activities of daily living includes difficulty
+with bathing, eating, or dressing, per Wallace and Herzog. 38 Regressions also include controls for age, gender, race,
+ethnicity, educational attainment, marital status, veteran status,
+total household income (2016 $), state unemployment rate, and state
+and year fixed effects. Sample weights are used in model estimation.
+Standard errors clustered by state are reported in parentheses. ACA
+= Affordable Care Act; CESD = Center for Epidemiologic
+Studies-Depression; ADL = activities of daily living; HRS = Health
+and Retirement Study.
+
+Statistical significance is indicated by ***for the .01 level, **for
+the .05 level and *for the .10 level.
+
+Effect of ACA Medicaid Expansion on Components of Composite Health
+Measures Among Low-Income Adults Ages 50 to 64.
+
+Note. The sample consists of respondents to the
+2010-2016 HRS who are ages 50 to 64 and have income under 100% of
+the federal poverty level. The count of conditions underlying
+metabolic syndrome is constructed by taking the sum of 3 binary
+variables (obesity, diabetes, and high blood pressure). The count of
+complications arising from metabolic syndrome is constructed by
+taking the sum of 2 binary variables (stroke and the RAND variable
+for “any heart problem” which includes heart attack, coronary heart
+disease, angina, congestive heart failure, or “other heart
+problems”). Regressions also include controls for age, gender, race,
+ethnicity, educational attainment, marital status, veteran status,
+total household income (2016 $), state unemployment rate, and state
+and year fixed effects. Sample weights are used in model estimation.
+Standard errors clustered by state are reported in parentheses. ACA
+= Affordable Care Act; HRS = Health and Retirement Study.
+
+Statistical significance is indicated by *** for the .01 level, **
+for the .05 level, and * for the .10 level.
+
+In Column 2, we document a reduction of 0.09 in the number of complications
+arising from metabolic syndrome (stroke or heart-related complications) (95% CI,
+−0.15, −0.02). From a mean of 0.22 complications, this is a reduction of 32%. In Table 3 , we
+examine the components of this measure. We note that the stroke outcome does not
+satisfy the parallel trends assumption (although others do) and caution that the
+stroke results should thus not be interpreted as causal. We find a 35% reduction
+in the likelihood a respondent has heart problems (95% CI, −0.12, −0.02).
+
+In Column 3 of Table
+2 , we find no statistically significant change in mental health, as
+measured by the CESD index. In Columns 4 and 5, we document improvements in
+gross motor skills and ADLs. Respondents are 6.6 percentage points less likely
+to report a gross motor skills difficulty (95% CI, −0.12, −0.01). From a base of
+38% of respondents reporting a difficulty walking a block, walking across a
+room, climbing one flight of stairs, or bathing, this is a reduction of 18%. In
+Column 5, we document a 0.11 point reduction (95% CI, −0.18, −0.04) in the
+number of difficulties with bathing, eating, or dressing, which corresponds to a
+34% improvement from a mean of 0.33.
+
+In Supplemental Appendix Table A4 , we examine a possible mechanism
+underlying the improvements in health: increased health care use. We note that,
+because HRS questions on health care use are fairly limited in scope, we
+consider this analysis to be exploratory. We first construct a binary variable
+that equals one if the respondent reports visiting a physician’s office more
+than 10 times in the last 2 years. The second 2 measures are specific to
+particular conditions: blood pressure medication and having a heart procedure
+(heart surgery, cardiac catheterization, coronary angiogram, angioplasty, or
+bypass graft notation). Due to skip patterns in the data, we restrict the sample
+to those who report having high blood pressure or a heart complication,
+respectively.
+
+We document a statistically insignificant ( t = 1.71) 5.7
+percentage point increase in the likelihood of visiting a physician more than 10
+times in the past 2 years, a 20% increase relative to the pre-expansion mean. In
+Column 2, we find no increase in the likelihood of taking medication to control
+high blood pressure among respondents who report having high blood pressure.
+While this may seem surprising, given evidence that the Medicaid expansion led
+to increases in prescriptions filled; 42 we note that nearly 80% of respondents with high blood pressure in our
+sample are already taking blood pressure medication. Among the small subset of
+respondents who reported having a prior heart complication (heart attack,
+coronary heart disease, angina, congestive heart failure, or “other heart
+problems”), the ACA Medicaid expansion increased the likelihood of having a
+heart procedure by 15 percentage points, or 48% from a mean of 32%
+( t = 1.62).
+
+Supplemental Appendix Tables A5 and A6 include evidence from 3
+sets of robustness checks. The first 2 address the fact that not all treatment
+states enacted the Medicaid expansion on January 1, 2014; some expanded Medicaid
+prior to 2014 and some expanded Medicaid later. In Panel A, we exclude states
+that expanded Medicaid early and for whom the 2014 expansion may have
+represented milder changes; our results are robust to this exclusion. In Panel
+B, we exclude those states that expanded Medicaid after January 1, 2014, because
+for the states that expanded in 2016, we may not have a full year of
+post-expansion data. Our results are also robust to this exclusion.
+
+Our third robustness check takes into account the 2-year gap between interview
+waves of the HRS, which means that questions about health status in 2014 could
+reflect health conditions that presented for the first time in the years in
+between the 2012 and 2014 surveys (before the ACA Medicaid expansion was in
+place). So, in Panel C, we exclude responses from wave 12, which was fielded in
+2014. Our results are largely robust to this exclusion.
+
+We also present the results of 2 falsification tests. We would expect to find no
+effect among near-elderly adults with income too high to benefit from the ACA
+Medicaid expansion nor would we expect the ACA Medicaid expansion to affect
+health insurance coverage or health among low-income elderly adults who are too
+old to receive expansion Medicaid. We present these results in Supplemental Appendix Tables A7 and A8 . Only one of the
+coefficient estimates (Medicaid coverage for high-income adults ages 50 to 64)
+is statistically significant, and in all but 2 cases, the magnitudes are much
+closer to zero than our baseline estimates. We interpret these results as
+supportive of our main results: that the ACA Medicaid expansion increased
+Medicaid coverage and improved physical health among low-income near-elderly
+adults.
+
+
+Effects on Health Insurance
+
+Table 1 contains the
+results for health insurance. In Column 1, we find that the Medicaid expansion
+led to a small, statistically insignificant reduction in the rate of uninsurance
+(while the effect of the expansion on being uninsured is not statistically
+significant, we note that the 95% confidence interval [CI] includes reductions
+in the likelihood of being uninsured as large as 8.8 percentage points). Our
+estimates suggest that this small reduction was the combination of a large
+increase in Medicaid coverage offset by reductions in other types of coverage.
+Rates of Medicaid coverage increased by 16 percentage points (Column 2; 95% CI:
+0.10, 0.22) while rates of Medicare coverage, employer-provided insurance, and
+private insurance not through an employer, declined by 4.4 (Column 3; 95% CI:
+−0.09, 0.001), 4.9 (column 4; 95% CI: −0.12, 0.03), and 3.4 (Column 5; 95% CI:
+−0.07, 0.001) percentage points, respectively. In results available upon
+request, we confirm that, in our sample, the reduction in Medicare is matched by
+a 5.2 percentage point reduction in Social Security Disability Insurance
+( t = 1.51). Only the effects on Medicaid coverage,
+Medicare, and private insurance not through an employer are statistically
+significant at the 10% level. We note that, for the Medicare outcome, the
+parallel trends assumption is not satisfied.
+
+Effect of ACA Medicaid Expansion on Health Insurance Among Low-Income
+Adults Ages 50 to 64.
+
+Note. The sample consists of respondents to the
+2010-16 HRS who are ages 50 to 64 and have income below the federal
+poverty level. Regressions also include controls for age, gender,
+race, ethnicity, educational attainment, marital status, veteran
+status, total household income in 2016 $, state unemployment rate,
+and state and year fixed effects. (Event study results included in Supplemental Appendix 9 .) Sample weights are used in
+model estimation. Standard errors clustered by state are reported in
+parentheses. ACA = Affordable Care Act; HRS = Health and Retirement
+Study.
+
+Statistical significance is indicated by ***for the .01 level, **for
+the .05 level and *for the .10 level.
+
+Based on the HRS data, we observe that, prior to the expansion, among this
+low-income population with insurance other than Medicaid, 23% had
+employer-provided insurance, 55% had Medicare and 22% had some other type of
+private insurance. Because private health insurance and even Medicare,
+particularly among those without private supplemental coverage, both have higher
+cost-sharing than Medicaid, most of those newly gaining Medicaid may have
+experienced declines in cost-sharing associated with their coverage change.
+
+In Supplemental Appendix Table A3 , we examine whether there was a
+corresponding reduction in OOP costs in expansion states. We consider 2 measures
+of OOP spending. The first captures both health insurance premiums and other OOP
+spending (e.g., co-payments, deductibles, coinsurance, and costs for services
+not covered) in a measure of monthly OOP spending (the HRS questions concerning
+premiums and other medical expenses do not match in terms of time period
+covered; the HRS asks respondents about their monthly private
+health insurance premiums at the time of the survey but asks about other OOP
+expenses over the past 2 years . We combine these 2 variables to
+construct a measure of total monthly OOP spending that combines payments for
+premiums and cost-sharing by calculating the average of monthly other OOP
+spending and adding it to monthly premiums). We also examine the effect on
+other, nonpremium OOP spending over the past 2 years.
+
+Although these results are merely suggestive, they are consistent with OOP
+expenses falling. In Column 1, we find that OOP costs declined by about $54 per
+month (including premiums) in a pre-post DD comparison, but we lack support for
+the parallel trends assumption with this measure. In column 2, we document a
+$992 reduction in costs over 2 years (excluding premiums); this estimate passes
+the parallel trends assumption but fails to achieve statistical significance
+( t = 1.53). These (fragile) estimates reflect both total
+(premium plus OOP) and OOP expenses falling by about 40% given pre-period mean
+monthly total costs of $122 and mean OOP spending over 2 years of $2259.
+Together, these estimates suggest that OOP costs may fall by between $496
+($992.4/2) and $648 ($54*12) per year. Previous work documented that the
+Medicaid expansion led to a $382 reduction per year, 43 among low-income adults ages 18 to 64. Thus, these suggestive, larger
+estimates of reductions between $496 and $648 per year are consistent with our
+hypothesis that the impact on OOP expenditures would be greater for the
+near-elderly than for non-elderly adults of all ages.
+
+
+Effects on Health
+
+In Table 2 , we report
+results for the effects of the ACA Medic-aid expansion on health outcomes. We
+find improvements in physical health and motor skills with no change in mental
+health; these results are robust in terms of statistical significance and
+parallel trends assumptions. In Column 1, we find a reduction in the count of
+conditions underlying metabolic syndrome (obesity, high blood pressure, and
+diabetes) of 0.16 (95% CI, −0.27, −0.04). From a preperiod mean of 1.3
+conditions, this constitutes a reduction of 12%. In Table 3 , we present results that
+separately examine the components of metabolic syndrome. We find no
+statistically significant reduction in obesity, but document statistically
+significant reductions in the incidence of high blood pressure and diabetes.
+
+Effect of ACA Medicaid Expansion on Health Outcomes Among Low-Income
+Adults Ages 50 to 64.
+
+Note. The sample consists of respondents to the
+2010-2016 HRS who are ages 50 to 64 and have income under 100% of
+the federal poverty level. The count of conditions underlying
+metabolic syndrome is constructed by taking the sum of 3 binary
+variables (obesity, diabetes, and high blood pressure). The count of
+complications arising from metabolic syndrome is constructed by
+taking the sum of 2 binary variables (stroke and the RAND variable
+for “any heart problem” which includes heart attack, coronary heart
+disease, angina, congestive heart failure, or “other heart
+problems”). The CESD index is the sum of a binary measure of feeling
+depressed, as though everything is an effort, sleep was restless,
+felt lonely, felt sad, could not get going, (1- was happy), and (1-
+enjoyed life) much of the time. The measure of any difficulties with
+gross motor skills is a binary variable that equals one if the
+respondent reports any difficulty walking one block, walking across
+a room, climbing a flight of stairs, or bathing. The count of
+difficulties with activities of daily living includes difficulty
+with bathing, eating, or dressing, per Wallace and Herzog. 38 Regressions also include controls for age, gender, race,
+ethnicity, educational attainment, marital status, veteran status,
+total household income (2016 $), state unemployment rate, and state
+and year fixed effects. Sample weights are used in model estimation.
+Standard errors clustered by state are reported in parentheses. ACA
+= Affordable Care Act; CESD = Center for Epidemiologic
+Studies-Depression; ADL = activities of daily living; HRS = Health
+and Retirement Study.
+
+Statistical significance is indicated by ***for the .01 level, **for
+the .05 level and *for the .10 level.
+
+Effect of ACA Medicaid Expansion on Components of Composite Health
+Measures Among Low-Income Adults Ages 50 to 64.
+
+Note. The sample consists of respondents to the
+2010-2016 HRS who are ages 50 to 64 and have income under 100% of
+the federal poverty level. The count of conditions underlying
+metabolic syndrome is constructed by taking the sum of 3 binary
+variables (obesity, diabetes, and high blood pressure). The count of
+complications arising from metabolic syndrome is constructed by
+taking the sum of 2 binary variables (stroke and the RAND variable
+for “any heart problem” which includes heart attack, coronary heart
+disease, angina, congestive heart failure, or “other heart
+problems”). Regressions also include controls for age, gender, race,
+ethnicity, educational attainment, marital status, veteran status,
+total household income (2016 $), state unemployment rate, and state
+and year fixed effects. Sample weights are used in model estimation.
+Standard errors clustered by state are reported in parentheses. ACA
+= Affordable Care Act; HRS = Health and Retirement Study.
+
+Statistical significance is indicated by *** for the .01 level, **
+for the .05 level, and * for the .10 level.
+
+In Column 2, we document a reduction of 0.09 in the number of complications
+arising from metabolic syndrome (stroke or heart-related complications) (95% CI,
+−0.15, −0.02). From a mean of 0.22 complications, this is a reduction of 32%. In Table 3 , we
+examine the components of this measure. We note that the stroke outcome does not
+satisfy the parallel trends assumption (although others do) and caution that the
+stroke results should thus not be interpreted as causal. We find a 35% reduction
+in the likelihood a respondent has heart problems (95% CI, −0.12, −0.02).
+
+In Column 3 of Table
+2 , we find no statistically significant change in mental health, as
+measured by the CESD index. In Columns 4 and 5, we document improvements in
+gross motor skills and ADLs. Respondents are 6.6 percentage points less likely
+to report a gross motor skills difficulty (95% CI, −0.12, −0.01). From a base of
+38% of respondents reporting a difficulty walking a block, walking across a
+room, climbing one flight of stairs, or bathing, this is a reduction of 18%. In
+Column 5, we document a 0.11 point reduction (95% CI, −0.18, −0.04) in the
+number of difficulties with bathing, eating, or dressing, which corresponds to a
+34% improvement from a mean of 0.33.
+
+
+Possible Mechanism: Health Care Use
+
+In Supplemental Appendix Table A4 , we examine a possible mechanism
+underlying the improvements in health: increased health care use. We note that,
+because HRS questions on health care use are fairly limited in scope, we
+consider this analysis to be exploratory. We first construct a binary variable
+that equals one if the respondent reports visiting a physician’s office more
+than 10 times in the last 2 years. The second 2 measures are specific to
+particular conditions: blood pressure medication and having a heart procedure
+(heart surgery, cardiac catheterization, coronary angiogram, angioplasty, or
+bypass graft notation). Due to skip patterns in the data, we restrict the sample
+to those who report having high blood pressure or a heart complication,
+respectively.
+
+We document a statistically insignificant ( t = 1.71) 5.7
+percentage point increase in the likelihood of visiting a physician more than 10
+times in the past 2 years, a 20% increase relative to the pre-expansion mean. In
+Column 2, we find no increase in the likelihood of taking medication to control
+high blood pressure among respondents who report having high blood pressure.
+While this may seem surprising, given evidence that the Medicaid expansion led
+to increases in prescriptions filled; 42 we note that nearly 80% of respondents with high blood pressure in our
+sample are already taking blood pressure medication. Among the small subset of
+respondents who reported having a prior heart complication (heart attack,
+coronary heart disease, angina, congestive heart failure, or “other heart
+problems”), the ACA Medicaid expansion increased the likelihood of having a
+heart procedure by 15 percentage points, or 48% from a mean of 32%
+( t = 1.62).
+
+
+Robustness Checks
+
+Supplemental Appendix Tables A5 and A6 include evidence from 3
+sets of robustness checks. The first 2 address the fact that not all treatment
+states enacted the Medicaid expansion on January 1, 2014; some expanded Medicaid
+prior to 2014 and some expanded Medicaid later. In Panel A, we exclude states
+that expanded Medicaid early and for whom the 2014 expansion may have
+represented milder changes; our results are robust to this exclusion. In Panel
+B, we exclude those states that expanded Medicaid after January 1, 2014, because
+for the states that expanded in 2016, we may not have a full year of
+post-expansion data. Our results are also robust to this exclusion.
+
+Our third robustness check takes into account the 2-year gap between interview
+waves of the HRS, which means that questions about health status in 2014 could
+reflect health conditions that presented for the first time in the years in
+between the 2012 and 2014 surveys (before the ACA Medicaid expansion was in
+place). So, in Panel C, we exclude responses from wave 12, which was fielded in
+2014. Our results are largely robust to this exclusion.
+
+
+Falsification Tests
+
+We also present the results of 2 falsification tests. We would expect to find no
+effect among near-elderly adults with income too high to benefit from the ACA
+Medicaid expansion nor would we expect the ACA Medicaid expansion to affect
+health insurance coverage or health among low-income elderly adults who are too
+old to receive expansion Medicaid. We present these results in Supplemental Appendix Tables A7 and A8 . Only one of the
+coefficient estimates (Medicaid coverage for high-income adults ages 50 to 64)
+is statistically significant, and in all but 2 cases, the magnitudes are much
+closer to zero than our baseline estimates. We interpret these results as
+supportive of our main results: that the ACA Medicaid expansion increased
+Medicaid coverage and improved physical health among low-income near-elderly
+adults.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion and Conclusion
+
+Using newly released data from the HRS, we document significant improvements in
+health among low-income, near-elderly persons due to the ACA Medicaid expansion. We
+find a 12% reduction in metabolic conditions, a 32% reduction in complications
+arising from metabolic syndrome, an 18% reduction in the likelihood of having a
+difficulty with gross motor skills, and a 34% reduction in ADLs. We find no
+significant changes in mental health. It is also important to note that our health
+status results apply to low-income, near-elderly persons, and may not generalize to
+other populations.
+
+Our study contributes to the growing literature documenting the impact of the ACA.
+Although evidence on the effects of the ACA on health outcomes has been mixed, our
+work ties closely to new work showing that the ACA led to reductions in mortality
+for near-elderly adults. 9 , 22 , 23 We provide the first evidence of improved morbidity that not
+only supports the existence of mortality benefits among this group but also
+indicates that the health benefits of expanded coverage extend beyond mortality
+reduction to improvements in quality of life. Our focus is on low-income adults who
+qualify for the Medicaid expansion, but future work should also examine whether
+there are health improvements for higher income near-elderly adults who may have
+benefited from reforms to the design of Marketplace or employer-provided health
+insurance.
+
+Our results suggest that these health improvements may have been driven primarily by
+a shift toward more generous Medicaid coverage that has little to no cost-sharing
+and covers more services 44 rather than an increase in the number of people with any coverage. In our
+sample of low-income, near-elderly adults, nearly 70% of those residing in expansion
+states had coverage prior to 2014, and we find a small and statistically
+insignificant reduction in the proportion of people who are uninsured. The rate of
+Medicaid coverage, however, increased by 16 percentage points, with offsetting
+reductions in private insurance and Medicare coverage—which tend to have much higher
+premiums and cost-sharing.
+
+We caution that although we find robust results of improved physical health, our
+setting does not provide robust evidence on the mechanism by which Medicaid
+expansions may have improved health outcomes. While we investigate reductions in
+cost-sharing and increase in the use of health care services associated with
+Medicaid expansions, these results are only suggestive, given their imprecision and,
+in some cases, the existence of pretrends. We find suggestive evidence that the
+shift toward Medicaid and away from other sources of coverage was associated with
+dramatic reductions in OOP costs—between $496 and $648 per year. If the reductions
+were concentrated among those newly enrolled in Medicaid, then this corresponds to
+an annual savings of at least $3,100 for the newly enrolled ($496/0.16). As such,
+our results are consistent with prior work documenting that the Medicaid expansion
+improved consumers’ financial health, as measured by medical debt and other
+financial outcomes such as collections, credit scores, credit card spending, and
+bankruptcy. 45 - 50 To our knowledge, this is one
+of the first studies to provide suggestive, direct evidence on how more generous insurance led to improved financial health—through lower OOP spending. 48
+
+Our analysis also provides suggestive evidence of changes in health care use as a
+mechanism driving these health improvements. We document statistically insignificant
+increases in doctor visits and heart procedures associated with the expansion, which
+is consistent with the evidence on changes in utilization among older adults aging
+into Medicare. 39 We note 2 limitations with the health care utilization measures in the HRS
+that prevent us from presenting a more comprehensive analysis. First, many of the
+measures reflect any use over the entire 2-year period between interviews. In a
+population with relatively high use of medical care, this will lead to relatively
+little variation across respondents. For example, the prescription drug use question
+is phrased, “did you take prescription drugs regularly over the past 2 years.” Since
+74% of respondents residing in expansion states in the pre-period responded
+affirmatively (and there are likely some in this population without medical
+conditions that would need regular prescription drugs), there is relatively little
+opportunity for improvements in this measure. Changes in intensity, such as
+adherence or number of drugs taken regularly, which may be more sensitive to
+expanded coverage, are not captured by this question. Second, many of the questions
+correspond to certain types of prescription medications that treat specific
+conditions or specific medical procedures and have skip patterns that result in very
+small sample sizes. For example, the measure of heart procedure was only available
+for the 870 respondents who reported that they had a heart condition. Given these
+limitations, we believe that the lack of statistical significance may be due to low
+statistical power rather than a null effect. The sign and magnitude of the estimates
+support the hypothesis of increases in utilization that may generate the health
+improvements we document.
+
+Our work provides important initial evidence of the ACA Medicaid expansion’s impact
+on the health of near-elderly adults based on new data from the HRS. We find
+substantial improvements in physical health but not in mental health. Results on
+health care use suggest that increased utilization may be driving these health
+improvements. However, the utilization results are imprecisely estimated. Future
+work should continue to examine these questions using claims data that has larger
+sample sizes and detailed information on health care use, and clinical data—such as
+from electronic medical records (EMRs)—that will enrich the literature with
+additional measures of health and health care use.
+
+By focusing on the near-elderly with low-income, our study also highlights the
+importance of exploring heterogeneous responses to the ACA. Most existing studies
+have pooled the near-elderly with younger non-elderly adults ages 19 to 49. Yet,
+because baseline insurance coverage and health vary by age, we expect the effects of
+the ACA also to vary by age. In contrast to the insurance gains documented for
+younger adults, low-income near-elderly adults had relatively high insurance rates
+before 2014 and did not experience substantial increases in any coverage after 2014.
+Our results suggest that the ACA benefited this group by providing more generous
+coverage and reducing OOP expenses. For near-elderly persons, a group with high
+health care needs, we find strong evidence that the ACA improved physical health
+along several different measures, which stands in contrast to the mixed evidence on
+health improvements among broader age groups (e.g., all low-income adults ages 19 to
+64). Thus, it is important that researchers consider that the effects of the ACA
+Medicaid expansion might not be uniform across all non-elderly adults.
+
+Our findings have important policy implications. These results suggest that, even
+without increases in overall coverage rates, crowd-out by Medicaid can improve
+health possibly due to Medicaid’s lower cost-sharing. Given that the youngest baby
+boomers are 55, these health improvements will be experienced by a large number of
+near-elderly. Improved health in the years prior to aging into Medicare may also
+result in healthier Medicare beneficiaries possibly resulting in lower per capita
+spending and longer life spans. Finally, we provide new evidence suggesting that
+increasing insurance generosity may translate into effective care in low-income
+populations.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Discussion and Conclusion
+
+Using newly released data from the HRS, we document significant improvements in
+health among low-income, near-elderly persons due to the ACA Medicaid expansion. We
+find a 12% reduction in metabolic conditions, a 32% reduction in complications
+arising from metabolic syndrome, an 18% reduction in the likelihood of having a
+difficulty with gross motor skills, and a 34% reduction in ADLs. We find no
+significant changes in mental health. It is also important to note that our health
+status results apply to low-income, near-elderly persons, and may not generalize to
+other populations.
+
+Our study contributes to the growing literature documenting the impact of the ACA.
+Although evidence on the effects of the ACA on health outcomes has been mixed, our
+work ties closely to new work showing that the ACA led to reductions in mortality
+for near-elderly adults. 9 , 22 , 23 We provide the first evidence of improved morbidity that not
+only supports the existence of mortality benefits among this group but also
+indicates that the health benefits of expanded coverage extend beyond mortality
+reduction to improvements in quality of life. Our focus is on low-income adults who
+qualify for the Medicaid expansion, but future work should also examine whether
+there are health improvements for higher income near-elderly adults who may have
+benefited from reforms to the design of Marketplace or employer-provided health
+insurance.
+
+Our results suggest that these health improvements may have been driven primarily by
+a shift toward more generous Medicaid coverage that has little to no cost-sharing
+and covers more services 44 rather than an increase in the number of people with any coverage. In our
+sample of low-income, near-elderly adults, nearly 70% of those residing in expansion
+states had coverage prior to 2014, and we find a small and statistically
+insignificant reduction in the proportion of people who are uninsured. The rate of
+Medicaid coverage, however, increased by 16 percentage points, with offsetting
+reductions in private insurance and Medicare coverage—which tend to have much higher
+premiums and cost-sharing.
+
+We caution that although we find robust results of improved physical health, our
+setting does not provide robust evidence on the mechanism by which Medicaid
+expansions may have improved health outcomes. While we investigate reductions in
+cost-sharing and increase in the use of health care services associated with
+Medicaid expansions, these results are only suggestive, given their imprecision and,
+in some cases, the existence of pretrends. We find suggestive evidence that the
+shift toward Medicaid and away from other sources of coverage was associated with
+dramatic reductions in OOP costs—between $496 and $648 per year. If the reductions
+were concentrated among those newly enrolled in Medicaid, then this corresponds to
+an annual savings of at least $3,100 for the newly enrolled ($496/0.16). As such,
+our results are consistent with prior work documenting that the Medicaid expansion
+improved consumers’ financial health, as measured by medical debt and other
+financial outcomes such as collections, credit scores, credit card spending, and
+bankruptcy. 45 - 50 To our knowledge, this is one
+of the first studies to provide suggestive, direct evidence on how more generous insurance led to improved financial health—through lower OOP spending. 48
+
+Our analysis also provides suggestive evidence of changes in health care use as a
+mechanism driving these health improvements. We document statistically insignificant
+increases in doctor visits and heart procedures associated with the expansion, which
+is consistent with the evidence on changes in utilization among older adults aging
+into Medicare. 39 We note 2 limitations with the health care utilization measures in the HRS
+that prevent us from presenting a more comprehensive analysis. First, many of the
+measures reflect any use over the entire 2-year period between interviews. In a
+population with relatively high use of medical care, this will lead to relatively
+little variation across respondents. For example, the prescription drug use question
+is phrased, “did you take prescription drugs regularly over the past 2 years.” Since
+74% of respondents residing in expansion states in the pre-period responded
+affirmatively (and there are likely some in this population without medical
+conditions that would need regular prescription drugs), there is relatively little
+opportunity for improvements in this measure. Changes in intensity, such as
+adherence or number of drugs taken regularly, which may be more sensitive to
+expanded coverage, are not captured by this question. Second, many of the questions
+correspond to certain types of prescription medications that treat specific
+conditions or specific medical procedures and have skip patterns that result in very
+small sample sizes. For example, the measure of heart procedure was only available
+for the 870 respondents who reported that they had a heart condition. Given these
+limitations, we believe that the lack of statistical significance may be due to low
+statistical power rather than a null effect. The sign and magnitude of the estimates
+support the hypothesis of increases in utilization that may generate the health
+improvements we document.
+
+Our work provides important initial evidence of the ACA Medicaid expansion’s impact
+on the health of near-elderly adults based on new data from the HRS. We find
+substantial improvements in physical health but not in mental health. Results on
+health care use suggest that increased utilization may be driving these health
+improvements. However, the utilization results are imprecisely estimated. Future
+work should continue to examine these questions using claims data that has larger
+sample sizes and detailed information on health care use, and clinical data—such as
+from electronic medical records (EMRs)—that will enrich the literature with
+additional measures of health and health care use.
+
+By focusing on the near-elderly with low-income, our study also highlights the
+importance of exploring heterogeneous responses to the ACA. Most existing studies
+have pooled the near-elderly with younger non-elderly adults ages 19 to 49. Yet,
+because baseline insurance coverage and health vary by age, we expect the effects of
+the ACA also to vary by age. In contrast to the insurance gains documented for
+younger adults, low-income near-elderly adults had relatively high insurance rates
+before 2014 and did not experience substantial increases in any coverage after 2014.
+Our results suggest that the ACA benefited this group by providing more generous
+coverage and reducing OOP expenses. For near-elderly persons, a group with high
+health care needs, we find strong evidence that the ACA improved physical health
+along several different measures, which stands in contrast to the mixed evidence on
+health improvements among broader age groups (e.g., all low-income adults ages 19 to
+64). Thus, it is important that researchers consider that the effects of the ACA
+Medicaid expansion might not be uniform across all non-elderly adults.
+
+Our findings have important policy implications. These results suggest that, even
+without increases in overall coverage rates, crowd-out by Medicaid can improve
+health possibly due to Medicaid’s lower cost-sharing. Given that the youngest baby
+boomers are 55, these health improvements will be experienced by a large number of
+near-elderly. Improved health in the years prior to aging into Medicare may also
+result in healthier Medicare beneficiaries possibly resulting in lower per capita
+spending and longer life spans. Finally, we provide new evidence suggesting that
+increasing insurance generosity may translate into effective care in low-income
+populations.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Online_Appendix – Supplemental material for ACA Medicaid Expansion
+Associated With Increased Medicaid Participation and Improved Health Among
+Near-Elderly: Evidence From the Health and Retirement Study
+File: Online_Appendix.pdf

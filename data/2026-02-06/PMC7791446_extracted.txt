@@ -1,0 +1,657 @@
+================================================================================
+ARTICLE TITLE: The Change Trend of Cause of Death in Patients With Stage I Non-Small
+Cell Lung Cancer After Surgery in US: A Long-Term Follow-Up Study Based on SEER
+Database
+PMCID: PMC7791446
+PMID: 33070629
+KEYWORDS: cause of death, nsclc, lobectomy, elderly, seer
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+There are few studies on the cause of death in patients with stage I non-small
+cell lung cancer after surgery. Our aim is to study the trend of cause of death
+and risk factors affecting prognosis in the patients. We retrospectively
+reviewed patients in Surveillance, Epidemiology and End results database from
+2004 to 2015. The change trend between cause of death and follow-up time was
+studied by calculating the proportion of cause of death at different periods and
+analyzing the cumulative risk. COX risk regression model was performed by
+univariate and multivariate analyses for survival analysis. Finally, 23,652
+patients were enrolled. In the whole cohort, lung cancer accounted for 18.68% of
+deaths, followed by other causes (9.57%), heart disease (5.12%) and COPD
+(3.89%). With the increasing of follow-up time, the cumulative incidence of lung
+cancer was always the highest, but the growth rate in the late follow-up period
+was slower than that caused by heart disease and COPD. The proportion of death
+due to lung cancer decreased from 53.1%-73.1% in 0-30 months after follow-up to
+7.8%-41.4% in 90 months after follow-up, while the proportion of deaths due to
+heart disease and COPD increased. Age was an independent risk factor for lung
+cancer-, heart disease- and COPD-specific survival, while lobectomy resection
+was a protective factor, even in patients older than 70 years old. In
+conclusion, during the follow-up period, lung cancer was still the main cause of
+death, but the proportion of patients died of heart disease and COPD increased
+gradually, especially in elderly. Furthermore, age was an important independent
+factor affecting prognosis, particularly for heart disease- and COPD-related
+mortality. The application of wedge resection in elderly patients needs further
+exploration.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Lung cancer is the leading cause of cancer-related deaths worldwide, accounting for
+18.4% of all deaths in 2018. 1 Non-small cell lung cancer (NSCLC) is the main pathological type of lung cancer. 2 Lobectomy is the most important treatment for early operable patients with
+NSCLC, and has been widely accepted as the standard treatment since 1995. 3 However, the 5-year survival rate of patients with stage I NSCLC after
+lobectomy is only 45%-65%. 4 For early stage patients, the prognosis of lobectomy and wedge resection is
+still controversial, 5 , 6 and a study comparing the prognosis of the 2 groups is in progress. 7 Thus, it is very important to further improve the overall survival (OS) rate
+of patients with early stage NSCLC after surgery.
+
+Understanding the cause of death (COD) in patients with early stage NSCLC after
+surgery is significant for developing individual follow-up strategies, designing
+clinical trials and implementing secondary prevention, and ultimately improving the
+OS rate in these patients. However, little research had been done on the COD in
+patients with stage I NSCLC after surgery. The previous studies found that the risk
+of dying from lung cancer continue to increase within 5 years after surgery in stage
+I-II NSCLC patients and the impact from non-cancer-specific diseases in patients who
+had undergone resection for stage I NSCLC increased with age. 8 , 9 The limitations of previous studies were that their data came from a single
+center, the sample size was small, and the changing trend of the COD in patients of
+different ages was not well described. Research based on multi-center often has a
+larger sample size and better applicability and reliability. Therefore, it is
+necessary to study the COD in patients with stage I NSCLC after surgery through
+large population-based sample size.
+
+We retrospectively studied the distribution of COD at different age groups in
+patients with stage I NSCLC after surgery in Surveillance, Epidemiology and End
+results (SEER) database, compared the prognosis between lobectomy resection and
+wedge resection in elder group and determined the prognostic factors affecting
+different COD. This study is critical for the customized individualized long-term
+surveillance for patients with stage I NSCLC after surgery and for the prevention of
+potential underlying diseases that may lead to death.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials & Methods
+
+In this study, we obtained the permission to use the SEER database by signing the
+corresponding agreement on the official website of the SEER database (user name:
+10067-Nov2018). The SEER database is one of the world’s largest public cancer
+databases, established by the National Cancer Institute of the United States,
+and accounts for about 30% of the U.S. population. The data in our study came
+from Incidence-SEER 18 Registries Custom Data (with additional treatment
+fields), released April 2019, based on the November 2018 submission ( http://www.seer.cancer.gov ). Patients with stage I based on 8th
+AJCC stage NSCLC after lobectomy (or wedge) resection from January 1, 2004 to
+December 31, 2015 were included in this study. In view of the controversial role
+of adjuvant chemotherapy in patients with early postoperative NSCLC and the
+adverse effects of adjuvant radiotherapy on prognosis, 10 - 13 we selected patients who underwent lobectomy (or wedge) resection without
+radiotherapy and chemotherapy as subjects for the study. Patients with unknown
+marital status, race, degree of tumor differentiation and survival time were
+excluded, as were patients with previous history of malignant tumors and
+non-stage I NSCLC. The flow chart of patient selection was shown in Figure 1 .
+
+Flow chart of stage I NSCLC patients after surgery diagnosed at 2004-2015
+from SEER database.
+
+Age at diagnosis, gender, race, laterality, degree of tumor differentiation,
+pathological subtypes, marital status and cause of death were included in our
+work as variables. The age groups were divided into age <60 years, between
+60–69 years and 70–79 years, and >79 years. Race was classified into whites,
+backs and others. Gender was divided into male and female. The laterality was
+divided into the left and right. Marital status was evaluated into 4 categories:
+married, single (never married), windowed and separated/divorced. According to
+the International Classification of Diseases for Oncology histology codes,
+pathological subtypes were divided into adenocarcinoma (8140, 8250–8253, 8255,
+8260, 8323, 8480–8481, 8550, 8560, 8570 and 8574), squamous cell carcinoma
+(8070–8073 and 8083) and Others NSCLC. 14 The degree of tumor differentiation was classified by adopting the
+standard SEER grade recode (I- well differentiated, II- moderately
+differentiated, III- poorly differentiated and IV- undifferentiated). 15 The COD were classified into 4 categories: lung cancer, heart disease,
+COPD and other causes. The 4 periods after diagnosis were classified as 0-30
+months, 31-60 months, 61-90 months and months over 90 after surgery.
+
+The distribution of characteristics (age at diagnosis, gender, race, laterality,
+degree of tumor differentiation, pathological subtypes, marital status and cause
+of death) of stage I NSCLC after surgery was summarized by counting and
+percentage. The associations between age and the risk of each cause of death
+were evaluated with competing risks analysis. The distribution of COD and the
+death rates were assessed according to age groups and follow-up periods. For
+example, in the < 60-year-old group, the number of deaths from lung cancer
+during the 0-30 months after surgery was 288, while the total number of deaths
+during that period was 469, so lung cancer accounted for 61.4% of the deaths. A
+Cox proportional hazard regression was used to assess the association between
+various specific survival and potential prognostic factors. Statistical
+significance was considered at 2-sided P value < 0.05. All data were obtained
+using SEER*Stat Software version 8.3.5. Competing risks analysis was performed
+using R version 3.6.0 ( http://www.r-project.org ),
+the distribution of different COD according to the follow-up time of diagnosis
+was calculated by Microsoft Excel 2016 and other analyses were performed using
+SPSS Statistics 25 (IBM, NY).
+
+
+Selection of Patients
+
+In this study, we obtained the permission to use the SEER database by signing the
+corresponding agreement on the official website of the SEER database (user name:
+10067-Nov2018). The SEER database is one of the world’s largest public cancer
+databases, established by the National Cancer Institute of the United States,
+and accounts for about 30% of the U.S. population. The data in our study came
+from Incidence-SEER 18 Registries Custom Data (with additional treatment
+fields), released April 2019, based on the November 2018 submission ( http://www.seer.cancer.gov ). Patients with stage I based on 8th
+AJCC stage NSCLC after lobectomy (or wedge) resection from January 1, 2004 to
+December 31, 2015 were included in this study. In view of the controversial role
+of adjuvant chemotherapy in patients with early postoperative NSCLC and the
+adverse effects of adjuvant radiotherapy on prognosis, 10 - 13 we selected patients who underwent lobectomy (or wedge) resection without
+radiotherapy and chemotherapy as subjects for the study. Patients with unknown
+marital status, race, degree of tumor differentiation and survival time were
+excluded, as were patients with previous history of malignant tumors and
+non-stage I NSCLC. The flow chart of patient selection was shown in Figure 1 .
+
+Flow chart of stage I NSCLC patients after surgery diagnosed at 2004-2015
+from SEER database.
+
+
+Variable Classification
+
+Age at diagnosis, gender, race, laterality, degree of tumor differentiation,
+pathological subtypes, marital status and cause of death were included in our
+work as variables. The age groups were divided into age <60 years, between
+60–69 years and 70–79 years, and >79 years. Race was classified into whites,
+backs and others. Gender was divided into male and female. The laterality was
+divided into the left and right. Marital status was evaluated into 4 categories:
+married, single (never married), windowed and separated/divorced. According to
+the International Classification of Diseases for Oncology histology codes,
+pathological subtypes were divided into adenocarcinoma (8140, 8250–8253, 8255,
+8260, 8323, 8480–8481, 8550, 8560, 8570 and 8574), squamous cell carcinoma
+(8070–8073 and 8083) and Others NSCLC. 14 The degree of tumor differentiation was classified by adopting the
+standard SEER grade recode (I- well differentiated, II- moderately
+differentiated, III- poorly differentiated and IV- undifferentiated). 15 The COD were classified into 4 categories: lung cancer, heart disease,
+COPD and other causes. The 4 periods after diagnosis were classified as 0-30
+months, 31-60 months, 61-90 months and months over 90 after surgery.
+
+
+Statistical Methods
+
+The distribution of characteristics (age at diagnosis, gender, race, laterality,
+degree of tumor differentiation, pathological subtypes, marital status and cause
+of death) of stage I NSCLC after surgery was summarized by counting and
+percentage. The associations between age and the risk of each cause of death
+were evaluated with competing risks analysis. The distribution of COD and the
+death rates were assessed according to age groups and follow-up periods. For
+example, in the < 60-year-old group, the number of deaths from lung cancer
+during the 0-30 months after surgery was 288, while the total number of deaths
+during that period was 469, so lung cancer accounted for 61.4% of the deaths. A
+Cox proportional hazard regression was used to assess the association between
+various specific survival and potential prognostic factors. Statistical
+significance was considered at 2-sided P value < 0.05. All data were obtained
+using SEER*Stat Software version 8.3.5. Competing risks analysis was performed
+using R version 3.6.0 ( http://www.r-project.org ),
+the distribution of different COD according to the follow-up time of diagnosis
+was calculated by Microsoft Excel 2016 and other analyses were performed using
+SPSS Statistics 25 (IBM, NY).
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Finally, a total of 23,652 patients with stage I NSCLC after surgery diagnosed
+from 2004 to 2015 were screened from the SEER database. Table 1 summarized the clinical
+characteristics of the patients. Most of the people in the cohort were 60-79
+years old (68.87%), whites (84.6%) and married (57.75%). The proportion of male
+was less than that of female. Most of the tumors were on the right (60.11%).
+Adenocarcinoma was the most common pathological type (68.35%). The degree of
+tumor differentiation was mainly moderate differentiation (47.62%). Most of
+patients received lobectomy resection (83.02%), but the proportion of wedge
+resection increased with the age. Lung cancer (18.68%) was the leading cause of
+death, followed by other causes (9.57%), heart disease (5.12%) and COPD
+(3.89%).
+
+Characteristics of Patients With Stage I NSCLC After Surgery Diagnosed at
+2004-2015 in SEER Database.
+
+ Figure 2 shown the
+cumulative incidence of COD in patients with stage I NSCLC after surgery. In
+most age groups, the cumulative incidence of death (CID) of lung cancer
+increased significantly in the early follow-up period, but then slowed down
+after about 90 months after surgery. The CID of heart disease was similar to
+that of COPD death in patients aged younger than 60 years old with lobectomy or
+wedge resection, patients aged between 60 and 69 with lobectomy resection and
+patients aged over 79 years old with wedge resection. The CID of heart disease
+was higher than that of COPD death in patients aged over 70 years old with
+lobectomy resection, while in patients aged between 60 and 79 with wedge
+resection, it was the opposite.
+
+Cumulative incidence of causes of death in patients with stage I NSCLC
+after surgery. Patients with wedge resection aged <60 years old (a),
+aged 60-69 years old (c), aged 70-79 years old (e), aged >79 years
+old (g); Patients with lobectomy resection aged <60 years old (b),
+aged 60-69 years old (d), aged 70-79 years old (f), aged >79 years
+old (h).
+
+The detailed cumulative incidence of different causes of death at 30, 60, 90, and
+120 months after surgery was presented in Table 2 . In patients with wedge
+resection, the CID of lung cancer doubled from 30 months to 90 months after
+follow-up, but the maximum growth rate was only 11.9% (age 60-69 years old)
+between 90 months and 120 months. However, the CID of heart disease and COPD not
+only more than doubled from 30 months to 90 months after follow-up, but also
+increased by 21.5% (age >79 years old) and 44.4% (age <60 years old)
+respectively from 90 months to 120 months in patients with wedge resection. In
+patients with lobectomy resection, the CID of lung cancer at 90 months after
+followed up in different age was 2.6, 2.5, 2.1 and 1.9 times higher than that at
+30 months after followed up, and the corresponding values were 3, 2.4, 2.7 and
+2.9 in CID of heart disease and 4.3, 4.1, 3.7 and 3.1 in CID of COPD,
+respectively. Similarly, in patients with lobectomy resection, the maximum
+growth rate in CID of lung cancer was only 18.4% (age 60-69 years old) between
+90 months and 120 months, while the corresponding value was 44.1% (age >79
+years old) in CID of heart disease and 52.9% (age <60 years old).
+
+Cumulative Incidence of Different Causes of Death at 30, 60, 90, and 120
+Months After Surgery.
+
+In patients with wedge resection, the proportion of death due to lung cancer
+continued to decline during the follow-up time in all age groups. The proportion
+of death due to heart disease generally increased in the early follow-up period,
+although there were some differences in different age groups, then the
+proportion declined from period of 61-90 months to over 90 months in most
+patients (excluding age old than 79 years old). The proportion of death due to
+COPD continued to increase during the follow-up time in all age groups, and even
+in patients younger than 60 years old, it reached to 50%. The detailed change
+trend of different COD was presented in Figure 3 .
+
+Proportion of causes of death at different periods in patients with stage
+I NSCLC after wedge resection. a, Patients aged <60 years old; b,
+Patients aged 60-69 years old; c, Patients aged 70-79 years old; d,
+Patients aged >79 years old.
+
+As shown in Figure 4 , in
+patients with lobectomy resection, the proportion of death due to other causes
+continued to increase during the follow-up time in all age groups, and even
+reached 54.7% in patients aged over 79 years old after 90 months of followed up.
+In contrast, the proportion of death due to lung cancer generally decreased
+during the follow-up time in all age groups, and even in patients aged over 79
+years old after 90 months of followed up, it was only 7.8%. The proportion of
+death due to heart disease risen steadily during the follow-up time in patients
+age over 70 years old. The proportion of death due to COPD increased in patients
+aged younger than 79 years old during the follow-up time, and the proportion
+diseased from period of 61-90 months (13.5%) to over 90 months (10.4%) in
+patients older than 79 years old.
+
+Proportion of causes of death at different periods in patients with stage
+I NSCLC after lobectomy resection. a, Patients aged <60 years old; b,
+Patients aged 60-69 years old; c, Patients aged 70-79 years old; d,
+Patients aged >79 years old.
+
+According to the results of univariate analysis, we conducted multivariate
+analysis and found that age, gender, degree of tumor differentiation and marital
+status were independent factors affecting lung cancer-specific survival ( Table 3 ). In details,
+patients undergoing lobectomy resection (HR:0.72 (0.67-0.78), p < 0.001) and
+female had a better lung cancer-specific survival than male (HR:0.74
+(0.69-0.78), p < 0.001), and a worse prognosis was found in older patients
+(>79 years old: HR:2.26 (2.02-2.54), p < 0.001), low differentiated tumor
+(IV: HR:2.64 (2.09-3.33), p < 0.001) and single (HR:1.12 (1.02 -1.24), p =
+0.025), windowed (HR:1.19 (1.09 -1.29), p < 0.001) or separated/divorced
+(HR:1.20 (1.09 -1.31), p < 0.001).
+
+Multivariable COX Analysis* of Factors Associated With Death From
+Different Cause of Death in Whole Cohort.
+
+*: based on all variables excluding laterality.
+
+We also performed univariate and multivariate analyses of heart disease- and
+COPD-specific survival. The detailed results were shown in Table 3 . Age, surgery,
+race, gender, degree of tumor differentiation, pathological subtypes and marital
+status were independent factors affecting cardiac specific survival. Advanced
+age (>79 years old: HR:5.28 (4.18-6.68), p < 0.001), low differentiated
+tumors (IV: HR:2.36 (1.60-3.48), p < 0.001), squamous cell carcinoma (HR:1.51
+(1.32 -1.71), p < 0.001) and windowed (HR:1.49 (1.28 -1.74), p < 0.001) or
+separated/divorced (HR:1.48 (1.25 -1.76), p < 0.001) were independent risk
+factors affecting cardiac specific survival, while patients undergoing lobectomy
+resection (HR:0.78 (0.67-0.90), p < 0.001) and female(HR: 0.50 (0.44-0.56), p
+< 0.001) was independent protective factors affecting cardiac specific
+survival. Similarly, age, surgery, race, gender, degree of tumor
+differentiation, pathological subtypes and marital status were also independent
+factors affecting COPD-specific survival, in which lobectomy resection (HR0.42
+(0.37-0.49), p < 0.001), blacks (HR:0.66 (0.49-0.90), p = 0.008) and female
+(HR:0.68 (0.59-0.78), p < 0.001) were independent protective factors for
+COPD-specific survival, while advanced age (>79 years old: HR:3.92
+(2.96-5.18), p < 0.001), low differentiated tumors (IV: HR:2.51 (1.53-4.13),
+p < 0.001), squamous cell carcinoma (HR:1.80 (1.56-2.08), p < 0.001) and
+single (HR:1.28(1.02 -1.62), p = 0.036), windowed (HR:1.69 (1.42-2.01), p <
+0.001) or separated/divorced (HR:1.60 (1.32 -1.95), p < 0.001) were
+independent risk factors for COPD-specific survival.
+
+In addition, we further compared the effects of different surgical methods on the
+prognosis of elderly patients ( Table 4 ). The multivariate analyses
+revealed age was still an important factor affecting prognosis of different
+COD-specific survival. Compared with wedge resection, patients with lobectomy
+resection had a better lung cancer-specific survival (HR:0.74 (0.68-0.82), p
+< 0.001) and COPD-specific survival (HR:0.45 (0.38-0.54), p < 0.001),
+while the mode of operation was not an independent factor affecting cardiac
+specific survival (p = 0.065).
+
+Multivariable COX Analysis of Factors Associated With Death From
+Different Cause of Death in Elderly Cohort.
+
+*: based on variable including gender, grade, age, surgery and
+pathological subtypes.
+
+**: based on variable including gender, race, grade, age, surgery and
+pathological subtypes.
+
+***: based on variable including gender, race, grade, age, surgery,
+pathological subtypes and marital status.
+
+
+Patients Characteristics
+
+Finally, a total of 23,652 patients with stage I NSCLC after surgery diagnosed
+from 2004 to 2015 were screened from the SEER database. Table 1 summarized the clinical
+characteristics of the patients. Most of the people in the cohort were 60-79
+years old (68.87%), whites (84.6%) and married (57.75%). The proportion of male
+was less than that of female. Most of the tumors were on the right (60.11%).
+Adenocarcinoma was the most common pathological type (68.35%). The degree of
+tumor differentiation was mainly moderate differentiation (47.62%). Most of
+patients received lobectomy resection (83.02%), but the proportion of wedge
+resection increased with the age. Lung cancer (18.68%) was the leading cause of
+death, followed by other causes (9.57%), heart disease (5.12%) and COPD
+(3.89%).
+
+Characteristics of Patients With Stage I NSCLC After Surgery Diagnosed at
+2004-2015 in SEER Database.
+
+
+Cumulative Incidence of Death in Patients
+
+ Figure 2 shown the
+cumulative incidence of COD in patients with stage I NSCLC after surgery. In
+most age groups, the cumulative incidence of death (CID) of lung cancer
+increased significantly in the early follow-up period, but then slowed down
+after about 90 months after surgery. The CID of heart disease was similar to
+that of COPD death in patients aged younger than 60 years old with lobectomy or
+wedge resection, patients aged between 60 and 69 with lobectomy resection and
+patients aged over 79 years old with wedge resection. The CID of heart disease
+was higher than that of COPD death in patients aged over 70 years old with
+lobectomy resection, while in patients aged between 60 and 79 with wedge
+resection, it was the opposite.
+
+Cumulative incidence of causes of death in patients with stage I NSCLC
+after surgery. Patients with wedge resection aged <60 years old (a),
+aged 60-69 years old (c), aged 70-79 years old (e), aged >79 years
+old (g); Patients with lobectomy resection aged <60 years old (b),
+aged 60-69 years old (d), aged 70-79 years old (f), aged >79 years
+old (h).
+
+The detailed cumulative incidence of different causes of death at 30, 60, 90, and
+120 months after surgery was presented in Table 2 . In patients with wedge
+resection, the CID of lung cancer doubled from 30 months to 90 months after
+follow-up, but the maximum growth rate was only 11.9% (age 60-69 years old)
+between 90 months and 120 months. However, the CID of heart disease and COPD not
+only more than doubled from 30 months to 90 months after follow-up, but also
+increased by 21.5% (age >79 years old) and 44.4% (age <60 years old)
+respectively from 90 months to 120 months in patients with wedge resection. In
+patients with lobectomy resection, the CID of lung cancer at 90 months after
+followed up in different age was 2.6, 2.5, 2.1 and 1.9 times higher than that at
+30 months after followed up, and the corresponding values were 3, 2.4, 2.7 and
+2.9 in CID of heart disease and 4.3, 4.1, 3.7 and 3.1 in CID of COPD,
+respectively. Similarly, in patients with lobectomy resection, the maximum
+growth rate in CID of lung cancer was only 18.4% (age 60-69 years old) between
+90 months and 120 months, while the corresponding value was 44.1% (age >79
+years old) in CID of heart disease and 52.9% (age <60 years old).
+
+Cumulative Incidence of Different Causes of Death at 30, 60, 90, and 120
+Months After Surgery.
+
+
+Trends Between COD in Different Periods and Follow-Up Time After
+Surgery
+
+In patients with wedge resection, the proportion of death due to lung cancer
+continued to decline during the follow-up time in all age groups. The proportion
+of death due to heart disease generally increased in the early follow-up period,
+although there were some differences in different age groups, then the
+proportion declined from period of 61-90 months to over 90 months in most
+patients (excluding age old than 79 years old). The proportion of death due to
+COPD continued to increase during the follow-up time in all age groups, and even
+in patients younger than 60 years old, it reached to 50%. The detailed change
+trend of different COD was presented in Figure 3 .
+
+Proportion of causes of death at different periods in patients with stage
+I NSCLC after wedge resection. a, Patients aged <60 years old; b,
+Patients aged 60-69 years old; c, Patients aged 70-79 years old; d,
+Patients aged >79 years old.
+
+As shown in Figure 4 , in
+patients with lobectomy resection, the proportion of death due to other causes
+continued to increase during the follow-up time in all age groups, and even
+reached 54.7% in patients aged over 79 years old after 90 months of followed up.
+In contrast, the proportion of death due to lung cancer generally decreased
+during the follow-up time in all age groups, and even in patients aged over 79
+years old after 90 months of followed up, it was only 7.8%. The proportion of
+death due to heart disease risen steadily during the follow-up time in patients
+age over 70 years old. The proportion of death due to COPD increased in patients
+aged younger than 79 years old during the follow-up time, and the proportion
+diseased from period of 61-90 months (13.5%) to over 90 months (10.4%) in
+patients older than 79 years old.
+
+Proportion of causes of death at different periods in patients with stage
+I NSCLC after lobectomy resection. a, Patients aged <60 years old; b,
+Patients aged 60-69 years old; c, Patients aged 70-79 years old; d,
+Patients aged >79 years old.
+
+
+Survival Analysis
+
+According to the results of univariate analysis, we conducted multivariate
+analysis and found that age, gender, degree of tumor differentiation and marital
+status were independent factors affecting lung cancer-specific survival ( Table 3 ). In details,
+patients undergoing lobectomy resection (HR:0.72 (0.67-0.78), p < 0.001) and
+female had a better lung cancer-specific survival than male (HR:0.74
+(0.69-0.78), p < 0.001), and a worse prognosis was found in older patients
+(>79 years old: HR:2.26 (2.02-2.54), p < 0.001), low differentiated tumor
+(IV: HR:2.64 (2.09-3.33), p < 0.001) and single (HR:1.12 (1.02 -1.24), p =
+0.025), windowed (HR:1.19 (1.09 -1.29), p < 0.001) or separated/divorced
+(HR:1.20 (1.09 -1.31), p < 0.001).
+
+Multivariable COX Analysis* of Factors Associated With Death From
+Different Cause of Death in Whole Cohort.
+
+*: based on all variables excluding laterality.
+
+We also performed univariate and multivariate analyses of heart disease- and
+COPD-specific survival. The detailed results were shown in Table 3 . Age, surgery,
+race, gender, degree of tumor differentiation, pathological subtypes and marital
+status were independent factors affecting cardiac specific survival. Advanced
+age (>79 years old: HR:5.28 (4.18-6.68), p < 0.001), low differentiated
+tumors (IV: HR:2.36 (1.60-3.48), p < 0.001), squamous cell carcinoma (HR:1.51
+(1.32 -1.71), p < 0.001) and windowed (HR:1.49 (1.28 -1.74), p < 0.001) or
+separated/divorced (HR:1.48 (1.25 -1.76), p < 0.001) were independent risk
+factors affecting cardiac specific survival, while patients undergoing lobectomy
+resection (HR:0.78 (0.67-0.90), p < 0.001) and female(HR: 0.50 (0.44-0.56), p
+< 0.001) was independent protective factors affecting cardiac specific
+survival. Similarly, age, surgery, race, gender, degree of tumor
+differentiation, pathological subtypes and marital status were also independent
+factors affecting COPD-specific survival, in which lobectomy resection (HR0.42
+(0.37-0.49), p < 0.001), blacks (HR:0.66 (0.49-0.90), p = 0.008) and female
+(HR:0.68 (0.59-0.78), p < 0.001) were independent protective factors for
+COPD-specific survival, while advanced age (>79 years old: HR:3.92
+(2.96-5.18), p < 0.001), low differentiated tumors (IV: HR:2.51 (1.53-4.13),
+p < 0.001), squamous cell carcinoma (HR:1.80 (1.56-2.08), p < 0.001) and
+single (HR:1.28(1.02 -1.62), p = 0.036), windowed (HR:1.69 (1.42-2.01), p <
+0.001) or separated/divorced (HR:1.60 (1.32 -1.95), p < 0.001) were
+independent risk factors for COPD-specific survival.
+
+In addition, we further compared the effects of different surgical methods on the
+prognosis of elderly patients ( Table 4 ). The multivariate analyses
+revealed age was still an important factor affecting prognosis of different
+COD-specific survival. Compared with wedge resection, patients with lobectomy
+resection had a better lung cancer-specific survival (HR:0.74 (0.68-0.82), p
+< 0.001) and COPD-specific survival (HR:0.45 (0.38-0.54), p < 0.001),
+while the mode of operation was not an independent factor affecting cardiac
+specific survival (p = 0.065).
+
+Multivariable COX Analysis of Factors Associated With Death From
+Different Cause of Death in Elderly Cohort.
+
+*: based on variable including gender, grade, age, surgery and
+pathological subtypes.
+
+**: based on variable including gender, race, grade, age, surgery and
+pathological subtypes.
+
+***: based on variable including gender, race, grade, age, surgery,
+pathological subtypes and marital status.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Based on the analysis of data from patients with stage I NSCLC after surgery
+diagnosed from 2004 to 2015 in the SEER database, we highlighted 3 important
+findings. First, lung cancer remained the leading cause of death, while the
+contribution of heart disease, COPD and other COD to death gradually increased after
+longer follow-up. Second, patients in different age groups had different composition
+of COD during different periods of follow-up, such as patients aged 70-79 years old
+with wedge resection should pay more attention to COPD than heart disease after 61
+months of follow-up, while patients over 79 years old with lobectomy resection
+should pay more attention to heart disease than COPD during the period of follow-up
+time. Third, multivariate analysis results showed age was a very important factor,
+especially for COPD-specific survival and heart disease-specific survival, and
+lobectomy resection might be more appropriate for elderly patients.
+
+As far as we know, this was the first analysis that a multi-center data to study the
+COD in long-term survivors with stage I NSCLC after surgery. Bugge et al 8 studied the cause of death of their 756 patients with stage I/II NSCLC who
+underwent surgical resection and found that the risk of having died of lung cancer
+was 36.1% at the end of the follow-up period (9.3 years), which was close to 38% as
+we reported. Another study published 9 pointed out that the 5-year lung cancer-specific CID in patients with stage I
+NSCLC after lobectomy was 9.3% (95%CI = 7.7%-10.8%), but it exceeded 20% in our
+study. This difference may be due to the variance in clinical characteristics of the
+cohorts, especially gender and pathological subtypes. In our cohort, difference in
+the ratio of male to female was small, while in their cohort it was 2:3. In
+addition, the proportion of adenocarcinomas in their cohort was as high as 80%,
+while in our cohort it was 68%. Besides lung cancer, noncancer-specific COD,
+including heart disease, COPD and other COD, are also important competing factors
+affecting the OS rate of patients with stage I NSCLC after surgery. One previous
+study showed that if a patient survived to 7 years after lobectomy, the conditional
+probability of dying from cancer was equal to the conditional probability of dying
+from cardiovascular disease and the equilibrium became earlier with increasing age. 16 This phenomenon was not observed in our study. This may be explained by the
+fact that their subjects were early stage (including stage I and II) NSCLC patients
+who underwent lobectomy, bilobectomy, wedge resection and pneumonectomy, while we
+screened patients with stage I NSCLC who underwent lobectomy or wedge resection. In
+Eguchi et al’s study, for patients with stage I NSCLC after resection (including
+lobectomy and sublobar), the non-cancer specific CID was higher than that of lung
+cancer-specificity within 1.5 years after surgery, but after 1.5 years, the lung
+cancer-specific CID exceeded that of noncancer-specificity. 9 Similarly, Bugge et al reported that at day 129 after resection, lung cancer
+surpassed all other COD. 8 Although the results of these 2 studies were somewhat different, both of them
+pointed out that noncancer-specific COD had an increasing impact on mortality during
+the follow-up period, which was consistent with our findings.
+
+The proportion of COD in NSCLC patients during different periods of long-term
+follow-up was not constant. 17 , 18 As Janssen-Heijnen et al reported, in 3 groups of I-II NSCLC patients of
+different ages, the proportion of death due to lung cancer continued to decline at
+different periods after diagnosis (such as age 45-59 years old: 83% <1 year, 46%
+4-6 years, 41% 12-16 years), while other COD, such as COPD (such as age 45-59 years
+old: 1% <1 year, 3% 4-6 years, 11% 12-16 years) and cardiovascular diseases (such
+as age 45-59 years old: 4% <1 year, 8% 4-6 years, 18% 12-16 years) continued to
+rise. This was the same trend that we found in patients with stage I NSCLC after
+surgery. In the early stage of follow-up, lung cancer was the main cause of death,
+but after 60 months of follow-up, the percentage of lung cancer in the cause of
+death decreased, and the degree of decline was more significant in elderly patients.
+In addition, what deserves the attention of clinicians and researchers is that after
+90 months of follow-up, patients under 79 years old with wedge resection were more
+likely to die from COPD (age <60 years old: 50%; age 60-69 years old: 35.1%; age
+70-79 years old: 35.4%) than from heart disease (age <60 years old: 12.5%; age
+60-69 years old: 5.4%; age 70-79 years old: 10.4%), whereas in patients over 70
+years old with lobectomy resection, the risk of death from heart disease (age 70-79
+years old: 23.4%; age >79 years old: 26.9%) was higher than that of COPD (age
+70-79 years old: 17%; age >79 years old: 10.4%). This may be due to the
+difference in the incidence of COPD and heart disease at diagnosis. The proportion
+of COPD in NSCLC patients under 70 years old is higher than that in patients with
+heart disease, while the proportion of heart disease is higher in patients over 70
+years old. 19 In addition, studies have shown that comorbidity has significant impact on
+the prognosis of patients with stage I NSCLC after surgery, and the prognosis of
+patients with comorbidity is worse. 20 - 22 Therefore, besides paying attention to the influence of comorbidity itself on
+prognosis, the age and follow-up time of the patients are also closely related to
+the impact of the disease on the prognosis.
+
+To further improve the prognosis of patients with stage I NSCLC after surgery, we
+conducted a multivariate analysis of different COD. Among the variables we enrolled,
+age, surgery, gender, degree of tumor differentiation and marital status were
+independent factors affecting specific COD. Our findings were consistent with
+previous studies. 8 , 23 - 25 It is worth pointing out that the risk of death from heart disease and COPD
+in elderly patients is significantly higher than that in young patients. As
+Abdel-Rahman et al 17 reported, HR of patients over 70 years old died of heart disease and lung
+disease were 33.367 and 16.890 respectively in long-term follow-up patients with
+NSCLC compared with those under 40 years old. This is also consistent with the
+significant upward trend in the risk of non-lung cancer specific COD as we show in
+this study. Patients with squamous cell carcinoma have a higher risk of death from
+heart disease and COPD than adenocarcinoma. As previously reported, smoking may be
+more closely related to squamous cell cancer than adenocarcinoma, and smoking has
+been proven to be an important risk factor for heart disease and COPD. 26 - 28 It is worth noting that race has different effects on the 3 COD in this
+study. Compared with whites, blacks with stage I NSCLC after surgery had a lower
+risk of death from COPD. This phenomenon may be related to the incidence of the
+disease, studies have shown that among lung cancer patients undergoing surgery,
+blacks have a lower prevalence of respiratory diseases. 29 In this study, we also compared the prognosis of patients with lobectomy or
+wedge resection in whole cohort and elderly group. We found that with the increase
+of age, the proportion of patients who received wedge resection increased gradually,
+but patients with lobectomy resection had a better survival, even in elderly group.
+Lobectomy resection could improve the specific survival rate of different causes of
+death, especially for COPD-specific survival, which was constant with previous studies. 30 Recent study revealed that there was no significant difference in survival
+between IA1 and IA2 based 8th AJCC stage patients with lobectomy and wedge resection. 31 However, in theory, wedge resection was less invasive surgical procedure than
+lobectomy, which might have benefit of preserving lung function and preventing
+cardiovascular complications. Previous studies reported lobectomy destroyed more
+pulmonary vascular beds than wedge resection, which had an impact on hemodynamics
+and eventually led to greater pressure on the cardiovascular system, as well as to
+respiratory system. 32 Past systematic review suggested that wedge resection was especially suitable
+for elderly patients and patients with high comorbidity index or reduced respiratory
+functional reserve. 33 In our opinion, the prognosis of patients with wedge resection was often poor
+(including different cause of death) might because of their poor physical condition,
+such as elderly, poor lung function. In patients undergoing lobectomy, their overall
+condition was often better and the resection range was wider, which might be the
+reason for better overall survival rate and fewer complications after surgery, even
+if more pulmonary vascular beds were damaged. Previous studies comparing the
+prognosis of lobectomy and wedge resection were mostly based on retrospective
+studies. Prospective studies may provide more accurate answers. In addition, it is
+more important to select the people who could benefit from wedge resection among
+patients with early stage NSCLC. The role of wedge resection in patients with early
+stage operable NSCLC needs to be further explored.
+
+This study has several limitations. First, we screened patients in the SEER database
+whose radiotherapy records were “refused, no / unknown” and chemotherapy records
+were “no / unknown,” because we did not know the proportion of patients with unknown
+treatment, this could have an impact on our results. Second, other risk factors,
+such as smoking, drinking and co-morbidity, are not available from the database, so
+more detailed data are needed to improve our research. Finally, our study may only
+apply to patients in the United States.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+In conclusion, we studied the COD of long-term survivors of stage I NSCLC after
+surgery in SEER database, and found that lung cancer was the predominant cause of
+death, but the COD caused by respiratory diseases and cardiovascular diseases could
+not be ignored, especially in elderly patients. Furthermore, age is a key factor
+affecting cardiac-specific mortality and COPD-specific mortality. The indication of
+wedge resection in patients with early stage NSCLC needs to be further clarified.
+Therefore, it is still important to strengthen the management of related diseases in
+elderly patients.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

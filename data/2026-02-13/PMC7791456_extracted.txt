@@ -1,0 +1,556 @@
+================================================================================
+ARTICLE TITLE: Gene Signatures and Prognostic Values of m6A RNA Methylation
+Regulators in Ovarian Cancer
+PMCID: PMC7791456
+PMID: 32951457
+KEYWORDS: bioinformatics, ovarian cancer, biomarker, n6-methyladenosine, prognosis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+N6-methyladenosine (m6A) is the most common form of mRNA modification under
+the field of “RNA epigenetics.” However, its role in ovarian cancer (OC)
+development is poorly understood. In the current study, we aimed to identify
+gene signatures and prognostic values of m6A RNA methylation regulators.
+
+Method::
+Specifically, we downloaded Mutations and Copy number variant (CNV) data from
+the TCGA database for 579 OC patients, then analyzed gene expression and
+prognosis value using integrative bioinformatics. Thereafter, we verified
+the related biological processes of Wilms’ tumor 1-associating protein
+(WTAP) gene using Gene set enrichment analysis (GSEA).
+
+Results::
+Results showed that almost all ovarian cancer patients (99.31%) have CNVs
+with at least 1 m6A regulatory gene, whereas 83.76% of cases exhibited
+concurrence of CNVs in more than 4 m6A regulatory genes. Additionally,
+alteration of m6A regulators was associated with historical grade, whereas
+integrative bioinformatics and Cox multivariate model analysis revealed a
+significant correlation between high WTAP expression and worse ovarian
+cancer outcomes. Moreover, GSEA revealed that high WTAP expression was
+associated with cell cycle regulation and MYC targets.
+
+Conclusion::
+Overall, our findings demonstrate the significance of high-frequency genetic
+alterations of m6A RNA methylation regulators and WTAP’s poor prognosis
+value in OC. These findings provide valuable insights into the role of m6A
+methylation in OC, and will be vital in guiding development of novel
+treatment therapies.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Ovarian cancer (OC) is the leading cause of cancer-related deaths among all
+gynecological tumors. 1 A large number of OC patients are diagnosed at an advanced stage, owing to
+lack of biomarkers for early clinical screening, as well as occurrence of relatively
+non-specific symptoms. Despite advances in modern management therapies, such as
+cytoreductive surgery and adjuvant chemotherapy, the 5-year overall survival for
+more than 70% of OC patients remains less than 30%. 2 Therefore, there is an urgent need to identify novel factors that regulate
+tumorigenesis and new biomarkers for early diagnosis or prognosis.
+
+Dysregulated gene expression is one of the hallmarks of cancer. N6-methyladenosine
+(m6A), one of the most dominant drivers of messenger RNA (mRNA) modification,
+provides a novel layer of post-transcriptional gene regulation. 3 , 4 Previous studies have demonstrated its importance in a variety of crucial
+biological functions, including embryogenesis, proliferation, and differentiation of
+stem cells, DNA damage response, integrity of the nervous system, and adaptive
+stress responses. 5 - 9 Generally, m6A regulators comprise 3 classes of components, including
+methylases (“writers”), demethylases (“erasers”), and m6A-binding proteins (“readers”), 3 , 10 each playing different function. For example, the methylases complex is
+composed of Wilms’ tumor 1-associating protein (WTAP), methyltransferase-like 3
+(METTL3), and methyltransferase-like 14 (METTL14), with METTL3 reported to be the
+key methyltransferase responsible for m6A modification. Obesity-associated protein
+(FTO) and AlkB homolog 5 (ALKBH5) belong to erasers, whereas YTH domain proteins
+(YTHDF1-3) and YTH domain-containing proteins (YTHDC1-2) constitute the readers.
+Recently, m6A regulators were implicated in formation and progression of specific
+malignant tumors, including hepatic malignant neoplasm, 11 - 13 glioblastoma, 14 , 15 acute myeloid leukemia (AML), 16 breast cancer, 17 , 18 lung cancer, 19 and gastric cancer. 20 However, the roles of m6A methylation in tumorigenesis and prognosis of OC
+remain unclear. Based on these studies, we sought to explore the gene signatures and
+prognostic values associated with m6A regulators in OC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The clinicopathological information, copy number variants, mutations, gene
+expression microarray documents, and prognostic data were downloaded from The
+Cancer Genome Atlas (TCGA) project using the cBioportal website, 21 Oncomine database 22 and KM plotter database. 23 All of these are open-access public databases. In addition, all enrolled
+participants provided written informed consent.
+
+We enrolled a total of 579 OC patients, with Mutations and Copy number variant
+(CNV) data, from the Ovarian Serous Cystadenocarcinoma (TCGA, Firehose Legacy)
+cohort dataset ( http://www.cbioportal.org ). 21 Focus was given to 9 m6A regulatory genes in cbioportal, including WTAP,
+METTL3, METTL14, FTO, ALKBH1, ALKBH5, YTHDF1, YTHDF2 and YTHDF3. Moreover, we
+included the TP53 gene, which plays a critical role in the progress of OC and
+has an extremely high mutation rate in OC, to serve as a reference. To explore
+the clinical pathological and molecular parameters of diverse CNV patterns, we
+divided the OC cases into 2 subgroups: “With low coexisting numbers of m6A
+related CNV genes (≤4)” and “with high coexisting numbers of m6A related CNV
+genes (>4)”. We extracted and normalized RNA-Seq data using RSEM (RNA-Seq by
+Expectation-Maximization).
+
+We then employed the Kaplan-Meier plotter online database ( http://kmplot.com/analysis/ ), 23 basing on the Gene Expression Omnibus (GEO), the European Genotype
+Archive (EGA) and TCGA databases for analysis of the relationship between m6A
+regulatory genes and prognosis in OC. During the analysis, we calculated the
+hazard ratio (HR), 95% confidence intervals (95%CI), and p -value.
+
+To explore the expression patterns of the WTAP gene in OC, we employed the online
+tumor microarray database, Oncomine ( https://www.oncomine.org/resource/login.html ). 22 Specifically, this database was searched using the keyword: “WTAP,”
+cancer type: “ovarian cancer,” and analysis type: “cancer vs. normal analysis.”
+Thereafter, we performed statistical comparisons using a 2-tailed Student’s t -test, with data followed by P < 0.05 regarded
+statistically significant.
+
+We stratified OC cases into 4 quartiles, according to patterns of WTAP
+expression, from the highest (fourth quartile) to the lowest (first quartile).
+Then, we analyzed the enriched gene sets between the lowest and highest
+quartiles of WTAP expression using GSEA v3.0, 24 alongside MsigDB gene set ( h.all.v6.0.symbols.gmt ) as reference. 25 To determine significant enrichment, we assumed a false discovery rate
+(FDR) of less than 0.25 and a p -value less than 0.05.
+
+Statistical analyses were performed using SPSS 19.0 (SPSS Inc, Chicago, IL, USA)
+and GraphPad Prism 7.0 (GraphPad Software Inc, San Diego, CA, USA) software.
+Specifically, correlation between the clinical-pathological parameters and
+diverse CNV patterns of m6A regulatory genes was analyzed using the chi-square
+test, and Kaplan-Meier curves generated to estimate prognosis. Data followed by
+P < 0.05 was regarded statistically significant.
+
+
+Ethics Statement
+
+The clinicopathological information, copy number variants, mutations, gene
+expression microarray documents, and prognostic data were downloaded from The
+Cancer Genome Atlas (TCGA) project using the cBioportal website, 21 Oncomine database 22 and KM plotter database. 23 All of these are open-access public databases. In addition, all enrolled
+participants provided written informed consent.
+
+
+TCGA Database Analysis
+
+We enrolled a total of 579 OC patients, with Mutations and Copy number variant
+(CNV) data, from the Ovarian Serous Cystadenocarcinoma (TCGA, Firehose Legacy)
+cohort dataset ( http://www.cbioportal.org ). 21 Focus was given to 9 m6A regulatory genes in cbioportal, including WTAP,
+METTL3, METTL14, FTO, ALKBH1, ALKBH5, YTHDF1, YTHDF2 and YTHDF3. Moreover, we
+included the TP53 gene, which plays a critical role in the progress of OC and
+has an extremely high mutation rate in OC, to serve as a reference. To explore
+the clinical pathological and molecular parameters of diverse CNV patterns, we
+divided the OC cases into 2 subgroups: “With low coexisting numbers of m6A
+related CNV genes (≤4)” and “with high coexisting numbers of m6A related CNV
+genes (>4)”. We extracted and normalized RNA-Seq data using RSEM (RNA-Seq by
+Expectation-Maximization).
+
+
+Kaplan-Meier Plotter Analysis
+
+We then employed the Kaplan-Meier plotter online database ( http://kmplot.com/analysis/ ), 23 basing on the Gene Expression Omnibus (GEO), the European Genotype
+Archive (EGA) and TCGA databases for analysis of the relationship between m6A
+regulatory genes and prognosis in OC. During the analysis, we calculated the
+hazard ratio (HR), 95% confidence intervals (95%CI), and p -value.
+
+
+Oncomine Database Analysis
+
+To explore the expression patterns of the WTAP gene in OC, we employed the online
+tumor microarray database, Oncomine ( https://www.oncomine.org/resource/login.html ). 22 Specifically, this database was searched using the keyword: “WTAP,”
+cancer type: “ovarian cancer,” and analysis type: “cancer vs. normal analysis.”
+Thereafter, we performed statistical comparisons using a 2-tailed Student’s t -test, with data followed by P < 0.05 regarded
+statistically significant.
+
+
+Gene Set Enrichment Analysis (GSEA) of RNA-Seq Data
+
+We stratified OC cases into 4 quartiles, according to patterns of WTAP
+expression, from the highest (fourth quartile) to the lowest (first quartile).
+Then, we analyzed the enriched gene sets between the lowest and highest
+quartiles of WTAP expression using GSEA v3.0, 24 alongside MsigDB gene set ( h.all.v6.0.symbols.gmt ) as reference. 25 To determine significant enrichment, we assumed a false discovery rate
+(FDR) of less than 0.25 and a p -value less than 0.05.
+
+
+Statistical Analyses
+
+Statistical analyses were performed using SPSS 19.0 (SPSS Inc, Chicago, IL, USA)
+and GraphPad Prism 7.0 (GraphPad Software Inc, San Diego, CA, USA) software.
+Specifically, correlation between the clinical-pathological parameters and
+diverse CNV patterns of m6A regulatory genes was analyzed using the chi-square
+test, and Kaplan-Meier curves generated to estimate prognosis. Data followed by
+P < 0.05 was regarded statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To elucidate the roles of 10 candidate m6A regulatory genes in OC development, we
+first analyzed genetic alterations of these genes using the cBioPortal TCGA
+dataset. Interestingly, we detected mutation events in m6A-related genes in 5
+cases (TCGA-13-0920-01, TCGA-04-1342-01, TCGA-24-2271-01, TCGA-10-0938-01,
+TCGA-23-1117-01) among the 316 OC patients with mutation data (Supplementary
+Information 1). Notably, the mutation rate in the TP53 gene was relatively high
+in this cohort (87.66%, 277/316), which was consistent with a previous study. 26 Additionally, among all subjects with CNV data, almost all OC patients
+recorded CNVs with at least 1 m6A regulatory gene (575/579, 99.31%), whereas
+83.76% of the cases resulted in concurrence of CNVs in more than 4 m6A
+regulatory genes ( Figure
+1A ). Furthermore, the highest frequency of CNV events was recorded in
+the m6A “eraser” gene ALKBH5 (88.26%, 511/579), followed by the m6A “writer”
+gene WTAP (76.86%, 445/579) ( Figure 1B and Table 1 ). Furthermore, analysis of CNV patterns in OC patients
+revealed a higher loss (2331/3398) than gain (1067/3398) of copy number
+variations ( Figure 1C and Table 1 ), which
+was similar to the CNV status recorded in AML and kidney malignancy. 27 , 28 
+
+CNVs of m6A regulatory genes in ovarian cancer. (A) Concurrence of CNVs
+in specific number m6A regulatory genes in ovarian cancer samples. (B)
+Frequency of ovarian cancer samples with CNVs for m6A For Peer Review
+regulators based on data from TCGA. (C) Events of copy number gain or
+loss of m6A regulatory genes in ovarian cancer samples. CNV, copy number
+variant. m6A, N6-methyladenosine.
+
+Patterns of CNV Occurrence in 579 Ovarian Cancer Patients.
+
+CNV, Copy Number Variant.
+
+As previously mentioned, OC patients had extremely high frequency CNVs of m6A
+regulatory genes, and CNVs concurrence in m6A regulatory genes was a common
+phenomenon. To assess CNVs’ significance in OC, we explored the clinical
+pathological and molecular parameters in 2 groups of OC patients with different
+coexisting numbers of CNV genes (≤4 m6A related CNV genes and >4 m6A related
+CNV genes). Results showed a significant association between more coexisting m6A
+numbers related CNV genes with higher histologic grade and TP53 alteration.
+However, other parameters revealed no statistical significance between the
+groups with regard to age, stage, and primary tumor site ( Table 2 ). We then explored CNVs’
+significance at the transcriptional level in 307 OC samples with RNA sequencing
+data, and found a significant positive correlation between mRNA expression and
+CNV expression patterns of m6A related genes. In all 9 genes, we found higher
+and lower mRNA expression levels in gain and loss of copy number variations,
+respectively ( Figure
+2 ).
+
+Clinical Pathological and Molecular Parameters of Ovarian Cancer Patients
+With Different Numbers of m6A Related CNV Genes.
+
+CNV, Copy Number Variant. M6A, N6-Methyladenosine.
+
+Relationship between diverse CNV patterns and mRNA expression for m6A
+regulatory genes in ovarian cancer. Copy number gains or amplification
+had a higher mRNA expression, but deep deletions or shallow deletions
+showed a lower mRNA expression in m6A regulatory genes (A-I). CNV, copy
+number variant. m6A, N6-methyladenosine.
+
+We investigated whether different CNVs patterns in m6A regulatory genes were
+correlated with prognosis of OC patients, and found no significant prognostic
+values (Supplementary Information 2). We then explored the relationship between
+profiles of mRNA expression across all 9 m6A regulatory genes and prognosis in
+OC patients using the TCGA database. Notably, high WTAP expression level was
+significantly correlated with the worst overall survival (OS)
+( p = 0.021), whereas expression patterns of the other m6A
+regulatory genes had no effect on OC ( Figure 3 ). Furthermore, we used the
+online Kaplan-Meier plotter database to examine the prognostic value of m6A
+regulatory genes in OC, and found an association between high mRNA expression
+levels of WTAP, FTO, ALKBH1, ALKBH5, YTHDF1, YTHDF2, and YTHDF3, as well as low
+levels of METTL14, with poor prognosis ( Figure 4 ). Conversely, METTL3 was not
+associated with prognosis in ovarian cancer patients. Although the high and low
+levels of m6A regulatory gene expression demonstrated distinct prognostic value
+depending on the different databases, it was evident that WTAP is a potential
+prognostic factor for OC.
+
+Relationship between different patterns of mRNA expression for m6A
+regulatory genes and prognosis in ovarian cancer. High mRNA expression
+levels of WTAP(A) was associated with worse OS, while METTL3(B),
+METTL14(C), FTO(D), ALKBH1(E), ALKBH5(F), YTHDF1(G), YTHDF2(H), and
+YTHDF3(I) had no significant effect on OS in the TCGA cohort. OS,
+overall survival. m6A, N6-methyladenosine.
+
+Kaplan–Meier survival curves for m6A related genes expression in ovarian
+cancer (A–I). High mRNA expression levels of WTAP (C), FTO (D), ALKBH1
+(E), ALKBH5 (F), YTHDF1 (G), YTHDF2 (H), and YTHDF3 (I) and low mRNA
+expression levels of METTL14 (B) were associated with worse OS, whereas
+METTL3 (A) had no significant effect on OS in the KM cohort. OS, overall
+survival. m6A, N6-methyladenosine.
+
+We used the multivariate Cox proportional hazards model to explore the effect of
+m6A regulatory gene expression and clinicopathological characteristics on
+survival. Results showed that age ( p = 0.027) and WTAP
+( p = 0.024) mRNA expression were independent prognostic
+factors ( Table 3 ),
+whereas race, stage, grade, as well as expression of METTL3, METTL14, FTO,
+ALKBH1, ALKBH5, YTHDF1, YTHDF2, and YTHDF3 were not independent prognostic
+factors in OC.
+
+Effect of Expression Profiles of m6A Regulatory Genes and
+Clinicopathological Characteristics on Survival Based on Multivariate
+Cox Proportional Hazards Model.
+
+M6A, N6-Methyladenosine. Coef, Regression Coefficient; HR, Hazard
+Ratio; 95%CI_l, 95% Confidence Interval Lower Limit; 95%CI_u, 95%
+Confidence Interval Upper Limit.
+
+Screening of the Oncomine microarray database revealed significantly higher RNA
+levels of WTAP in OC tissues than healthy controls across 3 representative
+datasets ( Figure 5A ),
+including the Lu, Hendrix, and Bonome Ovarian dataset 29 - 31 ( Figure
+5B-5D ).
+
+Expression of WTAP in the Oncomine database. (A) Comparisons of the
+expression of WTAP in OC in 3 independent analyses from the Oncomine
+database. Validation of WTAP expression in ovarian cancer in the Lu
+Ovarian dataset (B), Hendrix Ovarian dataset (C), and Bonome Ovarian
+dataset (D). (*P < 0.05; **P < 0.01; ***P < 0.001).
+
+Considering WTAP’s vital role in regulating a variety of crucial biological
+functions (especially during the m6A modification of mRNA), we determined the
+biological processes in which this factor is involved in OC. Firstly, we divided
+patterns of WTAP’s RNA expression into 2 groups, then performed Gene set
+enrichment analysis (GSEA). Finally, we identified 4 significant high-scoring
+sets, including E2F_TARGETS, MYC_TARGETS_V2, MYC_TARGETS_V1, and G2M_CHECKPOINT
+(see Table 4 and Figure 6 ). These
+results provide new insights into the role of epigenetic regulation in OC.
+
+Four High-Scoring Sets are Identified by GSEA Analysis.
+
+GSEA, Gene Set Enrichment Analysis.
+
+GSEA results for WTAP in OC patients. Four high-scoring sets, including
+E2F TARGETS (A), MYC TARGETS V2 (B), MYC TARGETS V1(C), and G2M
+CHECKPOINT (D), are identified by GSEA analysis. GSEA, Gene set
+enrichment analysis.
+
+
+Mutations and Copy Number Variants of m6A Regulatory Genes in OC
+
+To elucidate the roles of 10 candidate m6A regulatory genes in OC development, we
+first analyzed genetic alterations of these genes using the cBioPortal TCGA
+dataset. Interestingly, we detected mutation events in m6A-related genes in 5
+cases (TCGA-13-0920-01, TCGA-04-1342-01, TCGA-24-2271-01, TCGA-10-0938-01,
+TCGA-23-1117-01) among the 316 OC patients with mutation data (Supplementary
+Information 1). Notably, the mutation rate in the TP53 gene was relatively high
+in this cohort (87.66%, 277/316), which was consistent with a previous study. 26 Additionally, among all subjects with CNV data, almost all OC patients
+recorded CNVs with at least 1 m6A regulatory gene (575/579, 99.31%), whereas
+83.76% of the cases resulted in concurrence of CNVs in more than 4 m6A
+regulatory genes ( Figure
+1A ). Furthermore, the highest frequency of CNV events was recorded in
+the m6A “eraser” gene ALKBH5 (88.26%, 511/579), followed by the m6A “writer”
+gene WTAP (76.86%, 445/579) ( Figure 1B and Table 1 ). Furthermore, analysis of CNV patterns in OC patients
+revealed a higher loss (2331/3398) than gain (1067/3398) of copy number
+variations ( Figure 1C and Table 1 ), which
+was similar to the CNV status recorded in AML and kidney malignancy. 27 , 28 
+
+CNVs of m6A regulatory genes in ovarian cancer. (A) Concurrence of CNVs
+in specific number m6A regulatory genes in ovarian cancer samples. (B)
+Frequency of ovarian cancer samples with CNVs for m6A For Peer Review
+regulators based on data from TCGA. (C) Events of copy number gain or
+loss of m6A regulatory genes in ovarian cancer samples. CNV, copy number
+variant. m6A, N6-methyladenosine.
+
+Patterns of CNV Occurrence in 579 Ovarian Cancer Patients.
+
+CNV, Copy Number Variant.
+
+
+The Relationship Between CNVs of m6A Regulatory Genes and Clinicopathological
+Parameters in OC
+
+As previously mentioned, OC patients had extremely high frequency CNVs of m6A
+regulatory genes, and CNVs concurrence in m6A regulatory genes was a common
+phenomenon. To assess CNVs’ significance in OC, we explored the clinical
+pathological and molecular parameters in 2 groups of OC patients with different
+coexisting numbers of CNV genes (≤4 m6A related CNV genes and >4 m6A related
+CNV genes). Results showed a significant association between more coexisting m6A
+numbers related CNV genes with higher histologic grade and TP53 alteration.
+However, other parameters revealed no statistical significance between the
+groups with regard to age, stage, and primary tumor site ( Table 2 ). We then explored CNVs’
+significance at the transcriptional level in 307 OC samples with RNA sequencing
+data, and found a significant positive correlation between mRNA expression and
+CNV expression patterns of m6A related genes. In all 9 genes, we found higher
+and lower mRNA expression levels in gain and loss of copy number variations,
+respectively ( Figure
+2 ).
+
+Clinical Pathological and Molecular Parameters of Ovarian Cancer Patients
+With Different Numbers of m6A Related CNV Genes.
+
+CNV, Copy Number Variant. M6A, N6-Methyladenosine.
+
+Relationship between diverse CNV patterns and mRNA expression for m6A
+regulatory genes in ovarian cancer. Copy number gains or amplification
+had a higher mRNA expression, but deep deletions or shallow deletions
+showed a lower mRNA expression in m6A regulatory genes (A-I). CNV, copy
+number variant. m6A, N6-methyladenosine.
+
+
+Prognostic Values of m6A Regulatory Genes in OC
+
+We investigated whether different CNVs patterns in m6A regulatory genes were
+correlated with prognosis of OC patients, and found no significant prognostic
+values (Supplementary Information 2). We then explored the relationship between
+profiles of mRNA expression across all 9 m6A regulatory genes and prognosis in
+OC patients using the TCGA database. Notably, high WTAP expression level was
+significantly correlated with the worst overall survival (OS)
+( p = 0.021), whereas expression patterns of the other m6A
+regulatory genes had no effect on OC ( Figure 3 ). Furthermore, we used the
+online Kaplan-Meier plotter database to examine the prognostic value of m6A
+regulatory genes in OC, and found an association between high mRNA expression
+levels of WTAP, FTO, ALKBH1, ALKBH5, YTHDF1, YTHDF2, and YTHDF3, as well as low
+levels of METTL14, with poor prognosis ( Figure 4 ). Conversely, METTL3 was not
+associated with prognosis in ovarian cancer patients. Although the high and low
+levels of m6A regulatory gene expression demonstrated distinct prognostic value
+depending on the different databases, it was evident that WTAP is a potential
+prognostic factor for OC.
+
+Relationship between different patterns of mRNA expression for m6A
+regulatory genes and prognosis in ovarian cancer. High mRNA expression
+levels of WTAP(A) was associated with worse OS, while METTL3(B),
+METTL14(C), FTO(D), ALKBH1(E), ALKBH5(F), YTHDF1(G), YTHDF2(H), and
+YTHDF3(I) had no significant effect on OS in the TCGA cohort. OS,
+overall survival. m6A, N6-methyladenosine.
+
+Kaplan–Meier survival curves for m6A related genes expression in ovarian
+cancer (A–I). High mRNA expression levels of WTAP (C), FTO (D), ALKBH1
+(E), ALKBH5 (F), YTHDF1 (G), YTHDF2 (H), and YTHDF3 (I) and low mRNA
+expression levels of METTL14 (B) were associated with worse OS, whereas
+METTL3 (A) had no significant effect on OS in the KM cohort. OS, overall
+survival. m6A, N6-methyladenosine.
+
+
+The Relationship Between Clinicopathological Characteristics and Gene
+Expression With Survival
+
+We used the multivariate Cox proportional hazards model to explore the effect of
+m6A regulatory gene expression and clinicopathological characteristics on
+survival. Results showed that age ( p = 0.027) and WTAP
+( p = 0.024) mRNA expression were independent prognostic
+factors ( Table 3 ),
+whereas race, stage, grade, as well as expression of METTL3, METTL14, FTO,
+ALKBH1, ALKBH5, YTHDF1, YTHDF2, and YTHDF3 were not independent prognostic
+factors in OC.
+
+Effect of Expression Profiles of m6A Regulatory Genes and
+Clinicopathological Characteristics on Survival Based on Multivariate
+Cox Proportional Hazards Model.
+
+M6A, N6-Methyladenosine. Coef, Regression Coefficient; HR, Hazard
+Ratio; 95%CI_l, 95% Confidence Interval Lower Limit; 95%CI_u, 95%
+Confidence Interval Upper Limit.
+
+
+Levels of WTAP Expression in OC
+
+Screening of the Oncomine microarray database revealed significantly higher RNA
+levels of WTAP in OC tissues than healthy controls across 3 representative
+datasets ( Figure 5A ),
+including the Lu, Hendrix, and Bonome Ovarian dataset 29 - 31 ( Figure
+5B-5D ).
+
+Expression of WTAP in the Oncomine database. (A) Comparisons of the
+expression of WTAP in OC in 3 independent analyses from the Oncomine
+database. Validation of WTAP expression in ovarian cancer in the Lu
+Ovarian dataset (B), Hendrix Ovarian dataset (C), and Bonome Ovarian
+dataset (D). (*P < 0.05; **P < 0.01; ***P < 0.001).
+
+
+Enrichment Analysis of the WTAP Gene
+
+Considering WTAP’s vital role in regulating a variety of crucial biological
+functions (especially during the m6A modification of mRNA), we determined the
+biological processes in which this factor is involved in OC. Firstly, we divided
+patterns of WTAP’s RNA expression into 2 groups, then performed Gene set
+enrichment analysis (GSEA). Finally, we identified 4 significant high-scoring
+sets, including E2F_TARGETS, MYC_TARGETS_V2, MYC_TARGETS_V1, and G2M_CHECKPOINT
+(see Table 4 and Figure 6 ). These
+results provide new insights into the role of epigenetic regulation in OC.
+
+Four High-Scoring Sets are Identified by GSEA Analysis.
+
+GSEA, Gene Set Enrichment Analysis.
+
+GSEA results for WTAP in OC patients. Four high-scoring sets, including
+E2F TARGETS (A), MYC TARGETS V2 (B), MYC TARGETS V1(C), and G2M
+CHECKPOINT (D), are identified by GSEA analysis. GSEA, Gene set
+enrichment analysis.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Generally, m6A writers, erasers, and readers might show diverse patterns across
+distinct malignancies or independent databases. Results from the present study have
+shown that a higher frequency of both CNVs in single m6A related genes as well as
+concurrent CNVs in 2 or more genes, relative to those previously reported in kidney malignancy 27 and AML. 28 To some extent, our findings suggest that regulation disorder of m6A might
+have a more significant impact on development and progression of ovarian cancer.
+Previous studies have demonstrated the synergistic roles played by multiple m6A
+related genes in formation of complexes. 5 In the present study, it was evident that WTAP, the m6A “writer” gene, was
+more predisposed to CNVs and had a significantly higher prognostic value than other
+m6A related genes in OC. However, other genes, such as METTL3, FTO, and ALKBH5, have
+been previously shown to be more crucial in kidney malignancy, 27 breast cancer, 18 glioblastoma, 15 and AML. 32 Analysis of the TCGA databases revealed that only high WTAP expression was
+significantly associated with more inferior OS. Additionally, results from the
+Kaplan-Meier plotter database also showed that high expression of WTAP, FTO, ALKBH1,
+ALKBH5, YTHDF1, YTHDF2, and YTHDF3, as well as low expression of METTL14, were all
+associated with poor OS. These differences might be attributed to the diverse
+methods of data detection and analysis as well as different mechanisms of inherent
+biological characteristics. Despite the inconsistency, we still found a consistent
+prognostic correlation between WTAP mRNA expression and OC, based on an integrative
+bioinformatics analysis. The resulting diverse expression patterns of m6A regulatory
+genes across different tumor types or in independent databases affirmed the
+complexity of the m6A’s post-transcriptional regulation mechanism, and suggested
+presence of tumor specificity of the m6A regulators.
+
+WTAP, located in the nucleus, was first identified as a partner of Wilms’ tumor 1 protein. 33 It was then mapped to human chromosome 6q25-27, and an allele loss detected
+in all histological OC types. 34 Interestingly, our research also found that a shallow deletion in the WTAP
+gene was the high-frequency pattern of CNVs. Previous studies have described WTAP in
+the context of cell proliferation and apoptosis of vascular smooth muscle cells before. 35 - 37 Recently, the gene was found to play a crucial role in the tumorigenesis of
+various malignancies, such as AML, cholangiocarcinoma, endometrial cancer, and glioblastoma. 38 - 41 Besides, accumulating evidence suggests that WTAP is a new constituent of the
+human m6A multiprotein writer complex, and plays a role in facilitating recruitment
+of the m6A complex to a target site. 42 In fact, some studies have demonstrated that the WTAP complex plays a crucial
+role in cell cycle regulation, including G2/M transition, by stabilizing cyclin A2 mRNA 43 and CDK2 mRNA, 44 , 45 which is consistent with our hypothesis. Wilms tumor 1 gene, a partner of
+WTAP, has also been suggested to be an oncogene that induces expression of MYC. 46 , 47 Besides, previous studies have suggested that some key transcription factors,
+such as FOXO1 and IRF1, might be involved in regulation of WTAP promoter, and are
+also be closely related to tumorigenesis, tumor growth, and invasion. 48 WTAP has also been found to be highly expressed in ovarian cancer 49 , 50 and associated with worse survival outcomes in high-grade serous ovarian carcinoma. 49 However, this evidence is still insufficient, while the underlying molecular
+mechanism of WTAP in OC remains unknown.
+
+Our study had some limitations. Firstly, this was a retrospective analysis, based on
+publicly available popular datasets. Therefore, the number of included patients was
+limited, and the results may not be as reliable as those from prospective studies.
+Secondly, more in vivo and in vitro experiments
+are required for functional and clinical validation.
+
+In some ways, the function of m6A RNA methylation regulators in tumorigenesis may be
+confusing. For instance, WTAP is reportedly an overexpressed oncogene, with its high
+expression strongly correlated with poor survival in bladder cancer, 51 renal cell carcinoma, 44 pancreatic ductal adenocarcinoma, 52 and Malignant Glioma, 53 which corroborates our findings from OC. Conversely, we found that shallow
+deletion was WTAP’s main CNV pattern, with loss of copy number events significantly
+associated with lower WTAP mRNA expression. This contradiction is puzzling and may
+be attributed to the distinctively dynamic process of m6A regulation or the
+heterogeneity of the tumor. This affirms WTAP’s function as a multi-dimensional oncogene. 54 
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+Overall our findings demonstrate the significance of high-frequency genetic
+alterations of m6A RNA methylation regulators and WTAP’s poor prognosis value in OC.
+These findings provide new insights into the role of m6A methylation in OC, and will
+be vital in guiding development of novel treatment therapies.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, Supplementary_Information_1 - Gene Signatures and
+Prognostic Values of m6A RNA Methylation Regulators in Ovarian
+Cancer
+File: Supplementary_Information_1.pdf
+Supplemental Material, Supplementary_Information_2 - Gene Signatures and
+Prognostic Values of m6A RNA Methylation Regulators in Ovarian
+Cancer
+File: Supplementary_Information_2.pdf

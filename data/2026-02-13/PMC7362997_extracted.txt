@@ -1,0 +1,59 @@
+================================================================================
+ARTICLE TITLE: Toward an Automatic System for Computer-Aided Assessment in Facial Palsy
+PMCID: PMC7362997
+PMID: 32053425
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Importance: Quantitative assessment of facial function is challenging, and subjective grading scales such as House–Brackmann, Sunnybrook, and eFACE have well-recognized limitations. Machine learning (ML) approaches to facial landmark localization carry great clinical potential as they enable high-throughput automated quantification of relevant facial metrics from photographs and videos. However, the translation from research settings to clinical application still requires important improvements.
+Objective: To develop a novel ML algorithm for fast and accurate localization of facial landmarks in photographs of facial palsy patients and utilize this technology as part of an automated computer-aided diagnosis system.
+Design, Setting, and Participants: Portrait photographs of 8 expressions obtained from 200 facial palsy patients and 10 healthy participants were manually annotated by localizing 68 facial landmarks in each photograph and by 3 trained clinicians using a custom graphical user interface. A novel ML model for automated facial landmark localization was trained using this disease-specific database. Algorithm accuracy was compared with manual markings and the output of a model trained using a larger database consisting only of healthy subjects.
+Main Outcomes and Measurements: Root mean square error normalized by the interocular distance (NRMSE) of facial landmark localization between prediction of ML algorithm and manually localized landmarks.
+Results: Publicly available algorithms for facial landmark localization provide poor localization accuracy when applied to photographs of patients compared with photographs of healthy controls (NRMSE, 8.56 ± 2.16 vs. 7.09 ± 2.34, p ≪ 0.01). We found significant improvement in facial landmark localization accuracy for the facial palsy patient population when using a model trained with a relatively small number photographs (1440) of patients compared with a model trained using several thousand more images of healthy faces (NRMSE, 6.03 ± 2.43 vs. 8.56 ± 2.16, p ≪ 0.01).
+Conclusions and Relevance: Retraining a computer vision facial landmark detection model with fewer than 1600 annotated images of patients significantly improved landmark detection performance in frontal view photographs of this population. The new annotated database and facial landmark localization model represent the first steps toward an automatic system for computer-aided assessment in facial palsy.
+Level of Evidence: 4
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Profiling Cell Type Abundance and Expression in Bulk Tissues with CIBERSORTx
+PMCID: PMC7695353
+PMID: 31960376
+KEYWORDS: deconvolution, digital cytometry, gene expression, scrna-seq, cellular heterogeneity, tumor microenvironment
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+CIBERSORTx is a suite of machine learning tools for the assessment of cellular abundance and cell type-specific gene expression patterns from bulk tissue transcriptome profiles. With this framework, single-cell or bulk-sorted RNA sequencing data can be used to learn molecular signatures of distinct cell types from a small collection of biospecimens. These signatures can then be repeatedly applied to characterize cellular heterogeneity from bulk tissue transcriptomes without physical cell isolation. In this chapter, we provide a detailed primer on CIBERSORTx and demonstrate its capabilities for high-throughput profiling of cell types and cellular states in normal and neoplastic tissues.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

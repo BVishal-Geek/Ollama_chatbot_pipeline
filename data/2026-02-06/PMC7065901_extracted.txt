@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Public interest in stereotactic body radiation therapy (SBRT) and stereotactic radiosurgery (SRS) in the United States
+PMCID: PMC7065901
+PMID: 32185091
+KEYWORDS: google trends, sbrt, srs
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Stereotactic body radiation therapy (SBRT) and stereotactic radiosurgery have become widely used in both palliative and curative treatments for variety of primary and secondary malignancies. Although the indications and use of stereotactic techniques have increased substantially in the past decades, there been no studies to date analyzing public interest in these techniques. Using Google Trends (Google LLC, Mountain View, CA), four search terms (“SBRT,” “stereotactic radiosurgery,” “Gamma Knife” and “Cyberknife”) were analyzed in the U.S. from January 2004 to June 2019. Each term was assigned a relative interest score based on frequency of searches. “SBRT” is becoming an increasingly popular search term, reaching peak interest in October 2018. Conversely, “stereotactic radiosurgery” and “Gamma Knife” radiosurgery initially had high interest, before declining over the past decade. “Cyberknife” was most popular in the mid-2000s but decreased steadily since that time. These trends were subsequently compared against PubMed publication data over the same time.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,19 @@
+Source: PMC12872010_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Identification of common genes and biomarkers between Dermatomyositis and rheumatoid arthritis through integrated bioinformatics",
+  "condition_E": 1,
+  "condition_E_reason": "Socio-demographic features of participants in the included datasets were summarized.",
+  "N_E": 1,
+  "N_E_reason": "Sample sizes included 10 RA and 10 controls; 13 RA and 10 controls; 12 RA and 9 controls; 39 DM and 20 controls; 232 RA and 43 controls.",
+  "dataset_E": 1,
+  "dataset_E_reason": "The datasets GSE93272, GSE55235, GSE55457, GSE12021, GSE143323, GSE1551 and GSE159117 for this study can be found in the GEO.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

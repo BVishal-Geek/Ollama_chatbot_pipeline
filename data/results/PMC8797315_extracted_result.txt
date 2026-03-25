@@ -1,0 +1,19 @@
+Source: PMC8797315_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "N 6 -methyladenosine (m 6 A) RNA methylation regulators are associated with clinical prognosis in hepatocellular carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical information included age, gender, grade, stage, vascular tumor cell type, Ishak fibrosis score, alpha-fetoprotein (AFP), Eastern Cooperative Oncology Group (ECOG) score, Child-Pugh score, family cancer history, overall survival (OS) time, and survival status.",
+  "N_E": 1,
+  "N_E_reason": "A total of 135 clinical cases were obtained after removing invalid data.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,248 @@
+================================================================================
+ARTICLE TITLE: A Competing Endogenous RNA Network Reveals Novel lncRNA, miRNA and mRNA Biomarkers With Diagnostic and Prognostic Value for Early Breast Cancer
+PMCID: PMC7871288
+PMID: 33371806
+KEYWORDS: early breast cancer, lncrna, mirna, cerna network, biomarkers
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+This study aims to reveal early breast cancer (BC) specific competing endogenous RNA (ceRNA) network through the expression profiles of microRNAs (miRNAs), long non-coding RNAs (lncRNAs) and mRNAs.
+
+Methods::
+Based on The Cancer Genome Atlas (TCGA), we obtained the differentially expressed mRNAs, miRNAs, and lncRNAs (DEmRNAs, DEmiRNAs and DElncRNAs) between early BC and normal samples. The lncRNA–miRNA–mRNA interaction network was constructed using Cytoscape. Functional enrichment were performed using GeneCoDis3. The expression of selected genes were validated by qRT-PCR. Based on the published dataset, we validated the result of TCGA integration analysis. The diagnostic and prognostic value of candidate genes was evaluated by ROC curve analysis and survival analysis, respectively.
+
+Results::
+Totally, 1207 DEmRNAs, 194 DElncRNAs and 37 DEmiRNAs were obtained. Functional enrichment analysis results showed that all of DEmRNAs were enriched in pathway of cytokine-cytokine receptor interaction, PPAR signaling pathway and pathways in cancer. The DEmRNA-DEmiRNA-DElncRNA interaction network in early BC was consisted of 23 DEmiRNAs, 95 DElncRNAs and 309 DEmRNAs. Among ceRNA network, IL-6-hsa-miR-182-5p-ADAMTS9-AS1 interactions, LIFR-hsa-miR-21-5p-ADAMTS9-AS1 interactions and MMP1/MMP11-hsa-miR-145-5p-CDKN2B-AS1 interactions were speculated to involve in the development of early BC. The qRT-PCR results were consistent with our integrated analysis. Except for ADAMTS9-AS1 and CDKN2B-AS1, expression of the others results in the Gene Expression Omnibus (GEO) dataset were generally consistent with TCGA integrated analysis. The area under curve (AUC) of the ADAMTS9-AS1, CDKN2B-AS1, IL-6, MMP11, hsa-miR-145-5p and hsa-miR-182-5p were 0.947, 0.862, 0.842, 0.993, 0.960 and 0.944, and the specificity and sensitivity of the 6 biomarkers were 83.4% and 95.6%, 72.2% and 90.3%, 80.1% and 74.3%, 96.2% and 96.5%, 90.1% and 92.3%, and 88.7% and 90.4%, respectively. In addition, IL-6 had potential prognostic value for early BC.
+
+Conclusion::
+These findings may provide novel insights into the lncRNA-miRNA-mRNA network and uncover potential therapeutic targets in early BC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Breast cancer (BC) is one of lethal diseases and one of leading causes of cancer death in women. 1 Despite several advancements have been achieved in treatments, the predictive value of clinical and pathological symptoms for early BC is limited. In addition, the underlying mechanisms of BC is not fully understood. Thus, the identification of novel and effective biomarker and clarifying potential mechanism of early BC is urgent issues.
+
+Non coding RNAs are RNA molecules that do not encode protein and play a master regulators in a wide range of biological processes. As evidence suggest that non coding RNAs have a variety of biological functions and may play a key roles in development and progression of tumors. 2 Compare with other noncoding RNAs, lncRNAs and miRNA have attracted particular attention because there is increasing evidence that they are involved in the occurrence and progression of tumors. 3 , 4 MiRNAs are endogenous small RNA molecules that modulate gene expression and function by suppressing the translation and inducing the degradation of target mRNA. 5 LncRNAs are a novel class of RNA molecules which are involved in various diseases. 6 LncRNA may modulate miRNA function through acting as endogenous sponges to regulate its target mRNAs expression, and binding of miRNA to a lncRNA can regulate the stability of lncRNAs. 7 However the functional mechanisms of the large majority of lncRNAs and miRNAs interactions in early BC remains unclear. The competing endogenous RNA (ceRNA) hypothesis, a novel large-scale regulatory RNA network system, is firstly proposed by Salmena et al. 8 CeRNA provides a novel means for studying the pathogenesis of cancer, with high diagnostic accuracy. Subsequent studies confirmed the importance of the ceRNA regulatory network of lncRNA–miRNA–mRNA in various cancers. 9 - 11 However, a comprehensive analysis of early BC-associated ceRNA regulatory network has not been reported.
+
+To address these issues, we attempted to reveal DEmiRNAs, DElncRNAs and DEmRNAs in early BC using data from TCGA. Next, we successfully built a ceRNA network and devolved the novel and effective biomarker for early BC. Our study can help uncover the function of potential biomarkers via ceRNA network in early BC, and provide further insights into the underlying mechanisms of early BC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+The lncRNA expression profiles (Level 3-IlluminaHiSeq-lncRNASeq data), miRNA expression profiles (Level 3-IlluminaHiSeq-MiRNASeq data) and mRNA expression profiles (Level 3-IlluminaHiSeq-mRNASeq data) and correlated clinical data of BC were download by from the Cancer Genome Atlas (TCGA) using Genomic Data Commons tool. Our study enrolled only patients who were histologically diagnosed as stage I-II breast cancer. Finally, expression data and correlated clinical information of 787 early BC patients and 78 normal adjacent samples were included in this study. All sequencing data were acquired using the Illumina HiSeq RNA-Seq Platforms. The detailed characteristics of the early BC patients and normal adjacent were listed in Table 1 .
+
+Baseline Clinical Characteristics of Subjects.
+
+The RNA-Seq expression datasets were obtained and then transformed from Fragments PerKilobase Million data into Transcripts PerKilobase Million data. In this study, the expression levels of lncNAs, miRNAs and mRNAs were calculated by the log2 of Transcripts PerKilobase Million. The undetectable lncRNAs, miRNAs and mRNAs (with read count value = 0 in more than 20% early BC case or in more than 20% normal) were deleted. The differentially expressed lncRNAs (DElncRNAs), miRNAs (DEmiRNAs) and mRNAs (DEmRNAs) in early BC were processed with R-bioconductor package DESeq2. 12 , 13 For all the P values, we performed false discovery rate (FDR) to correct the statistical significance of multiple testing. DElncRNAs, DEmiRNAs and DEmRNAs were screened by thresholds of FDR < 0.05 and |logFC (fold change)| > 2. Hierarchical clustering analysis of DElncRNAs, DEmiRNAs and DEmRNAs were further produced by using R package.
+
+The GeneCoDis3 14 ( http://genecodis.cnb.csic.es/analysis ) was used to conduct functional annotation, and we obtain the Gene Ontology (GO) classification and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways. FDR < 0.05 indicates statistically significant.
+
+The Pearson correlation coefficient was used to obtain DEmiRNA-DEmRNA interaction pairs in early BC vs. normal control. As miRNAs tend to decrease the expression of their target mRNA, target genes were selected from DEmRNAs that expressed inversely with that of miRNA, to subject to further investigation. 15 DEmiRNA-DEmRNA co-expression pairs with p < 0.05 and r < 0 were served as significant. Target mRNAs were predicted for DEmiRNAs by 6 algorithms including RNA22, 16 miRanda, 17 miRDB, 18 miRWalk, 19 PICTAR2 20 and Targetscan, 21 respectively. The DEmiRNA-DEmRNA pairs derived from miRWalk and the DEmiRNA-DEmRNA pairs recorded by ≥4 algorithms in which DEmRNA was negatively correlated with DEmiRNAs were retained for our subsequent analysis.
+
+The Pearson correlation coefficient was used to obtain DEmiRNA-DElncRNA interaction pairs in early BC vs. normal control. MiRNA may negatively regulate the expression of lncRNA through the mechanism similar to mRNA. DEmiRNA-DElncRNA co-expression pairs with p < 0.05 and r < 0 were served as significant. Target lncRNAs were predicted for DEmiRNAs by 4 algorithms including RNAhybrid, miRanda, miRWalk and Targetscan, and the DElncRNA negatively correlated with DEmiRNA were retained for subsequent study.
+
+DEmiRNA-DElncRNA pairs overlapped with DEmiRNA-DEmRNA interaction pairs were used to establish DElncRNA-DEmiRNA-DEmRNA interaction networks by using Cytoscape software. 22 , 23 
+
+According to the results of TCGA integration analysis, 2 DEmRNA (IL6 and MMP11), 2 DEmiRNA (hsa-miR-145-5p and hsa-miR-182-5p) and 2 DElncRNA (ADAMTS9-AS1 and CDKN2B-AS1) were screened as candidate genes. Fourteen tissues samples of early BC patients (n = 7) and normal adjacent (n = 7) were obtained. This study has been approved by the ethics institute of our hospital. The signed informed consents of all the participants were obtained. This research complied with the principles of the Declaration of Helsinki.
+
+Total RNA was extracted from samples using a RNA simple total RNA kit (Tiangen, China). RNA (2 μg) was reverse-transcribed using a Fast Quant RT Kit (Tiangen, China) according to the manufacturer’s instructions. Quantitative real-time PCR were conducted using the Super Real PreMix Plus SYBR Green (Tiangen, China) on ABI 7500 real-time PCR system. The 2-ΔΔCt method was used to analyze the relative quantification of mRNA, miRNA and lncRNA levels. Each sample was analyzed in triplicate. The PCR primers used are listed in Table 2 . The human GAPDH and ACTB were used as endogenous controls for mRNA and lncRNA expression in analysis. The human hsa-U6 was used as endogenous controls for miRNA expression in analysis. Statistical significance was calculated using one-way ANOVA for experiments. P-values of <0.05 were considered statistically significant.
+
+Primer Sequences Used for qRT-PCR.
+
+GSE70947 dataset was obtained from the GEO ( https://www.ncbi.nlm.nih.gov/geo/ ), which consisted of 148 patients with BC and 148 normal controls. GSE125677 dataset including 3 paired breast cancer and adjacent normal tissues was downloaded from the GEO. GSE57897 dataset was downloaded from the GEO, which consisted of 422 patients with BC and 31 normal controls. The GEO dataset GSE70947 , GSE125677 and GSE57897 were used to confirm the expression of some DEmRNAs, DEmiRNAs and DElncRNAs, respectively.
+
+In order to evaluate the diagnostic value of DEmRNAs, DEmiRNAs and DElncRNAs in BC, the “pROC” package was performed to generate ROC, and the area under the ROC curve (AUC) represents the diagnostic value. When AUC value was greater than 0.8, the DEG was thought to be able to distinguish between case and normal controls with good specificity and sensitivity.
+
+To evaluate the prognostic of candidate genes in ceRNA network, survival analysis was generated using clinical data from TCGA. For survival analysis, patients from TCGA dataset were divided into high−/low-risk groups according to the Cox regression model. Kaplan–Meier curve was plotted using the survival ( https://cran.r-project.org/web/packages/survival/index.html ) in R. Statistical significance was calculated using the log-rank test (P-values of <0.05)
+
+
+Access of Raw Data
+
+The lncRNA expression profiles (Level 3-IlluminaHiSeq-lncRNASeq data), miRNA expression profiles (Level 3-IlluminaHiSeq-MiRNASeq data) and mRNA expression profiles (Level 3-IlluminaHiSeq-mRNASeq data) and correlated clinical data of BC were download by from the Cancer Genome Atlas (TCGA) using Genomic Data Commons tool. Our study enrolled only patients who were histologically diagnosed as stage I-II breast cancer. Finally, expression data and correlated clinical information of 787 early BC patients and 78 normal adjacent samples were included in this study. All sequencing data were acquired using the Illumina HiSeq RNA-Seq Platforms. The detailed characteristics of the early BC patients and normal adjacent were listed in Table 1 .
+
+Baseline Clinical Characteristics of Subjects.
+
+
+Screening of DElncRNAs, DEmiRNAs and DEmRNAs
+
+The RNA-Seq expression datasets were obtained and then transformed from Fragments PerKilobase Million data into Transcripts PerKilobase Million data. In this study, the expression levels of lncNAs, miRNAs and mRNAs were calculated by the log2 of Transcripts PerKilobase Million. The undetectable lncRNAs, miRNAs and mRNAs (with read count value = 0 in more than 20% early BC case or in more than 20% normal) were deleted. The differentially expressed lncRNAs (DElncRNAs), miRNAs (DEmiRNAs) and mRNAs (DEmRNAs) in early BC were processed with R-bioconductor package DESeq2. 12 , 13 For all the P values, we performed false discovery rate (FDR) to correct the statistical significance of multiple testing. DElncRNAs, DEmiRNAs and DEmRNAs were screened by thresholds of FDR < 0.05 and |logFC (fold change)| > 2. Hierarchical clustering analysis of DElncRNAs, DEmiRNAs and DEmRNAs were further produced by using R package.
+
+
+Functional Annotation
+
+The GeneCoDis3 14 ( http://genecodis.cnb.csic.es/analysis ) was used to conduct functional annotation, and we obtain the Gene Ontology (GO) classification and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways. FDR < 0.05 indicates statistically significant.
+
+
+Construction of the Competing Endogenous RNA (DEmRNA–DEmiRNA–DElncRNA) Regulatory Network
+
+The Pearson correlation coefficient was used to obtain DEmiRNA-DEmRNA interaction pairs in early BC vs. normal control. As miRNAs tend to decrease the expression of their target mRNA, target genes were selected from DEmRNAs that expressed inversely with that of miRNA, to subject to further investigation. 15 DEmiRNA-DEmRNA co-expression pairs with p < 0.05 and r < 0 were served as significant. Target mRNAs were predicted for DEmiRNAs by 6 algorithms including RNA22, 16 miRanda, 17 miRDB, 18 miRWalk, 19 PICTAR2 20 and Targetscan, 21 respectively. The DEmiRNA-DEmRNA pairs derived from miRWalk and the DEmiRNA-DEmRNA pairs recorded by ≥4 algorithms in which DEmRNA was negatively correlated with DEmiRNAs were retained for our subsequent analysis.
+
+The Pearson correlation coefficient was used to obtain DEmiRNA-DElncRNA interaction pairs in early BC vs. normal control. MiRNA may negatively regulate the expression of lncRNA through the mechanism similar to mRNA. DEmiRNA-DElncRNA co-expression pairs with p < 0.05 and r < 0 were served as significant. Target lncRNAs were predicted for DEmiRNAs by 4 algorithms including RNAhybrid, miRanda, miRWalk and Targetscan, and the DElncRNA negatively correlated with DEmiRNA were retained for subsequent study.
+
+DEmiRNA-DElncRNA pairs overlapped with DEmiRNA-DEmRNA interaction pairs were used to establish DElncRNA-DEmiRNA-DEmRNA interaction networks by using Cytoscape software. 22 , 23 
+
+
+Confirmation by qRT-PCR
+
+According to the results of TCGA integration analysis, 2 DEmRNA (IL6 and MMP11), 2 DEmiRNA (hsa-miR-145-5p and hsa-miR-182-5p) and 2 DElncRNA (ADAMTS9-AS1 and CDKN2B-AS1) were screened as candidate genes. Fourteen tissues samples of early BC patients (n = 7) and normal adjacent (n = 7) were obtained. This study has been approved by the ethics institute of our hospital. The signed informed consents of all the participants were obtained. This research complied with the principles of the Declaration of Helsinki.
+
+Total RNA was extracted from samples using a RNA simple total RNA kit (Tiangen, China). RNA (2 μg) was reverse-transcribed using a Fast Quant RT Kit (Tiangen, China) according to the manufacturer’s instructions. Quantitative real-time PCR were conducted using the Super Real PreMix Plus SYBR Green (Tiangen, China) on ABI 7500 real-time PCR system. The 2-ΔΔCt method was used to analyze the relative quantification of mRNA, miRNA and lncRNA levels. Each sample was analyzed in triplicate. The PCR primers used are listed in Table 2 . The human GAPDH and ACTB were used as endogenous controls for mRNA and lncRNA expression in analysis. The human hsa-U6 was used as endogenous controls for miRNA expression in analysis. Statistical significance was calculated using one-way ANOVA for experiments. P-values of <0.05 were considered statistically significant.
+
+Primer Sequences Used for qRT-PCR.
+
+
+Validation in the Gene Expression Omnibus (GEO) Dataset
+
+GSE70947 dataset was obtained from the GEO ( https://www.ncbi.nlm.nih.gov/geo/ ), which consisted of 148 patients with BC and 148 normal controls. GSE125677 dataset including 3 paired breast cancer and adjacent normal tissues was downloaded from the GEO. GSE57897 dataset was downloaded from the GEO, which consisted of 422 patients with BC and 31 normal controls. The GEO dataset GSE70947 , GSE125677 and GSE57897 were used to confirm the expression of some DEmRNAs, DEmiRNAs and DElncRNAs, respectively.
+
+
+Receiver Operating Characteristic (ROC) Curve Analyses
+
+In order to evaluate the diagnostic value of DEmRNAs, DEmiRNAs and DElncRNAs in BC, the “pROC” package was performed to generate ROC, and the area under the ROC curve (AUC) represents the diagnostic value. When AUC value was greater than 0.8, the DEG was thought to be able to distinguish between case and normal controls with good specificity and sensitivity.
+
+
+Survival Analysis
+
+To evaluate the prognostic of candidate genes in ceRNA network, survival analysis was generated using clinical data from TCGA. For survival analysis, patients from TCGA dataset were divided into high−/low-risk groups according to the Cox regression model. Kaplan–Meier curve was plotted using the survival ( https://cran.r-project.org/web/packages/survival/index.html ) in R. Statistical significance was calculated using the log-rank test (P-values of <0.05)
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Based on the screening criteria of FDR < 0.05 and |logFC| > 2, a total of 1207 DEmRNAs (554 down-regulated and 653 up-regulated mRNAs), 194 DElncRNAs (69 down-regulated and 125 up-regulated lncRNAs) and 37 DEmiRNAs (13 down-regulated and 24 up-regulated lncRNAs) between early BC and normal tissue were obtained. Hierarchical clustering analysis of the top 100 DEmRNAs and all of DElncRNAs and DEmiRNAs were presented in Figure 1 . The DEmRNAs, DElncRNAs and DEmiRNAs of top 20 was displayed in Table 3 , Table 4 and Table 5 , respectively.
+
+Hierarchical clustering analysis of top 100 DEmRNAs and all of DElncRNAs and DEmiRNAs between early BC and normal. A, DEmRNAs. B, DElncRNAs. C, DEmiRNAs. Row and column represented DEmRNAs/ DElncRNAs/DEmiRNAs and tissue samples, respectively. The color scale represented the expression levels.
+
+DEmRNAs of Top 20.
+
+DElncRNAs of Top 20.
+
+DEmiRNAs of Top 20.
+
+As shown in Figure 2 , cell division (FDR = 6.21E-19), mitotic cell cycle (FDR = 8.03E-19) and protein binding (FDR = 5.15E-19) were significantly enriched GO terms. KEGG pathway results suggested that cell cycle (FDR = 4.07E-12), cytokine-cytokine receptor interaction (FDR = 1.18E-10), PPAR signaling pathway (FDR = 3.22E-08) and pathways in cancer (FDR = 0.000379408) were 4 significantly enriched pathways. Top 15 most significantly enriched GO and KEGG pathways of all DEmRNA were shown in Figure 2 .
+
+The enrichment GO terms and KEGG pathways of DEmRNAs between early BC and normal. The x-axis shows −log FDR and y-axis shows GO terms and KEGG pathways.
+
+The DEmRNA-DEmiRNA-DElncRNA interaction network in early BC was consisted of 23 DEmiRNAs, 95 DElncRNAs and 309 DEmRNAs ( Figure 3 ). Hsa-miR-182-5p (degree = 76), hsa-miR-3065-5p (degree = 65), hsa-miR-3065-3p (degree = 65), hsa-miR-21-5p (degree = 55), hsa-miR-204-5p (degree = 54), hsa-miR-200a-3p (degree = 51), hsa-miR-141-3p (degree = 49), hsa-miR-183-5p (degree = 44), hsa-miR-190b (degree = 37), hsa-miR-145-5p (degree = 37) were top 10 miRNAs with degree.
+
+DElncRNA-DEmiRNA-DEmRNA interaction network. The inverted triangles, rectangles and ellipses were represented the DElncRNAs, DEmiRNAs and DEmRNA, spectively. Red and green color represented up- and down-regulation, respectively. The black border indicates top 10 up and down, respectively.
+
+Two DEmRNAs (IL6 and MMP11), 2 DEmiRNAs (hsa-miR-145-5p and hsa-miR-182-5p) and 2 DElncRNAs (ADAMTS9-AS1 and CDKN2B-AS1) were selected to verify in qRT-PCR. Among them, IL-6 was a DEmRNA that was enriched in key pathways. MMP11 was top 20 DEmRNA in early BC. Hsa-miR-145-5p and hsa-miR-182-5p were top 20 DEmiRNA in early BC. ADAMTS9-AS1 and CDKN2B-AS1 were DElncRNA in early BC. Based on TCGA, ADAMTS9-AS1, IL6 and hsa-miR-145-5p were down-regulated while the other 3 genes (CDKN2B-AS1, MMP11 and hsa-miR-182-5p) were up-regulated in early BC compared to adjacent tissues. Based on PCR verification, we confirmed the results of TCGA prediction ( Figure 4 ).
+
+Validation genes in early BC tissue by qRT-PCR. * P < 0.05, * * P < 0.01 and *** P < 0.001.
+
+As displayed in Figure 5 , ADAMTS9-AS1 was up-regulated and CDKN2B-AS1 was down-regulated, which was inconsistent with our PCR verification and TCGA integration results, partly due to sample size and selection bias. MMP11 and hsa-miR-182-5p were up-regulated while IL-6 and hsa-miR-145-5p were down-regulated in BC, which was consistent with our PCR verification and TCGA integration results, suggesting that the results were convincing.
+
+Validation in the GEO dataset. The x-axis shows healthy normal control (blue color) and BC (red color) groups and y-axis shows a log2 transformation to the intensities. A, ADAMTS9-AS1. B, CDKN2B-AS1. C, IL-6. D, MMP11. E, hsa-miR-145-5p. F, hsa-miR-182-5p.
+
+We assessed the diagnostic value of 2 DEmRNAs (IL-6 and MMP11), 2 DElncRNA (ADAMTS9-AS1 and CDKN2B-AS1) and 2 DEmiRNAs (hsa-miR-145-5p and hsa-miR-182-5p) in BC. The AUC of the ADAMTS9-AS1, CDKN2B-AS1, IL-6, MMP11, hsa-miR-145-5p and hsa-miR-182-5p were 0.947, 0.862, 0.842, 0.993, 0.960 and 0.944, and the specificity and sensitivity of the 6 biomarkers were 83.4% and 95.6%, 72.2% and 90.3%, 80.1% and 74.3%, 96.2% and 96.5%, 90.1% and 92.3%, and 88.7% and 90.4%, respectively ( Figure 6 ). These results suggested that ADAMTS9-AS1, CDKN2B-AS1, IL-6, MMP11, hsa-miR-145-5p and hsa-miR-182-5p had diagnostic value in BC.
+
+ROC analysis. The AUC was analyzed to evaluate the performance of each DEmRNAs, DElncRNAs and DEmiRNAs. The x-axis indicated 1-specificity and y-axis indicated sensitivity.
+
+We assessed the prognostic value of 2 DEmRNAs (IL-6 and MMP11), 2 DElncRNA (ADAMTS9-AS1 and CDKN2B-AS1) and 2 DEmiRNAs (hsa-miR-145-5p and hsa-miR-182-5p) in BC. Among which, only IL-6 was associated with the survival of patients with BC ( Figure 7 ).
+
+Prognostic value of IL-6 in BC. The x-axis shows times (months) and y-axis shows survival rate of patients with BC.
+
+
+DElncRNAs, DEmiRNAs and DEmRNA in Early BC
+
+Based on the screening criteria of FDR < 0.05 and |logFC| > 2, a total of 1207 DEmRNAs (554 down-regulated and 653 up-regulated mRNAs), 194 DElncRNAs (69 down-regulated and 125 up-regulated lncRNAs) and 37 DEmiRNAs (13 down-regulated and 24 up-regulated lncRNAs) between early BC and normal tissue were obtained. Hierarchical clustering analysis of the top 100 DEmRNAs and all of DElncRNAs and DEmiRNAs were presented in Figure 1 . The DEmRNAs, DElncRNAs and DEmiRNAs of top 20 was displayed in Table 3 , Table 4 and Table 5 , respectively.
+
+Hierarchical clustering analysis of top 100 DEmRNAs and all of DElncRNAs and DEmiRNAs between early BC and normal. A, DEmRNAs. B, DElncRNAs. C, DEmiRNAs. Row and column represented DEmRNAs/ DElncRNAs/DEmiRNAs and tissue samples, respectively. The color scale represented the expression levels.
+
+DEmRNAs of Top 20.
+
+DElncRNAs of Top 20.
+
+DEmiRNAs of Top 20.
+
+
+Functional Annotation of All DEmRNA
+
+As shown in Figure 2 , cell division (FDR = 6.21E-19), mitotic cell cycle (FDR = 8.03E-19) and protein binding (FDR = 5.15E-19) were significantly enriched GO terms. KEGG pathway results suggested that cell cycle (FDR = 4.07E-12), cytokine-cytokine receptor interaction (FDR = 1.18E-10), PPAR signaling pathway (FDR = 3.22E-08) and pathways in cancer (FDR = 0.000379408) were 4 significantly enriched pathways. Top 15 most significantly enriched GO and KEGG pathways of all DEmRNA were shown in Figure 2 .
+
+The enrichment GO terms and KEGG pathways of DEmRNAs between early BC and normal. The x-axis shows −log FDR and y-axis shows GO terms and KEGG pathways.
+
+
+Competing Endogenous RNA (DEmRNA–DEmiRNA–DElncRNA) Regulatory Network
+
+The DEmRNA-DEmiRNA-DElncRNA interaction network in early BC was consisted of 23 DEmiRNAs, 95 DElncRNAs and 309 DEmRNAs ( Figure 3 ). Hsa-miR-182-5p (degree = 76), hsa-miR-3065-5p (degree = 65), hsa-miR-3065-3p (degree = 65), hsa-miR-21-5p (degree = 55), hsa-miR-204-5p (degree = 54), hsa-miR-200a-3p (degree = 51), hsa-miR-141-3p (degree = 49), hsa-miR-183-5p (degree = 44), hsa-miR-190b (degree = 37), hsa-miR-145-5p (degree = 37) were top 10 miRNAs with degree.
+
+DElncRNA-DEmiRNA-DEmRNA interaction network. The inverted triangles, rectangles and ellipses were represented the DElncRNAs, DEmiRNAs and DEmRNA, spectively. Red and green color represented up- and down-regulation, respectively. The black border indicates top 10 up and down, respectively.
+
+
+Confirmation by qRT-PCR
+
+Two DEmRNAs (IL6 and MMP11), 2 DEmiRNAs (hsa-miR-145-5p and hsa-miR-182-5p) and 2 DElncRNAs (ADAMTS9-AS1 and CDKN2B-AS1) were selected to verify in qRT-PCR. Among them, IL-6 was a DEmRNA that was enriched in key pathways. MMP11 was top 20 DEmRNA in early BC. Hsa-miR-145-5p and hsa-miR-182-5p were top 20 DEmiRNA in early BC. ADAMTS9-AS1 and CDKN2B-AS1 were DElncRNA in early BC. Based on TCGA, ADAMTS9-AS1, IL6 and hsa-miR-145-5p were down-regulated while the other 3 genes (CDKN2B-AS1, MMP11 and hsa-miR-182-5p) were up-regulated in early BC compared to adjacent tissues. Based on PCR verification, we confirmed the results of TCGA prediction ( Figure 4 ).
+
+Validation genes in early BC tissue by qRT-PCR. * P < 0.05, * * P < 0.01 and *** P < 0.001.
+
+
+Validation in the GEO Dataset
+
+As displayed in Figure 5 , ADAMTS9-AS1 was up-regulated and CDKN2B-AS1 was down-regulated, which was inconsistent with our PCR verification and TCGA integration results, partly due to sample size and selection bias. MMP11 and hsa-miR-182-5p were up-regulated while IL-6 and hsa-miR-145-5p were down-regulated in BC, which was consistent with our PCR verification and TCGA integration results, suggesting that the results were convincing.
+
+Validation in the GEO dataset. The x-axis shows healthy normal control (blue color) and BC (red color) groups and y-axis shows a log2 transformation to the intensities. A, ADAMTS9-AS1. B, CDKN2B-AS1. C, IL-6. D, MMP11. E, hsa-miR-145-5p. F, hsa-miR-182-5p.
+
+
+ROC Curve Analysis
+
+We assessed the diagnostic value of 2 DEmRNAs (IL-6 and MMP11), 2 DElncRNA (ADAMTS9-AS1 and CDKN2B-AS1) and 2 DEmiRNAs (hsa-miR-145-5p and hsa-miR-182-5p) in BC. The AUC of the ADAMTS9-AS1, CDKN2B-AS1, IL-6, MMP11, hsa-miR-145-5p and hsa-miR-182-5p were 0.947, 0.862, 0.842, 0.993, 0.960 and 0.944, and the specificity and sensitivity of the 6 biomarkers were 83.4% and 95.6%, 72.2% and 90.3%, 80.1% and 74.3%, 96.2% and 96.5%, 90.1% and 92.3%, and 88.7% and 90.4%, respectively ( Figure 6 ). These results suggested that ADAMTS9-AS1, CDKN2B-AS1, IL-6, MMP11, hsa-miR-145-5p and hsa-miR-182-5p had diagnostic value in BC.
+
+ROC analysis. The AUC was analyzed to evaluate the performance of each DEmRNAs, DElncRNAs and DEmiRNAs. The x-axis indicated 1-specificity and y-axis indicated sensitivity.
+
+
+Survival Analysis
+
+We assessed the prognostic value of 2 DEmRNAs (IL-6 and MMP11), 2 DElncRNA (ADAMTS9-AS1 and CDKN2B-AS1) and 2 DEmiRNAs (hsa-miR-145-5p and hsa-miR-182-5p) in BC. Among which, only IL-6 was associated with the survival of patients with BC ( Figure 7 ).
+
+Prognostic value of IL-6 in BC. The x-axis shows times (months) and y-axis shows survival rate of patients with BC.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+BC is one of the most commonly diagnosed cancers in women, and, in most cases, it is diagnosed at later stage. Although great progress has been made in the treatment of BC, its mortality is still high. Therefore, the identification of potential biomarkers and the precise molecular mechanism of BC development have received increasing attention. It is urgently required to study ceRNA cross-talk across various cancer types. 24 
+
+TCGA’s vast dataset provides us with a good opportunity to systematically evaluate ceRNA networks in cancer. Although more and more evidence prove the function of dysregulated mRNA, miRNA, and lncRNA in BC, there are few reports of systematically deciphering the mRNA-miRNA-lncRNAs network. 25 Herein, we obtained early BC-specific lncRNAs, miRNAs, and mRNAs, and further built an ceRNA network based on TCGA dataset to study the underlying mechanisms of early BC. In addition, we retrieved related molecules from ceRNA networks, which might be new key potential prognostic and diagnostic targets for early BC. According to the TCGA dataset, we identified 194 DElncRNAs, 37 DEmiRNAs, and 1207 DEmRNAs between early BC and normal adjacent tissues. We also performed the functional annotation analysis to understand the function of DEmRNAs. KEGG pathway results of all DEmRNAs suggested that cell cycle, cytokine-cytokine receptor interaction, PPAR signaling pathway and pathways in cancer were 4 significantly enriched pathways.
+
+Interleukin 6 (IL-6) plays a pivotal role in cell proliferation, differentiation and inflammatory pathways. IL-6 is one of the most widely studied immune factors on multiple cancers. 26 Ahmad et al. have reported that IL-6 is associated with good prognosis in early stage invasive BC patients. 27 Here, IL-6 was not only a diagnostic biomarkers, but also related to survival time. Based on the ceRNA networks, IL-6 was co-expressed with hsa-miR-182-5p. Zhang et al. have found that hsa-miR-182-5p is up-regulated in BC patients. 28 Herein, our TCGA integration analysis showed that hsa-miR-182-5p was highly expressed in early BC. Based on the ceRNA networks, ADAMTS9-AS1 was co-expressed with hsa-miR-182-5p. Recent study has suggested that ADAMTS9-AS1 is associated with overall survival of BC patients. 25 ROC results suggested that hsa-miR-182-5p and ADAMTS9-AS1 had good diagnostic value in BC. Our KEGG pathway results showed that IL-6 was significantly enriched in pathways of cytokine-cytokine receptor interaction and pathways in cancer. Hence, we speculated that IL-6-hsa-miR-182-5p-ADAMTS9-AS1 interactions may play a key role in the occurrence of BC by regulating pathway of cytokine-cytokine receptor interaction and pathways in cancer.
+
+ADAMTS9-AS1 was also co-expressed with hsa-miR-21-5p. Pourteimoor et al. have indicated that hsa-miR-21-5p is associated with prognosis of BC patients. 29 The ceRNA networks results suggested that the leukemia inhibitory factor receptor (LIFR) was co-expressed with hsa-miR-21-5p. In BC patients, LIFR expression is lower with bone metastases and is markedly and inversely correlated with patient outcome and hypoxia gene activity. 30 In our study, LIFR was significantly enriched in pathways of cytokine-cytokine receptor interaction. Therefore, we speculated that LIFR-hsa-miR-21-5p-ADAMTS9-AS1 interactions may be involved the development of BC by regulating pathway of cytokine-cytokine receptor interaction.
+
+Extracellular matrix degradation by matrix metalloproteinases is an important mechanism involved in tumor invasion and metastasis. Matrix metalloproteinases 1 (MMP1) has shown a strong correlation with influence the 5-years survival rate, suggesting it potential function in the breast carcinogenesis. 31 Han et al. have found that MMP11 is a novel prognostic factors in BC. 32 Linc01561 inhibition suppresses the proliferation and promotes the apoptosis in breast cancer cells via up-regulating expression of hsa-miR-145-5p and down-regulating expression of MMP11. 33 Based on the ceRNA networks, hsa-miR-145-5p was co-expressed with CDKN2B-AS1. The expression of CDKN2B-AS1 is up-regulated in breast cells, suggesting that CDKN2B-AS1 may involve the development of BC. 34 In this study, our TCGA integration analysis showed that CDKN2B-AS1 was highly expressed in early BC. Our KEGG pathway results showed that MMP1 was significantly enriched in PPAR signaling pathway and pathways in cancer. ROC results suggested that MMP11, hsa-miR-145-5p and CDKN2B-AS1 had good diagnostic value in BC. Therefore, we speculated that MMP1/MMP11-hsa-miR-145-5p-CDKN2B-AS1 interactions may play a pivotal role in the occurrence of BC by regulating PPAR signaling pathway and pathways in cancer.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+We identified DEmiRNAs, DElncRNAs, and DEmRNAs by bioinformatics analysis based on data from TCGA. Then, we successfully constructed the ceRNA network to uncover the unknown DEmiRNAs, DElncRNAs, and DEmRNAs in BC. MMP1, MMP11, ADAMTS9-AS1, CDKN2B-AS1, hsa-miR-145-5p and hsa-miR-182-5p had good diagnostic value for BC. These observations help to a more comprehensive understanding of ceRNA network and provide novel insight into better deciphering of ceRNA network in BC and potential biomarkers for therapeutic. However, there are limitations to our study. The sample size for qRT-PCR confirmation was small and large numbers of early BC samples are needed for further research. In addition, biological functions of key DElncRNAs, DEmiRNAs and DEmRNAs in early BC were not studied. Thence, in vivo and in vitro experiments are necessary to uncover the biological functions of key DElncRNAs, DEmiRNA and DEmRNAs of early BC in subsequent studies.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

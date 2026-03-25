@@ -1,0 +1,147 @@
+================================================================================
+ARTICLE TITLE: B4GalT1 Regulates Apoptosis and Autophagy of Glioblastoma In Vitro and In Vivo
+PMCID: PMC7727053
+PMID: 33287670
+KEYWORDS: b4galt1, glioblastoma, tcga, apoptosis, autophagy
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Our study was designed to investigate the role of B4GalT1 in glioblastoma, in vitro and in vivo, to detect whether B4GalT1 knockdown could regulate the development of glioblastoma, and further observe the relationship between B4GalT1 knockdown and the apoptosis and autophagy of glioblastoma. To begin, we looked at TCGA and GEPIA systems to predict the potential function of B4GalT1. Western blot and RT-PCR were used to analyze the expression, or mRNA level, of B4GalT1 at different tissue or cell lines. Next, the occurrence and development of glioblastoma, in vitro and in vivo, was observed by using B4GalT1 knocked down by lentivirus. Finally, the apoptosis and autophagy of glioblastoma was observed in vitro and in vivo. Results show that B4GalT1 was a highly variable gene, and GEPIA and TCGA systems show B4GalT1 expression in GBM tumor tissue was higher than in normal tissue. Pair-wise gene correlation analysis revealed a probable relationship between B4GalT1 and autophagy related proteins. The B4GalT1 expression and mRNA level were increased in tumor cells, or U87 cells. B4GalT1 knocked down by lentivirus could inhibit glioblastoma development, in vitro and in vivo, by reducing tumor weight and volume, increasing survival, and weakening tumor cells proliferation, migration, invasion. B4GalT1 knockdown could increase apoptosis and autophagy of glioblastoma in vitro and in vivo. Our study demonstrates that B4GalT1 may be able to regulate apoptosis and autophagy of glioblastoma. Bax, Bcl-2, cleaved caspase-3, Beclin-1, and LC3 s may be the downstream target factors of B4GalT1 in apoptosis and autophagy, which may provide a new strategy to reduce glioblastoma development by regulating apoptosis and autophagy.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Gliomas are primary brain tumors with highest incidence and mortality. Glioblastoma multiforme (GBM), a grade IV tumor (WHO) and the second-highest cause, are the most frequent and malignant gliomas. 1 , 2 The standard treatment for GBM is surgical resection followed by concurrent radiation therapy and chemotherapy. Despite tremendous advances in emerging diagnostics and therapeutics, the prognosis of GBM patients is still dismal with a median survival time of 14.6 months. 3 
+
+Autophagy, a highly conserved cellular homeostatic process that can either suppress or promote tumors, depending on the tumor type and stage, is considered a new target for therapeutic interventions in brain tumors. 4 , 5 Studies have shown 2 biomarkers of autophagy which are relative to brain tumors and the survival rate of GBM patients: beclin-1 and microtubule-associated protein 1 light chains LC3 s. 6 , 7 However, the specific role of autophagy in brain tumors, especially in GBM, remains unclear.
+
+Apoptosis, termed type 1 programmed cell death, shows distinct morphological and biochemical features that differ from other types of cell death which, in mammals, can be initiated by the extrinsic or intrinsic pathway. 8 Apoptosis may include intracellular hypoxia, DNA damage, defective cell cycle, or a loss of cell survival factors, which is related with the activated “effector” caspases-3, anti-apoptotic proteins of the Bcl-2 and Bcl-2-associated X protein (Bax). 9 Therefore, searching the key factors to regulate the autophagy and apoptosis may be a vital step in the treatment of glioblastoma.
+
+The protein glycosylation, regulated by β1 4-galactosyltransferase I (B4GalT1), is closely related to microglial cell activation and its mediated inflammatory response, which plays a catalytic role in the coelomic surface of the Golgi. 10 B4GalT1 plays an important role in embryo, neural crest cell migration, endothelial cell migration, autoimmune diseases and other processes. 11 - 13 Recent reports have shown that expression of β4GalT1 in GBM was significantly increased and played an important role in the inflammatory activation. 14 
+
+In this study, we focused on the role of B4GalT1 in glioblastoma and used B4GalT1 knocked down by lentivirus to boost the autophagy, apoptosis, and tumor development in vitro and in vivo. Our findings indicated that B4GalT1 may be able to regulate autophagy and apoptosis in glioblastoma. These results may provide a new strategy to reduce glioblastoma development by autophagy and apoptosis.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+For this study, we selected 24 patients pathologically diagnosed with glioblastoma by our hospital’s neurosurgery department between July 2018 to July 2019. We also selected 16 patients who had been diagnosed with peritumoral tissue. All patients gave informed consent and the experimental design was approved by the Ethics Committee of our hospital.
+
+Human astrocyte cell lines, SVG-P12, and glioblastoma cell lines, A172, U251, and U87, were cultured in a DMEM/F12 medium containing 10% FBS and 1% PenStrept (10000U penicillin and 10 mg streptomycin/ml) and incubated at 5% CO2 and 37°C, as described previously. 15 
+
+Healthy, male Balb/c mice, aged 2 to 4 weeks, were supplied by Liaoning Changsheng Biotechnology Co., Ltd., located in Shenyang, Liaoning, China. These mice were housed in a temperature and light-controlled environment, under pathogen-free conditions, and provided with unlimited access to food and water. All animals were cared for in strict accordance with the Guide for the Care and Use of Laboratory Animals (NIH Publication No. 85-23, revised 1996), and the experimental design was approved by the Ethics Committee of our hospital. Table 1 lists the cell lines, reagents, and antibodies information.
+
+Cell Lines, Reagents, and Antibodies.
+
+For our study, we used B4GalT1 knocked down by lentivirus (sh-B4GalT1) and a control lentivirus that were designed and prepared by GenePharma Corporation, Shanghai, China. The lentivirus vectors were stored at −80°C, accordingly We inoculated glioblastoma cells into 6-well plates with 2×105 cells/well and replaced the serum-free medium after the density became higher than 70%. Then, 10µL of knockdown lentivirus was diluted in the medium and incubated for 6 h and the cell protein, or mRNA, was collected after 72 hours. The sequences of B4GalT1 lentivirus are shown in Table 2 .
+
+The Sequences of B4GalT1 Lentivirus.
+
+Next, we divided the subjects into 3 groups of 6. The con group included U87 cells untreated or mice that had undergone U87 injection; (2) The sh-B4GalT1 group included U87 cells treated with B4GalT1 knocked down by lentivirus or mice that had undergone U87 and been treated with an injection of B4GalT1 knocked down by lentivirus; (3) The control-shB4GalT1 group included U87 cells treated with B4GalT1 control lentivirus or mice that had undergone U87 and been treated with an injection of B4GalT1 control lentivirus.
+
+Cells transfected with lentivirus and passaged to generation were used to establish a glioblastoma mouse model after passage. To do this, 4-week-old male Balb/c mice were fed in SPF environment, and U87 cells were injected subcutaneously. After 72 hours, vital signs and inoculation sites of the mice were observed, and tumor tissue was collected after modeled for 28 days. Tumor volume was calculated as 0.5 × length × width 2 (mm 3 ). The investigators observed the mice daily to ensure the animal welfare and determine the humane endpoints. (e.g., ruffled and appearance, apathy, severe weight loss, tumor burden). The mice were sacrificed when they exhibited rapid weight loss (>20%) and showed signs of deteriorating health due to the metastatic burden such as hunching, dehydration, labored breathing and so on.
+
+The RIPA lysate containing the protease inhibitor was used to lyse the cells and collect the supernatant after centrifugation. We measured the total protein concentration with BCA, prepared 12% separation gel and 5% concentrated gel, and installed the gel electrophoresis chamber. After pulling out the combs, we added in target protein and marker, in order, ran the gel at 80 V, and then separated the sample to the bottom of the gel at 120 V. The target protein and marker were then put into the electro-transfer procedure with PVDF membrane at 250 mA for 1 hour and blocked with 5% skim milk for 1 hour, followed by overnight primary antibody incubation. Then, we rinsed the membrane with TBST 3 times and incubated the protein with secondary antibody for 1 hour; again, we rinsed it with TBST 3 times and developed it. In brief, amounts of 40µg of protein from each brain sample were subjected to 12% SDS-polyacrylamide gel electrophoresis and transferred to nitrocellulose membrane. All data were detected with the ChemiDocTM Touch Imaging System and analyzed with the Image Lab 3.0 software (Bio-Rad, California, USA).
+
+We extracted total RNA from the tissue of human tumor or cell lines using Reagent Kit (TaKaRa Biotechnology, Dalian, China). A total of 40µL RNA was reverse transcribed into cDNA. Quantitative PCR was performed as described. 16 Primer sequences were prepared for the amplification of B4GalT1 and GAPDH. B4GalT1 mRNA level was calculated by its ratio to GAPDH.
+
+Through PI staining, cells were determined by PI-hoechst assay (40755ES64, Qcbio Science & Technologies Co., Ltd, Shanghai, China). The PI-hoechst assay was performed according to the instruction manual. Images were photographed by fluorescence microscopy at 400× magnification. Then, final images were acquired with a Nikon EclipseNi inverted microscope (TE2000, Nikon, Tokyo, Japan).
+
+Tissue fraction was determined by TUNEL assay, which was performed according to the instruction manual (ab66108, Abcam, Cambridge, UK). Images were also photographed by fluorescence microscopy at 400× magnification.
+
+After stirring the solution for 30 minutes, the bacteria were removed with a microporous (diameter 0.22 m) filter and stored at 4°C, away from light. Cells in the logarithmic growth stage were inoculated into 96-well plates in groups and performed as described. 17 
+
+For The Transwell migration and invasion assay, the Transwell chamber was pretreated with Matrigel (Corning, NY, United States) and dried at 37°C for 1 hour. Other procedures were the same as for the Transwell migration assay. The results of the Transwell migration and invasion assay were also calculated according to the number of transferred cells.
+
+To complete a cell cycle analysis, cells were plated in 6-well plates at a density of 2 × 10 5 cells per well. After 12 hours, various concentrations (0, 25, 50, 100 mM) of eriodyctiol were added to each well, and cells were incubated for an additional 48 hours. Detailed procedures were performed as described. 18 
+
+For monodansylcadaverine (MDC) staining, we placed small coverslips in 24-well plates and digested the cells. We seeded the passaged cells on slides after purification, spreading the cells into a single layer after 2 days. 19 After rinsing the cells with PBS, we used 50μM MDC staining solution (30432, Sigma-Aldrich, St. Lous, USA), incubated the cells at 37°C and with 5% CO 2 for 15 minutes; again, we rinsed the cells with PBS, placed it on the top of a slide pretreated with glycerol, and observed the cells under a fluorescent microscope. 19 
+
+In our statistical analysis, data were all expressed as mean ± standard. Data statistical analysis and correlation analysis were performed using GraphPad Prism 6.0 (GraphPad Software, San Diego, USA). The survival analysis was performed using SPSS 19.0 (IBM, New York, USA). Differences were analyzed using One-way ANOVA and multiple comparisons were analyzed using Sidak test. 19 All differences were considered statistically significant at a P value < 0.05.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The predicted results of B4GalT1 in GBM by GEPIA and TCGA system are shown in Figure 1 . The heat map of GBM patients of Merged Cohort of LGG and GBM (TCGA, Cell 2016) in TCGA system are shown in Figure 1A ; B4GalT1 is a highly variable gene in GBM on the right amplifying map. As shown in Figure 1B , the expression profile and transcripts per million were quantified in GBM and normal neuro-tissue; B4GalT1 expression in GBM tumor tissue was higher than normal. Meanwhile, in Figure 1C-D , given the high expression of B4GalT1 isoform, the patients in GBM had a worse prognostic outcome in disease-free survival, but not in overall survival. Pair-wise gene correlation analysis of B4GalT1 and Beclin-1, or LC3, which were rectified by GAPDH, is shown in Figure 1E-F , which reveals a probable relationship between B4GalT1 and Beclin-1, or LC3.
+
+(A) The heat map of GBM patients of Merged Cohort of LGG and GBM (TCGA, Cell 2016) in TCGA system. (B) Expression profile assay in GBM and normal tissue. (C) Overall survival analyses of high level and low level B4GalT1 in GBM patients. (D) Disease free survival analyses of high level and low level B4GalT1 in GBM patients. (E) Pair-wise gene correlation analysis of B4GalT1 and Beclin-1. (F) Pair-wise gene correlation analysis of B4GalT1 and LC3.
+
+As B4GalT1 was predicted to be a highly variable gene in GBM by bioinformatics analysis, we detected the different protein and mRNA level of B4GalT1 expression at different tissues or cell lines by Western blot and RT-PCR ( Figure 2 ). The B4GalT1 expression and mRNA level in glioblastoma was increased (p < 0.05), compared with peritumoral tissue ( Figure 2A-C ). In addition, the B4GalT1 expression and mRNA level in U87 cells were most significantly increased (p < 0.05), when compared with SVG-P12 ( Figure 2D-F ). We used U87 cells as the glioblastoma model cell line for follow-up experiments.
+
+(A) Western blot assay of B4GalT1 expression in tumor and peritumoral tissue.(B) Quantification, and (C) Quantitative RT-PCR assay for mRNA level of B4GalT1 in different tissues. (D) Western blot assay of B4GalT1 expression in SVG-P12, A172, U251 and U87 cells. (E) Quantification, and (F) Quantitative RT-PCR assay for mRNA level of B4GalT1 in different cells. Protein and mRNA levels were normalized to GAPDH. (Tumor or U87 cells vs. para-tumor or SVG-P12 cells, *p < 0.05, n = 6 per group, all data was represented as Mean ± Standard error).
+
+As B4GalT1 expression in tumor was increased, which prompted B4GalT1 to likely be correlated with glioblastoma progression, we also attempted a method for decreasing the B4GalT1 level: B4GalT1 down-expressed by lentivirus (sh-B4GalT1), as shown in Figure 3 . We tested the proliferation, cell-cycle migration, and invasion of Con, sh-B4GalT1, and control-shB4GalT1 U87 cells. The OD value in 48 and 72 hours, tested by MTT in the sh-B4GalT1 group, was significantly lower than the other 2 groups ( Figure 3A ). The distribution in G0/G1 phase in sh-B4GalT1 cells was significantly higher than the other 2 groups and the contrary results in S phase ( Figure 3B , p < 0.05). The migration and invasion ability test by Transwell assay in the sh-B4GalT1 group was also decreased ( Figure 3C-D , p < 0.05). In addition, we detected the tumor biomarkers of glioblastoma by Western blot ( Figure 3E ). The expression of IDH1, MGMT, and ki67 in the sh-B4GalT1 group was reduced (p < 0.05), compared with other groups ( Figure 3F ).
+
+(A) Proliferation assay in 72 hours, (B) Cell cycle assay, (C) Migration assay and (D) Invasion assay at 72 hours of Con, sh-B4GalT1 and control-shB4GalT1 group. (E) Western blot assay of IDH1, MGMT and ki-67 expression in vitro. (F) Quantification of IDH1, MGMT and ki-67 expression. Protein levels were normalized to GAPDH. (sh-B4GalT1 vs. other group, *p < 0.05, n = 6 per group).
+
+As knockdown B4GalT1 administration could regulate the development of glioblastoma in vitro, we also detected this progress in vivo ( Figure 4 ). First, we tested the tumor volume and tumor weight of con, sh-B4GalT1, and control-shB4GalT1 mice. The tumor volume in 21 and 28 days in sh-B4GalT1 mice was significantly lower than the other 2 groups ( Figure 4A , p < 0.05). The tumor weight in sh-B4GalT1 mice was also reduced ( Figure 4B , p < 0.05). Second, we detected the tumor biomarkers of glioblastoma by Western blot ( Figure 4C ). The expression of IDH1, MGMT, and ki67 in sh-B4GalT1 group was also decreased (p < 0.05), compared with other groups ( Figure 3D ). This was consistent with the results in vitro. Last, the survival rate in sh-B4GalT1 mice, which were sent to natural death, was significantly increased ( Figure 4E , p < 0.05).
+
+(A) Tumor volume in 28 days period and (B) Tumor weight at 28 day of Con, sh-B4GalT1 and control-shB4GalT1 mice. (C) Western blot assay of IDH1, MGMT and ki-67 expression in vivo. (D) Quantification of IDH1, MGMT and ki-67 expression. (E) Survival analysis of Con, sh-B4GalT1 and control-shB4GalT1 mice. Protein levels were normalized to GAPDH. (sh-B4GalT1 vs. other group, *p < 0.05, n = 6 per group).
+
+B4GalT1 knockdown may induce the apoptosis and autophagy of glioblastoma in vitro. To further confirm the tumor-regulated effect of the B4GalT1, whether through apoptosis or autophagy, we also observed apoptosis and autophagy related proteins by immunofluorescence and Western blot ( Figure 5 ). As shown in Figure 5A , the PI-Hoechst positive cells were obviously increased in sh-B4GalT1 group, compared to other groups ( Figure 5B , p < 0.05). The MDC staining, of which fluorescent intensity is shown in Figure 5C , was also significantly enhanced ( Figure 5D , p < 0.05). B4GalT1 knocked down by lentivirus boosted Bax, cleaved caspase-3, Beclin-1, and LC3 s protein levels, and blocked Bcl-2 level, as shown in Figure 5E . The levels of Bax, cleaved caspase-3, Beclin-1, and LC3Ⅱ/LC3Ⅰ in sh-B4GalT1 group were increased, and Bcl-2 showed contrary outcome ( Figure 5F ).
+
+(A) PI-Hoechst staining assay (×400) of apoptosis and (B) PI (+) cell assay in Con, sh-B4GalT1 and control-shB4GalT1 group in vitro. (C) MDC staining assay (×49dZFkcrKdk7XegyMd3kp4MGQoLFeMWM6Lion2T3q3h6DScBViFrXXuZoxkHq1TB1mGufMoGzfXd7jJ7ocgpJGxdEiGirjG2, cleaved caspase-3, Beclin-1 and LC3 s expression. (D) Quantification of BAX, Bcl-2, cleaved caspase-3, Beclin-1 and LC3Ⅱ/LC3. Protein levels were normalized to GAPDH. (sh-B4GalT1 vs. other group, *p < 0.05, n = 6 per group).
+
+As knockdown B4GalT1 administration could induce the apoptosis and autophagy of glioblastoma in vitro, we also detected this progress in vivo ( Figure 6 ). As shown in Figure 6A , the TUNEL positive cells were obviously increased in the sh-B4GalT1 group, compared to other groups ( Figure 6B , p < 0.05). The Beclin-1 positive cells were also significantly multiplied ( Figure 5C-D , p < 0.05). B4GalT1 knocked down by lentivirus boosted Bax, cleaved caspase-3, Beclin-1 and LC3 s protein levels, and blocked Bcl-2 level, as shown in Figure 6E . The levels of Bax, cleaved caspase-3, Beclin-1, and LC3Ⅱ/LC3Ⅰ in the sh-B4GalT1 group were increased, and Bcl-2 showed contrary outcome ( Figure 6F ), which is consistent with the results in vitro.
+
+(A) Immunofluorescence assay of TUNEL (×400) and (B) TUNEL(+) cells assay in Con, sh-B4GalT1 and control-shB4GalT1 group in vivo. (C) Immunofluorescence assay of Beclin-1 (×400) and (B) Beclin-1 (+) cells assay. (E) Western blot assay of Bax, Bcl-2, cleaved caspase-3, Beclin-1 and LC3 s expression. (D) Quantification of BAX, Bcl-2, cleaved caspase-3, Beclin-1 and LC3Ⅱ/LC3. Protein levels were normalized to GAPDH. (sh-B4GalT1 vs. other group, *p < 0.05, n = 6 per group).
+
+The potential mechanisms of B4GalT1 by apoptosis and autophagy in glioblastoma are shown in Figure 7 . B4GalT1 probably regulates the related proteins of apoptosis and autophagy, just like Bax, Bcl-2, caspase-3, Beclin-1, or LC3 s, to restrain the apoptosis and autophagy progress, enhance the development of glioblastoma, and lead the mice with glioblastoma to death.
+
+The potential mechanisms of apoptosis and autophagy by B4GalT1 mediated in glioblastoma. B4GalT1 probably could reduce the related proteins of apoptosis and autophagy expression just like Bax, Bcl-2, caspase-3, Beclin-1 or LC3 s, weaken the apoptosis and autophagy progress to tumor cells, and cut down lives of mice.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Glioblastoma is the most common malignant primary brain neoplasm, and its median survival after initial diagnosis is less than 1 year without treatment. 20 Current standard treatment options for malignant gliomas are multimodal, including surgical resection, postoperative radiotherapy, and concomitant chemotherapy with temozolomide. 21 Nevertheless, there are continuous efforts to improve survival outcomes that explore multimodal approaches.
+
+Accordingly, it is warranted to find novel prognostic parameters to help improve the survival of glioblastoma patients. Gene therapy is the most promising treatment and has long fascinated scientists, clinicians, and the public because of its potential to treat cancer at its genetic roots. 22 Due to the bad outcomes of glioblastoma, treatment will be guided by searching for genes which may play a regulatory role in glioblastoma.
+
+B4GalT1 is closely related to microglial cell activation and its mediated inflammatory response. 10 Gene B4GalT1 has a short amino terminal cytoplasmic region, a transmembrane stem region, and a carboxy-terminal catalytic domain that plays a catalytic role in the coelomic surface of Golgi. 23 , 24 B4GalT1 promotes malignant transformation of biological cell behavior and is related to the inflammatory microenvironment of Glioma. 25 , 26 In our study, we used GEPIA and TCGA systems to predict B4GalT1 function in glioblastoma. Results show that B4GalT1 was a highly variable gene, revealed a probable relationship with autophagy protein, and expressed boosted GBM. Meanwhile, the patients with high-level B4GalT1 expression had a worse prognostic outcome. These results explain that the high level of B4GalT1 may cause the development of glioblastoma by suppressing autophagy process.
+
+To verify the bioinformatics analysis of B4GalT1, we detected the protein and mRNA level of B4GalT1 in different tissues and cell lines. We found the B4GalT1 in tumor or U87 cells was increasingly expressed, which means B4GalT1 may be related to the development of glioblastoma.
+
+Autophagy and apoptosis were 2 important mechanisms and considered a new target for therapeutic interventions in brain tumors. 27 Therefore, searching key factors to regulate autophagy and apoptosis may be a vital step in the treatment of glioblastoma. However, the specific role of B4GalT1 for autophagy and apoptosis in glioblastoma remains unclear.
+
+Human BECN1 (Beclin 1 autophagy-related gene) is located on chromosome 17q21, and monoallelic deletions of that region are found in up to 50% of breast cancers, 75% of ovarian cancers, and 40% of prostate cancers. 28 Beclin-1 is encoded by the BECN1 gene and essential for autophagy. Then, LC3 is conjugated to phagosome membranes using a portion of the canonical autophagy machinery, generated onto forming autophagosomes, allowing for substrate uptake upon binding to several autophagy receptors. 29 As B4GalT1 was related to belcin-1 and LC3 s by bioinformatics analysis, we also detected this issue both in vitro and in vivo.
+
+Bax is a member of the Bcl-2 family and core regulators of the intrinsic pathway of apoptosis. 30 The main biological functions of anti-apoptotic Bcl-2 proteins is to prevent the disruption of mitochondrial integrity, but Bax acts as an apoptosis initiator and direct antagonist of the anti-apoptotic Bcl-2 protein. 31 Caspase-3 is a key enzyme in the execution of apoptosis which belongs to the caspase family, 1 of the 6 families of proteases and the main executioner of apoptosis. 32 To investigate the role of B4GalT1 in glioblastoma by apoptosis and its related protein is also a highlight of our study.
+
+Therefore, to further investigate the function of B4GalT1 in development of glioblastoma, we used B4GalT1 knocked down by lentivirus to reduce B4GalT1 expression in vitro and in vivo. Our results show the inhibition of glioblastoma development through reducing tumor volume, weight, and tumor marker expression, weakening tumor proliferation, migration, invasion, and enhancing autophagy and apoptosis was caused by B4GalT1 knockdown. These results explained that low levels of B4GalT1 could improve glioblastoma outcomes through the autophagy and apoptosis process, and it may be the mechanism of B4GalT1 to regulate the glioblastoma development.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+Our findings indicate that B4GalT1 knockdown may significantly activate the autophagy and apoptosis process, inhibited the development of glioblastoma, and improve the level of glioblastoma autophagy and apoptosis, prolonging the survival of mice. Taken together, these findings may provide a new strategy for glioblastoma development by regulating autophagy and apoptosis.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, supplyment_Figure - B4GalT1 Regulates Apoptosis and Autophagy of Glioblastoma In Vitro and In Vivo
+File: supplyment_Figure.tif
+Supplemental Material, supplyment_Figure_lenged - B4GalT1 Regulates Apoptosis and Autophagy of Glioblastoma In Vitro and In Vivo
+File: supplyment_Figure_lenged.pdf

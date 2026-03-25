@@ -1,0 +1,19 @@
+Source: PMC7756039_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Associations Between Private Health Insurance and Medical Care Utilization for Musculoskeletal Disorders: Using the Korea Health Panel Survey Data for 2014 to 2015",
+  "condition_E": 1,
+  "condition_E_reason": "The survey included information on inpatient and outpatient services, demographic and social variables for the household and individual household members, socioeconomic status, and other health-related variables.",
+  "N_E": 1,
+  "N_E_reason": "The total number of participants analyzed was 5622.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

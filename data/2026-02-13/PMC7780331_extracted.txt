@@ -1,0 +1,280 @@
+================================================================================
+ARTICLE TITLE: LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+PMCID: PMC7780331
+PMID: 33371795
+KEYWORDS: laryngeal squamous cell carcinoma, long non-coding lncrnas, competing endogenous rna network, cytoplasm
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+This study aims to construct a systematic mRNA-miRNA-lncRNA network to identify novel lncRNAs and miRNAs biomarkers for laryngeal squamous cell carcinoma (LSCC).
+
+Methods::
+The mRNA, miRNA and lncRNA expression profiles of LSCC were obtained from Gene Expression Omnibus (GEO) database. The differentially expressed mRNAs, miRNAs and lncRNAs (DEmRNAs, DEmiRNAs and DElncRNAs) were screened between LSCC tissues and controls. Functional analysis of DEmRNAs, DEmRNAs targeted by DEmiRNAs and DEmRNAs targeted by DElncRNAs were respectively performed. The miRWalk, starbase and DIANA-LncBase were respectively used to predict DEmiRNAs-DEmRNAs, DElncRNAs-DEmRNAs and DElncRNAs-DEmiRNAs pairs. ceRNA network was built by DEmiRNAs-DEmRNAs and DElncRNAs-DEmiRNAs pairs. LncRNA subcellular localization was predicted using lncLocator. Using published The Cancer Genome Atlas (TCGA) and external datasets ( GSE127165 and GSE133632 ), we also validated the expression of key DElncRNAs and DEmiRNAs in ceRNA network. The diagnostic and prognostic value of candidate genes was evaluated by ROC curve analysis and survival analysis, respectively.
+
+Results::
+There were 5 mRNA datasets, 3 miRNA datasets and 2 lncRNA datasets in this study. Totally, 2957 DEmRNAs, 61 DElncRNAs and 23 DEmiRNAs were identified. Functional analysis of DEmRNAs shows that they were significantly enriched in cancer-related pathways, such as DNA replication and extracellular matrix organization. There were 11 DEmiRNAs, 17 DElncRNAs and 967 DEmRNAs in the ceRNA network. Notably, up-regulated lncRNA DGCR5-down-regulated has-miR-338-3p/has-miR-139-5p pairs in this network were experimentally validated. Moreover, down-regulated AL121839.2 , down-regulated LINC02147, up-regulated AC079328.2 , up-regulated AC004943.2 and up-regulated HMGA2-AS1 were located in the cytoplasm. AL121839.2 and LINC02147 interacted with has-miR-1246. AC004943.2 , AC079328.2 and HMGA2-AS1 targeted has-miR-3185, has-miR-3137 and has-miR-582-5p, respectively. Based on the TCGA and external datasets ( GSE127165 and GSE133632 ), DGCR5 and AC004943.2 were significantly up-regulated while AL121839.2 and LINC02147, has-miR-338-3p, has-miR-139-5p and has-miR-582-5p were significantly down-regulated, which were consistent with our integration analysis. DGCR5, AL121839.2 , LINC02147, AC004943.2 , has-miR-338-3p, has-miR-139-5p and has-miR-582-5p could predict the occurrence of LSCC. Survival analysis suggested that only, AL121839.2 has potential prognostic value for LSCC.
+
+Conclusion::
+This study provided novel insights into the ceRNA network and uncovered novel lncRNAs and miRNAs with diagnostic value in LSCC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Laryngeal squamous cell carcinoma (LSCC) is a common malignant tumor in head and neck and occupies approximately 90% of the larynx cancers. 1 Studies show that the incidence and mortality rate of LSCC have been on the rise in the past few years. 2 , 3 Although diagnostic strategies have been improved, nearly 60% of LSCC patients are diagnosed at the advanced stages and have poor clinical outcomes. 4 , 5 Therefore, it is an urgent need to investigate the underlying mechanism of LSCC initiation and progression, which will help determine effective therapeutic targets and improve overall prognosis. Currently, existing research has identified a wide variety of dysregulated RNA transcripts, and bioinformatics analysis have suggested that they may be associated with the development of LSCC. 6 , 7 However, a major limitation of these studies is that the sample size is too small.
+
+Non-coding RNAs, such as long non-coding lncRNA (lncRNA) and microRNA miRNAs) are discovered to involve in the pathogenesis of LSCC. 8 , 9 More importantly, previous studies present a competing endogenous RNA (ceRNA) theory that lncRNAs act as miRNAs sponges and compete with messenger RNAs (mRNAs). 10 Accordingly, numerous researchers have indicated that lncRNA-miRNA-mRNA network play essential roles in progression of cancers, including LSCC. Liu and Yu analyze the expression profiles of lncRNAs, miRNAs and mRNAs to construct a ceRNA network, and identified 5 lncRNAs biomarkers for LSCC, including TSPEAR-AS, CASK-AS1, MIR137HG, PART1 and LSAMP-AS1. 11 Kong et al point out that 2 lncRNAs ( AC016773.1 and C00299 ) may be involved in the progression of LSCC based on a lncRNA-miRNA-mRNA network analysis. 12 Notably, those lncRNAs in the cytoplasm function as ceRNAs to regulate the expression of target mRNAs. 13 Thus, the subcellular localization of lncRNAs can greatly improve understandings of the pathogenesis of LSCC via ceRNA network.
+
+In this study, the 5 mRNA expression profiles, 3 miRNA expression profiles and 2 lncRNA expression profiles were obtained from Gene Expression Omnibus (GEO) database. The differentially expressed miRNAs, lncRNAs, and mRNAs (DEmiRNAs, DElncRNAs, and DEmRNAs) were identified between LSCC and adjacent tissues. Functional analysis was performed to explore the potential biological roles of DEmRNAs. Moreover, DElncRNAs-DEmRNAs-DEmiRNAs network was constructed, and finally, the subcellular localization of lncRNAs was carried out to predict key lncRNAs as ceRNAs in LSCC. The expression level and diagnostic and prognostic values of key DElncRNAs and DEmiRNAs were evaluated in external published datasets. This study will provide deeper insights of underlying molecular mechanism of LSCC by a cytoplasmic lncRNAs-miRNAs-mRNAs regulatory network.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The mRNA/miRNA/lncRNA expression profiles were firstly retrieved from GEO database ( https://www.ncbi.nlm.nih.gov/ ) using keywords of (“larynx”[MeSH Terms] OR laryngeal[All Fields]) AND (“carcinoma, squamous cell”[MeSH Terms] OR squamous cell carcinoma[All Fields]). Then, the datasets were further selected based on the inclusion and exclusion criteria as follows: 1) the data types were expression profiling by array or non-coding RNA profiling by array; 2) included datasets should involve whole-genome expression data; and 3) the data was from LSCC and adjacent tissues (controls). Finally, a total of 5 mRNA datasets ( GSE143224 , GSE84957 , GSE59652 , GSE59102 , and GSE51985 ), including 69 LSCC tissues and 50 adjacent tissues samples, were included this study. There were 3 miRNA datasets ( GSE124678 , GSE70289 , and GSE62819 ), which consisted of 14 LSCC tissues and 49 adjacent tissues samples. And, 2 lncRNA datasets ( GSE84957 and GSE59652 ) consisting 16 LSCC tissues and 16 adjacent tissues samples were obtained ( Table 1 ).
+
+The List of mRNA, miRNA and lncRNA Datasets Included in This Study.
+
+GEO: Gene Expression Omnibus; N: the number of control tissues; P: the number of laryngeal squamous cell carcinoma tissues.
+
+We used the metaMA package in R language to combine data from different datasets of each type of RNA and calculate P -value and false discovery rate (FDR). 14 For mRNA/lncRNA data, the DEmRNAs/DElncRNAs were extracted between LSCC and controls with the cutoff of FDR < 0.05. Similarly, the DEmiRNAs were obtained between LSCC and adjacent tissues using the selection criterion of P < 0.05. Besides, the hierarchical clustering analyses of these DEmRNAs/DElncRNAs/DEmRNAs) were carried out using R pheatmap package ( https://cran.r-project.org/package=pheatmap ).
+
+In order to understand a deep understanding of potential biological functions of DEmRNAs in LSCC, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were performed by the R clusterprofiler package, which can automate the process of biological-term classification and the enrichment analysis of gene clusters. 15 There were 3 categories in GO analysis: molecular function (MF), biological process (BP), and cellular component (CC). FDR < 0.05 was set as the screening threshold for significant enrichment.
+
+The target mRNAs regulated by DEmiRNAs were predicted using miRWalk ( http://mirwalk.umm.uni-heidelberg.de/ ), which provides the largest available collection of predicted and experimentally verified miRNAs-targets pairs. 16 Herein, the DEmiRNAs-mRNA network was constructed by cytoscape ( http://www.cytoscape.org/ ). Furthermore, GO and KEGG analyses of the target mRNAs were performed with the R clusterprofiler package. The significantly enriched GO terms and KEGG pathways were screened with FDR < 0.05.
+
+Firstly, we utilized starbase ( http://starbase.sysu.edu.cn/index.php ) database to predict the DElncRNA-mRNAs pairs. Then, the cytoscape ( http://www.cytoscape.org/ ) was used to visualize the DElncRNA-mRNAs regulatory network. To further explore the underlying biological functions of DElncRNAs, the GO and KEGG analyses of the mRNAs regulated by DElncRNAs were undertaken by the R clusterprofiler package. FDR < 0.05 was set as the cutoff criterion for the significant enrichment.
+
+DIANA-LncBase provides an extensive compendium of miRNA: experimentally supported and in silico predicted miRNA recognition elements on lncRNAs. 17 Herein, the DIANA-LncBase was used to predict lncRNAs targeted by DEmiRNAs, and subsequently, the DEmiRNAs-lncRNAs network was established using the cytoscape ( http://www.cytoscape.org/ ). Herein, the relationships of DEmiRNAs and lncRNAs with the opposite expression pattern were finally retained.
+
+Increasing studies have reported that lncRNA-miRNA-mRNA ceRNA network may be involved in the pathogenesis of LSCC. 11 , 18 In this study, the reversely regulated DElncRNAs-DEmiRNAs pairs and DEmiRNAs-DEmRNAs pairs were extracted and used for construction of DElncRNA-DEmiRNA-DEmRNA regulatory network. Notably, the abundance and subcellular localization of ceRNA components are key factors for ceRNA activity. 19 LncRNAs in cytoplasm participate in ceRNA network to exert molecular regulatory functions. Therefore, lncRNA subcellular localization is essential for understanding their biological roles. LncLocator, an ensemble classifier-based predictor, has been used for the lncRNA subcellular localization. 20 , 21 Herein, the lncRNA subcellular localization was predicted using lncLocator based on deep learning. Furthermore, those DElncRNAs in cytoplasm were screened, and accordingly, the DElncRNAs-associated ceRNA network was built.
+
+The lncRNA and miRNA gene expression profiles and clinical data of head and neck squamous cell carcinoma were downloaded by the Cancer Genome Atlas (TCGA) ( http://tcga data.nci.nih.gov/ ). Among which, patients with LSCC who has no history of malignancy and neoadjuvant treatment were included in our study. For lncRNA expression analysis, 92 LSCC tissues and 12 normal adjacent samples from patients with LSCC were included. For miRNA expression analysis, 116 LSCC tissues and 12 normal adjacent samples from patients with LSCC were enrolled. The above data was used to verify the expression of key DElncRNAs and DEmiRNAs, respectively. In order to evaluate the diagnostic value of key DElncRNAs and DEmiRNAs in LSCC, the “pROC” package was performed to generate ROC, and the area under the ROC curve (AUC) represents the diagnostic value. When AUC value was greater than 0.7, the DElncRNAs and DEmiRNAs was thought to be able to distinguish between LSCC and normal adjacent with good specificity and sensitivity. Finally, we also evaluated the prognostic of candidate DElncRNAs and DEmiRNAs in ceRNA network, survival analysis was generated using clinical data from TCGA. Kaplan–Meier curve was plotted using the survival ( https://cran.r-project.org/web/packages/survival/index.html ) in R.
+
+GSE127165 dataset was obtained from the GEO ( https://www.ncbi.nlm.nih.gov/geo/ ), which consisted of LSCC tissues (57 samples) and paired adjacent normal mucosa tissues (57 samples). GSE133632 dataset was downloaded from the GEO, which consisted of LSCC tissues (57 samples) and paired adjacent normal mucosa tissues (57 samples). The GEO dataset GSE127165 and GSE133632 were used to confirm the expression of key DElncRNAs and DEmiRNAs, respectively. The diagnostic values of key DElncRNAs and DEmiRNAs were performed by “pROC” package.
+
+
+Data Collection
+
+The mRNA/miRNA/lncRNA expression profiles were firstly retrieved from GEO database ( https://www.ncbi.nlm.nih.gov/ ) using keywords of (“larynx”[MeSH Terms] OR laryngeal[All Fields]) AND (“carcinoma, squamous cell”[MeSH Terms] OR squamous cell carcinoma[All Fields]). Then, the datasets were further selected based on the inclusion and exclusion criteria as follows: 1) the data types were expression profiling by array or non-coding RNA profiling by array; 2) included datasets should involve whole-genome expression data; and 3) the data was from LSCC and adjacent tissues (controls). Finally, a total of 5 mRNA datasets ( GSE143224 , GSE84957 , GSE59652 , GSE59102 , and GSE51985 ), including 69 LSCC tissues and 50 adjacent tissues samples, were included this study. There were 3 miRNA datasets ( GSE124678 , GSE70289 , and GSE62819 ), which consisted of 14 LSCC tissues and 49 adjacent tissues samples. And, 2 lncRNA datasets ( GSE84957 and GSE59652 ) consisting 16 LSCC tissues and 16 adjacent tissues samples were obtained ( Table 1 ).
+
+The List of mRNA, miRNA and lncRNA Datasets Included in This Study.
+
+GEO: Gene Expression Omnibus; N: the number of control tissues; P: the number of laryngeal squamous cell carcinoma tissues.
+
+
+Identification of Differentially Expressed RNAs
+
+We used the metaMA package in R language to combine data from different datasets of each type of RNA and calculate P -value and false discovery rate (FDR). 14 For mRNA/lncRNA data, the DEmRNAs/DElncRNAs were extracted between LSCC and controls with the cutoff of FDR < 0.05. Similarly, the DEmiRNAs were obtained between LSCC and adjacent tissues using the selection criterion of P < 0.05. Besides, the hierarchical clustering analyses of these DEmRNAs/DElncRNAs/DEmRNAs) were carried out using R pheatmap package ( https://cran.r-project.org/package=pheatmap ).
+
+
+Functional Analyses of DEmRNAs
+
+In order to understand a deep understanding of potential biological functions of DEmRNAs in LSCC, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were performed by the R clusterprofiler package, which can automate the process of biological-term classification and the enrichment analysis of gene clusters. 15 There were 3 categories in GO analysis: molecular function (MF), biological process (BP), and cellular component (CC). FDR < 0.05 was set as the screening threshold for significant enrichment.
+
+
+Prediction of Target mRNAs of DEmiRNAs and Functional Analyses
+
+The target mRNAs regulated by DEmiRNAs were predicted using miRWalk ( http://mirwalk.umm.uni-heidelberg.de/ ), which provides the largest available collection of predicted and experimentally verified miRNAs-targets pairs. 16 Herein, the DEmiRNAs-mRNA network was constructed by cytoscape ( http://www.cytoscape.org/ ). Furthermore, GO and KEGG analyses of the target mRNAs were performed with the R clusterprofiler package. The significantly enriched GO terms and KEGG pathways were screened with FDR < 0.05.
+
+
+Prediction of DElncRNAs-DEmRNAs Interactions and Functional Analyses
+
+Firstly, we utilized starbase ( http://starbase.sysu.edu.cn/index.php ) database to predict the DElncRNA-mRNAs pairs. Then, the cytoscape ( http://www.cytoscape.org/ ) was used to visualize the DElncRNA-mRNAs regulatory network. To further explore the underlying biological functions of DElncRNAs, the GO and KEGG analyses of the mRNAs regulated by DElncRNAs were undertaken by the R clusterprofiler package. FDR < 0.05 was set as the cutoff criterion for the significant enrichment.
+
+
+Prediction of DEmiRNAs-DElncRNAs Interactions
+
+DIANA-LncBase provides an extensive compendium of miRNA: experimentally supported and in silico predicted miRNA recognition elements on lncRNAs. 17 Herein, the DIANA-LncBase was used to predict lncRNAs targeted by DEmiRNAs, and subsequently, the DEmiRNAs-lncRNAs network was established using the cytoscape ( http://www.cytoscape.org/ ). Herein, the relationships of DEmiRNAs and lncRNAs with the opposite expression pattern were finally retained.
+
+
+CeRNA Network Construction
+
+Increasing studies have reported that lncRNA-miRNA-mRNA ceRNA network may be involved in the pathogenesis of LSCC. 11 , 18 In this study, the reversely regulated DElncRNAs-DEmiRNAs pairs and DEmiRNAs-DEmRNAs pairs were extracted and used for construction of DElncRNA-DEmiRNA-DEmRNA regulatory network. Notably, the abundance and subcellular localization of ceRNA components are key factors for ceRNA activity. 19 LncRNAs in cytoplasm participate in ceRNA network to exert molecular regulatory functions. Therefore, lncRNA subcellular localization is essential for understanding their biological roles. LncLocator, an ensemble classifier-based predictor, has been used for the lncRNA subcellular localization. 20 , 21 Herein, the lncRNA subcellular localization was predicted using lncLocator based on deep learning. Furthermore, those DElncRNAs in cytoplasm were screened, and accordingly, the DElncRNAs-associated ceRNA network was built.
+
+
+Validation in The Cancer Genome Atlas (TCGA)
+
+The lncRNA and miRNA gene expression profiles and clinical data of head and neck squamous cell carcinoma were downloaded by the Cancer Genome Atlas (TCGA) ( http://tcga data.nci.nih.gov/ ). Among which, patients with LSCC who has no history of malignancy and neoadjuvant treatment were included in our study. For lncRNA expression analysis, 92 LSCC tissues and 12 normal adjacent samples from patients with LSCC were included. For miRNA expression analysis, 116 LSCC tissues and 12 normal adjacent samples from patients with LSCC were enrolled. The above data was used to verify the expression of key DElncRNAs and DEmiRNAs, respectively. In order to evaluate the diagnostic value of key DElncRNAs and DEmiRNAs in LSCC, the “pROC” package was performed to generate ROC, and the area under the ROC curve (AUC) represents the diagnostic value. When AUC value was greater than 0.7, the DElncRNAs and DEmiRNAs was thought to be able to distinguish between LSCC and normal adjacent with good specificity and sensitivity. Finally, we also evaluated the prognostic of candidate DElncRNAs and DEmiRNAs in ceRNA network, survival analysis was generated using clinical data from TCGA. Kaplan–Meier curve was plotted using the survival ( https://cran.r-project.org/web/packages/survival/index.html ) in R.
+
+
+Evaluation the Expression Level and Diagnostic Values of Key DElncRNAs and DEmiRNAs in External Datasets (
+
+GSE127165 dataset was obtained from the GEO ( https://www.ncbi.nlm.nih.gov/geo/ ), which consisted of LSCC tissues (57 samples) and paired adjacent normal mucosa tissues (57 samples). GSE133632 dataset was downloaded from the GEO, which consisted of LSCC tissues (57 samples) and paired adjacent normal mucosa tissues (57 samples). The GEO dataset GSE127165 and GSE133632 were used to confirm the expression of key DElncRNAs and DEmiRNAs, respectively. The diagnostic values of key DElncRNAs and DEmiRNAs were performed by “pROC” package.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Our differential expression analysis showed that there were 2957 DEmRNAs (1722 up-regulated mRNAs and 1235 down-regulated mRNAs) between LSCC and adjacent normal. The top 50 DEmRNAs were listed in Table S1. In addition, 23 DEmiRNAs (4 up-regulated miRNAs and 19 down-regulated miRNAs) and 61 DElncRNAs (34 up-regulated lncRNAs and 27 down-regulated lncRNAs) were also identified between LSCC and adjacent normal. These DEmiRNAs and DElncRNAs were exhibited in Tables 2 and 3 . Moreover, we found that the differentially expressed RNAs can significantly distinguished LSCC and control samples (Figure S1-3).
+
+The List of Differentially Expressed miRNAs in This Study.
+
+The List of Differentially Expressed lncRNAs in This Study.
+
+FDR: false discovery rate.
+
+GO and KEGG analysis of DEmRNAs were performed to uncover their underlying biological roles. The results showed that these DEmRNAs were significantly enriched in 521 GO-BP terms, such as extracellular matrix/structure organization, DNA-dependent DNA replication, and neutrophil activation involved in immune response; 123 GO-CC terms, such as collagen-containing extracellular matrix, basolateral plasma membrane, extracellular matrix component and chromosomal region; and 30 GO-MF terms, such as extracellular matrix structural constituent, cell adhesion molecule binding, and cadherin binding. The top 15 GO-BP/CC/MF terms were displayed in Table 4 and Figure S4. For KEGG analysis, we found 12 significantly enriched KEGG pathways, including DNA replication, cell cycle, proteasome, fanconi anemia pathway, homologous recombination, ECM-receptor interaction, mismatch repair, IL-17 signaling pathway, nucleotide excision repair, fatty acid degradation, small cell lung cancer, and tryptophan metabolism ( Table 4 ; Figure S4).
+
+The Top 15 Significantly Enriched GO-BP/MF/CC Terms and All Significantly Enriched KEGG Pathways.
+
+GO-BP: Gene Ontology-Biological Process; GO-MF: Gene Ontology-Molecular Function; GO-CC: Gene Ontology-Cellular Component; KEGG: Kyoto Encyclopedia of Genes and Genomes; FDR: false discovery rate.
+
+The miRWalk was used to predict the interactions between DEmRNAs and DEmiRNAs, and obtained 3243 DEmRNAs-DEmiRNAs regulatory pairs (1524 DEmRNAs and 21 DEmiRNAs), including 510 up-regulated DEmiRNAs-down-regulated DEmRNAs pairs and 2733 down-regulated miRNAs-up-regulated mRNAs pairs ( Figure 1 ). Moreover, the GO analysis revealed that these target DEmRNAs were significantly enriched in 308 GO-BP terms, 56 GO-CC terms and 8 GO-MF terms. The top 15 GO-BP terms and GO-CC terms were listed in Table S2 and Figure S5. The top 3 GO-BP terms included DNA replication, regulation of DNA metabolic process and extracellular matrix organization. Membrane ligase complex, membrane microdomain and chromosomal region were top 3 GO-CC terms. The top 3 significantly enriched GO-MF terms were extracellular matrix structural constituent conferring tensile strength, double-stranded RNA binding, and DNA-dependent ATPase activity. These genes were significantly enriched in 9 KEGG pathways, such as hepatitis C, protein digestion and absorption, and TNF signaling pathway (Table S2; Figure S5).
+
+DEmiRNAs-DEmRNAs regulatory network. The oval and rhombus represents DEmRNAs and DEmiRNAs, respectively. The pink color shows up-regulated mRNA and the blue color shows down-regulated mRNA. The red color shows up-regulated miRNA and the green color shows down-regulated miRNA. DEmRNA: differentially expressed mRNAs; DEmiRNA: differentially expressed miRNAs.
+
+The target mRNAs of DElncRNAs were predicted by starbase in this study. The results showed that there were 77 DElncRNAs-mRNAs pairs, involving 12 up-regulated lncRNAs, 10 down-regulated lncRNAs, 12 up-regulated mRNAs, 10 down-regulated mRNAs, and 53 predicted mRNAs targets (Figure S6). Figure S7 showed the DElncRNAs-DEmRNAs network, including 6 up-regulated lncRNAs, 6 down-regulated lncRNAs, 12 up-regulated mRNAs, 10 down-regulated mRNAs. Furthermore, the functional analysis results of these target mRNAs showed that they were significantly enriched in 29 GO-BP terms, including chromatin silencing and establishment of protein localization to endoplasmic reticulum, and 19 GO-CC terms, such as cytosolic large ribosomal subunit and myelin sheath (Table S3). However, they were not markedly enriched in any GO-MF terms and KEGG pathways.
+
+The lncRNAs targeted by DEmiRNAs were predicted by using LncBase database. Figure S8 showed DEmiRNAs-DElncRNAs network, which contained 47 nodes (18 DEmiRNAs and 29 DElncRNAs) and 45 edges. Notably, 43 DEmiRNAs-DElncRNAs pairs were predicted and 2 DEmiRNAs-DElncRNAs pairs (up-regulated DGCR5 and down-regulated miR-338-3p and up-regulated DGCR5-down-regulated has-miR-139-5p) were experimentally validated. Afterward, the opposite expression relationships between DEmiRNAs and DElncRNAs were further extracted and visualized in Figure 2 . We found that there were 15 up-regulated lncRNAs, 3 down-regulated lncRNAs, one up-regulated mRNA (has-miR-1246), 11 down-regulated mRNAs in this network ( Figure 2 ).
+
+DEmiRNAs-DElncRNAs pairs with the opposite expression. The orange rectangle shows the up-regulated lncRNA and dark green rectangle shows the down-regulated lncRNA. The red rhombus shows up-regulated miRNA and green rhombus shows down-regulated miRNA. DElncRNA: differentially expressed lncRNAs; DEmiRNA: differentially expressed miRNAs.
+
+The inverse expression pairs (DEmiRNAs-DElncRNAs pairs and DEmiRNAs-DEmRNAs pairs) were extracted and used for ceRNA network construction. As shown in Figure 3 , the network included 995 nodes (11 DEmiRNAs, 17 DElncRNAs and 967 DEmRNAs) and 1733 edges (3 up-regulated DEmiRNAs-down-regulated DElncRNAs pairs, 16 down-regulated DEmiRNAs-up-regulated DElncRNAs pairs, 59 up-regulated DEmiRNAs-down-regulated DEmRNAs pairs, 1655 up-regulated DEmiRNAs-down-regulated DElncRNAs pairs). DGCR5-has-miR-338-3p/has-miR-139-5p was in this ceRNA network. More notably, existing evidence has demonstrated that lncRNAs in the cytoplasm can competitively bind miRNAs by acting as ceRNAs to regulate expression of mRNAs targets. Therefore, the subcellular localization of 17 DElncRNA in ceRNA network was performed by lncLocator. We found that 5 DElncRNAs (down-regulated AL121839.2 , down-regulated LINC02147, up-regulated AC079328.2 , up-regulated AC004943.2 and up-regulated HMGA2-AS1) may locate in the cytoplasm (Table S4). Subsequently, a DElncRNAs in the cytoplasm-DEmiRNAs-DEmRNAs network was built, including 3 lncRNAs (HMGA2-AS1, AC004943.2 and AC079328.2 ), 2 down-regulated lncRNAs ( AL121839.2 and LINC02147), up-regulated has-miR-1246, 3 down-regulated miRNAs (has-miR-582-5p, has-miR-3137 and has-miR-3185), 404 up-regulated mRNAs and 59 down-regulated mRNAs ( Figure 4 ). Moreover, AL121839.2 and LINC021147 were interacted with has-miR-1246. AC004943.2 , AC079328.2 and HMGA2-AS1 targeted has-miR-3185, has-miR-3137 and has-miR-582-5p, respectively ( Figure 4 ).
+
+DEmiRNAs-DElncRNAs-DEmRNAs regulatory network. The orange rectangle shows the up-regulated lncRNA and dark green rectangle shows the down-regulated lncRNA. The red rhombus shows up-regulated miRNA and green rhombus shows down-regulated miRNA. The rose red oval shows the up-regulated mRNAs and blue oval shows down-regulated mRNAs. DElncRNA: differentially expressed lncRNAs; DEmiRNA: differentially expressed miRNAs; DEmRNA: differentially expressed mRNAs.
+
+The cytoplasm-DEmiRNAs-DEmRNAs network. The orange rectangle indicates the up-regulated lncRNA and dark green rectangle shows the down-regulated lncRNA. The red rhombus indicates up-regulated miRNA and green rhombus indicates down-regulated miRNA. The rose red oval shows the up-regulated mRNAs and blue oval shows down-regulated mRNAs. DElncRNA: differentially expressed lncRNAs; DEmiRNA: differentially expressed miRNAs; DEmRNA: differentially expressed mRNAs.
+
+The expression of 4 DElncRNAs (DGCR5, AL121839.2 , LINC02147 and AC004943.2 ) and 3 DEmiRNAs (has-miR-338-3p, has-miR-139-5p and has-miR-582-5p) were verified in TCGA dataset. As presented in Figure 5 , the expression patterns of the remaining most of the selected 4 DElncRNAs and 3 DEmiRNAs were consistent with the results of GEO. Two DElncRNAs ( AL121839.2 and LINC02147) and 3 DEmiRNAs (has-miR-338-3p, has-miR-139-5p and has-miR-582-5p) were down-regulated while 2 DElncRNAs (DGCR5 and AC004943.2 ) were up-regulated in LSCC, suggesting that our results were convincing.
+
+Validation in the TCGA dataset. The x-axis shows normal adjacent (green color) and LSCC (red color) groups and y-axis shows a log2 transformation to the intensities.
+
+We evaluated the diagnostic value of 4 DElncRNAs (DGCR5, AL121839.2 , LINC02147 and AC004943.2 ) and 3 DEmiRNAs (has-miR-338-3p, has-miR-139-5p and has-miR-582-5p) in LSCC. DGCR5 (AUC = 0.765), AL121839.2 (AUC = 0.837), LINC02147 (AUC = 0.890), AC004943.2 (AUC = 0.773), has-miR-338-3p (AUC = 0.789), has-miR-139-5p (AUC = 0.945) and has-miR-582-5p (AUC = 0.724) were capable of discriminating LSCC and normal controls ( Figure 6 ). In addition, we assessed the prognostic value of these genes in LSCC. Among which, only AL121839.2 was associated with the survival of patients with LSCC. (Figure S9).
+
+ROC analysis. The AUC was analyzed to evaluate the performance of each DElncRNAs and DEmiRNAs. The x-axis indicated 1-specificity and y-axis indicated sensitivity.
+
+Four key DElncRNAs (DGCR5, AL121839.2 , LINC02147 and AC004943.2 ) were selected to verify in GSE127165 . Three key DEmiRNAs (has-miR-338-3p, has-miR-139-5p and has-miR-582-5p) were selected to verify in GSE133632 . The gene differential expression analysis found that DGCR5 and AC004943.2 were significantly up-regulated while AL121839.2 and LINC02147, has-miR-338-3p, has-miR-139-5p and has-miR-582-5p were significantly down-regulated, which were consistent with our integration analysis (Figure S10). The ROC results displayed that DGCR5 (AUC = 0.721), AL121839.2 (AUC = 0.936), LINC02147 (AUC = 0.948), AC004943.2 (AUC = 0.729), has-miR-338-3p (AUC = 0.704), has-miR-139-5p (AUC = 0.921) and has-miR-582-5p (AUC = 0.825) were capable of discriminating LSCC and normal controls (Figure S11).
+
+
+Identification of Differentially Expressed RNAs
+
+Our differential expression analysis showed that there were 2957 DEmRNAs (1722 up-regulated mRNAs and 1235 down-regulated mRNAs) between LSCC and adjacent normal. The top 50 DEmRNAs were listed in Table S1. In addition, 23 DEmiRNAs (4 up-regulated miRNAs and 19 down-regulated miRNAs) and 61 DElncRNAs (34 up-regulated lncRNAs and 27 down-regulated lncRNAs) were also identified between LSCC and adjacent normal. These DEmiRNAs and DElncRNAs were exhibited in Tables 2 and 3 . Moreover, we found that the differentially expressed RNAs can significantly distinguished LSCC and control samples (Figure S1-3).
+
+The List of Differentially Expressed miRNAs in This Study.
+
+The List of Differentially Expressed lncRNAs in This Study.
+
+FDR: false discovery rate.
+
+
+Functional Analyses of DEmRNAs
+
+GO and KEGG analysis of DEmRNAs were performed to uncover their underlying biological roles. The results showed that these DEmRNAs were significantly enriched in 521 GO-BP terms, such as extracellular matrix/structure organization, DNA-dependent DNA replication, and neutrophil activation involved in immune response; 123 GO-CC terms, such as collagen-containing extracellular matrix, basolateral plasma membrane, extracellular matrix component and chromosomal region; and 30 GO-MF terms, such as extracellular matrix structural constituent, cell adhesion molecule binding, and cadherin binding. The top 15 GO-BP/CC/MF terms were displayed in Table 4 and Figure S4. For KEGG analysis, we found 12 significantly enriched KEGG pathways, including DNA replication, cell cycle, proteasome, fanconi anemia pathway, homologous recombination, ECM-receptor interaction, mismatch repair, IL-17 signaling pathway, nucleotide excision repair, fatty acid degradation, small cell lung cancer, and tryptophan metabolism ( Table 4 ; Figure S4).
+
+The Top 15 Significantly Enriched GO-BP/MF/CC Terms and All Significantly Enriched KEGG Pathways.
+
+GO-BP: Gene Ontology-Biological Process; GO-MF: Gene Ontology-Molecular Function; GO-CC: Gene Ontology-Cellular Component; KEGG: Kyoto Encyclopedia of Genes and Genomes; FDR: false discovery rate.
+
+
+DEmRNAs-DEmiRNAs Interactions and Functional Analyses
+
+The miRWalk was used to predict the interactions between DEmRNAs and DEmiRNAs, and obtained 3243 DEmRNAs-DEmiRNAs regulatory pairs (1524 DEmRNAs and 21 DEmiRNAs), including 510 up-regulated DEmiRNAs-down-regulated DEmRNAs pairs and 2733 down-regulated miRNAs-up-regulated mRNAs pairs ( Figure 1 ). Moreover, the GO analysis revealed that these target DEmRNAs were significantly enriched in 308 GO-BP terms, 56 GO-CC terms and 8 GO-MF terms. The top 15 GO-BP terms and GO-CC terms were listed in Table S2 and Figure S5. The top 3 GO-BP terms included DNA replication, regulation of DNA metabolic process and extracellular matrix organization. Membrane ligase complex, membrane microdomain and chromosomal region were top 3 GO-CC terms. The top 3 significantly enriched GO-MF terms were extracellular matrix structural constituent conferring tensile strength, double-stranded RNA binding, and DNA-dependent ATPase activity. These genes were significantly enriched in 9 KEGG pathways, such as hepatitis C, protein digestion and absorption, and TNF signaling pathway (Table S2; Figure S5).
+
+DEmiRNAs-DEmRNAs regulatory network. The oval and rhombus represents DEmRNAs and DEmiRNAs, respectively. The pink color shows up-regulated mRNA and the blue color shows down-regulated mRNA. The red color shows up-regulated miRNA and the green color shows down-regulated miRNA. DEmRNA: differentially expressed mRNAs; DEmiRNA: differentially expressed miRNAs.
+
+
+DElncRNAs-DEmRNAs Interactions and Functional Analyses
+
+The target mRNAs of DElncRNAs were predicted by starbase in this study. The results showed that there were 77 DElncRNAs-mRNAs pairs, involving 12 up-regulated lncRNAs, 10 down-regulated lncRNAs, 12 up-regulated mRNAs, 10 down-regulated mRNAs, and 53 predicted mRNAs targets (Figure S6). Figure S7 showed the DElncRNAs-DEmRNAs network, including 6 up-regulated lncRNAs, 6 down-regulated lncRNAs, 12 up-regulated mRNAs, 10 down-regulated mRNAs. Furthermore, the functional analysis results of these target mRNAs showed that they were significantly enriched in 29 GO-BP terms, including chromatin silencing and establishment of protein localization to endoplasmic reticulum, and 19 GO-CC terms, such as cytosolic large ribosomal subunit and myelin sheath (Table S3). However, they were not markedly enriched in any GO-MF terms and KEGG pathways.
+
+
+DEmiRNAs-DElncRNAs Interactions
+
+The lncRNAs targeted by DEmiRNAs were predicted by using LncBase database. Figure S8 showed DEmiRNAs-DElncRNAs network, which contained 47 nodes (18 DEmiRNAs and 29 DElncRNAs) and 45 edges. Notably, 43 DEmiRNAs-DElncRNAs pairs were predicted and 2 DEmiRNAs-DElncRNAs pairs (up-regulated DGCR5 and down-regulated miR-338-3p and up-regulated DGCR5-down-regulated has-miR-139-5p) were experimentally validated. Afterward, the opposite expression relationships between DEmiRNAs and DElncRNAs were further extracted and visualized in Figure 2 . We found that there were 15 up-regulated lncRNAs, 3 down-regulated lncRNAs, one up-regulated mRNA (has-miR-1246), 11 down-regulated mRNAs in this network ( Figure 2 ).
+
+DEmiRNAs-DElncRNAs pairs with the opposite expression. The orange rectangle shows the up-regulated lncRNA and dark green rectangle shows the down-regulated lncRNA. The red rhombus shows up-regulated miRNA and green rhombus shows down-regulated miRNA. DElncRNA: differentially expressed lncRNAs; DEmiRNA: differentially expressed miRNAs.
+
+
+CeRNA Network Construction
+
+The inverse expression pairs (DEmiRNAs-DElncRNAs pairs and DEmiRNAs-DEmRNAs pairs) were extracted and used for ceRNA network construction. As shown in Figure 3 , the network included 995 nodes (11 DEmiRNAs, 17 DElncRNAs and 967 DEmRNAs) and 1733 edges (3 up-regulated DEmiRNAs-down-regulated DElncRNAs pairs, 16 down-regulated DEmiRNAs-up-regulated DElncRNAs pairs, 59 up-regulated DEmiRNAs-down-regulated DEmRNAs pairs, 1655 up-regulated DEmiRNAs-down-regulated DElncRNAs pairs). DGCR5-has-miR-338-3p/has-miR-139-5p was in this ceRNA network. More notably, existing evidence has demonstrated that lncRNAs in the cytoplasm can competitively bind miRNAs by acting as ceRNAs to regulate expression of mRNAs targets. Therefore, the subcellular localization of 17 DElncRNA in ceRNA network was performed by lncLocator. We found that 5 DElncRNAs (down-regulated AL121839.2 , down-regulated LINC02147, up-regulated AC079328.2 , up-regulated AC004943.2 and up-regulated HMGA2-AS1) may locate in the cytoplasm (Table S4). Subsequently, a DElncRNAs in the cytoplasm-DEmiRNAs-DEmRNAs network was built, including 3 lncRNAs (HMGA2-AS1, AC004943.2 and AC079328.2 ), 2 down-regulated lncRNAs ( AL121839.2 and LINC02147), up-regulated has-miR-1246, 3 down-regulated miRNAs (has-miR-582-5p, has-miR-3137 and has-miR-3185), 404 up-regulated mRNAs and 59 down-regulated mRNAs ( Figure 4 ). Moreover, AL121839.2 and LINC021147 were interacted with has-miR-1246. AC004943.2 , AC079328.2 and HMGA2-AS1 targeted has-miR-3185, has-miR-3137 and has-miR-582-5p, respectively ( Figure 4 ).
+
+DEmiRNAs-DElncRNAs-DEmRNAs regulatory network. The orange rectangle shows the up-regulated lncRNA and dark green rectangle shows the down-regulated lncRNA. The red rhombus shows up-regulated miRNA and green rhombus shows down-regulated miRNA. The rose red oval shows the up-regulated mRNAs and blue oval shows down-regulated mRNAs. DElncRNA: differentially expressed lncRNAs; DEmiRNA: differentially expressed miRNAs; DEmRNA: differentially expressed mRNAs.
+
+The cytoplasm-DEmiRNAs-DEmRNAs network. The orange rectangle indicates the up-regulated lncRNA and dark green rectangle shows the down-regulated lncRNA. The red rhombus indicates up-regulated miRNA and green rhombus indicates down-regulated miRNA. The rose red oval shows the up-regulated mRNAs and blue oval shows down-regulated mRNAs. DElncRNA: differentially expressed lncRNAs; DEmiRNA: differentially expressed miRNAs; DEmRNA: differentially expressed mRNAs.
+
+
+Validation the Key DElncRNAs and DEmiRNAs in the TCGA
+
+The expression of 4 DElncRNAs (DGCR5, AL121839.2 , LINC02147 and AC004943.2 ) and 3 DEmiRNAs (has-miR-338-3p, has-miR-139-5p and has-miR-582-5p) were verified in TCGA dataset. As presented in Figure 5 , the expression patterns of the remaining most of the selected 4 DElncRNAs and 3 DEmiRNAs were consistent with the results of GEO. Two DElncRNAs ( AL121839.2 and LINC02147) and 3 DEmiRNAs (has-miR-338-3p, has-miR-139-5p and has-miR-582-5p) were down-regulated while 2 DElncRNAs (DGCR5 and AC004943.2 ) were up-regulated in LSCC, suggesting that our results were convincing.
+
+Validation in the TCGA dataset. The x-axis shows normal adjacent (green color) and LSCC (red color) groups and y-axis shows a log2 transformation to the intensities.
+
+
+ROC Curve and Survival Analysis
+
+We evaluated the diagnostic value of 4 DElncRNAs (DGCR5, AL121839.2 , LINC02147 and AC004943.2 ) and 3 DEmiRNAs (has-miR-338-3p, has-miR-139-5p and has-miR-582-5p) in LSCC. DGCR5 (AUC = 0.765), AL121839.2 (AUC = 0.837), LINC02147 (AUC = 0.890), AC004943.2 (AUC = 0.773), has-miR-338-3p (AUC = 0.789), has-miR-139-5p (AUC = 0.945) and has-miR-582-5p (AUC = 0.724) were capable of discriminating LSCC and normal controls ( Figure 6 ). In addition, we assessed the prognostic value of these genes in LSCC. Among which, only AL121839.2 was associated with the survival of patients with LSCC. (Figure S9).
+
+ROC analysis. The AUC was analyzed to evaluate the performance of each DElncRNAs and DEmiRNAs. The x-axis indicated 1-specificity and y-axis indicated sensitivity.
+
+
+Evaluation the Expression Level and Diagnostic Values of Key DElncRNAs and DEmiRNAs in External Datasets (
+
+Four key DElncRNAs (DGCR5, AL121839.2 , LINC02147 and AC004943.2 ) were selected to verify in GSE127165 . Three key DEmiRNAs (has-miR-338-3p, has-miR-139-5p and has-miR-582-5p) were selected to verify in GSE133632 . The gene differential expression analysis found that DGCR5 and AC004943.2 were significantly up-regulated while AL121839.2 and LINC02147, has-miR-338-3p, has-miR-139-5p and has-miR-582-5p were significantly down-regulated, which were consistent with our integration analysis (Figure S10). The ROC results displayed that DGCR5 (AUC = 0.721), AL121839.2 (AUC = 0.936), LINC02147 (AUC = 0.948), AC004943.2 (AUC = 0.729), has-miR-338-3p (AUC = 0.704), has-miR-139-5p (AUC = 0.921) and has-miR-582-5p (AUC = 0.825) were capable of discriminating LSCC and normal controls (Figure S11).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Previous evidences have demonstrated that non-coding RNAs, such as miRNAs and lncRNAs, play crucial and complex roles in tumor occurrence and progression. 22 - 24 LncRNAs can regulate mRNA expression by competitively binding to share miRNAs. 25 Increasing studies suggest that the lncRNA-miRNA-mRNA axis is involved in the carcinogenesis of LSCC. For example, Wang et al report that lncRNA NEAT1 is highly expressed in LSCC tissues compared with those adjacent non-neoplastic tissues. And experimental data suggests that lncRNA NEAT1 accelerates LSCC progression via regulating miR-107/CDK6 pathway. 26 A recent study shows that the expression of lncRNA DLEU2 is significantly increased in LSCC patients and this lncRNA acts as a ceRNA to regulate PIK3CD expression by binding to target miR-30c-5p, thereby activating the Akt signaling pathway. 27 Notably, the integrated ceRNA network analysis with large-scale high-throughput sequence data greatly contributes to explore underlying molecular mechanisms of various cancers, including LSCC. 12 , 28 
+
+In this current study, we identified 2957 DEmRNAs, 61DElncRNAs and 23 DEmiRNAs, and constructed a lncRNA-miRNA-mRNA ceRNA network by analyzing the expression profiles of LSCC and normal adjacent. Firstly, functional enrichment analysis of DEmRNAs showed that they were mainly enriched in many GO terms associated with extracellular matrix organization, and several significant KEGG pathways such as DNA replication and cell cycle. Overwhelming evidence has indicated that these key biological processes are closely associated with the initiation and development of cancers. 29 , 30 Moreover, functional analyses of the target DEmRNAs of DEmiRNAs revealed that these DEmRNAs also significantly enriched in DNA replication and extracellular matrix organization. Therefore, we inferred that DEmRNAs and DEmiRNAs may be involved in pathogenesis of LSCC by regulating these key biological processes. Notably, 2 pairs (up-regulated lncRNA DGCR5-down-regulated has-miR-338-3p/has-miR-139-5p) in ceRNA network had been experimentally verified. Tang et al suggest that lncRNA DCGR5 is dramatically up-regulated in human LSCC Hep-2 R cells, which is consistent with our results. Besides, they highlight that silencing lncRNA DCGR5 increases the radiosensitivity of human laryngeal carcinoma cells via targeting downstream miR-195. 31 Later, this research group investigates the relationship between lncRNA DCGR5 and cancer stem cells (CSC)-like properties of human LSCC lines, and finds that lncRNA DCGR5 can induce CSC-like properties by regulating miR-506 and Wnt signaling pathway in radioresistant laryngeal carcinoma cells. 32 Previous studies have demonstrated that has-miR-338-3p is down-regulated in many cancers, such as colorectal cancer cells, breast cancer and gastric cancer, 33 - 35 which is similar to our result. In this study, has-miR-338-3p was significantly down-regulated in LSCC tissues compared to adjacent tissues. We also found that has-miR-139-5p was also reduced in LSCC tissues than adjacent tissues. Luo et al suggest that miR-139 can target CXCR4 and suppress the proliferative, migratory and metastatic ability of LSCC Hep-2 cells. 36 Cybula et al previously report that expression of miR-139-3p was down-regulated in laryngeal cancer. 37 Therefore, we speculated that lncRNA DCGR5-has-miR-338-3p/has-miR-139-5p axis may be involved the progression of LSCC. However, the detailed functional mechanisms of DCGR5-has-miR-338-3p/has-miR-139-5p axis on LSCC development still need to be elaborated in future.
+
+Existing evidence has shown that numerous lncRNAs exert key biological roles in the nucleus, such as transcriptional regulation and alternative splicing, while many lncRNAs in cytoplasm serve as ceRNAs to control mRNA stability or translation. 13 , 38 In this study, the subcellular localization of lncRNAs in ceRNA network was carried out. Five lncRNAs (down-regulated AL121839.2 , down-regulated LINC021147, up-regulated AC004943.2 , up-regulated AC079328.2 and up-regulated HMGA2-AS1) were in the cytoplasm. Then, a cytoplasmic lncRNAs-miRNAs-mRNAs regulatory network was extracted. We found that AL121839.2 and LINC02147 were closely interacted with down-regulated has-miR-1246. In addition, AC004943.2 , AC079328.2 and HMGA2-AS1 respectively targeted down-regulated has-miR-3185, has-miR-3137 and has-miR-582-5p. Recently, Huang et al show that miR-1246 is up-regulated in LSCC tissues, which is consistent with our result. Besides, they highlight that lack of miR-1246 in Small extracellular vesicle can abrogate the tumorigenesis of LSCC. 39 However, few reports have investigated the underlying roles of 5 key cytoplasmic lncRNAs on LSCC. Herein, we preliminarily analyzed the relationships between these key lncRNAs and potential miRNA targets based on the ceRNA network. Whether they act as miRNA sponges to participate in the LSCC progression needs further investigation.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In summary, we identified 2957 DEmRNAs, 61DElncRNAs and 23 DEmiRNAs, and reconstructed an lncRNA-miRNA-mRNA ceRNA network by an integrated analysis. Our findings showed that DEmRNAs were significantly related to many cancer-related pathways, including DNA replication and extracellular matrix organization. LncRNA DCGR5-has-miR-338-3p/has-miR-139-5p axis may be involved in the progression of LSCC. Additionally, 5 cytoplasmic lncRNAs ( AL121839.2 , LINC021147, AC004943.2 , AC079328.2 and HMGA2-AS1) may act as ceRNAs and involve in the pathogenesis of LSCC. DGCR5, AL121839.2 , LINC02147, AC004943.2 , has-miR-338-3p, has-miR-139-5p and has-miR-582-5p were capable of discriminating LSCC and normal controls. Meanwhile, AL121839.2 had potential prognostic value for LSCC. Although we have identified multiple novel biomarkers associated with diagnostic and prognostic value, there remain limitations in our work. Considering the limitation, we are collecting samples of LSCC, further confirmation experiments will be performed in our following research. Furthermore, the clinical information should be collected to assess the diagnostic value of biomarkers for LSCC patients. Finally, the biological significances of key DElncRNAs and DEmiRNAs will be studied in model systems or cell lines.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, Figure_S1 - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S1.tif
+Supplemental Material, Figure_S10_-revised - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S10_-revised.tif
+Supplemental Material, Figure_S11-revised - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S11-revised.tif
+Supplemental Material, Figure_S2 - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S2.tif
+Supplemental Material, Figure_S3 - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S3.tif
+Supplemental Material, Figure_S4-revised - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S4-revised.tif
+Supplemental Material, Figure_S5-revised - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S5-revised.tif
+Supplemental Material, Figure_S6-revised - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S6-revised.tif
+Supplemental Material, Figure_S7-revised - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S7-revised.tif
+Supplemental Material, Figure_S8-revised - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S8-revised.tif
+Supplemental Material, Figure_S9-revised - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Figure_S9-revised.tif
+Supplemental Material, Supplementary_tables_(1) - LncRNA-Associated ceRNA Network Reveals Novel Potential Biomarkers of Laryngeal Squamous Cell Carcinoma
+File: Supplementary_tables_(1).pdf
