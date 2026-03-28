@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Quantile Graphical Models: Bayesian Approaches
+PMCID: PMC8297664
+PMID: 34305477
+KEYWORDS: graphical model, quantile regression, variational bayes
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Graphical models are ubiquitous tools to describe the interdependence between variables measured simultaneously such as large-scale gene or protein expression data. Gaussian graphical models (GGMs) are well-established tools for probabilistic exploration of dependence structures using precision matrices and they are generated under a multivariate normal joint distribution. However, they suffer from several shortcomings since they are based on Gaussian distribution assumptions. In this article, we propose a Bayesian quantile based approach for sparse estimation of graphs. We demonstrate that the resulting graph estimation is robust to outliers and applicable under general distributional assumptions. Furthermore, we develop efficient variational Bayes approximations to scale the methods for large data sets. Our methods are applied to a novel cancer proteomics data dataset where-in multiple proteomic antibodies are simultaneously assessed on tumor samples using reverse-phase protein arrays (RPPA) technology.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

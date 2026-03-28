@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: PHOSPHOLIPASE C
+PMCID: PMC7790445
+PMID: 31646512
+KEYWORDS: phospholipase c family, g protein-coupled receptors, phosphatidylinositol 4,5 - bisphosphate, diacylglycerol, inositol 1,4,5 - triphosphate, calcium, isoform, structure, ubiquitous expression, multiple functions
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Phospholipase C (PLC) family members constitute a family of diverse enzymes. Thirteen different family members have been cloned. These family members have unique structures that mediate various functions. Although PLC family members all appear to signal through the bi-products of cleaving phospholipids, it is clear that each family member, and at times each isoform, contributes to unique cellular functions. This chapter provides a review of the current literature on PLC. In addition, references have been provided for more in-depth information regarding areas that are not discussed including tyrosine kinase activation of PLC. Understanding the roles of the individual PLC enzymes, and their distinct cellular functions, will lead to a better understanding of the physiological roles of these enzymes in the development of diseases and the maintenance of homeostasis.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

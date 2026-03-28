@@ -1,0 +1,186 @@
+================================================================================
+ARTICLE TITLE: Bioinformatics analysis of long non-coding RNAs involved in nerve regeneration following sciatic nerve injury
+PMCID: PMC7705388
+PMID: 33241745
+KEYWORDS: long non-coding rna, microrna, nerve regeneration, sciatic nerve injury
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Little is known about the role of epigenetic modification in axon regeneration following peripheral nerve injury. The purpose of the present study was to investigate the role of long non-coding RNAs (lncRNAs) in the regulation of axon regeneration. We used bioinformatics to perform microarray analysis and screened total 476 lncRNAs and 129 microRNAs (miRNAs) of differentially expressed genes after sciatic nerve injury in mice. lncRNA-GM4208 and lncRNA-GM30085 were examined, and the changes in lncRNA expression in the L4–L6 dorsal root ganglia (DRG) following sciatic nerve crush injury were analyzed by reverse transcription-quantitative polymerase chain reaction (RT-qPCR). The expression of lncRNAs in the DRG changed, indicating that they might be related to nerve regeneration in the DRG following peripheral nerve injury.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Neuropathic pain is caused by primary or secondary damage to or dysfunction of the peripheral or central nervous system. Axonal regeneration and collateral sprouting after peripheral nerve injury are closely related to neuropathic pain. 1 , 2 Neuropathic pain is a common clinical condition that incapacitates 8.2/1000 persons per year. 3 – 5 So far medical and surgical therapies are ineffective for the treatment of nerve injury and neuropathic pain. The epigenetic regulation of genes by long non-coding RNAs (lncRNAs) and microRNAs (miRNAs) may be involved in this process. However, it is not clear how lncRNAs and miRNAs regulate axonal regeneration and thus affect the occurrence and development of neuropathic pain.
+
+Non-coding RNAs (ncRNAs)—e.g., lncRNAs, miRNAs, and circular RNAs (circRNAs)—are RNAs without protein coding functions; they participate in a variety of biological processes. miRNAs are non-coding RNAs with 20 to 24 nucleotides that can bind the target mRNAs to form double strands and induce mRNA splicing. It can also inhibit mRNA translation. 6 Studies have shown that miRNAs play an important role in neuropathic pain and the growth of the nervous system. miRNA-9, miRNA-26a, and miRNA-210 can regulate axon regeneration following nerve injury. 7 – 9
+
+lncRNAs have more than 200 nucleotides. They play a vital role in biological activities, such as epigenetic regulation, cell cycle and differentiation regulation. Recent studies have shown that lncRNAs can regulate regeneration of sensory neurons following peripheral nerve injury and involve in the generation of neuropathic pain. 10 – 13 lncRNA–miRNA–mRNA forms an endogenous competitive RNA (ceRNA) network. lncRNA acting as a ceRNA competitively binds to miRNAs and regulates their activity and expression, thereby affects the degradation of mRNA or inhibits its translation. 14 – 16 Therefore, we believe that the expression of lncRNAs in dorsal root ganglia (DRG) would change following peripheral nerve injury, and lncRNAs play a significant role in nerve regeneration. We used bioinformatics to evaluate the changes in non-coding RNA expression in the DRG following peripheral nerve injury and investigate the molecular mechanism underlying nerve regeneration. This may provide a new approach for the treatment of neuropathic pain from epigenetics perspective.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and methods
+
+Eight to twelve weeks old mice (C57BL/6) were fed in the barrier system of Shengjing Hospital of China Medical University (SYXK 2018-008). All experimental mice were raised and propagated in an SPF animal house, in which the temperature was controlled at 22 ± 2°C under automatic light control (L: D = 12 h: 12 h; the lighting period begins at 7:00 am). All animal experiments were approved by the Institutional Animal Care and Use Committee of China Medical University.
+
+The mice were randomly divided into operation and sham operation groups. There were three mice in the sham operation group, and nine mice in the operation group in which they were randomly divided in three subgroups. The three operation groups were examined at 1, 4, and 7 days after the operation. The sciatic nerve is located at the junction of the tibial nerve and the common peroneal nerve. In the sham operation group, the sciatic nerve was exposed but not clamped. All mice were anaesthetized with 10% chloral hydrate by intraperitoneal injection at a dose of 0.1 mL/10 g. In the operation group, the sciatic nerve with its three major branches was exposed through a gluteal muscle-splitting incision in the right thigh, and the nerve was crushed 1 cm above its trifurcation. The tissue was crushed three times in the middle of the thigh using fine forceps (Dumont no. 4), each time for 10 s (a total of 30 s). The resulted nerve crush injury was approximately 1 mm wide. The sciatic nerve was gently returned to its original position. The incision was closed with a reflective wound clip. The mice were kept warm until they woke up. All operations were carried out under sterile conditions, and no antibiotic treatment was administered. 17
+
+In this study, we used a TaKaRa RR036Q Kit for the reverse transcription (RT) reaction according to the manufacturer’s instruction (2 µL 5× PrimeScript RT Master Mix, total RNA, RNase-free H 2 O up to 10 µL). The reverse transcription was conducted at 37°C for 15 min and reverse transcriptase inactivation at 85°C for 5 s. The obtained RT reaction solution was used to prepare a PCR reaction solution for real-time PCR reaction. Subsequently, we mixed 10 µL of SYBR Premix Ex Taq II (2× Tli RNaseH Plus), 0.8 µL of the PCR forward primer (10 µM), 0.8 µL of the PCR reverse primer (10 µM), 0.4 µL of ROX reference dye or Dye II (50×)*2, 2 µL of the RT reaction solution (cDNA solution)*3, and 6 µL of sterilized distilled water (dH 2 O) a total 20 µL in volume. The polymerase chain reaction (PCR) was carried out under the following conditions: pre-denaturation at 95°C for 30 s; denaturation at 95°C for 5 s; 40 cycles of annealing for 1 min at 60°C. The assays were carried out three times for each sample, and the mean number of genomes was calculated. At the end, 60–95°C melting curve was analyzed. The sequences of the miR-6538 stem-loop primers used were reverse, 5′- CTCAACTGGTGTCGTGGAGTCGGCAATTCAGTTGAGCGCCGCCC -3′ and forward, 5′- ACACTCCAGCTGGGCGCGGGCTCCGGG -3′. The sequences of the miR-500 stem-loop primers used were reverse, 5′- CTCAACTGGTGTCGTGGAGTCGGCAATTCAGTTGAGTGAACCCT -3′ and forward, 5′- ACACTCCAGCTGGGAATGCACCTGGGCAAG -3′. The sequences of the miR-7239 stem-loop primers used were reverse, 5′- CTCAACTGGTGTCGTGGAGTCGGCAATTCAGTTGAGCTACCTGC -3′ and forward, 5′- ACACTCCAGCTGGGTGGCTCTGTCA GGC-3′. The sequences of the miR-138 stem-loop primers used were reverse, 5′- CTCAACTGGTGTCGTGGAGTCGGCAATTCAGTTGAGCGGCCTAG -3′ and forward, 5′- ACACTCCAGCT GGGAGCTGGTGTTGTGAATC -3′. The sequences of the RNU6B primers used were forward, 5′- CTCGCTTCGGCAGCACATATACT -3′ and reverse, 5′- ACGCTTCACGA ATTTGCGTGT C-3′. The gene-specific primers used to detect the lncRNAs and mRNAs are listed in Table 1 .
+
+Primers of lncRNAs and mRNAs.
+
+The Gene Expression Omnibus (GEO) database at the National Center for Biotechnology Information (NCBI) (/ http://www. ncbi.nlm.nih.gov/geo/ ) was used to obtain RNA expression profiles. The screening and quality control principles for the microarray data used in the present study were as follows: 1) a microarray platform; 2) research samples; 3) an experimental group and a control group. lncRNA expression data was obtained from the GSE111497 dataset; the microarray platform was the GPL19057 Illumina NextSeq 500 (Mus musculus). In this microarray, 19 groups of samples were obtained including three control groups, two DRG samples collected 1 day after sciatic nerve injury, three DRG samples collected 1 day after the sham operation, three DRG samples collected 4 days after sciatic nerve crush, two DRG samples collected 4 days after the sham operation, three DRG samples collected 7 days after sciatic nerve crush, and three samples collected 7 days after the sham operation. The GSE98417 dataset was used to obtain the miRNA expression data for the microarray of GPL19057, which included five control samples and three sciatic nerve crush samples.
+
+First, the LIMMA program in the R software package was used to standardize the data. The previously obtained datasets were then analyzed by LIMMA to filter the genes that were differently expressed among the lncRNAs, mRNAs, and miRNAs. The cut-off points were set at a p-value < 0.05 and |logFC| > 1 to determine and select the DEGs in the experimental and control groups.
+
+The divided DEGs were submitted to the Cytoscape software package (USA) for gene ontology (GO) analysis and Reactome pathway enrichment. Cytoscape is a general platform for visualizing molecular interaction networks and analyzing biological pathways. The screening value for meaningful GO analysis and Reactome pathways enrichment is a false discovery rate (FDR) of <0.05.
+
+lncRNA–miRNA pairs were connected with mRNA–miRNA pairs to set up the ceRNA network. RNAhybrid and miRanda were utilized to establish networks with p < 0.05. Protein–protein interactions were obtained from the STRING online database. Predictions with combined scores of ≥0.400 from STRING were chosen for further visualization.
+
+Data are presented as the means ± SEM. LIMMA in the R software package was used to screen the DEGs with p-values <0.05 and |logFC| > 1. Two-tailed Student’s t tests were used to compare differences between the two groups. A value of p < 0.05 indicated that the difference was statistically significant.
+
+
+Animals
+
+Eight to twelve weeks old mice (C57BL/6) were fed in the barrier system of Shengjing Hospital of China Medical University (SYXK 2018-008). All experimental mice were raised and propagated in an SPF animal house, in which the temperature was controlled at 22 ± 2°C under automatic light control (L: D = 12 h: 12 h; the lighting period begins at 7:00 am). All animal experiments were approved by the Institutional Animal Care and Use Committee of China Medical University.
+
+
+Sciatic nerve crush model
+
+The mice were randomly divided into operation and sham operation groups. There were three mice in the sham operation group, and nine mice in the operation group in which they were randomly divided in three subgroups. The three operation groups were examined at 1, 4, and 7 days after the operation. The sciatic nerve is located at the junction of the tibial nerve and the common peroneal nerve. In the sham operation group, the sciatic nerve was exposed but not clamped. All mice were anaesthetized with 10% chloral hydrate by intraperitoneal injection at a dose of 0.1 mL/10 g. In the operation group, the sciatic nerve with its three major branches was exposed through a gluteal muscle-splitting incision in the right thigh, and the nerve was crushed 1 cm above its trifurcation. The tissue was crushed three times in the middle of the thigh using fine forceps (Dumont no. 4), each time for 10 s (a total of 30 s). The resulted nerve crush injury was approximately 1 mm wide. The sciatic nerve was gently returned to its original position. The incision was closed with a reflective wound clip. The mice were kept warm until they woke up. All operations were carried out under sterile conditions, and no antibiotic treatment was administered. 17
+
+
+Reverse transcription-quantitative polymerase chain reaction (RT-qPCR)
+
+In this study, we used a TaKaRa RR036Q Kit for the reverse transcription (RT) reaction according to the manufacturer’s instruction (2 µL 5× PrimeScript RT Master Mix, total RNA, RNase-free H 2 O up to 10 µL). The reverse transcription was conducted at 37°C for 15 min and reverse transcriptase inactivation at 85°C for 5 s. The obtained RT reaction solution was used to prepare a PCR reaction solution for real-time PCR reaction. Subsequently, we mixed 10 µL of SYBR Premix Ex Taq II (2× Tli RNaseH Plus), 0.8 µL of the PCR forward primer (10 µM), 0.8 µL of the PCR reverse primer (10 µM), 0.4 µL of ROX reference dye or Dye II (50×)*2, 2 µL of the RT reaction solution (cDNA solution)*3, and 6 µL of sterilized distilled water (dH 2 O) a total 20 µL in volume. The polymerase chain reaction (PCR) was carried out under the following conditions: pre-denaturation at 95°C for 30 s; denaturation at 95°C for 5 s; 40 cycles of annealing for 1 min at 60°C. The assays were carried out three times for each sample, and the mean number of genomes was calculated. At the end, 60–95°C melting curve was analyzed. The sequences of the miR-6538 stem-loop primers used were reverse, 5′- CTCAACTGGTGTCGTGGAGTCGGCAATTCAGTTGAGCGCCGCCC -3′ and forward, 5′- ACACTCCAGCTGGGCGCGGGCTCCGGG -3′. The sequences of the miR-500 stem-loop primers used were reverse, 5′- CTCAACTGGTGTCGTGGAGTCGGCAATTCAGTTGAGTGAACCCT -3′ and forward, 5′- ACACTCCAGCTGGGAATGCACCTGGGCAAG -3′. The sequences of the miR-7239 stem-loop primers used were reverse, 5′- CTCAACTGGTGTCGTGGAGTCGGCAATTCAGTTGAGCTACCTGC -3′ and forward, 5′- ACACTCCAGCTGGGTGGCTCTGTCA GGC-3′. The sequences of the miR-138 stem-loop primers used were reverse, 5′- CTCAACTGGTGTCGTGGAGTCGGCAATTCAGTTGAGCGGCCTAG -3′ and forward, 5′- ACACTCCAGCT GGGAGCTGGTGTTGTGAATC -3′. The sequences of the RNU6B primers used were forward, 5′- CTCGCTTCGGCAGCACATATACT -3′ and reverse, 5′- ACGCTTCACGA ATTTGCGTGT C-3′. The gene-specific primers used to detect the lncRNAs and mRNAs are listed in Table 1 .
+
+Primers of lncRNAs and mRNAs.
+
+
+Sources of microarray data
+
+The Gene Expression Omnibus (GEO) database at the National Center for Biotechnology Information (NCBI) (/ http://www. ncbi.nlm.nih.gov/geo/ ) was used to obtain RNA expression profiles. The screening and quality control principles for the microarray data used in the present study were as follows: 1) a microarray platform; 2) research samples; 3) an experimental group and a control group. lncRNA expression data was obtained from the GSE111497 dataset; the microarray platform was the GPL19057 Illumina NextSeq 500 (Mus musculus). In this microarray, 19 groups of samples were obtained including three control groups, two DRG samples collected 1 day after sciatic nerve injury, three DRG samples collected 1 day after the sham operation, three DRG samples collected 4 days after sciatic nerve crush, two DRG samples collected 4 days after the sham operation, three DRG samples collected 7 days after sciatic nerve crush, and three samples collected 7 days after the sham operation. The GSE98417 dataset was used to obtain the miRNA expression data for the microarray of GPL19057, which included five control samples and three sciatic nerve crush samples.
+
+
+Analysis of differentially expressed genes (DEGs)
+
+First, the LIMMA program in the R software package was used to standardize the data. The previously obtained datasets were then analyzed by LIMMA to filter the genes that were differently expressed among the lncRNAs, mRNAs, and miRNAs. The cut-off points were set at a p-value < 0.05 and |logFC| > 1 to determine and select the DEGs in the experimental and control groups.
+
+
+Functional enrichment analysis of ceRNA network
+
+The divided DEGs were submitted to the Cytoscape software package (USA) for gene ontology (GO) analysis and Reactome pathway enrichment. Cytoscape is a general platform for visualizing molecular interaction networks and analyzing biological pathways. The screening value for meaningful GO analysis and Reactome pathways enrichment is a false discovery rate (FDR) of <0.05.
+
+
+Construction of ceRNA network and protein–protein interactions
+
+lncRNA–miRNA pairs were connected with mRNA–miRNA pairs to set up the ceRNA network. RNAhybrid and miRanda were utilized to establish networks with p < 0.05. Protein–protein interactions were obtained from the STRING online database. Predictions with combined scores of ≥0.400 from STRING were chosen for further visualization.
+
+
+Statistics analysis
+
+Data are presented as the means ± SEM. LIMMA in the R software package was used to screen the DEGs with p-values <0.05 and |logFC| > 1. Two-tailed Student’s t tests were used to compare differences between the two groups. A value of p < 0.05 indicated that the difference was statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+After eliminating repetitive and non-specific data by filtering the GSE database and the samples, the LIMMA software package was used to analyze the DEGs. Following differential gene expression analysis with p < 0.05 and |logFC| > 1 as the thresholds, 605 DEGs were screened, including 400 upregulated DEGs and 205 downregulated DEGs. The Venn diagram shown in Figure 1 demonstrates the intersections between the upregulated lncRNAs after 1, 4, and 7 days. A volcano plot showing the differential expression levels of lncRNAs and miRNAs after 1, 4, and 7 days and a heatmap showing the differential expression levels of lncRNAs and miRNAs are shown in Figure 2 .
+
+Identification of overlapping upregulated long non-coding RNAs (lncRNAs): Venn diagram of 340 overlapping upregulated lncRNAs after 1, 4, and 7 days.
+
+Volcano plot of the differential gene expression in gene expression datasets GSE111497 and GSE98417. Red indicates upregulated and blue indicates downregulated genes in the normal controls compared to those in the sciatic nerve injury group: (a) long non-coding RNAs (lncRNAs) after 1 day. (b) lncRNAs after 4 days. (c) lncRNAs after 7 days. (e) microRNA (miRNA). Heatmap showing the differential expression of lncRNAs and miRNAs: (d) lncRNAs. (f) miRNAs.
+
+We used GO analysis and Reactome pathway enrichment to investigate the potential biological functions of the consensus genes. The GO analysis revealed that the biological processes of the selected DEGs were associated with histone H3-K27 trimethylation, histone H3-K27 methylation, and chromatin organization ( Figure 3(a) ). The results of Reactome pathway enrichment showed that the DEGs were mainly related to transcriptional regulation by E2F6, PCR2 methylation of histones and DNA, and the methylation of histone lysines by PKMTs, among other processes ( Figure 3(b) ).
+
+Functional enrichment of the differentially expressed genes (DEGs). The area of the displayed circles is proportional to the number of genes assigned to the term, and the colour corresponds to the Q value. (a) significantly enriched biological processes (BPs) in gene ontology (GO) analysis of DEGs. (b) Reactome pathways enrichment of DEGs.
+
+lncRNA–miRNA and miRNA–mRNA interactions were predicted based on miRanda and RNAhybrid at p < 0.05. ceRNA networks were visualized using Cytoscape software ( Figure 4 ). Red indicates upregulated lncRNAs, blue upregulated mRNAs, and green downregulated miRNAs. In the present study, all lncRNAs and mRNAs were upregulated. Figure 5 shows the protein–protein interaction network. Protein–protein interaction enrichment analysis was carried out using the STRING website, and the minimum required interaction score was medium confidence (0.400). We found that Ezh2, Aebp2, Rbbp4, Suz12, and Eed interacted with each other.
+
+LncRNA-mRNA-microRNA(miRNA) network. Red nodes stand for upregulated lncRNAs,blue nodes mean upregulated mRNAs,and green nodes indicate downregulated miRNAs.The competing endogenous RNA(ceRNA) network was constructed and visualized using Cytoscape software.
+
+The protein–protein interaction network. Protein–protein interaction enrichment analysis was carried out using the STRING website, and the minimum required interaction score was medium confidence (0.400).
+
+To verify the accuracy of the microarray results, we selected eight important genes from preselected DEGs (lncRNA-GM4208, lncRNA- GM30085, miRNA-138, miRNA-500, miRNA-6538, miRNA-7239, EZH2, and Atf3), and examined them using RT-qPCR technology ( Figure 6 ). The results showed that following sciatic nerve crush injury, lncRNA-GM4208, lncRNA-GM30085, EZH2 and Atf3 mRNA expression have increased and miRNA-138, miRNA-500, miRNA-6538, and miRNA-7239 expression have decreased. The results were statistically significant and consistent with those of the chip.
+
+Validation of candidate gene expression in dorsal root ganglia (DRG) following sciatic nerve injury by qRT-PCR. (a) The expression levels of lncRNAs were measured by qRT-PCR. (b) The expression levels of mRNAs were measured by qRT-PCR. (c) The expression levels of microRNAs (miRNAs) were measured by qRT-PCR. Bar graphs are shown as means±SEM. *P < 0.05. **P < 0.01 (n=3 for each condition).
+
+
+Identification of DEGs
+
+After eliminating repetitive and non-specific data by filtering the GSE database and the samples, the LIMMA software package was used to analyze the DEGs. Following differential gene expression analysis with p < 0.05 and |logFC| > 1 as the thresholds, 605 DEGs were screened, including 400 upregulated DEGs and 205 downregulated DEGs. The Venn diagram shown in Figure 1 demonstrates the intersections between the upregulated lncRNAs after 1, 4, and 7 days. A volcano plot showing the differential expression levels of lncRNAs and miRNAs after 1, 4, and 7 days and a heatmap showing the differential expression levels of lncRNAs and miRNAs are shown in Figure 2 .
+
+Identification of overlapping upregulated long non-coding RNAs (lncRNAs): Venn diagram of 340 overlapping upregulated lncRNAs after 1, 4, and 7 days.
+
+Volcano plot of the differential gene expression in gene expression datasets GSE111497 and GSE98417. Red indicates upregulated and blue indicates downregulated genes in the normal controls compared to those in the sciatic nerve injury group: (a) long non-coding RNAs (lncRNAs) after 1 day. (b) lncRNAs after 4 days. (c) lncRNAs after 7 days. (e) microRNA (miRNA). Heatmap showing the differential expression of lncRNAs and miRNAs: (d) lncRNAs. (f) miRNAs.
+
+
+GO and Reactome pathway enrichment analysis
+
+We used GO analysis and Reactome pathway enrichment to investigate the potential biological functions of the consensus genes. The GO analysis revealed that the biological processes of the selected DEGs were associated with histone H3-K27 trimethylation, histone H3-K27 methylation, and chromatin organization ( Figure 3(a) ). The results of Reactome pathway enrichment showed that the DEGs were mainly related to transcriptional regulation by E2F6, PCR2 methylation of histones and DNA, and the methylation of histone lysines by PKMTs, among other processes ( Figure 3(b) ).
+
+Functional enrichment of the differentially expressed genes (DEGs). The area of the displayed circles is proportional to the number of genes assigned to the term, and the colour corresponds to the Q value. (a) significantly enriched biological processes (BPs) in gene ontology (GO) analysis of DEGs. (b) Reactome pathways enrichment of DEGs.
+
+
+Gene co-expression network and protein–protein interactions
+
+lncRNA–miRNA and miRNA–mRNA interactions were predicted based on miRanda and RNAhybrid at p < 0.05. ceRNA networks were visualized using Cytoscape software ( Figure 4 ). Red indicates upregulated lncRNAs, blue upregulated mRNAs, and green downregulated miRNAs. In the present study, all lncRNAs and mRNAs were upregulated. Figure 5 shows the protein–protein interaction network. Protein–protein interaction enrichment analysis was carried out using the STRING website, and the minimum required interaction score was medium confidence (0.400). We found that Ezh2, Aebp2, Rbbp4, Suz12, and Eed interacted with each other.
+
+LncRNA-mRNA-microRNA(miRNA) network. Red nodes stand for upregulated lncRNAs,blue nodes mean upregulated mRNAs,and green nodes indicate downregulated miRNAs.The competing endogenous RNA(ceRNA) network was constructed and visualized using Cytoscape software.
+
+The protein–protein interaction network. Protein–protein interaction enrichment analysis was carried out using the STRING website, and the minimum required interaction score was medium confidence (0.400).
+
+
+Cell assays and RT-qPCR
+
+To verify the accuracy of the microarray results, we selected eight important genes from preselected DEGs (lncRNA-GM4208, lncRNA- GM30085, miRNA-138, miRNA-500, miRNA-6538, miRNA-7239, EZH2, and Atf3), and examined them using RT-qPCR technology ( Figure 6 ). The results showed that following sciatic nerve crush injury, lncRNA-GM4208, lncRNA-GM30085, EZH2 and Atf3 mRNA expression have increased and miRNA-138, miRNA-500, miRNA-6538, and miRNA-7239 expression have decreased. The results were statistically significant and consistent with those of the chip.
+
+Validation of candidate gene expression in dorsal root ganglia (DRG) following sciatic nerve injury by qRT-PCR. (a) The expression levels of lncRNAs were measured by qRT-PCR. (b) The expression levels of mRNAs were measured by qRT-PCR. (c) The expression levels of microRNAs (miRNAs) were measured by qRT-PCR. Bar graphs are shown as means±SEM. *P < 0.05. **P < 0.01 (n=3 for each condition).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Peripheral nerve injuries are primary or secondary damage of the peripheral nervous system. They are common in clinical settings. The etiology of peripheral nerve injury include trauma, tumors, metabolic diseases, etc. Following peripheral nerve injury peripheral nerve regeneration can be achieved by activating endogenous neural growth. Research on epigenetic regulation of neural regeneration at the gene level has stimulated increasing interest in recent years. Gene reprogramming can change neuron’s regeneration ability in the peripheral nervous system. The regulatory effect of epigenetic modifications—such as those produced by non-coding RNAs (ncRNAs), covalent histone modification, and DNA methylation—on the expression of the genes related to neuronal regeneration following peripheral nerve injury might provide a new target for the study of axonal regeneration.
+
+Studies have shown that lncRNA RMST can promote the differentiation of neural stem cells by negatively change the expression of SOX2. 18 Following peripheral nerve injury, the expression of lncRNA BC089918, which specifically promotes the growth of neurites, changes significantly in the DRG. 19 Our previous study has revealed that lin28a/b affects the central and peripheral nerve regeneration of mammals by regulating the expression of let-7 miRNAs. 20 The miRNA-26a–GSK3β signaling pathway affects peripheral nerve regeneration by regulating the expression of the transcription factor Smad1. 8 Following sciatic nerve injury, the level of miR-9 in the L4 and L5 DRG decreases significantly. MiR-9 inhibits axon growth by downregulating the expression of FOXP1. 7 miRNAs affect axonal regeneration by regulating downstream target genes following nerve injury. 9
+
+The DRG is the first afferent neuron of pain. It is a pseudounipolar primary sensory neuron, and its function is to transmit and regulate body sensation, in particular nociceptive sensation. Peripheral nerves have sensory and motor neurons. The cell bodies of sensory neurons are located at the L4–L6 DRG, and their axons make up the sciatic nerve. The sciatic nerve crush model is a classical model for studying peripheral nerve regeneration. Studies have shown that conditional sciatic nerve crush (compression or cutting) can promote the regeneration of neurons in the L4–L6 DRG and accelerate the growth and repair of injured neurons. Following sciatic nerve crush, DRG neurons achieve axonal regeneration through the activation of numerous transcription factors and the transcriptional regulation of regeneration-related genes. Therefore, the neurons of the DRG have become common targets for the study of nerve regeneration. Studies have shown that the DRG is a regulatory site of nerve regeneration and can transmit sensory signals to the dorsal horn of the spinal cord, which might become a focus for effective therapies for nerve regeneration. 21
+
+lncRNAs affect cell differentiation at multiple levels and participate in many important gene regulation processes, such as nuclear transport, transcriptional interference, and gene imprinting. Therefore, they are closely related to nerve regeneration following sciatic nerve crush. The latest research has shown that lncRNAs play a key role in the development, homeostasis, plasticity, and synapse formation of the nervous system, 22 – 25 and involve in pain signal transduction. 11 – 13 , 26 miRNAs can interact with the 3′-untranslated region (3′-UTR) of the target mRNA molecule through complementary base pairing, which can promote the degradation or inhibit the translation of mRNA molecules, and regulate gene expression at the post transcriptional level. 27 lncRNAs can competitively bind to miRNAs, by which they regulate functions of miRNA in the degradation or inhibition of translation of its target mRNA. 14 – 16 On one hand, lncRNAs and miRNAs play a significant role in the occurrence of neuropathic pain. On the other hand, they also influence nerve repair by regulating the regeneration of axons and myelin. These dual effects indicate that lncRNAs and miRNAs may be the key point between nerve repair and neuropathic pain. Through bioinformatics analysis, we found that lncRNAs expression in DRG changed significantly after sciatic nerve crush. RNAhybrid and miRanda database predicted the target genes of lncRNAs and showed that lncRNAs and miRNAs have complementary binding sequences, so it was speculated that miRNAs were the downstream target gene of lncRNAs. We hypothesized that lncRNAs regulate mRNAs expression through spongy interaction with miRNAs and affect axonal regeneration after peripheral nerve injury, thus regulating neuropathic pain. In recent years, the role of lncRNAs in many physiological and pathological processes has become a research focus. To date, there have been few studies on the role of lncRNAs in peripheral nervous system regeneration following injury and there were almost no reports specifically on lncRNA-GM4208 or lncRNA-GM30085. Owing to their complexity and diversity, the mechanism through which lncRNAs act in nerve regeneration remains unclear and requires further investigation. It has been confirmed that miRNA-138 and its target gene SIRT1 act as axonal regeneration inhibitors in mammals to regulate axonal regeneration following peripheral nerve injury, 28 and miRNA-1247 can inhibit cell proliferation in tumors, such as bladder cancer and childhood neuroblastoma. 29 , 30 Recent studies have shown that the increased expression of EZH2 can promote the differentiation and proliferation of neurons. 31 Activated transcription factor 3 (Atf3) is present in DRG neurons. Following peripheral nerve injury, it facilitates nerve regeneration by promoting the inherent ability of damaged neurons. 32
+
+In the present study, a total of 605 DEGs—i.e. 476 lncRNAs and 129 miRNAs—were screened by microarray analysis. The qRT-PCR results showed that upregulation of lncRNA-GM4208, lncRNA-GM30085, EZH2 and Atf3 mRNA in the DRG and downregulation of miRNA-138, miRNA-500, miRNA-6538, and miRNA-7239 were related to nerve regeneration process following sciatic nerve crush. Further study on the molecular mechanism underlying the regulation of nerve regeneration by lncRNAs is of great significance for the treatment and prognosis of nerve injury and the prevention of neuropathic pain.
+
+In recent years, there has been considerable progress in the treatment of many diseases with lncRNAs, but the role of lncRNAs in neuropathic pain and nerve regeneration following nerve injury remains unclear. Our experiment was focused on the regeneration of peripheral nerves and did not involve the central nervous system. When we analyzed the lncRNAs array (GSE 111497) data, we found that the samples in the naïve group had intra-group differences when lncRNAs were highly expressed, and the second sample was the most specific. We cannot ruled out the possibility that sample quality issues caused such results. Moreover, there are only three samples in the naïve group, and individual differences can also be a factor. Therefore, this study mainly focused on the high expression of lncRNAs in the injury groups. At the same time, the miRNAs chip array (GSE98417) also had intra-group differences. Only RNAs with significant differences were included in the study (p <0.05). In order to overcome this shortcoming, we used RT-qPCR to verify the expression of lncRNAs and miRNAs so to confirm the chip results and minimize accidental factors. In future research, we will perform high-throughput microarray experiments with increased sample sizes. We will also examine more stable and differentially expressed lncRNAs in nerve injury and explore their physiological functions. Our future goal is to determine the specific mechanisms through which lncRNAs, miRNAs, and target mRNAs function in regard to nerve regeneration and neuropathic pain. Hopefully it will provide a newer approach to nerve regeneration study and neuropathic pain treatment from the perspective of epigenetics.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In summary, our microarray results demonstrated that the expression of lncRNAs was altered in DRGs after nerve injury, and verification experiments indicated that the expression of lncRNAs was related to nerve regeneration after nerve injury. We believe that lncRNAs could represent a novel pathway for the prevention and treatment of neuropathic pain and nerve regeneration. Further studies are required to determine the specific mechanisms and pathways through which lncRNAs, miRNAs, and target mRNAs act in neuropathic pain and nerve regeneration process.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

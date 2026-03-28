@@ -1,0 +1,199 @@
+================================================================================
+ARTICLE TITLE: Circular RNA circ_0032462 Enhances Osteosarcoma Cell Progression by Promoting KIF3B Expression
+PMCID: PMC7658513
+PMID: 33153390
+KEYWORDS: circrna, kif3b, proliferation, migration, invasion
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Circular RNAs are a recently discovered subclass of endogenous noncoding RNAs that have been confirmed to play an important role in various pathophysiological processes. However, the underlying function of circular RNAs in osteosarcoma still remains unclear. We aimed to comprehend the function of circ_0032462 in osteosarcoma, as it has been predicted to be highly expressed in osteosarcoma cells. Using real-time polymerase chain reaction, we verified the elevated expression of circ_0032462 in osteosarcoma cells than normal cells. Functional validation experiments revealed that circ_0032462 overexpression promoted proliferation, migration, and invasion in osteosarcoma cells, whereas circ_0032462 silencing was observed to inhibit cancer cell progression (proliferation, migration, and invasion). Furthermore, we found that circ_0032462 upregulated the messenger RNA and protein expression level of kinesin family member 3B. In addition, kinesin family member 3B inhibition was found to inhibit circ_0032462-induced enhanced osteosarcoma cell progression. circ_0032462 overexpression was observed to reverse circ_0032462 silencing-induced inhibitory effect on osteosarcoma cell progression. Overall, our research revealed the function of circ_0032462 in osteosarcoma progression, which might serve as a novel chemotherapeutic target for osteosarcoma.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Osteosarcoma (OS) is a primary bone tumor which arises from mesenchymal cells. Osteosarcoma has been reported to have the highest fatality rate among all cancers. 1 For the past several decades, cancer therapies have developed with the use of advanced surgical technology and multiple chemotherapies. Despite recent advanced developments, prognosis remains inadequate. 2 , 3 Several patients have been reported to suffer from cancer recurrence and potential metastasis. Some patients with OS have been shown to benefit from certain molecular therapy due to the use of molecular-targeted drugs. 4 As such targeted therapy can lead to severe side effects, it is essential to explore new therapy for treating OS.
+
+Circular RNAs (circRNAs) are a recently discovered subclass of endogenous noncoding RNAs. Circular RNAs have special structures, which are covalent loops with 3′-end and 5′-end connected to each other. The covalent loops are different from linear RNAs and have been shown to protect circRNAs from ribonuclease R (RNase R)-mediated digestion. 5 
+
+Circular RNA was first discovered in RNA viruses during the 1970s. For a long time, researchers considered circRNAs as junk noncoding RNA. However, due to the development of sequencing and computational technology in recent years, an increasing number of researches have revealed the important roles of circRNAs in regulating gene expression at posttranscriptional level. 6 , 7 Previous studies have favorably proved that circRNA can function through competing endogenous RNA mechanism. This proposes that circRNA can serve as microRNA (miRNA) sponges by competitively binding to target miRNA and suppress their expression and function. 8 , 9 Interestingly, reports have demonstrated that circRNAs can code for proteins in eukaryotic cells. 10 Recently, an increasing number of circRNAs have been discovered to play important roles in various cancers and potentially act as efficient biomarkers due to their special structure and prolonged half-life. 11 However, little is known about the roles of circRNAs in OS.
+
+It has been reported that circRNAs such as hsa_circ_0028173, hsa_circ_0032462, and hsa_circ_0005909 are highly expressed in human OS. Moreover, they have been predicted to promote cell adhesion molecule 1 expression by acting as miRNA sponge. 12 Additionally, they analyzed OS-related circRNA profiles ( GSE96964 ) and gene profiles ( GSE36001 , GSE33382 , and GSE42352 ) from the Gene Expression Omnibus database (NCBI, http://www.ncbi.nlm.nih.gov/geo/ ) and predicted that hsa_circ_0032462, hsa_circ_0028173, and hsa_circ_0005909 played important roles in OS. However, the hypothesis needed further experimental proof. In this study, we designed experiments to confirm circRNA-related predictions in OS cell lines. This research will provide additional information on the functional role of circRNAs in OS.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Human OS-derived cell lines, 143B, MG-63, U2OS, SOSP-9607, SJSA-1, and HOS, were purchased from Fu-Heng Cell Center. 143B and MG-63 cells were cultured in Dulbecco’s modified Eagle medium (HyClone) containing 10% fetal bovine serum (FBS; Gibco). All other OS cell lines were cultured in RPMI 1640 medium (Gibco) with 10% FBS (Gibco). Mycoplasma was tested using Venor GeM Mycoplasma Detection Kit (Minerva Biolabs). Normal osteoblastic cell line (hFOB1.19) was obtained from The Cell Bank of Type Culture Collection of the Chinese Academy of Sciences and cultured in Dulbecco’s Medium (Gibco). All cell lines were cultured at 37 °C with 5% CO 2 .
+
+Total RNA was extracted from cell lines using TRIzol reagent (Invitrogen). Subsequently, NanoDrop 2000 (Thermo Fisher Scientific) was used to quantify RNA. Total RNA was treated with RNase R (Epicentre) for 30 minutes at 37 °C at a proportion of 3 units of RNase R for every 1 mg RNA.
+
+Complementary DNAs were synthesized from total RNA by reverse transcription using random priming method (PrimeScript RT Reagent Kit; TaKaRa). Quantitative real-time polymerase chain reaction (PCR) was performed using SYBR Green qPCR Master Mix (Thermo Fisher Scientific). Primers were shown in Table 1 . Gene expressions were normalized to endogenous control of human glyceraldehyde-3-phosphate dehydrogenase expression. Relative expression was calculated using 2 −  △△CT method. 13 
+
+Primers used in Real-Time PCR.
+
+Cell transfection was performed using small interfering RNAs (siRNAs), which were supplied by GenePharma. Transfections were performed using Lipofectamine 2000 (Invitrogen) according to the manufacturer’s instructions.
+
+Osteosarcoma cells were seeded in 6-well plates and were grown to 95% confluency. Using 200 µL pipette tip, a wound was created. Cells were then washed thrice with phosphate-buffered saline. Images were captured 48 hours post-wound. Relative distance of cell migration was measured and the healing percentage was evaluated.
+
+Osteosarcoma cells (3 × 10 5 cells/mL) were suspended in FBS-free cell culture medium containing mitomycin C (2 μg/mL). Cells were seeded in the upper well of polycarbonate transwell insert (Millipore). The membrane was coated with Matrigel (Beyotime Institute of Biotechnology). Furthermore, we added 600 µL of medium with 10% FBS to the lower chamber. After 48 hours, noninvasive cells were removed using a cotton swab, while the outer membrane was fixed and stained.
+
+Statistical analyses were evaluated by GraphPad Prism version 6.0 (GraphPad Software Inc) and SPSS (IBM). 14 One-way analysis of variance test and Student t test were used to evaluate the significant difference. P < .05 was considered to be statistically significant.
+
+
+Cell Lines and Culture
+
+Human OS-derived cell lines, 143B, MG-63, U2OS, SOSP-9607, SJSA-1, and HOS, were purchased from Fu-Heng Cell Center. 143B and MG-63 cells were cultured in Dulbecco’s modified Eagle medium (HyClone) containing 10% fetal bovine serum (FBS; Gibco). All other OS cell lines were cultured in RPMI 1640 medium (Gibco) with 10% FBS (Gibco). Mycoplasma was tested using Venor GeM Mycoplasma Detection Kit (Minerva Biolabs). Normal osteoblastic cell line (hFOB1.19) was obtained from The Cell Bank of Type Culture Collection of the Chinese Academy of Sciences and cultured in Dulbecco’s Medium (Gibco). All cell lines were cultured at 37 °C with 5% CO 2 .
+
+
+RNA Extraction and RNase R Digestion
+
+Total RNA was extracted from cell lines using TRIzol reagent (Invitrogen). Subsequently, NanoDrop 2000 (Thermo Fisher Scientific) was used to quantify RNA. Total RNA was treated with RNase R (Epicentre) for 30 minutes at 37 °C at a proportion of 3 units of RNase R for every 1 mg RNA.
+
+
+Quantitative Real-Time PCR Analysis and RNA Interference
+
+Complementary DNAs were synthesized from total RNA by reverse transcription using random priming method (PrimeScript RT Reagent Kit; TaKaRa). Quantitative real-time polymerase chain reaction (PCR) was performed using SYBR Green qPCR Master Mix (Thermo Fisher Scientific). Primers were shown in Table 1 . Gene expressions were normalized to endogenous control of human glyceraldehyde-3-phosphate dehydrogenase expression. Relative expression was calculated using 2 −  △△CT method. 13 
+
+Primers used in Real-Time PCR.
+
+
+Cell Transfection
+
+Cell transfection was performed using small interfering RNAs (siRNAs), which were supplied by GenePharma. Transfections were performed using Lipofectamine 2000 (Invitrogen) according to the manufacturer’s instructions.
+
+
+Wound Healing Assay
+
+Osteosarcoma cells were seeded in 6-well plates and were grown to 95% confluency. Using 200 µL pipette tip, a wound was created. Cells were then washed thrice with phosphate-buffered saline. Images were captured 48 hours post-wound. Relative distance of cell migration was measured and the healing percentage was evaluated.
+
+
+Migration and Invasion Assay
+
+Osteosarcoma cells (3 × 10 5 cells/mL) were suspended in FBS-free cell culture medium containing mitomycin C (2 μg/mL). Cells were seeded in the upper well of polycarbonate transwell insert (Millipore). The membrane was coated with Matrigel (Beyotime Institute of Biotechnology). Furthermore, we added 600 µL of medium with 10% FBS to the lower chamber. After 48 hours, noninvasive cells were removed using a cotton swab, while the outer membrane was fixed and stained.
+
+
+Statistical Analysis
+
+Statistical analyses were evaluated by GraphPad Prism version 6.0 (GraphPad Software Inc) and SPSS (IBM). 14 One-way analysis of variance test and Student t test were used to evaluate the significant difference. P < .05 was considered to be statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Earlier research has reported that hsa_circ_0032462, hsa_circ_0028173, and hsa_circ_0005909 are highly expressed in OS cells and might be playing important roles in OS progression. Thus, at first, we designed experiments to confirm the expression levels of these circRNAs in OS cell lines. To identify the expression of hsa_circ_0032462, hsa_circ_0028173, and hsa_circ_0005909 in OS cell lines, we cultured several OS cell lines and normal human osteoblastic cell line. Real-time PCR was performed to quantify the circRNA expression level in 143B, MG-63, U2OS, SOSP-9607, SJSA-1, HOS, and normal hFOB1.19 cells. Results showed that hsa_circ_0032462 was highly expressed in all OS cell lines than normal human osteoblastic cell line, hFOB1.19 ( Figure 1A ). On the other hand, hsa_circ_0028173 and hsa_circ_0005909 showed diversity in gene expression pattern. In conclusion, hsa_circ_0032462 was found to be relatively highly expressed in OS cell lines, suggesting its significance in OS.
+
+Expression of circular RNAs in OS cell lines and normal human osteoblastic cell line. Real-time PCR was performed in OS cell lines and human osteoblastic cell line (hFOB1.19). A, Expression of hsa_circ_0032462 was normalized to that of β-actin. B, Expression of hsa_circ_0028173 was normalized to that of β-actin. C, Expression of hsa_circ_0005909 was normalized to that of β-actin. Data are presented as mean ± SD (n = 3). Statistical significance was defined at P < .05 (* P < .05; ** P < .01; *** P < .001). OS indicates osteosarcoma; PCR, polymerase chain reaction.
+
+As results showed that hsa_circ_0032462 was highly expressed in OS cell lines, we investigated the function of circRNA in OS. We constructed hsa_circ_0032462 overexpressing and silenced OS cell lines to investigate the function of hsa_circ_0032462 in OS cells. The efficiency of hsa_circ_0032462 overexpression ( Figure 2A and B ) and silencing ( Figure 2C and D ) was assessed by real-time PCR. At first, we used Cell Counting Kit-8 (CCK8) assay to identify the influence of hsa_circ_0032462 on cell growth. Results showed that hsa_circ_0032462 overexpression promoted cell growth ( Figure 3A and B ), whereas hsa_circ_0032462 silencing was observed to decrease cell growth in OS cells ( Figure 3C and D ). Overall, these findings revealed the momentous role of circ_0032462 in proliferation of OS cells in vitro .
+
+Detection of hsa_circ_0032462 after transfecting OS cells. A, hsa_circ_0032462 overexpression plasmids were transfected in 143B cells. Real-time PCR was performed to confirm the transfection efficiency. B, hsa_circ_0032462 overexpression plasmids were transfected in MG-63 cells. Real-time PCR was performed to confirm the transfection efficiency. C, hsa_circ_0032462 siRNA was transfected in SJSA-1 cells. Real-time PCR was performed to confirm the transfection efficiency. D, hsa_circ_0032462 siRNA was transfected in HOS cells. Real-time PCR was performed to confirm the transfection efficiency. OS indicates osteosarcoma; PCR, polymerase chain reaction; siRNA, small interfering RNA.
+
+hsa_circ_0032462 promotes cell growth in OS cells. A, The CCK8 assay was performed to evaluate cell growth of NC and hsa_circ_0032462-overexpressing 143B cells at day 0, day 2, day 4, and day 6. B, The CCK8 assay was performed to evaluate cell growth of NC and hsa_circ_0032462-overexpressing MG-63 cells at day 0, day 2, day 4, and day 6. C, The CCK8 assay was performed to evaluate cell growth of NC and hsa_circ_0032462-overexpressing SJSA-1 cells at day 0, day 2, day 4, and day 6. D, The CCK8 assay was performed to evaluate cell growth of NC and hsa_circ_0032462-overexpressing HOS cells at day 0, day 2, day 4, and day 6. CCK-8 indicates Cell Counting Kit-8; NC, negative control.
+
+Although surgical techniques and chemotherapies have considerably developed in the past few decades, survival of patients with OS remains substandard. A majority of patients suffer from cancer recurrence due to distant metastasis. Thus, it is utmost urgent to investigate the specific mechanism underlying OS metastasis. We investigated the functional role of hsa_circ_0032462 in metastasis.
+
+We examined metastasis-related functions of hsa_circ_0032462 by performing migration and invasion assay in hsa_circ_0032462 overexpressed or silenced OS cells. Data showed that the overexpression of hsa_circ_0032462 enhanced the migration and invasion ability of 143B and MG-63 OS cells ( Figure 4A and B ). To further confirm the function of hsa_circ_0032462 in promoting metastasis in OS cells, we performed hsa_circ_0032462 knockout experiments. Figure 4C and D depicts that hsa_circ_0032462 silencing was found to weaken the migration and invasion ability of OS cells. In conclusion, results showed that hsa_circ_0032462 can promote OS cell progression including migration and invasion.
+
+hsa_circ_0032462 promotes migration and invasion in OS cells. A, Wound healing assay and Transwell assay were performed in NC and hsa_circ_0032462-overexpressing 143B cells for 48 hours. B, Wound healing assay and Transwell assay were performed in NC and hsa_circ_0032462-overexpressing MG-63 cells for 48 hours. C, Wound healing assay and Transwell assay were performed in NC and siRNA targeting hsa_circ_0032462 (si-hsa_circ_0032462)-expressing SJSA-1 cells for 48 hours. D, Wound healing assay and Transwell assay were performed in NC and si-hsa_circ_0032462-expressing HOS cells for 48 hours. NC indicates negative control; OS, osteosarcoma; siRNA, small interfering RNA.
+
+We designed experiments to investigate the specific mechanism of hsa_circ_0032462-induced OS progression. It has been predicted that hsa_circ_0032462 can regulate various proteins such as protein argonaute-1, kinesin family member 3B (KIF3B), ataxin 7, charged multivesicular body protein 7, F-box/SPRY domain-containing protein 1, and apoptotic protease-activating factor 1. 12 Kinesin family member 3B is one of the most commonly expressed KIFs. In addition, KIF3 is composed of KIF3A/3B heterodimer and kinesin-associated protein 3 (KAP3). 15 As a member of KIF3 subfamily, KIF3B has been reported to play an important function in vesicular transport and membrane expansion. 15 Moreover, adenomatous polyposis coli (APC) protein has been shown to be transported by KIF complex before regulating cell migration. 16 
+
+We investigated whether hsa_circ_0032462 can regulate KIF3B expression. At first, we transfected 143B and MG-63 OS cells with increasing dose of hsa_circ_0032462 and examined KIF3B expression level. Real-time PCR showed that in 143B cells, messenger RNA (mRNA) and protein expression level of KIF3B increased with increase in hsa_circ_0032462 expression ( Figure 5A and C ). Similar results were obtained with MG-63 cells ( Figure 5B and D ). Furthermore, we found that hsa_circ_0032462-induced KIF3B upregulation at mRNA ( Figure 6A ) and protein ( Figure 6C ) level was hindered on hsa_circ_0032462 silencing. Subsequently, on reexpressing hsa_circ_0032462, KIF3B expression was observed to recover from hsa_circ_0032462 silencing-induced downregulation ( Figure 6B and D ). Overall, we concluded that hsa_circ_0032462 can enhance KIF3B expression at mRNA as well as protein level.
+
+Increase in hsa_circ_0032462 expression enhances KIF3B expression at mRNA and protein level. A, Different doses of hsa_circ_0032462 overexpression plasmids were transfected in 143B cells. After 48 hours, mRNA expression level of hsa_circ_0032462 was detected by real-time PCR. B, Different doses of hsa_circ_0032462 overexpression plasmids were transfected in MG-63 cells. After 48 hours, mRNA expression level of hsa_circ_0032462 was detected by real-time PCR. C, Different doses of hsa_circ_0032462 overexpression plasmids were transfected in 143B cells. After 48 hours, protein expression level of hsa_circ_0032462 was detected by Western blotting. D, Different doses of hsa_circ_0032462 overexpression plasmids were transfected in MG-63 cells. After 48 hours, protein expression level of hsa_circ_0032462 was detected by Western blotting. KIF3B indicates kinesin family member 3B; mRNA, messenger RNA; PCR, polymerase chain reaction.
+
+hsa_circ_0032462 specifically regulates KIF3B expression. A, hsa_circ_0032462 silencing was performed in hsa_circ_0032462 overexpressing 143B cells. The KIF3B mRNA expression level was detected by real-time PCR. B, We transfected hsa_circ_0032462 overexpression plasmids in hsa_circ_0032462-silenced SJSA-1 cells. The KIF3B mRNA expression level was detected by real-time PCR. C, hsa_circ_0032462 silencing was performed in hsa_circ_0032462-overexpressing 143B cells. KIF3B expression level was detected by Western blotting. D, We transfected hsa_circ_0032462 overexpression plasmids in hsa_circ_0032462-silenced SJSA-1 cells. The KIF3B expression level was detected by Western blotting. KIF3B indicates kinesin family member 3B; mRNA, messenger RNA; PCR, polymerase chain reaction.
+
+As hsa_circ_0032462 was found to regulate KIF3B expression, we designed experiments to confirm whether KIF3B was responsible for promoting hsa_circ_0032462-induced OS progression. We transfected hsa_circ_0032462-overexpressing 143B cells with negative control siRNA (si-NC) or siRNA targeting KIF3B (si-KIF3B). The KIF3B knockout was found to inhibit hsa_circ_0032462 overexpression-induced enhanced cell growth and metastasis ( Figure 7A and C ). Conversely, we found that on overexpressing KIF3B, cell growth and metastatic activity was revived from hsa_circ_0032462 silencing-induced reduction ( Figure 7B and D ). Overall, our results showed that KIF3B expression was responsible for hsa_circ_0032462-induced enhancement in OS progression.
+
+Kinesin family member 3B is responsible for hsa_circ_0032462-induced OS cell progression. A, The KIF3B silencing was achieved in hsa_circ_0032462-overexpressing 143B cells. The CCK8 assay was performed to evaluate cell growth at different time points. B, KIF3B overexpression was achieved in si-hsa_circ_0032462-expressing SJSA-1 cells. The CCK8 assay was performed to evaluate cell growth at different time points. C, The KIF3B silencing was achieved in hsa_circ_0032462-overexpressing 143B cells. Migration and invasion abilities were detected at 48 hours after transfection. D, Overexpression of KIF3B was achieved in hsa_circ_0032462-silenced SJSA-1 cells. Migration and invasion abilities were detected at 48 hours after transfection. CCK-8, Cell Counting Kit-8; KIF3B, kinesin family member 3B.
+
+
+hsa_circ_0032462 Is Relatively Highly Expressed in OS Cell Lines
+
+Earlier research has reported that hsa_circ_0032462, hsa_circ_0028173, and hsa_circ_0005909 are highly expressed in OS cells and might be playing important roles in OS progression. Thus, at first, we designed experiments to confirm the expression levels of these circRNAs in OS cell lines. To identify the expression of hsa_circ_0032462, hsa_circ_0028173, and hsa_circ_0005909 in OS cell lines, we cultured several OS cell lines and normal human osteoblastic cell line. Real-time PCR was performed to quantify the circRNA expression level in 143B, MG-63, U2OS, SOSP-9607, SJSA-1, HOS, and normal hFOB1.19 cells. Results showed that hsa_circ_0032462 was highly expressed in all OS cell lines than normal human osteoblastic cell line, hFOB1.19 ( Figure 1A ). On the other hand, hsa_circ_0028173 and hsa_circ_0005909 showed diversity in gene expression pattern. In conclusion, hsa_circ_0032462 was found to be relatively highly expressed in OS cell lines, suggesting its significance in OS.
+
+Expression of circular RNAs in OS cell lines and normal human osteoblastic cell line. Real-time PCR was performed in OS cell lines and human osteoblastic cell line (hFOB1.19). A, Expression of hsa_circ_0032462 was normalized to that of β-actin. B, Expression of hsa_circ_0028173 was normalized to that of β-actin. C, Expression of hsa_circ_0005909 was normalized to that of β-actin. Data are presented as mean ± SD (n = 3). Statistical significance was defined at P < .05 (* P < .05; ** P < .01; *** P < .001). OS indicates osteosarcoma; PCR, polymerase chain reaction.
+
+
+hsa_circ_0032462 Promotes Proliferation in OS Cells
+
+As results showed that hsa_circ_0032462 was highly expressed in OS cell lines, we investigated the function of circRNA in OS. We constructed hsa_circ_0032462 overexpressing and silenced OS cell lines to investigate the function of hsa_circ_0032462 in OS cells. The efficiency of hsa_circ_0032462 overexpression ( Figure 2A and B ) and silencing ( Figure 2C and D ) was assessed by real-time PCR. At first, we used Cell Counting Kit-8 (CCK8) assay to identify the influence of hsa_circ_0032462 on cell growth. Results showed that hsa_circ_0032462 overexpression promoted cell growth ( Figure 3A and B ), whereas hsa_circ_0032462 silencing was observed to decrease cell growth in OS cells ( Figure 3C and D ). Overall, these findings revealed the momentous role of circ_0032462 in proliferation of OS cells in vitro .
+
+Detection of hsa_circ_0032462 after transfecting OS cells. A, hsa_circ_0032462 overexpression plasmids were transfected in 143B cells. Real-time PCR was performed to confirm the transfection efficiency. B, hsa_circ_0032462 overexpression plasmids were transfected in MG-63 cells. Real-time PCR was performed to confirm the transfection efficiency. C, hsa_circ_0032462 siRNA was transfected in SJSA-1 cells. Real-time PCR was performed to confirm the transfection efficiency. D, hsa_circ_0032462 siRNA was transfected in HOS cells. Real-time PCR was performed to confirm the transfection efficiency. OS indicates osteosarcoma; PCR, polymerase chain reaction; siRNA, small interfering RNA.
+
+hsa_circ_0032462 promotes cell growth in OS cells. A, The CCK8 assay was performed to evaluate cell growth of NC and hsa_circ_0032462-overexpressing 143B cells at day 0, day 2, day 4, and day 6. B, The CCK8 assay was performed to evaluate cell growth of NC and hsa_circ_0032462-overexpressing MG-63 cells at day 0, day 2, day 4, and day 6. C, The CCK8 assay was performed to evaluate cell growth of NC and hsa_circ_0032462-overexpressing SJSA-1 cells at day 0, day 2, day 4, and day 6. D, The CCK8 assay was performed to evaluate cell growth of NC and hsa_circ_0032462-overexpressing HOS cells at day 0, day 2, day 4, and day 6. CCK-8 indicates Cell Counting Kit-8; NC, negative control.
+
+
+hsa_circ_0032462 Promotes Migration and Invasion in OS Cells
+
+Although surgical techniques and chemotherapies have considerably developed in the past few decades, survival of patients with OS remains substandard. A majority of patients suffer from cancer recurrence due to distant metastasis. Thus, it is utmost urgent to investigate the specific mechanism underlying OS metastasis. We investigated the functional role of hsa_circ_0032462 in metastasis.
+
+We examined metastasis-related functions of hsa_circ_0032462 by performing migration and invasion assay in hsa_circ_0032462 overexpressed or silenced OS cells. Data showed that the overexpression of hsa_circ_0032462 enhanced the migration and invasion ability of 143B and MG-63 OS cells ( Figure 4A and B ). To further confirm the function of hsa_circ_0032462 in promoting metastasis in OS cells, we performed hsa_circ_0032462 knockout experiments. Figure 4C and D depicts that hsa_circ_0032462 silencing was found to weaken the migration and invasion ability of OS cells. In conclusion, results showed that hsa_circ_0032462 can promote OS cell progression including migration and invasion.
+
+hsa_circ_0032462 promotes migration and invasion in OS cells. A, Wound healing assay and Transwell assay were performed in NC and hsa_circ_0032462-overexpressing 143B cells for 48 hours. B, Wound healing assay and Transwell assay were performed in NC and hsa_circ_0032462-overexpressing MG-63 cells for 48 hours. C, Wound healing assay and Transwell assay were performed in NC and siRNA targeting hsa_circ_0032462 (si-hsa_circ_0032462)-expressing SJSA-1 cells for 48 hours. D, Wound healing assay and Transwell assay were performed in NC and si-hsa_circ_0032462-expressing HOS cells for 48 hours. NC indicates negative control; OS, osteosarcoma; siRNA, small interfering RNA.
+
+
+Kinesin Family Member 3B Is Upregulated by hsa_circ_0032462
+
+We designed experiments to investigate the specific mechanism of hsa_circ_0032462-induced OS progression. It has been predicted that hsa_circ_0032462 can regulate various proteins such as protein argonaute-1, kinesin family member 3B (KIF3B), ataxin 7, charged multivesicular body protein 7, F-box/SPRY domain-containing protein 1, and apoptotic protease-activating factor 1. 12 Kinesin family member 3B is one of the most commonly expressed KIFs. In addition, KIF3 is composed of KIF3A/3B heterodimer and kinesin-associated protein 3 (KAP3). 15 As a member of KIF3 subfamily, KIF3B has been reported to play an important function in vesicular transport and membrane expansion. 15 Moreover, adenomatous polyposis coli (APC) protein has been shown to be transported by KIF complex before regulating cell migration. 16 
+
+We investigated whether hsa_circ_0032462 can regulate KIF3B expression. At first, we transfected 143B and MG-63 OS cells with increasing dose of hsa_circ_0032462 and examined KIF3B expression level. Real-time PCR showed that in 143B cells, messenger RNA (mRNA) and protein expression level of KIF3B increased with increase in hsa_circ_0032462 expression ( Figure 5A and C ). Similar results were obtained with MG-63 cells ( Figure 5B and D ). Furthermore, we found that hsa_circ_0032462-induced KIF3B upregulation at mRNA ( Figure 6A ) and protein ( Figure 6C ) level was hindered on hsa_circ_0032462 silencing. Subsequently, on reexpressing hsa_circ_0032462, KIF3B expression was observed to recover from hsa_circ_0032462 silencing-induced downregulation ( Figure 6B and D ). Overall, we concluded that hsa_circ_0032462 can enhance KIF3B expression at mRNA as well as protein level.
+
+Increase in hsa_circ_0032462 expression enhances KIF3B expression at mRNA and protein level. A, Different doses of hsa_circ_0032462 overexpression plasmids were transfected in 143B cells. After 48 hours, mRNA expression level of hsa_circ_0032462 was detected by real-time PCR. B, Different doses of hsa_circ_0032462 overexpression plasmids were transfected in MG-63 cells. After 48 hours, mRNA expression level of hsa_circ_0032462 was detected by real-time PCR. C, Different doses of hsa_circ_0032462 overexpression plasmids were transfected in 143B cells. After 48 hours, protein expression level of hsa_circ_0032462 was detected by Western blotting. D, Different doses of hsa_circ_0032462 overexpression plasmids were transfected in MG-63 cells. After 48 hours, protein expression level of hsa_circ_0032462 was detected by Western blotting. KIF3B indicates kinesin family member 3B; mRNA, messenger RNA; PCR, polymerase chain reaction.
+
+hsa_circ_0032462 specifically regulates KIF3B expression. A, hsa_circ_0032462 silencing was performed in hsa_circ_0032462 overexpressing 143B cells. The KIF3B mRNA expression level was detected by real-time PCR. B, We transfected hsa_circ_0032462 overexpression plasmids in hsa_circ_0032462-silenced SJSA-1 cells. The KIF3B mRNA expression level was detected by real-time PCR. C, hsa_circ_0032462 silencing was performed in hsa_circ_0032462-overexpressing 143B cells. KIF3B expression level was detected by Western blotting. D, We transfected hsa_circ_0032462 overexpression plasmids in hsa_circ_0032462-silenced SJSA-1 cells. The KIF3B expression level was detected by Western blotting. KIF3B indicates kinesin family member 3B; mRNA, messenger RNA; PCR, polymerase chain reaction.
+
+
+
+
+
+As hsa_circ_0032462 was found to regulate KIF3B expression, we designed experiments to confirm whether KIF3B was responsible for promoting hsa_circ_0032462-induced OS progression. We transfected hsa_circ_0032462-overexpressing 143B cells with negative control siRNA (si-NC) or siRNA targeting KIF3B (si-KIF3B). The KIF3B knockout was found to inhibit hsa_circ_0032462 overexpression-induced enhanced cell growth and metastasis ( Figure 7A and C ). Conversely, we found that on overexpressing KIF3B, cell growth and metastatic activity was revived from hsa_circ_0032462 silencing-induced reduction ( Figure 7B and D ). Overall, our results showed that KIF3B expression was responsible for hsa_circ_0032462-induced enhancement in OS progression.
+
+Kinesin family member 3B is responsible for hsa_circ_0032462-induced OS cell progression. A, The KIF3B silencing was achieved in hsa_circ_0032462-overexpressing 143B cells. The CCK8 assay was performed to evaluate cell growth at different time points. B, KIF3B overexpression was achieved in si-hsa_circ_0032462-expressing SJSA-1 cells. The CCK8 assay was performed to evaluate cell growth at different time points. C, The KIF3B silencing was achieved in hsa_circ_0032462-overexpressing 143B cells. Migration and invasion abilities were detected at 48 hours after transfection. D, Overexpression of KIF3B was achieved in hsa_circ_0032462-silenced SJSA-1 cells. Migration and invasion abilities were detected at 48 hours after transfection. CCK-8, Cell Counting Kit-8; KIF3B, kinesin family member 3B.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In recent years, an increasing number of circRNAs have been discovered due to the development of next-generation sequencing methods and gene chip technology. 17 Owing to special characteristics such as sturdy construction, cell-specific expression, and conservation across species, circRNAs have been reported to play important roles in various cellular functions. 18 , 19 However, there are many questions, which are still unexplored. Our present study confirmed the predictions of previous report that hsa_circ_0032462 is highly expressed in OS and has specific roles. 12 
+
+In this study, we detected the expression of hsa_circ_0032462, hsa_circ_0028173, and hsa_circ_0005909 in 143B, MG-63, U2OS, SOSP-9607, SJSA-1, HOS, and hHOB1.19 cells. We found that hsa_circ_0032462 was highly expressed in OS cell lines compared to its expression in normal osteoblastic cells. To determine the functional role of hsa_circ_0032462 in OS cells, we overexpressed hsa_circ_0032462 in 143B and MG-63 cells, which were found to have relatively low hsa_circ_0032462 expression. In addition, we silenced hsa_circ_0032462 in SJSA-1 and HOB cells, which were observed to have high hsa_circ_0032462 expression. Furthermore, CCK8 assays were used to evaluate the growth rate of different OS cells. Results showed that the overexpression of hsa_circ_0032462 promoted cell growth in OS cells ( Figure 3A and B ), whereas hsa_circ_0032462 silencing reduced cellular growth rate ( Figure 3C and D ). Additionally, we performed migration and invasion assay to detect the metastatic ability of OS cells. hsa_circ_0032462 overexpression was found to enhance the migration and invasion ability of OS cells ( Figure 4A and B ), whereas hsa_circ_0032462 silencing was observed to deteriorate the metastasis ability of OS cells ( Figure 4C and D ).
+
+Further study showed that hsa_circ_0032462 overexpression upregulated KIF3B expression at mRNA and protein level, whereas on silencing hsa_circ_0032462, KIF3B expression was downregulated ( Figures 5 and 6 ). Kinesin family member 3B belongs to KIF superfamily, which is known to be one of the motor proteins dependent on microtubule. Kinesin family member 3B transports intracellular molecules along microtubules by consuming adenosine triphosphate. 20 , 21 Kinesin family members have been reported to play important functions in a number of cellular processes such as transporting macromolecules, mitosis, chromosome translocation, gene deletion, and carcinogenesis. 15 , 22 
+
+Kinesin family member 3 is widely expressed, which composes of KAP3 and KIF3A/3B. As a member of KIF3 subfamily, KIF3B includes several molecular motors and plays critical roles in the expansion of membrane and transport of vesicular. 23 , 24 It has been reported that KIF complex regulates cell migration by transporting APC protein. All relevant studies have associated the role of KIF3B in carcinogenesis. However, the function of KIF3B has not yet been elucidated in OS.
+
+Subsequently, this study revealed that hsa_circ_0032462 can upregulate the mRNA and protein expression level of KIF3B. Additionally, we investigated whether KIF3B was responsible for hsa_circ_0032462-induced OS progression by performing detailed experiments. Moreover, we found that KIF3B knockout can inhibit hsa_circ_0032462-induced enhanced OS progression, whereas KIF3B overexpression can revive inhibited OS progression, which is induced on hsa_circ_0032462 silencing.
+
+In our present research, we first confirmed the elevated expression of hsa_circ_0032462 in OS cells. Subsequently, we revealed that hsa_circ_0032462 can promote OS progression by regulating KIF3B expression. In conclusion, our study proves that KIF3B plays a critical role in hsa_circ_0032462-induced OS carcinogenesis by regulating cell proliferation, migration, and invasion. We suggest that hsa_circ_0032462/KIF3B can serve as a novel biomarker and chemotherapeutic target for OS.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

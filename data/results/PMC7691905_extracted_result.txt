@@ -1,0 +1,19 @@
+Source: PMC7691905_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "LINC01018 and SMIM25 sponged miR-182-5p in endometriosis revealed by the ceRNA network construction",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical data including paired EC and EU endometrium tissue samples were collected.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

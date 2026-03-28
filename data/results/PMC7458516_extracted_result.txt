@@ -1,0 +1,19 @@
+Source: PMC7458516_extracted.txt
+Recommendation: ✅ RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Expression of FOXM1 and Aurora-A predicts prognosis and sorafenib efficacy in patients with hepatocellular carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical variables including age, gender, TNM stage, and grade were collected for all patients.",
+  "N_E": 1,
+  "N_E_reason": "A total of 341 patients in the TCGA dataset were included in the analysis.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data downloaded from TCGA Liver Cancer (LIHC) level 3 processed mRNA expression data.",
+  "intervention_E": 1,
+  "intervention_E_reason": "The study evaluates sorafenib treatment in HCC patients.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "Overall survival (OS) and recurrence-free survival (RFS) were estimated for sorafenib-treated patients.",
+  "R_criteria_E": 1,
+  "R_criteria_E_reason": "Patients were classified based on FOXM1 and Aurora-A expression levels affecting survival outcomes."
+}

@@ -1,0 +1,19 @@
+Source: PMC7734488_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Screening and Discovery of New Potential Biomarkers and Small Molecule Drugs for Cervical Cancer: A Bioinformatics Analysis",
+  "condition_E": 1,
+  "condition_E_reason": "The datasets include cervical Squamous cancer specimens of different stages and different HPV infection status.",
+  "N_E": 1,
+  "N_E_reason": "The GSE63514 dataset consisted of 28 CC cervical tissue samples and 24 healthy cervical tissue samples; GSE9750 dataset consisted of 33 CC cervical tissue samples and 24 healthy tissue samples; GSE7803 included 21 CC cervical tissue samples and 10 healthy cervical tissue samples.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data available in GEO with datasets GSE63514, GSE9750, and GSE7803.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

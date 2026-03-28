@@ -1,0 +1,60 @@
+================================================================================
+ARTICLE TITLE: Older breast cancer undertreatment: unconscious bias to undertreat—potential role for the international geriatric radiotherapy group?
+PMCID: PMC8798381
+PMID: 35117966
+KEYWORDS: elderly, breast cancer, undertreatment, discrimination
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+The prevalence of breast cancer increases with age. Older breast cancer patients often present with locally advanced disease at presentation because mammography, which diagnosed early stage disease, is not recommended after the age of 75. In addition, they are often undertreated even when they are physically fit and have non-metastatic disease. As a result, survival is often poor. Physicians bias may be a factor in their undertreatment and lack of representation in prospective clinical trials. Physicians should be educated that chronological age is not a contraindication to curative treatment for older breast cancer patients. As a research group devoted to older cancer patients, women, and minorities, the International Geriatric Radiotherapy Group (IGRG) plans to conduct prospective trials to assess biomarkers for frailty, the controversial issue of mammography for older breast cancer patients, and the incorporation of frailty index for curative breast cancer treatment. The data obtained may help to decrease physician bias and to establish future guidelines for older breast cancer patients treatment.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+The prevalence of breast cancer increases with age. It is estimated that 67% of breast cancer will develop in women 65 years and older ( 1 ). Older breast cancer tumor biology is often slow growing with a good molecular profile including the expression of estrogen (ER) and progesterone (PR) receptors ( 2 ). Thus, if diagnosed early and if treated properly, older breast cancer patients should have comparable or better survival compared to younger patients with a more aggressive tumor biology ( 3 ). However, most studies on older breast cancer patients reported a poorer outcome compared to younger patients ( 4 - 6 ). The management of older breast cancer patient is complex. Older patients tend to have multiple co-morbidity with advanced age which may preclude curative treatment or may have contributed to their poor survival ( 7 - 9 ). On the other hand, physically fit individuals who have localized disease may have a poor survival if they are not treated properly and/or cancer diagnosis is delayed until the disease is locally advanced or metastatic. Undertreatment of older patients with breast cancer has been reported in many studies and may have contributed to their low survival rates ( 10 - 17 ). Omission of surgery, sentinel lymph node dissection, radiotherapy, and adjuvant chemotherapy are frequently reported among older breast cancer patients ( 14 - 17 ). Physicians attitude in the management of older breast cancer patients which may be perceived as discrimination has been implicated as one of the potential cause for their substandard treatment ( 18 , 19 ).
+
+Thus, an understanding of the factors which may influence physicians management of older breast cancer patients may potentially improve their care and may provide guidelines to help the clinicians involved in their care. As an international research group devoted to the care of older people, minorities and women with cancer, the International Geriatric Radiotherapy Group (IGRG) ( http://www.igrg.org ) may play a potential role to solve those issues.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Older breast cancer patients face discrimination because of their chronological age. Current policy of cancer screening does not encourage mammography after the age of 75. Older breast cancer patients are frequently excluded from current clinical prospective trials and are undertreated subsequently leading to a poor survival. Physicians bias may play a role in the undertreatment of this patient population. Physicians need to be educated that chronological age is not a contraindication to curative treatment. The IGRG plans to conduct prospective studies in the future to improve the quality of care of older breast cancer patients.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

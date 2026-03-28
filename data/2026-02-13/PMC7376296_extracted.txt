@@ -1,0 +1,434 @@
+================================================================================
+ARTICLE TITLE: Complementary Medicine Use and Uptake of Cancer Screening Among US
+Adults: A Nationally Representative Cross-Sectional Survey
+PMCID: PMC7376296
+PMID: 32697118
+KEYWORDS: cancer screening, complementary therapies, mind-body therapies, health survey
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Background: Cancer screenings can considerably reduce cancer
+mortality. There is limited information on the association between complementary
+medicine use and adherence to recommended cancer screenings. In this study, the
+potential associations between uptake of cancer screening and consultations with
+complementary medicine practitioners or mind-body medicine use are examined. Methods: This is a cross-sectional analysis of the 2017
+National Health Interview Survey of a population-based sample (n = 26 742;
+response rate = 80.7%). Age- and sex-related risk groups for breast cancer
+(women 45 years and older), cervical cancer (women 21 years and older), and
+colorectal cancer (45 to 85 years) were analyzed in 2018. Prevalence of
+complementary medicine use in the past 12 months as well as prevalence of cancer
+screening uptake in the past 12 months were calculated. Results: At
+least one complementary medicine approach was used by 32.4% of participants.
+Controlling for sociodemographic and clinical variables, individuals who
+consulted a chiropractor or naturopath or who used mind-body medicine approaches
+were more likely to take up Pap smear test (odds ratio = 1.20-1.35), mammography
+(odds ratio = 1.22-1.38), and/or colorectal cancer screening (odds ratio =
+1.18-1.37). Those consulting a homeopath were more likely to take up Pap smear
+test (odds ratio = 1.33). No association was found between consultations of
+practitioners of chelation therapy or traditional medicine and cancer screening
+uptake. Conclusion: Complementary medicine use seems to be
+associated with a better adherence to cancer screening. Individuals who
+consulted a chiropractor or naturopath or who used mind-body medicine approaches
+were more likely to take up the recommended screening.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Cancer is a frequent disorder globally with a cumulative risk of 21.4% of developing
+cancer and 17.7% of them dying from cancer before the age of 75 years. 1 To tackle this important health care issue, the American Cancer Society (ACS)
+develops guidelines for cancer screenings. Screenings can have a considerable
+influence on cancer incidence and mortality. For breast cancer, the most common
+cancer in women, 1 the ACS gives a “strong recommendation that average-risk women aged 45 years
+and older should undergo regular mammography screening and a qualified
+recommendation that women aged 40 to 44 years should have an opportunity to begin
+screening before age 45 years.” 2 The screening is recommended annually to women younger than 55 years and
+annually to biennially for women older than 55 years. Concerning the effectiveness
+of such actions, a review of European studies concluded mammography screening
+programs reduce breast cancer mortality by 26% among women invited for screening and
+followed-up for 6 to 11 years. 3
+
+Another common cancer is colorectal cancer with an estimated 1.8 million new cancer
+cases and 881 000 deaths worldwide in 2018. 1 The ACS gives a strong recommendation for adults aged 50 years and older to
+undergo regular screening with either a high-sensitivity stool-based test or a
+structural visual examination and a qualified recommendation to start screening at
+age 45 years and to stop at age 85 years. 2 The above-mentioned tests are recommended annually, a flexible sigmoidoscopy
+every 5 years, and a colonoscopy every 10 years. It is estimated that 39 700
+additional colorectal cancer cases and 37 200 deaths will be prevented through 2030
+if screening prevalence remains at the 2015 level. 4
+
+The fourth leading cause of cancer death in women is cervical cancer. 1 The ACS recommends the screening for cervical cancer beginning at age 21
+years by screening with cytology alone every 3 years up until 29 years of age, and
+between 30 and 65 years testing every 5 years with both the human papillomavirus
+test and cytology is recommended. 2 Since introducing the Papanicolaou (Pap) test the incidence rates and
+mortality rates of cervical cancer have declined and continue to decline. 5 A study by Landy et al 6 in 2016 estimated that in England screening prevents 70% of cervical cancer
+deaths and that 83% could be prevented if screening would be attended by everyone
+aged 25 to 79 years on a regular basis.
+
+Considering the positive effects of screening for cancer it is crucial to study which
+variables influence the willingness of individuals to get screened. There is
+contradicting evidence concerning the association between the use of complementary
+medicine and cancer screening uptake. In the National Cancer Institute Dictionary of
+Cancer Terms complementary medicine is defined as nonstandard treatments “that are
+used along with standard treatments, but are not considered standard.” 7 Alternative medicine is defined as nonstandard treatments “that are used
+instead of standard treatments.” 8 While such nonstandard treatments are used by more than 1 in 3 cancer
+patients in the United States, 9 only 0.01% of cancer patients in a recent analysis of the National Cancer
+Database used those approaches instead of standard treatments. 10 Given this negligible proportion of alternative medicine users, we will use
+the term “complementary medicine” for the whole group of nonstandard treatments.
+Using complementary medicine approaches in conjunction with conventional medicine
+seems to be associated with increased rates of breast cancer early detection, while
+the use of such approaches instead of conventional medicine, that is, alternative
+medicine use, seems to be associated with a decrease in breast cancer screening rates. 11 Beyond that, the type of complementary medicine use seems to play a role in
+cancer screening behavior: in an Australian sample of women aged 62 to 67 years,
+consulting of a complementary medicine practitioner was associated with clinical
+skin examination, clinical breast examination, and colorectal screening.
+Fascinatingly, depending on which type of complementary medicine practitioner was
+consulted it was either associated with being more likely to uptake mammography
+(massage therapist or chiropractor) or less likely to uptake mammography
+(naturopath/herbalist, acupuncturist, or “other” alternative health practitioner). 12
+
+The literature thus shows there is contradicting evidence concerning the use of
+complementary medicine and the screening behavior. Therefore, the purpose of this
+analysis is to study a large representative sample of the US population to examine
+possible associations between cancer screenings and consultations with a
+complementary medicine practitioner or mind-body medicine use.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+In 2018, we analyzed data from the 2017 National Health Interview Survey (NHIS),
+a nationally representative survey of the noninstitutionalized US population
+conducted in 2017 by the National Center for Health Statistics (NCHS). NCHS
+Research Ethics Review Board approved NHIS data collection. The protocol was
+approved by the NCHS Ethics Review Board on June 12, 2015 (Protocol #2015-08).
+All participants provided informed consent to participate. More information on
+survey composition, sampling strategy, and administration of the NHIS is
+provided by the Centers for Disease Control and Prevention. 13 , 14 The
+current analysis used data from the NHIS Family File, NHIS Person File, and NHIS
+Sample Adult File, including data on consultations with complementary medicine
+practitioners in the past 12 months, specifically on consultations with
+chiropractors, naturopaths, practitioners of chelation therapy, practitioners of
+traditional medicine, and/or homeopaths; and on mind-body medicine approaches in
+the past 12 months, specifically on the use of mantra meditation, mindfulness
+meditation, spiritual meditation, guided imagery, progressive relaxation, yoga,
+tai chi, and qi gong. Furthermore, data on prior cancer diagnoses and on
+sociodemographic characteristics such as age, sex, ethnicity, region, marital
+status, education, employment, and health insurance coverage were used.
+
+Population-based estimates were calculated using weights calibrated to the 2010
+census-based population. Prevalence of complementary medicine use in the past 12
+months was calculated for any complementary medicine modality, consultations
+with chiropractors, naturopaths, practitioners of chelation therapy,
+practitioners of traditional medicine, and/or homeopaths, and/or use of
+mind-body medicine (at least one of the above-mentioned mind-body medicine
+modalities); as well as for cancer screening uptake in the past 12 months: Pap
+smear test, mammography, and/or colon cancer screening (including blood stool
+tests, colonoscopy, and sigmoidoscopy). Separate analyses were conducted for the
+age- and sex-related respective risk groups for breast cancer (women 40 years
+and older), cervical cancer (women 21 years and older), and colorectal cancer
+(individuals from 45 to 85 years).
+
+Independent predictors of cancer screening uptake in the past 12 months were
+identified by multiple logistic regression analysis using relative weights. The
+relevant predictors included consultations with a complementary medicine
+practitioner or using mind-body medicine in the past 12 months. For each
+complementary medicine modality and each cancer screening behavior, an analysis
+controlling for the following potential sociodemographic and clinical
+confounders was conducted: age (categories: 18-29, 30-39, 40-49, 50-64, 65 years
+or older), ethnicity (categories: non-Hispanic White, Hispanic, African
+American, Asian, other), region (categories: west, northeast, midwest, south),
+marital status (categories: not in relationship; in relationship), education
+(categories: less than college; some college or more), employment (categories:
+employed; unemployed), prior cancer diagnosis (categories: prior diagnosis; no
+prior diagnosis), and health insurance coverage (categories: coverage; no
+coverage). Analyses on colorectal cancer screening additionally controlled for
+sex (categories: female, male), while analyses on Pap smear and mammography were
+limited to female participants. Adjusted odds ratios with 95% confidence
+intervals were computed; P values of ≤.05 were considered
+statistically significant in regression analysis. All statistical analyses were
+performed using the Statistical Package for Social Sciences (IBM SPSS Statistics
+for Windows, release 25.0. IBM Corp).
+
+
+Study Design
+
+In 2018, we analyzed data from the 2017 National Health Interview Survey (NHIS),
+a nationally representative survey of the noninstitutionalized US population
+conducted in 2017 by the National Center for Health Statistics (NCHS). NCHS
+Research Ethics Review Board approved NHIS data collection. The protocol was
+approved by the NCHS Ethics Review Board on June 12, 2015 (Protocol #2015-08).
+All participants provided informed consent to participate. More information on
+survey composition, sampling strategy, and administration of the NHIS is
+provided by the Centers for Disease Control and Prevention. 13 , 14 The
+current analysis used data from the NHIS Family File, NHIS Person File, and NHIS
+Sample Adult File, including data on consultations with complementary medicine
+practitioners in the past 12 months, specifically on consultations with
+chiropractors, naturopaths, practitioners of chelation therapy, practitioners of
+traditional medicine, and/or homeopaths; and on mind-body medicine approaches in
+the past 12 months, specifically on the use of mantra meditation, mindfulness
+meditation, spiritual meditation, guided imagery, progressive relaxation, yoga,
+tai chi, and qi gong. Furthermore, data on prior cancer diagnoses and on
+sociodemographic characteristics such as age, sex, ethnicity, region, marital
+status, education, employment, and health insurance coverage were used.
+
+
+Statistical Analysis
+
+Population-based estimates were calculated using weights calibrated to the 2010
+census-based population. Prevalence of complementary medicine use in the past 12
+months was calculated for any complementary medicine modality, consultations
+with chiropractors, naturopaths, practitioners of chelation therapy,
+practitioners of traditional medicine, and/or homeopaths, and/or use of
+mind-body medicine (at least one of the above-mentioned mind-body medicine
+modalities); as well as for cancer screening uptake in the past 12 months: Pap
+smear test, mammography, and/or colon cancer screening (including blood stool
+tests, colonoscopy, and sigmoidoscopy). Separate analyses were conducted for the
+age- and sex-related respective risk groups for breast cancer (women 40 years
+and older), cervical cancer (women 21 years and older), and colorectal cancer
+(individuals from 45 to 85 years).
+
+Independent predictors of cancer screening uptake in the past 12 months were
+identified by multiple logistic regression analysis using relative weights. The
+relevant predictors included consultations with a complementary medicine
+practitioner or using mind-body medicine in the past 12 months. For each
+complementary medicine modality and each cancer screening behavior, an analysis
+controlling for the following potential sociodemographic and clinical
+confounders was conducted: age (categories: 18-29, 30-39, 40-49, 50-64, 65 years
+or older), ethnicity (categories: non-Hispanic White, Hispanic, African
+American, Asian, other), region (categories: west, northeast, midwest, south),
+marital status (categories: not in relationship; in relationship), education
+(categories: less than college; some college or more), employment (categories:
+employed; unemployed), prior cancer diagnosis (categories: prior diagnosis; no
+prior diagnosis), and health insurance coverage (categories: coverage; no
+coverage). Analyses on colorectal cancer screening additionally controlled for
+sex (categories: female, male), while analyses on Pap smear and mammography were
+limited to female participants. Adjusted odds ratios with 95% confidence
+intervals were computed; P values of ≤.05 were considered
+statistically significant in regression analysis. All statistical analyses were
+performed using the Statistical Package for Social Sciences (IBM SPSS Statistics
+for Windows, release 25.0. IBM Corp).
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The survey included a total of 32 617 households, and 26 742 adults provided data
+(response rate = 80.7%), which were representative for a weighted total of 246 657
+271 US adults. At least one complementary medicine approach was used by 32.4% of
+participants in the past 12 months; 10.2%, 1.6%, 0.1%, 0.5%, and 1.5% of respondents
+consulted a chiropractor, a naturopath, a practitioner of chelation therapy, a
+practitioner of traditional medicine, and a homeopath in the past 12 months,
+respectively. A further 23.6% used mind-body medicine in the past 12 months.
+
+Among the respective risk group for colon cancer (n = 14 422), 22.1% underwent colon
+cancer screening in the past 12 months. Of those who had used any complementary
+medicine, 24.2% underwent colon cancer screening compared with 21.2% of those who
+had not used any complementary medicine.
+
+Among the respective risk group for cervical cancer (n = 13 139) 44.4% of the
+included women had utilized Pap smear in the past 12 months. Among these women who
+had used any complementary medicine in the past 12 months, 49.5% utilized Pap smear
+compared with 41.4% who had not used any complementary medicine.
+
+Among the respective risk group for breast cancer (n = 8715) 54.3% underwent
+mammography. Among these women using any complementary medicine 59.8% underwent
+mammography, while 51.4% of women who had not used any complementary medicine
+did.
+
+The uptake of cancer screening procedures among individuals consulting or not
+consulting with different complementary medicine practitioners or using mind-body
+medicine is listed in Table
+1 .
+
+Cancer Screening Among Individuals Consulting or Not Consulting Complementary
+Medicine Practitioners or Using Mind-Body Medicine.
+
+Only female participants aged 21 years and older included in the
+analysis.
+
+Only female participants aged 40 years and older included in the
+analysis.
+
+Participants aged between 45 and 85 years included in the analysis.
+
+Associations of cancer screening uptake with consultations with different
+complementary medicine practitioners and mind-body medicine use are shown in Table 2 . In multivariate
+analysis, participants of the respective risk group who had consulted a chiropractor
+were more likely to utilize Pap smear ( P < .001), undergo
+mammography ( P < .001) and colon cancer screening
+( P = .011). Likewise, individuals consulting naturopaths more
+likely utilized Pap smear ( P = .022), underwent mammography
+( P = .031), and colon cancer screening ( P =
+.030). Respondents consulting homeopaths were more likely to utilize Pap smear tests
+( P = .032). Individuals using mind-body medicine approaches
+more likely utilized Pap smear ( P < .001), underwent mammography
+( P < .001), and colon cancer screening ( P < .001). Consulting practitioners of chelation therapy or traditional medicine
+was not significantly associated with cancer screening uptake.
+
+Associations of Consultations Complementary Medicine Practitioners and/or
+Mind-body Medicine Use and Uptake of Cancer Screening a .
+
+Analyses controlled for age, sex (colon cancer screening only),
+education, employment, marital status, region of origin, race/ethnicity,
+health insurance coverage, and prior cancer diagnoses.
+
+Only female participants aged 21 years and older included in the
+analysis.
+
+Only female participants aged 40 years and older included in the
+analysis.
+
+Participants aged between 45 and 85 years included in the analysis.
+
+Boldface indicates statistical significance ( P ).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+This study reports the association between complementary medicine use and
+participation in cancer screening in a nationally representative
+noninstitutionalized US population. Individuals who consulted a chiropractor or
+naturopath or who used mind-body medicine approaches were more likely to take up the
+recommended screening. No association was found between consultations of
+practitioners of chelation therapy or traditional medicine and cancer screening
+uptake. However, this finding needs to be interpreted with caution because only 0.6%
+of the participants reported to have been treated with 1 of the 2 therapies.
+
+Our findings are in line with the results of an Australian survey of 9151 women. 12 Women aged 62 to 67 years who visited complementary medicine practitioners
+were more likely to participate in clinical skin examination, clinical breast
+examination, and colorectal screening.
+
+In Australian women, mammography screening was positively associated with the
+consultation of massage therapist or chiropractor and negatively associated with the
+consultation of a naturopath/herbalist, acupuncturist, or “other” alternative health
+practitioner. In contrast, US women in our analyses who consulted a naturopath, were
+more likely to take up the mammography screening, perhaps due to regional or
+age-related differences.
+
+Patients who use complementary medicine methods as complementary treatment only might
+be engaged in health literacy. 15 The definitions of health literacy vary, but they all hold in common the idea
+that health literacy involves the need for people to understand information that
+helps them maintain good health. 16 Frequent use of various complementary medicine modalities before breast
+cancer diagnosis was associated with other health behaviors like high
+fruit/vegetable intake and lower body mass index in the Pathways Study. 17 In a systematic review Oldach and Katz 18 concluded that a patient’s health literacy might be a contributing factor to
+being within the recommended cancer screening guidelines. But evidence is mixed and
+limited.
+
+Predicting factors for cervical cancer screening behavior in Hong Kong women aged 50
+years or above were age, educational level, marital status, family history of
+cancer, smoking status, use of complementary therapy, and recommendations of health professionals. 19 In Washington State insurance data from 2000 to 2003 alternative medicine use
+instead of conventional treatment was negatively associated with cervical cancer
+screening uptake, while complementary medicine use in conjunction with conventional
+care was positively associated with screening behavior. 20 The authors assume a high interest in various types of health-promoting
+behavior, including cancer screening, among complementary medicine users as a reason
+for the association.
+
+Hall et al 21 also analyzed NHIS data for 2000 to 2015 and found the following factors that
+reduced screening rates: no contact with a doctor, no usual source of health care,
+and no insurance coverage. Persistent screening disparities were shown particularly
+among the uninsured and progress was only found for colorectal cancer screening. But
+rates in 2015 for colorectal cancer screening were just above 60% and still lower
+than for Pap tests (80%) and mammography (70%). Younger age, lower income, and fewer
+years of education were also consistently associated with lower prevalence of
+screening for both men and women.
+
+Peterson et al 22 state in their systematic review that there should be no doubt that provider
+recommendations are important to patient adherence to cancer screening. They
+concluded that a simple provider recommendation is necessary but not sufficient for
+optimal adherence to cancer screening guidelines. The quality and content of the
+discussion surrounding the recommendation also seems to be important.
+
+In a systematic review and meta-analysis interventions were evaluated to increase
+colorectal cancer screening rates in the United States. 23 Fecal blood test outreach, patient navigation, patient education, and patient
+reminders were associated with increased colorectal cancer screening rates. No
+information was found in the literature on complementary medicine use and uptake of
+colorectal cancer screening.
+
+Our results must be considered in light of several limitations. The NHIS survey
+relies on self-reported data and was not confirmed by medical record review.
+Misclassification and recall bias cannot be ruled out. Respondents might answer
+questions in a way they believe will please the researcher. Because the NHIS is
+a cross-sectional survey and the data are simultaneously accessed there is no
+evidence of a temporal relationship between cancer screenings and the
+consultation of a complementary practitioners or use of mind-body medicine. No
+true cause and effect relationship can be drawn. Also, we did not differentiate
+between complementary and alternative treatment. The conventional medical
+provider access in relation to cancer screening was not studied. And finally,
+the survey queries the past 12 months. Some cancer screenings are recommended
+less than annually and the screening might therefore be under- or over-reported.
+And we did not adjust for women after hysterectomy who do not need a cervical
+cancer screening.
+
+Looking at the results of the presented data, use of complementary medicine
+therapies seems to be associated with a better adherence to cancer screening,
+whereas based on findings of prior studies, alternative treatment should be
+discouraged not only for cancer patients 24 but also in primary care. Data from the NHIS from 2015 show that cancer
+screening rates in the United States are still unacceptably low. 2 Recommendations for cancer screening through doctors and complementary
+medicine providers are important and might improve the adherence to cancer
+screening. Also, patient navigation and education, the communication between
+patient and physician, as well as the health insurance status are important
+factors, which seem to influence the cancer screening uptake.
+
+
+Limitations
+
+Our results must be considered in light of several limitations. The NHIS survey
+relies on self-reported data and was not confirmed by medical record review.
+Misclassification and recall bias cannot be ruled out. Respondents might answer
+questions in a way they believe will please the researcher. Because the NHIS is
+a cross-sectional survey and the data are simultaneously accessed there is no
+evidence of a temporal relationship between cancer screenings and the
+consultation of a complementary practitioners or use of mind-body medicine. No
+true cause and effect relationship can be drawn. Also, we did not differentiate
+between complementary and alternative treatment. The conventional medical
+provider access in relation to cancer screening was not studied. And finally,
+the survey queries the past 12 months. Some cancer screenings are recommended
+less than annually and the screening might therefore be under- or over-reported.
+And we did not adjust for women after hysterectomy who do not need a cervical
+cancer screening.
+
+Looking at the results of the presented data, use of complementary medicine
+therapies seems to be associated with a better adherence to cancer screening,
+whereas based on findings of prior studies, alternative treatment should be
+discouraged not only for cancer patients 24 but also in primary care. Data from the NHIS from 2015 show that cancer
+screening rates in the United States are still unacceptably low. 2 Recommendations for cancer screening through doctors and complementary
+medicine providers are important and might improve the adherence to cancer
+screening. Also, patient navigation and education, the communication between
+patient and physician, as well as the health insurance status are important
+factors, which seem to influence the cancer screening uptake.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Complementary medicine use seems to be associated with a better adherence to cancer
+screening. Individuals who consulted a chiropractor or naturopath or who used
+mind-body medicine approaches were more likely to take up the recommended
+screening.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,526 @@
+================================================================================
+ARTICLE TITLE: The Effect of Metadherin on NF-κB Activation and Downstream
+Genes in Ovarian Cancer
+PMCID: PMC7444209
+PMID: 32207338
+KEYWORDS: metadherin, nf-κb, chronic inflammation, ovarian cancer
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Ovarian cancer (OC) is the most aggressive gynecological cancer. Even
+with the advances in detection and therapeutics, it still remains
+clinically challenging and there is a pressing need to identify novel
+therapeutic strategies. In searching for rational molecular targets,
+we identified metadherin (MTDH), a multifunctional gene associated
+with several tumor types but previously unrecognized in OC. In this
+study, we found the MTDH is overexpressed in OC tissues. Through in
+vitro assays with overexpression cells, we characterized the role of
+MTDH. We confirmed MTDH stable overexpression significantly increased
+the expression of TNF-α, IL-6, IL-8, IL-10, and IL-1β. Interestingly,
+NF-kappa-B (NF-κB) and MTDH were found in a feed-forward loop motif.
+Thus, our findings support the notion that the MTDH and NF-κB
+signaling network contributes to OC traits. MTDH represents a new
+OC-associated gene that can contribute to insights of OC biology and
+suggests other treatment strategies.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Ovarian cancer (OC) is the leading cause of gynecological-related deaths and
+the fifth leading cause of cancer mortality seriously threatening females’
+lives and health worldwide 1 . Extensive efforts have been made to improve treatment; however, the
+number of cases is increasing worldwide. Thus, there is a pressing need to
+identify novel therapeutic strategies.
+
+Metadherin (MTDH) is alternatively known as astrocyte elevated gene-1 2 . MTDH is a membrane protein that regulates the homing of tumor cells
+to the lung endothelium and is a lysine-rich protein associated with tight
+junctions in prostate epithelial cells 3 . It is a universally important cancer-associated gene. It has been
+validated in diverse malignancies, such as breast, lung, esophageal, B-cell
+lymphoma, brain tumors, gynecologic cancers, and malignant pleural
+mesothelioma (MPM) 4 – 9 . Additionally, MTDH has been identified as the direct target of
+miR-182-5p contributing to the inhibition of proliferation and metastasis in
+colorectal cancer 10 . However, the role of MTDH is still incompletely understood in
+OC.
+
+The transcription factor NF-κB plays a key role in stress response due to
+environmental stimuli by regulating genes involved in proliferation,
+apoptosis, differentiation, inflammation, and immune system regulation. In
+nonstress conditions, NF-κB is sequestered in the cytoplasm by its repressor
+IκBα. Because of its importance to many biological processes, NF-κB
+activation and activity are tightly regulated by a battery of endogenous
+mechanisms. Aberrant NF-κB activation contributes to the development of
+various autoimmune, inflammatory, and malignant disorders. Thus, inhibiting
+NF-κB signaling has potential therapeutic applications in cancer. A previous
+study reported the activation of EMT in colorectal cancer by MTDH/NF-κB p65 pathway 11 . However, the role of MTDH/NF-κB p65 pathway is still unclear in
+OC.
+
+In this study, we explored the expression of MTDH, inflammatory cytokines, and
+chemokines in OC. In particular, we uncovered a feed-forward regulatory
+mechanism of MTDH/NF-κB signaling pathway. Our results contribute to
+insights of OC biology and suggest other treatment strategies in OC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The human ovarian cancer cell line, SKOV-3, was purchased from ATCC
+(Manassas, VA, USA). Cells were maintained in RPMI 1640 (Gibco
+Laboratories, Carlsbad, CA, USA) enriched with 10% fetal bovine serum
+(Sigma-Aldrich, St Louis, MO, USA), 100 U/ml penicillin, and 100 mg/ml
+streptomycin (Sigma-Aldrich). Cells were cultured at 37 °C with 5%
+CO 2 . SKOV-3 cells were subcultured at 90%
+confluence.
+
+Study OC tissues were obtained from 18 patients diagnosed in the
+Department of Gynecology and Obstetrics of China–Japan Friendship
+Hospital (Beijing, China), between August 2018 and December 2018. All
+the specimens were reviewed and verified by pathologists and
+immediately frozen in liquid nitrogen. All subjects gave their
+informed consent for inclusion before they participated in the study.
+All experimental protocols were approved by the Ethics Committee of
+China–Japan Friendship Hospital.
+
+We extracted total RNA from 3 × 10 6 of cells following the
+mirVana TM miRNA isolation kit (Ambion, Austin, TX,
+USA) protocol. Reverse transcription was done using the high-capacity
+RNA-to-cDNA kit (Thermo Fisher Scientific, Waltham, MA, USA) after
+removal of residual genomic DNA by DNase I (Invitrogen, Carlsbad, CA,
+USA).
+
+Specific gene quantitation was determined by TaqMan analysis using
+QuantStudio 6 Flex PCR system (Thermo Fisher Scientific). β-Actin gene was used as an endogenous
+housekeeping gene for normalization. Specific gene expression probes
+including TNF-α, IL-6, IL-8, IL-10, and IL-1β were commercially
+available from Applied Biosystems (Foster City, CA, USA). All
+independent PCR-based reactions were performed in triplicate.
+
+The relative expression ratio of each gene was calculated with the
+comparative CT method (ΔΔCt method) 12 .
+
+In order to elucidate the role of MTDH in vitro, we used the lentiviral
+system (Applied Biological Materials, Montreal, Canada) to stably
+overexpress MTDH (MTDH-OE) and its negative control vector (Ctrl-OE)
+in SKOV-3 cells. The overexpression was according to the
+manufacturer’s instructions.
+
+For each sample, total protein lysis was separated on 4%–15% precast gels
+(Bio-Rad, Richmond, CA, USA) and then blotted onto nitrocellulose
+paper (Bio-Rad). Membranes were blocked with 5% dried nonfat milk
+powder in TBST for 1 h and incubated with primary antibodies overnight
+at 4 ºC. After being washed with TBST three times, the membranes were
+incubated with the goat anti-rabbit horseradish peroxidase
+(HRP)-conjugated secondary antibody (1:2,000; cat. no. STAR124P;
+Bio-Rad) or goat anti-mouse HRP-conjugated secondary antibody
+(1:5,000; cat. no. STAR207P; Bio-Rad) for 2 h at room temperature. The
+band signals of target proteins were visualized using an enhanced
+chemiluminescence kit (Pierce, Minneapolis, MN, USA). All the
+experiments were repeated three times. In order to avoid possible
+problems related to incomplete stripping, all the results are from
+separate blots.
+
+The primary antibodies are anti-MTDH (1:500, Millipore, Bedford, MA,
+USA), p-p65 (1:1,000, Cell Signaling Technologies, Beverly, MA, USA),
+p65 (1:1,000, Cell Signaling Technologies), and
+β- actin (Sigma-Aldrich).
+
+Chromatin immunoprecipitation (ChIP) was used to verify NF-κB (RELA)
+interaction with the promoter region of MTDH. SKOV-3 and TOV-112D cell
+lines were prepared using the Magna ChIP A-Chromatin
+Immunoprecipitation Kit (Millipore, Billerica, MA, USA). DNA was
+eluted and purified from complexes, followed by SYBR PCR amplification
+of three putative binding sites of RELA within the MTDH promoter 8 . Immune complexes formed with nonspecific IgG were a negative
+control, while IκBα promoter primers (manufacturer’s kit) were a
+positive control. Primer pairs flanking these binding sites were used
+following the method previously described 8 .
+
+Culture medium was centrifuged at 1,000 rpm for 5 min at 4 °C to remove
+residual cells, immediately after collection. The supernatant was
+harvested and stored at −20 °C for subsequent analysis. Concentrations
+of TNF-α , IL-6, IL-8, IL-10, and IL-1β in culture media were assayed
+using relative enzyme-linked immunosorbent assay (ELISA) kits (Abcam,
+Cambridge, MA, USA), according to the manufacturers’ instructions. All
+samples were assayed in duplicate. Cytokine concentrations are
+expressed as pg/ml based on relevant standard curves.
+
+Means and standard errors (SEs) were calculated from numerical data. Fold
+changes indicate the difference between experimental and control
+samples. Bar graphs depict the mean ± SE for a specific experimental
+run. SPSS Statistics 17 (SPSS Software, Chicago, IL, USA) was used for
+calculations. Two-tailed, unpaired Student’s t test assessed
+significance between two conditions. One-way analysis of variance test
+followed by Tukey’s comparison for multiple groups compared the
+significance of differences between the means of groups. Two-tailed P- value < 0.05 was considered
+significant.
+
+
+Tissues and Cell Culture
+
+The human ovarian cancer cell line, SKOV-3, was purchased from ATCC
+(Manassas, VA, USA). Cells were maintained in RPMI 1640 (Gibco
+Laboratories, Carlsbad, CA, USA) enriched with 10% fetal bovine serum
+(Sigma-Aldrich, St Louis, MO, USA), 100 U/ml penicillin, and 100 mg/ml
+streptomycin (Sigma-Aldrich). Cells were cultured at 37 °C with 5%
+CO 2 . SKOV-3 cells were subcultured at 90%
+confluence.
+
+Study OC tissues were obtained from 18 patients diagnosed in the
+Department of Gynecology and Obstetrics of China–Japan Friendship
+Hospital (Beijing, China), between August 2018 and December 2018. All
+the specimens were reviewed and verified by pathologists and
+immediately frozen in liquid nitrogen. All subjects gave their
+informed consent for inclusion before they participated in the study.
+All experimental protocols were approved by the Ethics Committee of
+China–Japan Friendship Hospital.
+
+
+Quantitative Real-Time PCR
+
+We extracted total RNA from 3 × 10 6 of cells following the
+mirVana TM miRNA isolation kit (Ambion, Austin, TX,
+USA) protocol. Reverse transcription was done using the high-capacity
+RNA-to-cDNA kit (Thermo Fisher Scientific, Waltham, MA, USA) after
+removal of residual genomic DNA by DNase I (Invitrogen, Carlsbad, CA,
+USA).
+
+Specific gene quantitation was determined by TaqMan analysis using
+QuantStudio 6 Flex PCR system (Thermo Fisher Scientific). β-Actin gene was used as an endogenous
+housekeeping gene for normalization. Specific gene expression probes
+including TNF-α, IL-6, IL-8, IL-10, and IL-1β were commercially
+available from Applied Biosystems (Foster City, CA, USA). All
+independent PCR-based reactions were performed in triplicate.
+
+The relative expression ratio of each gene was calculated with the
+comparative CT method (ΔΔCt method) 12 .
+
+
+MTDH Overexpression
+
+In order to elucidate the role of MTDH in vitro, we used the lentiviral
+system (Applied Biological Materials, Montreal, Canada) to stably
+overexpress MTDH (MTDH-OE) and its negative control vector (Ctrl-OE)
+in SKOV-3 cells. The overexpression was according to the
+manufacturer’s instructions.
+
+
+Western Blotting
+
+For each sample, total protein lysis was separated on 4%–15% precast gels
+(Bio-Rad, Richmond, CA, USA) and then blotted onto nitrocellulose
+paper (Bio-Rad). Membranes were blocked with 5% dried nonfat milk
+powder in TBST for 1 h and incubated with primary antibodies overnight
+at 4 ºC. After being washed with TBST three times, the membranes were
+incubated with the goat anti-rabbit horseradish peroxidase
+(HRP)-conjugated secondary antibody (1:2,000; cat. no. STAR124P;
+Bio-Rad) or goat anti-mouse HRP-conjugated secondary antibody
+(1:5,000; cat. no. STAR207P; Bio-Rad) for 2 h at room temperature. The
+band signals of target proteins were visualized using an enhanced
+chemiluminescence kit (Pierce, Minneapolis, MN, USA). All the
+experiments were repeated three times. In order to avoid possible
+problems related to incomplete stripping, all the results are from
+separate blots.
+
+The primary antibodies are anti-MTDH (1:500, Millipore, Bedford, MA,
+USA), p-p65 (1:1,000, Cell Signaling Technologies, Beverly, MA, USA),
+p65 (1:1,000, Cell Signaling Technologies), and
+β- actin (Sigma-Aldrich).
+
+
+Chromatin Immunoprecipitation
+
+Chromatin immunoprecipitation (ChIP) was used to verify NF-κB (RELA)
+interaction with the promoter region of MTDH. SKOV-3 and TOV-112D cell
+lines were prepared using the Magna ChIP A-Chromatin
+Immunoprecipitation Kit (Millipore, Billerica, MA, USA). DNA was
+eluted and purified from complexes, followed by SYBR PCR amplification
+of three putative binding sites of RELA within the MTDH promoter 8 . Immune complexes formed with nonspecific IgG were a negative
+control, while IκBα promoter primers (manufacturer’s kit) were a
+positive control. Primer pairs flanking these binding sites were used
+following the method previously described 8 .
+
+
+Enzyme-Linked Immunosorbent Assay
+
+Culture medium was centrifuged at 1,000 rpm for 5 min at 4 °C to remove
+residual cells, immediately after collection. The supernatant was
+harvested and stored at −20 °C for subsequent analysis. Concentrations
+of TNF-α , IL-6, IL-8, IL-10, and IL-1β in culture media were assayed
+using relative enzyme-linked immunosorbent assay (ELISA) kits (Abcam,
+Cambridge, MA, USA), according to the manufacturers’ instructions. All
+samples were assayed in duplicate. Cytokine concentrations are
+expressed as pg/ml based on relevant standard curves.
+
+
+Statistics
+
+Means and standard errors (SEs) were calculated from numerical data. Fold
+changes indicate the difference between experimental and control
+samples. Bar graphs depict the mean ± SE for a specific experimental
+run. SPSS Statistics 17 (SPSS Software, Chicago, IL, USA) was used for
+calculations. Two-tailed, unpaired Student’s t test assessed
+significance between two conditions. One-way analysis of variance test
+followed by Tukey’s comparison for multiple groups compared the
+significance of differences between the means of groups. Two-tailed P- value < 0.05 was considered
+significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+MTDH was reported to be overexpressed in OC 13 . To decipher the underlying molecular biology and function of
+MTDH in OC, we first examined the mRNA expression levels of MTDH in
+the 16 ovarian cancer tissues and the paired nontumorous tissues with
+Taqman quantitative real-time PCR. Consistently, MTDH showed much
+higher mRNA level in the OC tissues compared to the paired nontumorous
+tissues ( Fig.
+1 ). These results suggest that MTDH overexpression in OC
+may be attributed to OC traits.
+
+MTDH mRNA level is greatly higher in OC tissues. MTDH mRNA
+levels were detected by qRT-PCR in 16 paired OC tissues
+and paired nontumorous tissues. * P <
+0.05 vs nontumorous tissues. MTDH: metadherin; OC: ovarian
+cancer; qRT-PCR: quantitative real-time PCR.
+
+Chronic inflammatory conditions contribute to maintaining several
+signaling pathways that could represent plausible mechanism(s) for
+MTDH overexpression 8 . We subsequently investigated the inflammatory cytokine and
+chemokine expressions in OC. As seen in Figure 2A , TNF-α, IL-6, IL-8,
+IL-10, and IL-1β mRNA expressions were greatly augmented in OC tissues
+than the paired nontumorous tissues. In order to explore whether MTDH
+regulates inflammatory cytokine and chemokine expressions in OC, we
+stably overexpressed MTDH in SKOV-3 cells ( Fig. 2B, C ). Subsequently,
+the MTDH overexpression was investigated to significantly augment
+TNF-α, IL-6, IL-8, IL-10, and IL-1β mRNA expression after 24 h of
+TNF-α challenge ( Fig.
+2D ).
+
+MTDH enhances mRNA and protein expression of TNF-α, IL-6,
+IL-8, IL-10, and IL-1β. (A) TNF-α, IL-6, IL-8, IL-10, and
+IL-1β mRNA level is upregulated in OC tissues. mRNA levels
+were detected by qRT-PCR in 16 paired OC tissues and
+paired nontumorous tissues. * P < 0.05
+vs non-tumorous tissues; (B) MTDH mRNA level is
+significantly higher after MTDH overexpression.
+* P < 0.05 vs Ctrl-OE. Results
+are mean ± SE ( n = 3). (C) MTDH protein
+expression is significantly higher after MTDH
+overexpression. (D) After cells stably overexpressed MTDH,
+cells were stimulated or not with TNF-α (10 ng/ml) for 24
+h. The mRNA expression of TNF-α, IL-6, IL-8, IL-10, and
+IL-1β was analyzed by qRT-PCR. The expression of each gene
+was normalized to the average of nonstimulated cells.
+* P < 0.05 vs nonstimulated
+cells; ^ P < 0.05 vs Ctrl-OE. Results
+are mean ± SE ( n = 3). (E) The protein
+levels of TNF-α, IL-6, IL-8, IL-10, and IL-1β in the
+culture media were assayed with a specific ELISA.
+* P < 0.05 vs nonstimulated
+cells; ^ P < 0.05 vs Ctrl-OE. Results
+are mean ± SE ( n = 3). Ctrl: control;
+ELISA: enzyme-linked immunosorbent assay; MTDH:
+metadherin; OC: ovarian cancer; OE: overexpression;
+qRT-PCR: quantitative real-time polymerase chain
+reaction.
+
+Cytokine protein production in culture media of SKOV-3 cells was
+quantified by ELISA. After 24 h of TNF-α treatment, we observed a
+significant increase in TNF-α, IL-6, IL-8, IL-10, and IL-1β proteins
+in the culture media compared with the levels of these cytokines in
+the Ctrl-OE group ( Fig. 2E ).
+
+TNF-α, IL-6, IL-8, IL-10, and IL-1β are transcriptionally controlled by NF-κB 14 . It has also been reported that MTDH overexpression contributes
+to the induction of NF-κB via secondary positive feedback signaling 8 , 15 . In this study, to elucidate the underlying molecular network
+of MTDH and inflammatory condition, we subsequently investigated
+whether MTDH contributes to the induction of NF-κB. As shown in Figure 3A ,
+MTDH overexpression greatly increased the mRNA level and protein
+expression of phosphor-p65 compared with the Ctrl-OE group.
+
+(A) MTDH overexpression leads to the activation of NF-κB
+(p65) in SKOV-3 cells. qRT-PCR validated the increased
+mRNA levels of p-p65. Western blotting confirms the
+increased levels of phosphorylated p65 protein.
+(B)Chip-qPCR quantification of enrichment of DNA fragments
+that contain putative NF-κB binding sites.
+* P < 0.05 vs parent cell line
+and/or negative control specimen (IgG) ( n = 3). Results are mean ± SE ( n = 3).
+ChIP: chromatin immunoprecipitation; Ctrl: control; MTDH:
+metadherin; OE: overexpression; qRT-PCR: quantitative
+real-time polymerase chain reaction.
+
+TNF-α stimulation has been reported to induce MTDH transcription in
+diverse cell types 15 , suggesting the necessity of additional intracellular mediators
+interacting with MTDH. However, these precise underlying mechanisms
+remain incompletely defined in OC. Recently, a footprint of p65 (RELA)
+subunit has been shown binding to the MTDH promoter 8 . Using ChIP, we also observed under TNF-α-stimulated conditions
+an increase in RELA binding at three sites ( Fig. 3B ). This is consistent
+with the observation in the MPM 8 .
+
+
+MTDH Is Upregulated in Ovarian Cancer Tissues
+
+MTDH was reported to be overexpressed in OC 13 . To decipher the underlying molecular biology and function of
+MTDH in OC, we first examined the mRNA expression levels of MTDH in
+the 16 ovarian cancer tissues and the paired nontumorous tissues with
+Taqman quantitative real-time PCR. Consistently, MTDH showed much
+higher mRNA level in the OC tissues compared to the paired nontumorous
+tissues ( Fig.
+1 ). These results suggest that MTDH overexpression in OC
+may be attributed to OC traits.
+
+MTDH mRNA level is greatly higher in OC tissues. MTDH mRNA
+levels were detected by qRT-PCR in 16 paired OC tissues
+and paired nontumorous tissues. * P <
+0.05 vs nontumorous tissues. MTDH: metadherin; OC: ovarian
+cancer; qRT-PCR: quantitative real-time PCR.
+
+
+MTDH Overexpression Enhances Expression of TNF-α, IL-6, IL-8, IL-10,
+and IL-1β
+
+Chronic inflammatory conditions contribute to maintaining several
+signaling pathways that could represent plausible mechanism(s) for
+MTDH overexpression 8 . We subsequently investigated the inflammatory cytokine and
+chemokine expressions in OC. As seen in Figure 2A , TNF-α, IL-6, IL-8,
+IL-10, and IL-1β mRNA expressions were greatly augmented in OC tissues
+than the paired nontumorous tissues. In order to explore whether MTDH
+regulates inflammatory cytokine and chemokine expressions in OC, we
+stably overexpressed MTDH in SKOV-3 cells ( Fig. 2B, C ). Subsequently,
+the MTDH overexpression was investigated to significantly augment
+TNF-α, IL-6, IL-8, IL-10, and IL-1β mRNA expression after 24 h of
+TNF-α challenge ( Fig.
+2D ).
+
+MTDH enhances mRNA and protein expression of TNF-α, IL-6,
+IL-8, IL-10, and IL-1β. (A) TNF-α, IL-6, IL-8, IL-10, and
+IL-1β mRNA level is upregulated in OC tissues. mRNA levels
+were detected by qRT-PCR in 16 paired OC tissues and
+paired nontumorous tissues. * P < 0.05
+vs non-tumorous tissues; (B) MTDH mRNA level is
+significantly higher after MTDH overexpression.
+* P < 0.05 vs Ctrl-OE. Results
+are mean ± SE ( n = 3). (C) MTDH protein
+expression is significantly higher after MTDH
+overexpression. (D) After cells stably overexpressed MTDH,
+cells were stimulated or not with TNF-α (10 ng/ml) for 24
+h. The mRNA expression of TNF-α, IL-6, IL-8, IL-10, and
+IL-1β was analyzed by qRT-PCR. The expression of each gene
+was normalized to the average of nonstimulated cells.
+* P < 0.05 vs nonstimulated
+cells; ^ P < 0.05 vs Ctrl-OE. Results
+are mean ± SE ( n = 3). (E) The protein
+levels of TNF-α, IL-6, IL-8, IL-10, and IL-1β in the
+culture media were assayed with a specific ELISA.
+* P < 0.05 vs nonstimulated
+cells; ^ P < 0.05 vs Ctrl-OE. Results
+are mean ± SE ( n = 3). Ctrl: control;
+ELISA: enzyme-linked immunosorbent assay; MTDH:
+metadherin; OC: ovarian cancer; OE: overexpression;
+qRT-PCR: quantitative real-time polymerase chain
+reaction.
+
+Cytokine protein production in culture media of SKOV-3 cells was
+quantified by ELISA. After 24 h of TNF-α treatment, we observed a
+significant increase in TNF-α, IL-6, IL-8, IL-10, and IL-1β proteins
+in the culture media compared with the levels of these cytokines in
+the Ctrl-OE group ( Fig. 2E ).
+
+
+Regulation of MTDH and NF-κB in Ovarian Cancer
+
+TNF-α, IL-6, IL-8, IL-10, and IL-1β are transcriptionally controlled by NF-κB 14 . It has also been reported that MTDH overexpression contributes
+to the induction of NF-κB via secondary positive feedback signaling 8 , 15 . In this study, to elucidate the underlying molecular network
+of MTDH and inflammatory condition, we subsequently investigated
+whether MTDH contributes to the induction of NF-κB. As shown in Figure 3A ,
+MTDH overexpression greatly increased the mRNA level and protein
+expression of phosphor-p65 compared with the Ctrl-OE group.
+
+(A) MTDH overexpression leads to the activation of NF-κB
+(p65) in SKOV-3 cells. qRT-PCR validated the increased
+mRNA levels of p-p65. Western blotting confirms the
+increased levels of phosphorylated p65 protein.
+(B)Chip-qPCR quantification of enrichment of DNA fragments
+that contain putative NF-κB binding sites.
+* P < 0.05 vs parent cell line
+and/or negative control specimen (IgG) ( n = 3). Results are mean ± SE ( n = 3).
+ChIP: chromatin immunoprecipitation; Ctrl: control; MTDH:
+metadherin; OE: overexpression; qRT-PCR: quantitative
+real-time polymerase chain reaction.
+
+TNF-α stimulation has been reported to induce MTDH transcription in
+diverse cell types 15 , suggesting the necessity of additional intracellular mediators
+interacting with MTDH. However, these precise underlying mechanisms
+remain incompletely defined in OC. Recently, a footprint of p65 (RELA)
+subunit has been shown binding to the MTDH promoter 8 . Using ChIP, we also observed under TNF-α-stimulated conditions
+an increase in RELA binding at three sites ( Fig. 3B ). This is consistent
+with the observation in the MPM 8 .
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+The normal physiologic role of MTDH still remains elusive 16 . MTDH acts as a transcriptional cofactor via a nuclear homing domain 17 . Currently, MTDH has been shown as a critical regulator in a variety
+of cancers, such as lung cancer, hepatocellular carcinoma, and gastric cancer 18 – 20 . The reason is because MTDH can regulate multiple signaling pathways
+and expression levels of related genes to affect the behavior of tumors,
+such as NF-κB, PI3K/AKT/MAPK, and Wnt/β-catenin 15 . Through these signaling pathways, MTDH can also affect the cellular
+activities including proliferation, angiogenesis, invasion, metastasis, and
+drug resistance. Despite an extensive literature regarding the multiple
+functions of MTDH, the precise function of MTDH in OC has not been
+investigated in detail.
+
+NF-κB is a transcription factor that controls various important genes in many
+critical physiological responses such as inflammatory responses,
+proliferation, differentiation, cell adhesion, and apoptosis 21 . Because of its importance to many biological processes, NF-κB
+activation and activity are tightly regulated by a battery of endogenous
+mechanisms. The aberrant NF-κB activation contributes to the development of
+various autoimmune, inflammatory, and malignant disorders including
+malignant tumors such as MPM and squamous cell carcinoma 8 , 22 . The activation of NF-κB signaling by MTDH has also been reported in
+hepatocellular carcinoma 23 . What is more, MTDH was reported as a prognostic apoptosis modulator
+in mesothelioma induced via NF-kB-mediated signaling 8 . However, the underlying mechanism and precise function of MTDH/NF-κB
+signaling still remains unclear.
+
+In this study, we verified that MTDH is upregulated in the OC tissues compared
+to the paired non-tumorous tissues. Subsequently, we also found TNF-α, IL-6,
+IL-8, IL-10, and IL-1β mRNA expressions were greatly augmented in OC tissues
+than the paired non-tumorous tissues. Next, MTDH overexpression greatly
+increased the mRNA level and protein expression of phosphor-p65 compared
+with the Ctrl-OE group. Using ChIP analysis, we also validated that NF-κB
+directly induces MTDH by binding specific promoter regions in OC. We
+identified a feed-forward loop motif of MTDH and NF-κB in OC. However, it is
+worthy to verify this model in vivo, add histochemical demonstrations,
+consider to control the original level of the inflammation factors, and
+ensure the increased expression of these factors caused by MTDH
+overexpression.
+
+Taken together, our results suggest MTDH as a rational target to explore for
+better understanding of OC biology and possibly provide an alternative OC
+treatment approach.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

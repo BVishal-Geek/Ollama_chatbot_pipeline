@@ -1,0 +1,82 @@
+================================================================================
+ARTICLE TITLE: Can elderly patients with low-risk breast cancer benefit from radiotherapy?
+PMCID: PMC8798893
+PMID: 35117959
+KEYWORDS: breast cancer, elderly, radiotherapy, intraoperative radiotherapy (iort), tamoxifen
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+There are few trials published on treatment in elderly women with low-risk breast cancer. Although the clinical behavior is like younger patients, there is a tendency to undertreat them, which may lead to an increase in the risk of local relapses and decrease their survival. The local recurrences omitting adjuvant treatment (tamoxifen or radiotherapy) after breast conserving surgery (BCS) even in low-risk patients is high, reaching up 20%, which is unacceptable. Although tamoxifen and radiotherapy seem to have a similar effect in reducing local recurrence with equal overall survival, the combination of both achieves the maximum benefit with local relapses of less than 2%. In recent years two studies have been published and were designed specifically for elderly patients. The CALGB 9343 and the PRIME II trials recommend omitting radiotherapy in patients with low-risk tumors treated with BCS and tamoxifen based on a similar survival, but with an increase in local relapses when radiotherapy is omitted, 10% at 10 years vs. 2%. There is no basis to ensure that a treatment with tamoxifen has less toxicity in this group of patients who are usually poly-treated, and it seems that treatment compliance is much lower than expected. The decrease in the number of sessions in external radiotherapy with hypofractionation and accelerate partial breast irradiation, especially intraoperative radiotherapy (IORT) with a single session, makes this recommendation very controversial. Elderly patients may benefit from radiation therapy after BCS.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Breast cancer therapy is developing towards individualized treatment, trying to maintain efficacy with the least aggressive treatment possible. After the introduction of breast-conserving surgery in the 1980s ( 1 ), data was updated in 2002 ( 2 ) and demonstrated the equivalence between mastectomy and breast conserving surgery (BCS) with radiotherapy. Since then, techniques have been evolving towards less intensive treatments such as accelerated partial breast irradiation (APBI) and intraoperative radiotherapy (IORT) for breast cancer. More than 40% of patients with breast cancer are diagnosed after 65 years of age ( 3 ). Conversely, as age increases, the probability of performing conservative treatment of breast cancer decreases at stages I and II, sentinel lymph node in N0, and radiotherapy, especially in patients over 80 years old decrease ( 4 ).
+
+Breast cancer tends to present with less aggressive characteristics as age increases ( 5 ), including greater expression of estrogen receptors, lower proliferation rate, normal p53 , and absence of expression of the epidermal growth receptor and c-erbB2 . Older patients with small tumours and node-negative axilla have a life prognosis similar to the general population according to the Surveillance, Epidemiology, and End Results (SEER) data ( 5 ), so treatment is unlikely to have an impact on survival.
+
+A recently published trial, the CALGB 9343 ( 6 , 7 ), suggests that radiotherapy can be omitted in low-risk patients aged 70 years or older undergoing adjuvant treatment with tamoxifen, based on the premise that five years of tamoxifen is better than a course of radiotherapy.
+
+This article reviews these recommendations, as well as the possible benefit of radiotherapy, especially IORT in this group of patients.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Based on the CALGB 9343 ( 6 , 7 ) and PRIME II ( 9 ) trials, the National Comprehensive Cancer Network (NCCN) ( 22 ) and the National Institute for Health and Care Excellence (NICE) ( 23 ) guidelines, among others, recommended that radiotherapy can be omitted in patients aged 70 years or older with low-risk breast cancer who receive hormonal therapy.
+
+We must make several comments about these trials and recommendations. First, the survival benefit in patients younger than 70 years with low risk breast tumors, T1 N0, positive receptors, margins greater than 2 mm as demonstrated in the EBCTCG meta-analysis ( 14 ) and BASO II trial ( 12 ) is minimum. And secondly, the percentage of local recurrence even with tamoxifen is not negligible, 10% at 10 years, a percentage which is considered inadmissible in younger patients.
+
+Meanwhile, the recommendation to administer tamoxifen and omit radiotherapy is very questionable. The BASO II trial ( 12 ) showed that the benefit of external radiotherapy and tamoxifen are similar in reducing local recurrence with equal survival. With these results, there is nothing to support that 5 years of treatment with tamoxifen in elderly patients, usually polymedicated, is better than a radiotherapy treatment of one month or less as is the case of hypofractionation. Radiotherapy in healthy elderly patients is well tolerated.
+
+Hershman et al. ( 24 ) studied a group of 8,769 patients with early breast cancer and found that only 49% of patients received hormonal treatment for the all time of prescription, with those younger than 40 years and older than 75 years being the most likely to discontinue treatment. Moreover, this non-compliance (discontinuation and non-adherence) has effects on the result of the treatment, while reducing survival.
+
+Another argument used to omit radiotherapy is financial. Sen et al. ( 25 ) studied the cost-effectiveness of external radiotherapy in 18,340 patients in a group of 8,769 patients over 70 years with early breast cancer and treated with BCS, all from SEER program, and concluded that despite the concern for the overtreatment of this group of patients, radiotherapy is cost-effective. Logically, this benefit decreases in patients with short life expectancies and as they get older. This cost-effectiveness increases in IORT ( 26 ), which is the preferable treatment in patients with early breast cancer together with hypofractionation.
+
+There are few publications on patients older than 80 years and no randomized trials that study the benefit of adjuvant treatment with early tumours. The tendency is to omit radiotherapy in a greater percentage and recommend tamoxifen alone, although this may result in undertreatment that worsens its prognosis. Bouchardy et al. ( 27 ), in a retrospective study of patients over 80 years, concludes that more than 50% of patients receive suboptimal treatment compared to patients younger than 80 years (47% vs. 91%), with the best results being patients who are treated with BCS + RT, so undertreatment clearly decreased survival.
+
+In recent years, new radiotherapy treatment techniques have been introduced which have the same results but considerably shorten treatment time (hypofractionation) and irradiation volume, such as APBI and IORT. The latter are especially interesting because in a single intraoperative session, the recurrences in low-risk group are equivalent to external radiotherapy, as demonstrated both in the ELIOT and TARGIT-A trials ( 18 , 19 ). This makes it especially attractive in this group of elderly patients.
+
+Another important advance in the treatment of breast cancer in elderly patients has been the generalization of hypofractionated treatments following publication of the START-A and B trials ( 28 , 29 ), demonstrating equal effectiveness in a randomized trial between standard treatment (25 fractions of 2 Gy) and hypofractionation (15 fractions of 2.67 Gy, 13 sessions of 3.2 or 3 Gy). Other non-randomized trial ( 30 ) with more extreme hypofractionation with 5 fractions of 6.5 Gy one a week, have shown similar efficacy in patients older than 70 years.
+
+With these advances and results published with APBI, particularly IORT and hypofractionation, it is difficult to argue that adjuvant tamoxifen alone is the treatment of choice in older patients with low-risk breast cancer treated with BSC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+There are few randomized trials that analyze optimal treatment in elderly patients with low-risk breast tumours. The behavior of these tumours does not seem very different from tumours of similar risk in younger patients, where neither does the treatment adjuvant to BCS seem to influence overall survival. Local recurrences after BCS without adjuvant treatment are unacceptable for all groups, so it is advisable to perform adjuvant treatment after BCS. Radiotherapy and tamoxifen seem to have a similar effect in preventing local recurrence and survival, so there is not rationale for recommending 5 years of tamoxifen instead of radiotherapy. Radiotherapy, in any of its modalities, especially IORT and hypofractionation, are cost-effective in this group of patients and it is well tolerated.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

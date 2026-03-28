@@ -1,0 +1,560 @@
+================================================================================
+ARTICLE TITLE: METTL3 May Regulate Testicular Germ Cell Tumors Through EMT and
+Immune Pathways
+PMCID: PMC7563025
+PMID: 32749150
+KEYWORDS: testicular germ cell tumors (tgct), prognosis, mettl3, migration, invasion
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Testicular germ cell tumors (TGCTs) are highly prevalent in young men aged 20–40
+years and are one of the most common lethal solid tumors in men of this age. Due
+to the current unclear mechanism of tumor development, there is a lack of
+effective treatment, and therefore in-depth research of the molecular mechanism
+of the occurrence and development of TGCT and the search for suitable and
+effective therapeutic targets and molecular markers are of great significance
+for achieving effective treatment. METTL3 is a very important methylase, which
+has been implicated in the progression of many cancers, but the role of METTL3
+in TGCT has not been fully elucidated. In this article, we found that METTL3
+expression was significantly downregulated in TGCT tissues, and patients with
+low expression levels had lower overall survival and relapse-free survival
+rates. After overexpressing METTL3, cell proliferation, invasion, and migration
+ability significantly increased, while influencing the expression of
+epithelial–mesenchymal transition (EMT)-related proteins. In addition, we
+observed that the expression level of METTL3 positively correlated with
+molecular markers and infiltration level of CD8+ and CD4+ T cells and natural
+killer cells. In sum, our findings identified that METTL3 can be used as an
+independent prognostic marker in patients with TGCT. METTL3 participates in the
+proliferation, migration, and invasion of TGCT cells by regulating the
+expression of EMT-related genes and may also play a role in activating the tumor
+immune response in TGCT.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Testicular germ cell tumors (TGCTs) are a class of tumors that occur in the
+seminiferous epithelium and are generally classified into two types, seminoma and
+nonseminoma, accounting for about 1% of all male solid tumors, and 98% of all
+testicular tumors 1 . TGCTs are highly prevalent in young men aged 20–40 years and are one of the
+most common lethal solid tumors in men of this age. Studies have shown that the
+incidence of this tumor in China is about 1 in 100,000 2 , with recent data showing that the incidence of TGCT has increased worldwide 3 .
+
+At present, the clinical treatment plan for TGCT is mainly testicular resection,
+accompanied by chemotherapy and radiotherapy, but still nearly 15% of patients face
+the status of recurrence and metastasis, so the prognosis is poor 4 . Due to the current unclear mechanism of tumor development, there is a lack
+of effective treatment, and therefore in-depth research of the molecular mechanism
+of the occurrence and development of TGCT and the search for suitable and effective
+therapeutic targets and molecular markers are of great significance for achieving
+effective treatment.
+
+RNA is an important genetic material in organisms, with more than 100 modifications.
+N6-adenylate methylation (m6A), as the most common modification of eukaryotic mRNA 5 , can reduce the processing time of mRNA precursors, accelerate the speed of
+mRNA transport, and nuclear release in cells, ultimately regulating gene expression 6 . Many enzymes involved in m6A modification have been identified, including
+demethylases, methylases, and methylation recognition enzymes. These enzyme
+abnormalities can cause a variety of diseases, including tumors 7 , neurological diseases 8 , and embryonic retardation 9 , 10 . METTL3 is a very important methylase, which forms a heterocomplex with
+METTL14, and together with WTAP and other factors (such as KIAA1429) modifies adenylate 11 , 12 . Many studies have found that METTL3 is dysregulated in liver cancer 13 , gastric cancer 14 , colorectal cancer 15 , and other tumors, and is closely related to the occurrence and development
+of tumors. However, the expression, function, and mechanism of METTL3 in TGCT have
+not been fully elucidated. Herein, we analyzed the expression of METTL3 in TGCT and
+its relationship with prognosis through The Cancer Genome Atlas (TCGA) data,
+conducting cell experiments to verify the role of METTL3 in TGCT.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Gene expression profiling and interactive analyses (GEPIA;
+http://gepia.cancer-pku.cn/) database is an interactive web version tool
+developed by the research team of Peking University. It uses a standard data
+processing process to integrate RNA sequencing data of 9736 tumor tissues and
+8587 normal samples in the TCGA and GTEx database 16 and hence is useful for our statistical analysis. We used the
+differential expression analysis tool and survival analysis tool of GEPIA to
+analyze the expression of METTL3 in TGCT and its correlation with the overall
+survival of TGCT patients. In addition, this database was also used to analyze
+the correlation between METTL3 and the expression of ZEB1, Vimentin (VIM),
+N-cadherin (CDH2), CD4, CD8A, and CD56. The TGCT microarray data set (GSE3218)
+was obtained from the Gene Expression Omnibus (GEO) database and used to analyze
+the differential expression of METTL3 in TGCT patients 17 . The Kaplan–Meier plotter ( http://kmplot.com/analysis/ ) tool was used to analyze the
+relapse-free survival of TGCT patients with different METTL3 expressions; these
+data were obtained from TCGA by Kaplan–Meier plotter 18 . TIMER ( http://timer.cistrome.org/ ) is a web server for the analysis of
+immune infiltrates based on TCGA data. We used this tool to evaluate the
+correlation between the expression level of METTL3 and the infiltration level of
+CD8+ and CD4+ T cells and natural killer cells 19 , 20 .
+
+The human TGCT cell lines, NCCIT and Tcam-2, were used in this study, both of
+which were donated by the Institute of Reproductive and Stem Cell Engineering of
+Central South University. NCCIT cells were cultured in Roswell Park Memorial
+Institute (RPMI)-1640 medium (Gibco, Gaithersburg, MD, USA) containing 10% fetal
+bovine serum (FBS; Gibco, Gaithersburg, MD, USA) and 1% penicillin/streptomycin
+(PS; Gibco), and Tcam-2 cells were cultured in Dulbecco’s modified Eagle’s
+medium (DMEM; Gibco) containing 10% FBS and 1% PS at 37 °C in 95% air and 5%
+carbon dioxide (CO 2 ). Confluent cells were digested and passaged with
+0.1% trypsin (Thermo Fisher Scientific, Shanghai, China).
+
+METTL3 overexpression plasmid and control plasmid were constructed by GENECHEM
+(Shanghai, China). First, high-fidelity PCR amplification was performed to
+obtain the METTL3 cDNA, and then the cDNA was cloned into the Age I site of the
+GV208 plasmid. Finally, the purified plasmid was transformed into competent
+cells for amplification and used for subsequent plasmid extraction. There were
+two experimental groups: the overexpressing experimental group (METTL3) and the
+control group (Con). TGCT cells in the logarithmic growth phase were seeded in
+six-well plates at a density of 5 × 10 5 /well, with three replicates
+per group. Plasmids were transfected when cells were grown to 60%–70%
+confluence. Plasmid transfection was performed using Lipofectamine 3000
+transfection reagent (Invitrogen, Carlsbad, CA, USA) according to the
+manufacturer’s instructions.
+
+NCCIT and Tcam-2 cells in the logarithmic growth phase were seeded in six-well
+plates at an appropriate density and grown to 60%–70% confluence for plasmid
+transfection. Cells were digested 24 h after transfection, and 1000 cells/well
+were seeded in 96-well plates, and cultured in a constant temperature incubator
+at 37 °C containing 5% CO 2 for 6 h. After the cells adhered to the
+plate, 20 µl of MTT reagent (Sigma Aldrich, St. Louis, MO, USA) was added to
+each well, and the optical density (OD) was measured at a wavelength of 490 nm
+after incubation at 37 °C for 3 h in the dark. MTT reagent was added to the
+wells every day for 5 days thereafter, and the OD was measured and recorded.
+
+Cells were collected 36 h after plasmid transfection, washed three times with
+phosphate-buffered saline (PBS; Gibco), and then resuspended in serum-free
+medium to adjust the cells to the appropriate concentration. Then, 800 µl of
+complete medium containing 15% FBS was added to the lower chamber of the
+Transwell chamber (a non-Matrigel-coated chamber for migration experiments and a
+Matrigel-coated chamber for invasion experiments; BD Biosciences, New Jersey,
+USA), and 200 µl of the cell suspension to the upper chamber. This cell
+suspension containing 20,000 cells was cultured in a 37 °C incubator for 36–48
+h, then fixed with 10% paraformaldehyde for 20 min, and stained with crystal
+violet for 10 min. After washing the excess crystal violet with PBS, the chamber
+was allowed to dry before images were taken under a microscope and the number of
+cells counted.
+
+Cell pellets were collected 48 h after transfection and lysed with
+radioimmunoprecipitation assay buffer on ice for 1 h. The cell lysates were then
+centrifuged at 12,000 rpm for 30 min, and the protein concentration was
+determined by the bicinchoninic acid method. Samples (30 µg protein) were
+electrophoresed on 8%–12% sodium dodecyl sulfate-polyacrylamide gel
+electrophoresis, transferred to polyvinylidene difluoride (PVDF) membrane
+(Millipore, Billerica, MA, USA), and blocked with 5% nonfat milk at room
+temperature for 1.5 h. The PVDF membrane was then incubated with primary
+antibodies (Cell Signaling Technology, Danvers, MA, USA) at 4 °C overnight,
+before washing three times with phosphate-buffered saline with Tween (PBST, 20
+min each time). Then, the secondary antibody was added, and the membrane
+incubated at 37 °C for 1 h, before washing three times with PBST (30 min each
+time). ECL luminescent solution was added to the membrane, and the protein bands
+were visualized using a gel imaging system.
+
+The experimental data were analyzed by GraphPad Prism software (GraphPad
+Software, San Diego, CA, USA). Count data were expressed as mean ± standard
+error. The comparison between the two groups was performed by Student’s t -test. The correlation analysis was performed by the
+Pearson’s correlation coefficient. The P (probability) <0.05
+was considered as a statistically significant result.
+
+
+Online Database Data Analysis
+
+Gene expression profiling and interactive analyses (GEPIA;
+http://gepia.cancer-pku.cn/) database is an interactive web version tool
+developed by the research team of Peking University. It uses a standard data
+processing process to integrate RNA sequencing data of 9736 tumor tissues and
+8587 normal samples in the TCGA and GTEx database 16 and hence is useful for our statistical analysis. We used the
+differential expression analysis tool and survival analysis tool of GEPIA to
+analyze the expression of METTL3 in TGCT and its correlation with the overall
+survival of TGCT patients. In addition, this database was also used to analyze
+the correlation between METTL3 and the expression of ZEB1, Vimentin (VIM),
+N-cadherin (CDH2), CD4, CD8A, and CD56. The TGCT microarray data set (GSE3218)
+was obtained from the Gene Expression Omnibus (GEO) database and used to analyze
+the differential expression of METTL3 in TGCT patients 17 . The Kaplan–Meier plotter ( http://kmplot.com/analysis/ ) tool was used to analyze the
+relapse-free survival of TGCT patients with different METTL3 expressions; these
+data were obtained from TCGA by Kaplan–Meier plotter 18 . TIMER ( http://timer.cistrome.org/ ) is a web server for the analysis of
+immune infiltrates based on TCGA data. We used this tool to evaluate the
+correlation between the expression level of METTL3 and the infiltration level of
+CD8+ and CD4+ T cells and natural killer cells 19 , 20 .
+
+
+Cell Culture
+
+The human TGCT cell lines, NCCIT and Tcam-2, were used in this study, both of
+which were donated by the Institute of Reproductive and Stem Cell Engineering of
+Central South University. NCCIT cells were cultured in Roswell Park Memorial
+Institute (RPMI)-1640 medium (Gibco, Gaithersburg, MD, USA) containing 10% fetal
+bovine serum (FBS; Gibco, Gaithersburg, MD, USA) and 1% penicillin/streptomycin
+(PS; Gibco), and Tcam-2 cells were cultured in Dulbecco’s modified Eagle’s
+medium (DMEM; Gibco) containing 10% FBS and 1% PS at 37 °C in 95% air and 5%
+carbon dioxide (CO 2 ). Confluent cells were digested and passaged with
+0.1% trypsin (Thermo Fisher Scientific, Shanghai, China).
+
+
+Plasmid Construction and Transfection
+
+METTL3 overexpression plasmid and control plasmid were constructed by GENECHEM
+(Shanghai, China). First, high-fidelity PCR amplification was performed to
+obtain the METTL3 cDNA, and then the cDNA was cloned into the Age I site of the
+GV208 plasmid. Finally, the purified plasmid was transformed into competent
+cells for amplification and used for subsequent plasmid extraction. There were
+two experimental groups: the overexpressing experimental group (METTL3) and the
+control group (Con). TGCT cells in the logarithmic growth phase were seeded in
+six-well plates at a density of 5 × 10 5 /well, with three replicates
+per group. Plasmids were transfected when cells were grown to 60%–70%
+confluence. Plasmid transfection was performed using Lipofectamine 3000
+transfection reagent (Invitrogen, Carlsbad, CA, USA) according to the
+manufacturer’s instructions.
+
+
+Methylthiotetrazole (MTT) Assay
+
+NCCIT and Tcam-2 cells in the logarithmic growth phase were seeded in six-well
+plates at an appropriate density and grown to 60%–70% confluence for plasmid
+transfection. Cells were digested 24 h after transfection, and 1000 cells/well
+were seeded in 96-well plates, and cultured in a constant temperature incubator
+at 37 °C containing 5% CO 2 for 6 h. After the cells adhered to the
+plate, 20 µl of MTT reagent (Sigma Aldrich, St. Louis, MO, USA) was added to
+each well, and the optical density (OD) was measured at a wavelength of 490 nm
+after incubation at 37 °C for 3 h in the dark. MTT reagent was added to the
+wells every day for 5 days thereafter, and the OD was measured and recorded.
+
+
+Transwell Cell Migration and Invasion Experiments
+
+Cells were collected 36 h after plasmid transfection, washed three times with
+phosphate-buffered saline (PBS; Gibco), and then resuspended in serum-free
+medium to adjust the cells to the appropriate concentration. Then, 800 µl of
+complete medium containing 15% FBS was added to the lower chamber of the
+Transwell chamber (a non-Matrigel-coated chamber for migration experiments and a
+Matrigel-coated chamber for invasion experiments; BD Biosciences, New Jersey,
+USA), and 200 µl of the cell suspension to the upper chamber. This cell
+suspension containing 20,000 cells was cultured in a 37 °C incubator for 36–48
+h, then fixed with 10% paraformaldehyde for 20 min, and stained with crystal
+violet for 10 min. After washing the excess crystal violet with PBS, the chamber
+was allowed to dry before images were taken under a microscope and the number of
+cells counted.
+
+
+Western Blot
+
+Cell pellets were collected 48 h after transfection and lysed with
+radioimmunoprecipitation assay buffer on ice for 1 h. The cell lysates were then
+centrifuged at 12,000 rpm for 30 min, and the protein concentration was
+determined by the bicinchoninic acid method. Samples (30 µg protein) were
+electrophoresed on 8%–12% sodium dodecyl sulfate-polyacrylamide gel
+electrophoresis, transferred to polyvinylidene difluoride (PVDF) membrane
+(Millipore, Billerica, MA, USA), and blocked with 5% nonfat milk at room
+temperature for 1.5 h. The PVDF membrane was then incubated with primary
+antibodies (Cell Signaling Technology, Danvers, MA, USA) at 4 °C overnight,
+before washing three times with phosphate-buffered saline with Tween (PBST, 20
+min each time). Then, the secondary antibody was added, and the membrane
+incubated at 37 °C for 1 h, before washing three times with PBST (30 min each
+time). ECL luminescent solution was added to the membrane, and the protein bands
+were visualized using a gel imaging system.
+
+
+Statistical Analysis
+
+The experimental data were analyzed by GraphPad Prism software (GraphPad
+Software, San Diego, CA, USA). Count data were expressed as mean ± standard
+error. The comparison between the two groups was performed by Student’s t -test. The correlation analysis was performed by the
+Pearson’s correlation coefficient. The P (probability) <0.05
+was considered as a statistically significant result.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To determine the expression of METTL3 in TGCT, TGCT data in GEPIA online database
+was used to statistically analyze the expression of METTL3, showing that METTL3
+expression was significantly downregulated in TGCT tissues ( Fig. 1A ). Based on another TGCT dataset
+GSE3218 from the GEO database, we found that METTL3 was also significantly
+downregulated in TGCT tissues ( Fig. 1B ). Furthermore, low METTL3 expression was significantly
+associated with shorter overall survival and relapse-free survival in TGCT
+patients ( Fig. 1C , D ). So METTL3 can be used
+as an independent prognostic indicator for TGCT patients. Taken together, these
+data suggested that METTL3 may function as a tumor suppressor gene in TGCT.
+
+METTL3 correlates with the prognosis of TGCT patients. (A) METTL3
+expression data in TGCT from the GEPIA dataset. (B) Comparison of METTL3
+expression levels in tumor tissues and normal tissues from the GEO
+dataset in accession GSE3218. (C) Correlation between METTL3 and overall
+survival in TGCT patients. (D) Correlation between METTL3 and
+relapse-free survival in TGCT patients. * P < 0.05.
+GEO: Gene Expression Omnibus; GEPIA: Gene expression profiling and
+interactive analyses; N: normal; T: tumor; TGCT: testicular germ cell
+tumors.
+
+To determine whether METTL3 can inhibit the progress of TGCT, we constructed a
+METTL3 overexpression vector and successfully transfected it into NCCIT and
+Tcam-2 cells ( Fig. 2A , B ). The
+proliferation ability of the transfected cells was then assessed by the MTT
+assay. Unexpectedly, overexpression of METTL3 significantly promoted the
+proliferation of TGCT cells on the second day, and this effect was more obvious
+on the third day ( Fig.
+3A , B ).
+
+TGCT cells successfully overexpress METTL3. (A) Microscopic and
+fluorescent pictures of NCCIT cells transfected with METTL3
+overexpression plasmid. (B) Microscopic and fluorescent pictures of
+Tcam-2 cells transfected with METTL3 overexpression plasmid. Scale
+bars=100 μm. TGCT: testicular germ cell tumors.
+
+Effect of overexpressed METTL3 on the proliferation capacity of TGCT
+cells. (A) Cell growth curve of NCCIT cells transfected with METTL3
+overexpression plasmid. (B) Cell growth curve of Tcam-2 cells
+transfected with METTL3 overexpression plasmid. ** P < 0.01. TGCT: testicular germ cell tumors.
+
+The effect of overexpressed METTL3 on TGCT cell migration and invasion ability
+was investigated using the Transwell assay, showing that the migration and
+invasion ability of both groups of transfected cells increased more than twofold
+after METTL3 overexpression ( Fig. 4A – D ).
+This indicates that METTL3 plays a very important role in the migration and
+invasion of TGCT, warranting further investigation.
+
+Transwell experiments to investigate the effects of METTL3 overexpression
+on TGCT cell migration and invasion. (A) NCCIT and Tcam-2 cells
+overexpress METTL3 cell migration pictures. (B) Statistics of relative
+numbers of migrated NCCIT and Tcam-2 cells after METTL3 overexpression.
+(C) NCCIT and Tcam-2 cells overexpress METTL3 cell invasion pictures.
+(D) Statistics of relative invasion of NCCIT and Tcam-2 cells after
+METTL3 overexpression. ** P < 0.01;
+*** P < 0.001. Scale bars = 100 μm. TGCT:
+testicular germ cell tumors.
+
+Many studies have shown that the EMT signaling pathway is involved in the
+migration and invasion of many tumors 21 , 22 , and METTL3 has also been reported to be associated with EMT in gastric cancer 23 . In addition, we analyzed the correlation between METTL3 and EMT markers
+(ZEB1, VIM, and CDH2) using the GEPIA database and found that METTL3 was
+significantly positively correlated with these EMT markers ( Fig. 5A – C ). It was hypothesized that METTL3 may
+participate in the process of TGCT by regulating EMT signals, and therefore the
+expression of EMT-related proteins after overexpression of METTL3 was assessed
+by western blotting. The expression of CDH2, VIM, and ZEB1 proteins was
+significantly upregulated, while the expression of E-cadherin was significantly
+downregulated ( Fig. 5D ),
+suggesting that the METTL3-mediated EMT pathway may be an important mechanism
+involved in TGCT migration and invasion.
+
+Effects of METTL3 overexpression on EMT-related proteins detected by
+western blot. (A–C) GEPIA database analysis of the correlation between
+METTL3 and EMT markers. (D) After overexpressing METTL3, the expression
+of E-cadherin, a marker of epithelial cells, was significantly
+downregulated, and the expression of VIM, CDH2, ZEB-1, markers of
+mesenchymal cells, was significantly upregulated. Red arrow:
+upregulated; green arrow: downregulated. CDH2: N-cadherin; GEPIA: gene
+expression profiling and interactive analyses; VIM: vimentin.
+
+Studies have shown that m6A modification can participate in tumor immune response 24 , and hence it was hypothesized that METTL3 may play a role in the
+regulation of tumor immunity in addition to the EMT pathway. Spearman
+correlation analysis revealed that the expression level of METTL3 in TGCT was
+significantly positively correlated with the expression of molecular markers
+CD8A, CD4, and CD56 of CD8-positive T cells, CD4-positive T cells, and NK cells
+( Fig. 6A ).
+Furthermore, we analyzed the correlation between METTL3 and the infiltration of
+these three immune cells using the TIMER tool. We found that METTL3 was
+positively correlated with the infiltration of these three immune cells in TGCT
+( Fig. 6B ). These
+data indicate that the higher the METTL3 expression, the greater the number of
+these tumor infiltration-related inflammatory cells. Therefore, METTL3 may also
+participate in the immune response of tumors by regulating the immune
+microenvironment of TGCT.
+
+Online database analysis of the correlation between METTL3 and immune
+cells. (A) Correlation between METTL3 and the expression of CD8+ T cell
+marker CD8A, CD4+ T cell marker CD4, and NK cell marker CD56 (based on
+GEPIA database). (B) Correlation between METTL3 and the infiltration
+level of CD8+ and CD4+ T cells and NK cells (based on TIMER database).
+GEPIA: gene expression profiling and interactive analyses; NK: natural
+killer.
+
+
+Lower METTL3 Expression in TGCT Correlates with Prognosis
+
+To determine the expression of METTL3 in TGCT, TGCT data in GEPIA online database
+was used to statistically analyze the expression of METTL3, showing that METTL3
+expression was significantly downregulated in TGCT tissues ( Fig. 1A ). Based on another TGCT dataset
+GSE3218 from the GEO database, we found that METTL3 was also significantly
+downregulated in TGCT tissues ( Fig. 1B ). Furthermore, low METTL3 expression was significantly
+associated with shorter overall survival and relapse-free survival in TGCT
+patients ( Fig. 1C , D ). So METTL3 can be used
+as an independent prognostic indicator for TGCT patients. Taken together, these
+data suggested that METTL3 may function as a tumor suppressor gene in TGCT.
+
+METTL3 correlates with the prognosis of TGCT patients. (A) METTL3
+expression data in TGCT from the GEPIA dataset. (B) Comparison of METTL3
+expression levels in tumor tissues and normal tissues from the GEO
+dataset in accession GSE3218. (C) Correlation between METTL3 and overall
+survival in TGCT patients. (D) Correlation between METTL3 and
+relapse-free survival in TGCT patients. * P < 0.05.
+GEO: Gene Expression Omnibus; GEPIA: Gene expression profiling and
+interactive analyses; N: normal; T: tumor; TGCT: testicular germ cell
+tumors.
+
+
+Overexpression of METTL3 Promotes TGCT Cell Proliferation
+
+To determine whether METTL3 can inhibit the progress of TGCT, we constructed a
+METTL3 overexpression vector and successfully transfected it into NCCIT and
+Tcam-2 cells ( Fig. 2A , B ). The
+proliferation ability of the transfected cells was then assessed by the MTT
+assay. Unexpectedly, overexpression of METTL3 significantly promoted the
+proliferation of TGCT cells on the second day, and this effect was more obvious
+on the third day ( Fig.
+3A , B ).
+
+TGCT cells successfully overexpress METTL3. (A) Microscopic and
+fluorescent pictures of NCCIT cells transfected with METTL3
+overexpression plasmid. (B) Microscopic and fluorescent pictures of
+Tcam-2 cells transfected with METTL3 overexpression plasmid. Scale
+bars=100 μm. TGCT: testicular germ cell tumors.
+
+Effect of overexpressed METTL3 on the proliferation capacity of TGCT
+cells. (A) Cell growth curve of NCCIT cells transfected with METTL3
+overexpression plasmid. (B) Cell growth curve of Tcam-2 cells
+transfected with METTL3 overexpression plasmid. ** P < 0.01. TGCT: testicular germ cell tumors.
+
+
+Overexpression of METTL3 Promotes Migration and Invasion of TGCT
+Cells
+
+The effect of overexpressed METTL3 on TGCT cell migration and invasion ability
+was investigated using the Transwell assay, showing that the migration and
+invasion ability of both groups of transfected cells increased more than twofold
+after METTL3 overexpression ( Fig. 4A – D ).
+This indicates that METTL3 plays a very important role in the migration and
+invasion of TGCT, warranting further investigation.
+
+Transwell experiments to investigate the effects of METTL3 overexpression
+on TGCT cell migration and invasion. (A) NCCIT and Tcam-2 cells
+overexpress METTL3 cell migration pictures. (B) Statistics of relative
+numbers of migrated NCCIT and Tcam-2 cells after METTL3 overexpression.
+(C) NCCIT and Tcam-2 cells overexpress METTL3 cell invasion pictures.
+(D) Statistics of relative invasion of NCCIT and Tcam-2 cells after
+METTL3 overexpression. ** P < 0.01;
+*** P < 0.001. Scale bars = 100 μm. TGCT:
+testicular germ cell tumors.
+
+
+METTL3 Regulates Expression of EMT-Related Proteins
+
+Many studies have shown that the EMT signaling pathway is involved in the
+migration and invasion of many tumors 21 , 22 , and METTL3 has also been reported to be associated with EMT in gastric cancer 23 . In addition, we analyzed the correlation between METTL3 and EMT markers
+(ZEB1, VIM, and CDH2) using the GEPIA database and found that METTL3 was
+significantly positively correlated with these EMT markers ( Fig. 5A – C ). It was hypothesized that METTL3 may
+participate in the process of TGCT by regulating EMT signals, and therefore the
+expression of EMT-related proteins after overexpression of METTL3 was assessed
+by western blotting. The expression of CDH2, VIM, and ZEB1 proteins was
+significantly upregulated, while the expression of E-cadherin was significantly
+downregulated ( Fig. 5D ),
+suggesting that the METTL3-mediated EMT pathway may be an important mechanism
+involved in TGCT migration and invasion.
+
+Effects of METTL3 overexpression on EMT-related proteins detected by
+western blot. (A–C) GEPIA database analysis of the correlation between
+METTL3 and EMT markers. (D) After overexpressing METTL3, the expression
+of E-cadherin, a marker of epithelial cells, was significantly
+downregulated, and the expression of VIM, CDH2, ZEB-1, markers of
+mesenchymal cells, was significantly upregulated. Red arrow:
+upregulated; green arrow: downregulated. CDH2: N-cadherin; GEPIA: gene
+expression profiling and interactive analyses; VIM: vimentin.
+
+
+METTL3 Correlates with Molecular Marker Expression in Immune Cells
+
+Studies have shown that m6A modification can participate in tumor immune response 24 , and hence it was hypothesized that METTL3 may play a role in the
+regulation of tumor immunity in addition to the EMT pathway. Spearman
+correlation analysis revealed that the expression level of METTL3 in TGCT was
+significantly positively correlated with the expression of molecular markers
+CD8A, CD4, and CD56 of CD8-positive T cells, CD4-positive T cells, and NK cells
+( Fig. 6A ).
+Furthermore, we analyzed the correlation between METTL3 and the infiltration of
+these three immune cells using the TIMER tool. We found that METTL3 was
+positively correlated with the infiltration of these three immune cells in TGCT
+( Fig. 6B ). These
+data indicate that the higher the METTL3 expression, the greater the number of
+these tumor infiltration-related inflammatory cells. Therefore, METTL3 may also
+participate in the immune response of tumors by regulating the immune
+microenvironment of TGCT.
+
+Online database analysis of the correlation between METTL3 and immune
+cells. (A) Correlation between METTL3 and the expression of CD8+ T cell
+marker CD8A, CD4+ T cell marker CD4, and NK cell marker CD56 (based on
+GEPIA database). (B) Correlation between METTL3 and the infiltration
+level of CD8+ and CD4+ T cells and NK cells (based on TIMER database).
+GEPIA: gene expression profiling and interactive analyses; NK: natural
+killer.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+TGCT occurs in young men, posing a huge threat to the life and reproductive health of
+young male patients, but the pathogenesis has not been fully elucidated. Many
+studies have shown that genetic factors and epigenetic factors are closely related
+to the occurrence and development of TGCT 25 – 27 . METTL3 is an important molecule that regulates m6A modification in
+epigenetics and can initiate meiosis by promoting the differentiation process of spermatogenesis 28 . METTL3 may be related to the survival of TGCT cells 29 , playing an important role in spermatogenesis. However, the expression,
+function, and molecular mechanism of METTL3 in TGCT are still unclear.
+
+In this study, we performed data mining using public databases to show that METTL3
+was significantly downregulated in TGCT tissues and that low METTL3 expression was
+associated with poor prognosis in TGCT patients. This is similar to the findings of
+another research team in colorectal cancer, who found that patients with low METTL3
+expression had poorer overall and disease-free survival 30 . Based on the above analysis, it was hypothesized that METTL3 plays a similar
+role as a tumor suppressor gene in both tumors. Interestingly, the overexpression of
+METTL3 promoted cell proliferation, migration, and invasion in
+vitro , contrary to our previous hypothesis. However, most current
+studies have reported that METTL3 mainly plays a tumor-promoting role in tumors,
+promoting the progression and metastasis of bladder cancer 31 , lung cancer 10 , and gastric cancer 23 . This suggests that METTL3 may have multiple and different functions in
+different tumors, which is also worthy of further research.
+
+Many studies have shown that EMT is involved in the invasion and metastasis of
+various tumors 21 , 22 , 32 . We also observed at the molecular level that METTL3 upregulated the
+expression of CDH2, VIM, and ZEB1 that promote EMT-related molecules and
+downregulated the expression of E-cadherin that suppresses EMT-related molecules.
+These results are consistent with the previous experimental results of cell invasion
+and migration, suggesting that METTL3 can indeed participate in tumor progression by
+regulating the EMT pathway in TGCT. Previously, a research team found that METTL3
+participates in the invasion and migration process by inhibiting the transcription
+process of the EMT core molecule, E-cadherin, in gastric cancer 23 . However, whether METTL3 participates in the EMT process in TGCT remains to
+be further confirmed.
+
+The tumor microenvironment (TME) comprises tumor cells, resident and recruited host
+cells (fibroblasts and immune cells associated with cancer, respectively), products
+secreted by cells (cytokines and chemokines), and noncellular components in the
+extracellular matrix 33 . Infiltrating inflammatory cells in the TME play an important role in
+determining tumor survival and patient prognosis 34 . Analysis of the GEPIA data revealed that the expression of METTL3 positively
+correlated with the molecular markers and infiltration level of CD8+ T cells, CD4+ T
+cells, and NK cells, indicating that METTL3 may affect the prognosis of TGCT
+patients by regulating the immune response of tumors and that the regulation of
+tumor immunity is more important and extensive. However, this hypothesis should be
+tested by further in vivo experiments. This is also the drawback of
+the study.
+
+In summary, our study found that METTL3 can promote the migration and invasion of
+TGCT cells in vitro and can be used as a prognostic molecular
+marker for TGCT patients. METTL3 positively correlated with the markers of
+tumor-infiltrating inflammatory cells and might be related to tumor immunity. This
+study identified a new mode of action of METTL3, contrary to its in
+vitro and in vivo functions, which has enriched our
+understanding of the mechanism of TGCT development.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

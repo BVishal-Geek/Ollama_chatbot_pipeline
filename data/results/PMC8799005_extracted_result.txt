@@ -1,0 +1,19 @@
+Source: PMC8799005_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Expression of MTERF3 gene in breast carcinoma and the relationship with clinicopathological characteristics",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical patient data from TCGA database, such as age, sex, tumor status, nodal status, metastasis status, AJCC stage, ER status, PR status, HER2 status, breast cancer molecular typing, cancer type, histological diagnosis, primary site, MTERF3 expression, survival time and outcome, were quantitatively assigned after the establishment of clinical database for the patients.",
+  "N_E": 1,
+  "N_E_reason": "After case selection, 705 cases with complete clinical parameters and survival data were incorporated.",
+  "dataset_E": 1,
+  "dataset_E_reason": "The data of a total 1,110 breast cancer tissue samples containing MTERF3 mRNA expression were downloaded by using the R3.6.1 software.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,173 @@
+================================================================================
+ARTICLE TITLE: Multi-Omics Analysis Identifying Key Biomarkers in Ovarian Cancer
+PMCID: PMC8480361
+PMID: 33297760
+KEYWORDS: ovarian cancer, bioinformatics, prognosis, biomarkers
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Ovarian cancer is one of the most common malignant tumors. Here, we aimed to study the expression and function of the CREB1 gene in ovarian cancer via the bioinformatic analyses of multiple databases. Previously, the prognosis of ovarian cancer was based on single-factor or single-gene studies. In this study, different bioinformatics tools (such as TCGA, GEPIA, UALCAN, MEXPRESS, and Metascape) have been used to assess the expression and prognostic value of the CREB1 gene. We used the Reactome and cBioPortal databases to identify and analyze CREB1 mutations, copy number changes, expression changes, and protein–protein interactions. By analyzing data on the CREB1 differential expression in ovarian cancer tissues and normal tissues from 12 studies collected from the “Human Protein Atlas” database, we found a significantly higher expression of CREB1 in normal ovarian tissues. Using this database, we collected information on the expression of 25 different CREB-related proteins, including TP53, AKT1, and AKT3. The enrichment of these factors depended on tumor metabolism, invasion, proliferation, and survival. Individualized tumors based on gene therapy related to prognosis have become a new possibility. In summary, we established a new type of prognostic gene profile for ovarian cancer using the tools of bioinformatics.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Ovarian cancer is a silent killer. Its initial symptoms are not obvious and it is difficult to detect them early. At the time of diagnosis, most patients are already at the end of the third stage and later. Although ovarian cancer is as common as cervical cancer, it is the main cause of gynecological cancer-related death and its survival rate is about 50%. Moreover, compared with other gynecological cancers, the recurrence rate of ovarian cancer is higher, and the cure rate is relatively poor. Recent studies have shown that there is a direct relationship between cancer and genetic variation. The genetic profile of cancer patients can affect the development of the disease and the outcome of drug treatment. Most cancer-causing genetic mutations occur stochastically, but some ethnic group patients develop ovarian cancer due to congenital genetic defects in the reproductive system. Several epigenetic mutant genes have become promising drug targets for the treatment of ovarian cancer. 1 , 2 
+
+The cAMP response element binding protein (CREB) is an important transcription factor that triggers the expression of many early genes during embryogenesis, which is responsible for specific gene expression and cell growth regulation. 3 CREB was found to be overexpressed in many solid tumor types, compared with adjacent normal tissues and liquid cancer. 4 - 10 This is accompanied by enhanced cell proliferation, decreased sensitivity to apoptosis, and increased angiogenesis. 11 - 13 In addition, the role of CREB itself as a proto-oncogene in the occurrence of leukemia has been obtained from leukemia patient samples. 14 , 15 Immunohistochemical analysis of primary and bone metastatic prostate cancer tissues from patients showed that normal and benign prostates did not show detectable CREB. 16 Compared with adjacent normal tissues in non-small cell lung cancer (NSCLC), the expression level of CREB in tumor tissues is significantly increased. 17 Kaplan-Meier analysis showed that CREB overexpression is also associated with a decrease in time to relapse and a decrease in event-free survival. 15 
+
+At present, data available in cancer public databases have become a powerful resource for cancer research. 18 However, due to differences in the number of samples in the database and the analytical method used, the prediction results are often biased, and analysis outcomes are difficult to interpret. Since data integration analysis can predict the overall trend and improve accuracy by using big data, 19 the integrated analysis of biological data has gradually become an important strategy for big data mining. 20 In this study, we performed a bioinformatic analysis, using multiple databases, such as TCGA, GEPIA, UALCAN, MEXPRESS, cBioPortal, and Metascape, and constructed the complete related genes map, co-expression networks, and mRNA expression levels of CREB1 in OV, and its correlation with the prognosis for OV patients, and then validated with our own database. Function analysis and potential co-expression genes of CREB1 would be performed to investigate the underlying biological functions of CREB1.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Gene Expression Profile Analysis Interactive Analysis (GEPIA) is a user-friendly and interactive network database, which can be linked and analyzed with other databases (TCGA and GTEx). We analyzed the expression of CREB1 in 9736 tumors and 8587 normal tissues using this tool. 21 
+
+UALCAN is a database that can quickly find RNAseq data in TCGA and provide gene expression and survival analysis. We analyzed the expression of CREB1 in ovarian cancer at different clinical stages through the UALCAN website. 22 
+
+Metascape contains fully integrated data from multiple databases such as GO, KEGG, UniProt, and DrugBank. With metascape, it is possible to perform a complete pathway enrichment and biological process annotation, gene-related protein network analysis, and drug analysis. 23 
+
+The cBioCancer Genomics Portal is a user-friendly, open platform that provides network resources for analyzing, visualizing, and exploring multidimensional cancer genomics data. Researchers can obtain complex cancer genomics and clinical profiles through the portal interface. 24 , 25 
+
+We used MEXPRESS to study the TCGA DNA variations present on the CREB1 gene and their precise genomic location and to explore the correlation between gene expression and multiple clinical variables. 26 
+
+Reactome is a free online database of biological pathways. The pathway Browser provides the main mode for viewing and interacting with paths in Reactome. It also includes tools for analyzing data sets and exploring pathways. We used Reactome to compare a pathway to its homolog in another species, and the protein–compound interactions from external databases were used to confirm our findings. 27 - 29 
+
+
+Correlation Analysis by GEPIA
+
+Gene Expression Profile Analysis Interactive Analysis (GEPIA) is a user-friendly and interactive network database, which can be linked and analyzed with other databases (TCGA and GTEx). We analyzed the expression of CREB1 in 9736 tumors and 8587 normal tissues using this tool. 21 
+
+
+UALCAN Database Analysis
+
+UALCAN is a database that can quickly find RNAseq data in TCGA and provide gene expression and survival analysis. We analyzed the expression of CREB1 in ovarian cancer at different clinical stages through the UALCAN website. 22 
+
+
+Functional Enrichment Analysis via Metascape
+
+Metascape contains fully integrated data from multiple databases such as GO, KEGG, UniProt, and DrugBank. With metascape, it is possible to perform a complete pathway enrichment and biological process annotation, gene-related protein network analysis, and drug analysis. 23 
+
+
+cBioPortal Analysis
+
+The cBioCancer Genomics Portal is a user-friendly, open platform that provides network resources for analyzing, visualizing, and exploring multidimensional cancer genomics data. Researchers can obtain complex cancer genomics and clinical profiles through the portal interface. 24 , 25 
+
+
+MEXPRESS Analysis
+
+We used MEXPRESS to study the TCGA DNA variations present on the CREB1 gene and their precise genomic location and to explore the correlation between gene expression and multiple clinical variables. 26 
+
+
+Reactome Enrichment Analysis
+
+Reactome is a free online database of biological pathways. The pathway Browser provides the main mode for viewing and interacting with paths in Reactome. It also includes tools for analyzing data sets and exploring pathways. We used Reactome to compare a pathway to its homolog in another species, and the protein–compound interactions from external databases were used to confirm our findings. 27 - 29 
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To discover the expression pattern of CREB1 in various cancer and normal tissues, we used the TCGA and GEPIA databases. Results show that CREB1 is evenly distributed in a variety of human cancers, such as breast cancer, testicular cancer, gastric cancer, ovarian cancer (OV), lung cancer, kidney cancer, and prostate cancer. ( Figure 1A ). To compare the expression of CREB1 among tumors and normal tissues, we further analyzed RNA sequencing expression data in thousands of TCGA and Atlas expression samples, using the GEPIA website. Results, shown in Figure 1B , indicated high expression of CREB1 in most cancers ( Figure 1B ). In addition, we evaluated the protein expression level of CREB using the Human Protein Atlas database and observed that, at the protein level, CREB was significantly upregulated in various tumor tissues (Figure S1).
+
+CREB1 expression in different types of tumors (TCGA database and GEPIA). (A) The figure shows the distribution of CREB1 mRNA with statistically significant data sets. The median and quartile ranges are displayed in each box. (B) CREB1 expression profile in all tumor and normal tissues analyzed by GEPIA.
+
+To confirm the relationship between CREB1 expression and DNA methylation, the next analysis was performed by using of EXPRESS. We explored in particular whether the hub genes were associated with age, clinical stage, lymphatic invasion, and histological type in OV. Figure 2A shows default MEXPRESS plot for CREB1 in OV with the samples sorted based on the CREB1 expression value. The Pearson correlation coefficients range from -0.030 to -0.132 and the P value for the comparison of expression is 0.042 with new tumor event using the Wilcoxon rank test. Subsequently, to have a better understanding of the relationship between CREB1 and clinicopathological features, we analyzed the CREB1 expression level in different pathological stages by UALCAN. The results showed that the average expression level of CREB1 turned out to have a downward trend as the development of the TNM pathology stage ( Figure 2B ). To better understand the significance of high CREB1 expression in the prognosis of OV patients, Kaplan–Meier survival curves were generated for the overall survival (OS) between patients with high and low CREB1 expression. We used GENT2 to analyze the prognostic value of CREB1 in ovarian cancer within the RNA sequencing data in TCGA. Results revealed that high CREB1 expression levels were associated with poorer prognosis of survival in OV ( Figure 2C ). We then explored CREB1 mutations, copy number changes, and mutant mRNA expression in the context of OV. We studied the genetic variation of CREB1 in ovarian cancer from the cBioPortal database. Results showed that the CREB1 gene was mutated in 1,692 ovarian cancer samples and the gene set or pathway was altered in 2% of the queried samples, with a somatic mutation frequency of 0.1% ( Figure 3A ). In addition, we investigated the co-expression profiles of CREB1 with 20 genes across 45 ovarian adenocarcinomas and 5 normal ovarian tissues ( Figure 3B ). The exact mechanism underlying the modulation of cancer progression by CREB1 requires further investigation.
+
+Genetic alteration, subtype and survival analysis of hub genes. (A) Observation of the MEXPRESS database for CREB1 in ovarian cancer. Genetic alterations in the OV samples. (B) Box plots of gene expression levels of significantly altered hub genes in ovarian cancer with different stages using UALCAN database. (C) Kaplan-Meier plots by subtypes and median cut-off (n = 166). High CREB1 expression was correlated with a better prognosis of OS in OV. *p < 0.05, ** p < 0.01, *** p < 0.001.
+
+Frequency of mutations and expression in ovarian cancer from cBioPortal database. (A) The distribution of CREB1 mutations in ovarian cancer in protein domain and structure. A total of 24 PTM sites were detected in the protein structure of CREB1. (B) CREB1 is co-expressed with 45 different genes in ovarian adenocarcinoma. Bar length represents the significance of the enrichment p -value.
+
+Next, we used the Reactome database to obtain more information about the regulatory pathways which involve CREB1 in OV. We found several signaling pathways enriched by the Reactome analysis. Additionally, we found an extensive overlap across different signaling pathways: CREB1 is involved in GPCR signal transduction, metabolism, immune system, and homeostasis ( Figure 4A ). Since only a few proteins have been reported to interact with CREB1, this study investigated proteins and potential carcinogenic mechanisms that are correlated to the CREB1 function. We used the GeneMANIA online tool to analyze the protein interaction between CREB1 and other partners. Results showed that CREB1 is associated with genes related to the immune system, metabolism, development, and constant energy.
+
+Verify the observation signal transduction pathway from the REACTOME database. (A) The Reactome roadmap shows the color changes corresponding to the expression values of the experimental data. The enrichment pathways and their interactions enriched. The color coding of the nodes in the figure is: gray, no match; yellow, complex entities. (B) Protein–Protein Interaction network and functional analysis indicating the gene sets that were enriched in the target network of CREB1.
+
+We determined all the conditions for statistical enrichment and calculated the p-value and enrichment factor before using it for filtering. Then according to the kappa statistics of gene members, the remaining important terms were hierarchically aggregated into a tree. Metascape analysis revealed the first 20 enriched clusters ( Figure 5A ). These genes are enriched in the following molecular function (MF) categories: Rap1 signaling and MAPK signaling pathways. We further selected a representative subset from the cluster and converted it to a network layout. More specifically, each link is represented by a yellow circular node, the size of which is proportional to the number of input genes in the term. ( Figure 5B , nodes of the same color belong to the same cluster). As shown in Figure 5C , the expression levels of TP53, AKT1, AKT2, AKT3, MMP9, BCL2, CCND1, and CCND3 were positively correlated with that of CREB1 from the GEPIA database. We then performed additional analyses by integrating the obtained data, to identify the mechanism contributing to OV. By analyzing the frequency of known database cancer-related modulation pathways with one or more mutations, copy number changes, or gene expression changes, we found that the PIK3CA and KRAS pathways are regulated in 22.8% and 11.5% of cases, respectively ( Figure 5D ). Using cBioPortal to search for changed subnets in a large PPI network, we found several known pathways, which interact with TP53 and CCNE1 signaling pathways in 58% and 20.6% of ovarian cancers, respectively ( Figure 5E and 5F ).
+
+Network and biological pathway analysis of protein–protein interactions. (A) The MCODE algorithm is used to identify the tightly connected associations of proteins. (B) Use MCODE to calculate and classify proteins with similar functions by color. (C) Correlation of CREB1 and AKT family expression in tumors prepared with mRNA available in TCGA. CREB1 and PIK3CA-TP53 pathways, identified by curated analysis, and the proliferation pathway (D), cell survival pathway (E), cell cycle progression and EMT (F) identified by cBioPortal for Cancer Genomics.
+
+We searched for 723 oncogenes from the GEDA database and looked for potential drugs for the treatment of ovarian cancer. As shown in Figure 6A , the figure shows 9 types of cancer cell lines of different types and has the same trend of gene-drug correlation in CREB1. Figure 6B shows the significant correlation of the drug often used to treat ovarian cancer cells: estramustine. We found a positive correlation between estramustine (NSC 702294) and CREB1 (0.349) (p < 0.05). As shown in Figures 6A and B , CREB1 gene expression was positively correlated with Estramustine’s sensitivity. The bar graph further shows a positive correlation between CREB1 mRNA expression and NSC702294 drug activity (Pearson correlation coefficient = 0.385, p value = 0.0052). Figure 6C shows a simplified schematic of the entire network, which corresponds to the correlation between 363 cancer genes and 92 FDA-approved anticancer drugs. This result is consistent with previous studies, 30 estramustine has the process of inhibiting ovarian cancer tumors. Therefore, we suggest that it may be through the regulation of CREB1 pathway.
+
+Comparison of gene expression and drug activity in ovarian cancer using GEDA (gene expression and drug activity) bioinformation database. (A) Correlation between CREB1 gene and Estramustine (NSC:702294) in 9 kinds of cancer cells; (B) Correlation between CREB1 gene and Estramustine in 7 kinds of ovarian cancer cells; (C) Positive correlation between Estramustine and 11 genes.
+
+
+The Distribution and Expression of CREB1 in Cancer Tissues of Patients With Ovarian Cancer
+
+To discover the expression pattern of CREB1 in various cancer and normal tissues, we used the TCGA and GEPIA databases. Results show that CREB1 is evenly distributed in a variety of human cancers, such as breast cancer, testicular cancer, gastric cancer, ovarian cancer (OV), lung cancer, kidney cancer, and prostate cancer. ( Figure 1A ). To compare the expression of CREB1 among tumors and normal tissues, we further analyzed RNA sequencing expression data in thousands of TCGA and Atlas expression samples, using the GEPIA website. Results, shown in Figure 1B , indicated high expression of CREB1 in most cancers ( Figure 1B ). In addition, we evaluated the protein expression level of CREB using the Human Protein Atlas database and observed that, at the protein level, CREB was significantly upregulated in various tumor tissues (Figure S1).
+
+CREB1 expression in different types of tumors (TCGA database and GEPIA). (A) The figure shows the distribution of CREB1 mRNA with statistically significant data sets. The median and quartile ranges are displayed in each box. (B) CREB1 expression profile in all tumor and normal tissues analyzed by GEPIA.
+
+
+CREB1 Might be a Potential DNA Alteration Biomarker in OV
+
+To confirm the relationship between CREB1 expression and DNA methylation, the next analysis was performed by using of EXPRESS. We explored in particular whether the hub genes were associated with age, clinical stage, lymphatic invasion, and histological type in OV. Figure 2A shows default MEXPRESS plot for CREB1 in OV with the samples sorted based on the CREB1 expression value. The Pearson correlation coefficients range from -0.030 to -0.132 and the P value for the comparison of expression is 0.042 with new tumor event using the Wilcoxon rank test. Subsequently, to have a better understanding of the relationship between CREB1 and clinicopathological features, we analyzed the CREB1 expression level in different pathological stages by UALCAN. The results showed that the average expression level of CREB1 turned out to have a downward trend as the development of the TNM pathology stage ( Figure 2B ). To better understand the significance of high CREB1 expression in the prognosis of OV patients, Kaplan–Meier survival curves were generated for the overall survival (OS) between patients with high and low CREB1 expression. We used GENT2 to analyze the prognostic value of CREB1 in ovarian cancer within the RNA sequencing data in TCGA. Results revealed that high CREB1 expression levels were associated with poorer prognosis of survival in OV ( Figure 2C ). We then explored CREB1 mutations, copy number changes, and mutant mRNA expression in the context of OV. We studied the genetic variation of CREB1 in ovarian cancer from the cBioPortal database. Results showed that the CREB1 gene was mutated in 1,692 ovarian cancer samples and the gene set or pathway was altered in 2% of the queried samples, with a somatic mutation frequency of 0.1% ( Figure 3A ). In addition, we investigated the co-expression profiles of CREB1 with 20 genes across 45 ovarian adenocarcinomas and 5 normal ovarian tissues ( Figure 3B ). The exact mechanism underlying the modulation of cancer progression by CREB1 requires further investigation.
+
+Genetic alteration, subtype and survival analysis of hub genes. (A) Observation of the MEXPRESS database for CREB1 in ovarian cancer. Genetic alterations in the OV samples. (B) Box plots of gene expression levels of significantly altered hub genes in ovarian cancer with different stages using UALCAN database. (C) Kaplan-Meier plots by subtypes and median cut-off (n = 166). High CREB1 expression was correlated with a better prognosis of OS in OV. *p < 0.05, ** p < 0.01, *** p < 0.001.
+
+Frequency of mutations and expression in ovarian cancer from cBioPortal database. (A) The distribution of CREB1 mutations in ovarian cancer in protein domain and structure. A total of 24 PTM sites were detected in the protein structure of CREB1. (B) CREB1 is co-expressed with 45 different genes in ovarian adenocarcinoma. Bar length represents the significance of the enrichment p -value.
+
+
+Predicted Functions and Pathways of CREB1 in Ovarian Cancer
+
+Next, we used the Reactome database to obtain more information about the regulatory pathways which involve CREB1 in OV. We found several signaling pathways enriched by the Reactome analysis. Additionally, we found an extensive overlap across different signaling pathways: CREB1 is involved in GPCR signal transduction, metabolism, immune system, and homeostasis ( Figure 4A ). Since only a few proteins have been reported to interact with CREB1, this study investigated proteins and potential carcinogenic mechanisms that are correlated to the CREB1 function. We used the GeneMANIA online tool to analyze the protein interaction between CREB1 and other partners. Results showed that CREB1 is associated with genes related to the immune system, metabolism, development, and constant energy.
+
+Verify the observation signal transduction pathway from the REACTOME database. (A) The Reactome roadmap shows the color changes corresponding to the expression values of the experimental data. The enrichment pathways and their interactions enriched. The color coding of the nodes in the figure is: gray, no match; yellow, complex entities. (B) Protein–Protein Interaction network and functional analysis indicating the gene sets that were enriched in the target network of CREB1.
+
+We determined all the conditions for statistical enrichment and calculated the p-value and enrichment factor before using it for filtering. Then according to the kappa statistics of gene members, the remaining important terms were hierarchically aggregated into a tree. Metascape analysis revealed the first 20 enriched clusters ( Figure 5A ). These genes are enriched in the following molecular function (MF) categories: Rap1 signaling and MAPK signaling pathways. We further selected a representative subset from the cluster and converted it to a network layout. More specifically, each link is represented by a yellow circular node, the size of which is proportional to the number of input genes in the term. ( Figure 5B , nodes of the same color belong to the same cluster). As shown in Figure 5C , the expression levels of TP53, AKT1, AKT2, AKT3, MMP9, BCL2, CCND1, and CCND3 were positively correlated with that of CREB1 from the GEPIA database. We then performed additional analyses by integrating the obtained data, to identify the mechanism contributing to OV. By analyzing the frequency of known database cancer-related modulation pathways with one or more mutations, copy number changes, or gene expression changes, we found that the PIK3CA and KRAS pathways are regulated in 22.8% and 11.5% of cases, respectively ( Figure 5D ). Using cBioPortal to search for changed subnets in a large PPI network, we found several known pathways, which interact with TP53 and CCNE1 signaling pathways in 58% and 20.6% of ovarian cancers, respectively ( Figure 5E and 5F ).
+
+Network and biological pathway analysis of protein–protein interactions. (A) The MCODE algorithm is used to identify the tightly connected associations of proteins. (B) Use MCODE to calculate and classify proteins with similar functions by color. (C) Correlation of CREB1 and AKT family expression in tumors prepared with mRNA available in TCGA. CREB1 and PIK3CA-TP53 pathways, identified by curated analysis, and the proliferation pathway (D), cell survival pathway (E), cell cycle progression and EMT (F) identified by cBioPortal for Cancer Genomics.
+
+
+Integrating Cancer Gene Expression and Drug Activity Data
+
+We searched for 723 oncogenes from the GEDA database and looked for potential drugs for the treatment of ovarian cancer. As shown in Figure 6A , the figure shows 9 types of cancer cell lines of different types and has the same trend of gene-drug correlation in CREB1. Figure 6B shows the significant correlation of the drug often used to treat ovarian cancer cells: estramustine. We found a positive correlation between estramustine (NSC 702294) and CREB1 (0.349) (p < 0.05). As shown in Figures 6A and B , CREB1 gene expression was positively correlated with Estramustine’s sensitivity. The bar graph further shows a positive correlation between CREB1 mRNA expression and NSC702294 drug activity (Pearson correlation coefficient = 0.385, p value = 0.0052). Figure 6C shows a simplified schematic of the entire network, which corresponds to the correlation between 363 cancer genes and 92 FDA-approved anticancer drugs. This result is consistent with previous studies, 30 estramustine has the process of inhibiting ovarian cancer tumors. Therefore, we suggest that it may be through the regulation of CREB1 pathway.
+
+Comparison of gene expression and drug activity in ovarian cancer using GEDA (gene expression and drug activity) bioinformation database. (A) Correlation between CREB1 gene and Estramustine (NSC:702294) in 9 kinds of cancer cells; (B) Correlation between CREB1 gene and Estramustine in 7 kinds of ovarian cancer cells; (C) Positive correlation between Estramustine and 11 genes.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Ovarian cancer is a heterogeneous disease and the most important cause of death caused by gynecological cancer. Different cell types may develop different types of tumors. These tumors are epithelial tumors, germ cell tumors and stromal tumors. 31 The type of tumor, genetic examination and cell analysis may lead to early diagnosis of ovarian cancer, and hope for a better survival rate. Many factors play a role in the development of cancer, and genomic mutations and epigenetic changes are crucial. 32 Therefore, research on mutations and epigenetic changes may provide information about characteristics such as early diagnosis, and response to treatment. 33 
+
+In this study, a bioinformatics analysis was performed to identify the polysomy of OV retrieved by comparison with ovarian cancer. The CREB1 gene was successfully identified as a potential biomarker in ovarian cancer. According to the degree of protein-protein interaction connectivity, there are related genes, including TP53, AKT1, AKT2, AKT3, MMP9, BCL2, CCND1 and CCND3.
+
+CREB1 is a cellular transcription factor that can bind to certain DNA sequences called cAMP response elements to regulate gene transcription. 34 , 35 CREB1 not only regulates physiological functions but also participates in the malignant transformation of cells; excessive activation of CREB1 is necessary to transform normal cells into tumor cells. Compared to adjacent normal tissues and hematopoietic malignancies, CREB1 is overexpressed in many solid tumor types, such as non-small cell lung cancer, glioblastoma, breast cancer, melanoma, and diffuse mesothelioma. 36 - 43 In addition, CREB1 overexpression is related to clinicopathological parameters, including tumor stage, grade, metastasis, enhanced relapse, worsening prognosis, and decreased survival rate of patients. 37 , 44 - 47 
+
+In our study, CREB1 shows a negative correlation with the clinical stage in tumor tissues, which is also correlated to protein–protein interactions. We analyzed the role of CREB1 in ovarian cancer using 3 databases and found TP53 and PIK3CA to be highly correlated and jointly regulating tumor cell proliferation and survival. Overexpression of CREB1 is positively correlated with TP53, AKT1, and AKT2, without affecting AKT3. In addition to promoting the growth of cells and tumors in ovarian cancer, CREB1 also enhances the function of the PI3K/Akt pathway. In our study, the cBioPortal data set and TCGA data set revealed that the expression of CREB1 in ovarian cancer is significantly higher than that in normal tissues. However, CREB1 expression and TNM stages are significantly different. For further verification, we used the TCGA database to analyze the correlation between CREB1 expression level and clinical-pathological analysis in 45 patients with ovarian cancer. We found that CREB1 and ATF2 are highly correlated with the clinical stage. Moreover, ATF2 has been shown to cooperate with CREB/PGC-1α co-factor to regulate cancer cell proliferation, invasion, and metastasis. 45 , 48 , 49 These identified central genes function as a whole and may play a key role in OV.
+
+Based on these results, we further analyzed the proteins correlated with CREB1. By using Reactome, we found that these proteins are mainly enriched in the physiological processes of signal transduction, neuronal system, immune system, and metabolism of ubiquitin-dependent proteins. Based on the above research results and literature reports, we speculated that CREB1, in patients with advanced ovarian cancer, could trigger metastasis through a metabolic shift, increasing the proliferation of cancer cells (via PI3K/AKT). An acceleration of the late expression of the CREB1 gene may be indicative of ovarian cancer. The Cytoscape prediction using the String plug-in indicates that CREB1 interacts with 20 enriched clusters: TP53, AKT family, MMP9, BCL-2, CCND1, and CCND3. These genes ( Figure 6 ) are predicted based on co-expression/occurrence studies, experimental data, text mining, and curated databases. Further research is required to gain a deeper understanding of the relationship between each gene and CREB1 in solid tumors.
+
+The enrichment of downregulated genes involved in oxidative phosphorylation and metabolic processes may be explained by the presence of different cell types in the analyzed tissues. No studies have been conducted to investigate the relationship between biogenesis/metabolic processes and ovarian cancer, which warrants further studies. This study uses bioinformatics methods to identify potential key factors involved in ovarian cancer. However, this study has some limitations, such as the small number of samples and the number of data sets used, which limits the accuracy of the conclusion. Another limitation is that this study failed to identify the exact protein/pathway that primarily contributed to ovarian cancer. Further research is needed to determine the exact molecular mechanisms controlling ovarian cancer development.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Currently, ovarian cancer has no obvious symptom or specific tumor marker at an early stage. Our study for the first time indicated that CREB1 is ectopic expression in OV and is a potential new biomarker for survival for OV, which provides valuable information for guiding target therapeutic strategy. Therefore, molecular targeted therapy strategies inhibiting CREB1 and its key targets in signaling pathways are expected to become the focus of cancer research. Subsequently, experiments will be conducted to further explore the correct molecular mechanism of CREB1 in cancers of interest.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, sj-pdf-1-ccx-10.1177_1073274820976671 - Multi-Omics Analysis Identifying Key Biomarkers in Ovarian Cancer
+File: sj-pdf-1-ccx-10.1177_1073274820976671.pdf

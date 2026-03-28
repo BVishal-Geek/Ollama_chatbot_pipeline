@@ -1,0 +1,19 @@
+Source: PMC12868929_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Cost of Serious Infections in Chronic Lymphocytic Leukemia",
+  "condition_E": 1,
+  "condition_E_reason": "Patient characteristics including age, sex, and comorbidities were captured for all included patients at the time of diagnosis.",
+  "N_E": 1,
+  "N_E_reason": "Our cohort included 3705 patients with CLL and public hospital admissions between July 2016 and June 2022.",
+  "dataset_E": 0,
+  "dataset_E_reason": "The data included in this article were provided via an application process and are not publicly available.",
+  "intervention_E": 1,
+  "intervention_E_reason": "IgRT and inhospital anticancer treatment were recorded as interventions in the dataset.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The dataset includes costs associated with serious infections, which are linked to the recorded interventions.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

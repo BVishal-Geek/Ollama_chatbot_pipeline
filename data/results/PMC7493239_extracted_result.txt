@@ -1,0 +1,19 @@
+Source: PMC7493239_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "A Case of Testicular Granulomatous Inflammation Mistaken for Malignancy: Tuberculosis Identified Post Orchiectomy",
+  "condition_E": 0,
+  "condition_E_reason": "not found",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

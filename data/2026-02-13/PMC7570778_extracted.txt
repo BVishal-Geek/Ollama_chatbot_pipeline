@@ -1,0 +1,233 @@
+================================================================================
+ARTICLE TITLE: Construction and Validation of Nomograms for Predicting the Prognosis of Juvenile Osteosarcoma: A Real-World Analysis in the SEER Database
+PMCID: PMC7570778
+PMID: 33054584
+KEYWORDS: juvenile osteosarcoma, seer, nomograms, prognosis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Osteosarcoma is one of the most common malignant bone tumors, with a high incidence in adolescence. The objective of this study was to construct prognostic nomograms for predicting the prognosis of juvenile osteosarcoma.
+
+Methods::
+Patients with osteosarcoma diagnosed between 2004 and 2015 were identified in the Surveillance, Epidemiology, and End Results (SEER) database. The essential clinical predictors were identified with univariate and multivariate Cox analysis. Nomograms were constructed to predict the 3- and 5-year cancer- specific survival (CSS) and overall survival (OS). Concordance index (C-index) and calibration plots were performed to validate the predictive performance of nomograms.
+
+Results::
+We enrolled 736 adolescents with osteosarcoma from the SEER database, with 516 samples grouped into a training cohort and 220 samples grouped into a validation cohort. In multivariate analysis of the training cohort, predictors including tumor size, surgery treatment and AJCC stage were found to be associated with OS and CSS, while age was only associated with CSS. Construction of nomograms based on these predictors was performed to evaluate the prognosis of adolescents with osteosarcoma. The C-index and calibration curves also showed the satisfactory performance of these nomograms for prognosis prediction.
+
+Conclusion::
+The developed nomograms are useful tools for precisely predicting the prognosis of adolescents with osteosarcoma, which could enable patients to be more accurately managed in clinical practice.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Osteosarcoma is one of the most common malignant bone tumors, and its incidence ranks first in primary bone tumors. 1 The annual incidence is about 5 per million, 2 and the incidence in men is higher than that in women. 3 The most comprehensive epidemiological SEER database in the United States surveyed 3482 patients with osteosarcoma from 1973 to 2004. There were 2 peaks of osteosarcoma, which were the adolescence and the old age. The peak age of onset in adolescents was around 15 years of age, with primary osteosarcoma predominant. 4 Osteosarcoma can occur in any bone, but the most common site is the metaphysis of the long bones, especially the distal femur and proximal tibia, followed by the humerus, and other parts are rare. Most patients have a single lesion and are quite insidious, thus they are easily confused with trauma or growth pain at visit. 5 Blood metastasis of osteosarcoma occurs early and has a high incidence and rapid progress, which seriously threatens the patients’ limb or even life.
+
+The combination of surgery and chemotherapy is the commonly used clinical treatment. Chemotherapy can significantly increase the survival rate of patients and play a role in the treatment of small metastases, but its effectiveness is based on the successful removal of osteosarcoma. 6 Surgery includes 2 aspects of tumor removal and limb function reconstruction. The extent of tumor resection is based on the Enneking standard, which not only removes the tumor itself, but also removes healthy tissue 5 to 7 cm away from both ends of the tumor. 7 The reconstruction methods include tumor segment resection plus joint fusion, autologous or allograft bone transplantation, tumor segment bone inactivation and replantation, artificial joint prosthesis replacement. 8 With the popularization of neoadjuvant chemotherapy and the development and improvement of surgical techniques, the 5-year overall survival rate of osteosarcoma patients has gradually increased from 60% to 80%. 9 Despite the great success in treating with osteosarcoma, the patient’s prognosis has been at a plateau in the past 20 years. The survival rate of osteosarcoma has not continued to increase, and the rate of postoperative recurrence and metastasis has not declined.
+
+In addition to the effect of treatment methods on patient survival, there were also many studies on the impact of age, ethnicity, tumor grade, clinical stage, tumor size, and other factors on overall survival. 10 However, the conclusions of these reports were not consistent. Overall survival was affected by many variables. Few studies had combined all prognostic predictors to predict the overall survival of juvenile osteosarcoma.
+
+Nomograms are reliable statistical model that incorporates multiple risk factors for tumorigenesis to establish a graphical prediction tool and provide a personalized, evidence-based, highly accurate risk assessment. 11 In many cancer populations, the prediction accuracy of nomogram is higher than that of traditional staging systems. 12 , 13 In view of the better predictive ability of this statistical tool, this study aims to find the main risk factors for patients with osteosarcoma by establishing a nomogram. In this study, the clinical characteristics of osteosarcoma patients were obtained from the SEER database from 2004 to 2015. The Seer database not only collects data on various types of cancer, but more importantly, the database has relatively complete follow-up information. Therefore, the data of juvenile osteosarcoma were analyzed, and accurate nomograms were constructed to identify the clinical features for predicting the prognosis of adolescents with osteosarcoma.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Study data were collected from the SEER database released on Jun 8, 2019, using SEER*Stat software (version 8.3.6; National Cancer Institute, USA). Since all patient information derived from the SEER database is publicly available online, this study was exempted from the requirement for approval by our Institutional Review Board. The inclusion criteria were: (1) identified as osteosarcoma with ICD-O-3: 9180-9185; (2) diagnosed between 2004 and 2015. (3). Age <= 18. The exclusion criteria were: (1) multiple primary cancers and (2) clinical information missing or unknown.
+
+The prognostic variables of osteosarcoma patients were extracted from the SEER plan, including age at diagnosis, race, year of diagnosis, tumor grade, AJCC stage, tumor size, treatment strategy, cause of death and survival time (months).
+
+The X-Tiles program (Yale University, New Haven, USA) was used to determine the optimal cut-off treatment strategy for age and tumor size, including surgical methods, radiotherapy and chemotherapy. OS(overall survival) was defined as the time from diagnosis to death from any cause, and CSS (cancer- specific survival) was the time from diagnosis to death from osteosarcoma. At the last follow-up, the living patients were reviewed.
+
+The nomogram can be a method to show the results of the risk model intuitively and effectively, and it has important clinical application in predicting the outcome. It uses the length of the line to show the influence and values of different variables on the outcome.
+
+The nomogram is applied by adding up the points identified on the points scale for each variable. The total points projected on the bottom scales indicate the probability of 1-y, 3-y and 5-y’s overall survival or CSS probability.
+
+In this study, SPSS 25 was used for statistics, and R3.6.1 was used for the development and evaluation of nomograms. First, the X-tile software was used to determine the best cutoff values for Age and Tumor Size (the cutoff of OS and CSS were identified respectively). Subsequently, univariate Cox regression was used to determine risk factors related to OS or CSS, and patients with P < 0.05 in univariate analysis were included in multivariate COX regression analysis to determine independent prognostic factors. Based on independent risk factors, nomograms that predicted OS or CSS were built. The C index was used to evaluate the discrimination ability of the nomograms developed. The calibration plot was used to evaluate the accuracy of the nomograms. In addition, the DCA curve was used to evaluate the clinical value of the nomograms.
+
+
+Data Source and Patient Selection
+
+Study data were collected from the SEER database released on Jun 8, 2019, using SEER*Stat software (version 8.3.6; National Cancer Institute, USA). Since all patient information derived from the SEER database is publicly available online, this study was exempted from the requirement for approval by our Institutional Review Board. The inclusion criteria were: (1) identified as osteosarcoma with ICD-O-3: 9180-9185; (2) diagnosed between 2004 and 2015. (3). Age <= 18. The exclusion criteria were: (1) multiple primary cancers and (2) clinical information missing or unknown.
+
+
+Inclusion Variables
+
+The prognostic variables of osteosarcoma patients were extracted from the SEER plan, including age at diagnosis, race, year of diagnosis, tumor grade, AJCC stage, tumor size, treatment strategy, cause of death and survival time (months).
+
+The X-Tiles program (Yale University, New Haven, USA) was used to determine the optimal cut-off treatment strategy for age and tumor size, including surgical methods, radiotherapy and chemotherapy. OS(overall survival) was defined as the time from diagnosis to death from any cause, and CSS (cancer- specific survival) was the time from diagnosis to death from osteosarcoma. At the last follow-up, the living patients were reviewed.
+
+
+Construction of Nomogram
+
+The nomogram can be a method to show the results of the risk model intuitively and effectively, and it has important clinical application in predicting the outcome. It uses the length of the line to show the influence and values of different variables on the outcome.
+
+The nomogram is applied by adding up the points identified on the points scale for each variable. The total points projected on the bottom scales indicate the probability of 1-y, 3-y and 5-y’s overall survival or CSS probability.
+
+
+Statistical Methods
+
+In this study, SPSS 25 was used for statistics, and R3.6.1 was used for the development and evaluation of nomograms. First, the X-tile software was used to determine the best cutoff values for Age and Tumor Size (the cutoff of OS and CSS were identified respectively). Subsequently, univariate Cox regression was used to determine risk factors related to OS or CSS, and patients with P < 0.05 in univariate analysis were included in multivariate COX regression analysis to determine independent prognostic factors. Based on independent risk factors, nomograms that predicted OS or CSS were built. The C index was used to evaluate the discrimination ability of the nomograms developed. The calibration plot was used to evaluate the accuracy of the nomograms. In addition, the DCA curve was used to evaluate the clinical value of the nomograms.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To make it easier for readers to understand our research, we drew a flow chart ( Figure 1 ).
+
+Flow chart.
+
+According to the inclusion criteria, a total of 716 eligible patients extracted from the SEER database were included in this study. Then, we divided them into the training cohort (n = 516) and the internal validation cohort (n = 220). There was no statistically significant difference in demographic and clinical characteristics between the 2 groups ( Table 1 ). In terms of ethnic distribution, 16% were black and 74% were white. Among them, male patients accounted for 57%, and Primary Site had more in the lower limbs, accounting for 80%. In terms of tumor grading, most patients with osteosarcoma were in G4 undifferentiated state (67%). In the AJCC stage, I-II accounted for 78%, III-IV accounted for 22%, and most patients presented T2 (63%). N0 (98%) and M0 (80%) characteristics. Most patients received surgery (96%) and chemotherapy (97%), and 96% of patients did not receive radiation therapy.
+
+Demographics and Clinicopathologic Characteristics of Patients with Juvenile Osteosarcoma.
+
+In the OS training cohort, ages were divided into 2 groups through X-Tiles: <13 years, 13 to 18 years (S_ Figure 1 ). Tumor sizes were divided into 3 groups: <70 mm, 70 to 129 mm, >129 mm (S_ Figure 2 ). All variables related to OS in univariate analysis were further processed through multivariate analysis, indicating that the tumor size, AJCC stage, and type of surgery were independent predictors for OS (P < 0.05) ( Table 2 ). The survival curves of significant univariate in OS were plotted ( Figure 2 ).
+
+Survival curves of variables significant in univariate analysis in the OS training cohort.
+
+Univariate and Multivariate Analysis for OS in Training Cohort.
+
+For the CSS training cohort, we followed the same steps as above and divided the age into 2 groups: <13 years, 13-18 years (S_ Figure 3 ). Tumor sizes were divided into 3 groups: < 64 mm, 64-129 mm, > 129 mm (S_ Figure 4 ). Through multivariate analysis, age, AJCC stage, tumor size and type of surgery were determined as independent predictors for CSS (P < 0.05) ( Table 3 ). The survival curves of significant univariate in CSS were plotted in S_ Figure 5 .
+
+Nomograms predicting 3- and 5-year OS (A) and CSS (B). The total points were calculated by adding the points of each predictor, and correspond to the possibilities of 3- and 5-year OS and CSS of patients with osteosarcoma.
+
+DCA and calibration curves for 3-year OS, 5-year OS of the training cohort A. calibration curve for 3-year OS B: calibration curves for 5-year OS C: DCA curve for 3-year OS D: DCA curve for 5-year OS E: calibration curve for 3-year CSS F: calibration curves for 5-year CSS G: DCA curve for 3-year CSS H: DCA curve for 5-year CSS.
+
+Univariate and Multivariate Analysis for CSS in Training Cohort.
+
+DCA and calibration curves for 3-year OS, 5-year OS of the validation cohort calibration curve for 3-year OS B: calibration curves for 5-year OS C: DCA curve for 3-year OS D: DCA curve for 5-year OS E: calibration curve for 3-year CSS F: calibration curves for 5-year CSS G: DCA curve for 3-year CSS H: DCA curve for 5-year CSS.
+
+The nomograms were constructed by incorporating all significant variables ( Figure 3 ). The AJCC stage contributed most to the OS and CSS, followed by tumor size and surgery type. By summarizing the specific points of each predictor and then measuring the total points of OS and CSS, the individual survival probabilities could be easily calculated.
+
+For example: If a patient’s tumor size is 65-129 mm, according to Table 2 we judged that it belongs to middle, his clinical stage belonged to Stage III-IV, and received no surgical treatment. For each variable will get the corresponding “Points” on Points scale. Middle size corresponds to 7.2 points, Stage III-IV nearly corresponds to 10 points, no surgical treatment corresponds to 7.75 points. Then, accumulating and adding up to get the “Total points” = 24.95 points. “OS Probability” stands for the probability of overall survival. According to the “Total points” projected to the corresponding “OS Probability” scale, the overall survival of this patient can be calculated. For this patient, we can infer that his 3-year OS Probability approximately to 33%, 5-year OS Probability approximately to 18%. We can use the same method to get the patient’s CSS probability.
+
+Therefore, our nomogram can intuitively predict the prognosis of patients with juvenile osteosarcoma patients, which is different from the traditional AJCC stage and other variables for clinical prediction.
+
+The validation of the nomogram was carried out in training cohort and testing cohort. The C- index of OS and CSS were 0.699 (95% CI: 0.656-0.742) and 0.711 (95% CI: 0.668-0.754), respectively in training cohort. The C- index were 0.640 (95% CI: 0.501-0.779) and 0.669 (95% CI: 0.526-0.812), respectively in testing cohort ( Table 4 ).
+
+C-index of Nomogram.
+
+Calibration plots were used to visualize the performances of the nomograms in training cohort. The 45°line represented the best prediction. Calibration plots showed that the nomogram performed well ( Figure 4A, B, E, and F ).
+
+DCA (Decision Curve Analysis) is a method for evaluating clinical predictive models, diagnostic tests, and molecular markers. In order to prove the advantage of the nomogram. We found that the nomogram showed the best net benefit in 3-year and 5-year ( Figure 4C, D, G, and H ).
+
+These findings suggest that the nomogram constructed by combining multiple independent prognostic variables is the best to predict the survival time of patients, whether in the short term or in the long term. This may be helpful for patient counseling, decision-making and follow-up scheduling. In short, the predictive model we developed will enable patients with juvenile osteosarcoma to be managed more accurately in clinical practice.
+
+We also found that in the validation cohort, the performance of Calibration and DCA curves is consistent, proving the stability of our model ( Figure 5A-H )
+
+
+Flow Chart
+
+To make it easier for readers to understand our research, we drew a flow chart ( Figure 1 ).
+
+Flow chart.
+
+
+Clinical Information of the Included Cases
+
+According to the inclusion criteria, a total of 716 eligible patients extracted from the SEER database were included in this study. Then, we divided them into the training cohort (n = 516) and the internal validation cohort (n = 220). There was no statistically significant difference in demographic and clinical characteristics between the 2 groups ( Table 1 ). In terms of ethnic distribution, 16% were black and 74% were white. Among them, male patients accounted for 57%, and Primary Site had more in the lower limbs, accounting for 80%. In terms of tumor grading, most patients with osteosarcoma were in G4 undifferentiated state (67%). In the AJCC stage, I-II accounted for 78%, III-IV accounted for 22%, and most patients presented T2 (63%). N0 (98%) and M0 (80%) characteristics. Most patients received surgery (96%) and chemotherapy (97%), and 96% of patients did not receive radiation therapy.
+
+Demographics and Clinicopathologic Characteristics of Patients with Juvenile Osteosarcoma.
+
+
+Independent Prognostic Factors for Adolescents With Osteosarcoma
+
+In the OS training cohort, ages were divided into 2 groups through X-Tiles: <13 years, 13 to 18 years (S_ Figure 1 ). Tumor sizes were divided into 3 groups: <70 mm, 70 to 129 mm, >129 mm (S_ Figure 2 ). All variables related to OS in univariate analysis were further processed through multivariate analysis, indicating that the tumor size, AJCC stage, and type of surgery were independent predictors for OS (P < 0.05) ( Table 2 ). The survival curves of significant univariate in OS were plotted ( Figure 2 ).
+
+Survival curves of variables significant in univariate analysis in the OS training cohort.
+
+Univariate and Multivariate Analysis for OS in Training Cohort.
+
+For the CSS training cohort, we followed the same steps as above and divided the age into 2 groups: <13 years, 13-18 years (S_ Figure 3 ). Tumor sizes were divided into 3 groups: < 64 mm, 64-129 mm, > 129 mm (S_ Figure 4 ). Through multivariate analysis, age, AJCC stage, tumor size and type of surgery were determined as independent predictors for CSS (P < 0.05) ( Table 3 ). The survival curves of significant univariate in CSS were plotted in S_ Figure 5 .
+
+Nomograms predicting 3- and 5-year OS (A) and CSS (B). The total points were calculated by adding the points of each predictor, and correspond to the possibilities of 3- and 5-year OS and CSS of patients with osteosarcoma.
+
+DCA and calibration curves for 3-year OS, 5-year OS of the training cohort A. calibration curve for 3-year OS B: calibration curves for 5-year OS C: DCA curve for 3-year OS D: DCA curve for 5-year OS E: calibration curve for 3-year CSS F: calibration curves for 5-year CSS G: DCA curve for 3-year CSS H: DCA curve for 5-year CSS.
+
+Univariate and Multivariate Analysis for CSS in Training Cohort.
+
+DCA and calibration curves for 3-year OS, 5-year OS of the validation cohort calibration curve for 3-year OS B: calibration curves for 5-year OS C: DCA curve for 3-year OS D: DCA curve for 5-year OS E: calibration curve for 3-year CSS F: calibration curves for 5-year CSS G: DCA curve for 3-year CSS H: DCA curve for 5-year CSS.
+
+
+Construction of Nomogram
+
+The nomograms were constructed by incorporating all significant variables ( Figure 3 ). The AJCC stage contributed most to the OS and CSS, followed by tumor size and surgery type. By summarizing the specific points of each predictor and then measuring the total points of OS and CSS, the individual survival probabilities could be easily calculated.
+
+For example: If a patient’s tumor size is 65-129 mm, according to Table 2 we judged that it belongs to middle, his clinical stage belonged to Stage III-IV, and received no surgical treatment. For each variable will get the corresponding “Points” on Points scale. Middle size corresponds to 7.2 points, Stage III-IV nearly corresponds to 10 points, no surgical treatment corresponds to 7.75 points. Then, accumulating and adding up to get the “Total points” = 24.95 points. “OS Probability” stands for the probability of overall survival. According to the “Total points” projected to the corresponding “OS Probability” scale, the overall survival of this patient can be calculated. For this patient, we can infer that his 3-year OS Probability approximately to 33%, 5-year OS Probability approximately to 18%. We can use the same method to get the patient’s CSS probability.
+
+Therefore, our nomogram can intuitively predict the prognosis of patients with juvenile osteosarcoma patients, which is different from the traditional AJCC stage and other variables for clinical prediction.
+
+
+Evaluation of the Nomogram Model by Calibration and DCA Analysis
+
+The validation of the nomogram was carried out in training cohort and testing cohort. The C- index of OS and CSS were 0.699 (95% CI: 0.656-0.742) and 0.711 (95% CI: 0.668-0.754), respectively in training cohort. The C- index were 0.640 (95% CI: 0.501-0.779) and 0.669 (95% CI: 0.526-0.812), respectively in testing cohort ( Table 4 ).
+
+C-index of Nomogram.
+
+Calibration plots were used to visualize the performances of the nomograms in training cohort. The 45°line represented the best prediction. Calibration plots showed that the nomogram performed well ( Figure 4A, B, E, and F ).
+
+DCA (Decision Curve Analysis) is a method for evaluating clinical predictive models, diagnostic tests, and molecular markers. In order to prove the advantage of the nomogram. We found that the nomogram showed the best net benefit in 3-year and 5-year ( Figure 4C, D, G, and H ).
+
+These findings suggest that the nomogram constructed by combining multiple independent prognostic variables is the best to predict the survival time of patients, whether in the short term or in the long term. This may be helpful for patient counseling, decision-making and follow-up scheduling. In short, the predictive model we developed will enable patients with juvenile osteosarcoma to be managed more accurately in clinical practice.
+
+We also found that in the validation cohort, the performance of Calibration and DCA curves is consistent, proving the stability of our model ( Figure 5A-H )
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+A previous study found that data on prognostic factors for juvenile osteosarcoma was still limited, and there was a lack of effective methods to predict the overall survival. Therefore, a practical tool was needed to identify risk factors. Nomograms can display the outcome of the model graphically by combining important risk variables. 14 , 15 Thus, nomograms are often used by clinicians to make accurate and personalized medical decisions. 16 
+
+In this study, practical nomograms was established to predict the survival outcomes of adolescents with osteosarcoma. The internal and external validation of the nomogram showed good predictive performance.
+
+Age is usually considered an independent factor for osteosarcoma. Studies had shown that the incidence of osteosarcoma changed with age. 17 The annual incidence of children under 10 years old was 1.7/10 million, while the annual incidence of patients between 10 and 19 years old was 8.2 / 10 million. 18 Studies found that 2 to 3 out of every 106 people suffered from osteosarcoma, and 8 to 11 out of every 106 people between 15 and 19 years old. 19 The peak period of osteosarcoma was puberty between 10 and 14 years old. 20 Consistent with previous studies, the analysis of 736 patients showed that compared with patients <14 years of age, OS and CSS of adolescents > = 14 years old were significantly reduced (HR = 1.428, 95% CI: 1.028 -1.985 P = 0.034).
+
+This study also confirmed a correlation between AJCC stage and overall survival. AJCC stage was an independent risk factor that affected the prognosis of osteosarcoma patients. It was well known that high grade (lowly differentiated or undifferentiated) was considered a risk factor for mortality, and its metastasis and recurrence rate were higher than low grade (highly differentiated or moderately differentiated). 21 The survival rate of patients with larger tumors, regional lymph node metastasis and distant metastasis were significantly lower than that of other patients. This result had been unanimously approved by researchers. 22 
+
+In addition, tumor size was generally considered to be an important predictor of juvenile osteosarcoma. 23 It was found that tumors between 71 to 129 mm and >129 mm were related to poor prognosis. The research by Kim MS et al. suggested that patients with large tumors (RTP > 27.5 cm ∼ 2 / m2) were significantly correlated with poor histological response and tumor location of the distal femur, and tumor size was an important prognosis factor for osteosarcoma, 24 which was consistent with our study.
+
+There are many surgical treatment methods for juvenile osteosarcoma. In recent years, the effect of limb salvage surgery has been improved, and its indications have gradually expanded. 25 Based on long-term survival, this method preserves limb function, improves the quality of life, and eliminates psychological and social obstacles. It is the most commonly used method for the treatment of osteosarcoma, and has its unique advantages. 26 This was confirmed in our multivariate analysis. Studies had shown that effective surgical resection could improve the prognosis and prolong the survival time of juvenile osteosarcoma. 27 In recent years, the treatment of residual limbs with vascularized fibula transplantation through a composite method of free fibula revascularization with anastomoses can provide better function and survival rate. 28 In terms of survival and function. The use of rotational plastic surgery technology and scalable end-point treatment can reduce the probability of postoperative complications. 29 According to the postoperative follow-up, it could be seen that the patient’s overall survival had been improved. 30 Consistent with previous studies, the analysis of 736 patients showed that surgical treatment was closely related to patients’ OS and CSS.
+
+The newly established nomogram was validated by the internal cohort and external validation cohort. The DCA and calibration curves showed the good performance of the nomogram in predicting prognosis.
+
+It was worth noting that this study had certain limitations. The SEER database only contained general information and information on surgery and radiotherapy for some diseases. It did not provide detailed treatment information such as specific chemotherapy, targeted therapy, and immunotherapy. At present, targeted therapy has become an emerging treatment, which has certain limitations for the specific analysis of the therapeutic effect on osteosarcoma. Secondly, the race of samples in this study was a group living in the United States registered in the SEER database, thus the research on yellow races was limited to American, while other yellow race groups in Asia were not included. There might be some deviations in the outcomes of osteosarcoma. Third, larger randomized controlled trials and multicenter clinical samples are needed to validate the reliability of our study results.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, S_Figure1 - Construction and Validation of Nomograms for Predicting the Prognosis of Juvenile Osteosarcoma: A Real-World Analysis in the SEER Database
+File: S_Figure1.tif
+Supplemental Material, S_Figure2 - Construction and Validation of Nomograms for Predicting the Prognosis of Juvenile Osteosarcoma: A Real-World Analysis in the SEER Database
+File: S_Figure2.tif
+Supplemental Material, S_Figure3 - Construction and Validation of Nomograms for Predicting the Prognosis of Juvenile Osteosarcoma: A Real-World Analysis in the SEER Database
+File: S_Figure3.tif
+Supplemental Material, S_Figure4 - Construction and Validation of Nomograms for Predicting the Prognosis of Juvenile Osteosarcoma: A Real-World Analysis in the SEER Database
+File: S_Figure4.tif
+Supplemental Material, S_Figure5 - Construction and Validation of Nomograms for Predicting the Prognosis of Juvenile Osteosarcoma: A Real-World Analysis in the SEER Database
+File: S_Figure5.tif

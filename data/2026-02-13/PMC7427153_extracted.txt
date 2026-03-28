@@ -1,0 +1,162 @@
+================================================================================
+ARTICLE TITLE: Prognostic Factors in Patients With Osteosarcoma With the Surveillance, Epidemiology, and End Results Database
+PMCID: PMC7427153
+PMID: 32787692
+KEYWORDS: osteosarcoma, cox regression hazards model, nomogram, competitive risk models, seer database
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Osteosarcoma is a rare type of bone tumor, and this study aimed to assess the clinicopathologic features and prognoses of osteosarcoma patients.
+
+Methods::
+Clinicopathologic and survival data of 1025 patients between 2010 and 2016, 230 between 2008 and 2009 were downloaded and analyzed from the SEER database. Patients’ survival was analyzed using the Kaplan-Meier analysis; prognostic factors were assessed using the Cox regression hazards model. The 1-, 3-, and 5-year survival rates were estimated with nomogram. Competitive risk models were used to identify prognostic risk factors related to endpoint events of osteosarcoma patients.
+
+Results::
+Overall, 722 samples were obtained from the extremities, 134 from the axial bones, and 119 from the cranial and mandible in SEER (2010-2016 cohort). After the preliminary diagnosis, the median survival time of patients with osteosarcoma was 39 months, and the 1-, 3-, and 5-year survival rates were 87.3%, 67.2%, and 58.0%, respectively (P < 0.001). The competitive risk model revealed no competitive risks of the endpoint event.
+
+Conclusion::
+Our study found out the prognostic factors in patients with Osteosarcoma by Cox regression hazards model, after that, nomogram was established to predict the 1-, 3-, and 5-year survival rates, which may help oncologists to understand the highly malignant tumor.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Osteosarcoma is a primary bone malignancy that is most common among children, adolescents, and young adults, and reappears in adults older than 50 years. 1 It is the most common type of bone tumor, although its global incidence is low (about 1-3 per million population), compared with other tumor types. 2 Common primary sites of osteosarcoma include the distal femur, proximal tibia, and shoulder, as well as the skull, mandible, and pelvis. 3 
+
+Osteosarcoma usually involves malignant immature osteocytes or osteoid osteocytes. Osteosarcomas can be classified as periosteal, low central, conventional, capillary dilation type, chondroblast type, etc. with each pathology having unique biological characteristics. Previous studies have shown that risk factors for osteosarcoma include height, birth weight, and germline mutations. 4 As early as the last century, due to the lack of development of chemotherapy, the main treatment modality for osteosarcoma was amputation, which could prolong patients’ long-term survival. 5 With the gradual development of chemotherapy technology, the survival period of patients has been gradually extended. Subsequently, due to the further development of radiotherapy technology, limb salvage surgery combined with radiotherapy and chemotherapy can steadily improve the survival rate of patients. Nevertheless, there are still many patients with recurrence or metastasis after surgery combined with chemoradiotherapy; thus, it is particularly important to have an in-depth understanding of the occurrence, development, and prognosis of osteosarcoma. 6 The collection and observation of these characteristics may inform the clinical treatment of patients with osteosarcoma and further prolong their survival.
+
+Previous studies have linked some factors with the prognoses of patients with osteosarcoma, including whether or not they underwent surgery and whether or not they received a combination of radiotherapy and chemotherapy. 6 , 7 However, these studies analyzed only one of these factors to observe its effect on the prognosis. Therefore, the nomogram prediction model was used in this study to predict the influence of various prognostic factors on the 3-year and 5-year survival rates of patients. The competing risks model was used to evaluate the factors that had a competitive impact on end-point events in patients with osteosarcoma. 8 , 9 The purpose of this study was to combine several factors that influenced the survival of patients with osteosarcoma and to generate a new prognostic model for patients with osteosarcoma, to systematically and comprehensively describe the factors related to their survival.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+In this study, SEER*Stat (version 8.3.5; National Cancer Institute, Bethesda, MD, USA) was used to obtain cast-listing data, which included variables such as patient ID, sex, year of diagnosis, age at diagnosis, race, histology, stage, grade, type of surgery, cause of death, and COD to site recode. Regarding survival time, only operative variables were found, while no information regarding radiotherapy or chemotherapy was found. The determination of pathology in these variables mainly depended on International Classification of Childhood Cancer site recode and/or International Classification of Disease for Oncology, third revision (ICD-O-3)/WHO 2008, and the pathological grade of tumor mainly depended on the histological type as per ICD-O-3. Based on these variables, we obtained 10,201 samples of osteosarcoma after sorting through all the data obtained between 2010 and 2016. We excluded samples with unclear pathology classification, chondrosarcoma, Ewing sarcoma samples, and samples with unknown diagnoses. The remaining 1025 patients with osteosarcoma were included for further analysis. 230 patients were obtained between 2008 and 2009 as a validation cohort.
+
+Cox regression model: Univariate and multivariate regression risk models were used to identify independent prognostic factors related to the prognosis of patients with osteosarcoma. The single-factor analysis was performed using SPSS version 23 (IBM Corp., Armonk, NY, USA). Multivariate Cox regression results were plotted using the survival , survminer and ggforest packages in R version 3.6.0 (The R Development Core Team, Vienna, Austria). The clinical characteristics of all patients were described as the mean±standard deviation for continuous data, and percentages for categorical data. Single-factor survival analysis showed that age, and T and N stages were all correlated with the prognosis. We grouped the samples, and compared the influence of different subgroups on patient survival using the log-rank test to obtain the corresponding survival curves. P < 0.05 indicated a statistically significant difference.
+
+Nomogram: Nomograms for 1-, 3-, and 5-year overall survival were constructed according to the univariate and multivariate Cox analyses of data contained in the field “COD to site recode.” Therefore, the patients had 3 endpoint events: survival, death due to this cancer, and death due to other causes.
+
+The cmprsk package in the R environment was used to visualize competing risk events. There may be more than 1 endpoint event for the disease, and all other causes of death unrelated to the tumor are referred to as competing risk events. 10 Some patients died due to the tumor, some due to the side effects of treatment, and some due to causes other than cardiovascular disease. We assessed these patients and calculated the incidence of end-point events.
+
+
+Statistical Analyses
+
+Cox regression model: Univariate and multivariate regression risk models were used to identify independent prognostic factors related to the prognosis of patients with osteosarcoma. The single-factor analysis was performed using SPSS version 23 (IBM Corp., Armonk, NY, USA). Multivariate Cox regression results were plotted using the survival , survminer and ggforest packages in R version 3.6.0 (The R Development Core Team, Vienna, Austria). The clinical characteristics of all patients were described as the mean±standard deviation for continuous data, and percentages for categorical data. Single-factor survival analysis showed that age, and T and N stages were all correlated with the prognosis. We grouped the samples, and compared the influence of different subgroups on patient survival using the log-rank test to obtain the corresponding survival curves. P < 0.05 indicated a statistically significant difference.
+
+Nomogram: Nomograms for 1-, 3-, and 5-year overall survival were constructed according to the univariate and multivariate Cox analyses of data contained in the field “COD to site recode.” Therefore, the patients had 3 endpoint events: survival, death due to this cancer, and death due to other causes.
+
+The cmprsk package in the R environment was used to visualize competing risk events. There may be more than 1 endpoint event for the disease, and all other causes of death unrelated to the tumor are referred to as competing risk events. 10 Some patients died due to the tumor, some due to the side effects of treatment, and some due to causes other than cardiovascular disease. We assessed these patients and calculated the incidence of end-point events.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+From 2010 to 2016, we collected 1025 samples of osteosarcoma, all of which were primary osteosarcomas obtained from 471 female and 554 male patients. A total of 772 samples were obtained from the extremities, 134 from the axial bones, and 119 from the other cranial and mandible. There were 571, 328, 74, and 52 grades(undifferentiated)IV, (Poorly-differentiated) III, (Moderately differentiated) II, and (Well-differentiated) I samples, respectively. There were 422 T1 samples, 566 T2 samples, and 37 T3+TX samples; 974 cases were N negative, 22 cases were N positive, and 29 other cases were N unknown. Fifty-six patients had tumor diameters <3 cm, 374 patients had tumor diameters of 3–8 cm, 376 patients had tumor diameters between 8–13 cm, and 219 patients had tumor diameters of >13 cm. There were 600 patients younger than 25 years, 180 patients aged 25–45 years, 144 patients aged 45–65 years, and 101 patients aged 65 years or older. Of these, 920 underwent surgery while 105 did not. Osteosarcoma was more common in the extremities, presented commonly as grade IV disease, and more common among adolescents ( Table 1 ).
+
+Characteristics of Osteosarcoma Patients.
+
+Single-factor analysis and log-rank test in the Kaplan-Meier (K-M) analysis of the collected variables showed that patients’ age, lymph node status, tumor size, grade and stage, surgical status, primary site, and distant metastasis status were significantly correlated with patients’ prognoses ( Figure 1 , Figure S1). Furthermore, independent factors related to the prognoses of osteosarcoma patients were found through the multiple-factor Cox regression model, including age, tumor cell grade, tumor size, AJCC_M (American Joint Committee on Cancer), and surgical status, as shown in the forest map ( Figure 2 ). The presence or absence of lymph node metastasis, AJCC_T and primary site did not influence the prognoses of patients. And the 2008-2009 cohort was used to validate the accuracy of the cox regression model, the general information of the patients was list in Table 1, and the cox regression model turned out to be consistent with the results of 2010-2016 cohort (Figure S2).
+
+Kaplan-Meier (K-M) analysis of patients with Osteosarcoma about Age (A), AJCC_N(B), AJCC_T (C), Grade (D), Tumor_size (E), Surgery (F).
+
+Multiple-factor Cox regression analysis of patients based on the results of K-M analysis and visualized with forest map.
+
+Based on the results of the multivariate analysis, tumor size, age, AJCC_M, surgical status, and grade independently affected the prognoses of patients with osteosarcoma. On the nomogram, each prognostic factor had a specific value, and the sum of each value was compared with the ruler card in the figure to obtain the prediction of patients at 3 years and 5 years ( Figure 3 ). The internal validation of the prognostic model was further constructed by bootstrapping method 11 , 12 in R language, with a c -index of 0.781, and was validated by external cohort (Figure S3) with a c -index of 0.725, which verified that the prediction model was accurate ( Figure 4 ).
+
+Nomogram composed of Tumor_size, AJCC_M, Grade, surgical status, and Age.Age:0 <=25, 1 >25, <=45, 2 >45, <=65, 3 >65. AJCC_M: 0 without metastasis, 1 with distant metastasis. Grade: 0 well, 1 moderately, 2 poorly, 3 undifferentiated. Tumor_size: 0 <3,1 >=3, <=8, 2 >8, <=13, 3 >13. Surgery: 0 No surgery, 1 surgery.
+
+Internal calibration plots of 3-year (A) and 5-year (B) overall survival nomogram calibration curves.
+
+Therefore, we constructed a prognostic prediction model for osteosarcoma patients to evaluate their 3-year and 5-year survival rates. Based on the specific values in our nomogram, we could calculate the 3-year and 5-year survival rates for each patient.
+
+Survival analysis is a commonly used statistical approach in tumor prognosis studies. The methods of survival analysis include the K-M method to estimate survival probability, log-rank test to compare 2 or more survival curves, and the Cox proportional risks model to assess the impact of multiple potential factors on survival time. 13 Classic survival analysis only considers a single situation in medical research; however, in the end, observations are often not unitary, and multiple destination and competing risk events are observed. The single end point analysis method is used when multiple end point events could occur due to the existence of competing risks for these end point event probability estimation deviations. 14 Finally, competing risks may occur in a multiple event study, and a reasonable analysis method with a scientific forecast of the incidence should be used. By establishing a multiple-outcome competing risks model, the authors divided the survival tumor events of osteosarcoma patients into 3 survival endpoints, including death from osteosarcoma and death from tumors other than osteosarcoma, and identified the prognostic factors related to osteosarcoma. The results of the competitive risk model suggested that patients with osteosarcoma have 3 prognostic factors: survival, death from tumor, and death from causes other than the tumor. Deaths due to other reasons are called competitive factors. Deaths due to osteosarcoma in this study occurred in a total of 46 patients with other diseases. The main causes were cardiac diseases and infections, while other scholars reported that most osteosarcoma patients died from heart disease. These causes of death were included in the competing risks model to evaluate the effects of age, grade, surgical status, tumor location, and other factors on endpoint events, as shown in Figure 5 , and the results of Gray test were shown in Table S1. The results confirmed that this factor had little impact on the survival status of patients with osteosarcoma, with no statistical significance.
+
+Competitive risk model to identify competitive factors that may affect osteosarcoma death. X-axis represents the survival of months, and the Y-axis represents cumulative incidence.
+
+
+General Characteristics of Patients
+
+From 2010 to 2016, we collected 1025 samples of osteosarcoma, all of which were primary osteosarcomas obtained from 471 female and 554 male patients. A total of 772 samples were obtained from the extremities, 134 from the axial bones, and 119 from the other cranial and mandible. There were 571, 328, 74, and 52 grades(undifferentiated)IV, (Poorly-differentiated) III, (Moderately differentiated) II, and (Well-differentiated) I samples, respectively. There were 422 T1 samples, 566 T2 samples, and 37 T3+TX samples; 974 cases were N negative, 22 cases were N positive, and 29 other cases were N unknown. Fifty-six patients had tumor diameters <3 cm, 374 patients had tumor diameters of 3–8 cm, 376 patients had tumor diameters between 8–13 cm, and 219 patients had tumor diameters of >13 cm. There were 600 patients younger than 25 years, 180 patients aged 25–45 years, 144 patients aged 45–65 years, and 101 patients aged 65 years or older. Of these, 920 underwent surgery while 105 did not. Osteosarcoma was more common in the extremities, presented commonly as grade IV disease, and more common among adolescents ( Table 1 ).
+
+Characteristics of Osteosarcoma Patients.
+
+
+Prognostic Factors of Patients
+
+Single-factor analysis and log-rank test in the Kaplan-Meier (K-M) analysis of the collected variables showed that patients’ age, lymph node status, tumor size, grade and stage, surgical status, primary site, and distant metastasis status were significantly correlated with patients’ prognoses ( Figure 1 , Figure S1). Furthermore, independent factors related to the prognoses of osteosarcoma patients were found through the multiple-factor Cox regression model, including age, tumor cell grade, tumor size, AJCC_M (American Joint Committee on Cancer), and surgical status, as shown in the forest map ( Figure 2 ). The presence or absence of lymph node metastasis, AJCC_T and primary site did not influence the prognoses of patients. And the 2008-2009 cohort was used to validate the accuracy of the cox regression model, the general information of the patients was list in Table 1, and the cox regression model turned out to be consistent with the results of 2010-2016 cohort (Figure S2).
+
+Kaplan-Meier (K-M) analysis of patients with Osteosarcoma about Age (A), AJCC_N(B), AJCC_T (C), Grade (D), Tumor_size (E), Surgery (F).
+
+Multiple-factor Cox regression analysis of patients based on the results of K-M analysis and visualized with forest map.
+
+
+Construction and Evaluation of the Nomogram for Osteosarcoma
+
+Based on the results of the multivariate analysis, tumor size, age, AJCC_M, surgical status, and grade independently affected the prognoses of patients with osteosarcoma. On the nomogram, each prognostic factor had a specific value, and the sum of each value was compared with the ruler card in the figure to obtain the prediction of patients at 3 years and 5 years ( Figure 3 ). The internal validation of the prognostic model was further constructed by bootstrapping method 11 , 12 in R language, with a c -index of 0.781, and was validated by external cohort (Figure S3) with a c -index of 0.725, which verified that the prediction model was accurate ( Figure 4 ).
+
+Nomogram composed of Tumor_size, AJCC_M, Grade, surgical status, and Age.Age:0 <=25, 1 >25, <=45, 2 >45, <=65, 3 >65. AJCC_M: 0 without metastasis, 1 with distant metastasis. Grade: 0 well, 1 moderately, 2 poorly, 3 undifferentiated. Tumor_size: 0 <3,1 >=3, <=8, 2 >8, <=13, 3 >13. Surgery: 0 No surgery, 1 surgery.
+
+Internal calibration plots of 3-year (A) and 5-year (B) overall survival nomogram calibration curves.
+
+Therefore, we constructed a prognostic prediction model for osteosarcoma patients to evaluate their 3-year and 5-year survival rates. Based on the specific values in our nomogram, we could calculate the 3-year and 5-year survival rates for each patient.
+
+Survival analysis is a commonly used statistical approach in tumor prognosis studies. The methods of survival analysis include the K-M method to estimate survival probability, log-rank test to compare 2 or more survival curves, and the Cox proportional risks model to assess the impact of multiple potential factors on survival time. 13 Classic survival analysis only considers a single situation in medical research; however, in the end, observations are often not unitary, and multiple destination and competing risk events are observed. The single end point analysis method is used when multiple end point events could occur due to the existence of competing risks for these end point event probability estimation deviations. 14 Finally, competing risks may occur in a multiple event study, and a reasonable analysis method with a scientific forecast of the incidence should be used. By establishing a multiple-outcome competing risks model, the authors divided the survival tumor events of osteosarcoma patients into 3 survival endpoints, including death from osteosarcoma and death from tumors other than osteosarcoma, and identified the prognostic factors related to osteosarcoma. The results of the competitive risk model suggested that patients with osteosarcoma have 3 prognostic factors: survival, death from tumor, and death from causes other than the tumor. Deaths due to other reasons are called competitive factors. Deaths due to osteosarcoma in this study occurred in a total of 46 patients with other diseases. The main causes were cardiac diseases and infections, while other scholars reported that most osteosarcoma patients died from heart disease. These causes of death were included in the competing risks model to evaluate the effects of age, grade, surgical status, tumor location, and other factors on endpoint events, as shown in Figure 5 , and the results of Gray test were shown in Table S1. The results confirmed that this factor had little impact on the survival status of patients with osteosarcoma, with no statistical significance.
+
+Competitive risk model to identify competitive factors that may affect osteosarcoma death. X-axis represents the survival of months, and the Y-axis represents cumulative incidence.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Osteosarcoma is a rare tumor, and the effective treatment modalities are still surgery, radiotherapy, and chemotherapy. 15 , 16 Although targeted therapy and immunotherapy are in full swing, these targeted therapies affect mainly osteoclasts. There are signaling pathways involved in the occurrence and development of osteosarcomas, such as the Notch pathway, Hedgehog pathway, and mTOR pathway. Some genes also contribute to the metastasis of osteosarcomas, such as VEGFR , KIT , FGFR , IGF-1 , and HER2 . Immunotherapeutic agents include interferon, granulocyte-macrophage colony-stimulating factor, interleukin-2, as well as programed death-1 and CTLA4 inhibitors. The evaluation of the clinical treatment effect is still in the pre-clinical and clinical research stages. In addition, with the gradual improvement of the human genome project, the development of second-generation sequencing, whole-exon and whole-genome sequencing technologies, and the publication of in-depth sequencing results by multiple international centers, potential new therapeutic targets will be found, which may benefit patients with osteosarcoma.
+
+Many prognostic factors can affect patient survival, but the clinical prognostic features of osteosarcoma and independent factors that affect patient prognosis have not been fully described. 17 , 18 In view of the long treatment process and slow progression of osteosarcoma, further understanding of the characteristics of osteosarcoma, and clinical prognostic factors, a better analysis of the epidemiological monitoring of the characteristics of the onset of osteosarcoma is required for the diagnosis, follow-up, and treatment of osteosarcoma. 19 Many prognostic factors can affect patients with osteosarcoma, and many previous correlation analyses have been conducted, most of which used K-M analysis and Cox regression analysis to assess a single factor, which comprises a limitation to its prognostic value. This study introduced the predictive nomogram model, which can provide strong evidence for the evaluation of the long-term survival of patients. The nomogram 20 has been proven to predict the survival of osteosarcoma patients after surgical resection, including their 1-year, 2-year, and 3-year survival rates. However, these studies were performed without validation, so their results might not be reliable in all other populations worldwide regarding prediction bias. 20 , 21 Another study proved the probability of metastasis in stage IIB extremity osteosarcoma via a nomogram using a small sample size, which was a significant limitation. 20 , 22 We established a prognostic nomogram with data from 2,195 osteosarcoma cases obtained from the SEER database, allowing us to calculate 3- and 5-year overall survival rates of osteosarcoma patients in this study.
+
+Univariate log-rank test and multivariate Cox regression analysis were performed to screen for prognostic factors, and to identify independent prognostic factors. Age at diagnosis, Grade, tumor size, AJCC_M, and surgical status were independent prognostic factors for the survival of osteosarcoma patients. The present study covered cases registered between 2010 and 2016, and patients from 2008-2009 were as a validation cohort. Previous studies have shown that survival rates decline with increasing age among osteosarcoma patients. 23 - 25 Likewise, our results showed that increasing age was a negative prognostic factor for osteosarcoma patients. Our K-M analysis results showed that the survival rate of patients aged >65 years was significantly lower than that of patients younger than 45 years (P < 0.05). Tumor size was another significant prognostic factor in osteosarcoma patients, and it has been reported that the prognosis worsens with increasing tumor size. 26 We also obtained identical results; the survival rate of patients with tumor diameter > 13 cm was inferior to that of those with tumor diameter < =8 cm. In addition, we found that surgery had a prompt effect on survival outcomes of osteosarcoma patients, which was consistent with the results of previous studies. 19 , 25 , 27 , 28 Regarding the occurrence and development of many tumors, distant metastasis is regarded as a fatal factor. 29 , 30 This study found that patients with osteosarcoma with distant metastasis had significantly worse prognoses than did those without metastasis. Moreover, patients with higher pathological grade had worse prognoses.
+
+Based on the previously identified independent prognostic factors, prognostic nomograms were established to obtain an actual method of estimating the 3-year and 5-year overall survival for osteosarcoma patients. The 3-year and 5-year survival rates were 67.2% and 58.0%, respectively. Tumor grade, AJCC_M, tumor size, and surgery all had exclusive values on the nomogram, and the sum of each factor’s values was used to predict the 3-year and 5-year survival rates of osteosarcoma patients. The accuracy of the prognostic model was in line with the predicted survival rate in this study, with a c -index of 0.781 obtained through random sampling via bootstrapping in the R environment. 31 , 32 
+
+The authors classified the survival endpoint events of osteosarcoma patients into 3, including death from osteosarcoma and death from tumors other than osteosarcoma, and identified the prognostic factors related to osteosarcoma by constructing competitive risk models. 8 , 9 , 21 The results showed that osteosarcoma patients have 3 endpoint events: survival, death from tumor, and death from causes other than tumors. Deaths from other causes are referred to as competing factors, and occurred in 46 cases. The other causes of death were mainly infection, septicemia, and suicide. These causes of death were included in the competitive risk model to evaluate the effects of age, grade, surgical status, and tumor location, on endpoint events; there were no competing risks regarding the endpoint event, namely, death from osteosarcoma.
+
+There are some limitations to our study. We collected and calculated the 1-, 3-, and 5-year survival rates of osteosarcoma patients; on one hand, the data regarding radiotherapy and chemotherapy were restricted in the SEER database, which correlated to multiple missing parameters significance that could cause bias. On the other hand, our study data were obtained from the same database, and the external validation was not available, internal validation was used to enhance the credibility of the study, and data from 2008 to 2009 were added to the study as validation, so the data is more credible. Nevertheless, more clinical data are needed to verify the results of this study, so as to further improve the credibility of the results.
+
+Finally, our study identified the prognostic factors associated with the prognoses of patients with osteosarcoma, and used the nomogram to predict the 1-, 3-, and 5-year survival rates of osteosarcoma patients. By using the competing risks model to verify the reliability of the results, our results can be further used to predict the long-term clinical survival and individual survival probabilities, which have very good clinical significance.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, Fig_S1 - Prognostic Factors in Patients With Osteosarcoma With the Surveillance, Epidemiology, and End Results Database
+File: Fig_S1.tif
+Supplemental Material, Fig_S2 - Prognostic Factors in Patients With Osteosarcoma With the Surveillance, Epidemiology, and End Results Database
+File: Fig_S2.tif
+Supplemental Material, Fig_S3 - Prognostic Factors in Patients With Osteosarcoma With the Surveillance, Epidemiology, and End Results Database
+File: Fig_S3.tif
+Supplemental Material, Table_S1 - Prognostic Factors in Patients With Osteosarcoma With the Surveillance, Epidemiology, and End Results Database
+File: Table_S1.pdf

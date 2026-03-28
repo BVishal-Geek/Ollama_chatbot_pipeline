@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Relevance of Vitamin D in Melanoma Development, Progression and Therapy
+PMCID: PMC6948187
+PMID: 31892603
+KEYWORDS: melanoma, vitamin d, pigmentation, clinical data, experimental models, review
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Melanoma is one of the most lethal types of skin cancer, with a poor prognosis once the disease enters metastasis. The efficacy of currently available treatment schemes for advanced melanomas is low, expensive, and burdened by significant side-effects. Therefore, there is a need to develop new treatment options. Skin cells are able to activate vitamin D via classical and non-classical pathways. Vitamin D derivatives have anticancer properties which promote differentiation and inhibit proliferation. The role of systemic vitamin D in patients with melanoma is unclear as epidemiological studies are not definitive. In contrast, experimental data have clearly shown that vitamin D and its derivatives have anti-melanoma properties. Furthermore, molecular and clinicopathological studies have demonstrated a correlation between defects in vitamin D signaling and progression of melanoma and disease outcome. Therefore, adequate vitamin D signaling can play a role in the treatment of melanoma.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

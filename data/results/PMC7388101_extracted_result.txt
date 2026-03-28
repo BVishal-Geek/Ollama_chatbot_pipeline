@@ -1,0 +1,19 @@
+Source: PMC7388101_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "The Clinical Characteristics of Endometrial Cancer With Extraperitoneal Metastasis and the Value of Surgery in Treatment",
+  "condition_E": 1,
+  "condition_E_reason": "The recorded data included age at diagnosis, grade, histology, tumor invasion, lymphatic dissemination, surgery, peritoneal cytology, and extraperitoneal metastatic organs.",
+  "N_E": 1,
+  "N_E_reason": "A total of 730 patients met the inclusion criteria.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Of the patients, 362 underwent surgery, indicating a specific medical intervention.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The median cancer-specific survival periods were recorded for patients with and without surgery.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

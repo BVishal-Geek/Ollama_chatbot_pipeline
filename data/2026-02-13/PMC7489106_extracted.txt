@@ -1,0 +1,64 @@
+================================================================================
+ARTICLE TITLE: Blood DNA Methylation and Breast Cancer: A Prospective Case-Cohort Analysis in the Sister Study
+PMCID: PMC7489106
+PMID: 30989176
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+Peripheral blood DNA methylation may be associated with breast cancer, but studies of candidate genes and global and genome-wide DNA methylation have been inconsistent.
+
+Methods:
+We performed an epigenome-wide study using Infinium HumanMethylation450 BeadChips with prospectively collected blood DNA samples from the Sister Study (1552 cases, 1224 subcohort). Differentially methylated cytosine-phosphate-guanine sites (dmCpGs) were identified using case-cohort proportional hazard models and replicated using deposited data from European Prospective Investigation into Cancer and Nutrition in Italy (EPIC-Italy) (n = 329). The correlation between methylation and time to diagnosis was examined using robust linear regression. Causal or consequential relationships of methylation to breast cancer were examined by Mendelian randomization using OncoArray 500 K single-nucleotide polymorphism data. All statistical tests were two-sided.
+
+Results:
+We identified 9601 CpG markers associated with invasive breast cancer (false discovery rate = q < 0.01), with 510 meeting a strict Bonferroni correction threshold (10 –7 ). A total of 2095 of these CpGs replicated in the independent EPIC-Italy dataset, including 144 meeting the Bonferroni threshold. Sister Study women who developed ductal carcinoma in situ had methylation similar to noncases. Most (1501, 71.6%) dmCpGs showed lower methylation in invasive cases. In case-only analysis, methylation was statistically significantly associated (false discovery rate = q < 0.05) with time to diagnosis for 892 (42.6%) of the dmCpGs. Analyses based on genetic association suggest that methylation differences are likely a consequence rather than a cause of breast cancer. Pathway analysis shows enrichment of breast cancer-related gene pathways, and dmCpGs are overrepresented in known breast cancer susceptibility genes.
+
+Conclusions:
+Our findings suggest that the DNA methylation profile of blood starts to change in response to invasive breast cancer years before the tumor is clinically detected.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

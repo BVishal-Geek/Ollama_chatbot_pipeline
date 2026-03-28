@@ -1,0 +1,64 @@
+================================================================================
+ARTICLE TITLE: Survival Benefit of Liver Transplantation for Hepatocellular Carcinoma
+PMCID: PMC6928443
+PMID: 31283688
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+In the US, nearly 30% of liver transplants (LT) are performed for hepatocellular carcinoma (HCC). Although overall long-term survival is highest with LT, there are limited data on the incremental survival benefit of LT versus other curative options (resection or ablation) due to shunting of patients towards LT.
+
+Methods::
+We performed a retrospective cohort study of patients aged 50–69 with cirrhosis and HCC in the Veterans Health Administration (population enriched with three curative treatments) from 2008–2016. The cohort was restricted to patients who received LT, resection, or ablation and a calculated model for end-stage liver disease (MELD) score <15 at HCC diagnosis.
+
+Results::
+Among 2,129 veterans in the analytic cohort, 658 (26.7%) received LT, 244 (11.5%) underwent resection, and 1,317 (61.59%) received ablation. In multivariable models, patients who underwent resection (HR: 5.42, 95% CI: 4.15–7.08) or ablation (HR: 5.50, 95% CI: 4.51–6.71) had significantly increased hazards of death. However, in absolute terms, the incremental survival benefit of LT over resection or ablation was small, between 0.02–0.03 years at one year, 0.32–0.42 years at three years, and 1.04–1.24 years at five years follow-up. These results were consistent in sensitivity analyses accounting for possible immortal time bias, as well as a cohort restricted to early/intermediate stage HCC.
+
+Conclusion::
+Although LT is associated with significantly increased survival compared to resection and ablation, the absolute incremental survival benefit is small over a 5-year time horizon. Optimal selection of patients for LT is critical for maximizing utilization of a scarce resource.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

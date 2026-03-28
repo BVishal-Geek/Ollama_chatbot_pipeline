@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: The Role of Multiparametric MRI and MRI-targeted Biopsy in Detecting Clinically Significant Prostate Cancer in the Community Setting: A Retrospective Study
+PMCID: PMC7393688
+PMID: 32760229
+KEYWORDS: prostatic neoplasms, image-guided biopsy, multiparametric mri, ambulatory care facilities, health services research
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Multiparametric MRI and the Prostate Imaging-Reporting and Data System (PI-RADS) have emerged as tools to reveal suspicious prostate lesions and MRI-targeted biopsy has shown potential to avoid repeat prostate biopsies and miss fewer significant cancers. This retrospective study sought to assess the differences in diagnostic yield and sampling efficiency between MRI-targeted and standard biopsies in a community urology practice. We concluded that MRI-targeted biopsy was more efficient than a standard biopsy, although neither technique achieved a superior diagnostic yield of clinically significant cancer in our community setting. We recommend that a standard biopsy be performed alongside targeted biopsy.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,19 @@
+Source: PMC7758864_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "High Expression of BCAR1 by Circulating Tumor Cells and Tumor Tissues Is Predictive of a Poor Prognosis of Early-Stage Lung Adenocarcinoma Potentially Due to Regulation of Epithelial-Mesenchymal Transition",
+  "condition_E": 1,
+  "condition_E_reason": "The study cohort included 60 patients with stage I LUAD who underwent surgery and had recorded characteristics.",
+  "N_E": 1,
+  "N_E_reason": "The study cohort included 60 patients with complete data.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

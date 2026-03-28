@@ -1,0 +1,19 @@
+Source: PMC7784588_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "FOXD2-AS1 Predicts Dismal Prognosis for Oral Squamous Cell Carcinoma and Regulates Cell Proliferation",
+  "condition_E": 1,
+  "condition_E_reason": "The expression levels and clinical significance of FOXD2-AS1 in OSCC were analyzed using data from the HNSCC cohort.",
+  "N_E": 1,
+  "N_E_reason": "Using the 284 OSCC RNA-seq samples, we found FOXD2-AS1 expression was related to the poor G grade of OSCC patients.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data was obtained from the Atlas of Noncoding RNAs in Cancer (TANRIC) using RNA-seq datasets from The Cancer Genome Atlas (TCGA).",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

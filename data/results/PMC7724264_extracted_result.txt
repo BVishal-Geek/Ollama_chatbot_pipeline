@@ -1,0 +1,19 @@
+Source: PMC7724264_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Clinical Research on Systemic Chemotherapy Combined With Bronchoscopic Seed Implantation in the Treatment of Advanced Lung Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "The general clinicopathological data of all patients including age, gender, smoking history, KPS score, disease stage, classification, metastasis were well balanced.",
+  "N_E": 1,
+  "N_E_reason": "A total of 253 patients with middle and advanced lung cancer were involved.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Test group was given systemic chemotherapy combined with bronchoscopic seed implantation.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The ORR and DCR were compared between the test and control groups, indicating treatment response.",
+  "R_criteria_E": 1,
+  "R_criteria_E_reason": "Complete Remission (CR) and Partial Remission (PR) were defined based on tumor size reduction."
+}

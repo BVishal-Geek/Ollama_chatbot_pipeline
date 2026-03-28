@@ -1,0 +1,565 @@
+================================================================================
+ARTICLE TITLE: ACE2 and TMPRSS2 Potential Involvement in Genetic Susceptibility to
+SARS-COV-2 in Cancer Patients
+PMCID: PMC7593730
+PMID: 33108902
+KEYWORDS: ace2, tmprss2, sars-cov-2, individual susceptibility
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has caused a global
+pandemic. One open question is whether genetics could influence the severity of
+symptoms. Considering the limited data on cancer patients, we analyzed public
+data repositories limited to investigate angiotensin-converting enzyme 2 (ACE2)
+and the transmembrane serine protease 2 (TMPRSS2) expressions and genetic
+variants to identify the basis of individual susceptibility to SARS-CoV-2.
+Gene expression and variant data were retrieved from Tissue Cancer Genome Atlas,
+Genotype-Tissue Expression, and gnomAD. Differences in gene expression were
+tested with Mann-Whitney U-test. Allele frequencies of germline variants were
+explored in different ethnicities, with a special focus on ACE2 variants located
+in the binding site to SARS-CoV-2 spike protein.
+The analysis of ACE2 and TMPRSS2 expressions in healthy tissues showed a higher
+expression in the age class 20 to 59 years (false discovery rate [FDR] <
+0.0001) regardless of gender. ACE2 and TMPRSS2 were more expressed in tumors
+from males than females (both FDR < 0.0001) and, opposite to the regulation
+in tissues from healthy individuals, more expressed in elderly patients (FDR =
+0.005; FDR < 0.0001, respectively). ACE2 and TMPRSS2 expressions were higher
+in cancers of elderly patients compared with healthy individuals (FDR <
+0.0001). Variants were present at low frequency (range 0% to 3%) and among those
+with the highest frequency, the variant S19P belongs to the SARS-CoV-2 spike
+protein binding site and it was exclusively present in Africans with a frequency
+of 0.2%.
+The mechanisms of ACE2 and TMPRSS2 regulation could be targeted for preventive
+and therapeutic purposes in the whole population and especially in cancer
+patients.
+Further studies are needed to show a direct correlation of ACE2 and TMPRSS2
+expressions in cancer patients and the incidence of COVID-19.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Coronavirus disease 2019 (COVID-19) is a respiratory disease that outbroke first in
+the city of Wuhan (China) in December 2019 and has reached a global pandemic
+dimension as declared by the World Health Organization on March 11, 2020, globally
+affecting about 3 million people as of April 27 this year 1 – 3 . This respiratory disease is caused by a novel RNA coronavirus, named severe
+acute respiratory syndrome coronavirus 2 (SARS-CoV-2), characterized by rapid and
+efficient human-to-human transmission in the population that is devoid of
+preexisting immunity and left without efficacious treatments or vaccines. Given the
+COVID-19 coronavirus emergency, a special focus is needed on the impact of this
+rapidly spreading viral infection on cancer patients. Patients with cancer are more
+vulnerable to infections than other individuals because malignancy and anticancer
+therapy result in an immunosuppressive status and more likely to have higher
+morbidity and mortality than the general population 3 . For example, patients with lung cancer usually have compromised lung
+function with associated dyspnea, cough, and polypnea. They might be at higher risk
+of severe forms of SARS-CoV-2 infection due to decreased pulmonary function 3 . In the small case series of 18 Chinese patients considered, those with
+cancer were older and more likely to have a history of smoking than patients without
+cancer. However, no significant differences in sex, other baseline symptoms, and
+other comorbidities were found except older age, which was the only risk factor for
+severe events 2 . An Italian study assessing the case fatality of COVID-19 found that among
+355 patients who died and underwent detailed chart review, 72 (20.3%) had active cancer 4 . Some recent evidences suggest that gender 5 , smoke 5 , physical exercise 6 , previous vaccinations 7 , blood type 8 , human leukocyte antigen (HLA) variants 9 , and alterations in the genes involved in the pathogenetic mechanism of
+SARS-CoV-2 like the angiotensin-converting enzyme 2 (ACE2) and the transmembrane
+serine protease 2 (TMPRSS2), can affect individual susceptibility to SARS-CoV-2 infection 10 . SARS-CoV cell entry relies on the binding of the spike protein S1 to ACE2 receptor 11 – 13  and on protein priming by host’s serine protease TMPRSS2, which entails
+S protein cleavage at the S1/S2 and the S2′ site leading to the fusion of the viral
+envelope with cell membranes by the S2 subunit 14 . Analysis of the receptor-binding motif, a portion of the receptor-binding
+domain that takes contact with ACE2 12 , 15 , 16 , revealed that most amino acid residues essential for ACE2 binding by
+SARS-CoV S were conserved in SARS-CoV-2 S. In contrast, most of these residues were
+absent from S proteins of SARS-CoV previously found not to use ACE2 for entry 17 – 19 . Among the many mysteries about COVID-19, one is why it hits some people
+harder than others. In recent weeks, researchers have begun asking whether genetics
+could influence the severity of symptoms. In this context, oncologic patients
+require even more attention. Recently, COVID-19 and Cancer Consortium, a
+collaborative effort aimed to learn more about the impact of the new coronavirus on
+people affected by hematologic and solid malignancies, has been launched. In order
+to protect cancer patients against COVID-19 infection, some treatments can be
+envisioned ( Fig. 1 ). Active
+vaccination is the gold standard but anti-COVID-19 vaccines efficacy is still under
+investigation. Passive vaccination can be elicited by hyperimmune plasma or by
+neutralizing antibodies administration thereby hindering SARS-CoV-2 spike protein
+interaction with ACE2. ACE2 and SARS-CoV-2 interaction can be altered also by
+targeting the process of protein terminal glycosylation in the endoplasmic reticulum
+for both ACE2 and the spike protein in infected cells (i.e., by hydroxychloroquine
+and/or by ammonium chloride [NH 4 Cl]) 20 , 21 . Moreover, TMPRSS2 can be targeted both by drugs that inhibit its enzymatic
+activity (i.e., camostat mesilate) or by treatments that inhibit its expression
+(i.e., antiandrogen therapies) 22 ( Fig. 1 ).
+
+Schematic representation of the possible treatments to protect a cancer
+patient from severe acute respiratory syndrome coronavirus 2 infection.
+
+The knowledge of the genetic variability in the cancer population could be useful to
+identify new mechanisms of protection against infection. Considering the poor and
+discordant data on the genetic characteristics that can affect SARS-CoV-2
+susceptibility in cancer patients, we retrieved available data from public
+repositories and aimed to investigate:
+
+ACE2 and TMPRSS2 differences in gene expression in healthy tissues were
+analyzed according to age and gender, whereas germline variants frequencies
+for ACE2 and TMPRSS2 for ethnicity to identify possible genetic
+predispositions or resistance determinants to SARS-CoV-2 infection.
+
+ACE2 and TMPRSS2 somatic variant frequencies and differences in their
+expression between different tumor types as compared with their tissue of
+origin to test if specific cancer types may provide an additional
+replication site for SARS-CoV-2 during infection in those patients.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+The data were downloaded from the Tissue Cancer Genome Atlas (TCGA) and
+Genotype-Tissue Expression (GTEx) portal 23 (dbGaP accession number phs000424.v8.p2 on 04/10/2020), for tumor and healthy
+samples, respectively. In the TCGA portal, we selected PanCancer Atlas studies,
+including 35 cancer types. In this dataset, we focused on the expression data of
+ACE2 and TMPRSS2 in 10,953 oncologic patients. From the GTEx portal, we analyzed the
+expression of 22,951 tissue samples from 980 healthy donors and related clinical
+data available. Gene expression data were downloaded as transcripts per million
+(TPM) and transformed to log2(TPM + 1) before analyses. Given the strong asymmetry
+of data distribution, even after log transformation, the difference in expression
+among groups was tested with Mann-Whitney U-test (SciPy v1.4.1); resulting P values were adjusted for multiple testing using
+Benjamini-Hochberg procedure (statsmodels v0.11.0) 24 , 25 , resulting in FDR values. Reflecting epidemiological evidence on COVID-19
+mortality in Italy ( https://www.statista.com/statistics/1106372/coronavirus-death-rate-by-age-group-italy/ ),
+the variable age was grouped into two categories: under (20 to 59) and over 60 years
+(60 to 69), labeled, respectively, as “young” and “elder” in the plots and
+tables.
+
+Data on DNA variants in healthy populations were downloaded from gnomAD v3 in the
+form of 2 Variant Call Format files, one for chromosome X and one for chromosome 21.
+Variants overlapping with ACE2 and TMPRSS2 were extracted using bedtools v2.29.2 and
+then annotated with ANNOVAR (v2016-02-01) 26 . For somatic variants, we explored TCGA mutation data from 35 tumor types and
+extracted only variants affecting ACE2 and TMPRSS2. For ACE2, variants were deemed
+as possibly affecting function if (1) were frameshift INDELs or (2) single
+nucleotide variants located in residues involved in binding to SARS-CoV-2 spike protein 10 .
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The analysis of healthy tissues from the GTEx portal revealed that the testis,
+small intestine, kidney, thyroid, and heart express the highest amount of ACE2
+gene in the human body ( Fig.
+2A ). Surprisingly, ACE2 expression was low in lung tissue. As for the
+expression of TMPRSS2 in healthy tissues, the highest levels were observed in
+the prostate, stomach, pancreas, lung, small intestine, and salivary glands. The
+highest variability in TMPRSS2 expression was seen in colon tissue, even if the
+median expression value was quite low ( Fig. 2B ).
+
+(A) ACE2 and (B) TMPRSS2 expression in healthy tissues included in the
+Genotype Tissue Expression portal. ACE2, angiotensin-converting enzyme 2
+(ACE2); TMPRSS2: transmembrane serine protease.
+
+The analysis of the TCGA dataset revealed that the highest levels of ACE2
+expression are in the renal carcinoma, colorectal adenocarcinoma, and in the
+undifferentiated stomach adenocarcinoma ( Fig. 3A ). Conversely, leukemias, mature B
+cell neoplasms, melanoma, and pleural mesothelioma showed the lowest ACE2
+expression ( Fig. 3A ).
+Interestingly, the tumors with the highest levels of TMPRSS2 expression were
+prostate adenocarcinoma, followed by colorectal adenocarcinoma and
+esophagogastric adenocarcinoma ( Fig. 3B ). TMPRSS2 was almost absent in the adrenocortical carcinoma,
+pheochromocytoma, leukemia, and B-cell neoplasm ( Fig. 3B ).
+
+(A) ACE2 and (B) TMPRSS2 expression among cancer types of Tissue Cancer
+Genome Atlas. ACE2, angiotensin-converting enzyme 2 (ACE2); TMPRSS2:
+transmembrane serine protease 2.
+
+The analysis of ACE2 and TMPRSS2 expressions in healthy tissues showed a higher
+expression in the age class 20 to 59 years (false discovery rate [FDR] <
+0.0001), regardless of gender ( Fig. 4A ). ACE2 expression analyzed in healthy tissues was higher in
+younger individuals considering nerve, colon, blood, and salivary gland tissues.
+Data suggested that females’ blood, adipocytes, brain, and heart have a higher
+expression of ACE2 than males. On the contrary, ACE2 expression was higher in
+males’ esophagus and breast. Expression of TMPRSS2 was higher in the colon and
+in the lung of younger subjects, in females’ breast and males’ pituitary
+glands.
+
+ACE2 and TMPRSS2 expressions according to sex and age categories, in (A)
+healthy donor tissues from Genotype Tissue Expression portal and (B)
+Tissue Cancer Genome Atlas cancers. *FDR < 0.05 ** FDR < 0.01 ***
+FDR < 0.001. ACE2: angiotensin-converting enzyme 2 (ACE2); FDR: false
+discovery rate; TMPRSS2: transmembrane serine protease 2.
+
+ACE2 and TMPRSS2 are more expressed in males considering the tumor dataset (both
+FDR< 0.0001) and more expressed in older patients (FDR = 0.005; FDR <
+0.0001, respectively) ( Fig.
+4B ). In contrast, a lower expression of ACE2 was seen in males with
+head and neck (FDR = 0.005), renal clear cell (FDR = 0.02), and bladder cancers
+(FDR = 0.02). The analysis of TMPRSS2 expression on the basis of tumor type
+suggested that males have higher expression in head and neck cancers
+( P = 0.013, FDR = 0.09). In contrast, a lower expression
+was seen in males than in females with nonsmall cell lung cancer (FDR <
+0.0001). Prostate adenocarcinoma of younger patients expressed slightly more
+TMPRSS2 than the elderly with FDR = 0.026.
+
+Sex, age, and tissue categories in the GTEx dataset were compared with their
+corresponding category in the TCGA dataset (i.e., healthy young males to TCGA
+young males).
+
+Elderly cancer patients had higher expression of both genes (FDR < 0.0001)
+( Fig. 5 ). TMPRSS2
+was more expressed in cancer patients for all age and sex categories considered
+as compared with healthy subjects ( Fig. 5 ). In particular, ACE2 and TMPRSS2
+expressions were higher in elderly males with cancers compared with healthy
+individuals (FDR < 0.0001) ( Fig. 5 ).
+
+Comparison of ACE2 and TMPRSS2 expressions between healthy donor tissues
+(displayed in green boxplots) and Tissue Cancer Genome Atlas cancers
+(displayed in red boxplots) according to sex and age categories. *FDR
+< 0.05; **FDR < 0.01; ***FDR < 0.001. ACE2:
+angiotensin-converting enzyme 2 (ACE2); FDR: false discovery rate;
+TMPRSS2: transmembrane serine protease 2.
+
+ACE2 expression was significantly higher as compared with the healthy tissue for
+the following cancers: adrenal gland, brain, colon, kidney, lung, pancreas,
+stomach. A significant decrease of ACE2 expression was seen in the breast,
+liver, ovarian, prostate, skin, testis, thyroid, and uterus cancers compared
+with the healthy tissue ( Fig.
+6 ). TMPRSS2 expression was significantly higher in tumor tissue of
+bladder, brain, colon, esophagus, ovary, prostate, and uterus cancers as
+compared with healthy tissues. Conversely, TMPRSS2 expression was significantly
+lower in tumor tissue of the adrenal gland, kidney, liver, lung, pancreas, skin,
+stomach, testis, and thyroid compared with the respective healthy tissue ( Fig. 6 ). Although there
+were few samples of healthy bladder tissue.
+
+Comparison of ACE2 and TMPRSS2 expressions between healthy donor tissues
+(displayed in green boxplots) and Tissue Cancer Genome Atlas cancers
+(displayed in red boxplots) in the different tissues. *FDR < 0.05;
+**FDR < 0.01; ***FDR < 0.001. ACE2: angiotensin-converting enzyme
+2 (ACE2); FDR: false discovery rate; TMPRSS2: transmembrane serine
+protease 2.
+
+The following analysis focused on the examination of ACE2 and TMPRSS2 germline
+variants in the healthy population considering nonsynonymous variants,
+insertions, and deletions that cause amino acids to change along the whole
+coding sequence. This analysis regarding ACE2 identified 178 variants in nine
+ethnic groups ( Fig. 7A ).
+Variants were present at low frequency (range 0% to 3%) among the different
+populations and did not differ significantly between genders ( Fig. 7A ). Most of these
+variants had very low frequency (<0.2%); in particular, out of 178 variants
+identified, 10 for females and 11 for males had considerably higher frequency
+compared with the others ( Fig.
+7A ). In particular, we analyzed the variants in the region involved
+in the interaction with SARS-CoV-2 spike protein 10 and identified possibly functional modifications (see section Methods)
+that may hinder viral docking and entry into target cells in the different
+ethnic groups. Interestingly, among those with the highest frequency, the
+variant S19P belongs to the SARS-CoV-2 spike protein binding site and it was
+exclusively present in Africans with a frequency of 0.2% ( Fig. 7A ). In Finnish male, the E37 K
+variant was found with a frequency of 0.05%. According to a recent study, both
+mutations may affect the interaction with the virus to a certain extent 27 .
+
+(A) ACE2 and (B) TMPRSS2 variant frequencies in the healthy population
+considering non-synonymous variants, insertion, and deletions, in
+females (upper side) and males (lower side). Variants with the frequency
+above the threshold 0.2% for ACE2 and 1% for TMPRSS2 are highlighted
+with a color; the others are displayed in grey. ACE2:
+angiotensin-converting enzyme 2 (ACE2); TMPRSS2: transmembrane serine
+protease 2.
+
+We identified 261 TMPRSS2 variants across the ethnic groups with frequencies of
+up to 50% in African and Asian populations ( Fig. 7B ). No differences in their
+frequency between males and females were observed. None of the residues of
+TMPRSS2 active sites (H 296 , D 345 , D 435 , and
+S 441 ) have been found altered in the considered populations.
+
+The mutation analysis of the 35 cancer types included in the TCGA project showed
+that ACE2 was frequently altered in the different tumor types (18/35; 51.4%),
+while it showed alterations in only 1.0% of all TCGA patients. In particular,
+endometrial carcinoma showed the highest proportion of patients with ACE2
+somatic mutations (6.0%), followed by melanoma (3.2%) and colorectal
+adenocarcinoma (2.2%). For what concerns the analysis of TMPRSS2, 14/35 (40%)
+cancer types presented mutations on this gene and 0.7% of patients had at least
+one mutation. Endometrial carcinoma (5.8% of patients with mutations), melanoma
+(5.4%), and colorectal adenocarcinoma (3.5%) were the cancer types with the
+highest percentage of mutations, and, surprisingly, they were the same cancer
+types with the highest percentage of ACE2 mutations.
+
+
+ACE2 and TMPRSS2 Expression Analysis in Healthy Tissues from GTEx Portal and
+Cancers from TCGA Dataset
+
+The analysis of healthy tissues from the GTEx portal revealed that the testis,
+small intestine, kidney, thyroid, and heart express the highest amount of ACE2
+gene in the human body ( Fig.
+2A ). Surprisingly, ACE2 expression was low in lung tissue. As for the
+expression of TMPRSS2 in healthy tissues, the highest levels were observed in
+the prostate, stomach, pancreas, lung, small intestine, and salivary glands. The
+highest variability in TMPRSS2 expression was seen in colon tissue, even if the
+median expression value was quite low ( Fig. 2B ).
+
+(A) ACE2 and (B) TMPRSS2 expression in healthy tissues included in the
+Genotype Tissue Expression portal. ACE2, angiotensin-converting enzyme 2
+(ACE2); TMPRSS2: transmembrane serine protease.
+
+The analysis of the TCGA dataset revealed that the highest levels of ACE2
+expression are in the renal carcinoma, colorectal adenocarcinoma, and in the
+undifferentiated stomach adenocarcinoma ( Fig. 3A ). Conversely, leukemias, mature B
+cell neoplasms, melanoma, and pleural mesothelioma showed the lowest ACE2
+expression ( Fig. 3A ).
+Interestingly, the tumors with the highest levels of TMPRSS2 expression were
+prostate adenocarcinoma, followed by colorectal adenocarcinoma and
+esophagogastric adenocarcinoma ( Fig. 3B ). TMPRSS2 was almost absent in the adrenocortical carcinoma,
+pheochromocytoma, leukemia, and B-cell neoplasm ( Fig. 3B ).
+
+(A) ACE2 and (B) TMPRSS2 expression among cancer types of Tissue Cancer
+Genome Atlas. ACE2, angiotensin-converting enzyme 2 (ACE2); TMPRSS2:
+transmembrane serine protease 2.
+
+The analysis of ACE2 and TMPRSS2 expressions in healthy tissues showed a higher
+expression in the age class 20 to 59 years (false discovery rate [FDR] <
+0.0001), regardless of gender ( Fig. 4A ). ACE2 expression analyzed in healthy tissues was higher in
+younger individuals considering nerve, colon, blood, and salivary gland tissues.
+Data suggested that females’ blood, adipocytes, brain, and heart have a higher
+expression of ACE2 than males. On the contrary, ACE2 expression was higher in
+males’ esophagus and breast. Expression of TMPRSS2 was higher in the colon and
+in the lung of younger subjects, in females’ breast and males’ pituitary
+glands.
+
+ACE2 and TMPRSS2 expressions according to sex and age categories, in (A)
+healthy donor tissues from Genotype Tissue Expression portal and (B)
+Tissue Cancer Genome Atlas cancers. *FDR < 0.05 ** FDR < 0.01 ***
+FDR < 0.001. ACE2: angiotensin-converting enzyme 2 (ACE2); FDR: false
+discovery rate; TMPRSS2: transmembrane serine protease 2.
+
+ACE2 and TMPRSS2 are more expressed in males considering the tumor dataset (both
+FDR< 0.0001) and more expressed in older patients (FDR = 0.005; FDR <
+0.0001, respectively) ( Fig.
+4B ). In contrast, a lower expression of ACE2 was seen in males with
+head and neck (FDR = 0.005), renal clear cell (FDR = 0.02), and bladder cancers
+(FDR = 0.02). The analysis of TMPRSS2 expression on the basis of tumor type
+suggested that males have higher expression in head and neck cancers
+( P = 0.013, FDR = 0.09). In contrast, a lower expression
+was seen in males than in females with nonsmall cell lung cancer (FDR <
+0.0001). Prostate adenocarcinoma of younger patients expressed slightly more
+TMPRSS2 than the elderly with FDR = 0.026.
+
+
+Comparison of Expression Data Between GTEx and TCGA Datasets
+
+Sex, age, and tissue categories in the GTEx dataset were compared with their
+corresponding category in the TCGA dataset (i.e., healthy young males to TCGA
+young males).
+
+Elderly cancer patients had higher expression of both genes (FDR < 0.0001)
+( Fig. 5 ). TMPRSS2
+was more expressed in cancer patients for all age and sex categories considered
+as compared with healthy subjects ( Fig. 5 ). In particular, ACE2 and TMPRSS2
+expressions were higher in elderly males with cancers compared with healthy
+individuals (FDR < 0.0001) ( Fig. 5 ).
+
+Comparison of ACE2 and TMPRSS2 expressions between healthy donor tissues
+(displayed in green boxplots) and Tissue Cancer Genome Atlas cancers
+(displayed in red boxplots) according to sex and age categories. *FDR
+< 0.05; **FDR < 0.01; ***FDR < 0.001. ACE2:
+angiotensin-converting enzyme 2 (ACE2); FDR: false discovery rate;
+TMPRSS2: transmembrane serine protease 2.
+
+ACE2 expression was significantly higher as compared with the healthy tissue for
+the following cancers: adrenal gland, brain, colon, kidney, lung, pancreas,
+stomach. A significant decrease of ACE2 expression was seen in the breast,
+liver, ovarian, prostate, skin, testis, thyroid, and uterus cancers compared
+with the healthy tissue ( Fig.
+6 ). TMPRSS2 expression was significantly higher in tumor tissue of
+bladder, brain, colon, esophagus, ovary, prostate, and uterus cancers as
+compared with healthy tissues. Conversely, TMPRSS2 expression was significantly
+lower in tumor tissue of the adrenal gland, kidney, liver, lung, pancreas, skin,
+stomach, testis, and thyroid compared with the respective healthy tissue ( Fig. 6 ). Although there
+were few samples of healthy bladder tissue.
+
+Comparison of ACE2 and TMPRSS2 expressions between healthy donor tissues
+(displayed in green boxplots) and Tissue Cancer Genome Atlas cancers
+(displayed in red boxplots) in the different tissues. *FDR < 0.05;
+**FDR < 0.01; ***FDR < 0.001. ACE2: angiotensin-converting enzyme
+2 (ACE2); FDR: false discovery rate; TMPRSS2: transmembrane serine
+protease 2.
+
+
+ACE2 and TMPRSS2 Variant Analysis
+
+The following analysis focused on the examination of ACE2 and TMPRSS2 germline
+variants in the healthy population considering nonsynonymous variants,
+insertions, and deletions that cause amino acids to change along the whole
+coding sequence. This analysis regarding ACE2 identified 178 variants in nine
+ethnic groups ( Fig. 7A ).
+Variants were present at low frequency (range 0% to 3%) among the different
+populations and did not differ significantly between genders ( Fig. 7A ). Most of these
+variants had very low frequency (<0.2%); in particular, out of 178 variants
+identified, 10 for females and 11 for males had considerably higher frequency
+compared with the others ( Fig.
+7A ). In particular, we analyzed the variants in the region involved
+in the interaction with SARS-CoV-2 spike protein 10 and identified possibly functional modifications (see section Methods)
+that may hinder viral docking and entry into target cells in the different
+ethnic groups. Interestingly, among those with the highest frequency, the
+variant S19P belongs to the SARS-CoV-2 spike protein binding site and it was
+exclusively present in Africans with a frequency of 0.2% ( Fig. 7A ). In Finnish male, the E37 K
+variant was found with a frequency of 0.05%. According to a recent study, both
+mutations may affect the interaction with the virus to a certain extent 27 .
+
+(A) ACE2 and (B) TMPRSS2 variant frequencies in the healthy population
+considering non-synonymous variants, insertion, and deletions, in
+females (upper side) and males (lower side). Variants with the frequency
+above the threshold 0.2% for ACE2 and 1% for TMPRSS2 are highlighted
+with a color; the others are displayed in grey. ACE2:
+angiotensin-converting enzyme 2 (ACE2); TMPRSS2: transmembrane serine
+protease 2.
+
+We identified 261 TMPRSS2 variants across the ethnic groups with frequencies of
+up to 50% in African and Asian populations ( Fig. 7B ). No differences in their
+frequency between males and females were observed. None of the residues of
+TMPRSS2 active sites (H 296 , D 345 , D 435 , and
+S 441 ) have been found altered in the considered populations.
+
+The mutation analysis of the 35 cancer types included in the TCGA project showed
+that ACE2 was frequently altered in the different tumor types (18/35; 51.4%),
+while it showed alterations in only 1.0% of all TCGA patients. In particular,
+endometrial carcinoma showed the highest proportion of patients with ACE2
+somatic mutations (6.0%), followed by melanoma (3.2%) and colorectal
+adenocarcinoma (2.2%). For what concerns the analysis of TMPRSS2, 14/35 (40%)
+cancer types presented mutations on this gene and 0.7% of patients had at least
+one mutation. Endometrial carcinoma (5.8% of patients with mutations), melanoma
+(5.4%), and colorectal adenocarcinoma (3.5%) were the cancer types with the
+highest percentage of mutations, and, surprisingly, they were the same cancer
+types with the highest percentage of ACE2 mutations.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Considering that the COVID-19 emergency is affecting the worldwide population, there
+is an urgent need to identify among the vulnerable subjects the weakest ones.
+Special attention should be paid to oncologic patients that are at an advanced age
+and are commonly affected by comorbidities. Treatment with single or combined
+chemotherapy, radiotherapy, or more recently immunotherapy may affect the immune
+status and cause adverse events.
+
+Therefore, we focused our research limited on the study of ACE2 and TMPRSS2 gene
+expression variants and from healthy donors and cancer patients using public
+datasets, in order to potentially identify the individuals at a higher risk of
+SARS-CoV-2 infection. We supposed that the patients with a higher expression of ACE2
+and TMPRSS2 could be more vulnerable because viral entry into host cells is
+facilitated given that a higher proportion of cells are expressing ACE2 and TMPRSS2 28 . It is reasonable to think that tumor patients whose cancers show high
+expression levels of ACE2 and TMPRSS2 may provide additional target cells for
+SARS-CoV-2 replication.
+
+The overall pooled prevalence of cancer in patients with COVID-19 in a recent
+meta-analysis was 2%; however, current evidence on the association between cancer
+and SARS-CoV-2 infection remains inconclusive 29 . Results from studies on the genetics of COVID-19 susceptibility and severity
+are beginning to trickle in, evaluating if variants in the HLA genes or ABO blood
+type might play a role, but the findings are all preliminary and require follow-up
+with larger datasets 8 . With this retrospective study, we investigated ACE2 and TMPRSS2 as
+susceptibility factors to SARS-CoV-2 infection. In contrast to epidemiological
+evidences of higher mortality in elders, we found a higher expression of ACE2 and
+TMPRSS2 in healthy tissues of young individuals. In contrast, regarding the tumor
+dataset, ACE2 and TMPRSS2 were highly expressed in males with tumors with respect to
+females and in elderly patients suggesting they might be even more at risk and
+predisposed to higher chances of severe adverse events.
+
+Viral effects on humans are different, probably due to the heterogeneous individual
+susceptibility and to the different viral spreading and host immune response.
+Although the lungs are ground zero, symptoms can extend up to many organs, including
+the small intestine and kidneys probably due to high ACE2 and TMPRSS2 expressions.
+We also compared our expression data with the mRNA and protein expression levels
+reported on both the Tissue and Pathology Atlas databases of The Human Protein
+Atlas. The comparison showed that the data were concordant, and in particular,
+renal, colorectal, and stomach cancers had the highest levels of ACE2 protein
+expression, coherent with their own mRNA expression, while lung cancers had low or
+no detectable protein and mRNA expressions.
+
+However, it is not clear if the gravity of symptoms is proportional to the expression
+of key viral entry enzymes in specific organs or even due to the patient’s immune
+response or both. According to literature data, we observed that the highest
+expression values of ACE2 and TMPRSS2 were in the small intestine and this could
+explain the intestinal symptoms in COVID-19 patients. The fecal-oral transmission of
+SARS-CoV-2 has not been demonstrated yet. However, if confirmed, the virus could
+reach intestinal cells expressing ACE2 and TMPRSS2. These data might be relevant in
+light of the clinical manifestations of the disease. It is indeed believed that
+multiorgan failure in the advanced stages of COVID-19 is the result of an
+uncontrolled proliferation and activation of the immune system with a
+supraphysiological release of IL-1, IL-6, and TNF-α resulting in witnessing a
+cytokine release syndrome. In addition, COVID-19 patients present with diarrhea in
+2% to 50% of cases 30 , might show cardiac complications up to fibrillations, myocarditis, and heart arrest 31 , and are likely related to high ACE2 expression in the intestine and the
+heart, respectively. Importantly, patients with diarrhea remain positive for
+SARS-CoV-2 in the feces up to 12 days after disease onset, with a considerable
+fraction of individuals still negative if tested in the respiratory tract 32 . Hence, it is not surprising that traces of viral RNA have been detected in
+wastewater and sewers in several countries, and that disease spreading can be
+monitored through the analysis of wastewater 33 . Our understanding of SARS-CoV-2 transmission is still evolving and the
+fecal-oral route cannot be per se ruled out, also considering the extreme stability
+of the virus. Increasing evidence instead indicates a possible fecal-oral COVID-19 transmission 34 , defining a particularly high risk for populations in countries where
+hygienic measures and the availability of clean drinking water are inadequate. In
+these areas of the globe, specific measures should be considered.
+
+Retrospective and prospective analyses of ACE2 and TMPRSS2 in COVID-19 patients with
+severe symptoms such as stroke and interstitial pneumonia have to be performed to
+study the correlation of their expression in specific organs.
+
+Surprisingly and slightly different from what reported from others 35 , despite the high variability observed, we found only moderate median values
+in terms of expression of ACE2 in lungs considering both healthy and tumor tissues
+that anyway presented a higher expression, while TMPRSS2 was more expressed in
+healthy lung tissue as compared with the tumor tissue.
+
+However, we observed a significantly higher ACE2 expression in cancers of the adrenal
+gland, brain, colon, kidney, lung, pancreas, and stomach as compared with the
+relative healthy tissue, resulting in a likely higher susceptibility of these tumors
+to SARS-CoV-2 infection. However, data on the higher susceptibility to the virus for
+lung cancer patients are discordant and not related only to ACE2 expression 29 , 35 . In addition, the high expression of TMPRSS2 in the healthy prostatic tissue
+and ACE2 in healthy testis is not surprising and could explain the higher incidence
+of COVID-19 in male subjects. Recently, impaired testosterone production from testes
+in males has been reported 36 , coherently with the corresponding tissues showing the highest ACE2
+expression. In fact, androgens and androgen receptor (AR) have been known to affect
+ACE2 and TMPRSS2 expressions 37 , 38 . This implies that patients with prostate cancer that are treated with
+anti-AR therapy could be less susceptible to viral infection. The use of anti-AR
+compounds could also be used as a therapeutic strategy and preventive option in
+these patients to avoid viral entry 38 , 39 . In the future, other cancer types expressing AR, besides prostate cancer
+that can be treated with anti-AR compounds as a therapeutic option, would benefit
+from this type of treatment and could be less susceptible to SARS-CoV-2 infection
+and likely to its most severe effects.
+
+Previous studies have discovered gene variants that can alter a person’s chances of
+contracting an infectious disease. An example is a mutation in the CCR5 gene that
+offers protection against HIV infection 40 . Similar results in the context of SARS-CoV-2 infection are lacking. Our
+findings show some differences in terms of frequency of ACE2 and TMPRSS2 variants
+among different populations. In particular, the ACE2 variants S19P, exclusively
+present in Africans, and the E37 K in Finnish males, even if with a low frequency,
+could be protective factors to SARS-CoV-2 10 . It should be mentioned that the presence of genetic variants does not always
+affect gene expression and that ACE2 and TMPRSS2 overexpression could occur in
+response to other mechanisms, such as alterations in other genes. Moreover, other
+studies are needed to demonstrate a direct correlation of ACE2 and TMPRSS2 genes and
+the incidence of COVID-19 in cancer patients as well as the role of other factors
+involved in SARS-CoV-2 entry.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+We are aware that this study is limited by the lack of statistics on oncologic
+patients affected by SARS-CoV-2, due to its retrospective nature. However, our
+results, derived from a systematic analysis of online public data repositories, try
+to explain different individual susceptibility to SARS-CoV-2 among the healthy and
+oncologic population. Our descriptive study supports hypotheses that merit further
+investigations with a future impact on patient management decisions. In conclusion,
+we have analyzed ACE2 and TMPRSS2 expressions and their variants, as potential
+factors of susceptibility to SARS-CoV-2. The analysis of these genes and the
+mechanisms involved in their regulation could be used for both preventive and
+therapeutic purposes in the whole population, paying particular attention to cancer
+patients.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

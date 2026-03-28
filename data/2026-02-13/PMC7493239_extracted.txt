@@ -1,0 +1,84 @@
+================================================================================
+ARTICLE TITLE: A Case of Testicular Granulomatous Inflammation Mistaken for Malignancy: Tuberculosis Identified Post Orchiectomy
+PMCID: PMC7493239
+PMID: 32618206
+KEYWORDS: orchiectomy, testicular malignancy, testicular granuloma, testicular tuberculosis, infectious granuloma, granulomatous inflammation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+We describe the case of a 41-year-old Hispanic male, inconsistently adherent to visits and workup due to socioeconomic challenges, who presented with a right testicular mass. Because of the overriding concern that this was malignant, he underwent a right orchiectomy. Pathology revealed granulomatous disease with no evidence of malignancy. No specific diagnosis was made histologically or microbiologically on primary laboratory investigation. Six months later, he developed swelling of the left testicle and was subsequently seen in consultation at the Infectious Disease Clinic Kern Medical. An extensive evaluation for granulomatous inflammation was undertaken without a positive result. A clinical diagnosis of tuberculous epididymal orchitis was made and the patient was initiated on standard 4-drug antituberculous therapy. There was a gradual resolution of pain and swelling. After 6 months of therapy, there was no evidence of residual disease. The patient remains asymptomatic after 8 months of post-therapy follow-up.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+This is a case of granulomatous epididymal orchitis that presented as a right testicular mass and was, per standard of care, surgically extirpated. Pathology excluded malignant disease and demonstrated granulomatous inflammation. Clinical, radiologic, and histologic examination did not reveal an etiology.
+
+Six months postoperative, he developed pain and swelling in the opposite (left) epididymis and testicle. With Infectious Disease Kern Medical consultation, further pathologic investigation of the original specimen was done. Additional laboratory studies and evaluation for fungal, bacterial, and rheumatologic etiologies were completed such as syphilis, coccidioidomycosis, brucellosis, tuberculosis, and ANCA.
+
+Testicular disease can be divided into malignant and nonmalignant causes, which ultimately decides between surgical testicular excision or medical management. There are approximately 10 000 cases of testicular carcinoma diagnosed in the United States per year. That is approximately 1 in 300 men diagnosed annually. 1 Diagnosis is most commonly confirmed postoperatively.
+
+Clearly, malignancy is the greatest concern. But nonmalignant testicular disease is also most commonly diagnosed postoperatively. Benign tumors such as teratomas, benign sex cord stromal tumors, epidermoid cysts, lipomas, hemangiomas, and fibromas are identified. Inflammatory testicular pathology represents the other nonmalignant commonly identified diseases. These include bacterial epididymitis, orchitis, and epididymo-orchitis.
+
+When pathology reveals granulomatous inflammatory disease, the differential diagnosis can be categorized into rheumatologic, infectious, and malignant causes. 2 , 3 Careful review of the pathology is required to exclude malignancy coexisting with granulomatous disease. 3 - 9
+
+Hematoxylin and eosin stain (10× magnification) of the resected (right) testis with predominate epithelioid cells, showing extensive chronic necrotizing granulomatous inflammation, with caseation.
+
+Differential diagnoses of granulomatous epididymo-orchitis is complex and requires integration of clinical laboratory and pathologic data. 2
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Epididymitis is the leading cause of painful scrotal inflammation. Nearly all intrascrotal inflammation at any age predominately involves the epididymitis. 1 , 10 The inciting bacteria varies with age and classically invades by retrograde ascent. Progression to the testicles is known to occur, causing epididymo-orchitis.
+
+Orchitis in the absence of epididymitis is far less common and presents with testicular swelling and pain. The onset is typically rapid and can be unilateral or bilateral. High fever, nausea, and vomiting are also common. 11 , 12 Swollen testicles with induration are typical physical findings along with intense tenderness on palpation. 13
+
+The absence of pyuria is against bacterial epididymitis. 1 , 13 Epididymitis, epididymo-orchitis, or orchitis symptomatic resolution occurs over 2 to 4 weeks assuming sensitive organism’s and appropriate antimicrobial therapy. 11 , 12 , 14 , 15
+
+Viral orchitis is also known to occur most commonly due to the mumps virus, specifically in postpubertal males. 16 In individuals with chronic orchitis who come to surgical orchiectomy, syphilis, and tuberculosis are the most commonly identified organisms. 12 , 14 , 15
+
+In the absence of histopathologic, microbiologic, or serologic evidence the care of testicular granulomatous disease poses a challenge. Evaluation of scrotal pain is complex and multifactorial. In acute disease, it is essential to distinguish vascular compromise as in torsion from inflammatory disease. If physical examination and ultrasound suggest predominate epididymal disease, this is probably more likely infectious or rheumatologic.
+
+Chronic testicular involvement has 3 significant possible etiologies but the most common in the United States is malignancy. Least common is rheumatologic/vasculitic and third is infectious.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+If there is a concern for malignancy, the testicle is excised. If there is no evidence of germ cell tumor and granulomatous inflammation found, the differential diagnosis includes non–germ cell tumors such as lymphomas and leukemias, vasculitis, or infectious diseases. In this circumstance, careful evaluation for hematologic malignancy needs to be taken as well as an evaluation for rheumatologic/vasculitic disease. A diligent search for infectious causes needs to be taken as outlined.
+
+In our case, we found no evidence of hematologic malignancy, or rheumatologic disease and did not make a specific infectious diagnosis. Based on epidemiology and frequency, a clinical diagnosis of tuberculosis was entertained, and antitubercular therapy was initiated. There was subsequent complete resolution of all evident disease and no evidence of relapse posttreatment.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

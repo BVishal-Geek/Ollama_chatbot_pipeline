@@ -1,0 +1,88 @@
+================================================================================
+ARTICLE TITLE: Underlying Causes of Death among Adults in the United States, 2013–2017
+PMCID: PMC7864221
+PMID: 33553981
+KEYWORDS: causes of death, trend analysis, population study, us mortality, racial disparity
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background and objectives::
+Overall mortality among U.S. adults has been stable in past years; however, racial disparity influenced 10 leading causes of death or age-specific mortality in Blacks or African Americans. Unfortunately, the trends in sex- and race-adjusted age-standardized cause-specific mortality are poorly understood.
+
+Methods::
+We here aimed to identify the underlying causes of death (UCD) with sex- and race-adjusted, and age-standardized mortality that has changed in recent years. We extracted the data of UCD from the Multiple Cause of Death database of the Centers for Disease Control and Prevention (CDC). Multivariable log-linear regression models were used to estimate trends in sex- and race-adjusted, and age-standardized mortality of UCD during 2013–2017.
+
+Results::
+A total of 31,029,133 deaths were identified. Among the list of 113 UCDs compiled by the CDC, there were 29 UCDs exhibiting an upward trend, 33 UCDs exhibiting a downward trend and 56 UCDs with no significant trends. The 2 UCDs with the largest annual percent change were both nutrition related (annual percent change [APC] = 17.73, 95% CI [15.13–20.33] for malnutrition, and APC = 17.49, 95% CI [14.94–20.04] for Nutritional deficiencies), followed by accidental poisoning and exposure to noxious substances. The 4 UCDs with the largest decreasing APC were viral hepatitis (APC = −11.71), chronic and unspecified bronchitis (APC = −8.26), emphysema (APC = −7.11) and human immunodeficiency virus disease (APC = −7.10).
+
+Conclusions::
+This study thus reports UCDs with changing mortality in recent years after sex- and race-adjustments and age-standardizations. More effort and resources should focus on understanding, preventing and controling the mortality linked to these UCDs. Continuous monitoring of mortality trends is recommended.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Overall mortality among U.S. adults has been stable in past years. 1 , 2 Recent works documented the racial disparity in 10 leading causes of death or age-specific mortality in U.S. blacks or African Americans. 3 , 4 and disparities of race, age, and sex in the trends of suicide mortality. 5 However, the trends in sex- and race-adjusted age-standardized cause-specific mortality are largely unknown, despite its significance in public health, policy making and disease prevention. Studies have indirectly shown some rapid-changes in some underlying causes of death (UCD) during 2013–2017, 6 , 7 but few studies have focused on the recent trends of other UCD. The recent trends and their changes in our view would also be more useful for current and future policy-making and public health interventions than those during remote years. We therefore aimed to describe the UCD with sex- and race-adjusted, and age-standardized mortality that was changing in recent years (2013–2017).
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+The Multiple Cause of Death database of the Centers for Disease Control and Prevention (CDC) contains mortality and population counts for all U.S. counties. 8 Its data were extracted from death certificates of all eligible U.S. residents. The age-standardized mortality rates during 2013–2017 were estimated for adults (25+ years) in the U.S. using the U.S. standard population from the year 2000 and the CDC Multiple Cause of Death database (1999–2017). 8 The age groups of 10-year intervals were used and included the ranges of 25–34, 35–44, 45–54, 55–64, 65–74, 75–84, and 85 years and over. The mortality rate was calculated and shown per 100,000. UCDs were the single, underlying cause of death reported on each death certificate, and here classified using the list of 113 UCDs compiled by the CDC. 1 , 2 Age-standardized mortality rates by sex and race (white versus non-white) and multivariable log-linear regression models were used to compute the annual percent change (APC) of sex- and race-adjusted, and age-standardized mortality rates according to the CDC guidelines on using NHCS data. 9 Briefly, the log-transformed age-standardized mortality rates (as the y) were fit using a simple linear regression model (the x is the year) and adjusted for sex and race. The Stata software (version 15, StataCorp, College Station, TX) was employed for all statistical analyses. This study used de-identified and publicly available data on the deceased subjects. All P values were 2-sided and considered significant when <0.05. The trends during 2015–2017 were also computed to assess the potential influence of implementation of the 10th edition of International Classification of Diseases (ICD-10) in 2015.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Per the CDC rules and its data use agreement, any sub-national data representing fewer than ten persons must be statistically suppressed. Among 31,027,401 deaths with un-suppressed mortality and recorded during 2013–2017 (99.9% of the total deaths), there were 14,814,842 women (47.8%) and 26,499,625 whites (85.4%) ( Table 1 ). In the list of 113 UCDs, 29 UCDs had an upward trend in sex- and race-adjusted and age-standardized mortality during 2013–2017 ( Table 2 and Fig. 1 ). These UCDs included, in descending order of APC: Malnutrition/nutritional deficiencies, Accidental poisoning and exposure to noxious substances, Other nutritional deficiencies, Complications of medical and surgical care, Hypertensive heart and renal disease, Acute and rapidly progressive nephritic and nephrotic syndrome, Other and unspecified events of undetermined intent and their sequelae, nontransport accidents, Alzheimer disease, events of undetermined intent, accidents (unintentional injuries), Parkinson disease, alcoholic liver disease and others. Of these 29 UCDs, the 2 UCDs with largest APC were both nutrition-related, followed by accidental poisoning and exposure to noxious substances. A total of 7 accident-related UCDs, 4 heart-related UCDs, 3 hypertension-related UCDs and 2 liver-related UCDs exhibited an increasing sex- and race-adjusted and age-standardized mortality. There were also 33 UCDs exhibiting a downward trend in sex- and race-adjusted and age-standardized mortality ( Table 3 ), and included infection, malignancies and ischemic-heart diseases. There were 56 UCDs with no significant trend, and 15 UCDs exhibiting a statistically suppressed mortality rate. The multivariate sensitivity analysis identified 16 UCDs exhibiting an upward mortality trend and 13 UCDs exhibiting a downward mortality trend during 2015–2017 (data not shown), which all had similar trends during 2013–2017.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Here, we report the UCDs with increasing mortality and those with decreasing mortality among adults in the U.S. during 2013–2017, which were sex- and race-adjusted and age-standardized. Sex- and race-adjustments reduce the biases associated with such disparities in mortality. 4 , 5 , 10 The 2 UCDs with the largest APC were both nutrition related (APC = 17.73 for Malnutrition and APC = 17.49 for nutritional deficiencies), followed by accidental poisoning and exposure to noxious substances. The 4 UCDs with the largest decreasing APC were viral hepatitis (APC = −11.71), chronic and unspecified bronchitis (APC = −8.26), emphysema (APC = −7.11) and human immunodeficiency virus disease (APC = −7.10). Future policy and public health resources should focus on the identified UCDs with growing mortality.
+
+Despite the overall downward trends, cardiovascular diseases, heart diseases, and stroke mortality all exhibited a substantially decelerated downward trend during 2011–2014. 11 It is therefore possible, but not certain, that some of these UCDs might be linked to increasing mortality in recent years. Moreover, trend analyses on mortality rightfully focused on the leading causes of death. 3 , 11 , 12 Few studies have systematically delineated recent trends of UCDs that exhibit increasing mortality. It is likely effective to decrease overall mortality by identifying and then reversing or neutralizing the increasing morality of certain UCDs. Finally, age-standardized mortality exhibited significantly different trends from those of crude mortality. 10 Given the variations of mortality trends by race, sex and age, as well as the lack of related data, this study is important for understanding the sex- and race-adjusted age-standardized mortality, and identifying the UCDs linked to changing mortality. This work thus fills the knowledge gap of recent trends in sex- and race-adjusted age-standardized mortality, and provides early data for policy making and specifies public health focus areas for projecting and reducing future mortality among adults in the U.S.
+
+Malnutrition/nutrition deficiency was one of the top-10 leading UCDs among pediatric populations of American Indians/Alaska natives or Asian/Pacific Islanders in 2013 1 and Hispanic females aged 5–9 years in 2016. 2 Given its ~17.5% of APC, our data suggest malnutrition/nutrition deficiency will likely become a leading UCD in adults in the near future. The increasing mortality linked to the UCDs of accidents, heart, hypertension and liver are also concerning. Hypertension, for example, was among the top-10 leading UCDs in U.S. adults aged >85 years in 2016, but not in 2013. 1 , 2 Future studies should continue monitoring UCD-specific mortality, and better understand and control these upward trends.
+
+Several limitations of this study are noteworthy. First, the UCD on some death certificates may be misclassified or missing altogether. For example, coders more likely include the UCD which the patient recently presented than the ones previously presented. Second, there was a general transition from ICD-9 to ICD-10 coding in 2015. Therefore, some cases may have different ICD-9 and ICD-10 classifications; however, studies have shown that ICD-9 and ICD-10 classifications are overall consistent with each other. 13 , 14 In addition, the list of 113 UCDs were unlikely influenced by such a transition because of the relatively broad definition of each UCD (none of them had decimals). Third, we were not able to conduct more-detailed analyses on the subgroups of non-whites owing to the smaller number of cases in select populations such as Asian and Pacific Islanders and blacks. Nevertheless, in some cases, subgroup analyses by race might be important for trend analyses. The reason was that, according to the data use agreement with the CDC, for any unit/cell of the data in a given year, sex and race must be larger than 15. Otherwise, the data cannot be retrieved or used. Finally, there were missing/suppressed data for some UCDs due to the small number of deaths linked to them, and were thus excluded from the analysis.
+
+This study reports the UCDs that are associated with upward or downward trend in sex- and race-adjusted and age-standardized U.S. mortality during 2013–2017. Some of these UCDs have been reported recently and are consistent with our findings, 12 while others are novel findings. These data will help better prioritize efforts on reducing mortality among U.S. adults. Specifically, our findings shed light on policy making and the allocation of public health resources that should in the future focus on the identified UCDs with growing mortality. Furthermore, these findings may also enable clinical standards to expand interventions and policy-making decisions that are associated with the UCDs of the largest decreasing APC.
+
+Continuous monitoring of mortality trends is warranted. Future works should focus on the causes of rapidly increasing trends in certain UCDs. More importantly, society as a whole should consider approaches to effectively monitor and prevent further increases in deaths associated with these UCDs.
+
+
+Future directions
+
+Continuous monitoring of mortality trends is warranted. Future works should focus on the causes of rapidly increasing trends in certain UCDs. More importantly, society as a whole should consider approaches to effectively monitor and prevent further increases in deaths associated with these UCDs.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

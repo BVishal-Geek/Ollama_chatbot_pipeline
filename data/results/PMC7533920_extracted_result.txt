@@ -1,0 +1,19 @@
+Source: PMC7533920_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Comprehensive Characterization of Circular RNAs in Neuroblastoma Cell Lines",
+  "condition_E": 1,
+  "condition_E_reason": "The RNA-seq data of 39 neuroblastoma and 2 normal cell lines were collected.",
+  "N_E": 1,
+  "N_E_reason": "39 neuroblastoma and 2 normal cell lines were analyzed.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data downloaded from Sequence Read Archive (SRA) database with accession number SRP092413.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

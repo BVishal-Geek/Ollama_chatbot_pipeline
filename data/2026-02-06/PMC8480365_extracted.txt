@@ -1,0 +1,210 @@
+================================================================================
+ARTICLE TITLE: Oncogenic Roles of RAD51AP1 in Tumor Tissues Related to Overall Survival and Disease-Free Survival in Hepatocellular Carcinoma
+PMCID: PMC8480365
+PMID: 33269607
+KEYWORDS: rad51ap1, hepatocellular carcinoma, overall survival, disease-free survival, liver fibrosis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+This study aimed to investigate the associations between RAD51AP1 and the outcomes of hepatocellular carcinoma (HCC).
+
+Methods::
+RAD51AP1 expression levels were compared in Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA) datasets. The Liver Hepatocellular Carcinoma (TCGA, Provisional) and GSE36376 datasets were used for survival analysis. RAD51AP1 associations with clinicopathological features were determined with the GSE36376 dataset.
+
+Results::
+RAD51AP1 mRNA expression was significantly upregulated in advanced liver fibrosis samples (S3-4 vs. S0-2 and G3-4 vs. G0-2) from hepatitis B virus (HBV)-related liver fibrosis patients and in tumor tissues and peripheral blood mononuclear cells (PBMCs) from HCC patients (all P < 0.05). HCC patients with high RAD51AP1 expression had significantly worse overall survival (OS) and disease-free survival (DFS) than those with low RAD51AP1 expression ( P = 0.0034 and P = 0.0012, respectively) in the TCGA dataset, and these findings were validated with the GSE36376 dataset ( P = 0.0074 and P = 0.0003, respectively). A Cox regression model indicated that RAD51AP1 was a risk factor for OS and DFS in HCC patients in GSE36376 (HR = 1.54, 95% CI = 1.02-2.32, P = 0.04 and HR = 1.71, 95% CI = 1.22-2.39, P = 0.002, respectively). Moreover, RAD51AP1 mRNA expression increased gradually with increasing tumor stage, including stratification by American Joint Committee on Cancer (AJCC) stages, Barcelona Clinic Liver Cancer (BCLC) stages and Edmondson grades. In addition, RAD51AP1 was overexpressed in HCC patients with intrahepatic metastasis, major portal vein invasion, vascular invasion and/or an alpha-fetoprotein (AFP) level > 300 ng/ml.
+
+Conclusions::
+Contributing to an advanced tumor stage, intrahepatic metastasis, vascular invasion and AFP level elevation, RAD51AP1 upregulation was significantly associated with OS and DFS in HCC patients.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+An underlying hallmark of human malignancies is their genomic instability, which is associated with an increased vulnerability to accumulating DNA damage. 1 Current evidence indicates that tumors harbor defects in different DNA damage response steps, mainly those related to signaling and repair. 2 The pathways that determine cell fate are intertwined and play vital roles in tumorigenesis and cancer progression. 3 , 4 The unravelling of the molecular mechanisms underlying the DNA damage response in human cancers offers new therapeutic approaches. Targeted therapy to inhibit the DNA damage response in cancers has created the potential for a better therapeutic strategy. 5 , 6 
+
+RAD51-associated protein 1 (RAD51AP1) plays a key role in homologous recombination (HR)-mediated chromosome damage repair, 7 stimulates joint molecule formation and is required for cellular protection against DNA double-strand break-inducing agents. 8 , 9 In human somatic cells, knockdown of RAD51AP1 expression results in increased sensitivity to DNA-damaging agents and impaired HR. The available literature indicates that RAD51AP1 is involved in cancer development and progression. Aberrant RAD51AP1 expression and its carcinogenic roles have been reported in many human cancers, including lung cancer, 10 ovarian cancer, 11 breast cancer, 12 , 13 oropharyngeal squamous cell carcinomas, 14 glioblastomas, 15 melanoma 16 , 17 and lymphoma. 18 Although RAD51AP1 expression has been found to be upregulated in hepatocellular carcinoma (HCC), 19 , 20 the predictive potential of the oncogenic roles of RAD51AP1 in HCC survival prognosis is rarely studied.
+
+In this analysis, we aimed to investigate the expression of RAD51AP1 in different stages of liver diseases and correlate it with HCC survival and clinicopathological features in TCGA and GEO datasets to offer novel insights into HCC aggressiveness and identify potential therapeutic targets.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The study protocol for this analysis and informed consent documents were reviewed and approved by the Ethics Committee of the Shanghai Public Health Clinical Center, Fudan University (approval no. 2018-Y003). All the participants provided written informed consent during their hospitalization.
+
+To compare the RAD51AP1 expression levels in serum and tissues among patients with different stages of liver diseases, including HCC, and healthy candidates, GEO ( https://www.ncbi.nlm.nih.gov/geo/ ) datasets including GSE84044 , 21  GSE17548 , 22  GSE45436 , 23  GSE55092 , 24  GSE101685 , GSE49515 25 and GSE36376 26 were included in this analysis. A TCGA dataset was used to validate RAD51AP1 expression. HCC patients in the TCGA and GSE36376 26 datasets were included for survival analysis.
+
+In the TCGA dataset, 361 HCC patients were included in the analysis after matching tumor pathological type and gene expression data. In the GSE36376 dataset, 240 HCC patients who underwent surgical resection or liver transplantation at the Samsung Medical Center, Seoul, Korea, between July 2000 and May 2006 were included in this analysis. Informed consent was obtained from each patient included in the study, and this study was approved by the institutional review board of the Samsung Medical Center, Seoul, Korea, which is consistent with reports by Lim et al. 26 
+
+To validate RAD51AP1 mRNA expression in liver fibrosis, total RNA was extracted from 47 liver biopsy tissue specimens (21 with S0-stage fibrosis and 26 with S4-stage fibrosis), which were obtained from the Shanghai Public Health Clinical Center.
+
+Reverse transcription and RT-qPCR analysis of RAD51AP1 were conducted according to the manufacturer’s instructions (Takara Bio Inc., Shiga, Japan). The primers for RAD51AP1 used for RT-qPCR were created by Sangon Biotech (Sangon Biotech Co., Ltd., Shanghai, China). The sequences were forward: 5′-ATGACAAGCTCTACCAGAGAGAC-3′, and reverse: 5′-CACATTAGTGGTGACTGTTGGAA-3′.
+
+The Liver Hepatocellular Carcinoma (TCGA, Provisional) dataset in the cBioPortal for Cancer Genomics web service was used to evaluate the potential for RAD51AP1 to predict the overall survival (OS) and disease-free survival (DFS) of HCC patients. 27 , 28 To evaluate associations between RAD51AP1 and survival in HCC patients, gene data with Z scores and clinical data for HCC patients in the Liver Hepatocellular Carcinoma (TCGA, Provisional) dataset were obtained from cBioPortal and matched using the VLOOKUP index in Microsoft Excel.
+
+From GSE36376 , 26 240 HCC patients were included in this analysis. OS was defined as the time from surgery to the date of death or last follow-up. DFS was defined as the time from surgery to the date of tumor recurrence or death. The censoring time was defined as the final documented date of no evidence of tumor recurrence by imaging. The liver function parameters and clinicopathological features of HCC patients, including vascular invasion, major portal vein invasion, intrahepatic metastasis, multicentric occurrence, tumor stage and Edmondson grade, were all considered. 26 , 29 
+
+Differences in variables between individual groups were analyzed using Student’s t test, the Mann-Whitney U -test and the chi-square test based on the variable type. Factors associated with survival were assessed by univariate and multivariate Cox regression analysis. Only covariates significantly associated with outcomes in the univariate analysis (2-sided P < 0.05) were included in the multivariate model. Parameters significantly associated with outcomes in multivariate model were presented. Results are reported as hazard ratios (HRs) with 95% confidence intervals (CIs). The Kaplan-Meier method with the log-rank test was used to compare OS and DFS between groups. Stata software version 16.0 (Stata Corp LLC, Texas, USA) was used. A 2-tailed P < 0.05 were considered significant for all tests.
+
+
+Ethics Statement
+
+The study protocol for this analysis and informed consent documents were reviewed and approved by the Ethics Committee of the Shanghai Public Health Clinical Center, Fudan University (approval no. 2018-Y003). All the participants provided written informed consent during their hospitalization.
+
+
+Microarray Data
+
+To compare the RAD51AP1 expression levels in serum and tissues among patients with different stages of liver diseases, including HCC, and healthy candidates, GEO ( https://www.ncbi.nlm.nih.gov/geo/ ) datasets including GSE84044 , 21  GSE17548 , 22  GSE45436 , 23  GSE55092 , 24  GSE101685 , GSE49515 25 and GSE36376 26 were included in this analysis. A TCGA dataset was used to validate RAD51AP1 expression. HCC patients in the TCGA and GSE36376 26 datasets were included for survival analysis.
+
+
+Patients
+
+In the TCGA dataset, 361 HCC patients were included in the analysis after matching tumor pathological type and gene expression data. In the GSE36376 dataset, 240 HCC patients who underwent surgical resection or liver transplantation at the Samsung Medical Center, Seoul, Korea, between July 2000 and May 2006 were included in this analysis. Informed consent was obtained from each patient included in the study, and this study was approved by the institutional review board of the Samsung Medical Center, Seoul, Korea, which is consistent with reports by Lim et al. 26 
+
+To validate RAD51AP1 mRNA expression in liver fibrosis, total RNA was extracted from 47 liver biopsy tissue specimens (21 with S0-stage fibrosis and 26 with S4-stage fibrosis), which were obtained from the Shanghai Public Health Clinical Center.
+
+
+Real-Time Quantitative Polymerase Chain Reaction (RT-qPCR)
+
+Reverse transcription and RT-qPCR analysis of RAD51AP1 were conducted according to the manufacturer’s instructions (Takara Bio Inc., Shiga, Japan). The primers for RAD51AP1 used for RT-qPCR were created by Sangon Biotech (Sangon Biotech Co., Ltd., Shanghai, China). The sequences were forward: 5′-ATGACAAGCTCTACCAGAGAGAC-3′, and reverse: 5′-CACATTAGTGGTGACTGTTGGAA-3′.
+
+
+Survival Analysis
+
+The Liver Hepatocellular Carcinoma (TCGA, Provisional) dataset in the cBioPortal for Cancer Genomics web service was used to evaluate the potential for RAD51AP1 to predict the overall survival (OS) and disease-free survival (DFS) of HCC patients. 27 , 28 To evaluate associations between RAD51AP1 and survival in HCC patients, gene data with Z scores and clinical data for HCC patients in the Liver Hepatocellular Carcinoma (TCGA, Provisional) dataset were obtained from cBioPortal and matched using the VLOOKUP index in Microsoft Excel.
+
+From GSE36376 , 26 240 HCC patients were included in this analysis. OS was defined as the time from surgery to the date of death or last follow-up. DFS was defined as the time from surgery to the date of tumor recurrence or death. The censoring time was defined as the final documented date of no evidence of tumor recurrence by imaging. The liver function parameters and clinicopathological features of HCC patients, including vascular invasion, major portal vein invasion, intrahepatic metastasis, multicentric occurrence, tumor stage and Edmondson grade, were all considered. 26 , 29 
+
+
+Statistical Analysis
+
+Differences in variables between individual groups were analyzed using Student’s t test, the Mann-Whitney U -test and the chi-square test based on the variable type. Factors associated with survival were assessed by univariate and multivariate Cox regression analysis. Only covariates significantly associated with outcomes in the univariate analysis (2-sided P < 0.05) were included in the multivariate model. Parameters significantly associated with outcomes in multivariate model were presented. Results are reported as hazard ratios (HRs) with 95% confidence intervals (CIs). The Kaplan-Meier method with the log-rank test was used to compare OS and DFS between groups. Stata software version 16.0 (Stata Corp LLC, Texas, USA) was used. A 2-tailed P < 0.05 were considered significant for all tests.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+In GSE84044 , RAD51AP1 mRNA expression was significantly elevated in HBV-infected patients with histological stage (S) 3-4 fibrosis and grade (G) 3-4 inflammation compared to those with S0-2 fibrosis and G0-2 inflammation (both P < 0.0001, Figure 1A ). In our cohort, we validated that RAD51AP1 mRNA expression was significantly upregulated in chronic liver disease patients with S4 fibrosis compared with those with S0 fibrosis ( P < 0.001, Figure 1B ). In addition, RAD51AP1 was significantly overexpressed in tumor tissue compared to cirrhotic tissue ( P < 0.0001, Figure 1A , GSE17548 ). Moreover, RAD51AP1 mRNA expression was significantly higher in tumor tissues than in adjacent tissues in HCC patients, which was confirmed in the 3 GEO datasets GSE445436, GSE55092 and GSE101685 (all P < 0.0001, Figure 1A ). This trend was also validated in the TCGA dataset ( P < 0.0001, Figure 1C ). Additionally, serum RAD51AP1 mRNA levels were significantly higher in HCC PBMCs than in healthy PBMCs ( P < 0.001, Figure 1A , GSE49515 ).
+
+RAD51AP1 mRNA expression. RAD51AP1 mRNA levels in liver fibrosis, cirrhosis, tumor and adjacent tissues, and serum PBMC samples (A); RAD51AP1 mRNA expression in S0 and S4 liver tissues (B); RAD51AP1 mRNA in tumor and adjacent tissues in TCGA database (C).
+
+In the TCGA dataset, HCC patients were divided into high and low RAD51AP1 expression groups using the median expression level as the cutoff. As summarized in Table 1 , the HCC patients in the high RAD51AP1 expression group were younger than those in the low RAD51AP1 expression group ( P = 0.03, Table 1 ). The distributions of race, pathological grade and AJCC stage were significantly different between these 2 groups (all P < 0.05, Table 1 ). The patients in the high RAD51AP1 expression group had significantly higher AFP levels ( P < 0.001, Table 1 ). On the other hand, univariate and multivariate logistic regression models indicated that pathological grade might contribute to RAD51AP1 expression elevation (compared to grade I, OR = 4.15 and P = 0.04 for grade II and OR = 5.75 and P = 0.014 for grade III-IV, Table 2 ).
+
+Baseline Characteristics of HCC Patients Between RAD51AP1 High and Low Groups in the TCGA Dataset.
+
+† Calculated by reverse Kaplan-Meier method.
+
+BMI, body mass index; AFP, alpha fetoprotein; AJCC, American Joint Committee on Cancer; IQR, interquartile range; OS, overall survival.
+
+Univariate and Multivariate Logistic Regression Models for Identifying Parameters Associated With RAD51AP1. # 
+
+# Variables including age, gender, BMI, Race, tumor status, treatment history, pathological grade, risk factor, AJCC staging, vascular invasion, child-pugh, AFP, Ishak stage, hepatic inflammation of adjacent tissue, new tumor event after initial treatment, family history of cancer, creatine, bilirubin, platelet counts were included in univariate analysis. Only variables with p < 0.05 in univariate model were presented and included in the multivariate analysis.
+
+As shown in Figure 2 , the patients in the high RAD51AP1 expression group had significantly worse OS than those in the low RAD51AP1 expression group (log-rank P = 0.0034, Figure 2A ). Additionally, the patients in the high RAD51AP1 expression group had significantly shorter DFS than those in the low RAD51AP1 expression group (log rank P = 0.0012, Figure 2B ). For validation, we evaluated 240 HCC patients in the GSE36376 dataset. The patients with RAD51AP1 upregulation in their tumor tissue had significantly poorer OS and DFS than those with RAD51AP1 downregulation (log-rank P = 0.0074 and 0.0003, respectively, Figure 3 ).
+
+Associations of RAD51AP1 and OS (A) and DFS (B) in HCC patients in TCGA database.
+
+Associations of RAD51AP1 and OS (A) and DFS (B) in HCC patients in GSE36376 profile.
+
+For GSE36376 , patients with RAD51AP1 upregulation were younger than those with low RAD51AP1 (p = 0.011, supplementary Table 1), which was consistent with that in TCGA dataset. Patients with high RAD51AP1 had advanced Edmondson grade, AJCC staging, BCLC staging, more frequent of vascular invasion, major portal vein invasion and intrahepatic metastasis, and AFP elevation (all p < 0.05, supplementary Table 1). Univariate Cox analysis revealed that RAD51AP1, Edmondson grade, tumor size, vascular invasion status, major portal vein invasion status, intrahepatic metastasis status, AJCC stage, BCLC stage, aspartate aminotransferase (AST) elevation status, albumin, international normalized ratio (INR) and AFP were all potentially factors significantly associated with OS in HCC patients (all P < 0.10, Figure 4A ). Multivariate analysis indicated that RAD51AP1 was a risk factor for OS in HCC patients (HR = 1.54, 95% CI = 1.02-2.32, P = 0.04, Figure 4B ) after adjusting for the intrahepatic metastasis status, AST elevation status, INR and albumin level.
+
+Univariate (A) and multivariate (B) Cox regression analysis of parameters associated with OS in HCC patients in GSE36376 .
+
+Additionally, we utilized a Cox regression model to identify the factors associated with DFS in HCC patients. As shown in Figure 5 , RAD51AP1, Edmondson grade, age, tumor size, vascular invasion status, major portal vein invasion status, intrahepatic metastasis status, AJCC stage, BCLC stage, AST elevation status, albumin, INR and AFP were all potentially factors significantly related to DFS in HCC patients (all P < 0.10, Figure 5A ). Multivariate Cox analysis demonstrated that RAD51AP1 (HR = 1.71, 95% CI = 1.22-2.39, P = 0.002, Figure 5B ) and the vascular invasion, intrahepatic metastasis and AST elevation statuses (all P < 0.05, Figure 5B ) were all risk factors significantly associated with DFS in HCC patients.
+
+Univariate (A) and multivariate (B) Cox regression analysis of parameters associated with DFS in HCC patients in GSE36376 .
+
+In GSE36376 , RAD51AP1 mRNA expression was significantly upregulated in tumor tissues compared to nontumor tissues ( P < 0.0001, Figure 6A ). Moreover, RAD51AP1 mRNA expression increased gradually with increasing tumor stage, regardless of whether AJCC staging (AJCC stage II vs. I, P < 0.05; AJCC stage III-IV vs. I, P < 0.0001; and AJCC stage III-IV vs. II, P < 0.05, Figure 6A ), BCLC staging (BCLC stage B vs. 0-A, P < 0.05; BCLC stage C vs. B, P < 0.05; and BCLC stage C vs. 0-A, P < 0.001, Figure 6A ) or Edmondson grading (grade 2 vs. grade 1, P < 0.05; grade 3 vs. grade 1, P < 0.01; and grade 3 vs. grade 2, P < 0.01, Figure 6A ) was used. In addition, RAD51AP1 was also overexpressed in HCC patients with intrahepatic metastasis ( P < 0.01, Figure 6B ), major portal vein invasion ( P < 0.01, Figure 6B ), vascular invasion ( P < 0.001, Figure 6B ) and/or an AFP level > 300 ng/ml ( P < 0.01, Figure 6B ).
+
+Validation of RAD51AP1 mRNA levels in tumor and nontumor tissues in GSE36376 , RAD51AP1 expression comparison by AJCC stage, BCLC stage, Edmondson grade (A); intrahepatic metastasis status, major portal vein invasion status, vascular invasion status and AFP elevation (B).
+
+
+RAD51AP1 Expression
+
+In GSE84044 , RAD51AP1 mRNA expression was significantly elevated in HBV-infected patients with histological stage (S) 3-4 fibrosis and grade (G) 3-4 inflammation compared to those with S0-2 fibrosis and G0-2 inflammation (both P < 0.0001, Figure 1A ). In our cohort, we validated that RAD51AP1 mRNA expression was significantly upregulated in chronic liver disease patients with S4 fibrosis compared with those with S0 fibrosis ( P < 0.001, Figure 1B ). In addition, RAD51AP1 was significantly overexpressed in tumor tissue compared to cirrhotic tissue ( P < 0.0001, Figure 1A , GSE17548 ). Moreover, RAD51AP1 mRNA expression was significantly higher in tumor tissues than in adjacent tissues in HCC patients, which was confirmed in the 3 GEO datasets GSE445436, GSE55092 and GSE101685 (all P < 0.0001, Figure 1A ). This trend was also validated in the TCGA dataset ( P < 0.0001, Figure 1C ). Additionally, serum RAD51AP1 mRNA levels were significantly higher in HCC PBMCs than in healthy PBMCs ( P < 0.001, Figure 1A , GSE49515 ).
+
+RAD51AP1 mRNA expression. RAD51AP1 mRNA levels in liver fibrosis, cirrhosis, tumor and adjacent tissues, and serum PBMC samples (A); RAD51AP1 mRNA expression in S0 and S4 liver tissues (B); RAD51AP1 mRNA in tumor and adjacent tissues in TCGA database (C).
+
+
+RAD51AP1 and HCC Survival
+
+In the TCGA dataset, HCC patients were divided into high and low RAD51AP1 expression groups using the median expression level as the cutoff. As summarized in Table 1 , the HCC patients in the high RAD51AP1 expression group were younger than those in the low RAD51AP1 expression group ( P = 0.03, Table 1 ). The distributions of race, pathological grade and AJCC stage were significantly different between these 2 groups (all P < 0.05, Table 1 ). The patients in the high RAD51AP1 expression group had significantly higher AFP levels ( P < 0.001, Table 1 ). On the other hand, univariate and multivariate logistic regression models indicated that pathological grade might contribute to RAD51AP1 expression elevation (compared to grade I, OR = 4.15 and P = 0.04 for grade II and OR = 5.75 and P = 0.014 for grade III-IV, Table 2 ).
+
+Baseline Characteristics of HCC Patients Between RAD51AP1 High and Low Groups in the TCGA Dataset.
+
+† Calculated by reverse Kaplan-Meier method.
+
+BMI, body mass index; AFP, alpha fetoprotein; AJCC, American Joint Committee on Cancer; IQR, interquartile range; OS, overall survival.
+
+Univariate and Multivariate Logistic Regression Models for Identifying Parameters Associated With RAD51AP1. # 
+
+# Variables including age, gender, BMI, Race, tumor status, treatment history, pathological grade, risk factor, AJCC staging, vascular invasion, child-pugh, AFP, Ishak stage, hepatic inflammation of adjacent tissue, new tumor event after initial treatment, family history of cancer, creatine, bilirubin, platelet counts were included in univariate analysis. Only variables with p < 0.05 in univariate model were presented and included in the multivariate analysis.
+
+As shown in Figure 2 , the patients in the high RAD51AP1 expression group had significantly worse OS than those in the low RAD51AP1 expression group (log-rank P = 0.0034, Figure 2A ). Additionally, the patients in the high RAD51AP1 expression group had significantly shorter DFS than those in the low RAD51AP1 expression group (log rank P = 0.0012, Figure 2B ). For validation, we evaluated 240 HCC patients in the GSE36376 dataset. The patients with RAD51AP1 upregulation in their tumor tissue had significantly poorer OS and DFS than those with RAD51AP1 downregulation (log-rank P = 0.0074 and 0.0003, respectively, Figure 3 ).
+
+Associations of RAD51AP1 and OS (A) and DFS (B) in HCC patients in TCGA database.
+
+Associations of RAD51AP1 and OS (A) and DFS (B) in HCC patients in GSE36376 profile.
+
+
+Cox Regression Analysis of Variables Associated With HCC Survival
+
+For GSE36376 , patients with RAD51AP1 upregulation were younger than those with low RAD51AP1 (p = 0.011, supplementary Table 1), which was consistent with that in TCGA dataset. Patients with high RAD51AP1 had advanced Edmondson grade, AJCC staging, BCLC staging, more frequent of vascular invasion, major portal vein invasion and intrahepatic metastasis, and AFP elevation (all p < 0.05, supplementary Table 1). Univariate Cox analysis revealed that RAD51AP1, Edmondson grade, tumor size, vascular invasion status, major portal vein invasion status, intrahepatic metastasis status, AJCC stage, BCLC stage, aspartate aminotransferase (AST) elevation status, albumin, international normalized ratio (INR) and AFP were all potentially factors significantly associated with OS in HCC patients (all P < 0.10, Figure 4A ). Multivariate analysis indicated that RAD51AP1 was a risk factor for OS in HCC patients (HR = 1.54, 95% CI = 1.02-2.32, P = 0.04, Figure 4B ) after adjusting for the intrahepatic metastasis status, AST elevation status, INR and albumin level.
+
+Univariate (A) and multivariate (B) Cox regression analysis of parameters associated with OS in HCC patients in GSE36376 .
+
+Additionally, we utilized a Cox regression model to identify the factors associated with DFS in HCC patients. As shown in Figure 5 , RAD51AP1, Edmondson grade, age, tumor size, vascular invasion status, major portal vein invasion status, intrahepatic metastasis status, AJCC stage, BCLC stage, AST elevation status, albumin, INR and AFP were all potentially factors significantly related to DFS in HCC patients (all P < 0.10, Figure 5A ). Multivariate Cox analysis demonstrated that RAD51AP1 (HR = 1.71, 95% CI = 1.22-2.39, P = 0.002, Figure 5B ) and the vascular invasion, intrahepatic metastasis and AST elevation statuses (all P < 0.05, Figure 5B ) were all risk factors significantly associated with DFS in HCC patients.
+
+Univariate (A) and multivariate (B) Cox regression analysis of parameters associated with DFS in HCC patients in GSE36376 .
+
+
+Associations Between RAD51AP1 and Clinicopathological Features in HCC
+
+In GSE36376 , RAD51AP1 mRNA expression was significantly upregulated in tumor tissues compared to nontumor tissues ( P < 0.0001, Figure 6A ). Moreover, RAD51AP1 mRNA expression increased gradually with increasing tumor stage, regardless of whether AJCC staging (AJCC stage II vs. I, P < 0.05; AJCC stage III-IV vs. I, P < 0.0001; and AJCC stage III-IV vs. II, P < 0.05, Figure 6A ), BCLC staging (BCLC stage B vs. 0-A, P < 0.05; BCLC stage C vs. B, P < 0.05; and BCLC stage C vs. 0-A, P < 0.001, Figure 6A ) or Edmondson grading (grade 2 vs. grade 1, P < 0.05; grade 3 vs. grade 1, P < 0.01; and grade 3 vs. grade 2, P < 0.01, Figure 6A ) was used. In addition, RAD51AP1 was also overexpressed in HCC patients with intrahepatic metastasis ( P < 0.01, Figure 6B ), major portal vein invasion ( P < 0.01, Figure 6B ), vascular invasion ( P < 0.001, Figure 6B ) and/or an AFP level > 300 ng/ml ( P < 0.01, Figure 6B ).
+
+Validation of RAD51AP1 mRNA levels in tumor and nontumor tissues in GSE36376 , RAD51AP1 expression comparison by AJCC stage, BCLC stage, Edmondson grade (A); intrahepatic metastasis status, major portal vein invasion status, vascular invasion status and AFP elevation (B).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Consistent with previous reports, 19 , 20 our results revealed that RAD51AP1 was overexpressed in tumor tissues compared to adjacent tissues in HCC patients. Notably, upregulation of RAD51AP1 expression was associated with advanced tumor stages, an advanced pathological grade, intrahepatic metastasis, vascular invasion and AFP level elevation. On the other hand, an advanced pathological grade might account for RAD51AP1 overexpression in tumor tissues. Moreover, high expression of RAD51AP1 was correlated with relatively poor OS and DFS in HCC patients. Previously, Xie et al reported that 18 HCC patients with RAD51AP1 alterations showed worse OS than 352 patients without RAD51AP1 alterations based on a cBioportal online analysis. 20 In addition, our results revealed that RAD51AP1 was highly expressed in liver diseases with advanced fibrosis and inflammatory stages. Intriguingly, RAD51AP1 expression is increased in hepatitis C virus (HCV)-infected liver tissues and HCV-transgenic mice. RAD51AP1 silencing results in a decrease in viral propagation. Mechanistically, RAD51AP1 is involved in the assembly steps of the HCV life cycle by protecting viral RNA. 30 Considering previous studies and our results, we cautiously hypothesized that RAD51AP1 promotes liver disease progression, tumorigenesis and cancer aggressiveness in HCC patients.
+
+Cancer cells and precancerous lesions often contain abnormally regulated DNA repair pathways, 31 , 32 and upregulation of DNA repair gene expression is considered to be related to metastasis. 16 , 33 Emerging evidence has shown that RAD51AP1 contributes to human cancer progression. 34 RAD51AP1 suppresses cell cycle arrest and apoptosis, leading to cellular resistance to DNA-damaging cancer therapies, and may increase DNA instability. 35 RAD51AP1 overexpression has also been found in intrahepatic cholangiocarcinoma, and silencing RAD51AP1 results in growth suppression in cholangiocarcinoma cells. 36 Amplification of RAD51AP1 is associated with cell immortality in ovarian cancer cells, while RAD51AP1 overexpression may account for the relatively short survival times of ovarian cancer patients 37 and breast cancer patients. 13 In addition, RAD51AP1 is associated with brain metastasis and can discriminate primary and metastatic melanoma tumors, indicating that RAD51AP1 may serve as a potential driver of melanoma metastasis. 17 Recent reviews have also deduced that high RAD51AP1 expression may be correlated with a selective growth advantage, enabling early neoplastic cells and metastatic cells to overcome replication stress. 32 , 34 , 38 This might explain why DFS in HCC patients seemed to be affected by RAD51AP1 to a greater degree than OS in our analysis.
+
+DNA replication stress induced by many cancer therapeutic agents has emerged as a significant source of genomic instability during the early stages of carcinogenesis. 38 Experimental studies have demonstrated that loss of RAD51AP1 leads to slow progression of the DNA replication fork and increased DNA replication stress. 39 , 40 During the early steps of neoplasia, the RAD51AP1 level is elevated as a consequence of the high levels of replication stress. 39 Overcoming this obstacle to cell survival by elevating RAD51AP1 expression can cause further genomic changes to occur, thereby promoting the progression of precancerous lesions into cancer. 39 That is, RAD51AP1 plays an important role in protecting against DNA replication stress. 34 , 39 Deletion of RAD51AP1 in human cells increases their sensitivity to the cytotoxic effects of DNA cross-linkers. Knockdown of RAD51AP1 expression also results in increased levels of genomic instability and reduced homology-directed repair. 8 , 9 , 39 Hence, inhibiting RAD51AP1 during the initial stages of neoplasia may provide a useful approach for targeted therapy. 39 
+
+This study has some limitations. The primary limitation is that no experiments were conducted to address the effects of RAD51AP1 on hepatoma cellular functions. Second, this is a study based on public datasets, and no follow-up data for HCC patients in our medical center were available. Third, the follow-up period of patients in TCGA dataset is relatively short. Future studies with long follow-up are essentially needed. Nonetheless, our results indicated that high RAD51AP1 contributed to an advanced tumor stage, intrahepatic metastasis, vascular invasion and AFP level elevation, and RAD51AP1 upregulation was significantly associated with OS and DFS in HCC patients. Unfortunately, current research on the relationship between RAD51AP1 and HCC development is mostly based on public databases, 20 and no well-designed, prospective, large-sample studies are available. There are no sufficient data indicating whether RAD51AP1 expression should guide treatment in the current stage. Future research should focus on the mechanisms involving RAD51AP1 in promoting cancer progression and on determining the therapeutic intervention value of targeting RAD51AP1 in HCC patients.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, sj-pdf-1-ccx-10.1177_1073274820977149 - Oncogenic Roles of RAD51AP1 in Tumor Tissues Related to Overall Survival and Disease-Free Survival in Hepatocellular Carcinoma
+File: sj-pdf-1-ccx-10.1177_1073274820977149.pdf

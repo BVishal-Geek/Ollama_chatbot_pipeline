@@ -1,0 +1,680 @@
+================================================================================
+ARTICLE TITLE: PIMREG, a Marker of Proliferation, Facilitates Aggressive Development
+of Cholangiocarcinoma Cells Partly Through Regulating Cell Cycle-Related
+Markers
+PMCID: PMC7768323
+PMID: 33356974
+KEYWORDS: fam64a, bile duct cancer, proliferation, invasion, migration
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Phosphatidylinositol binding clathrin assembly protein interacting mitotic
+regulator (PIMREG) is a protein associated with cell proliferation. Its
+aberrant expression was reported to be correlated with the development in
+multiple tumors. However, its role in cholangiocarcinoma (CAA) has not yet
+been evaluated in detail.
+
+Methods::
+Data were acquired from the public TCGA database for evaluating the
+expression pattern of PIMREG and assessing its clinical relevance as well as
+its correlation with overall survival. RBE and HUH28 cell lines were
+selected to perform loss- and gain-of-function of PIMREG assays
+respectively. Quantitative real-time PCR (RT-qPCR) and western blot analyses
+were used to measure the mRNA and protein levels of PIMREG. Cell Counting
+Kit-8, colony formation tests, and Transwell assays served to measure the
+effect of PIMREG on the proliferative, invasive and migratory capacities of
+CAA cells, appropriately. Gene set enrichment analysis (GSEA) was conducted
+to identify PIMREG associated gene set, which was further confirmed by
+western blot.
+
+Results::
+PIMREG was found to be highly expressed in CAA tissues and cell lines
+according to the public dataset and RT-qPCR analysis, and negatively related
+to the prognosis of patients with CAA. Moreover, knockdown of PIMREG
+suppressed and overexpression of PIMREG promoted the proliferation, invasion
+and migration of CAA cells. Furthermore, GSEA revealed that high PIMREG
+expression was positively associated with cell cycle signaling. And the next
+western blot analysis demonstrated that silencing PIMREG resulted in a
+reduction on the levels of p-CDK1, CCNE1, and CCNB1, whereas PIMREG
+overexpression led to an opposite result.
+
+Conclusion::
+The results suggested that PIMREG facilitates the growth, invasion and
+migration of CAA cells partly by regulating the cell cycle relative
+biomarkers, revealing that PIMREG may be a crucial molecule in the
+progression of CAA.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Cholangiocarcinoma (CAA) is an aggressive malignancy with rising morbidity and mortality, 1 which presents a poor prognosis, ranking the second most common in primary
+malignancy of the hepatobiliary system. 2 Due to the hidden location of the bile duct system, early diagnosis of CAA is
+very difficult, and most patients are diagnosed at an advanced stage and missed the
+opportunity of radical surgery. 3 Thus, early diagnosis is crucial to improve the prognosis of CAA. Moreover,
+it is verified that CAA is associated with cholelithiasis, chronic inflammation of
+the biliary tract, and cholechidrosis, but the specific etiology and pathogenesis
+are still unknown. 4 Some molecular markers were demonstrated to be correlated with poor prognosis
+and tumor progression of CAA, such as mucin antigen MUC1, MUC5 AC, fascin, and
+epidermal growth factor receptor (EGFR), unfortunately, most of them are not
+routinely used in clinical. 5 - 8 That is to say, at present, there is no definitive prognostic marker for CAA
+in clinical. Therefore, it is necessary to identify new biomarkers for early
+detection of CCA and improvement of prognosis.
+
+Phosphatidylinositol binding clathrin assembly protein interacting mitotic regulator
+(PIMREG), also known as CATS, RCS1, and FAM64A, was discovered in screening proteins
+that interact with lymphoid myeloid clathrin assembly proteins in 2006. 9 Multiple northern blot analyses showed that PIMREG is predominantly expressed
+in thymus, spleen and colon. 9 PIMREG is known to control the metaphase-to-anaphase transition during the
+cell division and can be considered as a marker for proliferation, suggesting a role
+in cancer cell growth. 10 Furthermore, it has been reported that the protein levels of PIMREG are
+highly expressed in lymphoma, leukemia, and other cancer cell, but not in
+non-proliferating T-cells or human peripheral blood lymphocytes. 11 Moreover, it was demonstrated that PIMREG could promote breast cancer
+aggressiveness by activating NF-κB signaling, illustrating that it may be a valuable
+prognosticator for breast cancer. 12 Besides, Jiao et al reported that the high expression of PIMREG can be seen
+as an independent risk factor for the worse prognosis in pancreatic cancer. 13 However, the potential role of PIMREG in the prognosis and development of CAA
+has not yet been evaluated in detail.
+
+In current report, we evaluated the expression of PIMREG in CAA and assessed the
+correlation between PIMREG expression and patients’ overall survival as well as with
+clinical characteristics. Furthermore, we performed a series of in
+vitro experiments to assess the effect of PIMREG on the cell
+proliferation, invasion and migration in CAA, and explored the potential mechanism.
+Our results suggested that PIMREG promoted the CAA cell proliferation, invasion and
+migration partly through regulating the cell cycle-related markers.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The RNA transcriptome sequencing data for CAA and the corresponding clinical
+information were retrieved and downloaded from The Cancer Genome Atlas (TCGA, https://www.cancer.gov/tcga ) data portal. And a total of 45
+samples were enrolled in present study, including 36 CAA samples and 9 adjacent
+normal samples. 14 The RNA-Seq data of CAA were analyzed on the Illumina HiSeq miRNA Seq
+platform. Subsequently, identification of dysregulated genes associated with CAA
+was carried out using the R language package “edgeR” with thresholds of | log 2
+(fold change [FC]) |  ≥  2 and p-value <0.01. 15 
+
+A total of 30 CAA samples with complete clinical data in the TCGA cohort were
+divided into high- and low-groups on the basis of the median PIMREG expression.
+The Kaplan-Meier methods were used to assess the correlation between PIMREG and
+overall survival, with a log-rank method for comparison. Relationships between
+PIMREG and clinical characteristics were evaluated by chi-square tests. Gene Set
+Enrichment Analysis (GSEA) was conducted using GSEA 3.0 ( http://www.broadinstitute.org/gsea/ ) to identify PIMREG
+associated gene sets.
+
+The human CCA cell lines HuCCT1 and RBE were purchased from Shanghai Cell Bank,
+Chinese academy of medical sciences. The human CAA cell line HUH28 and human
+extrahepatic biliary epithelial cells (HEBEpics) were obtained from American
+ScienCell Research Laboratories. All the cells were incubated in Dulbecco’s
+Modified Eagle Medium (DMEM; Gibco, Grand Island, NY, USA) containing 10% fetal
+bovine serum (FBS) and antibiotics, and cultured in a 37°C incubator filled with
+5% CO 2 . Small interference (si) RNAs against PIMREG (si-PIMREG#1:
+5’-AGTGCTAGCATCAGATATTTGCTC-3’; si-PIMREG#2: 5’-TGACCTTGAGCCTTCTATTTGCTC-3’) and
+an unspecific scrambled siRNA (si-con: 5’-GATCTTGTAGAACTTGTACCTAGT-3’) were
+transfected into indicated cells to implement loss-of-function of PIMREG assays.
+The plasmid pcDNA3.1-PIMREG vector and pcDNA3.1 empty vector were transfected
+into indicated cells to perform gain-of-function of PIMREG assays. All the
+si-RNAs and plasmids were acquired form GeneChem Corporation (Shanghai, China).
+The Lipofectamine 2000 (Invitrogen, Carlsbad, CA, USA) was used to perform the
+transfection process following the manufacturer’s instructions. Cells were
+collected for subsequent experiments 48 hours after transfection. All cells used
+in this report were taken in logarithmic phase.
+
+Total RNA was extracted from cultured RBE, HuCCT1 and HUH28 cells using Trizol
+reagent (Life Technologies, Grand Island, NY, USA) according to the
+manufacturer’s instructions. RNA was reverse transcribed to cDNA using a Reverse
+Transcription kit (Applied Biosystems, Foster City, CA, USA). The cDNA was
+amplified using SYBR Premix Ex Taq (TaKaRa, Dalian, China). Real Time PCR was
+performed by an Applied Biosystem 7500 Thermocycler (Thermo Fisher Scientific,
+Carlsbad, USA). GAPDH served as an internal reference to normalize the mRNA
+level of PIMREG. The primer sequences are listed as below: PIMREG forward,
+5’-TACCAGGGACTCGGAGGAAG-3’ and reverse, 5’-CTTCCTCCGAGTCCCTGGTA-3’; GAPDH
+forward, 5’-CCACCACACTGAATCTCCCC-3’ and reverse, 5’-AGTGATGGCATGGACTGTGG-3’. The
+themocycling conditions were: 5 minutes pre-treatment at 95°C, followed by 40
+cycles at 95°C for 30 seconds, 60°C for 45 seconds and a final extension at 72°C
+for 30 minutes. Data were quantified using the comparative quantification cycle
+(Cq) method (2 −ΔΔCq ).
+
+RIPA lysis buffer was used to prepare total lysate. A bicinchoninic acid (BCA)
+method (Thermo Fisher Scientific) was used to measure protein concentration.
+Equal amount of protein samples (20 μg) were added to electrophoresis chambers
+and subjected to 10% sodium dodecyl sulfate-polyacrylamide gel electrophoresis,
+and then transferred onto polyvinylidene fluoride membranes. Subsequently, these
+membranes were blocked with 5% skimmed milk for an hour at room temperature, and
+incubated with antibodies against PIMREG (1:1000, ab118102, Abcam, Cambridge,
+UK), CDK1 (1:1000, AF0111, Beyotime, Nantong, Jiangsu, China), phosphor (p)-CDK1
+(Thr14, 1:1000, AF5758, Beyotime), CCNE1 (1:1000, AF6384, Beyotime), CCNB1
+(1:1000, AF6627, Beyotime) and GAPDH (1:1000, AF1186, Beyotime) at 4°C for 24
+hours. Followed by washing in Tris-buffered saline with 0.1% Tween-20 thrice,
+the membranes were subjected to the corresponding horseradish
+peroxidase-conjugated secondary antibodies and incubated for another 1 hour.
+Signals were visualized by the enhanced chemiluminescence detection kit
+(Beyotime), and images of the blots were analyzed using the ImageJ software
+(NIH, Bethesda, MD, USA).
+
+The cell viability was determined using the Cell Counting Kit-8 reagent
+(Beyotime). The transfected cells at a density of 1000 cells per well were
+plated into 96-well plates and incubated with complete medium. The cell
+viability was measured every 24 hour. Before detecting, 10 µl of CCK-8 solution
+and 100 µl of DMEM were supplied to each well and incubated for another 1.5
+hours. Finally, the absorbance was measured by a microplate reader at 450
+nm.
+
+RBE and HUH28 cells (400 cells per well) were plated in 6-well plates which
+contain 5 ml pre-heated medium after transfection, and then cultured in complete
+medium at 37°C for 12 days. After fixation with 4% paraformaldehyde for 30
+minutes, the colonies were stained with 0.1% crystal violet. Following
+air-dried, the colonies were photographed and counted.
+
+Cell invasive and migratory capacities were determined using 24-well Transwell
+chambers with or without 100 µl Matrigel (BD Biosciences) respectively. After
+transfection for 48 hours, 1×10 5 cells (migration assay
+5×10 3 cells) were added to the upper chambers and the lower
+chambers were filled with 500 µl of complete medium. Following incubation for 24
+hours, cells passed through the coated membrane to the lower surface, where
+cells were washed with phosphate buffered saline twice, fixed with 4%
+paraformaldehyde and stained with 0.1% crystal violet solution for 30 minutes.
+Five images of different fields were captured, and the number of migrated or
+invaded cells was counted under a microscope (×100).
+
+Student’s t-test was performed to evaluate the significant difference between 2
+groups. Differences among multiple groups were analyzed using 1-way analysis of
+variance followed by a Tukey’s post hoc tests. Significant differences were
+determined using SPSS 22.0 software (IBM SPSS, Armonk, NY, USA) and GraphPad
+Prism 6.0 software (San Diegl, CA, USA). P < 0.05 was
+considered to indicate a statistically significant difference. All experiments
+were repeated 3 times and presented as the mean ± standard deviation.
+
+
+Bioinformatics Analysis Methods
+
+The RNA transcriptome sequencing data for CAA and the corresponding clinical
+information were retrieved and downloaded from The Cancer Genome Atlas (TCGA, https://www.cancer.gov/tcga ) data portal. And a total of 45
+samples were enrolled in present study, including 36 CAA samples and 9 adjacent
+normal samples. 14 The RNA-Seq data of CAA were analyzed on the Illumina HiSeq miRNA Seq
+platform. Subsequently, identification of dysregulated genes associated with CAA
+was carried out using the R language package “edgeR” with thresholds of | log 2
+(fold change [FC]) |  ≥  2 and p-value <0.01. 15 
+
+A total of 30 CAA samples with complete clinical data in the TCGA cohort were
+divided into high- and low-groups on the basis of the median PIMREG expression.
+The Kaplan-Meier methods were used to assess the correlation between PIMREG and
+overall survival, with a log-rank method for comparison. Relationships between
+PIMREG and clinical characteristics were evaluated by chi-square tests. Gene Set
+Enrichment Analysis (GSEA) was conducted using GSEA 3.0 ( http://www.broadinstitute.org/gsea/ ) to identify PIMREG
+associated gene sets.
+
+
+Cell Culture and Treatment
+
+The human CCA cell lines HuCCT1 and RBE were purchased from Shanghai Cell Bank,
+Chinese academy of medical sciences. The human CAA cell line HUH28 and human
+extrahepatic biliary epithelial cells (HEBEpics) were obtained from American
+ScienCell Research Laboratories. All the cells were incubated in Dulbecco’s
+Modified Eagle Medium (DMEM; Gibco, Grand Island, NY, USA) containing 10% fetal
+bovine serum (FBS) and antibiotics, and cultured in a 37°C incubator filled with
+5% CO 2 . Small interference (si) RNAs against PIMREG (si-PIMREG#1:
+5’-AGTGCTAGCATCAGATATTTGCTC-3’; si-PIMREG#2: 5’-TGACCTTGAGCCTTCTATTTGCTC-3’) and
+an unspecific scrambled siRNA (si-con: 5’-GATCTTGTAGAACTTGTACCTAGT-3’) were
+transfected into indicated cells to implement loss-of-function of PIMREG assays.
+The plasmid pcDNA3.1-PIMREG vector and pcDNA3.1 empty vector were transfected
+into indicated cells to perform gain-of-function of PIMREG assays. All the
+si-RNAs and plasmids were acquired form GeneChem Corporation (Shanghai, China).
+The Lipofectamine 2000 (Invitrogen, Carlsbad, CA, USA) was used to perform the
+transfection process following the manufacturer’s instructions. Cells were
+collected for subsequent experiments 48 hours after transfection. All cells used
+in this report were taken in logarithmic phase.
+
+
+Quantitative Real-Time PCR (RT-qPCR)
+
+Total RNA was extracted from cultured RBE, HuCCT1 and HUH28 cells using Trizol
+reagent (Life Technologies, Grand Island, NY, USA) according to the
+manufacturer’s instructions. RNA was reverse transcribed to cDNA using a Reverse
+Transcription kit (Applied Biosystems, Foster City, CA, USA). The cDNA was
+amplified using SYBR Premix Ex Taq (TaKaRa, Dalian, China). Real Time PCR was
+performed by an Applied Biosystem 7500 Thermocycler (Thermo Fisher Scientific,
+Carlsbad, USA). GAPDH served as an internal reference to normalize the mRNA
+level of PIMREG. The primer sequences are listed as below: PIMREG forward,
+5’-TACCAGGGACTCGGAGGAAG-3’ and reverse, 5’-CTTCCTCCGAGTCCCTGGTA-3’; GAPDH
+forward, 5’-CCACCACACTGAATCTCCCC-3’ and reverse, 5’-AGTGATGGCATGGACTGTGG-3’. The
+themocycling conditions were: 5 minutes pre-treatment at 95°C, followed by 40
+cycles at 95°C for 30 seconds, 60°C for 45 seconds and a final extension at 72°C
+for 30 minutes. Data were quantified using the comparative quantification cycle
+(Cq) method (2 −ΔΔCq ).
+
+
+Western Blot
+
+RIPA lysis buffer was used to prepare total lysate. A bicinchoninic acid (BCA)
+method (Thermo Fisher Scientific) was used to measure protein concentration.
+Equal amount of protein samples (20 μg) were added to electrophoresis chambers
+and subjected to 10% sodium dodecyl sulfate-polyacrylamide gel electrophoresis,
+and then transferred onto polyvinylidene fluoride membranes. Subsequently, these
+membranes were blocked with 5% skimmed milk for an hour at room temperature, and
+incubated with antibodies against PIMREG (1:1000, ab118102, Abcam, Cambridge,
+UK), CDK1 (1:1000, AF0111, Beyotime, Nantong, Jiangsu, China), phosphor (p)-CDK1
+(Thr14, 1:1000, AF5758, Beyotime), CCNE1 (1:1000, AF6384, Beyotime), CCNB1
+(1:1000, AF6627, Beyotime) and GAPDH (1:1000, AF1186, Beyotime) at 4°C for 24
+hours. Followed by washing in Tris-buffered saline with 0.1% Tween-20 thrice,
+the membranes were subjected to the corresponding horseradish
+peroxidase-conjugated secondary antibodies and incubated for another 1 hour.
+Signals were visualized by the enhanced chemiluminescence detection kit
+(Beyotime), and images of the blots were analyzed using the ImageJ software
+(NIH, Bethesda, MD, USA).
+
+
+Detection of Cell Viability
+
+The cell viability was determined using the Cell Counting Kit-8 reagent
+(Beyotime). The transfected cells at a density of 1000 cells per well were
+plated into 96-well plates and incubated with complete medium. The cell
+viability was measured every 24 hour. Before detecting, 10 µl of CCK-8 solution
+and 100 µl of DMEM were supplied to each well and incubated for another 1.5
+hours. Finally, the absorbance was measured by a microplate reader at 450
+nm.
+
+
+Colony Formation Assay
+
+RBE and HUH28 cells (400 cells per well) were plated in 6-well plates which
+contain 5 ml pre-heated medium after transfection, and then cultured in complete
+medium at 37°C for 12 days. After fixation with 4% paraformaldehyde for 30
+minutes, the colonies were stained with 0.1% crystal violet. Following
+air-dried, the colonies were photographed and counted.
+
+
+Transwell Assay
+
+Cell invasive and migratory capacities were determined using 24-well Transwell
+chambers with or without 100 µl Matrigel (BD Biosciences) respectively. After
+transfection for 48 hours, 1×10 5 cells (migration assay
+5×10 3 cells) were added to the upper chambers and the lower
+chambers were filled with 500 µl of complete medium. Following incubation for 24
+hours, cells passed through the coated membrane to the lower surface, where
+cells were washed with phosphate buffered saline twice, fixed with 4%
+paraformaldehyde and stained with 0.1% crystal violet solution for 30 minutes.
+Five images of different fields were captured, and the number of migrated or
+invaded cells was counted under a microscope (×100).
+
+
+Statistical Analysis
+
+Student’s t-test was performed to evaluate the significant difference between 2
+groups. Differences among multiple groups were analyzed using 1-way analysis of
+variance followed by a Tukey’s post hoc tests. Significant differences were
+determined using SPSS 22.0 software (IBM SPSS, Armonk, NY, USA) and GraphPad
+Prism 6.0 software (San Diegl, CA, USA). P < 0.05 was
+considered to indicate a statistically significant difference. All experiments
+were repeated 3 times and presented as the mean ± standard deviation.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+By analyzing a published RNA-Seq dataset from TCGA database, we observed that
+PIMREG was notably upregulated in CAA tissues (Tumor, n = 36), compared to
+adjacent normal tissues (Normal, n = 9; p < 0.01, Figure 1A ). To help
+understand the role of PIMREG in CAA, RT-qPCR was performed in 3 CAA cell lines
+and a normal cell line HEBEpics. Similar results were observed in CAA cell lines
+by contrast with HEBEpics; the mRNA level of PIMREG was significantly elevated
+in the HUH28, HuCCT1, and RBE cell lines ( p < 0.01, Figure 1B ). As PIMREG was
+highly expressed in CAA tissues and cell lines, PIMREG seems to have a positive
+function on the progression of CAA.
+
+PIMREG was upregulated in CAA and led to an unfavorable overall survival.
+(A) The expression of PIMREG in CAA tissues (Tumor, n = 36) compared to
+adjacent tissues (Normal, n = 9), as measured using a published RNA-Seq
+dataset from TCGA database. (B) RT-qPCR analysis of PIMREG expression in
+3 CAA cell lines (HuCCT1, RBE, and HUH28) compared with normal
+extrahepatic biliary epithelial cell line (HEBEpics).
+** p < 0.01 vs. HEBEpics. (C) Kaplan-Meier curves
+of CAA patients with high- and low-expression of PIMREG (n = 30; p = 0.037; log-rank test). CAA,
+cholangiocarcinoma.
+
+To further explore the clinical relevance of PIMREG and its prognostic values in
+CAA, the clinical data obtained from TCGA database were divided into high- and
+low-expression of PIMREG groups on the basis of the median expression value.
+Chi-square analysis revealed that PIMREG expression was remarkably related to
+grade ( p = 0.025, Table 1 ). However, no obvious
+correlation was identified between PIMREG expression with age, gender,
+pathologic-stage, pathologic-tumor (T), pathologic-node (N), or
+pathologic-metastasis (M) ( p > 0.05). In addition,
+Kaplan–Meier methods indicated that patients with high PIMREG expression
+presented a poorer overall survival rate in comparison with the low PIMREG
+expression group ( p = 0.037, Figure 1C ). These outcomes suggested that
+targeting PIMREG may play an effective role in the prognosis of CAA.
+
+Relationship Between PIMREG Level and Clinical Features in CAA Based on
+the Public RNA-Seq Dataset From TCGA Database.
+
+* p < 0.05.
+
+Before evaluating the effect of PIMREG on the CAA cells proliferation, the
+transfection efficiency was determined by RT-qPCR and western blot. After
+transfection with si-PIMREG#1 and si-PIMREG#2 in RBE and HUH28 cells, the mRNA
+expression of PIMREG was significantly reduced compared with relative si-con
+group (p < 0.01, Figure
+2A ), and the further analysis of PIMREG protein expression in RBE
+cells showed the same trends (p < 0.01, Figure 2B ). On the other hand, the mRNA
+expression of PIMREG was elevated in pcDNA3.1-PIMREG transfected RBE and HUH28
+cells compared with pcDNA3.1 empty vector group (p < 0.01, Figure 2C ). Western blot
+analysis in HUH28 cells also showed that PIMREG protein expression was increased
+after overexpression of PIMREG (p < 0.01, Figure 2D ).
+
+Detection of knockdown and overexpression of PIMREG efficiency. RT-qPCR
+(A) and western blot (B) analyses of PIMREG expression after
+transfection with si-con, si-PIMREG#1, and si-PIMREG#2 in indicated
+cells. ** p < 0.01 vs. si-con. RT-qPCR (C) and
+western blot (D) analysis of PIMREG expression after transfection with
+pcDNA3.1 empty vector and pcDNA3.1-PIMREG in indicated cells.
+** p < 0.01 vs. vector.
+
+Cell viability was determined by a CCK-8 assay in RBE and HUH28 cells at 24 h, 48
+h, and 72 h after transfection. After downregulation of PIMREG, the RBE and
+HUH28 cells appeared a significant reduction on the optical density (OD) values
+at 48 h and 72 h points ( p < 0.01, Figure 3A and B ). Oppositely, these 2 cells presented a
+higher cell proliferative capacity when compared pcDNA3.1-PIMREG group with
+pcDNA3.1 empty vector group. ( p < 0.01, Figure 3C and D ).
+
+The effect of PIMREG on cell growth was further verified by colony formation
+tests. Results shown in Figure
+3C revealed that colonies were remarkably diminished in RBE cells
+transfected with si-PIMREG#1 compared to cells transfected with scrambled RNA
+( p < 0.01, Figure 3E ). On the other hand, we
+observed an enhancement in the colonization ability of HUH28 cells relative to
+the pcDNA3.1 empty vector group after transfection of pcDNA3.1-PIMREG
+( p < 0.01, Figure 3F ). All these results illustrated
+that PIMREG plays an acceerative role on the cell growth in CAA.
+
+PIMREG promoted CAA cells proliferation in vitro . CCK-8
+assays were performed to detect the RBE (A, C) and HUH28 (B, D) cells
+viability after PIMREG knockdown (A-B) or overexpression (C-D). assays
+were performed to detect the cells colony forming ability after PIMREG
+knockdown (E) or overexpression (F) . ** p < 0.01 vs. si-con or vector group.
+
+Cell invasion and migration are critical steps in cancer metastasis, which are
+the major causes of death in patients with CAA. To determine the effect of
+PIMREG on the cells invasiveness and motility, Transwell methods were conducted.
+PIMREG-depleted RBE cells presented a significant decrease in both invasive and
+migratory abilities in comparison with si-con group ( p <
+0.01, Figure 4A ).
+Conversely, overexpression of PIMREG showed an opposite effect, as we observed
+that the invaded and migrated HUH28 cells were more 4 than vector group
+( p < 0.01, Figure B ). These outcomes clearly
+indicated that PIMREG might serve as a considerably promoting role on the
+movement of CAA cells.
+
+PIMREG facilitated CAA cells invasion and migration in
+vitro . (A) Representative micrographs (left) and the number
+of invaded and migrated RBE cells (right) were measured by Transwell
+assays after downregulation of PIMREG. (B) Representative micrographs
+(left) and the number of invaded and migrated HUH28 cells (right) were
+measured by Transwell assays after overexpression of PIMREG.
+** p < 0.01 vs. si-con group or vector group.
+
+To explore how PIMREG affects the proliferation of CAA patients, GSEA was
+conducted in TCGA, and reveled that a significantly enriched gene set of
+“KEGG_CELL_CYCLE” was enriched in patients with high PIMREG expression group
+( p < 0.01, Figure 5A ). Then we further conducted
+western blot to determine the effect of gain- and loss-of-function PIMREG on the
+cell cycle biomarkers CDK1, p-CDK1, CCNE1, and CCNB1. As shown in Figure 5B to D , the expression of
+PIMREG were observed to be positively correlated with the level of p-CDK1,
+CCNE1, and CCNB1, as we found that PIMREG knockdown resulted in a significant
+decrease on the protein levels of p-CDK1, CCNE1, and CCNB1, whereas PIMREG
+overexpression led to a remarkable increase on the expression of these markers
+( p < 0.01). While no significant change in CDK1
+expression was observed after altering the expression of PIMREG. So we inferred
+that PIMREG play a cancerogenic role in CAA partly through regulating cell cycle
+biomarkers.
+
+Effects of PIMREG on cell cycle-related markers. (A) Enrichment plot of
+KEGG_CELL_CYCLE between high and low risk groups by GSEA using the TCGA
+dataset. (B-D) The effects of PIMREG knockdown and overexpression on the
+protein expression of CDK1, p-CDK1, CCNE1, CCNB1 were evaluated by
+western blot. (B) Representative protein bands. (C-D) Quantification of
+B. ** p < 0.01 vs. si-con group or vector group.
+GSEA, gene set enrichment analysis.
+
+
+PIMREG Is Significantly Upregulated in CAA
+
+By analyzing a published RNA-Seq dataset from TCGA database, we observed that
+PIMREG was notably upregulated in CAA tissues (Tumor, n = 36), compared to
+adjacent normal tissues (Normal, n = 9; p < 0.01, Figure 1A ). To help
+understand the role of PIMREG in CAA, RT-qPCR was performed in 3 CAA cell lines
+and a normal cell line HEBEpics. Similar results were observed in CAA cell lines
+by contrast with HEBEpics; the mRNA level of PIMREG was significantly elevated
+in the HUH28, HuCCT1, and RBE cell lines ( p < 0.01, Figure 1B ). As PIMREG was
+highly expressed in CAA tissues and cell lines, PIMREG seems to have a positive
+function on the progression of CAA.
+
+PIMREG was upregulated in CAA and led to an unfavorable overall survival.
+(A) The expression of PIMREG in CAA tissues (Tumor, n = 36) compared to
+adjacent tissues (Normal, n = 9), as measured using a published RNA-Seq
+dataset from TCGA database. (B) RT-qPCR analysis of PIMREG expression in
+3 CAA cell lines (HuCCT1, RBE, and HUH28) compared with normal
+extrahepatic biliary epithelial cell line (HEBEpics).
+** p < 0.01 vs. HEBEpics. (C) Kaplan-Meier curves
+of CAA patients with high- and low-expression of PIMREG (n = 30; p = 0.037; log-rank test). CAA,
+cholangiocarcinoma.
+
+
+High Expression of PIMREG Results in Poor Survival Rate of CAA
+Patients
+
+To further explore the clinical relevance of PIMREG and its prognostic values in
+CAA, the clinical data obtained from TCGA database were divided into high- and
+low-expression of PIMREG groups on the basis of the median expression value.
+Chi-square analysis revealed that PIMREG expression was remarkably related to
+grade ( p = 0.025, Table 1 ). However, no obvious
+correlation was identified between PIMREG expression with age, gender,
+pathologic-stage, pathologic-tumor (T), pathologic-node (N), or
+pathologic-metastasis (M) ( p > 0.05). In addition,
+Kaplan–Meier methods indicated that patients with high PIMREG expression
+presented a poorer overall survival rate in comparison with the low PIMREG
+expression group ( p = 0.037, Figure 1C ). These outcomes suggested that
+targeting PIMREG may play an effective role in the prognosis of CAA.
+
+Relationship Between PIMREG Level and Clinical Features in CAA Based on
+the Public RNA-Seq Dataset From TCGA Database.
+
+* p < 0.05.
+
+
+PIMREG Promotes CAA Cells Proliferation 
+
+Before evaluating the effect of PIMREG on the CAA cells proliferation, the
+transfection efficiency was determined by RT-qPCR and western blot. After
+transfection with si-PIMREG#1 and si-PIMREG#2 in RBE and HUH28 cells, the mRNA
+expression of PIMREG was significantly reduced compared with relative si-con
+group (p < 0.01, Figure
+2A ), and the further analysis of PIMREG protein expression in RBE
+cells showed the same trends (p < 0.01, Figure 2B ). On the other hand, the mRNA
+expression of PIMREG was elevated in pcDNA3.1-PIMREG transfected RBE and HUH28
+cells compared with pcDNA3.1 empty vector group (p < 0.01, Figure 2C ). Western blot
+analysis in HUH28 cells also showed that PIMREG protein expression was increased
+after overexpression of PIMREG (p < 0.01, Figure 2D ).
+
+Detection of knockdown and overexpression of PIMREG efficiency. RT-qPCR
+(A) and western blot (B) analyses of PIMREG expression after
+transfection with si-con, si-PIMREG#1, and si-PIMREG#2 in indicated
+cells. ** p < 0.01 vs. si-con. RT-qPCR (C) and
+western blot (D) analysis of PIMREG expression after transfection with
+pcDNA3.1 empty vector and pcDNA3.1-PIMREG in indicated cells.
+** p < 0.01 vs. vector.
+
+Cell viability was determined by a CCK-8 assay in RBE and HUH28 cells at 24 h, 48
+h, and 72 h after transfection. After downregulation of PIMREG, the RBE and
+HUH28 cells appeared a significant reduction on the optical density (OD) values
+at 48 h and 72 h points ( p < 0.01, Figure 3A and B ). Oppositely, these 2 cells presented a
+higher cell proliferative capacity when compared pcDNA3.1-PIMREG group with
+pcDNA3.1 empty vector group. ( p < 0.01, Figure 3C and D ).
+
+The effect of PIMREG on cell growth was further verified by colony formation
+tests. Results shown in Figure
+3C revealed that colonies were remarkably diminished in RBE cells
+transfected with si-PIMREG#1 compared to cells transfected with scrambled RNA
+( p < 0.01, Figure 3E ). On the other hand, we
+observed an enhancement in the colonization ability of HUH28 cells relative to
+the pcDNA3.1 empty vector group after transfection of pcDNA3.1-PIMREG
+( p < 0.01, Figure 3F ). All these results illustrated
+that PIMREG plays an acceerative role on the cell growth in CAA.
+
+PIMREG promoted CAA cells proliferation in vitro . CCK-8
+assays were performed to detect the RBE (A, C) and HUH28 (B, D) cells
+viability after PIMREG knockdown (A-B) or overexpression (C-D). assays
+were performed to detect the cells colony forming ability after PIMREG
+knockdown (E) or overexpression (F) . ** p < 0.01 vs. si-con or vector group.
+
+
+PIMREG Promotes CAA Cells Invasion and Migration
+
+Cell invasion and migration are critical steps in cancer metastasis, which are
+the major causes of death in patients with CAA. To determine the effect of
+PIMREG on the cells invasiveness and motility, Transwell methods were conducted.
+PIMREG-depleted RBE cells presented a significant decrease in both invasive and
+migratory abilities in comparison with si-con group ( p <
+0.01, Figure 4A ).
+Conversely, overexpression of PIMREG showed an opposite effect, as we observed
+that the invaded and migrated HUH28 cells were more 4 than vector group
+( p < 0.01, Figure B ). These outcomes clearly
+indicated that PIMREG might serve as a considerably promoting role on the
+movement of CAA cells.
+
+PIMREG facilitated CAA cells invasion and migration in
+vitro . (A) Representative micrographs (left) and the number
+of invaded and migrated RBE cells (right) were measured by Transwell
+assays after downregulation of PIMREG. (B) Representative micrographs
+(left) and the number of invaded and migrated HUH28 cells (right) were
+measured by Transwell assays after overexpression of PIMREG.
+** p < 0.01 vs. si-con group or vector group.
+
+
+PIMREG Has a Positive Correlation With the Proliferation-Related
+Molecules
+
+To explore how PIMREG affects the proliferation of CAA patients, GSEA was
+conducted in TCGA, and reveled that a significantly enriched gene set of
+“KEGG_CELL_CYCLE” was enriched in patients with high PIMREG expression group
+( p < 0.01, Figure 5A ). Then we further conducted
+western blot to determine the effect of gain- and loss-of-function PIMREG on the
+cell cycle biomarkers CDK1, p-CDK1, CCNE1, and CCNB1. As shown in Figure 5B to D , the expression of
+PIMREG were observed to be positively correlated with the level of p-CDK1,
+CCNE1, and CCNB1, as we found that PIMREG knockdown resulted in a significant
+decrease on the protein levels of p-CDK1, CCNE1, and CCNB1, whereas PIMREG
+overexpression led to a remarkable increase on the expression of these markers
+( p < 0.01). While no significant change in CDK1
+expression was observed after altering the expression of PIMREG. So we inferred
+that PIMREG play a cancerogenic role in CAA partly through regulating cell cycle
+biomarkers.
+
+Effects of PIMREG on cell cycle-related markers. (A) Enrichment plot of
+KEGG_CELL_CYCLE between high and low risk groups by GSEA using the TCGA
+dataset. (B-D) The effects of PIMREG knockdown and overexpression on the
+protein expression of CDK1, p-CDK1, CCNE1, CCNB1 were evaluated by
+western blot. (B) Representative protein bands. (C-D) Quantification of
+B. ** p < 0.01 vs. si-con group or vector group.
+GSEA, gene set enrichment analysis.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+The present study aimed to evaluate the role of PIMREG on the CAA progression and the
+potential mechanism. The data revealed that PIMREG was significantly upregulated in
+CAA and resulted in a worse overall survival in CAA patients. Moreover, PIMREG
+expression was positively correlated with the phenotypic deterioration, manifested
+in promoting proliferation, invasion and migration of CAA cells. Furthermore, the
+results also demonstrated that PIMREG promotes the progression of CAA possibly
+through regulating the cell cycle-related markers. This study suggested that PIMREG
+may play a carcinogenic role in the progression of CAA and may be a potential target
+for CAA treatment in the future.
+
+Cancer is a disease that involves dynamic changes in the genome. 16 Dysregulation of pro-cancer and anti-cancer factors can lead to uncontrolled
+cell growth, and plays a vital role in the development of tumors. 17 Through pan-cancer analysis, Hu et al identified 92 potential pan-cancer
+genes, including PIMREG, that were consistently upregulated across various tumors,
+and showed that high PIMREG expression led to a poorer survival rate in CAA,
+adrenocortical cancer, lung adenocarcinoma, ovarian cancer, pancreatic cancer, etc. 18 A recent study also demonstrates that PIMREG is significantly upregulated in
+clear cell renal cell carcinoma and correlated with overall survival and
+recurrence-free survival. 19 In addition, it was well clarified that PIMREG is upregulated in
+triple-negative breast cancer, and its high expression is related to poor prognosis
+of breast cancer. 20 In agreement with the above results, in our work, we also found that PIMREG
+was highly expressed in CAA tissues and cell lines based on TCGA database and in vitro experiments. Moreover, we observed that high PIMREG
+expression was associated with worse overall survival rate in CAA patients.
+
+CAA is a highly aggressive and malignant tumor. It is divided into intrahepatic CAA
+and extrahepatic CAA according to the location of tumor, and the latter is
+relatively common. 21 Extrahepatic CAA is prone to invade intrahepatic bile duct and liver as well
+as peripheral tissue lymph nodes, which is the main factor leading to poor prognosis
+of patients. 22 Since PIMREG is significantly elevated in CAA, we wonder whether the high
+expression of PIMREG is related to the high malignant phenotype of CAA. Functional
+experiments demonstrated that PIMREG-depleted cells showed a lower capacity for
+proliferation, colony formation, invasion and migration, while overexpression of
+PIMREG could significantly enhance the cells growth, invasion and migration in CAA.
+A previous report also clarifies that PIMREG is involved in proliferation and
+metastasis in breast cancer, as with that silencing PIMREG suppressed the cell
+proliferation and migration, 23 while PIMREG overexpression promoted cell proliferation and migration, 24 which were consistent with our results. Besides, PIMREG can be considered as
+an indispensable molecular for fetal cardiomyocytes proliferation at the late
+embryonic stage. 25 In leukemia cell line, lentivirus-mediated PIMREG silencing also leads to
+reduced cell growth, cell cycle changes, and lower migratory capacity. 26 All these findings led to the conclusion that PIMREG may play a crucial role
+in the malignant phenotype of CAA.
+
+PIMREG is considered as a cell cycle promoter located in the nucleus of rapidly
+proliferating cells, 26 and its protein level is cell cycle-dependent. 11 , 27 It was reported that PIMREG is essential for fetal cardiomyocytes
+proliferation, and its optimum expression and degradation are both required for the
+cell cycle to progress. 25 Coincidentally, by GSEA on the basis of mRNA expression data from TCGA, we
+also observed that high PIMREG expression was positively associated with cell cycle.
+Moreover, an immunohistochemical analysis of CAA tissue indicated that the
+upregulation of cell cycle relative makers includes p-CDK1, CCNB1, and CCNE1 in
+carcinoma cells. 28 CDK1 is a major regulator of cell cycle in all eukaryotes, with an estimated
+8-13% of proteome phosphorylated. 29 CCNB1 controls the G2-M cell cycle transition, and its elevation causes
+premature entry into mitosis, abnormal cell proliferation, and neoplastic transformation. 30 High cyclin E1 expression causes accelerated G1/S phase, prolonged S phase,
+and increased chromosomal instability. 31 For in-depth investigating the underlying mechanism, we conducted western
+blot to determine the changes of these markers after altering the expression of
+PIMREG, and found that PIMREG was positively correlated with the protein levels of
+p-CDK1, CCNB1, and CCNE1, whereas no significant change was observed of the protein
+level of CDK1 when altering the expression of PIMREG. In summary, we infer that
+PIMREG might facilitate the growth of CAA cells through regulating cell
+cycle-related markers.
+
+Taken together, the present study demonstrated that PIMREG is upregulated in CAA and
+related to the unfavorable survival of patients. To the best of our knowledge, this
+is for the first time illustrated that PIMREG significantly facilitates cell growth,
+invasion and migration partly by modulating the cell cycle-related biomarkers. These
+results supported the carcinogenic role of PIMREG on the progression of CAA and
+provided a potential target for CAA treatment in the future. However, the absence of in vivo data is a limitation of the present study. Further
+study on subcutaneous tumor formation in nude mice after PIMREG knockdown will
+provide better support for the results of present study, which is required for
+future studies.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

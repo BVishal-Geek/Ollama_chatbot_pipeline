@@ -1,0 +1,861 @@
+================================================================================
+ARTICLE TITLE: MFAP2 Promotes the Proliferation of Cancer Cells and Is Associated
+With a Poor Prognosis in Hepatocellular Carcinoma
+PMCID: PMC7724263
+PMID: 33280519
+KEYWORDS: mfap2, hepatocellular carcinoma, prognosis, proliferation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Backgrounds::
+Microfibril-associated protein 2 (MFAP2) is an extracellular matrix protein
+that regulates the function of microfibrils by interacting with fibrillin.
+MFAP2 has been reported to play an important role in metabolic diseases and
+has been shown to be significantly overexpressed in head and neck squamous
+cell carcinoma and Hepatocellular carcinoma (HCC). However, the molecular
+function and prognostic value of MFAP2 have never been reported in HCC or
+other tumors.
+
+Methods::
+In the present study, expression characteristics of MFAP2 in HCC, its
+influence on the development of HCC, as well as its function and potential
+mechanism in HCC were verified by Quantitative reverse
+transcription-polymerase chain reaction, bioinformatics data mining and in
+vitro cell experiments.
+
+Results::
+MFAP2 was prominently high-expressed in HCC and associated with cancer
+stages. HCC patients with higher MFAP2 expression displayed lower overall
+survival (OS) and disease-specific survival(DSS), while there was no
+significant difference in recurrence-free survival (RFS). In vitro
+experiments showed that downregulation of MFAP2 inhibited proliferation,
+migration level of HCC cells. Transcription factors, DNA methyltransferases,
+immune factors may interact with MFAP2 mRNA to promote tumor progression in
+HCC.
+
+Conclusion::
+These findings suggest that MFAP2 may play a key role in the development of
+HCC. Therefore, MFAP2 may be a valuable prognostic marker and an effective
+anticancer target in HCC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Hepatocellular carcinoma (HCC), one of the most common malignancies in the world, has
+become the fifth most common malignancy and the second leading cause of
+tumor-related death. 1 Though the clinical treatment of HCC has been significantly improved in
+recent years thanks to advances in surgical techniques, radiotherapy, interventional
+therapy and endocrine therapy, the long-term survival rate of HCC patients remains low. 2 Therefore, it is crucial to find reliable biomarkers and therapeutic targets
+for curing HCC clinically.
+
+Microfibrillar-associated protein 2 (MFAP2), also known as microfibril-associated
+glycoprotein 1 (MAGP1), is a component of extracellular elastic microfibrils, which
+interacts with fibrillin to influence the function of microfibers. 3 , 4 MFAP2 is the most widely distributed protein of MAGPs and a component protein
+of microfibrils in most vertebrates. A prominent feature of this protein is its
+ability to interact with TGF-β family growth factors, Notch and Notch ligands, and a
+variety of elastic fibrin. 5 It has been confirmed that mutations in MFAP2 were linked to hemostasis and
+thrombosis, thoracic aneurysms, metabolic disease, and osteopenia in humans. 3 - 5 Thus far, there have been few studies on the role of MFAP2 in tumors. Recent
+reports indicated that MFAP2 was highly expressed in human HCC and head and neck
+squamous cell carcinoma tissues. 6 - 8 As far as we know, the role of MFAP2 in HCC has still not been reported up to
+now. Therefore, we investigated the expression, possible molecular mechanisms, and
+clinical significance of MFAP2 in HCC in the present study.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+A total of 47 HCC tissues and corresponding adjacent non-tumorous tissue samples
+were collected from HCC patients who adopting surgery treatment during January
+2016 and December 2018 in Nanjing First Hospital. All patients are carriers of
+the HBV virus. The patients received neither radiotherapy nor chemotherapy
+before the operation. Written informed consent was obtained from each patient
+before they participated in this study. All experiments using animal and human
+samples were reviewed and approved by the Ethics Committee of Nanjing Medical
+University (No.2019669).
+
+HCC cells were cultured in RPMI-1640 medium (Gibco, USA) supplemented with 10%
+fetal bovine serum (Gibco, USA) and 1% Penicillin-Streptomycin(Gibco, USA) at
+37˚C in a humidified incubator containing 5% CO2. Non-targeting control siRNA
+(si-NC) and small interfering RNA against MFAP2 (si-MFAP2) were synthesized by
+Hongxin Biotechnology Company (Nanjing, China). Transfections were performed
+with the solution produced by applied biological materials company (Canada) and
+the Opti-MEM (Gibco, USA). Cells were collected 48 h after transfection for
+further study. The target sequence of si-MFAP2 was as follows: si-MFAP2-1:
+5′-GCAGCAAGUCCAACAGGAATT-3′; si-MFAP2-2: 5′-GUGUGUACGUCAUUAACAATT-3′;
+si-MFAP2-3: 5′-CGGGACAAGUUCUCCAAAUTT-3′. si-MFAP2-2 was used for further
+experiments.
+
+Total RNA was extracted using Trizol solution (Thermo, USA) according to the
+manufacturer’s instructions. QRT-PCR were performed to detect the expressions of
+genes using the TaKaRa®qPCR SYBR Green Master Mix kit (DaLian, China).
+Glyceraldehyde 3-phosphate dehydrogenase (GAPDH) was used for internal control.
+The outcomes were evaluated via the 2^-ΔΔCt method. The primer pairs for MFAP2
+were as follows: 5′-CGCCGTGTGTACGTCATTAAC-3′ (Forward) and
+5′-CCATCACGCCACATTTGGA-3′ (Reverse).
+
+Cell proliferation was measured by a Cell Counting kit-8 (CCK-8) assay. Firstly,
+YY-8103 and HuH-7 cells were transfected with either si-MFAP2 or si-NC and
+incubated at 37°C. Then the CCK-8 solution (Biosharp, China) was added into each
+well and incubated for 2 h. The absorbance was measured at 0, 24, 48 and 72 h
+time points at a wavelength of 450 nm. All experiments were conducted in
+triplicate at least 3 times.
+
+YY-8103 and HuH-7 cells were cultured overnight in serum-free RPMI-1640 medium
+and then suspended in serum-free RPMI-1640 medium. Cells (4 ×
+10 4 /well) were seeded into the upper chamber of transwell inserts
+(pore size, 8 µm; Costar; Corning Incorporated, Corning, NY, USA) in 24-well
+plates. The lower chambers were filled with 500 µL RPMI-1640 supplemented with
+10% FBS as a chemoattractant. The cells were then treated with or without
+si-MFAP2 (5 ng/mL) and incubated for 24 h. After incubation for 24 h, the cells
+migrated into the lower chambers were fixed with 4% paraformaldehyde for 30 min,
+and stained with 1% crystal violet (Biosharp, China) for 10 min, and the
+remaining unmigrated cells were removed from the top layer with cotton swabs.
+The cells migrated into the bottom chamber were counted and photographed under
+the inverted microscope. Five mid-power fields were randomly selected to
+calculate the mean number of cells. All experiments were carried out in
+triplicates.
+
+To detect MFAP2 expression in different tumor tissues and corresponding
+para-cancer tissues, we used the TCGA portal ( www.tcgaportal.org ) and
+FIREBROWSE ( http://firebrowse.org/ ). The Human Protein Atlas ( https://www.proteinatlas.org/ ), which compiles many reports and
+forms of the tissues, cells and pathology atlas, as well as gene information in
+tissues and cells was utilized for obtaining MFAP2 mRNA expression in human
+tissues and location in cells. UALCAN ( http://ualcan.path.uab.edu/ ) is a comprehensive and interactive
+web resource for analyzing cancer OMICS data. In this study, it was used for
+subgroup analysis of MFAP2 expression in HCC. TCGA portal ( www.tcgaportal.org ) was also used to examine relationship
+between MFAP2 expression and survival probability of HCC patients. We then used
+Kaplan-Meier Plotter ( http://kmplot.com/analysis/index.php?p=background ) to compare
+correlations between MFAP2 expression and OS, DSS and RFS. The Kaplan-Meier
+survival plot was used to compare the 2 groups of patients, and hazard ratios
+with 95% confidence intervals and log rank p-values were calculated.
+
+GEPIA2 ( http://gepia2.pku.cn/#index ) is an open-access dataset that uses
+standard processing methods to analyze RNA sequencing expression data of 9,736
+tumors and 8,587 normal samples from TCGA and GTEx projects. GEPIA2 provides
+customizable features such as tumor/normal differential expression, similar gene
+testing, patient survival curves, profiling based on cancer types or
+pathological stages, analysis of correlation and dimension reduction. It was
+utilized through the whole study to assess the correlations between all
+significant genes.
+
+The Cistrome Data Browser Toolkit ( http://dbtoolkit.cistrome.org ) allows users to detect
+transcription factors (TFs) that may regulate the genes of interest to determine
+binding factors, histone modifications, and chromatin accessibility within the
+maximum 2 Mb of the genome of interest. The samples with the most similarity
+among chip-seq, dnpase-seq, and atac-seq were determined based on the overlap of
+user-supplied sets of genome spacers. 9 In this study, we used the Cistrome DB Toolkit to predict which TFs were
+most likely to regulate MFAP2 expression in HCC.
+
+MEXPRESS ( https://mexpress.be/ ) is a data visualization tool for the
+visualization of TCGA expression, DNA methylation, and clinical data, as well as
+their relationships. 10 Here, we used MEXPRESS to study the methylation status of MFAP2 gene and
+the relationship between MFAP2 mRNA expression and different clinical
+characteristics of HCC patients.
+
+The TCGA portal ( www.tcgaportal.org ) is an
+online portal that allows multiple tumors to be aligned in parallel, as well as
+detailed analysis of individual tumors, it was used for the analysis of MFAP2
+mRNA mutations.
+
+Metascape ( http://metascape.org/ ) is a powerful annotation analysis tool
+for gene function, which can help users do an analysis of batch genes and
+proteins and realize the cognition of gene or protein function. 11 This web-based portal combines functional enrichment, interactive group
+analysis, gene annotation, and membership search by leveraging data from more
+than 40 separate knowledge bases. Here, heatmap and network of enrichment terms
+associated with MFAP2 were acquired from Metascape. STRING ( https://string-db.org/cgi/input.pl ) is a database of known and
+predicted protein-protein interactions, including direct (physical) and indirect
+(functional) associations; these interactions result from computational
+predictions, knowledge transfer between organisms, and interactions gathered
+from other (primary) databases. 12 We used STRING to generate a network of interactions between MFAP2 and
+other key proteins.
+
+TISIDB ( http://cis.hku.hk/TISIDB/index.php ) is a central portal for
+displaying the interactions between tumor and immune system, which integrates a
+variety of heterogeneous data types. 13 Here, it was used to analyze the Spearman correlations between the
+expression of MFAP2, immunoregulatory factors, and tumor-infiltrating
+lymphocytes (TILs).
+
+Data are showed as mean ± standard deviation (SD). All statistical analysis of
+cell line experiments were evaluated by GraphPad Prism 8 with the Student’s t
+test or one-way analysis of variance (ANOVA). The correlations of gene
+expressions were evaluated using Spearman’s correlation. P-values <0.05 were
+considered as statistically significant. Corresponding significance levels were
+presented in the figures.
+
+
+Patients and Clinical Tissue Samples
+
+A total of 47 HCC tissues and corresponding adjacent non-tumorous tissue samples
+were collected from HCC patients who adopting surgery treatment during January
+2016 and December 2018 in Nanjing First Hospital. All patients are carriers of
+the HBV virus. The patients received neither radiotherapy nor chemotherapy
+before the operation. Written informed consent was obtained from each patient
+before they participated in this study. All experiments using animal and human
+samples were reviewed and approved by the Ethics Committee of Nanjing Medical
+University (No.2019669).
+
+
+Cell Culture and Transfection
+
+HCC cells were cultured in RPMI-1640 medium (Gibco, USA) supplemented with 10%
+fetal bovine serum (Gibco, USA) and 1% Penicillin-Streptomycin(Gibco, USA) at
+37˚C in a humidified incubator containing 5% CO2. Non-targeting control siRNA
+(si-NC) and small interfering RNA against MFAP2 (si-MFAP2) were synthesized by
+Hongxin Biotechnology Company (Nanjing, China). Transfections were performed
+with the solution produced by applied biological materials company (Canada) and
+the Opti-MEM (Gibco, USA). Cells were collected 48 h after transfection for
+further study. The target sequence of si-MFAP2 was as follows: si-MFAP2-1:
+5′-GCAGCAAGUCCAACAGGAATT-3′; si-MFAP2-2: 5′-GUGUGUACGUCAUUAACAATT-3′;
+si-MFAP2-3: 5′-CGGGACAAGUUCUCCAAAUTT-3′. si-MFAP2-2 was used for further
+experiments.
+
+
+RNA Extraction and Quantitative Real-Time Polymerase Chain Reaction
+(qRT-PCR)
+
+Total RNA was extracted using Trizol solution (Thermo, USA) according to the
+manufacturer’s instructions. QRT-PCR were performed to detect the expressions of
+genes using the TaKaRa®qPCR SYBR Green Master Mix kit (DaLian, China).
+Glyceraldehyde 3-phosphate dehydrogenase (GAPDH) was used for internal control.
+The outcomes were evaluated via the 2^-ΔΔCt method. The primer pairs for MFAP2
+were as follows: 5′-CGCCGTGTGTACGTCATTAAC-3′ (Forward) and
+5′-CCATCACGCCACATTTGGA-3′ (Reverse).
+
+
+Cell Proliferation Experiments
+
+Cell proliferation was measured by a Cell Counting kit-8 (CCK-8) assay. Firstly,
+YY-8103 and HuH-7 cells were transfected with either si-MFAP2 or si-NC and
+incubated at 37°C. Then the CCK-8 solution (Biosharp, China) was added into each
+well and incubated for 2 h. The absorbance was measured at 0, 24, 48 and 72 h
+time points at a wavelength of 450 nm. All experiments were conducted in
+triplicate at least 3 times.
+
+
+Transwell Assay
+
+YY-8103 and HuH-7 cells were cultured overnight in serum-free RPMI-1640 medium
+and then suspended in serum-free RPMI-1640 medium. Cells (4 ×
+10 4 /well) were seeded into the upper chamber of transwell inserts
+(pore size, 8 µm; Costar; Corning Incorporated, Corning, NY, USA) in 24-well
+plates. The lower chambers were filled with 500 µL RPMI-1640 supplemented with
+10% FBS as a chemoattractant. The cells were then treated with or without
+si-MFAP2 (5 ng/mL) and incubated for 24 h. After incubation for 24 h, the cells
+migrated into the lower chambers were fixed with 4% paraformaldehyde for 30 min,
+and stained with 1% crystal violet (Biosharp, China) for 10 min, and the
+remaining unmigrated cells were removed from the top layer with cotton swabs.
+The cells migrated into the bottom chamber were counted and photographed under
+the inverted microscope. Five mid-power fields were randomly selected to
+calculate the mean number of cells. All experiments were carried out in
+triplicates.
+
+
+MFAP2 Expression Level and Survival Analysis
+
+To detect MFAP2 expression in different tumor tissues and corresponding
+para-cancer tissues, we used the TCGA portal ( www.tcgaportal.org ) and
+FIREBROWSE ( http://firebrowse.org/ ). The Human Protein Atlas ( https://www.proteinatlas.org/ ), which compiles many reports and
+forms of the tissues, cells and pathology atlas, as well as gene information in
+tissues and cells was utilized for obtaining MFAP2 mRNA expression in human
+tissues and location in cells. UALCAN ( http://ualcan.path.uab.edu/ ) is a comprehensive and interactive
+web resource for analyzing cancer OMICS data. In this study, it was used for
+subgroup analysis of MFAP2 expression in HCC. TCGA portal ( www.tcgaportal.org ) was also used to examine relationship
+between MFAP2 expression and survival probability of HCC patients. We then used
+Kaplan-Meier Plotter ( http://kmplot.com/analysis/index.php?p=background ) to compare
+correlations between MFAP2 expression and OS, DSS and RFS. The Kaplan-Meier
+survival plot was used to compare the 2 groups of patients, and hazard ratios
+with 95% confidence intervals and log rank p-values were calculated.
+
+
+Gene Correlations Analysis
+
+GEPIA2 ( http://gepia2.pku.cn/#index ) is an open-access dataset that uses
+standard processing methods to analyze RNA sequencing expression data of 9,736
+tumors and 8,587 normal samples from TCGA and GTEx projects. GEPIA2 provides
+customizable features such as tumor/normal differential expression, similar gene
+testing, patient survival curves, profiling based on cancer types or
+pathological stages, analysis of correlation and dimension reduction. It was
+utilized through the whole study to assess the correlations between all
+significant genes.
+
+
+TFs Identification
+
+The Cistrome Data Browser Toolkit ( http://dbtoolkit.cistrome.org ) allows users to detect
+transcription factors (TFs) that may regulate the genes of interest to determine
+binding factors, histone modifications, and chromatin accessibility within the
+maximum 2 Mb of the genome of interest. The samples with the most similarity
+among chip-seq, dnpase-seq, and atac-seq were determined based on the overlap of
+user-supplied sets of genome spacers. 9 In this study, we used the Cistrome DB Toolkit to predict which TFs were
+most likely to regulate MFAP2 expression in HCC.
+
+
+DNA Methylation Modification Analysis
+
+MEXPRESS ( https://mexpress.be/ ) is a data visualization tool for the
+visualization of TCGA expression, DNA methylation, and clinical data, as well as
+their relationships. 10 Here, we used MEXPRESS to study the methylation status of MFAP2 gene and
+the relationship between MFAP2 mRNA expression and different clinical
+characteristics of HCC patients.
+
+
+MFAP2 mRNA Mutation Analysis
+
+The TCGA portal ( www.tcgaportal.org ) is an
+online portal that allows multiple tumors to be aligned in parallel, as well as
+detailed analysis of individual tumors, it was used for the analysis of MFAP2
+mRNA mutations.
+
+
+Protein-Protein Interaction and Functional Enrichment Analysis
+
+Metascape ( http://metascape.org/ ) is a powerful annotation analysis tool
+for gene function, which can help users do an analysis of batch genes and
+proteins and realize the cognition of gene or protein function. 11 This web-based portal combines functional enrichment, interactive group
+analysis, gene annotation, and membership search by leveraging data from more
+than 40 separate knowledge bases. Here, heatmap and network of enrichment terms
+associated with MFAP2 were acquired from Metascape. STRING ( https://string-db.org/cgi/input.pl ) is a database of known and
+predicted protein-protein interactions, including direct (physical) and indirect
+(functional) associations; these interactions result from computational
+predictions, knowledge transfer between organisms, and interactions gathered
+from other (primary) databases. 12 We used STRING to generate a network of interactions between MFAP2 and
+other key proteins.
+
+
+Immune-Related Analysis
+
+TISIDB ( http://cis.hku.hk/TISIDB/index.php ) is a central portal for
+displaying the interactions between tumor and immune system, which integrates a
+variety of heterogeneous data types. 13 Here, it was used to analyze the Spearman correlations between the
+expression of MFAP2, immunoregulatory factors, and tumor-infiltrating
+lymphocytes (TILs).
+
+
+Statistical Analysis
+
+Data are showed as mean ± standard deviation (SD). All statistical analysis of
+cell line experiments were evaluated by GraphPad Prism 8 with the Student’s t
+test or one-way analysis of variance (ANOVA). The correlations of gene
+expressions were evaluated using Spearman’s correlation. P-values <0.05 were
+considered as statistically significant. Corresponding significance levels were
+presented in the figures.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Using qRT-PCR, the MFAP2 mRNA expression levels were defined for 47 paired
+primary cancerous and adjacent noncancerous tissues from HCC patients and the
+results showed the expression of MFAP2 mRNA in HCC tissues were significantly
+higher than that of adjacent noncancerous tissues ( Figure 1A ). Furthermore, we used the ROC
+curve to investigate the diagnostic value of MFAP2 mRNA in distinguishing HCC
+tissues from adjacent nontumorous tissues. When the expression level of MFAP2
+mRNA was analyzed for this purpose, the area under the ROC curve (AUC) was
+0.7730 ( Figure 1B ). As
+shown in Table 1 ,
+MFAP2 mRNA level was not associated with age, gender, differentiation in
+patients with HCC. However, up-expression of MFAP2 mRNA level was positively
+associated with TNM stage (P = 0.028) and tumor size (P = 0.036).
+
+MFAP2 is over-expressed in HCC samples. A, MFAP2 mRNA expression in HCC
+tissues and normal tissues. B, The ROC curve has been used to evaluate
+MFAP2 potential diagnostic value. C, MFAP2 mRNA expression in human
+cancers. D, MFAP2 mRNA expression in HCC samples and normal samples.
+E-G, Differences in MFAP2 mRNA expression depending on nodal metastasis
+status, individual cancer stages, and tumor grade (** p < 0.01, *** p
+< 0.001, **** p < 0.0001).
+
+The Relationship Between MFAP2 Expression Levels in HCC Tissues and
+Clinicopathological Factors of Patients.
+
+* P < 0.05.
+
+The expression of MFAP2 mRNA in normal and tumor tissues was firstly detected
+using TCGA portal and FIREBROWSE. The results showed that the expression level
+of MFAP2 in tumor tissues was much higher than that in the corresponding normal
+tissues ( Figure 1C ).
+Then we compared the expression of MFAP2 mRNA in HCC and normal tissues
+purposely, and caught the fact that MFAP2 mRNA expression in HCC tissues was
+significantly higher than that in normal tissues ( Figure 1D ). Next, a more detailed and
+specific analysis of MFAP2 mRNA expression in HCC was performed by using UALCAN.
+The results of subgroup analysis based on nodal metastasis status, individual
+cancer stages, and tumor grade indicated that the levels of MFAP2 mRNA in HCC
+patients were significantly higher than that in matched group ( Figure 1E-G ).
+
+In terms of the up-regulation of MFAP2 in 62 HCC patients, Kaplan–Meier survival
+analysis was performed to further evaluate the correlation between MFAP2
+expression and prognosis of patients with HCC. The results revealed that
+patients with higher levels of MFAP2 expression had significantly shorter
+survival times than those with lower levels of MFAP2 expression ( Figure 2A ). As shown in Figure 2B-C , online
+prediction revealed that patients with higher MFAP2 expression had shorter
+Survival Probability, OS, and DSS than patients with lower MFAP2 expression.
+While RFS was not associated with the expression of MFAP2 in tumor patients
+( Figure 2D ).The
+relationship between HCC patients with positive and negative HBV infections and
+OS was further analyzed, and it was found that HCC patients with positive HBV
+infections were associated with prognosis but the negatives HBV infection were
+not statistically significant ( Figure 2E-F ).
+
+MFAP2 is associated with a poor prognosis in HCC patients. A, High MFAP2
+expression was correlated with poor survival probability in HCC
+patients. B-C, High MFAP2 expression was correlated with poor OS and DSS
+in HCC patients. D, RFS was not associated with MFAP2 expression in HCC
+patients. E-F, The relationship between HCC patients with positive and
+negative viral infections and OS (OS, overall survival; DSS,
+disease-specific survival; RFS, recurrence-free survival).
+
+As shown in our results, we confirmed that MFAP2 mRNA expression was
+significantly increased in several HCC cell lines compared to the normal HL-7702
+cell lines ( Figure 3A ).
+si-MFAP2-2 and si-NC were transfected into YY-8103 and HuH-7 cells accordingly,
+and successful knockdown was confirmed by qRT-PCR, MFAP2 expression was
+significantly reduced using the si-MFAP2-2 ( Figure 3B-C ). To investigate the role of
+MFAP2 on tumor physiological characteristics, CCK-8 assays were performed in
+YY-8103 and HuH-7 cell lines. CCK-8 assays showed that MFAP2 gene knockdown
+significantly inhibited the proliferation of both HCC cell lines compared to
+control group ( Figure
+3D-E ). It indicated the inhibiting role of MFAP2 knockdown on HCC
+cells aggression. Moreover, the suppression of MFAP2 by si-MFAP2-2 exhibited a
+lower relative migration rate compared with control ones seen from transwell
+assay in the confluent monolayer of the cultured HCC cell lines ( Figure 3F-G ). These
+findings demonstrated that inhibition of MFAP2 can slow the progression of
+hepatocellular carcinoma in vitro including proliferation and migration.
+
+Knockdown of MFAP2 suppresses cell proliferation and migration. A, MFAP2
+expression in HCC cells. B-C, Knockdown in YY-8103 and HuH-7 cells with
+si-MFAP2 or si-NC. D-E, CCK-8 assays showed that down-regulation of
+MFAP2 inhibited proliferation of YY-8103 and HuH-7 cells. F-G,
+Suppression of MFAP2 by si-MFAP2 exhibited a lower relative migration
+rate compared with control group in YY-8103 and HuH-7 cells (si-NC,
+siRNA negative control; * p < 0.05, ** p < 0.01, *** p < 0.001,
+**** p < 0.0001).
+
+In order to probe which factors might regulate MFAP2 expression in a supposed
+molecular regulatory network, we identified transcription factors (TFs) that
+might regulate transcription of MFAP2 using the Cistrome Data Browser Toolkit.
+The top 20 regulatory TFs in all tumors are showed in the acquired plot ( Figure 4A ). Next, we
+focused on validating MFAP2 regulators in HCC related cell lines such as
+hepatocellular carcinoma, SMMC-7721, HuH-7, and HepG2. Finally, it is found that
+RAD21 had the greatest regulatory potential (RP) in those cells ( Figure 4B ). The following
+analyses testified that the expression of RAD21 mRNA was obviously correlated
+with MFAP2 in the GEPIA2 database ( Figure 4C ).
+
+Relations between TFs, tumor-related genes and MFAP2 in HCC. A, Top 20
+TFs that potentially regulate MFAP2. B, TFs with high regulatory
+potential in HCC cell lines (10 k distance to TSS). C, Correlation
+between RAD21 and MFAP2 mRNA expression. D, MFAP2 DNA methylation
+modification in HCC. E, Correlation between MFAP2 mRNA expression and
+DNMTs expression. F, Correlation between MFAP2 mRNA expression and
+mutation frequency of tumor-related genes. G, Correlation between MFAP2
+and TP53 mRNA expression (TSS, transcription start site).
+
+There is still no clear understanding of the potential role of DNA methylation
+modifications as prognostic markers in HCC, though more and more research
+indicated that aberrant DNA methylation plays an important role in the
+development of HCC. 14 In addition, we know that abnormal methylation modification (mainly
+selective hypermethylation) at the CpG island prevents TFs from binding to DNA,
+thereby inhibiting transcription. 14 - 16 Therefore, we used the MEXPRESS to detect DNA methylation modifications
+of the MFAP2 gene in HCC ( Figure 4D ). Meanwhile, we also found that MFAP2 was positively
+correlated with the expression levels of DNA methyltransferases (DNMTs) in HCC
+( Figure 4E ). These
+findings revealed that transcription factors and DNA methylation modifications
+might participate in tumorigenesis of HCC by regulating MFAP2 expression.
+
+TP53, also known as BCC7, or P53, which encodes a tumor suppressor protein that
+contains transcriptional activation, DNA binding, and oligomerization domains.
+Mutations in this gene have been linked to several types of human cancers,
+including hepatocellular carcinoma. 17 So we came up with the result that there was a clear correlation between
+MFAP2 and TP53, as the expression of MFAP2 decreased, the mutation frequency of
+TP53 also decreased, when investigating the relationship between MFAP2
+expression and frequencies of mutations in the tumor-related genes in HCC ( Figure 4F ). Next, the
+outcome of gene correlation analysis using GEPIA2 showed that TP53 expression
+was obviously correlated with expression of MFAP2 ( Figure 4G ).
+
+The STRING database currently was used to obtain the interaction network between
+MFAP2 and other important proteins, and the results indicated that some proteins
+such as ELN, EFEMP2, FBLN1, and so on, which could bind directly to MFAP2 ( Figure 5A ). Enrichment
+analysis of co-expression genes conducted using Metascape displayed that MFAP2
+is mainly involved in the processes of ATP formation, T cell activation, and
+hematopoietic cell lineage ( Figure 5B-C ). And the results also clearly showed that it was
+associated with the development of tumors of the digestive system ( Figure 5D ).
+
+Protein interactions and enrichment analysis of MFAP2. A, Interaction
+network between MFAP2 and other proteins. B, Enriched terms network with
+cluster ID coloring; nodes that share the same cluster ID are often
+close to each other. C, KEGG analysis of gene co-expressed with MFAP2.
+D, Enrichment analysis showed that MFAP2 was associated with the
+development of tumors of the digestive system.
+
+The interaction between tumor and immune system plays a vital role in the
+occurrence, development and treatment of tumor. Cytolytic immune cells (T/NK
+cells) are initially used to recognize and kill cancer cells, while tumor
+tissues can shape the surrounding microenvironment and promote immune escape.
+Particularly, tumors can disrupt infiltration and function of T/NK cells, and
+antigen presentation by soluble and cellular surface mediators (such as PD-L1)
+and immunosuppressive cells, such as regulatory T cells (Tregs) and marrow
+derived suppressive cells (MDSCs). Hence, elucidating the interaction between
+tumor and immune cells will help predict the immunotherapy response and develop
+new immunotherapy targets. We investigated the relationship between the
+expression of MFAP2 and immune factors in HCC and got the fact that some
+immunostimulators, immunoinhibitors, and TILs for which expression was
+significantly correlated with MFAP2 expression by filtering: p < 0.05 and
+|±rho| ≥ 0.1 were showed in Figure 6A-C (p ≥ 0.05 or |±rho| < 0.1 was marked as black). Some
+Immunosuppressive membrane proteins whose expressions, such as TIGIT, CTLA4,
+have significant correlation with MFAP2 expression ( Figure 6D-E ). We also found a significant
+and meaningful relationship between the expression of MFAP2 and Regulatory T
+cells (Tregs) ( Figure
+6F ). In particular, there was a significantly negative correlation
+between the expression of immunostimulant IL6R and MFAP2 ( Figure 6G ).
+
+Relations between MFAP2 expression and cancer-related immune factors. A,
+Spearman correlation between MFAP2 expression and immunoinhibitors in
+HCC. Common inhibitory factors include CTLA4, LAH3, PDCD1. The
+prediction results show that MFAP2 is positively correlated with these
+inhibitory factors, suggesting that MFAP2 may be involved in tumor
+immune escape. B, Spearman correlation between MFAP2 expression and
+immunostimulators in HCC. The prediction results show that MFAP2 is
+positively correlated with immunostimulators including IL6, ICOS. C,
+Spearman correlation between MFAP2 expression and TILs in HCC. D-E,
+Immunosuppressive membrane proteins CTLA4, TIGIT have significant
+correlation with MFAP2 expression. F, MFAP2 was significantly linked
+with Tregs. G, Expression of IL6R was negatively correlated with
+MFAP2.
+
+
+MFAP2 mRNA Is Over-Expressed in HCC Samples
+
+Using qRT-PCR, the MFAP2 mRNA expression levels were defined for 47 paired
+primary cancerous and adjacent noncancerous tissues from HCC patients and the
+results showed the expression of MFAP2 mRNA in HCC tissues were significantly
+higher than that of adjacent noncancerous tissues ( Figure 1A ). Furthermore, we used the ROC
+curve to investigate the diagnostic value of MFAP2 mRNA in distinguishing HCC
+tissues from adjacent nontumorous tissues. When the expression level of MFAP2
+mRNA was analyzed for this purpose, the area under the ROC curve (AUC) was
+0.7730 ( Figure 1B ). As
+shown in Table 1 ,
+MFAP2 mRNA level was not associated with age, gender, differentiation in
+patients with HCC. However, up-expression of MFAP2 mRNA level was positively
+associated with TNM stage (P = 0.028) and tumor size (P = 0.036).
+
+MFAP2 is over-expressed in HCC samples. A, MFAP2 mRNA expression in HCC
+tissues and normal tissues. B, The ROC curve has been used to evaluate
+MFAP2 potential diagnostic value. C, MFAP2 mRNA expression in human
+cancers. D, MFAP2 mRNA expression in HCC samples and normal samples.
+E-G, Differences in MFAP2 mRNA expression depending on nodal metastasis
+status, individual cancer stages, and tumor grade (** p < 0.01, *** p
+< 0.001, **** p < 0.0001).
+
+The Relationship Between MFAP2 Expression Levels in HCC Tissues and
+Clinicopathological Factors of Patients.
+
+* P < 0.05.
+
+The expression of MFAP2 mRNA in normal and tumor tissues was firstly detected
+using TCGA portal and FIREBROWSE. The results showed that the expression level
+of MFAP2 in tumor tissues was much higher than that in the corresponding normal
+tissues ( Figure 1C ).
+Then we compared the expression of MFAP2 mRNA in HCC and normal tissues
+purposely, and caught the fact that MFAP2 mRNA expression in HCC tissues was
+significantly higher than that in normal tissues ( Figure 1D ). Next, a more detailed and
+specific analysis of MFAP2 mRNA expression in HCC was performed by using UALCAN.
+The results of subgroup analysis based on nodal metastasis status, individual
+cancer stages, and tumor grade indicated that the levels of MFAP2 mRNA in HCC
+patients were significantly higher than that in matched group ( Figure 1E-G ).
+
+
+MFAP2 Is Associated With a Poor Prognosis in HCC Patients
+
+In terms of the up-regulation of MFAP2 in 62 HCC patients, Kaplan–Meier survival
+analysis was performed to further evaluate the correlation between MFAP2
+expression and prognosis of patients with HCC. The results revealed that
+patients with higher levels of MFAP2 expression had significantly shorter
+survival times than those with lower levels of MFAP2 expression ( Figure 2A ). As shown in Figure 2B-C , online
+prediction revealed that patients with higher MFAP2 expression had shorter
+Survival Probability, OS, and DSS than patients with lower MFAP2 expression.
+While RFS was not associated with the expression of MFAP2 in tumor patients
+( Figure 2D ).The
+relationship between HCC patients with positive and negative HBV infections and
+OS was further analyzed, and it was found that HCC patients with positive HBV
+infections were associated with prognosis but the negatives HBV infection were
+not statistically significant ( Figure 2E-F ).
+
+MFAP2 is associated with a poor prognosis in HCC patients. A, High MFAP2
+expression was correlated with poor survival probability in HCC
+patients. B-C, High MFAP2 expression was correlated with poor OS and DSS
+in HCC patients. D, RFS was not associated with MFAP2 expression in HCC
+patients. E-F, The relationship between HCC patients with positive and
+negative viral infections and OS (OS, overall survival; DSS,
+disease-specific survival; RFS, recurrence-free survival).
+
+
+MFAP2 Knockdown Suppresses Proliferation and Migration of HCC Cells
+
+As shown in our results, we confirmed that MFAP2 mRNA expression was
+significantly increased in several HCC cell lines compared to the normal HL-7702
+cell lines ( Figure 3A ).
+si-MFAP2-2 and si-NC were transfected into YY-8103 and HuH-7 cells accordingly,
+and successful knockdown was confirmed by qRT-PCR, MFAP2 expression was
+significantly reduced using the si-MFAP2-2 ( Figure 3B-C ). To investigate the role of
+MFAP2 on tumor physiological characteristics, CCK-8 assays were performed in
+YY-8103 and HuH-7 cell lines. CCK-8 assays showed that MFAP2 gene knockdown
+significantly inhibited the proliferation of both HCC cell lines compared to
+control group ( Figure
+3D-E ). It indicated the inhibiting role of MFAP2 knockdown on HCC
+cells aggression. Moreover, the suppression of MFAP2 by si-MFAP2-2 exhibited a
+lower relative migration rate compared with control ones seen from transwell
+assay in the confluent monolayer of the cultured HCC cell lines ( Figure 3F-G ). These
+findings demonstrated that inhibition of MFAP2 can slow the progression of
+hepatocellular carcinoma in vitro including proliferation and migration.
+
+Knockdown of MFAP2 suppresses cell proliferation and migration. A, MFAP2
+expression in HCC cells. B-C, Knockdown in YY-8103 and HuH-7 cells with
+si-MFAP2 or si-NC. D-E, CCK-8 assays showed that down-regulation of
+MFAP2 inhibited proliferation of YY-8103 and HuH-7 cells. F-G,
+Suppression of MFAP2 by si-MFAP2 exhibited a lower relative migration
+rate compared with control group in YY-8103 and HuH-7 cells (si-NC,
+siRNA negative control; * p < 0.05, ** p < 0.01, *** p < 0.001,
+**** p < 0.0001).
+
+
+The Expression of MFAP2 mRNA Is Obviously Related to RAD21 and DNMTs
+
+In order to probe which factors might regulate MFAP2 expression in a supposed
+molecular regulatory network, we identified transcription factors (TFs) that
+might regulate transcription of MFAP2 using the Cistrome Data Browser Toolkit.
+The top 20 regulatory TFs in all tumors are showed in the acquired plot ( Figure 4A ). Next, we
+focused on validating MFAP2 regulators in HCC related cell lines such as
+hepatocellular carcinoma, SMMC-7721, HuH-7, and HepG2. Finally, it is found that
+RAD21 had the greatest regulatory potential (RP) in those cells ( Figure 4B ). The following
+analyses testified that the expression of RAD21 mRNA was obviously correlated
+with MFAP2 in the GEPIA2 database ( Figure 4C ).
+
+Relations between TFs, tumor-related genes and MFAP2 in HCC. A, Top 20
+TFs that potentially regulate MFAP2. B, TFs with high regulatory
+potential in HCC cell lines (10 k distance to TSS). C, Correlation
+between RAD21 and MFAP2 mRNA expression. D, MFAP2 DNA methylation
+modification in HCC. E, Correlation between MFAP2 mRNA expression and
+DNMTs expression. F, Correlation between MFAP2 mRNA expression and
+mutation frequency of tumor-related genes. G, Correlation between MFAP2
+and TP53 mRNA expression (TSS, transcription start site).
+
+There is still no clear understanding of the potential role of DNA methylation
+modifications as prognostic markers in HCC, though more and more research
+indicated that aberrant DNA methylation plays an important role in the
+development of HCC. 14 In addition, we know that abnormal methylation modification (mainly
+selective hypermethylation) at the CpG island prevents TFs from binding to DNA,
+thereby inhibiting transcription. 14 - 16 Therefore, we used the MEXPRESS to detect DNA methylation modifications
+of the MFAP2 gene in HCC ( Figure 4D ). Meanwhile, we also found that MFAP2 was positively
+correlated with the expression levels of DNA methyltransferases (DNMTs) in HCC
+( Figure 4E ). These
+findings revealed that transcription factors and DNA methylation modifications
+might participate in tumorigenesis of HCC by regulating MFAP2 expression.
+
+
+TP53 Mutation Interacts With MFAP2 to Involve in Tumorigenesis of HCC
+
+TP53, also known as BCC7, or P53, which encodes a tumor suppressor protein that
+contains transcriptional activation, DNA binding, and oligomerization domains.
+Mutations in this gene have been linked to several types of human cancers,
+including hepatocellular carcinoma. 17 So we came up with the result that there was a clear correlation between
+MFAP2 and TP53, as the expression of MFAP2 decreased, the mutation frequency of
+TP53 also decreased, when investigating the relationship between MFAP2
+expression and frequencies of mutations in the tumor-related genes in HCC ( Figure 4F ). Next, the
+outcome of gene correlation analysis using GEPIA2 showed that TP53 expression
+was obviously correlated with expression of MFAP2 ( Figure 4G ).
+
+
+Protein Interactions and Enrichment Analysis of MFAP2
+
+The STRING database currently was used to obtain the interaction network between
+MFAP2 and other important proteins, and the results indicated that some proteins
+such as ELN, EFEMP2, FBLN1, and so on, which could bind directly to MFAP2 ( Figure 5A ). Enrichment
+analysis of co-expression genes conducted using Metascape displayed that MFAP2
+is mainly involved in the processes of ATP formation, T cell activation, and
+hematopoietic cell lineage ( Figure 5B-C ). And the results also clearly showed that it was
+associated with the development of tumors of the digestive system ( Figure 5D ).
+
+Protein interactions and enrichment analysis of MFAP2. A, Interaction
+network between MFAP2 and other proteins. B, Enriched terms network with
+cluster ID coloring; nodes that share the same cluster ID are often
+close to each other. C, KEGG analysis of gene co-expressed with MFAP2.
+D, Enrichment analysis showed that MFAP2 was associated with the
+development of tumors of the digestive system.
+
+
+MFAP2 Expression Is Associated With Immune Factors
+
+The interaction between tumor and immune system plays a vital role in the
+occurrence, development and treatment of tumor. Cytolytic immune cells (T/NK
+cells) are initially used to recognize and kill cancer cells, while tumor
+tissues can shape the surrounding microenvironment and promote immune escape.
+Particularly, tumors can disrupt infiltration and function of T/NK cells, and
+antigen presentation by soluble and cellular surface mediators (such as PD-L1)
+and immunosuppressive cells, such as regulatory T cells (Tregs) and marrow
+derived suppressive cells (MDSCs). Hence, elucidating the interaction between
+tumor and immune cells will help predict the immunotherapy response and develop
+new immunotherapy targets. We investigated the relationship between the
+expression of MFAP2 and immune factors in HCC and got the fact that some
+immunostimulators, immunoinhibitors, and TILs for which expression was
+significantly correlated with MFAP2 expression by filtering: p < 0.05 and
+|±rho| ≥ 0.1 were showed in Figure 6A-C (p ≥ 0.05 or |±rho| < 0.1 was marked as black). Some
+Immunosuppressive membrane proteins whose expressions, such as TIGIT, CTLA4,
+have significant correlation with MFAP2 expression ( Figure 6D-E ). We also found a significant
+and meaningful relationship between the expression of MFAP2 and Regulatory T
+cells (Tregs) ( Figure
+6F ). In particular, there was a significantly negative correlation
+between the expression of immunostimulant IL6R and MFAP2 ( Figure 6G ).
+
+Relations between MFAP2 expression and cancer-related immune factors. A,
+Spearman correlation between MFAP2 expression and immunoinhibitors in
+HCC. Common inhibitory factors include CTLA4, LAH3, PDCD1. The
+prediction results show that MFAP2 is positively correlated with these
+inhibitory factors, suggesting that MFAP2 may be involved in tumor
+immune escape. B, Spearman correlation between MFAP2 expression and
+immunostimulators in HCC. The prediction results show that MFAP2 is
+positively correlated with immunostimulators including IL6, ICOS. C,
+Spearman correlation between MFAP2 expression and TILs in HCC. D-E,
+Immunosuppressive membrane proteins CTLA4, TIGIT have significant
+correlation with MFAP2 expression. F, MFAP2 was significantly linked
+with Tregs. G, Expression of IL6R was negatively correlated with
+MFAP2.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Many factors have been reported to be associated with the development of HCC,
+including chronic hepatitis virus infection, genetic mutations, cell damage,
+alcoholic liver disease and aflatoxin poisoning. 18 Despite extensive experimental studies, the molecular mechanisms of HCC have
+not been fully understood to date. Most undetected early HCC patients are not
+suitable for curative treatment, which may be one of the reasons for poor prognosis. 19 Therefore, potential highly effective diagnostic and therapeutic markers are
+urgently needed. 18 , 19 Bioinformatics analysis plays a critical role in cancer research, and it
+promotes the understanding of carcinogenesis by combining genome-level data with
+systematic bioinformatics approaches. In the present study, we investigated the
+expression of MFAP2 in hepatocellular carcinoma (HCC) and many other human cancer
+types and found that MFAP2 was up-regulated in a variety of tumors. We specially
+found that MFAP2 was obviously over-expressed in HCC when compared with normal
+tissues and was correlated with survival probability, OS, and DSS. In addition, to
+evaluate whether MFAP2-silencing contributes to inhibition of tumor cells, we
+conducted in vitro studies which demonstrated that MFAP2 knockdown inhibited the
+proliferation and migration of hepatocellular carcinoma cells in a time-dependent
+manner that may be a potential biomarker for HCC.
+
+Multiple reports have shown similar skeletal phenotypes in both fibrillin-1 mutant
+mice and MAGP-1 (MFAP2) deficient mice. The overlapping functions of MFAP2 and
+fibrillin-1 regulate osteoclast number and bone resorption. 20 Researches suggest that MFAP2 is not necessary for elastic fiber assembly in
+mice, but is important for other processes of tissue homeostasis or differentiation. 3 - 5 Therefore, it may be that these fibrillin mutations alter the ability of
+fibrillin to bind to MFAP2, leading to the emergence and aggravation of the disease.
+Previous studies have demonstrated that versican, a large extracellular matrix
+proteoglycan, was found associated to the microfibrils through its interaction with
+fibrillin-1, which played an important role in tumor invasion and metastasis. 21 The results from Segade et al. suggested that MFAP2 was involved in ECM
+function and modulating the expression of genes that function in cell adhesion,
+migration and control of ECM deposition in human osteosarcoma. 5 Our present results indicate that inhibition of MFAP2 can delay the
+proliferation and migration of HCC in vitro. Taken together, MFAP2 might promote the
+development and progression of HCC through its interaction with the mutant
+fibrillin-1. Future studies should investigate whether MFAP2 is associated with
+fibrillin-1 in HCC cells.
+
+RAD21 (double-strand-break repair protein Rad21 homolog, also known as SCC1) is a
+component of the cohesive proteins that are essential for chromosome separation and
+DNA repair. 22 Recently, RAD21 has been found to be associated with the development and
+prognosis of malignant tumors. As a target gene of multiple genes or a regulatory
+gene of other genes, it is also widely involved in human physiological and
+pathological processes. 23 , 17 Ahn et al. found that RAD21 was involved in transcriptional regulation of
+migration/invasion related genes induced by mutant p53-r248 in human ovarian cancer cells. 24 In our present study, we found that the expression of RAD21 mRNA was
+obviously correlated with MFAP2 based on the GEPIA2 database and the mutation
+frequency of P53 was significantly correlated with the expression of MFAP2. The
+expression level of RAD21 in HCC tissues was higher than that in adjacent non-tumor
+tissues, and its expression level was associated with OS in HCC patients. Previous
+study identified RAD21 as a new binding partner of mutant P53 in ovarian cancer, the
+specific molecular mechanism by which RAD21 regulates the expression of MFAP2 and
+the relationship to mutant p53 in HCC remains to be investigated. 23 , 17 , 25 
+
+DNA methylation regulates cell differentiation and is involved in tumorigenesis, and
+is mediated by a family of DNA methyltransferase enzymes (DNMTs). Abnormal gene
+methylation is considered to be one of the main mechanisms that trigger HCC and may
+be a useful biomarker for predicting HCC risk. 14 , 15 DNMTs are involved in epigenetic regulation of the genome and are promising
+new targets for the treatment of cancer and other diseases. 16 Liu’s and Lai’s studies demonstrated respectively that DNMT1 and DNMT3b were
+upregulated in the sorafenib-resistant human hepatocellular carcinoma cells. 26 , 27 So inhibition of DNMTs by their inhibitors such as RNA interference or
+nanaomycin A (a selective DNMT3b inhibitor) significantly increased the sensitivity
+of sorafenib in a dose-dependent manner. The DNMT inhibitor acacytidine
+down-regulates the activity of DNMT1 and DNMT3b, leading to increased drug
+sensitivity in tumor cells in hormone refractory prostate cancers. 28 Epigallocatechin gallate (EHCCG), the most active compound in green tea,
+induces cell cycle arrest and apoptosis of cancer cells by inhibiting class 1 HDACs
+and DNMTs in colon cancer. 29 Several methods for inhibiting DNMT activity have been reported, including
+DNMTs depletion mediated by small interfering RNAs or covalent enzyme capture using
+suicide-nucleoside substrates such as azacytidine and decitabine. 30 In recent years, the rational development of small molecule non-nucleoside
+inhibitors such as RG108 has become a research hotspot. DNA methylation can lead to
+transcriptional inactivation by directly inhibiting transcription factor binding,
+blocking the DNA sequence it recognizes, histone deacetylases (HDACs), or recruiting
+methylated binding proteins that interact with transcription factors directly. 31 Significant DNA methylation modification was found in the MFAP2 gene, and its
+expression was positively correlated with DNMTs expression. Our results suggested
+that alterations in DNA methylation modifications of MFAP2 gene were likely to be
+involved in the occurrence and development of HCC. Therefore, DNMTs inhibitors
+mentioned above, such as RG108 or EHCCG, combined with TF inhibitors may be an
+effective treatment for HCC patients. In order to elucidate the molecular mechanisms
+underlining their roles, further research is necessary.
+
+The host immune response has been emphasized as a genetic biomarker for the disease
+with the production of multiple immune cells in HCC. Immune checkpoints involve
+membrane expression of different molecules, fine-tuning the immune responses. 32 Tregs are prominent among the immunosuppressive candidate cells in and around
+the tumor niche. Langhans et al. confirmed that peripheral Tregs upregulate
+checkpoint inhibitors and are involved in systemic immune dysfunction and anti-tumor
+activity through several inhibitory pathways, which may contribute to tumor
+development in HCC. 33 CTLA4 is a structural homologue of CD28 and expressed on activated T cells.
+Recently, some studies have focused on the relationship between CTLA4 SNPs and
+susceptibility to HCC, and Wang’s research demonstrated that CTLA4 could affect
+susceptibility to HCC via changing the immune status of the individuals. 34 TISIDB results indicated that MFAP2 expression is closely related to Tregs
+and some immunological checkpoints which have recently received more and more
+attention, such as CTLA4, TIGIT in HCC. Therefore, inhibitors that target these
+immune checkpoints might be particularly effective in the treatment of HCC patients,
+especially when used in combination with MFAP2 inhibitors. Finally, IL6R was
+negatively correlated with MFAP2; if the expression of MFAP2 is an effective
+indicator for judging the prognosis of HCC patients, IL6R might also be used as a
+useful biomarker for immunotherapy to reflect the immune microenvironment status of
+HCC patients.
+
+In summary, our data indicated that MFAP2 was significantly upregulated in HCC and
+was associated with tumor progression and prognosis, the higher MFAP2 expression,
+the poorer prognosis and survival. MFAP2 might promote the proliferation, migration
+and invasion in HCC cells. The study of DNMTs and TF inhibitors that may
+down-regulate MFAP2 has important clinical significance. MFAP2 might also be a
+promising prognostic biomarker and serve as a potential immunotherapy target in HCC
+patients ( Figure 7 ).
+
+A summary mechanism of MFAP2 in HCC. MFAP2 is involved in tumor progression
+and prognosis. Transcription factors, DNA methyltransferases, immune factors
+may interact with MFAP2 mRNA to promote tumor progression in HCC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+MFAP2 may play a key role in the development of HCC. Therefore, MFAP2 may be a
+valuable prognostic marker and an effective anticancer target in HCC.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

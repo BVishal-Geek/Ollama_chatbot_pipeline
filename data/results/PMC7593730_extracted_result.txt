@@ -1,0 +1,19 @@
+Source: PMC7593730_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "ACE2 and TMPRSS2 Potential Involvement in Genetic Susceptibility to SARS-COV-2 in Cancer Patients",
+  "condition_E": 1,
+  "condition_E_reason": "The dataset includes expression data of ACE2 and TMPRSS2 in 10,953 oncologic patients.",
+  "N_E": 1,
+  "N_E_reason": "The dataset includes 10,953 oncologic patients.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data were downloaded from the Tissue Cancer Genome Atlas (TCGA) and Genotype-Tissue Expression (GTEx) portal.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

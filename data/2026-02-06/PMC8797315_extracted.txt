@@ -1,0 +1,174 @@
+================================================================================
+ARTICLE TITLE: N 6 -methyladenosine (m 6 A) RNA methylation regulators are associated with clinical prognosis in hepatocellular carcinoma
+PMCID: PMC8797315
+PMID: 35117186
+KEYWORDS: m, epigenetics, hepatocellular carcinoma (hcc), prognostic signature
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+N 6 -methyladenosine (m 6 A) methylation is a common class of RNA modification. Similar to DNA methylation, m 6 A methylation regulates most mRNA expressions. At present, most research has found that m 6 A methylation is related to tumorigenesis and development; however, there are few studies about hepatocellular carcinoma (HCC). This study aimed to analyze the expression level of m 6 A methylation regulators and their correlation on the clinical features in HCC.
+
+Methods:
+A total of 13 m 6 A methylation regulators were evaluated. mRNA data and clinical information were obtained from the Cancer Genome Atlas (TCGA). The Wilcoxon test was utilized to analyze the differences between m 6 A RNA methylation regulators, and Pearson’s test was used to test the correlation between them. We constructed a tumor subgroup model based on the 13 molecules used for the analysis of the correlations with the clinical features. Two genes ( ZC3H13 and YTHDF2 ) screened by Cox and LASSO regression were used to construct a tumor risk model for analyzing the correlations with clinical features. Finally, we verified the expression of the two molecules in liver cancer and adjacent tissues by Western blot and real-time polymerase chain reaction (PCR) (n=6). P<0.05 was considered statistically significant.
+
+Results:
+Eleven of the 13 molecules were higher in the liver cancer tissues than the adjacent tissues (P<0.05), and most were significantly positively related. Two subgroup models were constructed. Subgroup 2 patients had higher levels of alpha-fetoprotein (AFP), while grade and the three-year survival were lower than subgroup 1 (49% vs. 77%) with significant differences (P<0.05). The risk model suggested that patients in the high-risk group showed high AFP levels, and the 3- and 5-year survival rates were lower than the low-risk group (3-year survival rate: 19% vs. 31%, 5-year survival rate: 12% vs. 17%). The Western blot test showed that the expression of YTHDF2 in the liver cancer tissues was greater than that in the precancerous tissues (P<0.05), while the expression of ZC3H13 was not significant. Real-time PCR showed that the expression of YTHDF2 mRNA in liver cancer tissues were higher than that in adjacent tissues (7.64±0.44 vs. 4.99±0.61, P=0.006), while the expression of ZC3H13 mRNA had no statistical difference (5.56±0.18 vs. 5.42±0.33, P>0.05). The results of the in vitro experiment were consistent with bioinformatic analysis.
+
+Conclusions:
+The abnormal expression of m 6 A methylation regulators in the liver tissues suggest that m 6 A may play an important role in the development of HCC. Tumor models we constructed that could effectively predict the prognosis of patients, and the clinical correlation results were consistent with clinical practices. Our research is expected to provide a reference for the prognostic stratification and treatment strategy development of HCC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+In the 1970s, it was discovered that m 6 A methylation is a post-transcription level regulation ( 1 ). It is widely found in different eukaryotes, including yeast, plants, and mammals ( 2 ). Due to the low sensitivity of early detection technologies on the m 6 A site being limited, it was not until 2011 that the first protein associated with demethylase fat mass and obesity ( FTO ) was clearly identified ( 3 ).
+
+There are three known kinds of enzymes that regulate m 6 A RNA modification: methyltransferases (“writers”), binding proteins (“readers”), and demethylases (“erasers”) ( 4 ). It has been widely reported that m 6 A RNA regulators involve 13 molecules; “writers” including methyltransferase like 3 ( METTL3 ), methyltransferase like 4 ( METTL14 ), RNA-binding motif protein 15 ( RBM15 ), WT1-associated protein ( WTAP ), zinc finger CCCH domain-containing protein 13 ( ZC3H13 ), KIAA1429 , “readers” including heterogeneous nuclear ribonucleoprotein C ( HNRNPC ), YTH domain-containing 1 ( YTHDC1 ), YTH domain-containing 1 ( YTHDC2 ), YTH N 6 -methyladenosine RNA-binding protein 1 ( YTHDF1 ), YTH N 6 -methyl adenosine RNA-binding protein 2 ( YTHDF2 ), and “erasers” including α-ketoglutarate-dependent dioxygenase alkB homolog 5 ( ALKBH5 ), and FTO ( 4 - 10 ).
+
+m 6 A methylation, like DNA methylation, can affect tumor progression by regulating the expression levels of tumor suppressor genes or oncogenes ( 11 ). m 6 A methylation is simultaneously associated with cancer stem cells and the response of anti-tumor drugs such as gemcitabine, 5-FU, etc. ( 12 - 14 ). Recent literature has reported that thirteen m 6 A RNA methylation regulators contribute to malignant progression and have a clinical prognostic impact for gliomas ( 15 ). At present, there are few studies on m 6 A methylation in liver cancer, and the existing studies mainly focus on the biological functions of individual molecules such as KIAA1429 and YTHDF2 ( 16 , 17 ). There are also few integral level analyses of the relationship between m 6 A RNA methylation regulators and clinical prognosis in hepatocellular carcinoma (HCC).
+
+We therefore systematically analyzed the expression of 13 reported m 6 A RNA regulators and the clinical characteristic in the Cancer Genome Atlas (TCGA) datasets in this study. We constructed a tumor subgroup model and a risk model to prove that m 6 A RNA methylation regulators are associated with the clinical prognosis of HCC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+RNA-seq transcription data and the corresponding clinical information data were obtained from the TCGA datasets (n=424). RNA-seq transcription data included 50 cases of precancerous tissue and 374 cases of cancer tissue. We extracted the expression data of the thirteen m 6 A RNA methylation regulators from it. A total of 135 clinical cases were obtained after removing invalid data. Clinical information included age, gender, grade, stage, vascular tumor cell type, Ishak fibrosis score, alpha-fetoprotein (AFP), Eastern Cooperative Oncology Group (ECOG) score, Child-Pugh score, family cancer history, overall survival (OS) time, and survival status. Liver cancer and adjacent tissues from the six HCC patients were collected from the General Hospital of Northern Theater Command. The study protocol was approved by the ethics committee of the General Hospital of Northern Theater Command.
+
+We extracted expression data of the 13 m 6 A RNA methylation regulators from the RNA-sequencing (RNA-seq) transcription data. According to the classification of cancer tissues and adjacent tissues, the Wilcoxon test was used to analyze the differential expression of the m 6 A RNA methylation regulators. Correlations between m 6 A RNA methylation regulators were analyzed by the Pearson’s correlation coefficient test.
+
+To clarify the functions of m 6 A RNA methylation regulators in HCC, we clustered the HCC into different groups using “Consensus Cluster Plus” (50 iterations, resample rate of 80%, and Pearson’s correlation, http://www.bioconductor.org/ ). Principal component analysis (PCA) analysis was used to evaluate the clustering effects. We combined all of the clinical data to determine the clinical value of the clustering results through clinical relevance analysis and survival analysis.
+
+To clarify the prognosis risk of the genes, we performed a univariate Cox regression analysis of the 13 genes. Based on the result, we constructed a risk model using the LASSO Cox regression algorithm and classified the results into either the high-risk group or the low-risk group. The risk score was calculated using the following formula:
+
+Where Coef i is the coefficient and x i is the expression value of each selected molecule. The receiver operating characteristic (ROC) curve was used to evaluate model accuracy, and multivariate Cox regression was used to analyze the independent prognostic role of the risk model.
+
+RIPA buffer containing the protease inhibitor PMSF (Solarbio Science & Technology Company, China) was used to lyse tissues on ice, and BCA kit (Solarbio Science & Technology Company, China) was used for protein quantification. A total of 20 µg proteins were separated by 10% SDS-PAGE and electro-blotted onto nitrocellulose (NC) membrane. After sealing with skimmed milk, the NC membrane was incubated with the first antibody at 4 °C overnight. The membranes were washed and incubated with the second antibody on the shaking table at room temperature for two hours. ECL chemiluminescence kit (Advansta, USA) was used to visualize the protein bands. β-actin was used as a control. The main antibodies used in this study included YTHDF2 (1:1,000) and ZC3H13 (1:1,000) (Abcam, USA).
+
+For mRNA quantifications of YTHDF2 and ZC3H13 , cDNA was synthesized by DNase treatment and reverse transcription (TIANGEN Biotech Company, China). Real-time PCR was on TL988 Real-Time PCR Detection System (TIANLONG, China). The primers were listed in Table 1 . The mRNA levels of the selected genes were normalized to that of the reference gene β-actin , and the value were calculated by the 2 −ΔΔCt method. The results are expressed as the means ± standard error based on three independent experiments.
+
+SPSS 20.0 (SPSS Inc. Chicago, IL, USA) was used for statistical analysis of clinical data. Wilcoxon test was used to compare the differences in each group. A chi-square test was used to analyze the correlation in the different groups. The Kaplan-Meier method was used to compare the OS of the patients in cluster groups or in the high-risk and low-risk groups. Statistical analysis of all RNA-seq transcriptome data was conducted using R v3.4.1 ( https://www.r-project.org/ ). P<0.05 was considered statistically significant.
+
+
+Datasets and patient samples
+
+RNA-seq transcription data and the corresponding clinical information data were obtained from the TCGA datasets (n=424). RNA-seq transcription data included 50 cases of precancerous tissue and 374 cases of cancer tissue. We extracted the expression data of the thirteen m 6 A RNA methylation regulators from it. A total of 135 clinical cases were obtained after removing invalid data. Clinical information included age, gender, grade, stage, vascular tumor cell type, Ishak fibrosis score, alpha-fetoprotein (AFP), Eastern Cooperative Oncology Group (ECOG) score, Child-Pugh score, family cancer history, overall survival (OS) time, and survival status. Liver cancer and adjacent tissues from the six HCC patients were collected from the General Hospital of Northern Theater Command. The study protocol was approved by the ethics committee of the General Hospital of Northern Theater Command.
+
+
+Bioinformatic analysis
+
+We extracted expression data of the 13 m 6 A RNA methylation regulators from the RNA-sequencing (RNA-seq) transcription data. According to the classification of cancer tissues and adjacent tissues, the Wilcoxon test was used to analyze the differential expression of the m 6 A RNA methylation regulators. Correlations between m 6 A RNA methylation regulators were analyzed by the Pearson’s correlation coefficient test.
+
+To clarify the functions of m 6 A RNA methylation regulators in HCC, we clustered the HCC into different groups using “Consensus Cluster Plus” (50 iterations, resample rate of 80%, and Pearson’s correlation, http://www.bioconductor.org/ ). Principal component analysis (PCA) analysis was used to evaluate the clustering effects. We combined all of the clinical data to determine the clinical value of the clustering results through clinical relevance analysis and survival analysis.
+
+To clarify the prognosis risk of the genes, we performed a univariate Cox regression analysis of the 13 genes. Based on the result, we constructed a risk model using the LASSO Cox regression algorithm and classified the results into either the high-risk group or the low-risk group. The risk score was calculated using the following formula:
+
+Where Coef i is the coefficient and x i is the expression value of each selected molecule. The receiver operating characteristic (ROC) curve was used to evaluate model accuracy, and multivariate Cox regression was used to analyze the independent prognostic role of the risk model.
+
+RIPA buffer containing the protease inhibitor PMSF (Solarbio Science & Technology Company, China) was used to lyse tissues on ice, and BCA kit (Solarbio Science & Technology Company, China) was used for protein quantification. A total of 20 µg proteins were separated by 10% SDS-PAGE and electro-blotted onto nitrocellulose (NC) membrane. After sealing with skimmed milk, the NC membrane was incubated with the first antibody at 4 °C overnight. The membranes were washed and incubated with the second antibody on the shaking table at room temperature for two hours. ECL chemiluminescence kit (Advansta, USA) was used to visualize the protein bands. β-actin was used as a control. The main antibodies used in this study included YTHDF2 (1:1,000) and ZC3H13 (1:1,000) (Abcam, USA).
+
+For mRNA quantifications of YTHDF2 and ZC3H13 , cDNA was synthesized by DNase treatment and reverse transcription (TIANGEN Biotech Company, China). Real-time PCR was on TL988 Real-Time PCR Detection System (TIANLONG, China). The primers were listed in Table 1 . The mRNA levels of the selected genes were normalized to that of the reference gene β-actin , and the value were calculated by the 2 −ΔΔCt method. The results are expressed as the means ± standard error based on three independent experiments.
+
+
+Statistical analysis
+
+SPSS 20.0 (SPSS Inc. Chicago, IL, USA) was used for statistical analysis of clinical data. Wilcoxon test was used to compare the differences in each group. A chi-square test was used to analyze the correlation in the different groups. The Kaplan-Meier method was used to compare the OS of the patients in cluster groups or in the high-risk and low-risk groups. Statistical analysis of all RNA-seq transcriptome data was conducted using R v3.4.1 ( https://www.r-project.org/ ). P<0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Considering the various biological functions of each m 6 A RNA methylation regulator on HCC, we analyzed the expression of each molecule in liver cancer and adjacent tissues. The results showed that the expression of mostly m 6 A RNA methylation regulators was higher in the cancer tissues (P<0.01) ( Figure 1A,B,C,D,E,F,G,H,I,J,K ), and only METTL14 (P=0.062) and ZC3H13 (P=0.831) were not significantly different ( Figure 1L,M ). To observe the differential expression of all molecules more intuitively, we plotted the summary maps ( Figure 1N,O ). The results suggested that m 6 A methylation may play a significant role in tumorigenesis and development. In addition, we performed a correlation analysis of m 6 A RNA methylation regulators, and most were positively correlated ( Figure 1P ).
+
+Expression of m 6 A RNA methylation regulators in hepatocellular carcinoma. (A,B,C,D,E,F,G,H,I,J,K,L,M) The expression levels of each m 6 A RNA methylation regulators in hepatocellular carcinoma; (N,O) the expression levels of thirteen m 6 A RNA methylation regulators; (P) the correlation of thirteen m 6 A RNA methylation regulators. ***, P<0.001. m 6 A, N 6 -methyladenosine.
+
+Considering the clustering stability and the number of each group, we divided the patients into two subgroups clustered by k=2, namely, cluster 1 and cluster 2 ( Figure 2A,B ). The clinical data of the two subgroups clustered are given in Table 2 . PCA analysis suggested that the two subgroups clustered had a difference in the expression of m 6 A RNA methylation regulators ( Figure 2C ). On that basis, we further compared the clinical features of the two groups. Survival curves showed a significant difference in OS between the two subgroups clustered (P=0.011) ( Figure 2D ). The 3-year survival rate of cluster 1 was significantly greater than that of cluster 2 (77% vs. 49%). Child-Pugh B, AFP ≥400 µg/L, and low grade were mostly concentrated in cluster 2, indicating a poor clinical outcome ( Figure 2E ).
+
+Differential clinical outcome of hepatocellular carcinoma in the cluster 1 and cluster 2 subgroups. (A) Consensus clustering cumulative distribution function (CDF) for k=2 to 9; (B) identification of consensus clusters by m 6 A RNA methylation regulators (k=2); (C) PCA in the cluster 1 and cluster 2; (D) Kaplan-Meier overall survival curves for patients in the cluster 1 and cluster 2; (E) correlation of clinical features with different subgroups. *, P<0.05; **, P<0.01. m 6 A, N 6 -methyladenosine; PCA, principal component analysis.
+
+Ishak fibrosis score: 0—no fibrosis; 1,2—portal fibrosis; 3,4—fibrous septa; 5—nodular formation and incomplete cirrhosis; 6—established cirrhosis. AFP, alpha-fetoprotein; ECOG, Eastern Cooperative Oncology Group.
+
+We next looked for prognostic risk roles of m 6 A RNA methylation regulators in HCC. Univariate Cox regression analysis suggested that only the expression levels of ZC3H13 and YTHDF2 were related to OS (P<0.05) ( Figure 3A ). We constructed a LASSO regression model based on the expression of ZC3H13 (Coef i = −0.195) and YTHDF2 (Coef i =0.094) and analyzed the scores among different patients, which were subdivided into high-risk and low-risk groups ( Figure 3B ). The clinical data of the patients are shown in Table 3 . Survival curves showed a significant difference in OS between the two groups ( Figure 3C ) (P<0.01). The 3-year survival rate and the 5-year survival rate of the high-risk group were less than those of the low-risk group (3-year survival rate: 19% vs. 31%, 5-year survival rate: 12% vs. 17%, respectively). The ROC curve verifies the predictive efficiency of the risk model for survival prediction ( Figure 3D ). Higher grade was concentrated in the high-risk group, indicating a poor clinical outcome, and the results are in agreement with the subgroup’s analysis ( Figure 3E ). Univariate and multivariate Cox regression results suggest that the model we constructed can be used as an independent risk factor for predicting the prognosis of HCC ( Figure 3F,G ).
+
+The risk model for predicting the clinical prognosis of hepatocellular carcinoma. (A) Univariate Cox regression analysis the prognostic role of m 6 A RNA methylation regulators; (B) LASSO regression model was constructed for the risk score. (C) Kaplan-Meier overall survival curves for patients in the different risk groups; (D) ROC curve showed the predictive efficiency of the risk model; (E) correlation of clinical features with different risk groups; (F,G) univariate and multivariate Cox regression analyses of the association between clinical factors and OS of patients in hepatocellular carcinoma. **, P<0.01. m 6 A, N 6 -methyladenosine; ROC, receiver operating characteristic; OS, overall survival.
+
+Ishak fibrosis score: 0—no fibrosis; 1,2—portal fibrosis; 3,4—fibrous septa; 5—nodular formation and incomplete cirrhosis; 6—established cirrhosis. AFP, alpha-fetoprotein; ECOG, Eastern Cooperative Oncology Group.
+
+The results were verified by Western blot with in vitro experiment, which can be seen in Figure 4A . Compared with precancerous tissues, the protein level of YTHDF2 in cancer tissues was higher, while the distribution of ZC3H12 protein had no significant difference. We also verified the mRNA level in vitro . With β-actin as a reference, real-time PCR showed that the relative expression of YTHDF2 mRNA was 7.64±0.44, which was higher than precancerous tissues (4.99±0.61) (P=0.006). There was no statistical difference in the expression of ZC3H13 mRNA (5.56±0.18 vs. 5.42±0.33, P>0.05), and those can be seen in Figure 4B,C . The results of the in vitro experiment are consistent with the analysis from TCGA database.
+
+Expression of ZC3H13 and YTHDF2 in liver cancer and adjacent tissues. (A) The protein levels of ZC3H13 and YTHDF2 in liver cancer and adjacent tissues; (B,C) the relative mRNA levels of ZC3H13 and YTHDF2 in liver cancer and adjacent tissues.
+
+
+Expression of m
+
+Considering the various biological functions of each m 6 A RNA methylation regulator on HCC, we analyzed the expression of each molecule in liver cancer and adjacent tissues. The results showed that the expression of mostly m 6 A RNA methylation regulators was higher in the cancer tissues (P<0.01) ( Figure 1A,B,C,D,E,F,G,H,I,J,K ), and only METTL14 (P=0.062) and ZC3H13 (P=0.831) were not significantly different ( Figure 1L,M ). To observe the differential expression of all molecules more intuitively, we plotted the summary maps ( Figure 1N,O ). The results suggested that m 6 A methylation may play a significant role in tumorigenesis and development. In addition, we performed a correlation analysis of m 6 A RNA methylation regulators, and most were positively correlated ( Figure 1P ).
+
+Expression of m 6 A RNA methylation regulators in hepatocellular carcinoma. (A,B,C,D,E,F,G,H,I,J,K,L,M) The expression levels of each m 6 A RNA methylation regulators in hepatocellular carcinoma; (N,O) the expression levels of thirteen m 6 A RNA methylation regulators; (P) the correlation of thirteen m 6 A RNA methylation regulators. ***, P<0.001. m 6 A, N 6 -methyladenosine.
+
+
+Consensus clustering of m6A RNA methylation regulators identified two clusters of HCCs with different clinical features
+
+Considering the clustering stability and the number of each group, we divided the patients into two subgroups clustered by k=2, namely, cluster 1 and cluster 2 ( Figure 2A,B ). The clinical data of the two subgroups clustered are given in Table 2 . PCA analysis suggested that the two subgroups clustered had a difference in the expression of m 6 A RNA methylation regulators ( Figure 2C ). On that basis, we further compared the clinical features of the two groups. Survival curves showed a significant difference in OS between the two subgroups clustered (P=0.011) ( Figure 2D ). The 3-year survival rate of cluster 1 was significantly greater than that of cluster 2 (77% vs. 49%). Child-Pugh B, AFP ≥400 µg/L, and low grade were mostly concentrated in cluster 2, indicating a poor clinical outcome ( Figure 2E ).
+
+Differential clinical outcome of hepatocellular carcinoma in the cluster 1 and cluster 2 subgroups. (A) Consensus clustering cumulative distribution function (CDF) for k=2 to 9; (B) identification of consensus clusters by m 6 A RNA methylation regulators (k=2); (C) PCA in the cluster 1 and cluster 2; (D) Kaplan-Meier overall survival curves for patients in the cluster 1 and cluster 2; (E) correlation of clinical features with different subgroups. *, P<0.05; **, P<0.01. m 6 A, N 6 -methyladenosine; PCA, principal component analysis.
+
+Ishak fibrosis score: 0—no fibrosis; 1,2—portal fibrosis; 3,4—fibrous septa; 5—nodular formation and incomplete cirrhosis; 6—established cirrhosis. AFP, alpha-fetoprotein; ECOG, Eastern Cooperative Oncology Group.
+
+
+Constructing a risk model by using two selected m
+
+We next looked for prognostic risk roles of m 6 A RNA methylation regulators in HCC. Univariate Cox regression analysis suggested that only the expression levels of ZC3H13 and YTHDF2 were related to OS (P<0.05) ( Figure 3A ). We constructed a LASSO regression model based on the expression of ZC3H13 (Coef i = −0.195) and YTHDF2 (Coef i =0.094) and analyzed the scores among different patients, which were subdivided into high-risk and low-risk groups ( Figure 3B ). The clinical data of the patients are shown in Table 3 . Survival curves showed a significant difference in OS between the two groups ( Figure 3C ) (P<0.01). The 3-year survival rate and the 5-year survival rate of the high-risk group were less than those of the low-risk group (3-year survival rate: 19% vs. 31%, 5-year survival rate: 12% vs. 17%, respectively). The ROC curve verifies the predictive efficiency of the risk model for survival prediction ( Figure 3D ). Higher grade was concentrated in the high-risk group, indicating a poor clinical outcome, and the results are in agreement with the subgroup’s analysis ( Figure 3E ). Univariate and multivariate Cox regression results suggest that the model we constructed can be used as an independent risk factor for predicting the prognosis of HCC ( Figure 3F,G ).
+
+The risk model for predicting the clinical prognosis of hepatocellular carcinoma. (A) Univariate Cox regression analysis the prognostic role of m 6 A RNA methylation regulators; (B) LASSO regression model was constructed for the risk score. (C) Kaplan-Meier overall survival curves for patients in the different risk groups; (D) ROC curve showed the predictive efficiency of the risk model; (E) correlation of clinical features with different risk groups; (F,G) univariate and multivariate Cox regression analyses of the association between clinical factors and OS of patients in hepatocellular carcinoma. **, P<0.01. m 6 A, N 6 -methyladenosine; ROC, receiver operating characteristic; OS, overall survival.
+
+Ishak fibrosis score: 0—no fibrosis; 1,2—portal fibrosis; 3,4—fibrous septa; 5—nodular formation and incomplete cirrhosis; 6—established cirrhosis. AFP, alpha-fetoprotein; ECOG, Eastern Cooperative Oncology Group.
+
+
+Expression of ZC3H13 and YTHDF2 genes in liver cancer and adjacent tissues
+
+The results were verified by Western blot with in vitro experiment, which can be seen in Figure 4A . Compared with precancerous tissues, the protein level of YTHDF2 in cancer tissues was higher, while the distribution of ZC3H12 protein had no significant difference. We also verified the mRNA level in vitro . With β-actin as a reference, real-time PCR showed that the relative expression of YTHDF2 mRNA was 7.64±0.44, which was higher than precancerous tissues (4.99±0.61) (P=0.006). There was no statistical difference in the expression of ZC3H13 mRNA (5.56±0.18 vs. 5.42±0.33, P>0.05), and those can be seen in Figure 4B,C . The results of the in vitro experiment are consistent with the analysis from TCGA database.
+
+Expression of ZC3H13 and YTHDF2 in liver cancer and adjacent tissues. (A) The protein levels of ZC3H13 and YTHDF2 in liver cancer and adjacent tissues; (B,C) the relative mRNA levels of ZC3H13 and YTHDF2 in liver cancer and adjacent tissues.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Liver cancer is one of the world’s most common malignant tumors, and among all malignant tumors, its mortality ranks third ( 18 ), with HCC accounting for 80–90% of all liver cancer ( 19 ). The early onset of HCC is not clear, and with a high metastasis level it is common for it to be drug resistant. HCC also has a high rate of recurrence ( 20 ). At present, the treatment of HCC is relatively simple. The main means are tyrosine kinase inhibitor (TKI)-targeted therapy such as sorafenib and immunotherapy ( 21 , 22 ). Under a single treatment condition, the prognosis of patients with HCC often differs significantly. A popular research area in the field of oncology is exploring the risk factors affecting the prognosis of HCC ( 23 , 24 ). Conventional risk factors affecting the development of HCC include the Child-Pugh score, Ishak fibrosis score, AFP, family cancer history, etc. ( 25 - 27 ). However, these factors are greatly affected by individual differences; for example, about 31% of HCC patients have an AFP of less than 400 µg/L, and as the age increases, AFP also shows a downward trend ( 28 ). The accuracy of using a single factor or multiple factors combined to analyze the prognosis is gloomy, and currently it is impossible to predict the prognosis of liver cancer patients effectively. More sensitive and accurate tumor markers are urgently needed for prognostic stratification and treatment strategy in the development of HCC.
+
+RNA m 6 A modification refers to a modification in which one hydrogen atom (-H) attached to the sixth nitrogen atom (N 6 ) on the adenine molecule is substituted with a methyl group (-CH4) ( 29 ). This modification is widely present in most eukaryotic mRNAs, and the m 6 A modification is the most abundant endogenous RNA modification ( 30 ). m 6 A modification occurs mostly in polyA mRNA and lncRNA, and is enriched in tissues such as those of the liver and testis ( 29 ). m 6 A modification plays a vital role in oocyte and central nervous system development in early studies ( 5 , 31 ). m 6 A methylation is involved in tumor progression, drug and radiotherapy resistance, and self-renewal of cancer stem cells in the field of oncology such as colorectal cancer, pancreatic cancer, and glioma ( 13 , 32 - 34 ).
+
+At present, there are few related studies on analyzing m 6 A methylation in HCC. Cheng et al. reported that KIAA1429 facilitated migration and invasion of HCC by inhibiting ID2 via up-regulating m 6 A modification of ID2 mRNA, and Chen et al. reported that METTL3 represses SOCS2 expression in HCC through an m 6 A-YTHDF2-dependent mechanism ( 16 , 17 ). Most studies have focused on only a single m 6 A RNA methylation regulator. It is worth mentioning that Zhou et al. confirmed that the combination of METTL3 and YTHDF1 could be regarded as a biological marker that reflects OS in HCC by bioinformatic analysis and clinical verification ( 35 ). m 6 A methylation is enriched in liver tissues, and current research also supports m 6 A as playing an important role in the occurrence and development of HCC ( 29 ). Given these findings and the results of the current study, it is necessary to construct a highly sensitive prognostic prediction model for HCC by combining m 6 A RNA methylation regulators.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+In this study, we analyzed the characteristics of 13 m 6 A RNA methylation regulators in HCC. We constructed a subtype model and a risk model to prove the correlation between m 6 A and OS or other clinical features. The subtype model and the risk model we constructed all showed OS differences between the different groups. In addition, both models were associated with clinical features, and the two models complemented each other. Furthermore, Western blot and real-time PCR were used to carry out in vitro experiments, and the results were consistent with those of bioinformatic analysis, which confirmed the validity of our study. m 6 A RNA methylation regulators are associated with clinical prognosis in HCC. We expect our study can provide a reference for the prognostic stratification and treatment strategy development of HCC.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

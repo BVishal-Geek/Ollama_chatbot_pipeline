@@ -1,0 +1,19 @@
+Source: PMC8480352_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Cervical Cancer Among Older Women: Analyses of Surveillance, Epidemiology and End Results Program Data",
+  "condition_E": 1,
+  "condition_E_reason": "Demographics included race, ethnicity, marital status, and insurance status for women diagnosed with cervical cancer.",
+  "N_E": 1,
+  "N_E_reason": "There were 22,610 cases of cervical cancer in the 21 SEER registries from 2012-2016.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,213 @@
+================================================================================
+ARTICLE TITLE: SLC6A8 Knockdown Suppresses the Invasion and Migration of Human Hepatocellular Carcinoma Huh-7 and Hep3B Cells
+PMCID: PMC7780307
+PMID: 33356959
+KEYWORDS: hepatocellular carcinoma cells, slc6a8, proliferation and apoptosis, migration and invasion
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Liver cancer is considered the sixth most commonly diagnosed cancer and the fourth leading cause of cancer-related deaths worldwide. Currently, there is no specific and effective therapy for hepatocellular carcinoma. Therefore, developing novel diagnostic and therapeutic strategies against hepatocellular carcinoma is of paramount importance. Solute carrier family 6 member 8 (SLC6A8) encodes the solute carrier family 6-8 to transport creatine into cells in a Na + and Cl - - dependent manner. SLC6A8 deficiency is characterized by intellectual disabilities, loss of speech, and behavioral abnormalities. Of concern, the association of SLC6A8 with hepatocellular carcinoma remains elusive. In this study, we revealed that SLC6A8 knockdown significantly induced apoptosis and suppressed the migration and invasion of Hep3B and Huh-7 cells. These findings depicted the vital role of SLC6A8 in the initiation and progression of human hepatocellular carcinoma.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+According to the Global Cancer Statistics in 2018, both new cancer cases and cancer-related deaths were 18.1 million and 9.6 million worldwide, respectively7. 1 However, liver cancer is considered the sixth commonly diagnosed cancer and the fourth leading cause of cancer-related deaths worldwide. Of concern, 841,000 new cases and 782,000 deaths are reported annually, hence seriously threatening the lives and health of people as well as accompanied by financial burden. 1 , 2 Based on the global new cases reported annually, 50% are from China but not exceeding 350,000 people. 3 Hepatocellular carcinoma (HCC) potentially advances into chronic liver disease following either hepatitis B virus (HBV) or hepatitis C virus (HCV) infection and alcohol consumption or metabolic syndrome. 4 Previous studies had determined HCC as a significant threat to the health and property safety of people. Besides, there is still a lack of mature and convincing theory on specific and precise cellular molecular mechanisms of the initiation and development of HCC. 5 Decrypting the underlying molecular mechanisms of cell biology will shed light on the complex molecular and cellular pathways that mediate the initiation and progression of HCC. In addition, it will provide a potential treatment strategy against HCC. 6 
+
+Solute carrier family 6 member 8 (SLC6A8) encodes the solute carrier family 6-8 to transport creatine into cells in a Na + and Cl - - dependent manner. 7 Since creatine is a nitrogen-containing acid involved in energy balance, it plays a vital role in ATP homoeostasis for high-energy demanding tissues such as heart, brain and skeletal muscle. 8 Creatine kinase converts creatine into an intracellular phosphocreatine, which serves as ATP storage. 9 Cerebral creatine deficiency syndrome (CCDS) is characterized by intellectual disability and aphasia. However, SLC6A8 defects are the common types of CCDS and are responsible for 2% of the related intellectual disability. 10 Therefore, deficiency of SLC6A8 in the brain will eventually lead to severe neurological diseases like epilepsy and mental retardation. 11 , 12 Although intellectual disability is the most profound hallmark of SLC6A8 deficiency patients, the rate of behavioral abnormalities mainly consists of high attention deficit, hyperactivity and autistic features. 13 Notably, the association of SLC6A8 deficiency with the intellectual disability and behavioral abnormalities were determined, but the role of SLC6A8 in the initiation and progression of cancer remains indistinct.
+
+We previously revealed that hypoxia-induced SLC6A8 expression significantly in hepatocellular carcinoma Huh-7 and Hep3B cells using the Gene Chip (Supplementary materials Figure 1). Besides, the SLC6A8 protein level was increased in the liver tissues of HCC patients which was correlated to the histological grade of HCC indicated in the TCGA database (Supplementary materials Figure 2). However, the role of increased SLC6A8 in the framework of hepatocellular carcinoma remains unclear.
+
+The present study purposed to explore the function and regulation of SLC6A8 on the phenotype of hepatocellular carcinoma. Based on loss-of-function studies, we demonstrated for the first time that knockdown of SLC6A8 suppressed the migration and invasion of Huh-7 and Hep3B cells in vitro . Furthermore, SLC6A8 knockdown partially mediated biological functions in human hepatocellular carcinoma.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+Human hepatocellular carcinoma Huh-7 and Hep3B cell lines were sourced from the Stem Cell Library of the Chinese Academy of Sciences. Huh-7 cells were maintained in Dulbecco’s modified Eagle’s medium (DMEM, HyClone) whereas Hep3B cells in Eagle’s Minimum Essential Medium (MEM, HyClone) supplemented with 10% fetal bovine serum (FBS, Gibco). 14 , 15 
+
+To silence SLC6A8, Huh-7 and Hep3B cells we transfected commercially synthesized lentiviral vectors harboring SLC6A8 siRNA. The lentiviral vectors containing siRNA sequences of NC, KD1 and KD2 ( Table 1 ) were synthesized by Shanghai Genechem Co., Ltd. Thereafter, the cells were classified into Con (no lentivirus transfection), NC (cells transfected with NC lentivirus), KD1 (cells transfected with lentivirus containing KD1 sequence) and KD2 (cells transfected with lentivirus containing KD2 sequence) groups. Either LV-SLC6A8-siRNA or LV-NC-siRNA was transfected into Huh-7 and Hep3B cells at 60% confluence followed by immediate addition of 2 μg/mL of puromycin and removed from the medium at 72 h later. Then, the transfection efficiency was determined via quantitative real-time PCR (RT-PCR), western blot and immunofluorescence assay.
+
+Primer Sequence of Negative Control, KD1 and KD2 siRNA of SLC6A8.
+
+Total RNA from each sample was isolated using Trizol (no.15596026, Invitrogen) as per the manufacturer’s instructions. Total RNA concentration was determined using ND-2000 Spectrophotometer (Thermo Fisher Scientific, USA). Quantitative real-time PCR (q-PCR) was performed with the KAPA SYBR FAST qPCR Kit (Kapa Biosystems, USA) using a 7300 Real-Time PCR System (Applied Biosystems, Waltham, MA). Primer pairs of mRNAs used are listed in Table 2 . RT-PCR data were analyzed using 2 -△△CT method. 16 
+
+Primers Used for Real-Time PCR.
+
+Following washing of treated cells with cold PBS, their proteins were extracted using radioimmunoprecipitation assay (RIPA) with a lysis buffer (P0013B, Beyotime Biotechnology, China) supplemented with protease inhibitor. The concentration of extracted protein was determined by BCA assay. 17 Proteins were separated using 12% SDS-polyacrylamide gel electrophoresis before transferred to polyvinylidene fluoride (PVDF) membranes using a wet membrane apparatus and blocked for 1 h with PBS containing 5% skimmed milk powder. 18 Details of primary antibodies used are in Table 3 .
+
+Specifications of Primary Antibodies.
+
+Cell viability was determined using 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) test. 19 Both Huh-7 and Hep3B cells were transfected for 12 h and seeded in 96-well plates at a concentration of 5 × 10 3 cells per well in 200 µL complete medium. Thereafter, 20 µL MTT liquid (5 mg/mL, A600799-0005, Sangon Biotech, Shanghai, China) was added on each well for 4 h after culturing for 48 h. Subsequently, 150 mL DMSO was added into each well and oscillated at low-speed on a shaker for 10 min after discarding the supernatant. Absorbance values were determined at 490 nm using an automated microplate reader (Nanophtoometer P360, Germany) after culturing the cells for 1–6 days. The growth curve was plotted on OD (y-axis) against time (x-axis).values at a wavelength of 490 nm were measured using an automated microplate reader.
+
+Apoptotic changes in KD-SLC6A8 Huh-7 and Hep3B cells were evaluated using terminal deoxynucleotidyl transferase dUTP nick-end labeling (TUNEL) staining assay (11684817910, Roche) according to the manufactures instructions. 20 The apoptotic index was determined from the TUNEL-positive cells counted at X 40 in random sections. A ratio of the numbers of positive to negative cells in each group was determined.
+
+Cell migration assays were used to determine the motility of human hepatocellular carcinoma cells. Briefly, Huh-7 and Hep3B cells were diluted to 1 × 10 5 cells/well and seeded in 24-well culture plates. Thereafter, the cell monolayer was gently scratched with a sterile 200-µL pipette tip to generate a straight thin gap. The scratched cells were washed twice to remove the cell debris using PBS. Images of the scratch were obtained at 0, 24 and 48 h while the width of the cell gap was quantified using Image J software. The migration ratio was calculated as follows:
+
+Migration ratio = (V To -V Tt )/V To × 100%. 21 
+
+Cell invasion ability was examined using Transwell assay with 24-well Transwell chambers (3413, Millipore, USA). 22 A total of 1 × 10 6 cells was resuspended in serum-free medium and seeded to the inner chamber. The bottom chamber was incubated with 600 µL medium containing 20% FBS with 3 replicates for 24 h. Consequently, cells on the basolateral chamber were stained, photographed and counted in 6 random fields per group using a microscope(200X).
+
+Statistical analysis was conducted using the GraphPad Prism 5 (GraphPad Software, USA). Data was presented in mean ± standard deviation. p < 0.05 was considered statistically significant on a one-way ANOVA using SPASS 18.0 (SPASS, IL) followed by Duncan’s post hoc test.
+
+
+Cell Culture
+
+Human hepatocellular carcinoma Huh-7 and Hep3B cell lines were sourced from the Stem Cell Library of the Chinese Academy of Sciences. Huh-7 cells were maintained in Dulbecco’s modified Eagle’s medium (DMEM, HyClone) whereas Hep3B cells in Eagle’s Minimum Essential Medium (MEM, HyClone) supplemented with 10% fetal bovine serum (FBS, Gibco). 14 , 15 
+
+
+SLC6A8 Gene Knockdown in Huh-7 and Hep3B Cells
+
+To silence SLC6A8, Huh-7 and Hep3B cells we transfected commercially synthesized lentiviral vectors harboring SLC6A8 siRNA. The lentiviral vectors containing siRNA sequences of NC, KD1 and KD2 ( Table 1 ) were synthesized by Shanghai Genechem Co., Ltd. Thereafter, the cells were classified into Con (no lentivirus transfection), NC (cells transfected with NC lentivirus), KD1 (cells transfected with lentivirus containing KD1 sequence) and KD2 (cells transfected with lentivirus containing KD2 sequence) groups. Either LV-SLC6A8-siRNA or LV-NC-siRNA was transfected into Huh-7 and Hep3B cells at 60% confluence followed by immediate addition of 2 μg/mL of puromycin and removed from the medium at 72 h later. Then, the transfection efficiency was determined via quantitative real-time PCR (RT-PCR), western blot and immunofluorescence assay.
+
+Primer Sequence of Negative Control, KD1 and KD2 siRNA of SLC6A8.
+
+
+Quantitative Real-Time Polymerase Chain Reaction (RT-PCR)
+
+Total RNA from each sample was isolated using Trizol (no.15596026, Invitrogen) as per the manufacturer’s instructions. Total RNA concentration was determined using ND-2000 Spectrophotometer (Thermo Fisher Scientific, USA). Quantitative real-time PCR (q-PCR) was performed with the KAPA SYBR FAST qPCR Kit (Kapa Biosystems, USA) using a 7300 Real-Time PCR System (Applied Biosystems, Waltham, MA). Primer pairs of mRNAs used are listed in Table 2 . RT-PCR data were analyzed using 2 -△△CT method. 16 
+
+Primers Used for Real-Time PCR.
+
+
+Western Blot
+
+Following washing of treated cells with cold PBS, their proteins were extracted using radioimmunoprecipitation assay (RIPA) with a lysis buffer (P0013B, Beyotime Biotechnology, China) supplemented with protease inhibitor. The concentration of extracted protein was determined by BCA assay. 17 Proteins were separated using 12% SDS-polyacrylamide gel electrophoresis before transferred to polyvinylidene fluoride (PVDF) membranes using a wet membrane apparatus and blocked for 1 h with PBS containing 5% skimmed milk powder. 18 Details of primary antibodies used are in Table 3 .
+
+Specifications of Primary Antibodies.
+
+
+Cell Viability Assay
+
+Cell viability was determined using 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) test. 19 Both Huh-7 and Hep3B cells were transfected for 12 h and seeded in 96-well plates at a concentration of 5 × 10 3 cells per well in 200 µL complete medium. Thereafter, 20 µL MTT liquid (5 mg/mL, A600799-0005, Sangon Biotech, Shanghai, China) was added on each well for 4 h after culturing for 48 h. Subsequently, 150 mL DMSO was added into each well and oscillated at low-speed on a shaker for 10 min after discarding the supernatant. Absorbance values were determined at 490 nm using an automated microplate reader (Nanophtoometer P360, Germany) after culturing the cells for 1–6 days. The growth curve was plotted on OD (y-axis) against time (x-axis).values at a wavelength of 490 nm were measured using an automated microplate reader.
+
+
+Cell Apoptosis Test
+
+Apoptotic changes in KD-SLC6A8 Huh-7 and Hep3B cells were evaluated using terminal deoxynucleotidyl transferase dUTP nick-end labeling (TUNEL) staining assay (11684817910, Roche) according to the manufactures instructions. 20 The apoptotic index was determined from the TUNEL-positive cells counted at X 40 in random sections. A ratio of the numbers of positive to negative cells in each group was determined.
+
+
+Cell Migration Assays
+
+Cell migration assays were used to determine the motility of human hepatocellular carcinoma cells. Briefly, Huh-7 and Hep3B cells were diluted to 1 × 10 5 cells/well and seeded in 24-well culture plates. Thereafter, the cell monolayer was gently scratched with a sterile 200-µL pipette tip to generate a straight thin gap. The scratched cells were washed twice to remove the cell debris using PBS. Images of the scratch were obtained at 0, 24 and 48 h while the width of the cell gap was quantified using Image J software. The migration ratio was calculated as follows:
+
+Migration ratio = (V To -V Tt )/V To × 100%. 21 
+
+
+Cell Invasion Assays
+
+Cell invasion ability was examined using Transwell assay with 24-well Transwell chambers (3413, Millipore, USA). 22 A total of 1 × 10 6 cells was resuspended in serum-free medium and seeded to the inner chamber. The bottom chamber was incubated with 600 µL medium containing 20% FBS with 3 replicates for 24 h. Consequently, cells on the basolateral chamber were stained, photographed and counted in 6 random fields per group using a microscope(200X).
+
+
+Statistical Analysis
+
+Statistical analysis was conducted using the GraphPad Prism 5 (GraphPad Software, USA). Data was presented in mean ± standard deviation. p < 0.05 was considered statistically significant on a one-way ANOVA using SPASS 18.0 (SPASS, IL) followed by Duncan’s post hoc test.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To explore the potential role of the SLC6A8 gene in human hepatocellular carcinoma, we genetically manipulated Huh-7 and Hep3B cells and developed cells with the SLC6A8 gene deleted (KD-SLC6A8). Based on the immunofluorescence assay, the transfection efficiency of LV- SLC6A8-siRNA in Huh-7 and Hep3B cells was more than 90% ( Figure 1A ). Absence of the SLC6A8 gene was observed at the mRNA level using RT-PCR in the KD- SLC6A8 Huh-7 and Hep3B cells ( Figure 1B ). The relative expression of SLC6A8 in Huh-7 cells was 1 ± 0.10, 1.29 ± 0.11, 0.23 ± 0.10 and 0.61 ± 0.06 in CON, NC, KD1 and KD2 group, respectively. However, the relative expression of SLC6A8 in Hep3B cells was 1 ± 0.07, 1.36 ± 0.05, 0.47 ± 0.05 and 0.75 ± 0.12 in CON, NC, KD1 and KD2 group, respectively. SLC6A8 level in the KD group was significantly less than in the NC group ( p < 0.05). Interestingly, the knockdown efficiency of KD1 group was higher than the KD2 group for both Huh-7 and Hep3B cells. Besides, the absence of the SLC6A8 gene was observed at the protein level using Western blot assay ( Figure 2A and B ). The reduced expression of SLC6A8 led to the decline of the HiFα expression ( Figure 2A and B ).
+
+The expression of SLC6A8 was silenced in Hep3B and Huh-7 cells. A. The transfection efficiency of LV-SLC6A8-siRNA in Hep3B and Huh-7 cells were analyzed by immunofluorescence assay. B. The expression of SLC6A8 in GNE-2 and Huh-7 cells was verified by real time-PCR. Data are from 3 independent experiments shown as mean + SD. *p < 0.05.
+
+The absence of the SLC6A8 gene was observed at the protein level. A. The expression of SLC6A8 and HiF1а in Hep3B and Huh-7 cells were analyzed by Western blot. B. The ratios of SLC6A8/GAPDH and HiF1а/LaminB were determined by densitometry. Densitometry data are shown as mean ± SD. (n = 3, *p < 0.05)
+
+Based on MTT assay, the viability of KD-SLC6A8 Huh-7 and Hep3B cells were significantly decreased ( p < 0.05) ( Figure 3 ). No remarkable change in proliferation rate and cell viability in KD group compared to NC group when SLC6A8 was silenced for 2 days in Hep3B cells, while the proliferation rate and cell viability decreased significantly on 4th and 5th day after SLC6A8 was silenced ( Figure 3A ). The proliferation rate and cell viability were significantly reduced on the 2nd day following the SLC6A8 silencing in Huh-7 cells ( Figure 2B ). Results revealed that silencing SLC6A8 in Huh-7 and Hep3B cells suppressed Huh-7 and Hep3B cells proliferation.
+
+SLC6A8 silencing suppressed cell proliferation in Hep3B and Huh-7 cells. A. Cell proliferation after transfection in Hep3B cells detected by 3-(4,5-dimethylthiazol-2-yl) -2,5-diphenyltetrazolium bromide (MTT). B. Cell proliferation after transfection in Huh-7 cells detected by MTT. Data are from 3 independent experiments shown as mean + SD. # p < 0.05 represents KD1 versus control, *p < 0.05 represents KD2 versus control.
+
+The apoptosis of KD-SLC6A8 Huh-7 and Hep3B cells were significantly increased as confirmed by TUNEL ( Figure 4A and B ). Dark brown stains in KD group cells indicated apoptosis, while the Con and NC cell displayed purple, Apoptotic cells are stained light gray by TUNEL . The results revealed that SLC6A 8 silencing accelerated the apoptosis of Huh-7 and Hep3B cells.
+
+SLC6A8 silencing induced cell apoptosis in Hep3B and Huh-7 cells. A. Cell apoptosis after transfection in Hep3B cells detected by terminal deoxynucleotidyl transferase dUTP nick-end labeling (TUNEL). B. Cell proliferation after transfection in Huh-7 cells detected by MTT. Data are from 3 independent experiments shown as mean + SD. *p < 0.05.
+
+To determine the role of SLC6A8 in advancing human hepatocellular carcinoma, we detected the migration ability of SLC6A8-KD Huh-7 and Hep3B cells using the scratch test. By silencing SLC6A8, it blocked the migration of SLC6A8-KD Hep3B cells while KD1 had an immense inhibition effect than KD2 group ( Figure 5A and B ). However, silencing SLC6A8 had no significant inhibition effect on the migration of SLC6A8-KD Huh-7 cells ( Figure 6A and B ).
+
+SLC6A8 silencing suppressed cell migration in Hep3B cells. A. Representative images showing the effects of SLC6A8-KD on the migration of Hep3B cells. B. Quantification of the migration rate in 3 separate experiments was shown. Data are shown as mean + SD. (n = 3, *p < 0.05)
+
+SLC6A8 silencing suppressed cell migration in Huh-7 cells. A. Representative images showing the effects of SLC6A8-KD on the migration of Huh-7 cells. B. Quantification of the migration rate in 3 separate experiments was shown. Data are shown as mean + SD. (n = 3, *p < 0.05)
+
+To determine whether SLC6A8 regulates the invasion of Huh-7 and Hep3B cells, Transwell assay was used to detect the invasion ability of SLC6A8-KD Hep3B and Huh-7 cells. We demonstrated that knockdown of SLC6A8 profoundly suppressed the invasion of both Hep3B and Huh-7 cells ( Figure 7A and B ).
+
+SLC6A8 Knockdown blocked the invasion of human hepatocellular carcinoma cells. A. Evaluation of invasion abilities of Huh-7 cells by Transwell invasion assay. B. Evaluation of invasion abilities of Hep3B cells by Transwell invasion assay. Representative images are shown (magnification ×200). Results are expressed as means ± SD. (n = 3, *p < 0.05)
+
+
+Construction of SLC6A8 Gene KnockDown (KD) in Human hepatocellular Carcinoma (Huh-7 and Hep3B) Cells
+
+To explore the potential role of the SLC6A8 gene in human hepatocellular carcinoma, we genetically manipulated Huh-7 and Hep3B cells and developed cells with the SLC6A8 gene deleted (KD-SLC6A8). Based on the immunofluorescence assay, the transfection efficiency of LV- SLC6A8-siRNA in Huh-7 and Hep3B cells was more than 90% ( Figure 1A ). Absence of the SLC6A8 gene was observed at the mRNA level using RT-PCR in the KD- SLC6A8 Huh-7 and Hep3B cells ( Figure 1B ). The relative expression of SLC6A8 in Huh-7 cells was 1 ± 0.10, 1.29 ± 0.11, 0.23 ± 0.10 and 0.61 ± 0.06 in CON, NC, KD1 and KD2 group, respectively. However, the relative expression of SLC6A8 in Hep3B cells was 1 ± 0.07, 1.36 ± 0.05, 0.47 ± 0.05 and 0.75 ± 0.12 in CON, NC, KD1 and KD2 group, respectively. SLC6A8 level in the KD group was significantly less than in the NC group ( p < 0.05). Interestingly, the knockdown efficiency of KD1 group was higher than the KD2 group for both Huh-7 and Hep3B cells. Besides, the absence of the SLC6A8 gene was observed at the protein level using Western blot assay ( Figure 2A and B ). The reduced expression of SLC6A8 led to the decline of the HiFα expression ( Figure 2A and B ).
+
+The expression of SLC6A8 was silenced in Hep3B and Huh-7 cells. A. The transfection efficiency of LV-SLC6A8-siRNA in Hep3B and Huh-7 cells were analyzed by immunofluorescence assay. B. The expression of SLC6A8 in GNE-2 and Huh-7 cells was verified by real time-PCR. Data are from 3 independent experiments shown as mean + SD. *p < 0.05.
+
+The absence of the SLC6A8 gene was observed at the protein level. A. The expression of SLC6A8 and HiF1а in Hep3B and Huh-7 cells were analyzed by Western blot. B. The ratios of SLC6A8/GAPDH and HiF1а/LaminB were determined by densitometry. Densitometry data are shown as mean ± SD. (n = 3, *p < 0.05)
+
+
+SLC6A8 Knockdown Suppressed the Proliferation of Huh-7 and Hep3B Cells
+
+Based on MTT assay, the viability of KD-SLC6A8 Huh-7 and Hep3B cells were significantly decreased ( p < 0.05) ( Figure 3 ). No remarkable change in proliferation rate and cell viability in KD group compared to NC group when SLC6A8 was silenced for 2 days in Hep3B cells, while the proliferation rate and cell viability decreased significantly on 4th and 5th day after SLC6A8 was silenced ( Figure 3A ). The proliferation rate and cell viability were significantly reduced on the 2nd day following the SLC6A8 silencing in Huh-7 cells ( Figure 2B ). Results revealed that silencing SLC6A8 in Huh-7 and Hep3B cells suppressed Huh-7 and Hep3B cells proliferation.
+
+SLC6A8 silencing suppressed cell proliferation in Hep3B and Huh-7 cells. A. Cell proliferation after transfection in Hep3B cells detected by 3-(4,5-dimethylthiazol-2-yl) -2,5-diphenyltetrazolium bromide (MTT). B. Cell proliferation after transfection in Huh-7 cells detected by MTT. Data are from 3 independent experiments shown as mean + SD. # p < 0.05 represents KD1 versus control, *p < 0.05 represents KD2 versus control.
+
+
+SLC6A8 Silencing Induces Apoptosis of Huh-7 and Hep3B Cells
+
+The apoptosis of KD-SLC6A8 Huh-7 and Hep3B cells were significantly increased as confirmed by TUNEL ( Figure 4A and B ). Dark brown stains in KD group cells indicated apoptosis, while the Con and NC cell displayed purple, Apoptotic cells are stained light gray by TUNEL . The results revealed that SLC6A 8 silencing accelerated the apoptosis of Huh-7 and Hep3B cells.
+
+SLC6A8 silencing induced cell apoptosis in Hep3B and Huh-7 cells. A. Cell apoptosis after transfection in Hep3B cells detected by terminal deoxynucleotidyl transferase dUTP nick-end labeling (TUNEL). B. Cell proliferation after transfection in Huh-7 cells detected by MTT. Data are from 3 independent experiments shown as mean + SD. *p < 0.05.
+
+
+SLC6A8 Knockdown Blocked the Migration of Huh-7 and Hep3B Cells
+
+To determine the role of SLC6A8 in advancing human hepatocellular carcinoma, we detected the migration ability of SLC6A8-KD Huh-7 and Hep3B cells using the scratch test. By silencing SLC6A8, it blocked the migration of SLC6A8-KD Hep3B cells while KD1 had an immense inhibition effect than KD2 group ( Figure 5A and B ). However, silencing SLC6A8 had no significant inhibition effect on the migration of SLC6A8-KD Huh-7 cells ( Figure 6A and B ).
+
+SLC6A8 silencing suppressed cell migration in Hep3B cells. A. Representative images showing the effects of SLC6A8-KD on the migration of Hep3B cells. B. Quantification of the migration rate in 3 separate experiments was shown. Data are shown as mean + SD. (n = 3, *p < 0.05)
+
+SLC6A8 silencing suppressed cell migration in Huh-7 cells. A. Representative images showing the effects of SLC6A8-KD on the migration of Huh-7 cells. B. Quantification of the migration rate in 3 separate experiments was shown. Data are shown as mean + SD. (n = 3, *p < 0.05)
+
+
+Knockdown of SLC6A8 Inhibited the Invasion of Huh-7 and Hep3B Cells
+
+To determine whether SLC6A8 regulates the invasion of Huh-7 and Hep3B cells, Transwell assay was used to detect the invasion ability of SLC6A8-KD Hep3B and Huh-7 cells. We demonstrated that knockdown of SLC6A8 profoundly suppressed the invasion of both Hep3B and Huh-7 cells ( Figure 7A and B ).
+
+SLC6A8 Knockdown blocked the invasion of human hepatocellular carcinoma cells. A. Evaluation of invasion abilities of Huh-7 cells by Transwell invasion assay. B. Evaluation of invasion abilities of Hep3B cells by Transwell invasion assay. Representative images are shown (magnification ×200). Results are expressed as means ± SD. (n = 3, *p < 0.05)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Liver cancer, as the common malignant tumor with poor prognosis, is the second most lethal cancer globally. 2 , 23 Rates of both incidence and mortality of liver cancer are 2 to 3 times higher than that of woman among men in most world regions. 2 Currently, the commonly used clinical treatment methods against hepatocellular carcinoma are surgical resection, radiotherapy, chemotherapy, hepatic artery chemoembolization (TACE) and comprehensive treatment. 24 , 25 Due to the limited and nonspecific serum markers of late diagnosis and tumor-associated resistance, the therapeutic effect on invasive and metastatic cancer remains poor 24 However, clinical practice and basic research have shown that the effect of these treatments are not ideal and cause problems such as chemotherapy resistance, treatment on recurrence and metastasis. Therefore, there is an urgent need to find new and effective targets for early diagnosis, treatment and prognosis of tumors.
+
+RNA interference (RNAi) is a novel and powerful gene silencing tool that has potential in treating cancer and other diseases. 26 The initiation of RNAi depends on various small RNA, which play an important role in the degradation of messenger RNA. RNAi refers to the adoption of silent gene expressions such as short hair clip RNA (shRNA), small interference RNA (siRNA), and tiny interference (miRNA). However, SLC6A8 also called CRT, was highly expressed in hepatocellular carcinoma tissues and encoded a member of the solute carrier 6 family that specifically transports creatine into cells. 27 High expression of SLC6A8 has been revealed in creatine-demanding organs such as skeletal muscle and brain. 28 Characteristically, SLC6A8 deficiency leads to the absence of brain creatine and intellectual disabilities, loss of speech, and behavioral abnormalities. 29 - 31 Following the consistent of the clinical manifestations of patients with SLC6A8 mutations, SLC6A8 deficiency in mice causes cognitive ability deficits and reduces body weight. 32 Low expression of SLC6A8 was detected in mucosal biopsy specimens of patients with ulcerative colitis and inactive Crohn’s disease, hence attributed to the reduced barrier function observed in inflammatory bowel diseases patients. 33 However, the association ofSLC6A8 with hepatocellular carcinoma remains unclear. Besides using the loss-of-function studies, our study explores the function of SLC6A8 on human hepatocellular carcinoma cells.
+
+Both the Hep3B and Huh-7 cells were used as surrogates for human hepatocellular carcinoma cells. Besides, Hep3B and Huh-7 cell lines were utilized to assess the drug metabolism and toxicity of the human liver despite being proposed as an in vitro model for human hepatocellular carcinoma cells. 34 , 35 On the other hand, the role of SLC6A8 in human hepatocellular carcinoma cells was examined following the SLC6A8 gene knockdown by transfecting lentivirus vectors harboring SLC6A8 siRNA, which is an efficient and highly specific approach for engineering eukaryotic genomes. 36 - 38 In the knockdown cells, there was a significantly low expression of SLC6A8, thus confirming the efficiency of the partial removal of the gene. Due to the knockdown of SLC6A8 expression by siRNA, proliferation was suppressed, but apoptosis was significantly induced in Huh7 and Hep3B cells. Similar findings were observed when determining the role of SLC6A8 in fibroblasts on creatine deficiency syndrome patients. 39 Furthermore, the in vitro silencing of SLC6A8 suppressed the invasion and migration of both Huh7 and Hep3B cells, indicating that SLC6A8 may be a potential tumor promoter in human hepatocellular carcinoma. Therefore, silencing of the SLC6A8 gene represents a promising novel therapeutic target for the treatment of hepatocellular carcinoma.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In summary, the present study showed knockdown of the SLC6A8 gene induces apoptosis and suppresses the migration and invasion of Hep3B and Huh-7 cells. These findings indicate that SLC6A8 is a promising therapeutic target for HCC.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplementary_materials - SLC6A8 Knockdown Suppresses the Invasion and Migration of Human Hepatocellular Carcinoma Huh-7 and Hep3B Cells
+File: Supplementary_materials.pdf

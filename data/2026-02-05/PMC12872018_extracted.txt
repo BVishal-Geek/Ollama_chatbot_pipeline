@@ -1,0 +1,202 @@
+================================================================================
+ARTICLE TITLE: Analysis of the current status and influencing factors of kinesiophobia in tumor patients with peripherally inserted central catheter: A cross-sectional study
+PMCID: PMC12872018
+PMID: 41637468
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+Peripherally Inserted Central Catheters (PICCs) are widely utilized in tumor patients due to their lower risk of complications, extended indwelling duration, reduced local tissue trauma, and overall cost-effectiveness. Based on the Health Action Process Approach (HAPA) theory, this study aims to explore the current status and influencing factors of kinesiophobia in tumor patients with PICCs. The study provides reference for clarifying the mechanism of kinesiophobia and developing nursing intervention plans.
+
+Method:
+Through convenience sampling, 162 tumor patients who underwent PICC maintenance in three hospitals in Jiangsu Province from December 4th, 2023, to December 31st, 2024 were selected. The patient general information questionnaire, Tampa scale of kinesiophobia, medical coping modes questionnaire, exercise self-efficacy scale, risk perception questionnaire, outcome expectation scale, exercise intention scale, and social support rating scale were used for evaluation.
+
+Result:
+Tumor patients carrying PICC had a kinesiophobia score of 20.11 ± 6.94 points, and 42.59% of tumor patients with PICC had kinesiophobia. The results of multiple linear regression showed that the duration of catheter placement(t = −3.506,P = 0.001), pain(t = 2.652,P = 0.009), exercise self-efficacy(t = −3.891,P < 0.001), and risk perception(t = 3.157,P = 0.002) are the main influencing factors of kinesiophobia in tumor patients with PICC.
+
+Conclusion:
+The findings underscore a significant clinical concern regarding kinesiophobia among tumor patients with PICC. It is essential for nursing staff to implement systematic assessments and tailored interventions aimed at mitigating kinesiophobia. Addressing this issue can contribute to reducing associated adverse reactions and improving patient mobility and overall quality of life.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Malignant tumors represent a major public health challenge in China, with incidence and mortality rates ranking among the highest globally [ 1 ]. Both domestic and international guidelines recognize that exercise testing and intervention are generally safe and effective for tumor patients. Proper exercise and physical activity can affect the tumor microenvironment, inhibit cancer cells, enhance immunity, and delay tumor progression of cancer patients [ 2 ]. However, recent meta-analyses have shown that 47% of tumor patients experience cancer-related pain [ 3 ], which can directly contribute to kinesiophobia—a debilitating fear of movement or physical activity due to pain or injury concerns [ 4 ]. For patients requiring chemotherapy, the peripherally inserted central catheter (PICC) has become the most widely used central venous catheter in China due to its minimally invasive nature, avoidance of repeated punctures, and convenience for safe medication [ 5 , 6 ]. During PICC catheterization, appropriate physical activity is recommended to lower the risk of catheter-associated deep vein thrombosis (CA-DVT) [ 7 ]. Nonetheless, some patients may avoid such activities due to concerns about catheter dislodgement, fracture, or limitations in performing movements with moderate amplitude or frequency [ 8 – 10 ]. Compared to other cancer populations, those with a PICC may exhibit significantly greater kinesiophobia, which in turn increases thrombosis risk and impairs daily functioning and independence.
+
+Exercise phobia, also known as kinesiophobia, refers to an irrational fear behavior towards exercise and physical activities that manifests in physiological symptoms, psychological discomfort, or fatigue in response to external stimuli [ 11 , 12 ]. While kinesiophobia has been investigated in various clinical populations—such as patients with coronary heart disease [ 13 ], migraines [ 14 ], and orthopedic postoperative patients [ 15 ], research focusing on cancer patients with PICC remains limited.. Previous studies on tumor patients with PICC have mostly focused on catheter-related complications [ 16 , 17 ], with less attention paid to the side effects caused by reduced exercise.
+
+Previous theoretical models related to kinesiophobia often used fear avoidance models, which centered around pain [ 18 ]. Nowadays, with the expansion of research subjects on kinesiophobia, the existence of fear of exercise suggests not only avoidance of pain, but also other reasons. The Health Action Process Approach (HAPA) model was selected because it directly addresses the dynamic nature of health behaviors like kinesiophobia. Its phased structure, which encompasses both motivational and volitional phases, is ideal for investigating how such fear develops and can be mitigated over time. Given the detrimental impact of kinesiophobia on health behavior planning and execution in PICC-carrying cancer patients, this study adopts the HAPA model to analyze its influencing factors and underlying mechanisms. The HAPA model integrates stage-specific and continuous behavioral processes, and includes key constructs such as self-efficacy, risk perception, outcome expectancies, intention, planning, and action, making it a suitable theoretical framework for this investigation.
+
+Therefore, this cross-sectional study aims to observe tumor patients with PICC, identify factors associated with kinesiophobia, and provide a basis for clarifying its mechanisms and developing targeted nursing interventions.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Statistical methods
+
+SPSS 26.0 was used for data processing. Pearson correlation analysis was used between kinesiophobia and various variables. For univariate analysis, continuous variables were compared using independent samples t-tests, and categorical variables were compared using Chi-square tests or one-way Analysis of Variance (ANOVA), as appropriate. Variables yielding a P-value < 0.05 in these initial omnibus tests were considered potential candidates for inclusion in the subsequent multivariate model. We did not perform post-hoc pairwise comparisons for multi-category variables; therefore, a Bonferroni correction was not applied. The focus of the univariate analysis was on screening variables for the regression model, not on establishing specific between-group differences. Multiple linear regression analysis was used for multivariate analysis. A multiple linear regression model was employed to identify the factors associated with kinesiophobia scores. Prior to the final analysis, the underlying assumptions of linear regression were thoroughly examined. The linearity between continuous independent variables and the dependent variable was assessed visually using partial regression plots and was found to be satisfactory. The independence of residuals was confirmed by a Durbin-Watson statistic close to 2. The normality of the residuals was verified using a histogram and a normal Q-Q plot. Homoscedasticity (homogeneity of variance) was evaluated by plotting the standardized residuals against the standardized predicted values, which revealed no evident pattern. Finally, the absence of multicollinearity was ensured, as all variance inflation factor (VIF) values were below 10.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+This study collected a total of 162 cases, and no patients withdrew midway, it may be attributed to three key factors. First, the fixed weekly schedule of PICC maintenance allowed patients ample and flexible opportunities to complete the survey during routine clinic visits. Second, researchers provided thorough communication and used patient-friendly language during the informed consent process, enabling participants to make well-informed decisions. Finally, the established trust and familiarity between patients and the consistent clinic staff created a supportive environment that encouraged ongoing engagement. Table 1 presents the baseline characteristics of the study population. The patient’s kinesiophobia score was 20.11 ± 6.94 points, and the incidence of kinesiophobia was 42.59% (69 cases). Among them, activity attitude was 4.82 ± 2.56 points, activity cognition was 10.67 ± 2.94 points, and activity behavior wad 5.20 ± 1.69 points.
+
+Among the research participants, 54 cases (33.33%) tended to “facing”, 46 cases (28.40%) tended to “avoidance”, and 62 cases (38.27%) tended to “yielding”. The exercise self-efficacy score was 58.04 ± 18.79 points. The risk perception score was 25.57 ± 8.37 points. The exercise outcome expectation score was 29.31 ± 8.67 points. The exercise intention score was 12.80 ± 4.03 points. The social support score is 32.02 ± 13.16 points.
+
+TSK-11 scores were significantly associated with several factors, including education level, place of residence, PICC insertion duration, history of complications, pain, and medical coping styles.
+
+The Pearson correlation analysis results showed that kinesiophobia was positively correlated with pain (r = 0426, P < 0.01), positively correlated with risk perception (r = 0.684, P < 0.01), negatively correlated with exercise self-efficacy (r = −0.677, P < 0.01), negatively correlated with outcome expectation (r = −0.550, P < 0.01), negatively correlated with exercise intention (r = −0.524, P < 0.01), and negatively correlated with social support (r = −0.511, P < 0.01). See Table 2 for details.
+
+**When P < 0.01, the correlation is significant;* when P < 0.05, the correlation is significant.
+
+Multiple linear regression was performed with the TSK-11 score of tumor patients with PICC as the dependent variable and the variables with statistically significant differences in univariate analysis as the independent variables (αin = 0.05, αout = 0.10). The assignment method for categorical variables is shown in Table 3 , while the remaining variables are inputted with their original values. The results of multiple linear regression analysis showed that pain, exercise self-efficacy, risk perception level, and catheter insertion duration were factors affecting kinesiophobia in patients with PICC, as shown in Table 4 .
+
+Note: R 2 = 0.674; R 2 = 0.645; F = 23.504; P ＜ 0.001
+
+
+Questionnaire results on kinesiophobia, medical coping modes, and exercise self-efficacy from tumor patients with PICC catheterization
+
+This study collected a total of 162 cases, and no patients withdrew midway, it may be attributed to three key factors. First, the fixed weekly schedule of PICC maintenance allowed patients ample and flexible opportunities to complete the survey during routine clinic visits. Second, researchers provided thorough communication and used patient-friendly language during the informed consent process, enabling participants to make well-informed decisions. Finally, the established trust and familiarity between patients and the consistent clinic staff created a supportive environment that encouraged ongoing engagement. Table 1 presents the baseline characteristics of the study population. The patient’s kinesiophobia score was 20.11 ± 6.94 points, and the incidence of kinesiophobia was 42.59% (69 cases). Among them, activity attitude was 4.82 ± 2.56 points, activity cognition was 10.67 ± 2.94 points, and activity behavior wad 5.20 ± 1.69 points.
+
+Among the research participants, 54 cases (33.33%) tended to “facing”, 46 cases (28.40%) tended to “avoidance”, and 62 cases (38.27%) tended to “yielding”. The exercise self-efficacy score was 58.04 ± 18.79 points. The risk perception score was 25.57 ± 8.37 points. The exercise outcome expectation score was 29.31 ± 8.67 points. The exercise intention score was 12.80 ± 4.03 points. The social support score is 32.02 ± 13.16 points.
+
+
+Comparison of kinesiophobia scores in tumor patients with PICC catheterization with different characteristics is shown in 
+
+TSK-11 scores were significantly associated with several factors, including education level, place of residence, PICC insertion duration, history of complications, pain, and medical coping styles.
+
+
+Correlation analysis between kinesiophobia and pain, exercise self-efficacy, risk perception, outcome expectation, exercise intention, social support in tumor patients with PICC
+
+The Pearson correlation analysis results showed that kinesiophobia was positively correlated with pain (r = 0426, P < 0.01), positively correlated with risk perception (r = 0.684, P < 0.01), negatively correlated with exercise self-efficacy (r = −0.677, P < 0.01), negatively correlated with outcome expectation (r = −0.550, P < 0.01), negatively correlated with exercise intention (r = −0.524, P < 0.01), and negatively correlated with social support (r = −0.511, P < 0.01). See Table 2 for details.
+
+**When P < 0.01, the correlation is significant;* when P < 0.05, the correlation is significant.
+
+
+Multiple linear regression analysis of kinesiophobia in tumor patients with PICC
+
+Multiple linear regression was performed with the TSK-11 score of tumor patients with PICC as the dependent variable and the variables with statistically significant differences in univariate analysis as the independent variables (αin = 0.05, αout = 0.10). The assignment method for categorical variables is shown in Table 3 , while the remaining variables are inputted with their original values. The results of multiple linear regression analysis showed that pain, exercise self-efficacy, risk perception level, and catheter insertion duration were factors affecting kinesiophobia in patients with PICC, as shown in Table 4 .
+
+Note: R 2 = 0.674; R 2 = 0.645; F = 23.504; P ＜ 0.001
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+This study investigated kinesiophobia in a specific population of tumor patients with PICC. The key findings indicate a clinically significant prevalence of kinesiophobia (42.59%), albeit of mild overall severity(20.11 ± 6.94), which is shaped by a constellation of factors unique to the cancer journey and the presence of a vascular access device. Notably, the observed prevalence is elevated compared to a report on breast cancer patients from Turkey(30.8%) [ 29 ], and it parallels a study on kinesiophobia conducted among postoperative breast cancer patients in Poland(40.8%−42.8%) [ 30 ]. This discrepancy with the Turkish study may be partly attributable to differences in sample characteristics. Our study encompassed a heterogeneous mix of solid tumor patients at various disease stages, whereas the cited study focused specifically on breast cancer survivors, a population that may have distinct rehabilitation experiences and support systems. Despite the differing nature of their medical interventions (a retained catheter versus a surgical wound), both groups harbor a fundamental fear of causing internal damage through movement. This fear is potentiated by common experiences of pain, underlying cancer-related fatigue and psychological distress, and maladaptive cognitive appraisals. Specifically, both groups likely exhibit heightened risk perception regarding activity and diminished exercise self-efficacy, as conceptualized within the HAPA model.
+
+The identified prevalence of kinesiophobia situates this phenomenon as a considerable nursing concern in oncology PICC care. Patients are not only managing concerns about catheter-related complications (e.g., displacement, thrombosis) but are also navigating the pervasive effects of their disease and its treatments, such as physical weakness, pain, and psychological distress [ 31 ]. This finding immediately underscores a critical nursing responsibility: to proactively integrate kinesiophobia assessment into routine PICC management. Early identification of misconceptions about movement—such as the irrational belief that normal activity will cause catheter dysfunction—allows nurses to provide timely, corrective education through diverse channels (e.g., demonstrations, graphic manuals) to prevent the entrenchment of avoidant behaviors.
+
+Our multivariate analysis revealed a network of modifiable factors, offering a clear roadmap for evidence-based nursing interventions. These factors should not be viewed in isolation but as interconnected targets for a phased management approach.
+
+Pain is a significant predictor of kinesiophobia (β = 0.163, P = 0.009), which is consistent with the core viewpoint of the fear avoidance model [ 32 , 33 ] and the findings of Wang [ 34 ]. In this study, patients with pain had significantly higher TSK-11 scores than those without pain (27.50 ± 8.08 vs. 18.70 ± 5.73). This result can be explained by a dual mechanism: pain fuels the anticipation of movement-induced pain, which in turn activates psychological avoidance and reduces exercise motivation. For the oncology patient, pain sources are multifactorial [ 35 ] (e.g., catheter stimulation, tumor infiltration, neuropathies), necessitating a sophisticated nursing response. It is worth noting that in our sample, which included patients with diverse cancer types (e.g., gastrointestinal, lung) and treatment regimens, the experience of pain would be inherently varied. Future research with larger samples could stratify by cancer diagnosis to determine if specific populations, such as those with bone metastases who are at higher risk of pathological fractures [ 36 , 37 ], exhibit disproportionately higher levels of kinesiophobia.
+
+Similarly, an elevated perception of risk regarding catheter-related complications and associated economic burdens was a powerful predictor(β = 0.336, P = 0.002), which is consistent with the hypothesis of “risk perception driving health behavior decision-making” in the HAPA theory. This aligns with qualitative work in cancer populations showing that patients often overestimate low-probability risks, leading to unnecessary activity restriction [ 8 , 38 ].
+
+These two factors are paramount in the early phase following PICC insertion. Nursing interventions must be preemptive and multifaceted: Nurses should collaborate with the multidisciplinary team to characterize pain and implement combined strategies, such as pharmacologic analgesia complemented by non-pharmacological interventions (e.g., relaxation techniques, guided imagery). To correct cognitive biases, nurses should use visual aids (e.g., catheter models) and clear, culturally sensitive educational materials to provide a realistic understanding of catheter safety, thereby dismantling fears rooted in the “unknown.”
+
+The negative correlation between catheterization duration and kinesiophobia(β = −0.200, P = 0.001) highlights a natural process of adaptation. Patients with catheters in place for over one month exhibited significantly lower kinesiophobia, supporting theories of HAPA where successful lived experience builds confidence [ 39 , 40 ]. Over time, patients accumulate evidence that safe movement is possible, transitioning from intention to sustained action.
+
+This adaptation is critically underpinned by ESE, which we identified as a key protective factor(β = −0.261, P < 0.001). Our finding that lower ESE predicts higher kinesiophobia confirms that an individual’s belief in their capability to exercise safely is a potent regulator of their behavioral intentions.
+
+These findings define the priorities for the later phase of PICC care. To foster adaptation, nurses should initiate a graduated exercise plan post-insertion, progressing patients from low-intensity walking to supervised upper-limb activities. Concurrently, interventions must explicitly target Exercise Self-Efficacy through evidence-based strategies. These include breaking down activities into manageable, progressive steps (e.g., beginning with 5-minute walks and gradually increasing duration), fostering vicarious learning by facilitating connections with peers who have successfully adapted to PICC, and using exercise diaries to provide tangible feedback and reinforce mastery. Furthermore, the synergistic effect of social support should be leveraged by actively involving family members in exercise plans [ 41 ].
+
+This study offers several key strengths. Primarily, it introduces the Health Action Process Approach (HAPA) model as a novel theoretical lens for understanding kinesiophobia in PICC patients, thereby providing a cohesive framework for previously disparate factors and addressing a significant gap in the literature. Furthermore, the multicenter design involving three distinct hospitals enhances the generalizability and representativeness of our findings. This study has limitations. Its cross-sectional design prevents causal inference. The relatively small sample size is another limitation of this study. The sample was from a single region, potentially limiting generalizability, and we did not account for variables such as cancer type, disease duration, or prior cancer knowledge, which may influence kinesiophobia. Future research should employ longitudinal designs to track fear dynamics from insertion onward, include more diverse oncology populations, and explore the role of biomarkers. From a practical standpoint, our findings strongly support the development and testing of a staged nursing intervention protocol: prioritizing pain and risk perception management early, and systematically strengthening self-efficacy and social support in the later phases, to comprehensively improve patient quality of life.
+
+
+Patients with PICC have a higher incidence of kinesiophobia, but the severity is relatively mild
+
+This study investigated kinesiophobia in a specific population of tumor patients with PICC. The key findings indicate a clinically significant prevalence of kinesiophobia (42.59%), albeit of mild overall severity(20.11 ± 6.94), which is shaped by a constellation of factors unique to the cancer journey and the presence of a vascular access device. Notably, the observed prevalence is elevated compared to a report on breast cancer patients from Turkey(30.8%) [ 29 ], and it parallels a study on kinesiophobia conducted among postoperative breast cancer patients in Poland(40.8%−42.8%) [ 30 ]. This discrepancy with the Turkish study may be partly attributable to differences in sample characteristics. Our study encompassed a heterogeneous mix of solid tumor patients at various disease stages, whereas the cited study focused specifically on breast cancer survivors, a population that may have distinct rehabilitation experiences and support systems. Despite the differing nature of their medical interventions (a retained catheter versus a surgical wound), both groups harbor a fundamental fear of causing internal damage through movement. This fear is potentiated by common experiences of pain, underlying cancer-related fatigue and psychological distress, and maladaptive cognitive appraisals. Specifically, both groups likely exhibit heightened risk perception regarding activity and diminished exercise self-efficacy, as conceptualized within the HAPA model.
+
+The identified prevalence of kinesiophobia situates this phenomenon as a considerable nursing concern in oncology PICC care. Patients are not only managing concerns about catheter-related complications (e.g., displacement, thrombosis) but are also navigating the pervasive effects of their disease and its treatments, such as physical weakness, pain, and psychological distress [ 31 ]. This finding immediately underscores a critical nursing responsibility: to proactively integrate kinesiophobia assessment into routine PICC management. Early identification of misconceptions about movement—such as the irrational belief that normal activity will cause catheter dysfunction—allows nurses to provide timely, corrective education through diverse channels (e.g., demonstrations, graphic manuals) to prevent the entrenchment of avoidant behaviors.
+
+
+Synthesis of Influencing Factors and Nursing Implications
+
+Our multivariate analysis revealed a network of modifiable factors, offering a clear roadmap for evidence-based nursing interventions. These factors should not be viewed in isolation but as interconnected targets for a phased management approach.
+
+Pain is a significant predictor of kinesiophobia (β = 0.163, P = 0.009), which is consistent with the core viewpoint of the fear avoidance model [ 32 , 33 ] and the findings of Wang [ 34 ]. In this study, patients with pain had significantly higher TSK-11 scores than those without pain (27.50 ± 8.08 vs. 18.70 ± 5.73). This result can be explained by a dual mechanism: pain fuels the anticipation of movement-induced pain, which in turn activates psychological avoidance and reduces exercise motivation. For the oncology patient, pain sources are multifactorial [ 35 ] (e.g., catheter stimulation, tumor infiltration, neuropathies), necessitating a sophisticated nursing response. It is worth noting that in our sample, which included patients with diverse cancer types (e.g., gastrointestinal, lung) and treatment regimens, the experience of pain would be inherently varied. Future research with larger samples could stratify by cancer diagnosis to determine if specific populations, such as those with bone metastases who are at higher risk of pathological fractures [ 36 , 37 ], exhibit disproportionately higher levels of kinesiophobia.
+
+Similarly, an elevated perception of risk regarding catheter-related complications and associated economic burdens was a powerful predictor(β = 0.336, P = 0.002), which is consistent with the hypothesis of “risk perception driving health behavior decision-making” in the HAPA theory. This aligns with qualitative work in cancer populations showing that patients often overestimate low-probability risks, leading to unnecessary activity restriction [ 8 , 38 ].
+
+These two factors are paramount in the early phase following PICC insertion. Nursing interventions must be preemptive and multifaceted: Nurses should collaborate with the multidisciplinary team to characterize pain and implement combined strategies, such as pharmacologic analgesia complemented by non-pharmacological interventions (e.g., relaxation techniques, guided imagery). To correct cognitive biases, nurses should use visual aids (e.g., catheter models) and clear, culturally sensitive educational materials to provide a realistic understanding of catheter safety, thereby dismantling fears rooted in the “unknown.”
+
+The negative correlation between catheterization duration and kinesiophobia(β = −0.200, P = 0.001) highlights a natural process of adaptation. Patients with catheters in place for over one month exhibited significantly lower kinesiophobia, supporting theories of HAPA where successful lived experience builds confidence [ 39 , 40 ]. Over time, patients accumulate evidence that safe movement is possible, transitioning from intention to sustained action.
+
+This adaptation is critically underpinned by ESE, which we identified as a key protective factor(β = −0.261, P < 0.001). Our finding that lower ESE predicts higher kinesiophobia confirms that an individual’s belief in their capability to exercise safely is a potent regulator of their behavioral intentions.
+
+These findings define the priorities for the later phase of PICC care. To foster adaptation, nurses should initiate a graduated exercise plan post-insertion, progressing patients from low-intensity walking to supervised upper-limb activities. Concurrently, interventions must explicitly target Exercise Self-Efficacy through evidence-based strategies. These include breaking down activities into manageable, progressive steps (e.g., beginning with 5-minute walks and gradually increasing duration), fostering vicarious learning by facilitating connections with peers who have successfully adapted to PICC, and using exercise diaries to provide tangible feedback and reinforce mastery. Furthermore, the synergistic effect of social support should be leveraged by actively involving family members in exercise plans [ 41 ].
+
+
+The key role of pain and risk perception in early catheterization.
+
+Pain is a significant predictor of kinesiophobia (β = 0.163, P = 0.009), which is consistent with the core viewpoint of the fear avoidance model [ 32 , 33 ] and the findings of Wang [ 34 ]. In this study, patients with pain had significantly higher TSK-11 scores than those without pain (27.50 ± 8.08 vs. 18.70 ± 5.73). This result can be explained by a dual mechanism: pain fuels the anticipation of movement-induced pain, which in turn activates psychological avoidance and reduces exercise motivation. For the oncology patient, pain sources are multifactorial [ 35 ] (e.g., catheter stimulation, tumor infiltration, neuropathies), necessitating a sophisticated nursing response. It is worth noting that in our sample, which included patients with diverse cancer types (e.g., gastrointestinal, lung) and treatment regimens, the experience of pain would be inherently varied. Future research with larger samples could stratify by cancer diagnosis to determine if specific populations, such as those with bone metastases who are at higher risk of pathological fractures [ 36 , 37 ], exhibit disproportionately higher levels of kinesiophobia.
+
+Similarly, an elevated perception of risk regarding catheter-related complications and associated economic burdens was a powerful predictor(β = 0.336, P = 0.002), which is consistent with the hypothesis of “risk perception driving health behavior decision-making” in the HAPA theory. This aligns with qualitative work in cancer populations showing that patients often overestimate low-probability risks, leading to unnecessary activity restriction [ 8 , 38 ].
+
+These two factors are paramount in the early phase following PICC insertion. Nursing interventions must be preemptive and multifaceted: Nurses should collaborate with the multidisciplinary team to characterize pain and implement combined strategies, such as pharmacologic analgesia complemented by non-pharmacological interventions (e.g., relaxation techniques, guided imagery). To correct cognitive biases, nurses should use visual aids (e.g., catheter models) and clear, culturally sensitive educational materials to provide a realistic understanding of catheter safety, thereby dismantling fears rooted in the “unknown.”
+
+
+The protective progression: catheterization duration and self-efficacy.
+
+The negative correlation between catheterization duration and kinesiophobia(β = −0.200, P = 0.001) highlights a natural process of adaptation. Patients with catheters in place for over one month exhibited significantly lower kinesiophobia, supporting theories of HAPA where successful lived experience builds confidence [ 39 , 40 ]. Over time, patients accumulate evidence that safe movement is possible, transitioning from intention to sustained action.
+
+This adaptation is critically underpinned by ESE, which we identified as a key protective factor(β = −0.261, P < 0.001). Our finding that lower ESE predicts higher kinesiophobia confirms that an individual’s belief in their capability to exercise safely is a potent regulator of their behavioral intentions.
+
+These findings define the priorities for the later phase of PICC care. To foster adaptation, nurses should initiate a graduated exercise plan post-insertion, progressing patients from low-intensity walking to supervised upper-limb activities. Concurrently, interventions must explicitly target Exercise Self-Efficacy through evidence-based strategies. These include breaking down activities into manageable, progressive steps (e.g., beginning with 5-minute walks and gradually increasing duration), fostering vicarious learning by facilitating connections with peers who have successfully adapted to PICC, and using exercise diaries to provide tangible feedback and reinforce mastery. Furthermore, the synergistic effect of social support should be leveraged by actively involving family members in exercise plans [ 41 ].
+
+
+Research advantages, limitations, and prospects
+
+This study offers several key strengths. Primarily, it introduces the Health Action Process Approach (HAPA) model as a novel theoretical lens for understanding kinesiophobia in PICC patients, thereby providing a cohesive framework for previously disparate factors and addressing a significant gap in the literature. Furthermore, the multicenter design involving three distinct hospitals enhances the generalizability and representativeness of our findings. This study has limitations. Its cross-sectional design prevents causal inference. The relatively small sample size is another limitation of this study. The sample was from a single region, potentially limiting generalizability, and we did not account for variables such as cancer type, disease duration, or prior cancer knowledge, which may influence kinesiophobia. Future research should employ longitudinal designs to track fear dynamics from insertion onward, include more diverse oncology populations, and explore the role of biomarkers. From a practical standpoint, our findings strongly support the development and testing of a staged nursing intervention protocol: prioritizing pain and risk perception management early, and systematically strengthening self-efficacy and social support in the later phases, to comprehensively improve patient quality of life.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+This study shows that the incidence of kinesiophobia in tumor patients with PICC is relatively high, but the degree is mild. Kinesiophobia in tumor patients with PICC is influenced by multiple factors such as pain, duration of catheter placement, risk perception, and exercise self-efficacy. Clinical nursing needs to combine individualized assessment and theory-driven intervention to promote safe patient participation in exercise through pain management, cognitive remodeling, and efficacy enhancement. Further exploration of multidimensional intervention strategies is needed in the future to achieve a behavioral shift from “fear avoidance” to “active adaptation”, ultimately improving the long-term prognosis and quality of life of tumor patients. To translate these findings into practice, we propose three concrete steps for nursing care:1.Implement Routine Screening: Integrate the TSK-11 or a brief screener into PICC maintenance visits to systematically identify patients with kinesiophobia. 2. Adopt a Phased Intervention Model: Early phase (≤1 month): Prioritize pain management and risk perception correction through standardized visual education and multidisciplinary analgesia. Later phase (>1 month): Focus on building exercise self-efficacy via graded goal-setting (e.g., progressive walking plans), peer support, and activity diaries. 3.Equip Frontline Nurses: Develop concise, evidence-based training tools (e.g., brief videos, checklists) to enable nurses to deliver these interventions efficiently in routine practice.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+The data files are available in the Science Data Bank(Science DB): https://www.scidb.cn/anonymous/YXllSVpu . (The dataset will be made accessible upon reasonable request. The corresponding accession number/DOI will be provided during the production stage if the manuscript is accepted for publication.).
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+
+Attachment
+Submitted filename: PLOS.docx
+File: pone.0332064.s001.docx
+
+Attachment
+Submitted filename: Response to Reviewers.doc
+File: pone.0332064.s002.doc
+
+Attachment
+Submitted filename: PONE-D-25-33789_reviewer.pdf
+File: pone.0332064.s003.pdf
+
+Attachment
+Submitted filename: renamed_da9e8.docx
+File: pone.0332064.s004.docx
+
+Attachment
+Submitted filename: Response to Reviewers (Minor Revision).doc
+File: pone.0332064.s005.doc

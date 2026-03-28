@@ -1,0 +1,19 @@
+Source: PMC12872001_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Quantitative and temporal analysis of autophagy: Differential Response to amino acid and glucose starvation",
+  "condition_E": 1,
+  "condition_E_reason": "We provide single-cell data from living cells captured at high temporal resolution across multiple stages of autophagy.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data supporting the findings of this study are available within the article and openly available in figshare (doi: https://doi.org/10.6084/m9.figshare.28797569).",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

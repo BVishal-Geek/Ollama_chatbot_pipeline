@@ -1,0 +1,192 @@
+================================================================================
+ARTICLE TITLE: Cyclin-dependent kinase 6 (CDK6) is a candidate diagnostic biomarker for early non-small cell lung cancer
+PMCID: PMC8798208
+PMID: 35117162
+KEYWORDS: cyclin-dependent kinase 6 (cdk6), non-small cell lung cancer (nsclc), t1 stage, real-time pcr
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+Cyclin-dependent kinase 6 (CDK6) is an important regulatory protein of the cell cycle and plays an important role in tumor progression. The aim of this study was to investigate the expression of CDK6 in T1 stage non-small cell lung cancer (NSCLC) and to explore the association of CDK6 with the clinicopathological features of the disease.
+
+Methods:
+CDK6 expression was analyzed by real-time PCR (RT-PCR) and immunohistochemistry (IHC) in tumor tissue samples and the distal normal tissue samples from 56 T1 stage NSCLC patients. The correlation between CDK6 expression and clinicopathological features was analyzed using the independent samples t -test and nonparametric tests.
+
+Results:
+We found CDK6 had a tendency to increase in tumor tissues compared to normal tissues at the transcriptional level (P=0.073). Moreover, the expression of CDK6 protein in NSCLC tissues was also significantly higher than in normal lung tissues (P=0.003). With an increase of smoking quantity, the expression of CDK6 mRNA was increased (P=0.009). Remarkably, CDK6 expression was increased in squamous cell carcinoma (SCC) tissues but decreased in adenocarcinoma (AD) tissues at both the transcription and protein levels (P<0.001). After stratification based on pathological type, CDK6 gene expression was not associated with any clinicopathological features in SCC, while it was negatively associated with tumor diameter in AD (P=0.049).
+
+Conclusions:
+Taken together, these results indicated that abnormal expression of the CDK6 gene in NSCLC might be associated with pathological type, which may serve as a diagnostic biomarker for NSCLC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Primary lung cancer is the most common cancer, and is the leading cause of cancer-related deaths worldwide, especially in China ( 1 ). As we know, non-small cell lung cancer (NSCLC) is the main histological type, accounting for approximately 85% of all lung cancers ( 2 ). According to pathological patterns, NSCLC can be mainly divided into lung squamous cell carcinoma (SCC) and adenocarcinoma (AD), accounting for 60–85% of all NSCLC cases. Numerous differences have been reported in the biological behavior and characteristics of lung SCC and AD. For example, AD is more likely to occur in women and non-smokers; whereas SCC is more prevalent in elderly men and is strongly associated with smoking ( 3 ). Additionally, several studies based on the Japanese population showed that patients with lung SCC had a worse prognosis than those with AD ( 4 , 5 ). Another Japanese lung cancer registry study based on a larger sample reported a contrary result, showing that AD had a better clinical outcome in comparison with SCC ( 6 ).
+
+The cell cycle, a process through which cells duplicate themselves, is frequently disordered during tumor development ( 7 ). Generally, cell cycle progression is a highly ordered and tightly-regulated process involving multiple checkpoints that assess extracellular growth signals, cell size, and DNA integrity ( 8 ). It is divided into four main phases: G1 phase of cell growth, S phase of DNA replication, followed by G2 phase synthesizing additional proteins for the following cell division phase called M phase. The cell cycle is predominantly regulated by cyclin-dependent kinases (CDKs), cyclins and cyclin-dependent kinase inhibitors (CKIs). CDKs are the catalytic subunits of heterodimeric serine/threonine protein kinases whose best-characterized members are involved in controlling progression through the cell cycle ( 9 , 10 ).
+
+CDK6, a member of CDK family, can specifically bind to cyclin D and phosphorylate the retinoblastoma 1 protein, thereby regulating the progression of cell cycle from G1 to S phase ( 11 ). A previous study showed that CDK6 could be activated in the initial phase of cell cycle progression by specific binding to cyclin D to facilitate cell transition in the G1 phase ( 12 ). On the other hand, CDK6 could inhibit the catalytic activity of the cyclin D-CDK6 complex by its specific binding to p16, thereby blocking the cell cycle at the G1 phase ( 13 ). Abnormal expression of CDK6 has been reported in a variety of cancers, such as bladder cancer, lymphoma, leukemia and a small subset of malignant gliomas ( 14 - 18 ). Moreover, Kollmann et al. reported that CDK6 could exert its full tumor-promoting function by enhancing proliferation and stimulating angiogenesis in lymphoid malignancies ( 19 ). It has been reported that CDK6 participated in cell proliferation and apoptosis of NSCLC cells ( 20 , 21 ). Furthermore, the inhibitors of CDK6 were promising agents in the treatment of NSCLC ( 22 ). However, to date, limited research has been reported about the relationship between CDK6 and NSCLC, especially in the T1 stage. In this study, we examined the CDK6 expression in cases of NSCLC and the distal normal tissues using real-time PCR (RT-PCR) and immunohistochemical staining, and determined the relationship between CDK6 expression and the clinicopathological features of T1 stage NSCLC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+Primary lung cancer specimens with T1 stage were collected from 56 Chinese patients that underwent surgery and had detailed clinicopathological data in the biobank of Zhejiang Cancer Hospital from August 2008 to October 2012. Those with multiple lesions, other carcinoma or had been pretreated with radiotherapy or chemotherapy were excluded. There were no sex and age restrictions. The American Joint Committee on Cancer (AJCC) and World Health Organization (WHO) guidelines were used to determine the tumor staging. Each patient signed a written informed consent to participate in the study prior to surgery. This study was approved by the Medical Ethics Committee, Zhejiang Cancer Hospital.
+
+Two pairs of tumor tissue and distal normal tissue (>5 cm from tumor) were obtained from each patient. The tissues were quickly frozen in liquid nitrogen and stored at −80 °C for RNA extraction. Other pieces of the tissue were embedded into paraffin blocks for paraffin sectioning.
+
+Total RNA was extracted from frozen sections of tumor and distal normal samples using NucleoSpin ® TriPrep kit (MACHEREY-NAGEL, Germany) according to the protocol. RNA purity and concentration were determined using a NanoDrop 1000 (Thermo Scientific, USA). Total RNA (1 µg) was used for cDNA synthesis using the PrimeScript TM Reagent Kit (TaKaRa, China) according to the manufacturer’s instructions.
+
+Amplification and melt curve analysis were performed using an ABI 7500 PCR system (Applied Biosystems, USA). Reactions were carried out in a total volume of 20 µL using SYBR ® Premix Ex Taq Kit (TaKaRa). PCR primers used were as follows: CDK6, 5'-TTCCCAGGCAGGCTTTTCAT-3' (forward) and 5'-CTGTATTCAGCTCCGAGGTGTTCT-3' (reverse); β-actin, 5'-TGGCACCCAGCACAATGAA-3' (forward) and 5'-CTAAGTCATAGTCCGCCTAGAAGCA-3' (reverse).
+
+PCR reactions were performed as follows: initial denaturation at 95 °C for 1 min, 40 amplification cycles of denaturation at 95 °C for 15 s, annealing and extension at 60 °C for 1 min. Each PCR reaction used one premixed template. For expression analysis, β-actin was used as the internal control, and the relative quantification of gene in test tissues was calculated using the following equation: amount of target gene =2 -ΔΔCt ; ΔΔCt = [Ct (gene, test) − Ct (ACTB, test)] − [Ct (gene, reference) − Ct (ACTB, reference)] ( 23 ). To confirm the specificity and accuracy of the PCR reaction, PCR products were electrophoresed on a 2% agarose gel and sequenced (Shanghai GeneCore BioTechnologies Co, Ltd., Shanghai, China). All PCR reactions were performed in triplicate.
+
+The immunohistochemical staining kit was purchased from Beijing Zhongshan Golden Bridge Biotechnology Co. Ltd. Paraffin-embedded tissues were cut to 4 µm thickness and placed at 72 °C for 30 min, then dewaxed and hydrated using xylene and ethanol. Antigens were heat retrieved with citrate buffer. After three washes, the slides were placed in a 3% hydrogen peroxide solution for 5–10 min and then washed with running water twice and PBS for 5 min. The primary antibodies (rabbit monoclonal antibody, Abcam, Cambridge, UK) were added (1:100 dilution) and incubated overnight at 4 °C. After washing with water twice and PBS for 5 min, the secondary antibodies were added and incubated for 20 min, followed by washing, DAB staining, counterstaining, and mounting.
+
+The immunohistochemically stained tissue sections were judged independently by two pathologists. The expression of CDK6 detected by immunohistochemistry was evaluated by measuring staining intensity and determining the proportion of positively-stained cells. The nuclear and cytoplasm were scored separately, using the scoring method described previously ( 24 ). For cytoplasmic staining, the score was evaluated according to the staining intensity, there were four levels including negative (0 point), weak positive (1 point), intermediate positive (2 points), and strong positive (3 points). The proportion of positive cells was scored as follows: <5% was 0 point, 5 30% was 1 point, 31–75% was 2 points, and >75% was 3 points. The sum of the two fractions was the cytoplasmic score. The nuclear staining intensity score was consistent with the cytoplasm and positive nuclear staining scores were defined as follows: <10% was 0 point, 10–50% was 1 point, 51–80% was 2 points, and >80% was 3 points. The sum of the cytoplasm and nuclear staining scores was used as the final staining score for CDK6 (0–12). If the sum of two scores was <6 points, it was considered negative; and ≥6 points indicated positive expression.
+
+The expression of CDK6 in tumor tissues and normal tissues was compared using the paired samples T-test and nonparametric tests. The relationship between tumor tissues (or normal tissues) and clinical pathological factors was analyzed with the independent samples t -test. The criterion for statistical significance was set at P < 0.05 and statistical analysis was performed with SPSS 13.0 software (IBM, Chicago, IL, USA).
+
+
+Patients and tissues
+
+Primary lung cancer specimens with T1 stage were collected from 56 Chinese patients that underwent surgery and had detailed clinicopathological data in the biobank of Zhejiang Cancer Hospital from August 2008 to October 2012. Those with multiple lesions, other carcinoma or had been pretreated with radiotherapy or chemotherapy were excluded. There were no sex and age restrictions. The American Joint Committee on Cancer (AJCC) and World Health Organization (WHO) guidelines were used to determine the tumor staging. Each patient signed a written informed consent to participate in the study prior to surgery. This study was approved by the Medical Ethics Committee, Zhejiang Cancer Hospital.
+
+Two pairs of tumor tissue and distal normal tissue (>5 cm from tumor) were obtained from each patient. The tissues were quickly frozen in liquid nitrogen and stored at −80 °C for RNA extraction. Other pieces of the tissue were embedded into paraffin blocks for paraffin sectioning.
+
+
+RNA extraction and cDNA synthesis
+
+Total RNA was extracted from frozen sections of tumor and distal normal samples using NucleoSpin ® TriPrep kit (MACHEREY-NAGEL, Germany) according to the protocol. RNA purity and concentration were determined using a NanoDrop 1000 (Thermo Scientific, USA). Total RNA (1 µg) was used for cDNA synthesis using the PrimeScript TM Reagent Kit (TaKaRa, China) according to the manufacturer’s instructions.
+
+
+RT-PCR analysis
+
+Amplification and melt curve analysis were performed using an ABI 7500 PCR system (Applied Biosystems, USA). Reactions were carried out in a total volume of 20 µL using SYBR ® Premix Ex Taq Kit (TaKaRa). PCR primers used were as follows: CDK6, 5'-TTCCCAGGCAGGCTTTTCAT-3' (forward) and 5'-CTGTATTCAGCTCCGAGGTGTTCT-3' (reverse); β-actin, 5'-TGGCACCCAGCACAATGAA-3' (forward) and 5'-CTAAGTCATAGTCCGCCTAGAAGCA-3' (reverse).
+
+PCR reactions were performed as follows: initial denaturation at 95 °C for 1 min, 40 amplification cycles of denaturation at 95 °C for 15 s, annealing and extension at 60 °C for 1 min. Each PCR reaction used one premixed template. For expression analysis, β-actin was used as the internal control, and the relative quantification of gene in test tissues was calculated using the following equation: amount of target gene =2 -ΔΔCt ; ΔΔCt = [Ct (gene, test) − Ct (ACTB, test)] − [Ct (gene, reference) − Ct (ACTB, reference)] ( 23 ). To confirm the specificity and accuracy of the PCR reaction, PCR products were electrophoresed on a 2% agarose gel and sequenced (Shanghai GeneCore BioTechnologies Co, Ltd., Shanghai, China). All PCR reactions were performed in triplicate.
+
+
+Immunohistochemical staining
+
+The immunohistochemical staining kit was purchased from Beijing Zhongshan Golden Bridge Biotechnology Co. Ltd. Paraffin-embedded tissues were cut to 4 µm thickness and placed at 72 °C for 30 min, then dewaxed and hydrated using xylene and ethanol. Antigens were heat retrieved with citrate buffer. After three washes, the slides were placed in a 3% hydrogen peroxide solution for 5–10 min and then washed with running water twice and PBS for 5 min. The primary antibodies (rabbit monoclonal antibody, Abcam, Cambridge, UK) were added (1:100 dilution) and incubated overnight at 4 °C. After washing with water twice and PBS for 5 min, the secondary antibodies were added and incubated for 20 min, followed by washing, DAB staining, counterstaining, and mounting.
+
+
+Evaluation of immunohistochemical staining
+
+The immunohistochemically stained tissue sections were judged independently by two pathologists. The expression of CDK6 detected by immunohistochemistry was evaluated by measuring staining intensity and determining the proportion of positively-stained cells. The nuclear and cytoplasm were scored separately, using the scoring method described previously ( 24 ). For cytoplasmic staining, the score was evaluated according to the staining intensity, there were four levels including negative (0 point), weak positive (1 point), intermediate positive (2 points), and strong positive (3 points). The proportion of positive cells was scored as follows: <5% was 0 point, 5 30% was 1 point, 31–75% was 2 points, and >75% was 3 points. The sum of the two fractions was the cytoplasmic score. The nuclear staining intensity score was consistent with the cytoplasm and positive nuclear staining scores were defined as follows: <10% was 0 point, 10–50% was 1 point, 51–80% was 2 points, and >80% was 3 points. The sum of the cytoplasm and nuclear staining scores was used as the final staining score for CDK6 (0–12). If the sum of two scores was <6 points, it was considered negative; and ≥6 points indicated positive expression.
+
+
+Statistical analysis
+
+The expression of CDK6 in tumor tissues and normal tissues was compared using the paired samples T-test and nonparametric tests. The relationship between tumor tissues (or normal tissues) and clinical pathological factors was analyzed with the independent samples t -test. The criterion for statistical significance was set at P < 0.05 and statistical analysis was performed with SPSS 13.0 software (IBM, Chicago, IL, USA).
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+A total of 56 pairs of tumor and distal normal tissue samples were collected from patients with T1 stage NSCLC for target gene examination and immunohistochemical staining. Of the 56 patients, 40 (71.4%) were male and 16 (28.6%) were female. The median age was 62 years (range, 38–79 years), and 55.4% of the patients had a smoking history of greater than or equal to 20 pack-years. In terms of the pathological type, more than half of the patients (55.4%) had SCC and 44.6% had AD. Twenty-seven patients (48.2%) were in T1a stage (tumor diameter ≤2 cm) and 29 patients (51.8%) were in T1b stage (tumor diameter 2–3 cm). Lymph node metastasis was found in 19.6% of the patients.
+
+RT-PCR and immunohistochemical staining were used to explore the expression levels of CDK6 in the 56 cases of T1 stage NSCLC. The relative quantification of CDK6 in distal normal tissues and tumor tissues was 0.648±0.301 and 0.853±0.776, respectively (P = 0.073). There was a trend of increased expression of CDK6 mRNA in tumor tissues ( Table 1 ). The expression of CDK6 protein in the 56 pairs of NSCLC tissue samples and normal lung tissue samples was also detected by immunohistochemical staining ( Figure 1 ). CDK6 protein expression was found to be positive in 8 NSCLC samples (14.3%), whereas it was negative in all distal normal tissue samples (100%). Moreover, nonparametric tests showed that the expression of CDK6 protein in NSCLC tissues was significantly higher than that in normal lung tissues (P = 0.003).
+
+*, independent samples t -test. CDK6, Cyclin-dependent kinase 6; NSCLC, non-small cell lung cancer.
+
+Detection of CDK6 expression by immunohistochemistry. (A) Negative expression of CDK6 in normal lung tissues; (B) negative expression of CDK6 in AD tissues; (C) positive expression of CDK6 in SCC tissues. CDK6, Cyclin-dependent kinase 6; SCC, squamous cell carcinomas; AD, adenocarcinoma.
+
+We then examined the correlation between CDK6 gene expression and clinicopathological features of T1 stage NSCLC patients including sex (male versus female), age (<60 versus ≥60 years), smoke index (<20 versus ≥20 pack-years), tumor diameter (≤2 versus 2–3 cm), pathological type (SCC versus AD), differentiation (poorly versus well-moderately), visceral pleura involvement (no versus yes), vascular tumor thrombus (no versus yes) and lymph node metastasis (no versus yes) ( Table 2 ). CDK6 gene expression was associated with clinicopathological features including smoking status and pathological types in tumor tissues, while no significant correlation was found between CDK6 gene expression and clinicopathological features in distal normal tissues. With the increase of smoking quantity, CDK6 gene expression was accordingly increased (P=0.009). Furthermore, CDK6 gene expression in SCC was significantly higher than that in AD (P=0.000). Subsequently, we further detected CDK6 protein expression in 31 SCC tissues and 25 AD tissues by immunohistochemical staining ( Figure 1 ), and found that CDK6 protein expression was positive in 8 SCC tissues (25.8%) whereas it was negative in all AD tissues (100%), which indicated that the expression of CDK6 protein was significantly higher in SCC tissues than that in AD tissues (P<0.001). The results of protein level quantification were consistent with those of RT-PCR.
+
+*, independent samples t -test. CDK6, Cyclin-dependent kinase 6; SCC, squamous cell carcinomas; AD, adenocarcinoma.
+
+Cases were stratified by tumor pathological types to explore whether CDK6 gene expression was associated with NSCLC in this selected population of patients. As shown in Table 3 , CDK6 gene expression was increased in SCC tissues (1.265±0.815) compared with that in the distal normal tissues (0.595±0.273) and the difference was significant (P=0.000). Nonparametric tests also showed that the expression of CDK6 protein in SCC tissues was significantly higher than that in distal normal tissues (P<0.001). However, reduced expression of CDK6 was detected in AD and the relative quantification of CDK6 gene in distal normal tissues and tumor tissues was 0.714±0.325 and 0.342±0.243, respectively (P=0.000).
+
+*, Paired samples t -test. CDK6, Cyclin-dependent kinase 6; SCC, squamous cell carcinomas; AD, adenocarcinoma.
+
+The correlation between CDK6 gene expression and clinicopathological features in SCC and AD were then analyzed. No clinicopathological features were found to be related to CDK6 gene expression in SCC (P>0.05) ( Table 4 ). However, the expression of the CDK6 gene in AD was negatively correlated with tumor diameter (P=0.049) ( Table 5 ). Compared with distal normal tissues, CDK6 gene expression was decreased significantly in tumor tissues no matter whether the tumor diameter was less than or larger than 2 cm in patients with lung AD (P<0.05; Table S1 ).
+
+*, independent samples t -test. CDK6, Cyclin-dependent kinase 6; SCC, squamous cell carcinomas.
+
+*, independent samples t -test. CDK6, Cyclin-dependent kinase 6; AD, adenocarcinoma.
+
+We also found a related trend between expression of the CDK6 gene and visceral pleura involvement in AD (P=0.080). When stratified further, CDK6 gene expression in tumor tissues was significantly lower than that in distal normal tissues for AD without visceral pleura involvement (P=0.000). In contrast, there was no statistically significant difference in CDK6 gene expression between tumor and normal tissues in cases with visceral pleura involvement (P=0.559; Table S2 ).
+
+
+Clinicopathological features of T1 stage NSCLC
+
+A total of 56 pairs of tumor and distal normal tissue samples were collected from patients with T1 stage NSCLC for target gene examination and immunohistochemical staining. Of the 56 patients, 40 (71.4%) were male and 16 (28.6%) were female. The median age was 62 years (range, 38–79 years), and 55.4% of the patients had a smoking history of greater than or equal to 20 pack-years. In terms of the pathological type, more than half of the patients (55.4%) had SCC and 44.6% had AD. Twenty-seven patients (48.2%) were in T1a stage (tumor diameter ≤2 cm) and 29 patients (51.8%) were in T1b stage (tumor diameter 2–3 cm). Lymph node metastasis was found in 19.6% of the patients.
+
+
+The expression of CDK6 in T1 stage NSCLC
+
+RT-PCR and immunohistochemical staining were used to explore the expression levels of CDK6 in the 56 cases of T1 stage NSCLC. The relative quantification of CDK6 in distal normal tissues and tumor tissues was 0.648±0.301 and 0.853±0.776, respectively (P = 0.073). There was a trend of increased expression of CDK6 mRNA in tumor tissues ( Table 1 ). The expression of CDK6 protein in the 56 pairs of NSCLC tissue samples and normal lung tissue samples was also detected by immunohistochemical staining ( Figure 1 ). CDK6 protein expression was found to be positive in 8 NSCLC samples (14.3%), whereas it was negative in all distal normal tissue samples (100%). Moreover, nonparametric tests showed that the expression of CDK6 protein in NSCLC tissues was significantly higher than that in normal lung tissues (P = 0.003).
+
+*, independent samples t -test. CDK6, Cyclin-dependent kinase 6; NSCLC, non-small cell lung cancer.
+
+Detection of CDK6 expression by immunohistochemistry. (A) Negative expression of CDK6 in normal lung tissues; (B) negative expression of CDK6 in AD tissues; (C) positive expression of CDK6 in SCC tissues. CDK6, Cyclin-dependent kinase 6; SCC, squamous cell carcinomas; AD, adenocarcinoma.
+
+
+Correlation between CDK6 expression and clinicopathological features in NSCLC
+
+We then examined the correlation between CDK6 gene expression and clinicopathological features of T1 stage NSCLC patients including sex (male versus female), age (<60 versus ≥60 years), smoke index (<20 versus ≥20 pack-years), tumor diameter (≤2 versus 2–3 cm), pathological type (SCC versus AD), differentiation (poorly versus well-moderately), visceral pleura involvement (no versus yes), vascular tumor thrombus (no versus yes) and lymph node metastasis (no versus yes) ( Table 2 ). CDK6 gene expression was associated with clinicopathological features including smoking status and pathological types in tumor tissues, while no significant correlation was found between CDK6 gene expression and clinicopathological features in distal normal tissues. With the increase of smoking quantity, CDK6 gene expression was accordingly increased (P=0.009). Furthermore, CDK6 gene expression in SCC was significantly higher than that in AD (P=0.000). Subsequently, we further detected CDK6 protein expression in 31 SCC tissues and 25 AD tissues by immunohistochemical staining ( Figure 1 ), and found that CDK6 protein expression was positive in 8 SCC tissues (25.8%) whereas it was negative in all AD tissues (100%), which indicated that the expression of CDK6 protein was significantly higher in SCC tissues than that in AD tissues (P<0.001). The results of protein level quantification were consistent with those of RT-PCR.
+
+*, independent samples t -test. CDK6, Cyclin-dependent kinase 6; SCC, squamous cell carcinomas; AD, adenocarcinoma.
+
+
+The differential expression of CDK6 in different pathological types of NSCLC
+
+Cases were stratified by tumor pathological types to explore whether CDK6 gene expression was associated with NSCLC in this selected population of patients. As shown in Table 3 , CDK6 gene expression was increased in SCC tissues (1.265±0.815) compared with that in the distal normal tissues (0.595±0.273) and the difference was significant (P=0.000). Nonparametric tests also showed that the expression of CDK6 protein in SCC tissues was significantly higher than that in distal normal tissues (P<0.001). However, reduced expression of CDK6 was detected in AD and the relative quantification of CDK6 gene in distal normal tissues and tumor tissues was 0.714±0.325 and 0.342±0.243, respectively (P=0.000).
+
+*, Paired samples t -test. CDK6, Cyclin-dependent kinase 6; SCC, squamous cell carcinomas; AD, adenocarcinoma.
+
+
+Correlation between CDK6 expression and clinicopathological features in different pathological types of NSCLC
+
+The correlation between CDK6 gene expression and clinicopathological features in SCC and AD were then analyzed. No clinicopathological features were found to be related to CDK6 gene expression in SCC (P>0.05) ( Table 4 ). However, the expression of the CDK6 gene in AD was negatively correlated with tumor diameter (P=0.049) ( Table 5 ). Compared with distal normal tissues, CDK6 gene expression was decreased significantly in tumor tissues no matter whether the tumor diameter was less than or larger than 2 cm in patients with lung AD (P<0.05; Table S1 ).
+
+*, independent samples t -test. CDK6, Cyclin-dependent kinase 6; SCC, squamous cell carcinomas.
+
+*, independent samples t -test. CDK6, Cyclin-dependent kinase 6; AD, adenocarcinoma.
+
+We also found a related trend between expression of the CDK6 gene and visceral pleura involvement in AD (P=0.080). When stratified further, CDK6 gene expression in tumor tissues was significantly lower than that in distal normal tissues for AD without visceral pleura involvement (P=0.000). In contrast, there was no statistically significant difference in CDK6 gene expression between tumor and normal tissues in cases with visceral pleura involvement (P=0.559; Table S2 ).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+As we know, it is a common malignant behavior of human cancer that cell cycle deregulation results in uncontrolled cell proliferation. Cell cycle progression is regulated by a subfamily of CDKs, which belongs to the core cell cycle machinery and comprises a family of serine/threonine kinase ( 14 , 25 , 26 ). CDK6, an important cell cycle regulatory factor, plays a significant role in cell proliferation, differentiation and angiogenesis while driving the G1 phase progression and the transition of the cell cycle from G1 to S phase ( 19 , 27 - 29 ). CDK6 has been proven to bind to and enhance degradation of the eyes absent homolog 2 protein (EYA2), which is necessary for the development of multiple organs, regulation of cell proliferation, and is disordered in various cancers. This interaction suggests that the mechanism by which CDK6 regulates EYA2 activity could be important in development and in cancer ( 27 ).
+
+Kollmann et al. has reported that the proliferation and cell cycle progression can be inhibited by CDK6, which is overexpressed in BCR-ABL transformed B cell leukemia/lymphoma cells ( 19 ). CDK6 overexpression also has been shown to block differentiation of leukemic cells and osteoblasts ( 15 , 30 , 31 ). Matushansky et al. found that there was a negative regulatory relationship between the expression of CDK6 and the differentiation of murine erythroid leukemia (MEL) cells. When MEL cells were induced to re-enter differentiation, CDK6 was downregulated ( 28 ). Kollmann et al. have shown that CDK6 is overexpressed in lymphoma and regulates the transcription of vascular endothelial growth factor A (VEGFA) that promotes tumor angiogenesis and controls the formation of neovascularization, which indicates that CDK6 not only plays a role in the cell cycle, but also regulates angiogenesis in lymphoma, and further confirms the critical role of CDK6 in hematopoietic malignancies ( 19 ). Additionally, amplification and overexpression of CDK6 has also been detected in a variety of solid tumors, e.g., neuroblastomas, oral SCCs, breast tumors, sarcomas and melanomas ( 27 , 32 - 35 ).
+
+In this study, we showed that CDK6 had a tendency to increase in tumor tissues compared to the transcriptional level in normal tissues, although it did not reach significance. However, the expression of CDK6 protein in NSCLC tissues was significantly higher than that in normal lung tissues, which was consistent with the results as reported by Hong et al. ( 36 ). Igarashi et al. reported that CDK6 proteins were significantly increased in lung cancer tissues in comparison to adjacent non-cancerous tissues. Stratified by pathological types, CDK6 protein was significantly increased in lung ADs, but no significant change was found in lung SCCs ( 37 ). In contrast, we found that CDK6 was overexpressed in SCC, however, in AD CDK6 showed significantly lower expression than in normal tissues. The TCGA database also confirmed that the CDK6 expression in AD was lower than that in normal tissue and was higher than that in normal tissue in SCC ( Figure S1 ). The difference may be because our study population focused on those with T1 stage NSCLC, while in the small sample study of Igarashi et al. , most patients with NSCLC were in stage II and III, without subgroup analysis of early lung cancer alone. Particularly, we found CDK6 gene expression was not associated with any clinicopathological features in SCC, whereas it was negatively correlated with tumor diameter in AD. CDK6 as an oncogene, promotes cell proliferation in many kinds of cancers, while overexpression of CDK6 has also been shown to reduce skin tumorigenesis ( 38 - 41 ). We suspected that this dual effect of CDK6 led to this result. Of course, our research only described this phenomenon. The reasons and mechanisms driving this need to be further investigated. In addition, we found that the expression of the CDK6 gene had a correlation with visceral pleura involvement in AD, suggesting that CDK6 may have the potential to be a diagnostic indicator for AD, but not for SCC.
+
+The expression of CDK6 was increased in pulmonary SCC but decreased in pulmonary AD with T1 stage, and the clinicopathological implications of CDK6 expression in AD and SCC were found to be different, which provides strong support for to study CDK6 to better understand and further scrutinize the complexity of lung cancer.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

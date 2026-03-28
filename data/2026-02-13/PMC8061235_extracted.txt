@@ -1,0 +1,68 @@
+================================================================================
+ARTICLE TITLE: Age of Migration and Cognitive Function Among Older Latinos in the United States
+PMCID: PMC8061235
+PMID: 32651313
+KEYWORDS: alzheimer’s disease and related dementias, cognitive function, immigration, latino, nativity, sex differences
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Age of migration has been shown to have a robust association with Latino immigrant health outcomes; however, the relationship between timing of migration and cognition is less understood.
+
+Objective::
+To examine associations between race/ethnicity, nativity, age of migration, and cognitive aging among US-born (USB) non-Latino Whites (NLW) and USB and foreign-born Latinos 50 years and older.
+
+Methods::
+We used longitudinal biennial data from the Health and Retirement Study (HRS; 2006–2014) to fit generalized linear and linear latent growth curve models for: 1) global cognition (Modified Telephone Interview for Cognitive Status; TICS-M); 2) memory and attention subdomains of TICS-M; and 3) cognitive dysfunction. We also tested for sex modifications.
+
+Results::
+In age and sex adjusted models, all Latino subgroups, independent of nativity and age of migration, had lower global and domain-specific cognitive scores and higher propensity of cognitive impairment classification compared to USB-NLWs. Differences between USB Latinos, but not other Latino subgroups, and USB-NLWs remained after full covariate adjustment. Latinas, independent of nativity or age of migration, had poorer cognitive scores relative to NLW females. Differences between all Latinos and USB-NLWs were principally expressed at baseline. Racial/ethnic, nativity, and age of migration grouping was not associated with slope (nor explained variance) of cognitive decline.
+
+Conclusion::
+Older US-born Latinos, regardless of sex exhibit poorer cognitive function than older USB-NLWs and foreign-born Latinos. Social determinants that differentially affect cognitive function, particularly those that compensate for education and sex differences among US-born Latinos and foreign-born Latinos, require further exploration.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

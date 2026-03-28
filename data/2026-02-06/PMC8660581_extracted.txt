@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: PD-L1 Expression in Pediatric Low-Grade Gliomas Is Independent of BRAF V600E Mutational Status
+PMCID: PMC8660581
+PMID: 31819973
+KEYWORDS: braf, immune response, low-grade glioma, pd-1, pd-l1, tumor infiltrating immune cells
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+To evaluate a potential relationship between BRAF V600E mutation and PD-L1 expression, we examined the expression of PD-L1 in pediatric high- and low-grade glioma cell lines as well as a cohort of pediatric low-grade glioma patient samples. Half of the tumors in our patient cohort were V600-wildtype and half were V600E mutant. All tumors expressed PD-L1. In most tumors, PD-L1 expression was low (<5%), but in some cases over 50% of cells were positive. Extent of PD-L1 expression and immune cell infiltration was independent of BRAF V600E mutational status. All cell lines evaluated, including a BRAF V600E mutant xenograft, expressed PD-L1. Transient transfection of cell lines with a plasmid expressing mutant BRAF V600E had minimal effect on PD-L1 expression. These findings suggest that the PD-1 pathway is active in subsets of pediatric low-grade glioma as a mechanism of immune evasion independent of BRAF V600E mutational status. Low-grade gliomas that are unresectable and refractory to traditional therapy are associated with significant morbidity and continue to pose a treatment challenge. PD-1 pathway inhibitors may offer an alternative treatment approach. Clinical trials will be critical in determining whether PD-L1 expression indicates likely therapeutic benefit with immune checkpoint inhibitors.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

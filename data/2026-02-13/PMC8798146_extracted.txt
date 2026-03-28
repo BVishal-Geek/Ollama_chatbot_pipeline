@@ -1,0 +1,56 @@
+================================================================================
+ARTICLE TITLE: Palliative care access in the elderly metastatic breast cancer population: obstacles and opportunities
+PMCID: PMC8798146
+PMID: 35117952
+KEYWORDS: palliative care, breast neoplasms, aging, cancer care facilities
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Metastatic breast cancer in the elderly encompasses a group of patients with worse cancer-specific survival and more barriers to care than their non-elderly counterparts. Metastatic breast cancer has a longer natural history than many other common metastatic solid tumors. Palliative care access in this group is thus affected by increased need from (I) more aggressive disease status with more severe symptoms, (II) increased barriers to care, (III) more patients living with the disease than other metastatic solid tumors, and (IV) increased incidence of breast cancer as compared to other solid tumors. This review outlines the rationale for outpatient palliative care, the needs for this specific population of cancer patients, and the barriers that the medical community faces in providing palliative care access for these patients.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section with title(s) ['introduction', 'intro'] not found
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Metastatic breast cancer patients can live many years with metastatic disease. Elderly breast cancer patients have a poorer prognosis and potentially more physical symptoms as well as lower access to palliative care and other healthcare services often due to physical or social isolation. Physical symptoms from the cancer and from systemic therapy agents as well as local therapy side effects can cause significant impact on quality of life. Studies have shown quality of life benefits, more access to services, and improved survival for palliative care in metastatic cancer. Outpatient palliative care access is likely lowest in the elderly metastatic breast cancer patient due to their relatively long survival with the disease, high incidence of the disease, and concentration of the elderly in rural areas where palliative care and healthcare access is low. Harnessing palliative care resources in these areas with nurse navigation as well as use of telemedicine or incentivizing palliative care networks to form with nurse practitioner driven care would be helpful in alleviating this issue and the suffering of this patient population.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

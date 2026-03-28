@@ -1,0 +1,65 @@
+================================================================================
+ARTICLE TITLE: Variation in Colorectal Cancer Stage and Mortality across Large Community-Based Populations: PORTAL Colorectal Cancer Cohort
+PMCID: PMC7417079
+PMID: 33183496
+KEYWORDS: colorectal cancer, health care systems, mortality, patient outcomes research, variation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Introduction:
+Colorectal cancer (CRC) incidence and mortality can be reduced by effective screening and/or treatment. However, the influence of health care systems on disparities among insured patients is largely unexplored.
+
+Methods:
+To evaluate insured patients with CRC diagnosed between 2010 and 2014 across 6 diverse US health care systems in the Patient-Centered Outcomes Research Institute (PCORI) Patient Outcomes Research To Advance Learning (PORTAL) CRC cohort, we contrasted CRC stage; CRC mortality; all-cause mortality; and influences of demographics, stage, comorbidities, and treatment between health systems.
+
+Results:
+Among 16,211 patients with CRC, there were significant differences between health care systems in CRC stage at diagnosis, CRC-specific mortality, and all-cause mortality. The unadjusted risk of CRC mortality varied from 27% lower to 21% higher than the reference system (hazard ratio [HR] = 0.73, 95% confidence interval = 0.66–0.80 to HR = 1.21, 95% confidence interval = 1.05–1.40; p < 0.01 across systems). Significant differences persisted after adjustment for demographics and comorbidities (p < 0.01); however, adjustment for stage eliminated significant differences (p = 0.24). All-cause mortality among patients with CRC differed approximately 30% between health care systems (HR = 0.89–1.17; p < 0.01). Adjustment for age eliminated significant differences (p = 0.48).
+
+Discussion:
+Differences in CRC survival between health care systems were largely explained by stage at diagnosis, not demographics, comorbidity, or treatment. Given that stage is strongly related to early detection, these results suggest that variation in CRC screening systems represents a modifiable systems-level factor for reducing disparities in CRC survival.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

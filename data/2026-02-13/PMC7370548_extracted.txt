@@ -1,0 +1,465 @@
+================================================================================
+ARTICLE TITLE: Rural Hospital Mergers Increased Between 2005 and 2016—What Did Those Hospitals Look Like?
+PMCID: PMC7370548
+PMID: 32684072
+KEYWORDS: hospitals, rural, health facility merger, hospital financial management
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+The objective of this study is to determine whether key hospital-level financial and market characteristics are associated with whether rural hospitals merge. Hospital merger status was derived from proprietary Irving Levin Associates data for 2005 through 2016 and hospital-level characteristics from HCRIS, CMS Impact File Hospital Inpatient Prospective Payment System, Hospital MSA file, AHRF, and U.S. Census data for 2004 through 2016. A discrete-time hazard analysis using generalized estimating equations was used to determine whether factors were associated with merging between 2005 and 2016. Factors included measures of profitability, operational efficiency, capital structure, utilization, and market competitiveness. Between 2005 and 2016, 11% (n = 326) of rural hospitals were involved in at least one merger. Rural hospital mergers have increased in recent years, with more than two-thirds (n = 261) occurring after 2011. The types of rural hospitals that merged during the sample period differed from nonmerged rural hospitals. Rural hospitals with higher odds of merging were less profitable, for-profit, larger, and were less likely to be able to cover current debt. Additional factors associated with higher odds of merging were reporting older plant age, not providing obstetrics, being closer to the nearest large hospital, and not being in the West region. By quantifying the hazard of characteristics associated with whether rural hospitals merged between 2005 and 2016, these findings suggest it is possible to determine leading indicators of rural mergers. This work may serve as a foundation for future research to determine the impact of mergers on rural hospitals.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Across the nation, hospitals are merging to cut costs and streamline resources 1 in the face of growing financial pressures and extensive policy changes. 2 - 6 To thrive or survive amidst decreasing inflation-adjusted reimbursement rates 7 and environmental pressures to consolidate resources, 1 , 8 hospitals must become more efficient 9 while simultaneously improving health outcomes. 1 Merging with another hospital is one mechanism for managing these pressures. A 2017 industry survey of hospital executives conducted by Deloitte and Healthcare Financial Management Association (HFMA) showed that executives from acquiring hospitals most commonly reported merging to increase market share (40%) and deliver care more efficiently (29%). 9 The same survey reported that executives of hospitals targeted in a merger most commonly merged to improve access to capital (31%), deliver care more efficiently (29%), and increase market share (14%). 9 Since 2010, hospital mergers have increased in frequency, cost, and number of entities involved. 10 Between 2011 and 2016, an average of 95 hospital merger transactions occurred annually, compared with 61 per year between 2008 and 2010. 10 It is unclear whether rural hospitals followed a similar trend.
+
+Rural hospitals face unique challenges compared with their nonrural counterparts. On average, rural hospitals serve older, sicker, and poorer populations than nonrural populations. 11 , 12 Compared with nonrural hospitals, rural hospitals also provide fewer services, have lower patient volumes, and are more likely to encounter obstacles regarding provider recruitment and patient transfer. 11 - 15 Rural hospitals are also more sensitive to reimbursement changes and are associated with relatively lower profitability than their counterparts. 11 - 14 The confluence of these differences may be associated with the relatively high number of rural hospital closures in recent years (eg, 126 rural hospital closures between 2010 and the first quarter of 2020), 16 and many more being at high risk for closure. 17 These key differences suggest rural hospital could merge for different reasons than other hospitals and should therefore be examined separately; however, there is limited research that addresses rural hospitals specifically. It is important to understand how many rural hospitals are merging and if certain types of rural hospitals are more likely to merge than others. Then, further research can determine what impacts mergers have on rural communities. For this study, we defined rurality according to the Federal Office of Rural Health Policy definition: short-term, nonfederal general facilities (1) located outside Metropolitan Core-Based Statistical Areas (CBSAs) or (2) within Metropolitan areas and having Rural-Urban Commuting Area (RUCA) codes of 4 or greater or (3) with critical access hospital (CAH) status. 18
+
+Previous research found hospitals that merge were more likely to be closer in distance, 19 , 20 not-for-profit, and of similar size to the acquirer. 20 However, these studies offer limited inference for recent rural hospital mergers for 2 key reasons. One, none of those studies separately evaluated rural hospitals. And two, none of those studies assessed hospital mergers after 2000, during which time hospital reimbursement underwent substantial shifts from FFS to outcomes-based, which may have impacted merger motives. The only recent study we are aware of that examined rural hospitals specifically suggested that rural hospitals that merged were more likely to report lower total margins, a smaller proportion of equity (eg, more debt) financing, and a smaller proportion of Medicare outpatient revenue to total outpatient revenue as compared with rural hospitals that did not merge 21 That study, however, was limited to mergers occurring between 2005 and 2012 and defined hospital mergers as “ever” or “never” during the study period. Such a definition may not have captured temporal changes in financial or market characteristics that led to a merger.
+
+Following a merger, target hospitals have been shown to decrease services provided, 22 - 24 staffing levels, 23 and costs, 25 but increase capital expenditures 9 and prices. 26 - 29 Postmerger effects such as these could have significant impacts on rural communities. (For this research, hospital mergers occurred when an acquiring entity (acquirer) took majority ownership of another hospital (target). In most mergers, one organization (the acquirer) initiated action to take over another (the target).) Rural communities are vulnerable to changes because their residents are, on average, older, poorer, and sicker 11 , 12 than nonrural community members. Any of the aforementioned postmerger effects could jeopardize access to care for vulnerable rural residents 30 , 31 as well as impact the economic state of communities served by these hospitals, which are often the largest employers in rural areas. 32
+
+The objective of this study was to determine whether key hospital and market characteristics were associated with whether rural hospitals merged between 2005 and 2016. Policy-makers cannot take informed action on existing and future policies regarding rural merger impacts without first knowing what types of rural hospitals are more likely to merge. Understanding the characteristics of rural hospitals that merge prepares rural hospital leaders and policy-makers to anticipate future mergers and prepare for potential changes within the rural health care landscape.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+We combined multiple secondary data sources to form a panel for years 2004-2016. Hospital-level characteristics were combined from the CMS Hospital Cost Report Information System (HCRIS) “cost report” data, the CMS Impact File Hospital Inpatient Prospective Payment System, the Hospital Metropolitan Statistical Area (MSA) file, and hospital market population-level data from the Area Health Resources Files (AHRF) and U.S. Census data. A hospital’s merger status was derived from proprietary data from Irving Levin Associates for 2005-2016. These data were supplemented with primary data on merger effective dates collected by searching publicly available data sources (10-Ks from the Securities and Exchange Commission, Form 990s from the Internal Revenue Service, hospital websites) or contacting hospitals directly.
+
+To define the sample, we combined rural hospital merger status with hospital Medicare Cost Reports from 2004 to 2016. The Levin data report a merger “announcement date,” which may have (1) included hospitals that did not merge during the sample period and (2) represented a date other than that on which ownership transferred. To verify when and whether an “announced” merger occurred, we created an “effective” date through searching publicly available documents online (eg, for-profit IRS Form 10-Ks, not-for-profit IRS Form 990s, and annual reports from hospital websites) and, when necessary, calling and emailing leaders of rural hospitals. Because we analyzed data by discrete years, not specific dates within a year, it was necessary to align effective merger dates with the correct hospital fiscal year (HFY). Doing so was essential to compare hospital data from the correct time period because the HFY differed from the calendar year of the effective date approximately two-thirds of the time. 39 We excluded partial-year data reporting for less than 360 days 40 (n = 2186).
+
+From the Levin data, we identified 395 rural hospitals that were announced to have merged. Of the 395 rural hospitals, we excluded 16 announced deals that did not close, closed in 2017, or may still be pending, thus leaving 379 mergers involving rural hospitals. Because 39 rural hospitals merged more than once during the sample period, there were 326 unique rural hospitals that merged between 2005 and 2016.
+
+Of the 326 unique rural hospitals that merged, we excluded 44 that did not report full-year cost report data in the year of analysis (eg, the year prior to merger), resulting in 282 unique merged rural hospitals. The final sample consisted of 25,065 hospital-years, 282 of which were associated with a merger and 24,783 of which were not.
+
+The dependent variable was a binary measure equal to 1 if a hospital merged during a year and 0 otherwise.
+
+As described in the “Conceptual Framework” section, we hypothesized that the most likely rural hospitals to merge were (1) less profitable and (2) in more favorable markets. We tested these hypotheses with hospital-level characteristics that have been found to impact hospital performance 17 , 41 - 45 and may have affected the odds that a hospital will merge (outlined in Table 1 ). 9 , 19 - 21 , 46
+
+We measured profitability with total margin. Total margin was calculated as net income divided by total revenues. Total margin is widely encompassing and is often used to assess the financial performance of hospitals involved in mergers and system consolidations. 1 , 34 , 47 - 50
+
+We measured hospital operational efficiency with full-time equivalents (FTEs) per bed and the Medicare outpatient cost to charge ratio (CCR). Full-time equivalents per bed 51 controlled for potential differences in patient volumes and/or staff productivity. Cost to charge ratio controlled for potential differences in billing and/or cost inefficiencies. 51
+
+We measured capital structure with a measure of a hospital’s ability to cover debt payments. To control for a hospital’s ability to pay existing debt, we created a measure called “ability to cover debt payments” using debt service coverage ratios (DSCRs). 51 We categorized nonmissing DSCRs ≥1 as able to cover current debt and nonmissing DSCRs <1 as unable to cover current debt.
+
+We measured utilization with Medicare outpatient payer mix 19 , 52 and whether a hospital provided obstetric services. The proportion of Medicare outpatient payer mix controlled for government-reimbursed payer mix. Outpatient revenue accounted for the largest proportion (nearly two-thirds) of all revenue generated by rural hospitals in the sample. 39 Whether a rural hospital provided obstetric services controlled for service mix differences. Fewer rural hospitals provide obstetrics, with more than 7% of all rural hospitals closing their obstetric units between 2004 and 2014. 53 - 55 Providing obstetrics may indicate broader associations with other services provided by rural hospitals.
+
+We measured other hospital characteristics we hypothesized determine whether rural hospitals merge. Those factors included ownership status, average plant age, hospital size, and whether a hospital is a CAH. Hospital ownership—categorized as private for-profit, private not-for-profit, and government-owned—controlled for differing financial objectives. 56 - 59 Average plant age, measured as quartiles for all merged and nonmerged rural hospitals in each analytical year, controlled for the age of fixed assets. 51 Hospital size, measured by Net Patient Revenue (NPR) (quartiles), controlled for potential scale opportunities. Compared with measuring hospital size by the number of beds, NPR has been theorized to be a more sensitive measure for rural hospitals. 17
+
+For this research, CAHs were compared with rural PPS hospitals—an approach informed by prior hospital finance literature 60 that served to control for Medicare cost-based reimbursement to CAHs. 61 Critical access hospitals receive cost-based reimbursement to reduce financial vulnerability and improve access to care in rural communities. 15 Critical access hospitals generally have smaller, less competitive markets than other rural PPS hospitals. 51 , 62
+
+We measured market competitiveness with distance to the nearest large (eg, >100 bed) hospital and the proportion of total market share captured.
+
+Hospital market areas were created using Medicare discharge counts by ZIP code from the CMS Hospital Service Area File. A ZIP code was included in the market if, when sorted in descending number of that hospital’s Medicare discharges, it was among the ZIPs that comprised the first 75% of that hospital’s Medicare discharges 63 or if it contributed at least 3% of that hospital’s Medicare admissions for the year. Except for hospitals in Alaska and Hawaii, ZIP codes more than 150 miles from the hospital were disqualified from being in its market. The market areas were not specified to be mutually exclusive, exhaustive, or contiguous. Low-population or low-Medicare-population ZIP code areas in otherwise dense areas were more likely to be excluded from a market based on this definition. Averages for market variables were calculated as the population-weighted average of the ZIP code data.
+
+Distance to the nearest large (eg, >100 bed) hospital controlled for proximity to other hospitals. Various measures of proximity have been associated with an acquirer’s ability to increase market power. 28 , 34 , 64 While the nearest large hospital was not always the acquirer, this research was limited by not knowing the acquirer. Therefore, distance was measured to the nearest large hospital. We determined the distance from each hospital to the next closest hospital using straight-line distance between coordinates geocoded from CMS addresses. We took the natural log of distance to address suspected variation in the rate of the relationship of distance with the odds of merging. Market share captured, measured as the proportion of inpatient discharges captured within a hospital’s market, controlled for market competition.
+
+We measured other market characteristics with total population, 25 unemployment rate, 65 , 66 and region. 48 Population controlled for market size. 61 Unemployment rate controlled for local economic conditions 61 and the average community member’s likelihood to seek and ability to pay for health care services. 13 , 30 Region controlled for potential unobserved geographic differences.
+
+The study used a discrete-time hazard analysis to identify hospital and market characteristics predictive of a merger using a panel of data for years 2004 through 2016. Following Dranove and Lindrooth’s (2003) approach, 19 only hospital characteristics from the year prior to a merger were used to model merger activity. For example, a hospital’s 2004 profitability was used to predict its 2005 merger status. Therefore, data for years 2004 through 2015 were used to determine the relationship of key hospital factors with merging for analytical years 2005 through 2016. We estimated generalized estimating equations with a logit link and an exchangeable error term for repeated observations on a binary outcome for whether a rural hospital merged as follows:
+
+ P r o b ( M e r g e t = 1 ) = exp ( X β / ( 1 + exp ( X β ) where X β = α + β 1 * X t − 1 + β 2 * Z + β 3 * Y e a r t − 1 = 2004 … 2015 c 
+
+Merge denotes the binary dependent variable for whether a rural hospital merged in re-centered year 0. t denotes the year of a merger, re-centered at 0. α denotes the constant. β 1 . . . β n represent coefficients. X and Z denote time-varying and time-invariant independent variables, respectively. t − 1 denotes the year prior to a merger, from which antecedent data are compared for hospitals that merged in re-centered year 0. β 3 *Year t − 1  = 2004 . . . 2015 represent year fixed effects. ε represents the error term, specified as exchangeable within hospital.
+
+Because we were interested in modeling merger activity in a year, we leveraged the longitudinal nature of the data and specified a discrete-time hazard analysis. As with any merger analysis, our sample was limited by left and right censoring (eg, we did not know which hospitals merged before the sample period began in 2005 or after the sample period ended in 2016). However, we leveraged the new knowledge of which hospitals merged and did not merge during the sample period to create a comparison group. We compared hospitals that merged during the sample period to a control group comprising (1) rural hospitals that did not merge during the sample period and (2) rural hospitals that ultimately merged during the sample period—but merged more than 1 year in the future. We further explain the treatment and control groups with an example in the appendix .
+
+We accounted for unobserved correlation of year-specific effects with model variables and merger status (eg, implementation of various CMS reimbursement policies) by including year fixed effects. We cleaned data using complete case analysis and addressed extreme values by Winsorizing 67 (censoring) those values at the 1% tails of each variable’s distribution. 25 Standard errors were calculated with a bootstrap (500 repetitions). Descriptive statistics were weighted by 2 factors: (1) the annual proportion of merged hospitals relative to all mergers and (2) days in period For example, 7 of the 282 merged hospital-years occurred in 2005. Therefore, descriptive statistics for merged and nonmerged hospital-years for 2005 were weighted as 7/282 nds of the overall means/medians. Statistics were then weighted at the hospital-year level for days in periods. Differences between groups were tested using Pearson χ 2 (categorical variables) and Wilcoxon rank test of medians (continuous variables) using .05 as the probability of type 1 error.
+
+
+Data Sources
+
+We combined multiple secondary data sources to form a panel for years 2004-2016. Hospital-level characteristics were combined from the CMS Hospital Cost Report Information System (HCRIS) “cost report” data, the CMS Impact File Hospital Inpatient Prospective Payment System, the Hospital Metropolitan Statistical Area (MSA) file, and hospital market population-level data from the Area Health Resources Files (AHRF) and U.S. Census data. A hospital’s merger status was derived from proprietary data from Irving Levin Associates for 2005-2016. These data were supplemented with primary data on merger effective dates collected by searching publicly available data sources (10-Ks from the Securities and Exchange Commission, Form 990s from the Internal Revenue Service, hospital websites) or contacting hospitals directly.
+
+
+Study Sample
+
+To define the sample, we combined rural hospital merger status with hospital Medicare Cost Reports from 2004 to 2016. The Levin data report a merger “announcement date,” which may have (1) included hospitals that did not merge during the sample period and (2) represented a date other than that on which ownership transferred. To verify when and whether an “announced” merger occurred, we created an “effective” date through searching publicly available documents online (eg, for-profit IRS Form 10-Ks, not-for-profit IRS Form 990s, and annual reports from hospital websites) and, when necessary, calling and emailing leaders of rural hospitals. Because we analyzed data by discrete years, not specific dates within a year, it was necessary to align effective merger dates with the correct hospital fiscal year (HFY). Doing so was essential to compare hospital data from the correct time period because the HFY differed from the calendar year of the effective date approximately two-thirds of the time. 39 We excluded partial-year data reporting for less than 360 days 40 (n = 2186).
+
+From the Levin data, we identified 395 rural hospitals that were announced to have merged. Of the 395 rural hospitals, we excluded 16 announced deals that did not close, closed in 2017, or may still be pending, thus leaving 379 mergers involving rural hospitals. Because 39 rural hospitals merged more than once during the sample period, there were 326 unique rural hospitals that merged between 2005 and 2016.
+
+Of the 326 unique rural hospitals that merged, we excluded 44 that did not report full-year cost report data in the year of analysis (eg, the year prior to merger), resulting in 282 unique merged rural hospitals. The final sample consisted of 25,065 hospital-years, 282 of which were associated with a merger and 24,783 of which were not.
+
+
+Study Variables
+
+The dependent variable was a binary measure equal to 1 if a hospital merged during a year and 0 otherwise.
+
+As described in the “Conceptual Framework” section, we hypothesized that the most likely rural hospitals to merge were (1) less profitable and (2) in more favorable markets. We tested these hypotheses with hospital-level characteristics that have been found to impact hospital performance 17 , 41 - 45 and may have affected the odds that a hospital will merge (outlined in Table 1 ). 9 , 19 - 21 , 46
+
+We measured profitability with total margin. Total margin was calculated as net income divided by total revenues. Total margin is widely encompassing and is often used to assess the financial performance of hospitals involved in mergers and system consolidations. 1 , 34 , 47 - 50
+
+We measured hospital operational efficiency with full-time equivalents (FTEs) per bed and the Medicare outpatient cost to charge ratio (CCR). Full-time equivalents per bed 51 controlled for potential differences in patient volumes and/or staff productivity. Cost to charge ratio controlled for potential differences in billing and/or cost inefficiencies. 51
+
+We measured capital structure with a measure of a hospital’s ability to cover debt payments. To control for a hospital’s ability to pay existing debt, we created a measure called “ability to cover debt payments” using debt service coverage ratios (DSCRs). 51 We categorized nonmissing DSCRs ≥1 as able to cover current debt and nonmissing DSCRs <1 as unable to cover current debt.
+
+We measured utilization with Medicare outpatient payer mix 19 , 52 and whether a hospital provided obstetric services. The proportion of Medicare outpatient payer mix controlled for government-reimbursed payer mix. Outpatient revenue accounted for the largest proportion (nearly two-thirds) of all revenue generated by rural hospitals in the sample. 39 Whether a rural hospital provided obstetric services controlled for service mix differences. Fewer rural hospitals provide obstetrics, with more than 7% of all rural hospitals closing their obstetric units between 2004 and 2014. 53 - 55 Providing obstetrics may indicate broader associations with other services provided by rural hospitals.
+
+We measured other hospital characteristics we hypothesized determine whether rural hospitals merge. Those factors included ownership status, average plant age, hospital size, and whether a hospital is a CAH. Hospital ownership—categorized as private for-profit, private not-for-profit, and government-owned—controlled for differing financial objectives. 56 - 59 Average plant age, measured as quartiles for all merged and nonmerged rural hospitals in each analytical year, controlled for the age of fixed assets. 51 Hospital size, measured by Net Patient Revenue (NPR) (quartiles), controlled for potential scale opportunities. Compared with measuring hospital size by the number of beds, NPR has been theorized to be a more sensitive measure for rural hospitals. 17
+
+For this research, CAHs were compared with rural PPS hospitals—an approach informed by prior hospital finance literature 60 that served to control for Medicare cost-based reimbursement to CAHs. 61 Critical access hospitals receive cost-based reimbursement to reduce financial vulnerability and improve access to care in rural communities. 15 Critical access hospitals generally have smaller, less competitive markets than other rural PPS hospitals. 51 , 62
+
+We measured market competitiveness with distance to the nearest large (eg, >100 bed) hospital and the proportion of total market share captured.
+
+Hospital market areas were created using Medicare discharge counts by ZIP code from the CMS Hospital Service Area File. A ZIP code was included in the market if, when sorted in descending number of that hospital’s Medicare discharges, it was among the ZIPs that comprised the first 75% of that hospital’s Medicare discharges 63 or if it contributed at least 3% of that hospital’s Medicare admissions for the year. Except for hospitals in Alaska and Hawaii, ZIP codes more than 150 miles from the hospital were disqualified from being in its market. The market areas were not specified to be mutually exclusive, exhaustive, or contiguous. Low-population or low-Medicare-population ZIP code areas in otherwise dense areas were more likely to be excluded from a market based on this definition. Averages for market variables were calculated as the population-weighted average of the ZIP code data.
+
+Distance to the nearest large (eg, >100 bed) hospital controlled for proximity to other hospitals. Various measures of proximity have been associated with an acquirer’s ability to increase market power. 28 , 34 , 64 While the nearest large hospital was not always the acquirer, this research was limited by not knowing the acquirer. Therefore, distance was measured to the nearest large hospital. We determined the distance from each hospital to the next closest hospital using straight-line distance between coordinates geocoded from CMS addresses. We took the natural log of distance to address suspected variation in the rate of the relationship of distance with the odds of merging. Market share captured, measured as the proportion of inpatient discharges captured within a hospital’s market, controlled for market competition.
+
+We measured other market characteristics with total population, 25 unemployment rate, 65 , 66 and region. 48 Population controlled for market size. 61 Unemployment rate controlled for local economic conditions 61 and the average community member’s likelihood to seek and ability to pay for health care services. 13 , 30 Region controlled for potential unobserved geographic differences.
+
+
+Dependent variable
+
+The dependent variable was a binary measure equal to 1 if a hospital merged during a year and 0 otherwise.
+
+
+Independent variables
+
+As described in the “Conceptual Framework” section, we hypothesized that the most likely rural hospitals to merge were (1) less profitable and (2) in more favorable markets. We tested these hypotheses with hospital-level characteristics that have been found to impact hospital performance 17 , 41 - 45 and may have affected the odds that a hospital will merge (outlined in Table 1 ). 9 , 19 - 21 , 46
+
+We measured profitability with total margin. Total margin was calculated as net income divided by total revenues. Total margin is widely encompassing and is often used to assess the financial performance of hospitals involved in mergers and system consolidations. 1 , 34 , 47 - 50
+
+We measured hospital operational efficiency with full-time equivalents (FTEs) per bed and the Medicare outpatient cost to charge ratio (CCR). Full-time equivalents per bed 51 controlled for potential differences in patient volumes and/or staff productivity. Cost to charge ratio controlled for potential differences in billing and/or cost inefficiencies. 51
+
+We measured capital structure with a measure of a hospital’s ability to cover debt payments. To control for a hospital’s ability to pay existing debt, we created a measure called “ability to cover debt payments” using debt service coverage ratios (DSCRs). 51 We categorized nonmissing DSCRs ≥1 as able to cover current debt and nonmissing DSCRs <1 as unable to cover current debt.
+
+We measured utilization with Medicare outpatient payer mix 19 , 52 and whether a hospital provided obstetric services. The proportion of Medicare outpatient payer mix controlled for government-reimbursed payer mix. Outpatient revenue accounted for the largest proportion (nearly two-thirds) of all revenue generated by rural hospitals in the sample. 39 Whether a rural hospital provided obstetric services controlled for service mix differences. Fewer rural hospitals provide obstetrics, with more than 7% of all rural hospitals closing their obstetric units between 2004 and 2014. 53 - 55 Providing obstetrics may indicate broader associations with other services provided by rural hospitals.
+
+We measured other hospital characteristics we hypothesized determine whether rural hospitals merge. Those factors included ownership status, average plant age, hospital size, and whether a hospital is a CAH. Hospital ownership—categorized as private for-profit, private not-for-profit, and government-owned—controlled for differing financial objectives. 56 - 59 Average plant age, measured as quartiles for all merged and nonmerged rural hospitals in each analytical year, controlled for the age of fixed assets. 51 Hospital size, measured by Net Patient Revenue (NPR) (quartiles), controlled for potential scale opportunities. Compared with measuring hospital size by the number of beds, NPR has been theorized to be a more sensitive measure for rural hospitals. 17
+
+For this research, CAHs were compared with rural PPS hospitals—an approach informed by prior hospital finance literature 60 that served to control for Medicare cost-based reimbursement to CAHs. 61 Critical access hospitals receive cost-based reimbursement to reduce financial vulnerability and improve access to care in rural communities. 15 Critical access hospitals generally have smaller, less competitive markets than other rural PPS hospitals. 51 , 62
+
+We measured market competitiveness with distance to the nearest large (eg, >100 bed) hospital and the proportion of total market share captured.
+
+Hospital market areas were created using Medicare discharge counts by ZIP code from the CMS Hospital Service Area File. A ZIP code was included in the market if, when sorted in descending number of that hospital’s Medicare discharges, it was among the ZIPs that comprised the first 75% of that hospital’s Medicare discharges 63 or if it contributed at least 3% of that hospital’s Medicare admissions for the year. Except for hospitals in Alaska and Hawaii, ZIP codes more than 150 miles from the hospital were disqualified from being in its market. The market areas were not specified to be mutually exclusive, exhaustive, or contiguous. Low-population or low-Medicare-population ZIP code areas in otherwise dense areas were more likely to be excluded from a market based on this definition. Averages for market variables were calculated as the population-weighted average of the ZIP code data.
+
+Distance to the nearest large (eg, >100 bed) hospital controlled for proximity to other hospitals. Various measures of proximity have been associated with an acquirer’s ability to increase market power. 28 , 34 , 64 While the nearest large hospital was not always the acquirer, this research was limited by not knowing the acquirer. Therefore, distance was measured to the nearest large hospital. We determined the distance from each hospital to the next closest hospital using straight-line distance between coordinates geocoded from CMS addresses. We took the natural log of distance to address suspected variation in the rate of the relationship of distance with the odds of merging. Market share captured, measured as the proportion of inpatient discharges captured within a hospital’s market, controlled for market competition.
+
+We measured other market characteristics with total population, 25 unemployment rate, 65 , 66 and region. 48 Population controlled for market size. 61 Unemployment rate controlled for local economic conditions 61 and the average community member’s likelihood to seek and ability to pay for health care services. 13 , 30 Region controlled for potential unobserved geographic differences.
+
+
+Profitability
+
+We measured profitability with total margin. Total margin was calculated as net income divided by total revenues. Total margin is widely encompassing and is often used to assess the financial performance of hospitals involved in mergers and system consolidations. 1 , 34 , 47 - 50
+
+
+Operational efficiency
+
+We measured hospital operational efficiency with full-time equivalents (FTEs) per bed and the Medicare outpatient cost to charge ratio (CCR). Full-time equivalents per bed 51 controlled for potential differences in patient volumes and/or staff productivity. Cost to charge ratio controlled for potential differences in billing and/or cost inefficiencies. 51
+
+
+Capital structure
+
+We measured capital structure with a measure of a hospital’s ability to cover debt payments. To control for a hospital’s ability to pay existing debt, we created a measure called “ability to cover debt payments” using debt service coverage ratios (DSCRs). 51 We categorized nonmissing DSCRs ≥1 as able to cover current debt and nonmissing DSCRs <1 as unable to cover current debt.
+
+
+Utilization
+
+We measured utilization with Medicare outpatient payer mix 19 , 52 and whether a hospital provided obstetric services. The proportion of Medicare outpatient payer mix controlled for government-reimbursed payer mix. Outpatient revenue accounted for the largest proportion (nearly two-thirds) of all revenue generated by rural hospitals in the sample. 39 Whether a rural hospital provided obstetric services controlled for service mix differences. Fewer rural hospitals provide obstetrics, with more than 7% of all rural hospitals closing their obstetric units between 2004 and 2014. 53 - 55 Providing obstetrics may indicate broader associations with other services provided by rural hospitals.
+
+
+Other hospital characteristics
+
+We measured other hospital characteristics we hypothesized determine whether rural hospitals merge. Those factors included ownership status, average plant age, hospital size, and whether a hospital is a CAH. Hospital ownership—categorized as private for-profit, private not-for-profit, and government-owned—controlled for differing financial objectives. 56 - 59 Average plant age, measured as quartiles for all merged and nonmerged rural hospitals in each analytical year, controlled for the age of fixed assets. 51 Hospital size, measured by Net Patient Revenue (NPR) (quartiles), controlled for potential scale opportunities. Compared with measuring hospital size by the number of beds, NPR has been theorized to be a more sensitive measure for rural hospitals. 17
+
+For this research, CAHs were compared with rural PPS hospitals—an approach informed by prior hospital finance literature 60 that served to control for Medicare cost-based reimbursement to CAHs. 61 Critical access hospitals receive cost-based reimbursement to reduce financial vulnerability and improve access to care in rural communities. 15 Critical access hospitals generally have smaller, less competitive markets than other rural PPS hospitals. 51 , 62
+
+
+Market competitiveness
+
+We measured market competitiveness with distance to the nearest large (eg, >100 bed) hospital and the proportion of total market share captured.
+
+Hospital market areas were created using Medicare discharge counts by ZIP code from the CMS Hospital Service Area File. A ZIP code was included in the market if, when sorted in descending number of that hospital’s Medicare discharges, it was among the ZIPs that comprised the first 75% of that hospital’s Medicare discharges 63 or if it contributed at least 3% of that hospital’s Medicare admissions for the year. Except for hospitals in Alaska and Hawaii, ZIP codes more than 150 miles from the hospital were disqualified from being in its market. The market areas were not specified to be mutually exclusive, exhaustive, or contiguous. Low-population or low-Medicare-population ZIP code areas in otherwise dense areas were more likely to be excluded from a market based on this definition. Averages for market variables were calculated as the population-weighted average of the ZIP code data.
+
+Distance to the nearest large (eg, >100 bed) hospital controlled for proximity to other hospitals. Various measures of proximity have been associated with an acquirer’s ability to increase market power. 28 , 34 , 64 While the nearest large hospital was not always the acquirer, this research was limited by not knowing the acquirer. Therefore, distance was measured to the nearest large hospital. We determined the distance from each hospital to the next closest hospital using straight-line distance between coordinates geocoded from CMS addresses. We took the natural log of distance to address suspected variation in the rate of the relationship of distance with the odds of merging. Market share captured, measured as the proportion of inpatient discharges captured within a hospital’s market, controlled for market competition.
+
+
+Other market characteristics
+
+We measured other market characteristics with total population, 25 unemployment rate, 65 , 66 and region. 48 Population controlled for market size. 61 Unemployment rate controlled for local economic conditions 61 and the average community member’s likelihood to seek and ability to pay for health care services. 13 , 30 Region controlled for potential unobserved geographic differences.
+
+
+Study Design
+
+The study used a discrete-time hazard analysis to identify hospital and market characteristics predictive of a merger using a panel of data for years 2004 through 2016. Following Dranove and Lindrooth’s (2003) approach, 19 only hospital characteristics from the year prior to a merger were used to model merger activity. For example, a hospital’s 2004 profitability was used to predict its 2005 merger status. Therefore, data for years 2004 through 2015 were used to determine the relationship of key hospital factors with merging for analytical years 2005 through 2016. We estimated generalized estimating equations with a logit link and an exchangeable error term for repeated observations on a binary outcome for whether a rural hospital merged as follows:
+
+ P r o b ( M e r g e t = 1 ) = exp ( X β / ( 1 + exp ( X β ) where X β = α + β 1 * X t − 1 + β 2 * Z + β 3 * Y e a r t − 1 = 2004 … 2015 c 
+
+Merge denotes the binary dependent variable for whether a rural hospital merged in re-centered year 0. t denotes the year of a merger, re-centered at 0. α denotes the constant. β 1 . . . β n represent coefficients. X and Z denote time-varying and time-invariant independent variables, respectively. t − 1 denotes the year prior to a merger, from which antecedent data are compared for hospitals that merged in re-centered year 0. β 3 *Year t − 1  = 2004 . . . 2015 represent year fixed effects. ε represents the error term, specified as exchangeable within hospital.
+
+Because we were interested in modeling merger activity in a year, we leveraged the longitudinal nature of the data and specified a discrete-time hazard analysis. As with any merger analysis, our sample was limited by left and right censoring (eg, we did not know which hospitals merged before the sample period began in 2005 or after the sample period ended in 2016). However, we leveraged the new knowledge of which hospitals merged and did not merge during the sample period to create a comparison group. We compared hospitals that merged during the sample period to a control group comprising (1) rural hospitals that did not merge during the sample period and (2) rural hospitals that ultimately merged during the sample period—but merged more than 1 year in the future. We further explain the treatment and control groups with an example in the appendix .
+
+We accounted for unobserved correlation of year-specific effects with model variables and merger status (eg, implementation of various CMS reimbursement policies) by including year fixed effects. We cleaned data using complete case analysis and addressed extreme values by Winsorizing 67 (censoring) those values at the 1% tails of each variable’s distribution. 25 Standard errors were calculated with a bootstrap (500 repetitions). Descriptive statistics were weighted by 2 factors: (1) the annual proportion of merged hospitals relative to all mergers and (2) days in period For example, 7 of the 282 merged hospital-years occurred in 2005. Therefore, descriptive statistics for merged and nonmerged hospital-years for 2005 were weighted as 7/282 nds of the overall means/medians. Statistics were then weighted at the hospital-year level for days in periods. Differences between groups were tested using Pearson χ 2 (categorical variables) and Wilcoxon rank test of medians (continuous variables) using .05 as the probability of type 1 error.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The geographic location of all 326 unique rural hospitals that merged from 2005 through 2016 is displayed in Figure 2 . More than half of all merged hospitals (n = 173) were in 11 states (OK, TX, WI, NC, TN, PA, VA, AL, MI, GA, and IL). Mergers occurred the most frequently in Oklahoma (n = 22), Texas (n = 22), and Wisconsin (n = 19). Of states with at least 25 total rural hospitals, Virginia (44%), South Carolina (37%), and Pennsylvania (29%) had the highest proportion of mergers.
+
+Annually, rural mergers increased more than 200% since 2010 (averaging 20 mergers/year from 2005 to 2010 and 44/year from 2011 to 2016). (The average annual number of rural hospital mergers was based on the total number of rural mergers (379) between 2005 and 2016. That number included each merger for any rural hospital that merged more than once. We chose the total number of mergers for annual averages rather than the number of unique rural hospitals that merged to account for rural hospitals that merged more than once in the 2 time periods we classified (eg, 2005-2010 and 2011-2016).) The increase in mergers during recent years is represented in Figure 2 by the higher proportion of darker red shaded squares. Further description of state-level distributions and annual occurrences can be found in other work from the authors. 68
+
+Geographic distribution of rural hospitals that merged between 2005 and 2016.
+
+In Table 1 , we present descriptive statistics of rural hospitals in the year of analysis (year 1). Results represent differences in the premerger period between merged and nonmerged rural hospital-years. The first column of data depicts averages for all (eg, nonmerged and merged) rural hospital-years. The second data column depicts averages for nonmerged rural hospital-years, and the third data column depicts averages for merged rural hospital-years.
+
+Compared with nonmerged rural hospitals, merged rural hospitals reported significantly lower premerger total margins.
+
+By both measures of operational efficiency, FTEs per bed and CCR, merged rural hospitals were more efficient premerger than nonmerged rural hospitals.
+
+Compared with nonmerged rural hospitals, a larger proportion of merged rural hospitals were significantly less likely to be able to pay existing debt in the premerger period.
+
+The proportion of outpatient payer mix attributed to Medicare was 4 percentage points lower for merged, relative to nonmerged, rural hospitals. Whether a rural hospital provided obstetric services premerger did not differ significantly between merged and nonmerged rural hospitals.
+
+Relative to the comparison group, merged rural hospitals were more than twice as likely to be for-profit entities and less than half as likely to be government-owned. Compared with the same group, a larger proportion of merged rural hospitals reported older plant age. The unadjusted plant age finding was not statistically significant ( P = .07) but showed a statistical trend and may have been of clinical importance. Merged rural hospitals, compared with nonmerged rural hospitals, were significantly more likely to be among the largest quartile of rural hospitals and 4 times less likely to be among the smallest quartile of all rural hospitals in the premerger period. Merged rural hospitals were much more likely to be non-CAH, rural PPS hospitals.
+
+Merged rural hospitals were significantly closer to the nearest large hospital than nonmerged rural hospitals. The difference was sizeable, 9 miles. Merged rural hospitals captured a smaller proportion of total market share.
+
+Merged rural hospital markets were nearly 2 times the size of nonmerged rural comparators. Unemployment was nearly 1 percentage point higher in merged rural hospital markets than nonmerged markets. While a high proportion of rural hospitals in general were in the south (35.51%), merged rural hospitals were disproportionately in the south (47.86%).
+
+The relationship of key hospital factors with merging between 2005 and 2016 was determined using generalized estimating equations with a logit link and an exchangeable error term for repeated observations. Results are presented in Table 2 .
+
+Factors Associated With Rural Hospitals in the Year Prior to Merger (2004-2015).
+
+Note. Missing values: Total Margin (104 obs), CCR (48 obs), FTEs per Bed (115 obs), Plant Age (1,064 obs), Size (41 obs), Outpatient Payer Mix (26 obs), Distance (64 obs), Market Share (64 obs), Population (64 obs), Unemployment Rate (64 obs). CCR = Cost to charge ratio; FTE = full-time equivalents; CAH = critical access hospital.
+
+P < .05. ** P < .01. *** P < .001.
+
+Controlling for other factors, an increase in total margin of 1 percentage point reduced odds of merging by 3%.
+
+After controlling for other factors, neither CCR nor FTEs per bed was associated with the odds of merging in a statistically significant way.
+
+Compared with rural hospitals that could not afford current debt, being able to cover current debt reduced odds of merging by 36%.
+
+After controlling for other factors, Medicare outpatient payer mix did not affect the odds of merging in a statistically significant way. Providing obstetrics services reduced the odds of merging by 44%.
+
+After controlling for other factors, for-profits had 76% higher odds of merging than not-for-profits; government-owned hospitals had 40% lower odds of merging than not-for-profits. Relative to rural hospitals that reported plant age among the newest quartile of all rural hospitals, hospitals with the oldest plant age had 62% higher odds of merging. The larger the hospital, the higher the odds of merger. Compared with rural hospitals among the smallest quartile of all rural hospitals, those in the largest quartile had 4.5 times the odds of merging. After controlling for other factors, CAH status was not associated with the odds of merging in a statistically significant way.
+
+Controlling for other factors, an increase in logged miles between the merged rural hospital and the nearest large hospital reduced odds of merging by 22%. After controlling for other factors, market share captured was not associated with the odds of merging in a statistically significant way.
+
+After controlling for other factors, neither population nor unemployment rate was associated with the odds of merging in a statistically significant way. Compared with rural hospitals located in the south, being in the west region reduced the odds of merging by 74%.
+
+We further investigated the relatively large unadjusted differences by merger status in distance and ownership status identified in Table 1 for 2 reasons. One, in studies of U.S. (eg, not specifically rural) hospitals, proximity has been associated with acquirers’ abilities to influence changes at target hospitals. 69 , 70 And two, for-profit hospitals have different financial objectives than other ownership types. 56 - 59 We expected the relatively large proportion of for-profit rural hospitals that merged to be closer to the nearest large hospital so the acquirer can influence changes at the target. Therefore, we determined the relationship of distance and ownership status with merging between 2005 and 2016. Unlike the descriptive statistics ( Table 1 ) and regression model ( Table 2 ), distance was categorized as <25, 25 to 35, and >35 miles to visually display differences in the relationship of distance and ownership status across policy-relevant categories. These categories were considered policy-relevant because of the potential impact of distance to the nearest hospital on CAH eligibility. (Hospitals must meet certain criteria to be eligible for the Critical Access designation. Most hospitals must be located in a rural area, be more than a 35-mile drive to the next hospital, and maintain no more than 25 inpatient beds (with certain allowable exceptions). 62 ) Results are presented in Figure 3 .
+
+Probability of merging between 2005 and 2016 by distance to nearest large hospital and ownership type.
+
+Closer, for-profit hospitals were more likely to merge than farther, not-for-profit or government-owned hospitals. As distance increased, the likelihood of merging fell for rural hospitals of all ownership types. The closest (eg, <25 miles to the nearest large hospital) for-profits were 10.4 percentage points more likely to merge than the farthest for-profits (29.7% probability and 19.3%, respectively). No matter the distance, when compared with not-for-profits or government-owned hospitals, for-profits were more likely to merge. The farthest for-profits were more likely to merge than the closest not-for-profits (19.3% probability and 17.3%, respectively).
+
+
+Geographic Distribution of Rural Hospitals That Merged Between 2005 and 2016
+
+The geographic location of all 326 unique rural hospitals that merged from 2005 through 2016 is displayed in Figure 2 . More than half of all merged hospitals (n = 173) were in 11 states (OK, TX, WI, NC, TN, PA, VA, AL, MI, GA, and IL). Mergers occurred the most frequently in Oklahoma (n = 22), Texas (n = 22), and Wisconsin (n = 19). Of states with at least 25 total rural hospitals, Virginia (44%), South Carolina (37%), and Pennsylvania (29%) had the highest proportion of mergers.
+
+Annually, rural mergers increased more than 200% since 2010 (averaging 20 mergers/year from 2005 to 2010 and 44/year from 2011 to 2016). (The average annual number of rural hospital mergers was based on the total number of rural mergers (379) between 2005 and 2016. That number included each merger for any rural hospital that merged more than once. We chose the total number of mergers for annual averages rather than the number of unique rural hospitals that merged to account for rural hospitals that merged more than once in the 2 time periods we classified (eg, 2005-2010 and 2011-2016).) The increase in mergers during recent years is represented in Figure 2 by the higher proportion of darker red shaded squares. Further description of state-level distributions and annual occurrences can be found in other work from the authors. 68
+
+Geographic distribution of rural hospitals that merged between 2005 and 2016.
+
+
+Unadjusted Descriptive Statistics of Rural Hospitals Prior to Merger
+
+In Table 1 , we present descriptive statistics of rural hospitals in the year of analysis (year 1). Results represent differences in the premerger period between merged and nonmerged rural hospital-years. The first column of data depicts averages for all (eg, nonmerged and merged) rural hospital-years. The second data column depicts averages for nonmerged rural hospital-years, and the third data column depicts averages for merged rural hospital-years.
+
+Compared with nonmerged rural hospitals, merged rural hospitals reported significantly lower premerger total margins.
+
+By both measures of operational efficiency, FTEs per bed and CCR, merged rural hospitals were more efficient premerger than nonmerged rural hospitals.
+
+Compared with nonmerged rural hospitals, a larger proportion of merged rural hospitals were significantly less likely to be able to pay existing debt in the premerger period.
+
+The proportion of outpatient payer mix attributed to Medicare was 4 percentage points lower for merged, relative to nonmerged, rural hospitals. Whether a rural hospital provided obstetric services premerger did not differ significantly between merged and nonmerged rural hospitals.
+
+Relative to the comparison group, merged rural hospitals were more than twice as likely to be for-profit entities and less than half as likely to be government-owned. Compared with the same group, a larger proportion of merged rural hospitals reported older plant age. The unadjusted plant age finding was not statistically significant ( P = .07) but showed a statistical trend and may have been of clinical importance. Merged rural hospitals, compared with nonmerged rural hospitals, were significantly more likely to be among the largest quartile of rural hospitals and 4 times less likely to be among the smallest quartile of all rural hospitals in the premerger period. Merged rural hospitals were much more likely to be non-CAH, rural PPS hospitals.
+
+Merged rural hospitals were significantly closer to the nearest large hospital than nonmerged rural hospitals. The difference was sizeable, 9 miles. Merged rural hospitals captured a smaller proportion of total market share.
+
+Merged rural hospital markets were nearly 2 times the size of nonmerged rural comparators. Unemployment was nearly 1 percentage point higher in merged rural hospital markets than nonmerged markets. While a high proportion of rural hospitals in general were in the south (35.51%), merged rural hospitals were disproportionately in the south (47.86%).
+
+
+Profitability
+
+Compared with nonmerged rural hospitals, merged rural hospitals reported significantly lower premerger total margins.
+
+
+Operational efficiency
+
+By both measures of operational efficiency, FTEs per bed and CCR, merged rural hospitals were more efficient premerger than nonmerged rural hospitals.
+
+
+Capital structure
+
+Compared with nonmerged rural hospitals, a larger proportion of merged rural hospitals were significantly less likely to be able to pay existing debt in the premerger period.
+
+
+Utilization
+
+The proportion of outpatient payer mix attributed to Medicare was 4 percentage points lower for merged, relative to nonmerged, rural hospitals. Whether a rural hospital provided obstetric services premerger did not differ significantly between merged and nonmerged rural hospitals.
+
+
+Other hospital characteristics
+
+Relative to the comparison group, merged rural hospitals were more than twice as likely to be for-profit entities and less than half as likely to be government-owned. Compared with the same group, a larger proportion of merged rural hospitals reported older plant age. The unadjusted plant age finding was not statistically significant ( P = .07) but showed a statistical trend and may have been of clinical importance. Merged rural hospitals, compared with nonmerged rural hospitals, were significantly more likely to be among the largest quartile of rural hospitals and 4 times less likely to be among the smallest quartile of all rural hospitals in the premerger period. Merged rural hospitals were much more likely to be non-CAH, rural PPS hospitals.
+
+
+Market competitiveness
+
+Merged rural hospitals were significantly closer to the nearest large hospital than nonmerged rural hospitals. The difference was sizeable, 9 miles. Merged rural hospitals captured a smaller proportion of total market share.
+
+
+Other narket characteristics
+
+Merged rural hospital markets were nearly 2 times the size of nonmerged rural comparators. Unemployment was nearly 1 percentage point higher in merged rural hospital markets than nonmerged markets. While a high proportion of rural hospitals in general were in the south (35.51%), merged rural hospitals were disproportionately in the south (47.86%).
+
+
+Factors Associated With Rural Hospitals That Merged
+
+The relationship of key hospital factors with merging between 2005 and 2016 was determined using generalized estimating equations with a logit link and an exchangeable error term for repeated observations. Results are presented in Table 2 .
+
+Factors Associated With Rural Hospitals in the Year Prior to Merger (2004-2015).
+
+Note. Missing values: Total Margin (104 obs), CCR (48 obs), FTEs per Bed (115 obs), Plant Age (1,064 obs), Size (41 obs), Outpatient Payer Mix (26 obs), Distance (64 obs), Market Share (64 obs), Population (64 obs), Unemployment Rate (64 obs). CCR = Cost to charge ratio; FTE = full-time equivalents; CAH = critical access hospital.
+
+P < .05. ** P < .01. *** P < .001.
+
+Controlling for other factors, an increase in total margin of 1 percentage point reduced odds of merging by 3%.
+
+After controlling for other factors, neither CCR nor FTEs per bed was associated with the odds of merging in a statistically significant way.
+
+Compared with rural hospitals that could not afford current debt, being able to cover current debt reduced odds of merging by 36%.
+
+After controlling for other factors, Medicare outpatient payer mix did not affect the odds of merging in a statistically significant way. Providing obstetrics services reduced the odds of merging by 44%.
+
+After controlling for other factors, for-profits had 76% higher odds of merging than not-for-profits; government-owned hospitals had 40% lower odds of merging than not-for-profits. Relative to rural hospitals that reported plant age among the newest quartile of all rural hospitals, hospitals with the oldest plant age had 62% higher odds of merging. The larger the hospital, the higher the odds of merger. Compared with rural hospitals among the smallest quartile of all rural hospitals, those in the largest quartile had 4.5 times the odds of merging. After controlling for other factors, CAH status was not associated with the odds of merging in a statistically significant way.
+
+Controlling for other factors, an increase in logged miles between the merged rural hospital and the nearest large hospital reduced odds of merging by 22%. After controlling for other factors, market share captured was not associated with the odds of merging in a statistically significant way.
+
+After controlling for other factors, neither population nor unemployment rate was associated with the odds of merging in a statistically significant way. Compared with rural hospitals located in the south, being in the west region reduced the odds of merging by 74%.
+
+
+Profitability
+
+Controlling for other factors, an increase in total margin of 1 percentage point reduced odds of merging by 3%.
+
+
+Operational efficiency
+
+After controlling for other factors, neither CCR nor FTEs per bed was associated with the odds of merging in a statistically significant way.
+
+
+Capital structure
+
+Compared with rural hospitals that could not afford current debt, being able to cover current debt reduced odds of merging by 36%.
+
+
+Utilization
+
+After controlling for other factors, Medicare outpatient payer mix did not affect the odds of merging in a statistically significant way. Providing obstetrics services reduced the odds of merging by 44%.
+
+
+Other hospital characteristics
+
+After controlling for other factors, for-profits had 76% higher odds of merging than not-for-profits; government-owned hospitals had 40% lower odds of merging than not-for-profits. Relative to rural hospitals that reported plant age among the newest quartile of all rural hospitals, hospitals with the oldest plant age had 62% higher odds of merging. The larger the hospital, the higher the odds of merger. Compared with rural hospitals among the smallest quartile of all rural hospitals, those in the largest quartile had 4.5 times the odds of merging. After controlling for other factors, CAH status was not associated with the odds of merging in a statistically significant way.
+
+
+Market competitiveness
+
+Controlling for other factors, an increase in logged miles between the merged rural hospital and the nearest large hospital reduced odds of merging by 22%. After controlling for other factors, market share captured was not associated with the odds of merging in a statistically significant way.
+
+
+Other market characteristics
+
+After controlling for other factors, neither population nor unemployment rate was associated with the odds of merging in a statistically significant way. Compared with rural hospitals located in the south, being in the west region reduced the odds of merging by 74%.
+
+
+Probability of Merging Between 2005 and 2016 by Distance to Nearest Large Hospital and Ownership Type
+
+We further investigated the relatively large unadjusted differences by merger status in distance and ownership status identified in Table 1 for 2 reasons. One, in studies of U.S. (eg, not specifically rural) hospitals, proximity has been associated with acquirers’ abilities to influence changes at target hospitals. 69 , 70 And two, for-profit hospitals have different financial objectives than other ownership types. 56 - 59 We expected the relatively large proportion of for-profit rural hospitals that merged to be closer to the nearest large hospital so the acquirer can influence changes at the target. Therefore, we determined the relationship of distance and ownership status with merging between 2005 and 2016. Unlike the descriptive statistics ( Table 1 ) and regression model ( Table 2 ), distance was categorized as <25, 25 to 35, and >35 miles to visually display differences in the relationship of distance and ownership status across policy-relevant categories. These categories were considered policy-relevant because of the potential impact of distance to the nearest hospital on CAH eligibility. (Hospitals must meet certain criteria to be eligible for the Critical Access designation. Most hospitals must be located in a rural area, be more than a 35-mile drive to the next hospital, and maintain no more than 25 inpatient beds (with certain allowable exceptions). 62 ) Results are presented in Figure 3 .
+
+Probability of merging between 2005 and 2016 by distance to nearest large hospital and ownership type.
+
+Closer, for-profit hospitals were more likely to merge than farther, not-for-profit or government-owned hospitals. As distance increased, the likelihood of merging fell for rural hospitals of all ownership types. The closest (eg, <25 miles to the nearest large hospital) for-profits were 10.4 percentage points more likely to merge than the farthest for-profits (29.7% probability and 19.3%, respectively). No matter the distance, when compared with not-for-profits or government-owned hospitals, for-profits were more likely to merge. The farthest for-profits were more likely to merge than the closest not-for-profits (19.3% probability and 17.3%, respectively).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+We identified several significant antecedents associated with rural hospitals that merged between 2005 and 2016. These factors included total margin, ownership status, ability to cover current debt, average plant age, size, whether a hospital provided obstetric services, distance to the nearest large hospital, and region.
+
+In general, findings provided some support for our hypothesis that rural hospitals merge to improve financial performance and access capital, whereas acquirers merge with rural hospitals to increase market power. Broadly, rural hospitals with worse financial performance had higher odds of merging. As total margin increased, odds of merging decreased. Merger odds were lower for rural hospitals that could afford to pay existing debt, compared with those that could not. These findings were consistent with Noles et al, who showed rural hospitals with higher total margins and a larger proportion of equity financing were less likely to merge. 21 Results from our study and prior research suggested rural hospitals in worse financial standing were more likely to merge. Operating older facilities was associated with higher odds of a rural hospital merging. Rural hospitals with these characteristics may have merged to improve profits, payoff existing debt, and/or access capital to replace aging facilities.
+
+Rural hospitals that were closer to the nearest large hospital and larger had higher odds of merging. In separate (unreported) work, we evaluated distance for patients in a rural hospital’s market (rather than the rural hospital itself) to the nearest large hospital and found similar, statistically significant differences in miles to the nearest large hospital by merger status. Both distance findings suggested proximity to the nearest large hospital increased the odds of merging. Our findings are consistent with previous work that found proximity, measured between target hospital and the nearest large hospital, was associated with a higher likelihood of U.S. hospitals merging. 19 , 20 However, inference to these studies should be limited due to differences in samples (eg, we evaluated only rural hospitals, these studies evaluated a combination of rural and nonrural hospitals) and time periods (eg, our sample was 2005 through 2016, Harrison’s sample was 1981-1998, Dranove and Lindrooth’s was 1988-2000). 19 , 20
+
+One explanation for our proximity finding could have been that those rural hospitals were appealing targets for acquirers seeking to increase market power. Various measures of proximity have been shown to affect acquirers’ abilities to make postmerger operational changes at targets. 28 , 34 , 64 While proximity is linked to higher postmerger prices at merged U.S. hospitals (eg, not specifically rural), 26 those increases have also been shown to dissipate as proximity decreases. 69 Cooper et al found target U.S. hospitals significantly increased postmerger prices when merging entities were geographically close (eg, ≤5 miles apart) but did not increase prices for hospitals that were geographically distant (eg, >25 miles apart). 69 However, hospitals in Cooper et al’s sample generally operated in highly competitive markets, with more than 50% operating markets with 3 or more competitors. 69 A disproportionately low 16% of hospitals in Cooper et al’s sample were rural. 69 Rural hospitals typically operated in less competitive markets. 71 Therefore, the association between proximity and postmerger price changes may differ at rural hospitals. Different mileage thresholds, such as those we evaluated around CAH eligibility mileage, may be more relevant to contextualize those changes. In our sample, 60% of rural hospitals were more than 25 miles from our proximity measure. Future work should consider the potential impact of proximity on postmerger changes at rural hospitals and how that impact may differ between rural and nonrural hospitals. Such work could be helpful for decision-makers addressing postmerger changes at rural hospitals.
+
+We found for-profit rural hospitals had significantly higher odds of merging than not-for-profits or government-owned hospitals. This finding contradicted a previous finding from Harrison that not-for-profit U.S. hospitals were more likely to merge, particularly with other not-for-profits. 20 It is possible findings varied due to differences in studies, (eg, samples and time periods). It is possible that a replication of Harrison’s study in today’s environment would find a shift in the impact of ownership status on merging U.S. hospitals that reflects our findings for rural mergers. We explored potential differences by comparing ownership status of all U.S. hospitals for a period of Harrison’s study to ours and found, in general, for-profit ownership of rural and nonrural hospitals has increased over the past 2 decades. 39 For-profits have different financial objectives, relative to other ownership types, 56 - 59 which may be associated with an increase in for-profit ownership and with faster decision-making that led to more for-profit hospitals mergers, regardless of rurality. Another potential explanation for differences between studies could be that more for-profit rural hospitals merged than for-profit nonrural hospitals. During the sample period, one of the largest for-profit rural hospital owners, Community Health Systems (CHS), divested most of its rural hospitals to reduce debt and ultimately improves cash flow and profits. 72 As several of our findings suggested financially constrained rural hospitals with higher debt loads had greater odds of merging, many for-profit rural hospitals could have merged during the sample period as part of a for-profit sell-off.
+
+Larger rural hospitals had higher odds of merging. This could be consistent with Harrison’s finding that U.S. hospital acquirers and targets were of similar size. 20 We did not assess if merged rural hospitals were of similar size to the acquirer. However, rural hospitals were generally much smaller than nonrural hospitals; therefore, it is possible that the largest rural hospitals were closer in size to acquirers.
+
+We did not identify statistically significant associations of several factors with merging. These factors included Medicare CCR, FTEs per bed, market share captured, population, and unemployment rate. Further research is warranted to better understand value-creating antecedents associated with rural hospital mergers.
+
+Findings contributed to the literature in at least 4 meaningful ways. One, we identified which rural hospitals merged. Two, we determined when rural hospitals merged. The Levin data’s announcement date was essential to identify rural hospitals that potentially merged. However, we expected our effective date would be more precise to determine associations of time-varying antecedents with whether rural hospitals merged than the announcement date because it captured the same moment of ownership transfer at every merged hospital. The average announcement date occurred 109 days prior to the effective date. However, the announced date did not always precede the effective date. Five percent of announced dates followed the effective date. Nineteen percent of announced and effective dates were the same. Because we evaluated mergers at discrete time periods (eg, relative to the HFY), differences in dates were only relevant if the announced date did not occur in the correct HFY. Had we evaluated rural mergers using the HFY associated with the announced date rather than the effective date, we would have evaluated different HFYs 64% of the time. We tested for the effect of the difference in announced and effective dates on findings by performing separate (unreported) analyses using the announced date instead of the effective date and determined there were statistically significant differences between models. It is likely that the model using the announced dates introduced measurement error that attenuated estimates toward the null. In the future, researchers should consider the potential for divergent findings based on how merger dates are measured.
+
+Three, we described unadjusted characteristics of rural hospitals that merged and compared those characteristics to nonmerged rural hospitals. Four, we determined whether several value-creating antecedents were associated with whether rural hospitals merged using multivariate regression and controlling for relevant factors. Differences in the unadjusted descriptive statistics ( Table 1 ) and adjusted regression estimates ( Table 2 ) highlighted the importance of the latter estimates for accurately determining antecedents associated with whether rural hospitals merge.
+
+Findings from this study expanded our understanding of rural hospital merger antecedents. Similar to previous work, we found performing worse financially was associated with higher odds of merging. 21 We added to what was previously known by determining several other value-adding antecedents, like the association of older plant age with merging. Therefore, financially fragile rural hospitals may have merged to access capital for facility renovations and replacements. In future work, we will determine whether rural hospitals increase capital expenditures in the postmerger period.
+
+Our findings also suggested what was previously known about U.S. hospital merger antecedents may not be generalizable to rural hospitals. We found for-profit rural hospitals were more likely to merge, whereas prior work found not-for-profit U.S. hospitals were more likely to merge, particularly with other not-for-profits. 20 Also, we linked proximity with rural hospitals merging, which was consistent with prior U.S. hospital merger findings. 19 , 20 However, a more detailed look at proximity and postmerger changes (eg, prices) 69 led us to question whether unique differences between rural and nonrural hospital proximity may have impacted postmerger outcomes at rural hospitals in unknown ways. Researchers could determine whether baseline differences lead to divergent impacts on rural, relative to nonrural, hospitals. Such findings might impact how policy-makers address legislation that impacts merger activity and health care in rural communities.
+
+There are 3 principal findings from this study. First, rural hospitals have been active participants in the decade-long merger boom that has reconfigured hospital care. Moreover, the extent of this participation increased substantially during the study period, supporting the need for more recent rural merger research. Second, rural hospitals with worse financial performance had higher odds of merging. This finding could suggest that rural hospitals merge to improve financial performance and access capital. This finding is particularly important for rural hospitals, which typically perform worse financially than urban hospitals 73 and may be at an increased risk of closure. Finally, research findings about rural hospital mergers can vary with how merger dates are measured. Thus, results may vary depending on whether the announced or effective date is used.
+
+This study had several limitations that should be considered when interpreting the results. First, our treatment sample included only hospitals that met our definition of a merger. Thus, hospitals engaging in affiliations and other integration models between 2 hospitals were included as controls. Failing to identify nonmerged affiliations could have attenuated coefficients toward the null if similar characteristics are predictive of merger and other forms of integration. Second, our sample was limited by left and right censoring (eg, we did not know which hospitals merged before the sample period began in 2005 or after the sample period ended in 2016). Still, our design allowed us to examine hospital characteristics in the period immediately prior to a merger. Finally, generalized estimating equations were limited to population-level average interpretations. Therefore, associations could not be interpreted for specific hospitals.
+
+
+Implications
+
+Findings contributed to the literature in at least 4 meaningful ways. One, we identified which rural hospitals merged. Two, we determined when rural hospitals merged. The Levin data’s announcement date was essential to identify rural hospitals that potentially merged. However, we expected our effective date would be more precise to determine associations of time-varying antecedents with whether rural hospitals merged than the announcement date because it captured the same moment of ownership transfer at every merged hospital. The average announcement date occurred 109 days prior to the effective date. However, the announced date did not always precede the effective date. Five percent of announced dates followed the effective date. Nineteen percent of announced and effective dates were the same. Because we evaluated mergers at discrete time periods (eg, relative to the HFY), differences in dates were only relevant if the announced date did not occur in the correct HFY. Had we evaluated rural mergers using the HFY associated with the announced date rather than the effective date, we would have evaluated different HFYs 64% of the time. We tested for the effect of the difference in announced and effective dates on findings by performing separate (unreported) analyses using the announced date instead of the effective date and determined there were statistically significant differences between models. It is likely that the model using the announced dates introduced measurement error that attenuated estimates toward the null. In the future, researchers should consider the potential for divergent findings based on how merger dates are measured.
+
+Three, we described unadjusted characteristics of rural hospitals that merged and compared those characteristics to nonmerged rural hospitals. Four, we determined whether several value-creating antecedents were associated with whether rural hospitals merged using multivariate regression and controlling for relevant factors. Differences in the unadjusted descriptive statistics ( Table 1 ) and adjusted regression estimates ( Table 2 ) highlighted the importance of the latter estimates for accurately determining antecedents associated with whether rural hospitals merge.
+
+Findings from this study expanded our understanding of rural hospital merger antecedents. Similar to previous work, we found performing worse financially was associated with higher odds of merging. 21 We added to what was previously known by determining several other value-adding antecedents, like the association of older plant age with merging. Therefore, financially fragile rural hospitals may have merged to access capital for facility renovations and replacements. In future work, we will determine whether rural hospitals increase capital expenditures in the postmerger period.
+
+Our findings also suggested what was previously known about U.S. hospital merger antecedents may not be generalizable to rural hospitals. We found for-profit rural hospitals were more likely to merge, whereas prior work found not-for-profit U.S. hospitals were more likely to merge, particularly with other not-for-profits. 20 Also, we linked proximity with rural hospitals merging, which was consistent with prior U.S. hospital merger findings. 19 , 20 However, a more detailed look at proximity and postmerger changes (eg, prices) 69 led us to question whether unique differences between rural and nonrural hospital proximity may have impacted postmerger outcomes at rural hospitals in unknown ways. Researchers could determine whether baseline differences lead to divergent impacts on rural, relative to nonrural, hospitals. Such findings might impact how policy-makers address legislation that impacts merger activity and health care in rural communities.
+
+
+Conclusions
+
+There are 3 principal findings from this study. First, rural hospitals have been active participants in the decade-long merger boom that has reconfigured hospital care. Moreover, the extent of this participation increased substantially during the study period, supporting the need for more recent rural merger research. Second, rural hospitals with worse financial performance had higher odds of merging. This finding could suggest that rural hospitals merge to improve financial performance and access capital. This finding is particularly important for rural hospitals, which typically perform worse financially than urban hospitals 73 and may be at an increased risk of closure. Finally, research findings about rural hospital mergers can vary with how merger dates are measured. Thus, results may vary depending on whether the announced or effective date is used.
+
+
+Limitations
+
+This study had several limitations that should be considered when interpreting the results. First, our treatment sample included only hospitals that met our definition of a merger. Thus, hospitals engaging in affiliations and other integration models between 2 hospitals were included as controls. Failing to identify nonmerged affiliations could have attenuated coefficients toward the null if similar characteristics are predictive of merger and other forms of integration. Second, our sample was limited by left and right censoring (eg, we did not know which hospitals merged before the sample period began in 2005 or after the sample period ended in 2016). Still, our design allowed us to examine hospital characteristics in the period immediately prior to a merger. Finally, generalized estimating equations were limited to population-level average interpretations. Therefore, associations could not be interpreted for specific hospitals.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+There are 3 principal findings from this study. First, rural hospitals have been active participants in the decade-long merger boom that has reconfigured hospital care. Moreover, the extent of this participation increased substantially during the study period, supporting the need for more recent rural merger research. Second, rural hospitals with worse financial performance had higher odds of merging. This finding could suggest that rural hospitals merge to improve financial performance and access capital. This finding is particularly important for rural hospitals, which typically perform worse financially than urban hospitals 73 and may be at an increased risk of closure. Finally, research findings about rural hospital mergers can vary with how merger dates are measured. Thus, results may vary depending on whether the announced or effective date is used.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplementary material
+File: Supplemental_Video.mp4
+
+Supplementary Material

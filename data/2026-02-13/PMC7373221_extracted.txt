@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Role of H3K9 demethylases in DNA double-strand break repair
+PMCID: PMC7373221
+PMID: 32696030
+KEYWORDS: h3k9, demethylation, histone demethylase, double-strand breaks, dna damage repair, cancer, epigenetic
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+H3K9 demethylases can remove the repressive H3K9 methylation marks on histones to alter chromatin structure, gene transcription and epigenetic state of cells. By counteracting the function of H3K9 methyltransferases, H3K9 demethylases have been shown to play an important role in numerous biological processes, including diseases such as cancer. Recent evidence points to a key role for some H3K9 demethylases in the repair of DNA double-strand breaks (DSBs) via homologous recombination (HR) and/or non-homologous end joining (NHEJ) pathways. Mechanistically, H3K9 demethylases can upregulate the expression of DNA repair factors. They can also be recruited to the DNA damage sites and regulate the recruitment or function of DNA repair factors. Here, we will discuss the role and mechanisms of H3K9 demethylases in the regulation of DSB repair.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

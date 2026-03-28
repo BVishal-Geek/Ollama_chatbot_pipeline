@@ -1,0 +1,68 @@
+================================================================================
+ARTICLE TITLE: Performance of Validated MicroRNA Biomarkers for Alzheimer’s Disease in Mild Cognitive Impairment
+PMCID: PMC9262405
+PMID: 32955460
+KEYWORDS: alzheimer’s disease, amyloid, biomarkers, cerebrospinal fluid, microrna, mild cognitive impairment, tau proteins
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Cerebrospinal fluid (CSF) microRNA (miRNA) biomarkers of Alzheimer’s disease (AD) have been identified, but have not been evaluated in prodromal AD, including mild cognitive impairment (MCI).
+
+Objective::
+To assess whether a set of validated AD miRNA biomarkers in CSF are also sensitive to early-stage pathology as exemplified by MCI diagnosis.
+
+Methods::
+We measured the expression of 17 miRNA biomarkers for AD in CSF samples from AD, MCI, and cognitively normal controls (NC). We then examined classification performance of the miRNAs individually and in combination. For each miRNA, we assessed median expression in each diagnostic group and classified markers as trending linearly, nonlinearly, or lacking any trend across the three groups. For trending miRNAs, we assessed multimarker classification performance alone and in combination with apolipoprotein E ε 4 allele ( APOE ε 4) genotype and amyloid-β 42 to total tau ratio (Aβ 42 :T-Tau). We identified predicted targets of trending miRNAs using pathway analysis.
+
+Results::
+Five miRNAs showed a linear trend of decreasing median expression across the ordered diagnoses (control to MCI to AD). The trending miRNAs jointly predicted AD with area under the curve (AUC) of 0.770, and MCI with AUC of 0.705. Aβ 42 :T-Tau alone predicted MCI with AUC of 0.758 and the AUC improved to 0.813 ( p = 0.051) after adding the trending miRNAs. Multivariate correlation of the five trending miRNAs with Aβ 42 :T-Tau was weak.
+
+Conclusion::
+Selected miRNAs combined with Aβ 42 :T-Tau improved classification performance (relative to protein biomarkers alone) for MCI, despite a weak correlation with Aβ 42 :T-Tau. Together these data suggest that that these miRNAs carry novel information relevant to AD, even at the MCI stage. Preliminary target prediction analysis suggests novel roles for these biomarkers.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,198 @@
+================================================================================
+ARTICLE TITLE: GPSM2 Serves as an Independent Prognostic Biomarker for Liver Cancer Survival
+PMCID: PMC7440740
+PMID: 32812493
+KEYWORDS: g protein signaling modulator 2, gpsm2, liver cancer, prognosis, diagnosis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background and Objective::
+Liver cancer is a malignancy with a poor prognosis. G protein signaling modulator 2 is mainly related to cell division and cell cycle regulation. In this review, the relationship between G protein signaling modulator 2 and clinical characteristics of patients with liver cancer has been explored, especially with respect to its prognostic value.
+
+Methods::
+G protein signaling modulator 2 messenger RNA expression and clinicopathological characteristics of patients with liver cancer were obtained from The Cancer Genome Atlas. The expression level of G protein signaling modulator 2 RNA-Seq was validated by using Gene Expression Omnibus. Chi-square test was performed to evaluate the relationship between G protein signaling modulator 2 expression and clinical characteristics. The threshold value of G protein signaling modulator 2 in the diagnosis of liver cancer was evaluated by a receiver–operating characteristic curve. Cox regression analysis and Kaplan-Meier curves were performed to evaluate the relationship between G protein signaling modulator 2 and liver cancer prognosis, which included overall and residual-free survival, and explored the prognostic value of G protein signaling modulator 2. Liver cancer survival analyses were validated by using the data of G protein signaling modulator 2 RNA-Seq from the International Cancer Genome Consortium.
+
+Results::
+The expression level of G protein signaling modulator 2 messenger RNA was remarkably higher in liver cancer than that in healthy tissues ( P < 2.2 × e −16 ), which was also validated by data from the GSE14520 database. In addition, high G protein signaling modulator 2 expression significantly correlated with histological grade ( P = .020), vital status ( P < .001), clinical ( P = .001), and T stage ( P = .001). The receiver–operating characteristic curves showed G protein signaling modulator 2 to be an advantageous diagnostic molecule for liver cancer (area under curve = 0.893). Furthermore, the results of Cox analysis and Kaplan-Meier curves suggested that the upregulation of G protein signaling modulator 2 expression is linked to poor prognosis and G protein signaling modulator 2 messenger RNA could be an independent predictor for liver cancer, which was validated by data from the International Cancer Genome Consortium database.
+
+Conclusions::
+G protein signaling modulator 2 messenger RNA was overexpressed in liver cancer, and G protein signaling modulator 2 is an independent prognostic factor. G protein signaling modulator 2 is expected to be a treatment target for cancer.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Liver cancer has become the sixth most common cancer worldwide, and the fourth cause of globe cancer-related deaths. 1 Although there have been some groundbreaking developments in the detection and treatment of liver carcinoma, the decline in the mortality rates is still limited. 2 Therefore, identifying novel molecular biomarkers of liver cancer is currently the highest priority. These molecular biomarkers can be instrumental in the diagnosis and evaluation of disease prognosis, in addition to being a key target for new treatment options. Recently, several studies have explored the application of different molecules in liver cancer, such as GTSE1, METTL3, immune-related genes, and so on through open databases. 3 - 5 And our team has constantly been working toward identifying new molecular biomarkers for liver cancer, and we have successfully identified a number of molecules with prognostic value through the open database. 6 - 10 
+
+Guanine-nucleotide-binding proteins (G-proteins) are a class of secondary messengers. As evolutionarily conserved signaling intermediates, G-proteins can regulate immune responses, hormone perception, and signal recognition and transduction. 11 G protein signaling modulator 2 (GPSM2) assists in the exchange of guanine nucleotides, and allows extracellular signals to be transmitted to cells via cell surface, and ultimately plays a key role in the activation of G-proteins. Therefore, GPSM2 is a critical factor for the stability of cell division. 12 Some recent studies have shown that GPSM2 messenger RNA (mRNA) is overexpressed and plays a positive role in the development of certain tumors, such as liver cancer, 13 pancreatic cancer, 14 breast cancer. 15 In addition, GPSM2 also has a strong correlation with the hepatitis B virus infection, an established cause of liver cancer. 13 However, there is limited systematic research investigating the associations between GPSM2 mRNA expression and patients’ with liver cancer clinicopathological characteristics, diagnosis, and prognosis.
+
+Thus, the present study was designed to retrospectively analyze the relationship between the expression of GPSM2 mRNA and clinicopathological characteristics of patients with liver cancer. Furthermore, this study aims to probe into the prognostic value of GPSM2 mRNA expression for overall survival (OS) and relapse-free survival (RFS) of patients with liver cancer.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+We retrospectively collected GPSM2 RNA-Seq expression data from the liver carcinoma tissues and healthy liver tissues from the Cancer Genome Atlas of liver carcinoma database ( https://cancergenome.nih.gov/ ), along with their basic clinical and pathological information, including histologic grade, clinical stage, TNM stage, vital status, age and gender. Additionally, GPSM2 RNA-Seq and survival data of liver cancer were obtained from the Gene Expression Omnibus ( https://www.ncbi.nlm.nih.gov/geo/ ) and International Cancer Genome Consortium (ICGC) ( http://icgc.org/ ). G protein signaling modulator 2 RNA-Seq expression data were estimated as log2(x+1) transformed RNA-Seq by Expectation Maximization (RSEM) normalized counts.
+
+All analyses were carried out using the R language, version 3.5.2, 16 and nonparametric rank sum tests and t tests revealed that the GPSM2 mRNA expression differences in different clinical variables were visualized through the ggplot2 package and boxplot diagrams. 17 Data from GSE14520 database were used to validate expression level. The diagnostic sensitivity and specificity of GPSM2 were judged by the receiver–operating characteristic (ROC) curves. We looked for an optimum threshold value, which was the optic value of GPSM2 expression determined by pROC package, 18 which was used to divide all samples into high-expression and low-expression groups of GPSM2. Further, we analyzed the expression differences between the 2 groups in different clinicopathological variables by χ 2 and Fisher exact test. Through Kaplan-Meier curves and log-rank test analysis, the OS and RFS differences were compared between the 2 groups. The variables related to the prognosis of liver cancer were screened by univariate Cox analysis, and further evaluated by multivariate Cox analysis to assess the ability of independent prognostic molecules, 19 by calculating hazard ratios (HRs) and 95% CI. We further performed survival analysis validation by using data from ICGC.
+
+
+Clinicopathological Features Information Collection
+
+We retrospectively collected GPSM2 RNA-Seq expression data from the liver carcinoma tissues and healthy liver tissues from the Cancer Genome Atlas of liver carcinoma database ( https://cancergenome.nih.gov/ ), along with their basic clinical and pathological information, including histologic grade, clinical stage, TNM stage, vital status, age and gender. Additionally, GPSM2 RNA-Seq and survival data of liver cancer were obtained from the Gene Expression Omnibus ( https://www.ncbi.nlm.nih.gov/geo/ ) and International Cancer Genome Consortium (ICGC) ( http://icgc.org/ ). G protein signaling modulator 2 RNA-Seq expression data were estimated as log2(x+1) transformed RNA-Seq by Expectation Maximization (RSEM) normalized counts.
+
+
+Statistical Analyses
+
+All analyses were carried out using the R language, version 3.5.2, 16 and nonparametric rank sum tests and t tests revealed that the GPSM2 mRNA expression differences in different clinical variables were visualized through the ggplot2 package and boxplot diagrams. 17 Data from GSE14520 database were used to validate expression level. The diagnostic sensitivity and specificity of GPSM2 were judged by the receiver–operating characteristic (ROC) curves. We looked for an optimum threshold value, which was the optic value of GPSM2 expression determined by pROC package, 18 which was used to divide all samples into high-expression and low-expression groups of GPSM2. Further, we analyzed the expression differences between the 2 groups in different clinicopathological variables by χ 2 and Fisher exact test. Through Kaplan-Meier curves and log-rank test analysis, the OS and RFS differences were compared between the 2 groups. The variables related to the prognosis of liver cancer were screened by univariate Cox analysis, and further evaluated by multivariate Cox analysis to assess the ability of independent prognostic molecules, 19 by calculating hazard ratios (HRs) and 95% CI. We further performed survival analysis validation by using data from ICGC.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Data from a total of 373 patients with liver cancer samples were collected, which included GPSM2 expression levels and clinicopathological features like clinical stage, histological grade, TNM classification, vital status, residual tumor status, and relapse ( Table 1 ). The expression levels of GPSM2 in 50 healthy liver tissues were used as healthy controls.
+
+Clinical Features of Patients With Liver Cancer.
+
+Abbreviations: GPSM2, G protein signaling modulator 2; NA, not available.
+
+Compared with healthy liver tissues, the GPSM2 mRNA expression level significantly upregulated in primary liver cancer tissues ( P < 2.2 × e −16 ; Figure 1 ). In addition, dead patients demonstrated higher GPSM2 mRNA expression levels compared to living patients ( P = .0069; Figure 1 ). Besides, the high GPSM2 mRNA expression level was significantly linked to the clinical stage ( P = 4.3 × e −05 ), histologic grade ( P = .0042), and T stage ( P = .00012; Figure 1 ) of the cancer. Validation of GSE14520 also showed that GPSM2 expression increased in patients with liver cancer ( P < 2.2 × e −16 ; Figure S1).
+
+Expression differences of GPSM2 mRNA in different variables, such as: patient age, gender, survival status, clinical stage, histological grade and T, N, M classification. GPSM2 indicates G protein signaling modulator 2; mRNA, messenger RNA.
+
+To further analyze the relationship between GPSM2 mRNA and clinicopathological variables, all patients were divided into high-expression and low-expression groups of GPSM2 mRNA. The common data analysis of χ 2 tests revealed that high-expression of GPSM2 group was strongly related to certain clinical features, like the vital state ( P < .001), histological differentiation grade ( P = .020), clinical stage ( P = .001), T classification ( P = .001; Table 2 ). But there was no significant correlation of GPSM2 mRNA with other clinical features, such as age, gender, histological type, lymph node metastasis, distant metastasis, and radiation therapy of patients with liver cancer.
+
+Relationship Between Clinical Features and Expression of GPSM2 mRNA of Patients With Liver Cancer. a 
+
+Abbreviations: GPAM2, G protein signaling modulator 2.
+
+ a  P value in bold represent significant clinical significance ( P < .05).
+
+The sensitivity and specificity of GPSM2 mRNA were plotted on a ROC curve. The diagnostic capability of GPSM2 mRNA was ideal. The area under curve (AUC) was 0.893 ( Figure 2 ). More importantly, GPSM2 mRNA had better diagnostic ability in case of stage II (AUC was 0.906) and III (AUC was 0.931) of patients with liver cancer ( Figure 2 ).
+
+Diagnostic value of GPSM2 mRNA in patients with liver cancer and different clinical stages of liver cancer by ROC curve. AUC indicates area under the curve; GPSM2, G protein signaling modulator 2; mRNA, messenger RNA; ROC, receiver–operating characteristic.
+
+Kaplan-Meier curves evaluated the association between GPSM2 mRNA and prognosis of patients with liver cancer, along with log-rank test. It was found that high GPSM2 mRNA expression levels significantly correlated with poor OS ( P < .0001; Figure 3 ). In different clinical feature groups, the comparison analysis of OS suggested that patients with high GPSM2 mRNA expression who were in the groups of histologic grade G1/G2 ( P < .0001), stage I/II ( P = .0026), III/IV ( P = .014), male ( P < .0001), female ( P = .015), younger ( P = .0046), older ( P = .00025), and hepatocellular carcinoma ( P < .0001) had significantly poor OS ( Figure 3 ; Figure S2). Validations of survival analysis by ICGC also revealed that GPSM2 high-expression significantly correlates with OS ( P = .0015; Figure S3). Through univariate analysis, GPSM2 mRNA expression, clinical stage, T classification, and residual tumor had significant correlations with the OS of patients with liver cancer, as single variables. Furthermore, multivariate Cox proportional hazards model was used for 4 critical variables that were examined in the univariate analysis. It was observed that GPSM2 expression level could assist in analyzing the survival of patients as an important prognostic factor (HR = 1.91, P < .001), along with T classification (HR = 1.74, P < .001), neoplasm residual (HR = 1.39, P = .009; Table 3 ).
+
+Differences in overall survival between GPSM2—low expression group and GPSM2—high expression group in different variables, such as stage (including I/II group and III/IV group), histologic grade (including G1/G2 group and G3/G4 group), male, female, younger, and older patients. GPSM2 indicates G protein signaling modulator 2.
+
+Analysis of the Relationship Between Overall Survival of Patients With Liver Cancer and Variables. a 
+
+Abbreviation: GPSM2, G protein signaling modulator 2.
+
+ a  P value in bold represents significant clinical significance ( P < .05).
+
+Moreover, patients with high expression of GPSM2 mRNA had significantly poor RFS ( P = .0027; Figure 4 ), and were found to have poor RFS in the 5 clinicopathological variables, including stage I/II ( P = .0034), histologic grade G1/G2 ( P = .0013), male ( P = 3 × e −04 ), older ( P = .01; Figure 4 ) and hepatocellular carcinoma ( P = .0046; Figure S4). Next, multivariate Cox analysis indicated that GPSM2 mRNA was an important independent prognostic factor that could also assist in the evaluating the prognosis of patients with liver cancer (HR = 1.42, P = .048), along with T classification (HR = 1.62, P < .001), and residual tumor (HR = 1.32, P = .023; Table 4 ).
+
+Differences in relapse-free survival between GPSM2—low expression group and GPSM2—high expression group in different variables, such as stage (including I/II group and III/IV group), histologic grade (including G1/G2 group and G3/G4 group), male, female, younger, and older patients. GPSM2 indicates G protein signaling modulator 2.
+
+Analysis of the Relationship Between Relapse-Free Survival of Patients With Liver Cancer and Variables. a 
+
+Abbreviation: GPSM2, G protein signaling modulator 2.
+
+ a  P value in bold represent significant clinical significance ( P < .05).
+
+
+Clinical Features
+
+Data from a total of 373 patients with liver cancer samples were collected, which included GPSM2 expression levels and clinicopathological features like clinical stage, histological grade, TNM classification, vital status, residual tumor status, and relapse ( Table 1 ). The expression levels of GPSM2 in 50 healthy liver tissues were used as healthy controls.
+
+Clinical Features of Patients With Liver Cancer.
+
+Abbreviations: GPSM2, G protein signaling modulator 2; NA, not available.
+
+
+G Protein Signaling Modulator 2 mRNA Expression in Patients With Liver Cancer and Relationship With Clinicopathological Characteristics
+
+Compared with healthy liver tissues, the GPSM2 mRNA expression level significantly upregulated in primary liver cancer tissues ( P < 2.2 × e −16 ; Figure 1 ). In addition, dead patients demonstrated higher GPSM2 mRNA expression levels compared to living patients ( P = .0069; Figure 1 ). Besides, the high GPSM2 mRNA expression level was significantly linked to the clinical stage ( P = 4.3 × e −05 ), histologic grade ( P = .0042), and T stage ( P = .00012; Figure 1 ) of the cancer. Validation of GSE14520 also showed that GPSM2 expression increased in patients with liver cancer ( P < 2.2 × e −16 ; Figure S1).
+
+Expression differences of GPSM2 mRNA in different variables, such as: patient age, gender, survival status, clinical stage, histological grade and T, N, M classification. GPSM2 indicates G protein signaling modulator 2; mRNA, messenger RNA.
+
+To further analyze the relationship between GPSM2 mRNA and clinicopathological variables, all patients were divided into high-expression and low-expression groups of GPSM2 mRNA. The common data analysis of χ 2 tests revealed that high-expression of GPSM2 group was strongly related to certain clinical features, like the vital state ( P < .001), histological differentiation grade ( P = .020), clinical stage ( P = .001), T classification ( P = .001; Table 2 ). But there was no significant correlation of GPSM2 mRNA with other clinical features, such as age, gender, histological type, lymph node metastasis, distant metastasis, and radiation therapy of patients with liver cancer.
+
+Relationship Between Clinical Features and Expression of GPSM2 mRNA of Patients With Liver Cancer. a 
+
+Abbreviations: GPAM2, G protein signaling modulator 2.
+
+ a  P value in bold represent significant clinical significance ( P < .05).
+
+
+The Diagnostic Capability of GPSM2 mRNA in Liver Cancer
+
+The sensitivity and specificity of GPSM2 mRNA were plotted on a ROC curve. The diagnostic capability of GPSM2 mRNA was ideal. The area under curve (AUC) was 0.893 ( Figure 2 ). More importantly, GPSM2 mRNA had better diagnostic ability in case of stage II (AUC was 0.906) and III (AUC was 0.931) of patients with liver cancer ( Figure 2 ).
+
+Diagnostic value of GPSM2 mRNA in patients with liver cancer and different clinical stages of liver cancer by ROC curve. AUC indicates area under the curve; GPSM2, G protein signaling modulator 2; mRNA, messenger RNA; ROC, receiver–operating characteristic.
+
+
+G Protein Signaling Modulator 2 Expression in Patients With Liver Cancer and Its Relationship With Poor Survival
+
+Kaplan-Meier curves evaluated the association between GPSM2 mRNA and prognosis of patients with liver cancer, along with log-rank test. It was found that high GPSM2 mRNA expression levels significantly correlated with poor OS ( P < .0001; Figure 3 ). In different clinical feature groups, the comparison analysis of OS suggested that patients with high GPSM2 mRNA expression who were in the groups of histologic grade G1/G2 ( P < .0001), stage I/II ( P = .0026), III/IV ( P = .014), male ( P < .0001), female ( P = .015), younger ( P = .0046), older ( P = .00025), and hepatocellular carcinoma ( P < .0001) had significantly poor OS ( Figure 3 ; Figure S2). Validations of survival analysis by ICGC also revealed that GPSM2 high-expression significantly correlates with OS ( P = .0015; Figure S3). Through univariate analysis, GPSM2 mRNA expression, clinical stage, T classification, and residual tumor had significant correlations with the OS of patients with liver cancer, as single variables. Furthermore, multivariate Cox proportional hazards model was used for 4 critical variables that were examined in the univariate analysis. It was observed that GPSM2 expression level could assist in analyzing the survival of patients as an important prognostic factor (HR = 1.91, P < .001), along with T classification (HR = 1.74, P < .001), neoplasm residual (HR = 1.39, P = .009; Table 3 ).
+
+Differences in overall survival between GPSM2—low expression group and GPSM2—high expression group in different variables, such as stage (including I/II group and III/IV group), histologic grade (including G1/G2 group and G3/G4 group), male, female, younger, and older patients. GPSM2 indicates G protein signaling modulator 2.
+
+Analysis of the Relationship Between Overall Survival of Patients With Liver Cancer and Variables. a 
+
+Abbreviation: GPSM2, G protein signaling modulator 2.
+
+ a  P value in bold represents significant clinical significance ( P < .05).
+
+Moreover, patients with high expression of GPSM2 mRNA had significantly poor RFS ( P = .0027; Figure 4 ), and were found to have poor RFS in the 5 clinicopathological variables, including stage I/II ( P = .0034), histologic grade G1/G2 ( P = .0013), male ( P = 3 × e −04 ), older ( P = .01; Figure 4 ) and hepatocellular carcinoma ( P = .0046; Figure S4). Next, multivariate Cox analysis indicated that GPSM2 mRNA was an important independent prognostic factor that could also assist in the evaluating the prognosis of patients with liver cancer (HR = 1.42, P = .048), along with T classification (HR = 1.62, P < .001), and residual tumor (HR = 1.32, P = .023; Table 4 ).
+
+Differences in relapse-free survival between GPSM2—low expression group and GPSM2—high expression group in different variables, such as stage (including I/II group and III/IV group), histologic grade (including G1/G2 group and G3/G4 group), male, female, younger, and older patients. GPSM2 indicates G protein signaling modulator 2.
+
+Analysis of the Relationship Between Relapse-Free Survival of Patients With Liver Cancer and Variables. a 
+
+Abbreviation: GPSM2, G protein signaling modulator 2.
+
+ a  P value in bold represent significant clinical significance ( P < .05).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+As one of the most fatal cancers worldwide, liver cancer’s prognosis is still very poor and unsatisfactory due to the lack of specific early symptoms or effective tumor biomarkers. 20 , 21 Therefore, finding a prognostic tumor marker with high specificity and sensitivity is one of the most effective ways to assist liver cancer treatment. This was the first study to discover that GPSM2 has important implications in the prognosis of liver carcinoma, and the Cox analysis also demonstrated that GPSM2 could become an independent prognostic marker, which can further assist in the development of more effective treatment options. Furthermore, the overexpression of GPSM2 is significantly related to survival status, differentiation, clinical stage, and T stage of liver cancer.
+
+In past studies, the discussion regarding GPSM2 was primarily focused on hearing impairment. G protein signaling modulator 2 mutations lead to the autosomal recessive disorder, Chudley-McCullough syndrome, which can lead to deafness caused by GPSM dysfunction. 22 , 23 Previous studies in cancer focusing on GPSM2 concentrated on the single nucleotide polymorphisms of GPSM2, but no substantial progress was made. 24 , 25 Recently, the expression of GPSM2 mRNA was found to be upregulated in certain cancers. 13 - 15 In addition, high GPSM2 expression correlated with tumor differentiation, TNM staging, and prognosis of pancreatic cancer. 14 These results are consistent with our findings, but the expression of GPSM2 mRNA was found to be upregulated in clinical stages I/II/III and T1/2/3, downregulated in stages IV and T4, and the AUC value of GPSM2 mRNA diagnosis also showed the same change, which suggests that the role of GPSM2 may change in the final stage of liver cancer development and subgroup analysis is urgently needed to analyze the relationship between GPSM2 mRNA and liver cancer survival.
+
+G protein signaling modulator 2, also called LGN or AGS5, is involved in cell division, growth during normal somatic cell asymmetric mitosis and regulates cell differentiation, especially cell polarity. 26 - 29 But the functional mechanism of GPSM2 in cancer has not been thoroughly studied. Some studies have shown that GPSM2 regulates and is involved in cell cycle, in addition to promoting tumor cell proliferation. 13 , 16 , 30 Especially in liver cancer, the expression of GPSM2 was found to affect the expression of CDK4, CDK6, and cyclinD1, which may accelerate tumor cell proliferation by promoting cell cycle progression. 13 At the same time, studies have shown that GPSM2 may also play a role in the pathological process and proliferation regulation of cancer cells through the activation of the G protein signal transduction pathway 31 and PI3K/AKT signaling pathway. 13 In addition, Zhou et al also showed that the error in the interaction between GPSM2 and dephosphorylated Lats1 results in the randomization of spindle orientation in the lumen cells, leading to the formation of prostate tumors. 30 G protein signaling modulator 2 has also been proven to promote the invasion and proliferation of cancer stem cells 14 that can cause tumor recurrence and metastasis. 32 - 34 These cancer-related mechanisms may explain that overexpression of GPSM2 mRNA was significantly associated with poor histopathology, clinical stages, and T classification in liver cancer. Moreover, patients with high expression of GPSM2 are more likely to have a poor prognosis, indicating that GPSM2 may play a role in promoting liver cancer development. These findings also suggest that GPSM2 can be a potential target for developing targeted therapy. 35 
+
+G protein signaling modulator 2 mRNA expression strongly correlated with the prognosis of liver cancer. The patients who express high GPSM2 mRNA levels had poor OS in all subgroups except G3/G4. In addition, GPSM2 mRNA level is a good indication of the RFS in liver cancer, especially in the early stage of liver cancer (I/II and G1/G2). G protein signaling modulator 2 mRNA detection may be instrumental in the development of optimal individual cancer therapies and precision medicine. However, He et al were unable to demonstrate that the expression of GPSM2 mRNA was related to the OS of patients with liver cancer. 13 This could be attributed to the fact the number of cancer tissues examined by He et al was comparatively small (only 32 cases). In addition, the samples were not randomly selected, lacking representativeness. Besides, patients were followed up for only 18 months after hepatic carcinectomy due to their poor compliance. In contrast, we have more comprehensive data on the prognosis of patients with liver cancer.
+
+In conclusion, GPSM2 mRNA is closely related to patients with liver cancer survival and could be an independent molecular marker that can predict the prognosis of patients effectively. Since over-expressed GPSM2 can induce the occurrence of liver cancer and promote cancer progression. 13 G protein signaling modulator 2 is expected to become the potential target for novel therapeutic strategies. However, some limitations still exist. For example, the unavailability of some data corresponding to liver cancer samples may lead to biased results. Thus, we will continue to work toward addressing these limitations and build upon the view supported by this study.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, YANG-Figure_S3 - GPSM2 Serves as an Independent Prognostic Biomarker for Liver Cancer Survival
+File: YANG-Figure_S3.tif
+Supplemental Material, YANG_Figure_S1 - GPSM2 Serves as an Independent Prognostic Biomarker for Liver Cancer Survival
+File: YANG_Figure_S1.tif
+Supplemental Material, YANG_Figure_S2 - GPSM2 Serves as an Independent Prognostic Biomarker for Liver Cancer Survival
+File: YANG_Figure_S2.tif
+Supplemental Material, YANG_Figure_S4 - GPSM2 Serves as an Independent Prognostic Biomarker for Liver Cancer Survival
+File: YANG_Figure_S4.tif

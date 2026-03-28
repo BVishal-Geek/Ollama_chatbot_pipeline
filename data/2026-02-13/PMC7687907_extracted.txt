@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: THBS1 (thrombospondin-1)
+PMCID: PMC7687907
+PMID: 33244322
+KEYWORDS: thrombospondin-1, matricellular, tumor angiogenesis, metastasis, resistance to genotoxic therapy
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Thrombospondins are encoded in vertebrates by a family of 5 THBS genes. THBS1 is infrequently mutated in most cancers, but its expression is positively regulated by several tumor suppressor genes and negatively regulated by activated oncogenes and promoter hypermethylation. Consequently, thrombospondin-1 expression is frequently lost during oncogenesis and is correlated with a poor prognosis for some cancers. Thrombospondin-1 is a secreted protein that acts in the tumor microenvironment to inhibit angiogenesis, regulate antitumor immunity, stimulate tumor cell migration, and regulate the activities of extracellular proteases and growth factors. Differential effects of thrombospondin-1 on the sensitivity of normal versus malignant cells to ischemic and genotoxic stress also regulate the responses to tumors to therapeutic radiation and chemotherapy.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

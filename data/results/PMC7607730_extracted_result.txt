@@ -1,0 +1,19 @@
+Source: PMC7607730_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Prognostic Value of the Site of Distant Metastasis and Surgical Interventions in Metastatic Gastric Cancer: A Population-Based Study",
+  "condition_E": 1,
+  "condition_E_reason": "Data on patients’ demographic information and clinicopathological characteristics including age, gender, ethnicity, primary tumor site, grade, histological type, and TNM stages were collected.",
+  "N_E": 1,
+  "N_E_reason": "A total of 4,221 gastric adenocarcinomas with defined liver, lung, bone, and brain metastases were included in this study.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Patients underwent surgery of the primary tumor and metastatic lesions.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "Overall survival (OS) and cause-specific survival (CSS) were determined as primary endpoints.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

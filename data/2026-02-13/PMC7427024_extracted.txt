@@ -1,0 +1,78 @@
+================================================================================
+ARTICLE TITLE: An Unpleasant Surprise: Abdominal Presentation of Malignant Mesothelioma
+PMCID: PMC7427024
+PMID: 32787452
+KEYWORDS: epithelioid mesothelioma, neoplasm, asbestos, esophagogastroduodenoscopy, retroperitoneal
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Malignant mesothelioma is an aggressive cancer associated with asbestos exposure with median survival time of 8 to 14 months following diagnosis. Given that mesothelial cells also line the peritoneum and pericardium, malignant mesothelioma can present in unusual sites and in patients with nonrespiratory complaints. A 73-year-old male presented to the emergency department for worsening intermittent diffuse abdominal pain for the past 3 months with associated unintentional 40-pound weight loss, early satiety, and diarrhea. He denied exposure to asbestos. Computed tomography imaging revealed multiple masses concerning for malignancy including the primary retroperitoneal mass, a mass involving the terminal ileum, and a mass in the right upper lung. Esophagogastroduodenoscopy demonstrated significant mass effect within the stomach without signs of endoluminal infiltration. Computed tomography–guided biopsy of the retroperitoneal abdominal and intramuscular paraspinal masses was performed. Stage IV epithelioid mesothelioma was confirmed when hematoxylin and eosin staining revealed pleomorphic malignancy nuclei containing a vesicular chromatin pattern and prominent nucleoli and immunohistochemical staining was positive for CK Oscar, cytokeratin 7, GATA3, calretinin, EMA, and CK5/6. He was started on cisplatin, pemetrexed, and bevacizumab but developed severe abdominal pain with pneumoperitoneum and bowel perforation 1 month later and expired shortly thereafter. To our knowledge, this represents a highly atypical presentation of malignant mesothelioma considering the involvement of the retroperitoneum with diffuse lesions in the abdominopelvic cavity and thorax (sparing the lung pleurae). This case also calls attention to the occurrence of malignant mesothelioma in patients without known asbestos exposure and the crucial role of pathology in diagnosing atypical presentations.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Malignant mesothelioma (MM) is a rare cancer originating from mesothelial cells forming the linings of the pleura (65% to 90% of MM cases 1 , 2 ), peritoneum (10% to 35% of cases 2 , 3 ), and pericardium (<5% of cases 4 ). 5 , 6 Typically, the pathophysiology of MM is believed to occur in patients with asbestos exposure leading to chronic inflammation of the pleura. 6 , 7 Subsequently, MM presents in a patient with shortness of breath with findings on imaging of nodular thickening of the pleura, pleural effusion, or a mass. 7 In cases involving the peritoneum, a more common initial presentation would be ascites with computed tomography (CT) findings including irregular thickening of the peritoneum, lymph node enlargement, and possible metastasis to the chest ( Table 1 ). 8 , 9
+
+Typical Characteristics of Malignant Abdominal Mesothelioma. 18 , 19
+
+Abbreviation: CT, computed tomography.
+
+Most significant symptoms on presentation associated with death.
+
+Regardless of location, published guidelines detail the importance of first looking at the histology of a biopsy prior to immunohistochemical (IHC) and molecular testing to confirm suspicion of MM. From the histology, MM is classified into epithelioid, sarcomatoid, or biphasic (mixed) with epithelioid MM remaining the most common with its polygonal cells resembling reactive mesothelial cells. Other histologic features include scalloped cell borders with increased cytoplasm, prominent and enlarged nucleoli, and nuclear atypia. 10 The presence of a solid mass separate from the pleura and peritoneum with histologic features of MM eliminates the requirement for stromal invasion for the diagnosis. 9 , 10
+
+Immunohistochemical testing should use 2 markers of mesothelial origin, such as cytokeratin markers, and 2 alternative tumor markers to narrow the differential diagnosis based on histology. 10 This will vary by histology and location of the MM. Epithelioid markers are needed to rule out carcinomas, and peritoneal markers are needed to rule out adenocarcinomas and cancers causing peritoneal carcinomatosis. 8 , 10 Key markers for mesothelioma are positive IHC staining for calretinin, D2-40 (podoplanin), and cytokeratin 5/6. 10
+
+In this case report, we present an unusual case of MM with metastatic disease in a patient with no known asbestos exposure and a history of abdominal pain and weight loss found to have multiple lesions and diffuse lymphadenopathy on imaging.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+The diagnosis of MM carries a poor prognosis and requires careful review by pathology. Our case details the workup necessary to diagnosis MM in a patient with an atypical presentation of intermittent abdominal pain found to have significant metastatic disease prior to identification of a primary malignancy.
+
+Review of the case reveals the importance of tissue analysis and the continued public health concern of mesothelioma. MM carries a median survival time of 8 to 14 months following diagnosis. 7 This poor prognosis is partially due to the fact that over 65% of cases are not discovered until the distant metastasis stage. 11 While most cases of epithelioid MM have an improved prognosis compared with sarcomatoid MM, it can possess pleomorphic features that indicate highly aggressive cancer and shortened expected survival time. 7 , 10 , 12 Treatment consists of chemotherapy, radiation, and surgery although no therapy is curative. 7
+
+In our case, IHC staining had an important role in developing the diagnosis of epithelioid MM with pleomorphic features. It distinguished the disease from reactive mesothelial hyperplasia and other malignancies with possibly better prognoses. 10 The right lung lobe mass is not the typical presentation for MM involving the thorax and complicates the clinical picture. The presentation of the retroperitoneal mass coupled with diffuse metastatic lesions and atypical involvement of the thorax make this patient’s presentation particularly unique. Calretinin, GATA3, and CK5/6 were positive in the tissue obtained from the retroperitoneal and paraspinal muscle masses, which implicated a mesothelial origin for the malignancy. Calretinin is a strong indicator of epithelioid MM and is useful in distinguishing MM from adenocarcinoma. 10 Recent reports estimate a positive staining for GATA3 in mesothelioma in 58% of cases and note a presence in epithelioid MM in one third of cases. 10 , 13 Another important IHC markers for MM is D2-40, which was negative in our patient.
+
+While not completed in our patient, other markers present in MM include the deletion of p16, occurring in 70% of epithelioid MM, and the presence of a BAP1 mutation. 10 , 12 , 14 Ongoing research is investigating whether these genetic changes have a role in disease development in cases without asbestos exposure. 6 , 10 In the case of malignant peritoneal mesothelioma, there is a higher fraction of MM without an identifiable environmental exposure, which raises the question whether the disease process and role of genetics vary by the location of MM. 14 In the future, these will hopefully lead to the development of immunotherapies that are able to target these pathways and improved disease prognosis. 6
+
+Known asbestos exposure was not a factor in our case and should not be used to rule out mesothelioma. 10 Over 90% of MM cases are attributable to asbestos exposure with 60% of malignant peritoneal mesothelioma attributed to asbestos. 15 , 16 Recent studies detail that despite the restriction of asbestos products in the United States for over 20 years, the role of asbestos in chronic inflammation and DNA damage will continue to cause malignancy. 6 , 15 In the United States alone, there were approximately 4100 new MM cases in 2018 17 with current estimates anticipating a peak incidence of MM worldwide in 2020 given the continued use of asbestos worldwide and time to disease development. 6 , 7 , 15 This case highlights the importance of considering mesothelioma in the differential diagnosis of abdominal pain regardless of asbestos exposure history.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,19 @@
+Source: PMC7724263_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "MFAP2 Promotes the Proliferation of Cancer Cells and Is Associated With a Poor Prognosis in Hepatocellular Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "A total of 47 HCC tissues and corresponding adjacent non-tumorous tissue samples were collected from HCC patients.",
+  "N_E": 1,
+  "N_E_reason": "A total of 47 HCC tissues were collected.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

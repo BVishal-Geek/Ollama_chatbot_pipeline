@@ -1,0 +1,600 @@
+================================================================================
+ARTICLE TITLE: Clinical Research on Systemic Chemotherapy Combined With
+Bronchoscopic Seed Implantation in the Treatment of Advanced Lung
+Cancer
+PMCID: PMC7724264
+PMID: 33280522
+KEYWORDS: systemic chemotherapy, bronchoscope, seed implantation, lung cancer
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+This study aims to explore the clinical value of systemic chemotherapy
+combined with bronchoscopic seed implantation in advanced lung cancer
+treatment.
+
+Methods::
+The study enrolled 253 patients with advanced lung cancer in Cangzhou
+People’s Hospital from March 2018 to March 2020, and they were divided into
+test group and control group. Test group was given systemic chemotherapy
+combined with bronchoscopic seed implantation, while control group was given
+systemic chemotherapy. The objective response rate of tumor (ORR), disease
+control rate (DCR), serum tumor marker level, survival time and adverse
+reactions of 2 groups were compared.
+
+Results::
+After treatment, the levels of serum tumor markers including
+carcino-embryonic antigen, neuro-specific enolase, cytokeratin-19 and
+pro-gastrin-releasing peptide were markedly decreased in test group compared
+with those in control group ( P < 0.05). Therein, the
+serum tumor marker level of non-small cell lung cancer (NSCLC) patients was
+significant decreased compared with that of small cell lung cancer (SCLC)
+patients in test group. Meanwhile, in test group, the serum tumor marker
+level of lung adenocarcinoma (LUAD) patients was significant decreased
+compared with that of lung squamous cell carcinoma (LUSC, P < 0.05). The ORR and DCR in test group were superior to those in control
+group (63.4%, 92.5% vs 38.7%, 72.3%, P < 0.05), while those were much higher in patients with NSCLC and LUAD
+relative to those in patients with SCLC and LUSC, respectively
+( P < 0.05). Furthermore, the progression-free
+survival (PFS) and overall survival (OS) in test group were significantly
+greater than those in control group. In test group, the PFS and OS of
+patients with NSCLC and LUAD were higher than those of patients with SCLC
+and LUSC.
+
+Conclusion::
+The efficacy of systemic chemotherapy combined with bronchoscopic seed
+implantation was superior to that of systemic chemotherapy, which is worthy
+of promoting in clinical practice.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Lung cancer is a common pulmonary malignant tumor in clinic, with high incidence
+rate, mortality rate and poor diagnosis. 1 The most common types of lung cancer are small cell lung cancer (SCLC) and
+non-small cell lung cancer (NSCLC), among which NSCLC accounts for about 80%-85%,
+and lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC) are the main
+types in NSCLC. 2 Regardless of the types of lung cancer, the confirmed cases aged above 60 years. 3 Most patients are often diagnosed in advanced stage or metastatic stage and
+are ineligible for surgical treatment owing to the insidious onset and unobvious
+symptoms of the disease in the early stage. 4 Patients who had lost the opportunity of surgical treatment were mostly
+treated with platinum-based chemotherapy. 5 However, more toxic and side reactions can be caused by chemotherapy, and the
+5-year survival rate of postoperative patients remains unsatisfied. 6 Therefore, there is an urgent need to develop an optimal treatment plan.
+
+Iodine-125 ( 125 I) is a low-energy radioactive nuclide that continuously
+releases radiation and emits X-rays and gamma rays of 27.4-31.5 keV. 7  125 I seeds can kill tumor cells by constantly destroying DNA double
+strands and disabling their proliferative ability. The radiation can directly
+function on tumor tissues and its physical half-life period is 59.6 days. The
+effective duration of tumor exposure can be up to 200 days, which increases the
+effectiveness of radiotherapy. 8 Meanwhile, the damage to surrounding normal tissues and organs is minimal
+because radiation penetration is extremely weak at a length of 17 mm 9 . The constant exposure of radiation results in a significant decrease of
+tumor re-proliferation, while that in a low-dosage can inhibit mitosis of tumor
+cells and block cells in the G2 phase. 10 Hence, 125 I radiotherapy can maximally inactivating the tumor
+cells, ultimately attaining the treatment purpose.
+
+Seed implantation is one of the novel techniques in current tumor radiotherapy
+realized by that 125 I seeds are implanted into tumor or adjacent tumor
+infiltrating tissues to conduct brachytherapy, and it belongs to inter-tissue
+conformal radiotherapy. 11 , 12 Radioactive 125 I seeds are implanted into lung cancer tumors under
+the bronchoscope, which presents with the characteristics of accurate localization,
+small trauma and continuous radiation from radioactive sources. It provides a new
+and effective palliative treatment for patients with advanced lung cancer who cannot
+or are not suitable for surgery. 13 , 14 Radioactive 125 I seeds have been reported to have a great local
+control rate and the ability to improve progression-free survival (PFS) of patients, 15 so it has great research values in clinical practice.
+
+In this study, lung cancer patients treated in Cangzhou People’s Hospital were
+included and grouped according to their treatment plan. The purpose was to explore
+whether or not conventional chemotherapy combined with seed implantation can provide
+better treatment effect and prolong the survival time of patients.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+This study was a retrospective clinical research and was approved by the
+Institutional Review Boards of Cangzhou People’s Hospital. From March 2018 to
+March 2020, 253 patients with middle and advanced lung cancer in Cangzhou
+People’s Hospital were involved. All patients were confirmed with lung cancer by
+computed tomography imaging and pathological procedures. The 253 patients
+included 148 men and 105 women aged between 37 and 83 years, with a median age
+of 61 years. Inclusion criteria: (1) the Karnofsky performance status (KPS)
+score of patients was above 60; (2) predicted life span >3 months; (3) age
+> 18; (4) no significant trachea functional failure was observed in heart,
+kidney, liver, spleen and stomach; (5) patients had not received any
+chemoradiotherapy or surgical therapy prior to diagnosis; (6) all patients
+signed the written informed consent. A total of 253 patients were divided into
+test group (n = 134) and control group (n = 119) according to their in-hospital
+treatment plans. Test group was given systemic chemotherapy combined with
+bronchoscopic seed implantation, while control group was given traditional
+systemic chemotherapy. The general clinicopathological data of all patients
+including age, gender, smoking history, KPS score, disease stage,
+classification, metastasis between the 2 groups were well balanced with no
+significant difference ( P > 0.05) but of clinical
+comparability, as shown in Table 1 .
+
+The General Clinicopathological Data of Patients.
+
+For systematic chemotherapy, patients were given 1000-1250 mg/m 2 of gemcitabine (Jiangsu Aosaikang Pharmaceutical Co., Ltd., SFDA approval
+number: HB20093698) through 30 min of intravenous infusion on day 1 and 8 in
+each course, and then 25 mg/m 2 of cisplatin (Yuannan Biovalley
+Pharmaceutical Co., Ltd., SFDA approval number: H20043888) was administrated
+through intravenous infusion on day 1 to 3, followed by 250 mg of gefitinib
+(AstraZeneca Pharmaceutical Co., Ltd., SFDA approval number: J20140471) by
+oral. All patients were received a treatment course of 21 days, and at least
+2 courses of treatment.
+
+Equipment: seed implant needle (MED-TEC company, USA), implant gun and
+template (Jinxitong Biotech, Inc., Tianjin, China), PQ6000 spiral computed
+tomography (SCT; Picker company, USA). Seeds: Domestic radioactive 125 I seed source with a half-life of 60.2 days and activity
+of 0.6 mCi (2.00 @107 Bq); the C-ray energy is 27 to 35 keV with the tissue
+penetration distance of 1.7 cm. Implantation: the tumor location was
+identified by using a bronchoscope, and a special catheter and guide wire
+were employed to implant 1 seed per (1-1.5) cm 3 of tumor at 4
+phases 3, 6, 9, 12. An average of 15 seeds were implanted in each patients.
+CT scanning was used after the whole implantation procedure. When seeds were
+found to be scattered or missed, seeds were replanted immediately. See Figure 1 for 125 I seed figure and detailed implantation procedures.
+
+ 125 I seed figure and the detailed implantation procedure.
+A-C, 125 I seed figure. D, Plan for seed implantation. E,
+Insertion of implant needle. F, Computed tomography imaging after
+seed implantation.
+
+Patients in control group were given a 2-cycle chemotherapy, while patients in
+test group were given a 2-cycle chemotherapy combined with seed implantation.
+After 2 months of seed implantation, serum tumor markers were detected. Before
+and after treatment, 4 ml of venous blood was extracted from patients on empty
+stomach of the 2 groups and placed into an anticoagulative tube, standing for 60
+min at 4 °C. After that, the samples were centrifuged at 3000 r/min for 10 min
+and preserved in a refrigerator at −80 °C. Automatic chemical immunoassay
+analyzer and the reagent kit (Shenzhen New Industries Biomedical Engineering
+company, Maglumi2000PLUS) were applied for index detection according to specific
+operation instructions, including carcino-embryonic antigen (CEA), neuron
+specific enolase (NSE), cytokeratin fragment 19 (CYFRA21-1),
+pro-gastrin-releasing peptide (PRO-GRP). Subsequently, chest CT was re-examined
+for short-term efficacy evaluation, including objective response rate (ORR) and
+disease control rate (DCR), and for the long-term efficacy evaluation including
+PFS and overall survival (OS). Short-term efficacy was evaluated according to
+RECIST 1.1 of 2009 version 16 ; (1) Complete Remission (CR): all target lesions had disappeared, and the
+short diameter of all pathological lymph nodes (both target and non-target) must
+be reduced to <10 mm; (2) Partial Remission (PR): the sum of target lesions
+in diameter was reduced by at least 30% from baseline; (3) Stable Disease (SD):
+the sum of target lesions in diameter was between PR and PD; (4) Progressive
+Disease (PD): the sum of target lesions in diameter was relatively increased by
+at least 20% (If the baseline measurements are minimal, the baseline values are
+used as a reference). In addition, the absolute value of the sum of diameters
+must be increased by at least 5 mm (the presence of one or more new lesions is
+also considered as PD).
+
+All patients were required to follow-up from the day they were hospitalized,
+including telephone and hospitalization follow-up. By the time of March 31,
+2020, a total of 245 patients were followed up for 3 to 24 months, and 8
+patients were lost to follow-up, with a total follow-up rate of 96.8%. PFS
+refers to the time between the beginning of treatment and the onset of disease
+progression or recurrence. OS refers to the time between the beginning of
+treatment and the end of death that caused by any reasons or loss of
+follow-up.
+
+All data were processed by using SPSS 22.0 software, and survival curve was
+plotted by using GraphPad Prism 7.0. Measurement data were presented as mean ±
+standard deviation (X ± s) and were verified by t test. The
+counting data were expressed as rate (%) and were assessed by chi-square test. P < 0.05 was considered statistically significant.
+
+
+Patient Enrollment
+
+This study was a retrospective clinical research and was approved by the
+Institutional Review Boards of Cangzhou People’s Hospital. From March 2018 to
+March 2020, 253 patients with middle and advanced lung cancer in Cangzhou
+People’s Hospital were involved. All patients were confirmed with lung cancer by
+computed tomography imaging and pathological procedures. The 253 patients
+included 148 men and 105 women aged between 37 and 83 years, with a median age
+of 61 years. Inclusion criteria: (1) the Karnofsky performance status (KPS)
+score of patients was above 60; (2) predicted life span >3 months; (3) age
+> 18; (4) no significant trachea functional failure was observed in heart,
+kidney, liver, spleen and stomach; (5) patients had not received any
+chemoradiotherapy or surgical therapy prior to diagnosis; (6) all patients
+signed the written informed consent. A total of 253 patients were divided into
+test group (n = 134) and control group (n = 119) according to their in-hospital
+treatment plans. Test group was given systemic chemotherapy combined with
+bronchoscopic seed implantation, while control group was given traditional
+systemic chemotherapy. The general clinicopathological data of all patients
+including age, gender, smoking history, KPS score, disease stage,
+classification, metastasis between the 2 groups were well balanced with no
+significant difference ( P > 0.05) but of clinical
+comparability, as shown in Table 1 .
+
+The General Clinicopathological Data of Patients.
+
+
+Treatment Plan
+
+For systematic chemotherapy, patients were given 1000-1250 mg/m 2 of gemcitabine (Jiangsu Aosaikang Pharmaceutical Co., Ltd., SFDA approval
+number: HB20093698) through 30 min of intravenous infusion on day 1 and 8 in
+each course, and then 25 mg/m 2 of cisplatin (Yuannan Biovalley
+Pharmaceutical Co., Ltd., SFDA approval number: H20043888) was administrated
+through intravenous infusion on day 1 to 3, followed by 250 mg of gefitinib
+(AstraZeneca Pharmaceutical Co., Ltd., SFDA approval number: J20140471) by
+oral. All patients were received a treatment course of 21 days, and at least
+2 courses of treatment.
+
+Equipment: seed implant needle (MED-TEC company, USA), implant gun and
+template (Jinxitong Biotech, Inc., Tianjin, China), PQ6000 spiral computed
+tomography (SCT; Picker company, USA). Seeds: Domestic radioactive 125 I seed source with a half-life of 60.2 days and activity
+of 0.6 mCi (2.00 @107 Bq); the C-ray energy is 27 to 35 keV with the tissue
+penetration distance of 1.7 cm. Implantation: the tumor location was
+identified by using a bronchoscope, and a special catheter and guide wire
+were employed to implant 1 seed per (1-1.5) cm 3 of tumor at 4
+phases 3, 6, 9, 12. An average of 15 seeds were implanted in each patients.
+CT scanning was used after the whole implantation procedure. When seeds were
+found to be scattered or missed, seeds were replanted immediately. See Figure 1 for 125 I seed figure and detailed implantation procedures.
+
+ 125 I seed figure and the detailed implantation procedure.
+A-C, 125 I seed figure. D, Plan for seed implantation. E,
+Insertion of implant needle. F, Computed tomography imaging after
+seed implantation.
+
+
+Systematic chemotherapy
+
+For systematic chemotherapy, patients were given 1000-1250 mg/m 2 of gemcitabine (Jiangsu Aosaikang Pharmaceutical Co., Ltd., SFDA approval
+number: HB20093698) through 30 min of intravenous infusion on day 1 and 8 in
+each course, and then 25 mg/m 2 of cisplatin (Yuannan Biovalley
+Pharmaceutical Co., Ltd., SFDA approval number: H20043888) was administrated
+through intravenous infusion on day 1 to 3, followed by 250 mg of gefitinib
+(AstraZeneca Pharmaceutical Co., Ltd., SFDA approval number: J20140471) by
+oral. All patients were received a treatment course of 21 days, and at least
+2 courses of treatment.
+
+
+Bronchoscopic seed implantation
+
+Equipment: seed implant needle (MED-TEC company, USA), implant gun and
+template (Jinxitong Biotech, Inc., Tianjin, China), PQ6000 spiral computed
+tomography (SCT; Picker company, USA). Seeds: Domestic radioactive 125 I seed source with a half-life of 60.2 days and activity
+of 0.6 mCi (2.00 @107 Bq); the C-ray energy is 27 to 35 keV with the tissue
+penetration distance of 1.7 cm. Implantation: the tumor location was
+identified by using a bronchoscope, and a special catheter and guide wire
+were employed to implant 1 seed per (1-1.5) cm 3 of tumor at 4
+phases 3, 6, 9, 12. An average of 15 seeds were implanted in each patients.
+CT scanning was used after the whole implantation procedure. When seeds were
+found to be scattered or missed, seeds were replanted immediately. See Figure 1 for 125 I seed figure and detailed implantation procedures.
+
+ 125 I seed figure and the detailed implantation procedure.
+A-C, 125 I seed figure. D, Plan for seed implantation. E,
+Insertion of implant needle. F, Computed tomography imaging after
+seed implantation.
+
+
+Evaluation Criteria
+
+Patients in control group were given a 2-cycle chemotherapy, while patients in
+test group were given a 2-cycle chemotherapy combined with seed implantation.
+After 2 months of seed implantation, serum tumor markers were detected. Before
+and after treatment, 4 ml of venous blood was extracted from patients on empty
+stomach of the 2 groups and placed into an anticoagulative tube, standing for 60
+min at 4 °C. After that, the samples were centrifuged at 3000 r/min for 10 min
+and preserved in a refrigerator at −80 °C. Automatic chemical immunoassay
+analyzer and the reagent kit (Shenzhen New Industries Biomedical Engineering
+company, Maglumi2000PLUS) were applied for index detection according to specific
+operation instructions, including carcino-embryonic antigen (CEA), neuron
+specific enolase (NSE), cytokeratin fragment 19 (CYFRA21-1),
+pro-gastrin-releasing peptide (PRO-GRP). Subsequently, chest CT was re-examined
+for short-term efficacy evaluation, including objective response rate (ORR) and
+disease control rate (DCR), and for the long-term efficacy evaluation including
+PFS and overall survival (OS). Short-term efficacy was evaluated according to
+RECIST 1.1 of 2009 version 16 ; (1) Complete Remission (CR): all target lesions had disappeared, and the
+short diameter of all pathological lymph nodes (both target and non-target) must
+be reduced to <10 mm; (2) Partial Remission (PR): the sum of target lesions
+in diameter was reduced by at least 30% from baseline; (3) Stable Disease (SD):
+the sum of target lesions in diameter was between PR and PD; (4) Progressive
+Disease (PD): the sum of target lesions in diameter was relatively increased by
+at least 20% (If the baseline measurements are minimal, the baseline values are
+used as a reference). In addition, the absolute value of the sum of diameters
+must be increased by at least 5 mm (the presence of one or more new lesions is
+also considered as PD).
+
+
+Follow-Up
+
+All patients were required to follow-up from the day they were hospitalized,
+including telephone and hospitalization follow-up. By the time of March 31,
+2020, a total of 245 patients were followed up for 3 to 24 months, and 8
+patients were lost to follow-up, with a total follow-up rate of 96.8%. PFS
+refers to the time between the beginning of treatment and the onset of disease
+progression or recurrence. OS refers to the time between the beginning of
+treatment and the end of death that caused by any reasons or loss of
+follow-up.
+
+
+Statistical Analysis
+
+All data were processed by using SPSS 22.0 software, and survival curve was
+plotted by using GraphPad Prism 7.0. Measurement data were presented as mean ±
+standard deviation (X ± s) and were verified by t test. The
+counting data were expressed as rate (%) and were assessed by chi-square test. P < 0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Before treatment, there was no significant difference in the level of serum tumor
+markers CEA, NSE, CYFRA21-1, PRO-GRP between the 2 groups, which was not
+considered as statistically significant difference ( P >
+0.05). After treatment, the levels of serum CEA, NSE, CYFRA21-1, PRO-GRP in test
+group were remarkably lower than those in control group ( P <
+0.05), which demonstrated a statistical significance ( Table 2 ). Furthermore, compared with
+SCLC patients, the levels of serum CEA, NSE, CYFRA21-1, PRO-GRP in NSCLC
+patients were significant decreased ( P < 0.05). Among
+patients with NSCLC, the levels of CEA, NSE, CYFRA21-1, PRO-GRP in LUAD patients
+were significantly decreased compared with LUSC patients ( P < 0.05, Table 3 ).
+These findings indicated that the efficacy of systematic chemotherapy combined
+with seed implantation was superior to systematic chemotherapy, which was also
+more effective in patients with NSCLC and LUAD.
+
+Comparison of Serum Tumor Maker Levels in Test and Control Groups.
+
+Comparison of Serum Tumor Marker Levels in Patients With Different
+Subtypes of Lung Cancer in Test Group.
+
+As for the curative effects, we compared the difference in short-term efficacy
+between the 2 treatments. As the results revealed, in test group, CR was
+observed in 25 cases after the procedure, 60 cases had PR, 39 cases had SD, 10
+cases had PD. See Figure
+2 for computed tomography imaging after seed implantation. In control
+group, CR was observed in 10 cases, 36 cases had PR, 40 cases had SD, 33 cases
+had PD. The ORR and DCR were markedly higher in test group than those in control
+group ( P < 0.05), which showed a statistical significance
+( Table 4 ). Taken
+together, we could conclude that the treatment plan of test group was noticeably
+better than that of control group. To gain more insight in the therapeutic
+effects of the treatment plan of test group on different subtypes of lung
+cancer, we further subdivided them. Similarly, the ORR and DCR of tumor in
+patients with NSCLC were remarkably higher than those in patients with SCLC.
+There was no significant difference in the DCR of LUAD and LUSC patients, while
+the ORR of tumor in LUAD patients was significantly higher than that in LUSC
+patients ( P < 0.05, Table 5 ).
+
+Computed tomography imaging after seed implantation. A, The time at the
+end of seed implantation. B, Reexamination result 3 months after seed
+implantation.
+
+Comparison of Short-Term Efficacy in 2 Groups.
+
+Note: ORR = CR+PR; DCR = CR+PR+SD
+
+Comparison of Short-Term Efficacy in Patients With Different Subtypes of
+Lung Cancer in the Test Group.
+
+Note: ORR = CR+PR; DCR = CR+PR+SD
+
+After comparing the short-term efficacy of the 2 groups, we also compared the
+survival of the 2 groups after treatment. The median survival time of all
+follow-up patients was 12.3 months, and the median PFS of test group was 7.3
+months, while that of control group was 4.2 months. The PFS of patients in test
+group was significantly higher than that of patients in control group
+( P < 0.05, Figure 3A ). The median OS of test group
+was 12.8 months, while that of control group was 9.3 months. The OS of test
+group was significantly increased compared with control group
+( P < 0.05, Figure 3B ). To further explore the OS of
+patients with different subtypes of lung cancer in test group, we subdivided the
+patients in test group according to types of lung cancer, and found that the PFS
+and OS of patients with NSCLC were longer than those of patients with SCLC
+( P < 0.05, Figure 3C , D ). The PFS and OS of LUAD patients were
+significant increased compared with LUSC patients ( P < 0.05, Figure 3E , F ).
+
+Comparison toward PFS and OS. A and B, Comparison of the PFS and OS in
+patients of test and control groups. C and D, Comparison of PFS and OS
+in patients with NSCLC and SCLC in test group. E and F, Comparison of
+PFS and OS in patients with LUAD and LUSC in test group.
+
+The adverse reactions of all patients induced by systematic chemotherapy mainly
+included: (1) myelosuppression: leukopenia, anemia, and thrombocytopenia (test
+group 32%, 22%, 26% vs control group 36%, 21%, 22%); (2)
+gastrointestinal reactions: nausea, vomiting, and diarrhea (14%, 19%, 9% vs 15%, 21%, 11%); (3) abnormal renal and kidney functions
+(32% vs 34%). There was no significant difference of adverse
+reactions in patients of the 2 groups ( P > 0.05).
+
+The complications caused by seed implantation in patients of test group were as
+follows: (1) 21 cases had pneumothorax, among which 14 cases with pulmonary
+compression of more than 30% were treated with closed thoracic drainage, and 7
+cases with pulmonary compression of less than 30% were treated with
+thoracentesis and aspiration; (2) 13cases had hemoptysis; (3) 11 cases had
+fever; (4) 5 cases had seed transfer. All the above patients got well after the
+corresponding treatments. No deaths or treatment termination were caused by the
+abovementioned complications.
+
+
+The Level of Serum Tumor Markers of Patients in the 2 Groups
+
+Before treatment, there was no significant difference in the level of serum tumor
+markers CEA, NSE, CYFRA21-1, PRO-GRP between the 2 groups, which was not
+considered as statistically significant difference ( P >
+0.05). After treatment, the levels of serum CEA, NSE, CYFRA21-1, PRO-GRP in test
+group were remarkably lower than those in control group ( P <
+0.05), which demonstrated a statistical significance ( Table 2 ). Furthermore, compared with
+SCLC patients, the levels of serum CEA, NSE, CYFRA21-1, PRO-GRP in NSCLC
+patients were significant decreased ( P < 0.05). Among
+patients with NSCLC, the levels of CEA, NSE, CYFRA21-1, PRO-GRP in LUAD patients
+were significantly decreased compared with LUSC patients ( P < 0.05, Table 3 ).
+These findings indicated that the efficacy of systematic chemotherapy combined
+with seed implantation was superior to systematic chemotherapy, which was also
+more effective in patients with NSCLC and LUAD.
+
+Comparison of Serum Tumor Maker Levels in Test and Control Groups.
+
+Comparison of Serum Tumor Marker Levels in Patients With Different
+Subtypes of Lung Cancer in Test Group.
+
+
+Comparison of Short-Term Efficacy in the 2 Groups
+
+As for the curative effects, we compared the difference in short-term efficacy
+between the 2 treatments. As the results revealed, in test group, CR was
+observed in 25 cases after the procedure, 60 cases had PR, 39 cases had SD, 10
+cases had PD. See Figure
+2 for computed tomography imaging after seed implantation. In control
+group, CR was observed in 10 cases, 36 cases had PR, 40 cases had SD, 33 cases
+had PD. The ORR and DCR were markedly higher in test group than those in control
+group ( P < 0.05), which showed a statistical significance
+( Table 4 ). Taken
+together, we could conclude that the treatment plan of test group was noticeably
+better than that of control group. To gain more insight in the therapeutic
+effects of the treatment plan of test group on different subtypes of lung
+cancer, we further subdivided them. Similarly, the ORR and DCR of tumor in
+patients with NSCLC were remarkably higher than those in patients with SCLC.
+There was no significant difference in the DCR of LUAD and LUSC patients, while
+the ORR of tumor in LUAD patients was significantly higher than that in LUSC
+patients ( P < 0.05, Table 5 ).
+
+Computed tomography imaging after seed implantation. A, The time at the
+end of seed implantation. B, Reexamination result 3 months after seed
+implantation.
+
+Comparison of Short-Term Efficacy in 2 Groups.
+
+Note: ORR = CR+PR; DCR = CR+PR+SD
+
+Comparison of Short-Term Efficacy in Patients With Different Subtypes of
+Lung Cancer in the Test Group.
+
+Note: ORR = CR+PR; DCR = CR+PR+SD
+
+
+Survival Time Comparison
+
+After comparing the short-term efficacy of the 2 groups, we also compared the
+survival of the 2 groups after treatment. The median survival time of all
+follow-up patients was 12.3 months, and the median PFS of test group was 7.3
+months, while that of control group was 4.2 months. The PFS of patients in test
+group was significantly higher than that of patients in control group
+( P < 0.05, Figure 3A ). The median OS of test group
+was 12.8 months, while that of control group was 9.3 months. The OS of test
+group was significantly increased compared with control group
+( P < 0.05, Figure 3B ). To further explore the OS of
+patients with different subtypes of lung cancer in test group, we subdivided the
+patients in test group according to types of lung cancer, and found that the PFS
+and OS of patients with NSCLC were longer than those of patients with SCLC
+( P < 0.05, Figure 3C , D ). The PFS and OS of LUAD patients were
+significant increased compared with LUSC patients ( P < 0.05, Figure 3E , F ).
+
+Comparison toward PFS and OS. A and B, Comparison of the PFS and OS in
+patients of test and control groups. C and D, Comparison of PFS and OS
+in patients with NSCLC and SCLC in test group. E and F, Comparison of
+PFS and OS in patients with LUAD and LUSC in test group.
+
+
+Adverse Reactions and Complications
+
+The adverse reactions of all patients induced by systematic chemotherapy mainly
+included: (1) myelosuppression: leukopenia, anemia, and thrombocytopenia (test
+group 32%, 22%, 26% vs control group 36%, 21%, 22%); (2)
+gastrointestinal reactions: nausea, vomiting, and diarrhea (14%, 19%, 9% vs 15%, 21%, 11%); (3) abnormal renal and kidney functions
+(32% vs 34%). There was no significant difference of adverse
+reactions in patients of the 2 groups ( P > 0.05).
+
+The complications caused by seed implantation in patients of test group were as
+follows: (1) 21 cases had pneumothorax, among which 14 cases with pulmonary
+compression of more than 30% were treated with closed thoracic drainage, and 7
+cases with pulmonary compression of less than 30% were treated with
+thoracentesis and aspiration; (2) 13cases had hemoptysis; (3) 11 cases had
+fever; (4) 5 cases had seed transfer. All the above patients got well after the
+corresponding treatments. No deaths or treatment termination were caused by the
+abovementioned complications.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Lung cancer, one of the major malignancies worldwide, leads to a high mortality rate
+in both men and women. 17 In 2012, there were 226,150 cases with lung and bronchus cancer and 160,340
+lung cancer related deaths estimated in the United States. 18 Surgery is considered as the standard treatment plan for patients with stage
+I or II of lung cancer. For patients who cannot receive surgical resection, the
+third-generation chemotherapeutic agents of gemcitabine, paclitaxel, docetaxel
+combined with platinum-based drugs are recommended. 19 However, the efficacy of chemoradiotherapy has already hit the bottleneck in
+the recent years, and the long-term survival rate and quality of life of patients
+remain unsatisfied. Therefore, it is of great significance to explore a novel
+therapeutic direction.
+
+In recent years, with the development of nuclear medicine and the improvement of
+medical equipment, radioactive seed implantation ( 125 I, 131 I, 103 Pd) has been widely applied in treatment of various tumors. Seed
+implantation refers to that small radioactive seeds are implanted into the tumor
+cell to produce the sustain effects. Due to the short radial distance, these
+radiations can selectively and effectively kill cancer cells without causing any
+major damage to the adjacent normal cells. 20 Seed implantation has been applied in many types of tumor. For example, some
+scholars have found that seed implantation contributes to a better survival rate and
+local control rate in the treatment of unresectable hepatocellular carcinoma and
+pancreatic cancer. 21 , 22 Consistent with the previous studies, we found that the local control rate
+(including ORR and DCR) of patients treated by chemotherapy combined with seed
+implantation was significantly higher than that of patients treated by chemotherapy
+alone. The PFS and OS of patients with combination therapy were prolonged. Moreover,
+compared to the standard treatment group set by us, the levels of serum tumor marker
+CEA, NSE, CYFRA21-1, PRO-GRP in patients of test group were decreased more
+significantly than those in control group, which showed that the efficacy of seed
+implantation is worthy of affirmation.
+
+Seed implantation includes CT-guided implantation and bronchoscopic implantation
+concerning tumors from different parts of body. 20 These 2 kinds of seed implantation methods can both be adopted for lung
+cancer. However, the CT-guided percutaneous puncture can be affected by the lung
+physiological function of patients and anatomical factors with certain difficulty
+and requires several injections, which increases the possibility for lung injury and
+complications like bleeding, pneumothorax, seed displacement in clinical practice. 15 Bronchoscopic implantation was employed in this experiment for its ability of
+reducing these problems to some extent. This study showed that complications
+(pneumothorax, hemoptysis and fever) caused by seed implantation were relieved in
+patients after the corresponding treatment, which indicated that the bronchoscopic
+seed implantation had a good safety. There were no complications developed that led
+to treatment interruption or termination and no therapy-related deaths.
+
+In our study, we subdivided the types of lung cancer and explored the therapeutic
+effect of seed implantation on them. The results displayed that the efficacy of seed
+implantation on NSCLC was better than that on SCLC, whereas similar trend could be
+observed in LUAD compared with LUSC. Meanwhile, the levels of serum tumor markers in
+patients with NSCLC or LUAD were remarkably decreased compared with those in
+patients with SCLC or LUSC, respectively, while the PFS and OS of NSCLC or LUAD
+patients were also prolonged much significantly. These findings validated that the
+systemic chemotherapy combined with seed implantation had a better therapeutic
+effect in patients with NSCLC and LUAD, which was similar to previous findings. The
+broad classification of SCLC resulted in an unsatisfactory outcome in treatment for
+SCLC patients. 23 , 24 Moreover, medical chemotherapy has been reported to be unproductive for
+advanced LUAD patients. 25 In this study, the addition of seed implantation indicted a great clinical
+effect on LUAD, which provided a new option for the clinical treatment for LUAD.
+Therefore, seed implantation is a great option for patients suffering from
+unresectable malignant lung tumor. Nevertheless, it is necessary to develop uniform
+dosages and procedures for homogeneity and provide references for clinical
+practices. Furthermore, certain limitations still exist in this study, and the
+results might be largely biased attributed to the great variance in sample size of
+different cancer subtypes. For instance, the sample size of SCLC was far smaller
+than that of NSCLC, while the sample size of LUSC was also greatly smaller than that
+of LUAD. Therefore, more precise study should be carried out on lung cancer patients
+with more diverse subtypes in the future.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+To sum up, this study confirmed that systemic chemotherapy combined with seed
+implantation can improve the clinical treatment effect and prolong the survival time
+of patients with lung cancer.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

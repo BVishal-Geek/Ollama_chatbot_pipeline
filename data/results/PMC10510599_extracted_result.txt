@@ -1,0 +1,19 @@
+Source: PMC10510599_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "The Contribution of Additional Sampling in Cholecystectomy Materials: A Multicenter Prospective Study",
+  "condition_E": 1,
+  "condition_E_reason": "The study included 5,244 cholecystectomy materials with patient characteristics such as gender and age.",
+  "N_E": 1,
+  "N_E_reason": "A total of 5,244 cholecystectomy materials from 14 institutions were included in the study.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

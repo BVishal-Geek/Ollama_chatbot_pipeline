@@ -1,0 +1,66 @@
+================================================================================
+ARTICLE TITLE: Accelerated partial breast irradiation in elderly breast cancer patients
+PMCID: PMC8798666
+PMID: 35117946
+KEYWORDS: accelerated, elderly, breast cancer, radiotherapy, brachytherapy
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Breast-conserving surgery with adjuvant whole-breast irradiation has become the standard treatment for early breast cancer (EBC) patients. Partial breast irradiation, which targets only the postoperative cavity, has been established as an alternative to whole-breast therapy in selected patients. The treatment of elderly breast cancer patients differs from the therapeutic approach in younger ones, as elderly patients are prone to geriatric frailty and comorbid conditions, the incidence and severity of which increase with age. A review of the evidence, process, techniques, and results of accelerated partial breast irradiation (APBI) in elderly EBC patients, seems to indicate that APBI is an advisable postoperative approach in properly selected elderly EBC patients, combining advantages of a radical approach that minimizes the risk of undertreatment with efficient reduction of redundant irradiated volume, treatment toxicity, overall treatment time, staff workload, radiation technique workflow, patient transportation, and the potential for non-compliance. There is no “one size fits all” technique of APBI, the best technique always depending on willing patients, individual anatomy, performance status, patient frailty and comorbid conditions, and tumour location.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Early breast cancer (EBC) is a frequent disease in women with a constantly increasing incidence in all age categories ( 1 ). Due to the increase in life expectancy, EBC has a higher prevalence in women aged 65 and older ( 2 ). Management of the treatment of EBC has become an important concern in developed countries. Breast-conserving surgery (BCS) with adjuvant whole-breast irradiation (WBI) and adjuvant hormonal treatment has been the standard treatment of EBC for decades. The use of WBI following BCS significantly decreases 10-year locoregional recurrence rates in all patients and 15-year mortality in some of them ( 3 ).
+
+Despite the undoubted advantages of WBI in terms of improved relapse rates and eventually survival, this approach presents several important drawbacks. First, WBI requires an extended treatment time (3 to 7 weeks), which places a heavy burden on patients and also increases staff and radiation technique workloads. Secondly, WBI may be overtreatment given that the vast majority of local relapses (>85%) that occur after BCS (with or without WBI) occur in or close to the primary tumour bed ( 4 ). As a result, irradiating the entire breast may needlessly put patients at risk of developing clinically-significant side effects. For these reasons, partial breast irradiation (PBI), which targets only the postoperative cavity, has been established as an alternative to WBI in selected patients ( 5 - 7 ).
+
+To date, the largest prospective randomized trial of external beam PBI is the multicentric IMPORT-LOW trial, which has demonstrated that PBI of 40 Gy in 15 daily fractions is not inferior to the same schedule of WBI in terms of local control and toxicity ( 8 ). Results of this trial favour this treatment as an easy technique of simple field reduction implementable in all radiotherapy centres that already provide breast radiotherapy. However, compared to standard 3-week WBI, there is no reduction of the treatment duration with this approach.
+
+In accelerated partial breast irradiation (APBI), the total dose of radiation is given over 1 week or a shorter period of time to the part of the breast with the highest risk of microscopic disease. Accelerated radiotherapy uses fewer fractions of radiation to a smaller target volume, with a higher dose per single fraction, and with usually more than one fraction per day. Altogether, APBI aims to improve treatment tolerability and toxicity by limiting the treated volume and overall treatment time, without compromising clinical outcomes.
+
+This paper is a review concerning evidence, process, techniques, and results of ABPI in elderly EBC patients.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+APBI seems to be an advisable postoperative approach in properly selected elderly EBC patients, combining advantages of a radical approach that minimizes the risk of undertreatment, with efficient reduction of redundant irradiated volume, treatment toxicity, overall treatment time, staff workload, radiation technique workflow, patient transportation, and potential for non-compliance. Moreover, APBI seems to be an ideal compromise between WBI and the omission of any radiotherapy at all in elderly EBC patients. To date, APBI is considered a standard postoperative treatment in low-risk EBC patients with suitable pathological characteristics. There are currently multiple techniques to deliver APBI, with best evidence favouring multicatheter interstitial brachytherapy. However, there is no “one size fits all” technique of APBI, with the best technique always depending on willing patients, anatomy, performance status, frailty, comorbid conditions, tumor laterality, and location. With ongoing trials, we anticipate further shortening of the treatment time in elderly patients with ultra-hypofractionated or single dose APBI schedules. Unfortunately, accessibility of APBI and specific cost analyses vary across the world and across regions of particular continents and countries.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

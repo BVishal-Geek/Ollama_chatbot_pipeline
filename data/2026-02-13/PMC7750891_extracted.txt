@@ -1,0 +1,220 @@
+================================================================================
+ARTICLE TITLE: Identifications of Candidate Genes Significantly Associated With Rectal Cancer by Integrated Bioinformatics Analysis
+PMCID: PMC7750891
+PMID: 33327880
+KEYWORDS: rectal cancer, integrated bioinformatics, inhbb
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Introduction::
+Rectal cancer ranks as the eighth in cancer-related morbidity and the tenth in the cancer-related mortality. A few studies have explored several biomarkers for colorectal cancer. However, there is still a great need for us to excavate novel biomarkers with effective and efficient diagnostic and prognostic values to discover the etiology and pathogenesis of rectal cancer separately. Therefore, we aimed to identify more novel candidate genes that were significantly associated with rectal cancer through integrated bioinformatics analysis.
+
+Methods::
+We analyzed the gene expression profiles of GSE15781 and GSE20842 from Gene Expression Omnibus database to identify differentially expressed genes between normal rectal tissue and rectal cancer tissue.
+
+Results::
+We searched for core genes, carried out survival analysis and analyzed the expressions of core genes. We found that 142 genes were significantly upregulated, and 229 genes were significantly downregulated in all 3 independent studies. In KEGG analysis, the upregulated genes were significantly enriched in cytokine-cytokine receptor interaction, IL-17 signaling pathway, cell cycle, etc. The downregulated genes were primarily enriched in nitrogen metabolism, mineral absorption and pentose and glucuronate interconversions. Inhibin subunit beta B (INHBB) expressed markedly higher in rectal cancer tissues compared with normal tissues, and claudins (CLDN) 23 expressed significantly lower in rectal cancer tissues.
+
+Conclusion::
+In conclusion, we discovered that INHBB could provide a great significant diagnostic and prognostic values for rectal cancer.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+In the latest global cancer statistics, it is well-established that there are 18.1 million new cases and 9.6 million cancer deaths worldwide in 2018. Rectal cancer, with 704,376 new cases recorded (3.9%/100%) and 310,394 deaths recorded (3.2%/100%), ranks as the eighth in cancer-related morbidity and the tenth in cancer-related mortality. 1 The modernization process and higher intake of red and processed meat have made a higher incidence of rectal cancer in China. It was also associated with an upward trend in age-related mortality and an upward trend in age-related incidence in female. 2 , 3 
+
+A few studies have explored several biomarkers for colorectal cancer. Yang et al. found that genes like CXCL5 or COL1A1 can enrich the chemokine signaling pathway or ECM receptor interaction to influence the metastasis and the growth of colorectal cancer. 4 Liang et al. revealed modulator in transmembrane signaling systems such as GNG2, angiotensinogen related gene such as ATG markedly related to the mutations in K-ras and p53 to initiates tumorigenesis, etc. 5 Another report from Guo et al. showed that the expression of genes, which were associated with cell cycle process such as CDK1, CCNB1, or with chemokines and G-protein coupled receptor signaling pathways such as LGR5, changed obviously in colorectal cancer than normal tissue. 6 Jung et al. proved in both public data analysis and experience that high expression of RPS4X was correlated with colorectal cancer cell type. High expression of ECT2 with lack of lymphatic infiltration was related to an early stage of cancer and lack of family history of colorectal cancer. 7 However, we found that many studies in this field usually incorporate rectal cancer into colon cancer research. We also notice that there are many differences between colon cancer and rectal cancer not only in clinical characters, including complications, short-term survival and recurrences, but also in gene expression profiles, carcinogenesis pathways, and drug targets. 8 - 10 
+
+Therefore, there is still a great need for us to excavate novel biomarkers with great diagnostic and prognostic values to uncover the etiology and pathogenesis of rectal cancer separately. In addition, due to the second-generation gene sequencing being generally extensively applied, 11 numerous neoplastic data are displayed and available in several public databases. To find out the molecular mechanisms of rectal cancer, we analyzed the gene expression profiles of The Cancer Genome Atlas database ( http://cancergenome.nih.gov/ ) and GSE15781 and GSE20842 from Gene Expression Omnibus (GEO, http://www.ncbi.nlm.nih.gov/geo/ ) database to search for the differentially expressed genes (DEGs) between normal rectal tissue and rectal cancer tissue. 12 , 13 These DEGs were subjected to gene ontology (GO) enrichment analysis, Kyoto Encyclopedia of Genes, and Genomes (KEGG) pathway analysis, protein-protein interaction (PPI) network analysis. Survival analysis, as well as expression of core genes, were analyzed for better understanding the mechanism of rectal cancer. As a result, we discovered that INHBB could provide great significant diagnostic and prognostic value for rectal cancer.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The clinical information and sequence data were acquired from gene expression profiles of GSE15781 and GSE20842. They were downloaded from GEO and TCGA databanks of rectal cancer and normal rectal tissues. No ethics committee approval or consent procedure was needed.
+
+High-sequence data of GSE15781 (GPL4133, Agilent-014850 Whole Human Genome Microarray 4 × 44 K G4112F) that were deposited by Snipstad et al. were collected from GEO dataset. Thirteen rectal cancer tissues and 10 normal rectal tissues were utilized for the consequent analysis. 14 Other high-sequence data of GSE20842 (GPL2986, ABI Human Genome Survey Microarray Version 2) that were deposited by Gaedcke et al. were collected from GEO dataset, which includes 65 individuals until Feb. 22, 2018. Sixty-five rectal cancer tissues, including 30 with KRAS mutation and 65 normal rectal mucosae, were utilized for the following analysis. 15 The pre-processed high-sequence data and relevant information on rectal cancer were downloaded from the TCGA data portal. A total of 167 rectal cancer tissues and 10 normal controls were included for subsequent analysis.
+
+Scale method of Limma R package (version 3.8) was performed with the GEO data for background normalization. 16 DEGs were then scooped out through the assistant of Limma R package. For TCGA data, DEGs were screened by the cut-off criteria of p < 0.05 and |logFC| ≥ 1 by edgeR package (version 3.8). 17 Pheatmap R package (version 1.0.12) was applied for volcano plots and heatmaps for 3 datasets and intersect function in R were used to identifying the common DEGs among GSE15781, GSE20842, and TCGA. 18 The Venn diagram was produced by VennDiagram R package (version 1.6.20). 19 
+
+GO analysis, including molecular function, biological process, cellular component, and immune system process, was utilized for potential mechanisms of DEGs by plugin ClueGO (version 2.5.4) of Cytoscape software (version 3.7.1; www.cytoscape.org ). 20 , 21 Moreover, the Clusterprofiler R package (version 3.8) was carried on the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis. P < 0.05 was considered significantly different. 22 
+
+PPI network of DEGs was explored and analyzed by the online tool Search Tool for the Retrieval of Interacting Genes (STRING) database (version 11.0; http://string-db.org /). 23 After evaluating and mapping the interactive associations among common DEGs, the Cytoscape software was chosen for constructing and visualizing for PPI information. Plugin Molecular Complex Detection (MCODE) (version 1.5.1) of Cytoscape software was brought to dig out parameters and clusters that tightly connected in PPI networks. 24 
+
+Gene Expression Profiling Interactive Analysis (GEPIA; http://gepia.cancer-pku.cn/ ) website, a portal according to the TCGA database, was wielded to probe survival analysis. 25 Rectal cancer samples were divided into high, median and low expression group. Then, we used the Kaplan–Meier method to analyze the candidate genes of significant prognostic value with a P value < 0.05. The genes with significant differences in the survival time were regarded as core genes, which were further chosen to seek for differences in expression in GEPIA.
+
+Gene Cloud Biotechnology information(GCBI; http://www.gcbi.com.cn/ ) was applied for forecasting the interactive relations of core genes and non-coding RNAs for further investigation.
+
+
+Ethical Compliance
+
+The clinical information and sequence data were acquired from gene expression profiles of GSE15781 and GSE20842. They were downloaded from GEO and TCGA databanks of rectal cancer and normal rectal tissues. No ethics committee approval or consent procedure was needed.
+
+
+Data Source
+
+High-sequence data of GSE15781 (GPL4133, Agilent-014850 Whole Human Genome Microarray 4 × 44 K G4112F) that were deposited by Snipstad et al. were collected from GEO dataset. Thirteen rectal cancer tissues and 10 normal rectal tissues were utilized for the consequent analysis. 14 Other high-sequence data of GSE20842 (GPL2986, ABI Human Genome Survey Microarray Version 2) that were deposited by Gaedcke et al. were collected from GEO dataset, which includes 65 individuals until Feb. 22, 2018. Sixty-five rectal cancer tissues, including 30 with KRAS mutation and 65 normal rectal mucosae, were utilized for the following analysis. 15 The pre-processed high-sequence data and relevant information on rectal cancer were downloaded from the TCGA data portal. A total of 167 rectal cancer tissues and 10 normal controls were included for subsequent analysis.
+
+
+DEGs Analysis in Rectal Cancer
+
+Scale method of Limma R package (version 3.8) was performed with the GEO data for background normalization. 16 DEGs were then scooped out through the assistant of Limma R package. For TCGA data, DEGs were screened by the cut-off criteria of p < 0.05 and |logFC| ≥ 1 by edgeR package (version 3.8). 17 Pheatmap R package (version 1.0.12) was applied for volcano plots and heatmaps for 3 datasets and intersect function in R were used to identifying the common DEGs among GSE15781, GSE20842, and TCGA. 18 The Venn diagram was produced by VennDiagram R package (version 1.6.20). 19 
+
+
+GO Analysis Term and KEGG Pathway Enrichment Analysis
+
+GO analysis, including molecular function, biological process, cellular component, and immune system process, was utilized for potential mechanisms of DEGs by plugin ClueGO (version 2.5.4) of Cytoscape software (version 3.7.1; www.cytoscape.org ). 20 , 21 Moreover, the Clusterprofiler R package (version 3.8) was carried on the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis. P < 0.05 was considered significantly different. 22 
+
+
+PPI Network and Sub-Modules Analysis
+
+PPI network of DEGs was explored and analyzed by the online tool Search Tool for the Retrieval of Interacting Genes (STRING) database (version 11.0; http://string-db.org /). 23 After evaluating and mapping the interactive associations among common DEGs, the Cytoscape software was chosen for constructing and visualizing for PPI information. Plugin Molecular Complex Detection (MCODE) (version 1.5.1) of Cytoscape software was brought to dig out parameters and clusters that tightly connected in PPI networks. 24 
+
+
+Survival and Expression Analysis to Filter and Validate the Concentrate Genes
+
+Gene Expression Profiling Interactive Analysis (GEPIA; http://gepia.cancer-pku.cn/ ) website, a portal according to the TCGA database, was wielded to probe survival analysis. 25 Rectal cancer samples were divided into high, median and low expression group. Then, we used the Kaplan–Meier method to analyze the candidate genes of significant prognostic value with a P value < 0.05. The genes with significant differences in the survival time were regarded as core genes, which were further chosen to seek for differences in expression in GEPIA.
+
+
+Forecast of Related Non-Coding RNAs of Core Genes
+
+Gene Cloud Biotechnology information(GCBI; http://www.gcbi.com.cn/ ) was applied for forecasting the interactive relations of core genes and non-coding RNAs for further investigation.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+DEGs analysis was winnowed by the cut-off criteria of P < 0.05 and |logFC| ≥ 1. The DEGs were visually and respectively represented through detecting the expression of DEGs between cancer tissue and normal controls from separate studies as heatmaps showed. Orange or green dots in the volcano plots indicated upregulated or downregulated genes ( Figure 1A-C ). After that, common DEGs among GSE15781, GSE20842, and TCGA are tallied from DEGs of separate studies ( Figure 1D-E ). From statistics, a total of 142 genes were significantly upregulated, and 229 genes were significantly downregulated in all 3 independent studies. The common upregulated (logFC > 1, P < 0.05) genes and downregulated (logFC < −1, P < 0.05) genes were listed in Table 1 .
+
+Volcano plots and Venn diagrams of the common DEGs identified in profiling datasets. Notes: Volcano plots of the common DEGs according to the value of P < 0.05 and |logFC| ≥ 1 between normal rectal tissue and cancer tissue in (A) GSE15781, (B) GSE20842 and (C) TCGA databanks are showed. Red or green dots indicate upregulated or downregulated genes in profiling datasets. Venn diagrams of DEGs between normal rectal tissue and cancer tissue samples among 3 datasets are showed. The (D) upregulated and (E) downregulated genes in the 3 datasets are marked respectively. Abbreviations: DEG, differentially expressed genes. Y-axis shows the fold-change in gene expression between normal rectal tissue and cancer tissue, x-axis shows the statistical significance of the differences.
+
+DEGs in the Rectal Cancer Tissues Compared to Normal Tissues.
+
+Note: A total of 142 genes were significantly upregulated and 229 genes were significantly downregulated in TCGA database, GSE15781 and GSE20842.
+
+Abbreviations: DEG, differentially expressed genes.
+
+In GO enrichment analysis, the upregulated genes that were mainly enriched in regulation of sister chromatid segregation, antimicrobial humoral immune response mediated by an antimicrobial peptide, morphogenesis of a branching structure, etc. The downregulated genes were concentrated in detoxification of copper ion, oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor, and bicarbonate transport, etc ( Figure 2A ). In KEGG analysis, the upregulated genes were significantly enriched in cytokine-cytokine receptor interaction, interleukin (IL)-17 signaling pathway, and cell cycle, etc. The downregulated genes were primarily enriched in nitrogen metabolism, mineral absorption and pentose and glucuronate interconversions ( Figure 2B , Table 2 ). Those primarily enriched terms and pathways could support us for further research on how significant DEGs play a role in rectal cancer.
+
+GO enrichment analysis and KEGG analysis of the upregulated and downregulated genes. Notes: The momentous GO terms with statistical significance in the enrichment analysis of the (A) upregulated and (B) downregulated genes and the momentous KEGG pathways with statistical significance in the enrichment analysis of (C) upregulated and (D) downregulated genes are showed. ** P < 0.01, * P < 0.05. Abbreviations: GO, Gene ontology enrichment analysis; KEGG, Kyoto Encyclopedia of Genes and Genomes.
+
+KEGG Pathway Analysis of DEGs Associated With Rectal Cancer.
+
+Note: The upregulated genes were significantly enriched in cytokine-cytokine receptor interaction, IL-17 signaling pathway and the cell cycle etc. The downregulated genes were primarily enriched in nitrogen metabolism, mineral absorption and pentose and glucuronate interconversions etc.
+
+Abbreviations: KEGG, Kyoto Encyclopedia of Genes and Genomes. DEG, differentially expressed genes.
+
+The PPI network complex of common DEGs was constructed by STRING database and Cytoscape software. In the aggregate, 371 common DEGs were selected into the PPI network ( Figure 3A ). The Cytoscape software was employed to analyze and visualize the interactive relationship of the related proteins. Afterward, the MCODE plugin was utilized to score and locate clusters with the optimal result for the network. Twelve clusters were calculated according to k-core of 2. Among them, cluster 1 that mainly correlated with negative regulation of chromosome organization had 19 nodes and 159 edges, cluster 2 that mainly correlated with chemokine activity had 15 nodes and 105 edges, cluster 3 that mainly correlated with detoxification of copper ion had 7 nodes and 21 edges, were the top 3 in these clusters ( Figure 3B-D ). 88 concentrate genes are filtered in the 12 clusters: CDCA7, MYBL2, RFC3, ASPM, CENPA, ANLN, PTTG1, TPX2, TOP2A, TTK, RAD54 L, BUB1, CENPF, CCNB1, MCM4, UBE2C, TRIP13, CKS2, PRC1/CXCL6, CXCL1, GPSM2, SST, NPY, CCL19, PYY, INSL5, GNG7, P2RY14, CXCL2, CXCL3, CXCL5, CXCL11, SAA1/MT1 H, MT1G, MT1E, MT1F, MT1X, SLC30A10, SLC39A10/VLDLR, GP2, FOLR2, CPM, CLU, ABCG2, SLC22A5, CEACAM7, SAA2, SLCO4A1, ABCC1/MMP3, WNT5A, WNT2, BMP6/GCNT3, CHST5, ST6GALNAC6, B3GALT5/AXIN2, NMB, EDN3, SOX9, SFRP1, EDNRA, GCG/SCG2, CHGA, CHGB/OSM, IL11, GHR/HPGD, HSD17B2, NR3C2, CLDN8, CLDN1/ACVRL1, MTM1, ITPKA, PLCD1, PLCG2, CD36, INHBA, INHBB, THBS2. According to the MCODE k-score, these genes mentioned above may play a critical role in rectal cancer.
+
+Cluster analysis of the PPI network. Notes: (A) Three-hundred-seventy-one common DEGs were filtered into the PPI network complex. (B) Cluster 1 mainly correlates with negative regulation of chromosome organization has 19 nodes and 159 edges, (C) cluster 2 that mainly correlates with chemokine activity has 15 nodes and 105 edges, (D) cluster 3 mainly correlates with detoxification of copper ion has 7 nodes and 21 edges, are the top 3 in all 12 clusters with k-core ≥ 2. Abbreviations: DEG, differentially expressed genes; PPI, protein-protein interaction.
+
+Eighty-eight concentrate genes were discovered from the common DEGs through PPI and cluster analysis. Subsequently, survival analyses on these concentrate genes were further confirmed to assess their effects on the survival of rectal cancer and their expressions between rectal cancer tissues and normal tissues in TCGA dataset by GEPIA ( Figure 4A-D ). Eight genes were related with the prognosis and 1 of them, INHBB, which was proved to be associated with the prognosis of patients and matched the previous study of common DEGs. Patients’ tissues, which displayed a higher expression of INHBB, had significantly shorter overall survival compared to those with lower expression ( P = 0.082). Afterward, INHBB expressed markedly higher in rectal cancer tissues compared with normal tissues compared with normal tissues conforming with our previous study ( Figure 4C , D ).
+
+INHBB is biomarker and prognostic factor in rectal cancer. Notes: (A) Rectal cancer tissues display higher expression of INHBB have shorter overall survival compared to those with lower expression ( P = 0.012). (B) INHBB expressed higher in rectal cancer tissues compared with normal tissues. Pink/Blue color represents rectal cancer tissues and gray color represents normal rectal tissues. * P < 0.05.
+
+To better seek valuable clues for possible mechanisms, we searched for targeted miRNAs and related lncRNAs of INHBB using GCBI ( http://www.gcbi.com.cn/ ). Thus, we constructed interaction networks to investigate associated genes, transcription factors, and non-coding RNAs. Taking INHBB as an example, hsa-miR-335-5p has been validated in several types of research. It can regulate multiple modules of genes in different terms of different type of cancer; further detection of them may be purposeful to the exploration of relevant mechanisms ( Figure 5A , B ). 26 , 27 
+
+Regulatory networks of INHBB under the regulations of related IncRNAs and targeted miRNAs. Notes: The related lncRNAs and targeted miRNAs of INHBB are predicted by GCBI ( http://www.gcbi.com.cn/ ). Abbreviations: GCBI, Gene-Cloud Biotechnology information.
+
+The correlation was assessed in UALCAN. As shown in Figure 6 , there was correlation between INHBB and age, gender, histological subtypes, individual cancer stages, nodal metastasis status, race and weight.
+
+The correlation between INHBB and sex, age, tumor size, stage, etc. N0: No regional lymph node metastasis. N1: Metastases in 1 to 3 axillary lymph nodes. N2: Metastases in 4 to 9 axillary lymph nodes. N3: Metastases in 10 or more axillary lymph nodes. ** P < 0.01 vs normal. Note: The correlation between INHBB and sex, age, tumor size, stage, etc are analyzed by UALCAN ( http://ualcan.path.uab.edu/ ).
+
+
+Identification of DEGs Among GSE15781, GSE20842, and TCGA
+
+DEGs analysis was winnowed by the cut-off criteria of P < 0.05 and |logFC| ≥ 1. The DEGs were visually and respectively represented through detecting the expression of DEGs between cancer tissue and normal controls from separate studies as heatmaps showed. Orange or green dots in the volcano plots indicated upregulated or downregulated genes ( Figure 1A-C ). After that, common DEGs among GSE15781, GSE20842, and TCGA are tallied from DEGs of separate studies ( Figure 1D-E ). From statistics, a total of 142 genes were significantly upregulated, and 229 genes were significantly downregulated in all 3 independent studies. The common upregulated (logFC > 1, P < 0.05) genes and downregulated (logFC < −1, P < 0.05) genes were listed in Table 1 .
+
+Volcano plots and Venn diagrams of the common DEGs identified in profiling datasets. Notes: Volcano plots of the common DEGs according to the value of P < 0.05 and |logFC| ≥ 1 between normal rectal tissue and cancer tissue in (A) GSE15781, (B) GSE20842 and (C) TCGA databanks are showed. Red or green dots indicate upregulated or downregulated genes in profiling datasets. Venn diagrams of DEGs between normal rectal tissue and cancer tissue samples among 3 datasets are showed. The (D) upregulated and (E) downregulated genes in the 3 datasets are marked respectively. Abbreviations: DEG, differentially expressed genes. Y-axis shows the fold-change in gene expression between normal rectal tissue and cancer tissue, x-axis shows the statistical significance of the differences.
+
+DEGs in the Rectal Cancer Tissues Compared to Normal Tissues.
+
+Note: A total of 142 genes were significantly upregulated and 229 genes were significantly downregulated in TCGA database, GSE15781 and GSE20842.
+
+Abbreviations: DEG, differentially expressed genes.
+
+
+GO Enrichment and KEGG Pathway Analyses of Common DEGs
+
+In GO enrichment analysis, the upregulated genes that were mainly enriched in regulation of sister chromatid segregation, antimicrobial humoral immune response mediated by an antimicrobial peptide, morphogenesis of a branching structure, etc. The downregulated genes were concentrated in detoxification of copper ion, oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor, and bicarbonate transport, etc ( Figure 2A ). In KEGG analysis, the upregulated genes were significantly enriched in cytokine-cytokine receptor interaction, interleukin (IL)-17 signaling pathway, and cell cycle, etc. The downregulated genes were primarily enriched in nitrogen metabolism, mineral absorption and pentose and glucuronate interconversions ( Figure 2B , Table 2 ). Those primarily enriched terms and pathways could support us for further research on how significant DEGs play a role in rectal cancer.
+
+GO enrichment analysis and KEGG analysis of the upregulated and downregulated genes. Notes: The momentous GO terms with statistical significance in the enrichment analysis of the (A) upregulated and (B) downregulated genes and the momentous KEGG pathways with statistical significance in the enrichment analysis of (C) upregulated and (D) downregulated genes are showed. ** P < 0.01, * P < 0.05. Abbreviations: GO, Gene ontology enrichment analysis; KEGG, Kyoto Encyclopedia of Genes and Genomes.
+
+KEGG Pathway Analysis of DEGs Associated With Rectal Cancer.
+
+Note: The upregulated genes were significantly enriched in cytokine-cytokine receptor interaction, IL-17 signaling pathway and the cell cycle etc. The downregulated genes were primarily enriched in nitrogen metabolism, mineral absorption and pentose and glucuronate interconversions etc.
+
+Abbreviations: KEGG, Kyoto Encyclopedia of Genes and Genomes. DEG, differentially expressed genes.
+
+
+PPI Network Analysis and Concentrate Genes Identification
+
+The PPI network complex of common DEGs was constructed by STRING database and Cytoscape software. In the aggregate, 371 common DEGs were selected into the PPI network ( Figure 3A ). The Cytoscape software was employed to analyze and visualize the interactive relationship of the related proteins. Afterward, the MCODE plugin was utilized to score and locate clusters with the optimal result for the network. Twelve clusters were calculated according to k-core of 2. Among them, cluster 1 that mainly correlated with negative regulation of chromosome organization had 19 nodes and 159 edges, cluster 2 that mainly correlated with chemokine activity had 15 nodes and 105 edges, cluster 3 that mainly correlated with detoxification of copper ion had 7 nodes and 21 edges, were the top 3 in these clusters ( Figure 3B-D ). 88 concentrate genes are filtered in the 12 clusters: CDCA7, MYBL2, RFC3, ASPM, CENPA, ANLN, PTTG1, TPX2, TOP2A, TTK, RAD54 L, BUB1, CENPF, CCNB1, MCM4, UBE2C, TRIP13, CKS2, PRC1/CXCL6, CXCL1, GPSM2, SST, NPY, CCL19, PYY, INSL5, GNG7, P2RY14, CXCL2, CXCL3, CXCL5, CXCL11, SAA1/MT1 H, MT1G, MT1E, MT1F, MT1X, SLC30A10, SLC39A10/VLDLR, GP2, FOLR2, CPM, CLU, ABCG2, SLC22A5, CEACAM7, SAA2, SLCO4A1, ABCC1/MMP3, WNT5A, WNT2, BMP6/GCNT3, CHST5, ST6GALNAC6, B3GALT5/AXIN2, NMB, EDN3, SOX9, SFRP1, EDNRA, GCG/SCG2, CHGA, CHGB/OSM, IL11, GHR/HPGD, HSD17B2, NR3C2, CLDN8, CLDN1/ACVRL1, MTM1, ITPKA, PLCD1, PLCG2, CD36, INHBA, INHBB, THBS2. According to the MCODE k-score, these genes mentioned above may play a critical role in rectal cancer.
+
+Cluster analysis of the PPI network. Notes: (A) Three-hundred-seventy-one common DEGs were filtered into the PPI network complex. (B) Cluster 1 mainly correlates with negative regulation of chromosome organization has 19 nodes and 159 edges, (C) cluster 2 that mainly correlates with chemokine activity has 15 nodes and 105 edges, (D) cluster 3 mainly correlates with detoxification of copper ion has 7 nodes and 21 edges, are the top 3 in all 12 clusters with k-core ≥ 2. Abbreviations: DEG, differentially expressed genes; PPI, protein-protein interaction.
+
+
+Survival Analysis and Gene Expression Analysis to Filter and Validate the Core Genes
+
+Eighty-eight concentrate genes were discovered from the common DEGs through PPI and cluster analysis. Subsequently, survival analyses on these concentrate genes were further confirmed to assess their effects on the survival of rectal cancer and their expressions between rectal cancer tissues and normal tissues in TCGA dataset by GEPIA ( Figure 4A-D ). Eight genes were related with the prognosis and 1 of them, INHBB, which was proved to be associated with the prognosis of patients and matched the previous study of common DEGs. Patients’ tissues, which displayed a higher expression of INHBB, had significantly shorter overall survival compared to those with lower expression ( P = 0.082). Afterward, INHBB expressed markedly higher in rectal cancer tissues compared with normal tissues compared with normal tissues conforming with our previous study ( Figure 4C , D ).
+
+INHBB is biomarker and prognostic factor in rectal cancer. Notes: (A) Rectal cancer tissues display higher expression of INHBB have shorter overall survival compared to those with lower expression ( P = 0.012). (B) INHBB expressed higher in rectal cancer tissues compared with normal tissues. Pink/Blue color represents rectal cancer tissues and gray color represents normal rectal tissues. * P < 0.05.
+
+
+Possibly Related Non-Coding RNAs of Core Genes
+
+To better seek valuable clues for possible mechanisms, we searched for targeted miRNAs and related lncRNAs of INHBB using GCBI ( http://www.gcbi.com.cn/ ). Thus, we constructed interaction networks to investigate associated genes, transcription factors, and non-coding RNAs. Taking INHBB as an example, hsa-miR-335-5p has been validated in several types of research. It can regulate multiple modules of genes in different terms of different type of cancer; further detection of them may be purposeful to the exploration of relevant mechanisms ( Figure 5A , B ). 26 , 27 
+
+Regulatory networks of INHBB under the regulations of related IncRNAs and targeted miRNAs. Notes: The related lncRNAs and targeted miRNAs of INHBB are predicted by GCBI ( http://www.gcbi.com.cn/ ). Abbreviations: GCBI, Gene-Cloud Biotechnology information.
+
+
+The Correlation Between INHBB and Other Parameters Such as Gender, Age, Tumor Size, Stage
+
+The correlation was assessed in UALCAN. As shown in Figure 6 , there was correlation between INHBB and age, gender, histological subtypes, individual cancer stages, nodal metastasis status, race and weight.
+
+The correlation between INHBB and sex, age, tumor size, stage, etc. N0: No regional lymph node metastasis. N1: Metastases in 1 to 3 axillary lymph nodes. N2: Metastases in 4 to 9 axillary lymph nodes. N3: Metastases in 10 or more axillary lymph nodes. ** P < 0.01 vs normal. Note: The correlation between INHBB and sex, age, tumor size, stage, etc are analyzed by UALCAN ( http://ualcan.path.uab.edu/ ).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussions
+
+According to the latest statistics, the morbidity and mortality of rectal cancer are both rankings in the top 10 in all type of cancer with increasing incidence rate due to modernization process and changes in diet, especially in many developing countries like China. Current studies generally combine rectal cancer with colon cancer in a lot of analysis and researches. However, there still exists many genetic differences between them. To investigate specific biomarkers and promising targets, a total of 142 upregulated genes and 229 downregulated genes were selected from profiles of GSE15781, GSE20842, and TCGA between the normal rectal tissues and the rectal cancer tissues.
+
+Among the DEGs, 12 clusters, including 88 hub genes, had higher relevance in the PPI network. Prognostic value and association with survival of rectal cancer patients of 1 of the hub genes, INHBB, had been found. Higher expression levels of INHBB was connected to poor prognosis for rectal cancer patients. Further validation in the RNA expression levels in TCGA showed the results were consistent with our previous study.
+
+The GO analysis and KEGG analysis discovered that upregulated DEGs were mainly involved in regulation of sister chromatid segregation. Antimicrobial humoral immune response was mediated by an antimicrobial peptide, morphogenesis of a branching structure, cytokine-cytokine receptor interaction, IL-17 signaling pathway, and the cell cycle, etc. However, the downregulated genes were concentrated in detoxification of copper ion, oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor, bicarbonate transport, nitrogen metabolism, mineral absorption, and pentose and glucuronate interconversions etc.
+
+For INHBB, cytokine belongs to the family of transforming growth factor-β composed by dimeric glycoproteins. Higher expressions existed in several types of late staged cancer like endometrioid carcinoma, oral cancer and intestinal cancer. 28 - 30 Many tumors’ invasion and metastasis mechanisms are considered to be related to INHBB. INHBB can control the expression of EMT-related genes to cause a highly metastatic phenotype and inhibit cell apoptosis in mouse. 31 , 32 In the meanwhile, Jiang L and Hermeking H discovered that upregulation of INHBB in the mouse might indicate the silence of p53-inducible miR-34a/b/c genes resulting in enlarged intestinal crypts, increased tumor grade and poor survival. 30 The detailed mechanism seems to be complicated and multifaceted in various ways. However, it apparently could be an incidental and prognostic indicator of rectal cancer.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In summary, a total of 371 DEGs and 12 clusters were investigated. From them, INHBB could be the significant biomarkers for prognosis in rectal cancer. Interaction networks for associated genes, transcription factors, and non-coding RNAs were constructed for further exploration of detailed mechanisms.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

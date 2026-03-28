@@ -1,0 +1,19 @@
+Source: PMC7427153_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Prognostic Factors in Patients With Osteosarcoma With the Surveillance, Epidemiology, and End Results Database",
+  "condition_E": 1,
+  "condition_E_reason": "Variables such as patient ID, sex, year of diagnosis, age at diagnosis, race, histology, stage, grade, type of surgery, cause of death, and COD to site recode were included.",
+  "N_E": 1,
+  "N_E_reason": "A total of 1025 patients with osteosarcoma were included for further analysis.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

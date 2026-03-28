@@ -1,0 +1,19 @@
+Source: PMC12868385_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Single‐Cell RNA Sequencing and Bulk RNA Sequencing Revealed the Interplay Between Intratumoral Heterogeneity and the Tumor Microenvironment in Breast Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "Patient details are provided in Table S1.",
+  "N_E": 1,
+  "N_E_reason": "The dataset comprised 42 primary BC samples from publicly available datasets.",
+  "dataset_E": 1,
+  "dataset_E_reason": "The single‐cell RNA sequencing datasets were obtained from the Gene Expression Omnibus (GEO) using accession numbers.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,19 @@
+Source: PMC7489089_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Automatic extraction of cancer registry reportable information from free-text pathology reports using multitask convolutional neural networks",
+  "condition_E": 1,
+  "condition_E_reason": "Detailed information for each cancer case was obtained from manually abstracted and consolidated records in the cancer registry.",
+  "N_E": 1,
+  "N_E_reason": "The final dataset consisted of 95 231 cancer pathology reports.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

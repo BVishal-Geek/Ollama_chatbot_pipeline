@@ -1,0 +1,112 @@
+================================================================================
+ARTICLE TITLE: SOX2 for Stem Cell Therapy and Medical Use: Pros or
+Cons?
+PMCID: PMC7444200
+PMID: 32233795
+KEYWORDS: sox2, cell transplantation, stem cells, cancer, stemness
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Stem cell transplantation is a fast-developing technique, which includes stem
+cell isolation, purification, and storage, and it is in high demand in the
+industry. In addition, advanced applications of stem cell transplantation,
+including differentiation, gene delivery, and reprogramming, are presently being
+studied in clinical trials. In contrast to somatic cells, stem cells are
+self-renewing and have the ability to differentiate; however, the molecular
+mechanisms remain unclear. SOX2 (sex-determining region Y
+[ S RY]-b ox 2) is one of the well-known
+reprogramming factors, and it has been recognized as an oncogene associated with
+cancer induction. The exclusion of SOX2 in reprogramming
+methodologies has been used as an alternative cancer treatment approach.
+However, the manner by which SOX2 induces oncogenic effects
+remains unclear, with most studies demonstrating its regulation of the cell
+cycle and no insight into the maintenance of cellular stemness. For controlling
+certain critical pathways, including Shh and Wnt pathways, SOX2 is considered irreplaceable and is required for the normal functioning of stem
+cells, particularly neural stem cells. In this report, we discussed the
+functions of SOX2 in both stem and cancer cells, as well as how
+this powerful regulator can be used to control cell fate.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Stem cell transplantation is a well-established technique that has been part of the
+clinical treatment strategies for both malignant (e.g., acute myeloid leukemia and
+Hodgkin’s lymphoma) and nonmalignant (e.g., thalassemia and sickle cell anemia)
+diseases and disorders since 1959 1 . In response to the increasing medical need, stem cells are now being
+isolated and transplanted from a variety of sources, including umbilical cord blood,
+placenta, amniotic fluid, dental pulp, and adipose tissue 2 – 4 . In addition, the discovery of induced pluripotent stem cells (iPSCs) has
+dramatically broadened the field 5 . These improvements are a reflection of the unmet medical need of
+regenerative medicine and the limitations of drugs and medical devices 6 . Despite organ transplantation having been successfully performed for the
+heart, kidney, liver, lung, pancreas, intestine, and thymus, organ sources are in
+very limited supply 7 , 8 . Even if a patient receives an organ and the transplantation is considered a
+success, the patient is required to take antirejection drugs, which have the risk of
+severe side effects. As such, the development of artificial organs may represent a
+promising solution; however, effective and efficient techniques for tissue
+engineering pose numerous challenges 9 .
+
+Stem cells and/or progenitor cells may be a good choice for compensation of the
+functions of target tissues and for the secretion of appropriate cytokines and
+growth factors, including those that are considered immunomodulatory 10 – 12 . However, the majority of studies have revealed that delivered cells rarely
+transdifferentiate into their target type and the survival time remains insufficient 13 , 14 . Nonetheless, while the mechanisms remain unclear, most experimental and
+clinical results have shown positive results 15 – 17 . As such, the technologies underlying stem cell therapy continue to improve
+regarding cellular function and survival duration. The most important breakthrough
+has been the reprogramming of somatic cells into pluripotent stem cells with the
+exogenous expression of certain transcription factors 18 . The potential applications of stem cells, including cellular transplantation
+and organ development, have been tremendously enhanced after the discovery of iPSCs 19 , 20 .
+
+As a member of the SOX gene family and SOXB group,
+which includes SOX1 , SOX2 , and SOX3 , SOX2 (sex-determining region Y
+[ S RY]-b ox 2) encodes a 34.3 kD protein 21 . As a key regulator of self-renewal, SOX2 protein binds to octamer-binding
+transcription factor 4 (Oct4) and enhances the expression of Nanog 22 , 23 . However, Tanaka et al. indicated that SOX2 is unnecessary as an enhancer,
+suggesting that it modulates the expression of Oct4 24 – 26 . The coupling of SOX2 to paired box protein 6 (PAX6) and BRN2 (encoded by POU3F2 in humans) has been shown to regulate eye and neural
+primordial cell functions 27 . Interestingly, SOX2 and/or the partner protein are not considered sufficient
+for transcriptional activation, but this complex is 28 . Once the complex is formed, downstream genes such as undifferentiated
+embryonic cell transcription factor 1 and fibroblast growth factor 4 activate and
+enhance embrionic stem cell development and survival 29 . Accordingly, the knockdown of Sox2 expression in mouse
+embryonic stem cells (ESCs) results in the failure of this self-renewal property and
+leads to differentiation 22 . In contrast to tumorigenesis, the expression level of SOX2 correlates with
+lower survival and treatment resistance 30 . Therefore, we evaluated the relationship between SOX2 and its functions in
+both stem and cancer cells and discovered a potential approach for improving stem
+cells and deteriorating cancer cells.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

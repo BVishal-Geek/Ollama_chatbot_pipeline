@@ -1,0 +1,125 @@
+================================================================================
+ARTICLE TITLE: Down-Regulation of AHNAK2 Inhibits Cell Proliferation, Migration and Invasion Through Inactivating the MAPK Pathway in Lung Adenocarcinoma
+PMCID: PMC7533926
+PMID: 33000678
+KEYWORDS: ahnak2, lung adenocarcinoma, prognosis, cell behaviors, mapk pathway
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+AHNAK nucleoprotein 2 (AHNAK2) has been emerged as a crucial protein for neuroblast differentiation and cell migration, thereby involving in the development of various cancers. However, the specific molecular mechanism of AHNAK2 in lung adenocarcinoma is inconclusive. By accessing to the Oncomine dataset and GEPIA website, a higher expression level of AHNAK2 was observed in lung adenocarcinoma tissue samples. Overall survival (OS) curve plotted by Kaplan-Meier method showed that up-regulation of AHNAK2 was related with poor prognosis of lung adenocarcinoma patients. Quantitative reverse transcription polymerase chain reaction (qRT-PCR) analysis and western blot were conducted to examine the expression level of genes in lung adenocarcinoma cells. Through functional in vitro experiments, cell proliferation, migration and invasion were all suppressed after AHNAK2 knockdown using Cell counting kit-8 (CCK-8) assay, wound-healing and transwell analysis. Reduction of AHNAK2 decreased the apoptosis rate using flow cytometry analysis. Moreover, the key markers of MAPK pathway, p-MEK, p-ERK and p-P90RSK were decreased due to the transfection of si-AHNAK2 in A549 cells. U0126, a MEK inhibitor, showed the similar effects on MAPK-related protein levels with si-AHNAK2. To sum up, AHNAK2 is significantly increased in lung adenocarcinoma and plays a carcinogenic role by activating the MAPK signaling pathway, providing a novel insight and raising possibility for lung adenocarcinoma treatment.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section with title(s) ['introduction', 'intro'] not found
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The gene expression profiles of 3 different kinds of lung tissues, Bhattacharjee Lung, Su Lung and Landi Lung, were downloaded from the Oncomine database ( https://www.oncomine.org/resource/login.html ) to analyze the expression of AHNAK2. Differential expression of AHNAK2 and its correlation with pathological stage in lung adenocarcinoma were obtained from GEPIA website( http://gepia.cancer-pku.cn/index.html ) as well as AHNAK1.
+
+Normal lung epithelial cells BEAS2B was purchased from American Type Culture Collection (ATCC; Manassas, VA, USA). Two human lung cancer cell lines, NCI-H460 and A549, were obtained from the cell bank of the Chinese Academy of Medical Sciences (Shanghai, China). All cells were incubated in RPMI-1640 medium supplemented with 10% fetal bovine serum (FBS; Gibco, Grand Island, NY, USA) and 1% penicillin-streptomycin (Gibco) at 37°C with 5% CO 2 . Cell transfection was conducted when the cell confluence was over 80% using Lipofectamine 2000 as the manufacturer’s instructions. Sequences of AHNAK2-siRNAs are as follows: AHNAK2-siRNA#1:F: 5’-AUAUUUUAUGUUUUCAAAGAA-3’, AHNAK2-siRNA#2:F: 5’-UAUGGAUUGAAAUUUUGGCCA-3’. The si-con group was considered as an internal control. These above productions were synthesized by GenePharma Co., Ltd (Shanghai, China).
+
+To explore whether the regulatory effect of AHNAK2 in A549 cells is associated with MAPK pathway, A549 cells were treated with a MEK inhibitor U0126 (10 μM, San Diego, CA, USA). Cells were grouped as: control, U0126, si-AHNAK2, si-AHNAK2+U0126.
+
+Trizol reagent (Invitrogen; Thermo Fisher Scientific, Inc.) was used to isolate total RNA of tumor cells, according to the manufacturer’s instructions. Then cDNA was reversed transcription using SuperScript II reverse transcriptase (Invitrogen; Thermo Fisher Scientific, Inc.) and subjected to qRT-PCR with specific AHNAK2 primers. qRT-PCR analysis was conducted by SYBR® Premix Ex Taq™ (Takara Biotechnology Co., Ltd., Dalian, China) via the system of ABI 7500 Sequence Detection System (Applied Biosystems; Thermo Fisher Scientific, Inc.). The primers of qRT-PCR were shown as follows: AHNAK2: F, 5’-CGCGATGTGCGACTGC-3’, R, 5’-TGGTCATCTTCCGTTTCTGC-3’; GAPDH: F, 5’-GGAGCGAGATCCCTCCAAAAT-3’, R, 5’-GGCTGTTGTCATACTTCTCATGG-3’. The qRT-PCR was run as the following conditions: 95°C for 5 min followed by 40 cycles of 95°C for 30 s, and 60 °C for 45 s, 72 °C for 30 min. The relative expression of AHNAK2 was calculated by the 2 -ΔΔCt method. Data were presented at least 3 independent experiments.
+
+48 hours later, transfected cells were placed in RIPA lysis buffer on the ice to extract proteins. The concentration of proteins was detected by BCA Protein Assay Kit (Beyotime, Shanghai, China). Equal amounts of protein extracts (20 μg/lane) were loaded in 12% SDS-PAGE and transferred onto a PVDF membrane (Millipore, Boston, MA, USA). The membrane was then incubated with 5% non-fat milk for 1 h at room temperature and the indicated primary antibodies (1:1,000; Abcam, Cambridge, UK) overnight at 4°C against AHNAK2 (ab70053), Bcl-2 (ab32124), Bax (ab32503), p-MEK (ab214445), MEK (ab33918), p-ERK (ab73209), ERK (ab53277), p-P90RSK (ab32203) and P90RSK (ab32114), as well as secondary antibody (1:10,000; Abcam, Cambridge, UK) for 1 h at room temperature. Finally, all bands were probed with an enhanced chemiluminescence (ECL). The gray values of protein bands were scanned with QUANTITY ONE software and recorded by a Bio-Rad camera system (Bio-Rad, USA).
+
+CCK-8 assay was performed to detect cell proliferation ability. Transfected cells were seeded into 96-well plate (1 × 10 3 ) and then incubated in a carbon dioxide incubator. We investigated the cell viability every 24 h. At the specific time point, 10 µL of CCK-8 reagent was added into per well for another 1.5 h at 37°C. OD value of cells was measured at 450 nm on an enzyme-labeled instrument.
+
+Cell migration and invasion were assessed by wound-healing assay and transwell analysis. The migration rates of cells were explored by wound-healing assay. To get a cell monolayer with over 80% confluence, cells were placed in a 6-well plate with a density of 5 × 10 5 cells per well at 37 °C for 8 h or more. A pipette tip was to draw a line to destroy the cell layer and the floating cells were removed by the washing with PBS. Cells were subsequently cultured in serum-free medium and the wound closure distance was measured under a microscope at a time range of 0 and 24 h. Transwell assay was carried out to measure the invasion capacity as well as migration. At first, the Matrigel was melted overnight and diluted with serum-free medium at a 1:6 ratio. Then 100 µL of mixture was added to the upper surface of transwell chamber. To hydrate the basement membrane, 500 µL of serum-free medium was placed to the lower chamber. 100 µL of cell suspension (1 × 10 5 ) was seeded in the upper chamber and incubated overnight. The un-invaded cells were removed and the transwell chamber was washed with 1 × PBS for 3 times. Next, 4% paraformaldehyde was to fix cells and 0.1% crystal violet was to stain cells, respectively. The detection of migration capability was explored without the Matrigel.
+
+Cell apoptosis was determined using a Cell Apoptosis Detection kit on the basis of the manufacturer’s protocols. Briefly, transfected A549 cells were re-suspended by the mixture of 100 µL binding buffer, 10 µL Annexin V-fluorescein isothiocyanate (FITC) and 5 µL propidium iodide (PI), and then maintained for 15 min at 25 °C under the dark. At last, the apoptotic rate was analyzed using a flow cytometer (BD Biosciences, San Jose, CA, USA).
+
+Data was analyzed by SPSS22.0 statistical analysis software and GraphPad Prism 5.0 (La Jolla, CA, USA). The Student’s t -test was used to determine the difference of 2 groups; the mean comparison between the larger groups was confirmed by 1-way analysis of variance with post-hoc analysis of Dunnett. Kaplan-Meier method was conducted to plot the overall survival curve with the log-rank test. All results were presented as mean ± standard deviation (SD). P < 0.05 in all cases was considered statistically significant.
+
+
+Patients Samples
+
+The gene expression profiles of 3 different kinds of lung tissues, Bhattacharjee Lung, Su Lung and Landi Lung, were downloaded from the Oncomine database ( https://www.oncomine.org/resource/login.html ) to analyze the expression of AHNAK2. Differential expression of AHNAK2 and its correlation with pathological stage in lung adenocarcinoma were obtained from GEPIA website( http://gepia.cancer-pku.cn/index.html ) as well as AHNAK1.
+
+
+Cell Culture and Transfection
+
+Normal lung epithelial cells BEAS2B was purchased from American Type Culture Collection (ATCC; Manassas, VA, USA). Two human lung cancer cell lines, NCI-H460 and A549, were obtained from the cell bank of the Chinese Academy of Medical Sciences (Shanghai, China). All cells were incubated in RPMI-1640 medium supplemented with 10% fetal bovine serum (FBS; Gibco, Grand Island, NY, USA) and 1% penicillin-streptomycin (Gibco) at 37°C with 5% CO 2 . Cell transfection was conducted when the cell confluence was over 80% using Lipofectamine 2000 as the manufacturer’s instructions. Sequences of AHNAK2-siRNAs are as follows: AHNAK2-siRNA#1:F: 5’-AUAUUUUAUGUUUUCAAAGAA-3’, AHNAK2-siRNA#2:F: 5’-UAUGGAUUGAAAUUUUGGCCA-3’. The si-con group was considered as an internal control. These above productions were synthesized by GenePharma Co., Ltd (Shanghai, China).
+
+To explore whether the regulatory effect of AHNAK2 in A549 cells is associated with MAPK pathway, A549 cells were treated with a MEK inhibitor U0126 (10 μM, San Diego, CA, USA). Cells were grouped as: control, U0126, si-AHNAK2, si-AHNAK2+U0126.
+
+
+RNA Isolation and Quantitative RT-PCR
+
+Trizol reagent (Invitrogen; Thermo Fisher Scientific, Inc.) was used to isolate total RNA of tumor cells, according to the manufacturer’s instructions. Then cDNA was reversed transcription using SuperScript II reverse transcriptase (Invitrogen; Thermo Fisher Scientific, Inc.) and subjected to qRT-PCR with specific AHNAK2 primers. qRT-PCR analysis was conducted by SYBR® Premix Ex Taq™ (Takara Biotechnology Co., Ltd., Dalian, China) via the system of ABI 7500 Sequence Detection System (Applied Biosystems; Thermo Fisher Scientific, Inc.). The primers of qRT-PCR were shown as follows: AHNAK2: F, 5’-CGCGATGTGCGACTGC-3’, R, 5’-TGGTCATCTTCCGTTTCTGC-3’; GAPDH: F, 5’-GGAGCGAGATCCCTCCAAAAT-3’, R, 5’-GGCTGTTGTCATACTTCTCATGG-3’. The qRT-PCR was run as the following conditions: 95°C for 5 min followed by 40 cycles of 95°C for 30 s, and 60 °C for 45 s, 72 °C for 30 min. The relative expression of AHNAK2 was calculated by the 2 -ΔΔCt method. Data were presented at least 3 independent experiments.
+
+
+Western Blotting
+
+48 hours later, transfected cells were placed in RIPA lysis buffer on the ice to extract proteins. The concentration of proteins was detected by BCA Protein Assay Kit (Beyotime, Shanghai, China). Equal amounts of protein extracts (20 μg/lane) were loaded in 12% SDS-PAGE and transferred onto a PVDF membrane (Millipore, Boston, MA, USA). The membrane was then incubated with 5% non-fat milk for 1 h at room temperature and the indicated primary antibodies (1:1,000; Abcam, Cambridge, UK) overnight at 4°C against AHNAK2 (ab70053), Bcl-2 (ab32124), Bax (ab32503), p-MEK (ab214445), MEK (ab33918), p-ERK (ab73209), ERK (ab53277), p-P90RSK (ab32203) and P90RSK (ab32114), as well as secondary antibody (1:10,000; Abcam, Cambridge, UK) for 1 h at room temperature. Finally, all bands were probed with an enhanced chemiluminescence (ECL). The gray values of protein bands were scanned with QUANTITY ONE software and recorded by a Bio-Rad camera system (Bio-Rad, USA).
+
+
+Cell Proliferation Assay
+
+CCK-8 assay was performed to detect cell proliferation ability. Transfected cells were seeded into 96-well plate (1 × 10 3 ) and then incubated in a carbon dioxide incubator. We investigated the cell viability every 24 h. At the specific time point, 10 µL of CCK-8 reagent was added into per well for another 1.5 h at 37°C. OD value of cells was measured at 450 nm on an enzyme-labeled instrument.
+
+
+Cell Migration and Invasion Assay
+
+Cell migration and invasion were assessed by wound-healing assay and transwell analysis. The migration rates of cells were explored by wound-healing assay. To get a cell monolayer with over 80% confluence, cells were placed in a 6-well plate with a density of 5 × 10 5 cells per well at 37 °C for 8 h or more. A pipette tip was to draw a line to destroy the cell layer and the floating cells were removed by the washing with PBS. Cells were subsequently cultured in serum-free medium and the wound closure distance was measured under a microscope at a time range of 0 and 24 h. Transwell assay was carried out to measure the invasion capacity as well as migration. At first, the Matrigel was melted overnight and diluted with serum-free medium at a 1:6 ratio. Then 100 µL of mixture was added to the upper surface of transwell chamber. To hydrate the basement membrane, 500 µL of serum-free medium was placed to the lower chamber. 100 µL of cell suspension (1 × 10 5 ) was seeded in the upper chamber and incubated overnight. The un-invaded cells were removed and the transwell chamber was washed with 1 × PBS for 3 times. Next, 4% paraformaldehyde was to fix cells and 0.1% crystal violet was to stain cells, respectively. The detection of migration capability was explored without the Matrigel.
+
+
+Flow Cytometry Assay
+
+Cell apoptosis was determined using a Cell Apoptosis Detection kit on the basis of the manufacturer’s protocols. Briefly, transfected A549 cells were re-suspended by the mixture of 100 µL binding buffer, 10 µL Annexin V-fluorescein isothiocyanate (FITC) and 5 µL propidium iodide (PI), and then maintained for 15 min at 25 °C under the dark. At last, the apoptotic rate was analyzed using a flow cytometer (BD Biosciences, San Jose, CA, USA).
+
+
+Statistical Analysis
+
+Data was analyzed by SPSS22.0 statistical analysis software and GraphPad Prism 5.0 (La Jolla, CA, USA). The Student’s t -test was used to determine the difference of 2 groups; the mean comparison between the larger groups was confirmed by 1-way analysis of variance with post-hoc analysis of Dunnett. Kaplan-Meier method was conducted to plot the overall survival curve with the log-rank test. All results were presented as mean ± standard deviation (SD). P < 0.05 in all cases was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In this present study, we observed that AHNAK2 was significantly upregulated in lung adenocarcinoma tissues and cell lines. The highly expressed AHNAK2 was associated with poor outcome of lung adenocarcinoma patients. Moreover, the pathologic stage and overall survival rates were identified to be linked with AHNAK2 expression. NCI-H460 is an non-small cell lung cancer cell line 18 ; A549 is a adenocarcinoma human alveolar basal epithelial cell line. 19 A previous study has showed that lung adenocarcinoma is a subtype of non-small cell lung cancer. 20 Moreover, NCI-H460 and A549 cell lines have been widely used for the detection of lung adenocarcinoma. 21 , 22 Thus, to investigate the expression of AHNAK2 in lung adenocarcinoma cells, we selected NCI-H460 and A549. Given that A549 cells showed a higher level of AHNAK2 than NCI-H460 cells, A549 was utilized in the functional in vitro experiments ( Figure 2C ). Down-regulation of AHNAK2 arrested cell proliferation, migration and invasion, and promoted cell apoptosis via inhibiting the activity of MAPK signaling pathway in A549 cells.
+
+AHNAK2 is a large protein (> 600 kDa), which is firstly identified in 2004. Previous study has suggested that AHNAK2 is remarkably increased in pancreatic ductal adenocarcinoma (PDAC) tissue samples and cell lines. 23 In consistent with that, we found that the expression of AHNAK2 was highly regulated in lung adenocarcinoma and its upregulation could induce poor prognosis of lung adenocarcinoma patients. According to the current publications, most of researchers focus on the investigation to the biological function of AHNAK1. For example, Shtivelman et al. discovered that AHNAK1 is expressed at higher levels in promyelocytic leukemia. 24 AHNAK1 is essential in calcium signaling during T cell activation as a modulator to measure calcium channel activity. 25 , 26 Moreover, the C-terminal of AHNAK1 could strengthen the connection between AHNAK2 and other proteins. 27 - 29 Thus, we also explored the expression level of AHNAK1 in lung adenocarcinoma and found that AHNAK1 expression was significantly reduced in tumor tissues ( Supplementary S1 ). It has no prognostic power in lung adenocarcinoma ( Supplementary S1 ). AHNAK2 has a similar role to AHNAK1. AHANK2 has been reported as an important factor for the FGF1 secretion pathway. 30 FGF1 is a key driver of many types of solid cancers. 31 Overexpression of AHNAK2 is involved in the development of human esophageal squamous carcinoma through modulating cell invasive behaviors. 32 Herein, we investigated the effect of si-AHNAK2 in cell aggressive behaviors using functional in vitro experiments. These results displayed that reduction of AHNAK2 could inhibit proliferation, migration and invasion while strengthen apoptosis. All data demonstrated that AHNAK2 might play an oncogenic role in the progression of lung adenocarcinoma.
+
+AHNAK proteins have a closely connection with large protein complexes at the plasma membrane that linked the extracellular matrix to the cytoskeleton. 33 AHNAK2 is also implicated in the hypoxia-related pathways. 15 Based on which, we detected the underlying molecular mechanism of AHNAK2 in lung adenocarcinoma using western blot analysis. A previous study performed by Gao et al. indicated that the activation of MAPK signaling pathway is responsible for 76% occurrence of lung adenocarcinoma. 17 At the early stage, the MAPK pathway is active in cancers as a notable sign. 34 Several researches have determined that ERK, a known molecule in MAPK pathway, is activated in tumor cells and then promotes cell growth, inhibits cell apoptosis. MEK has a similar role in tumorigenesis to ERK, and its active form p-MEK could activate the ERK. 35 P90RSK is directly phosphorylated and activated by ERK in response to various stimuli, which plays a crucial role in the development of lung adenocarcinoma. 36 Therefore, in order to examine whether AHNAK2 affects the MAPK pathway in lung adenocarcinoma, we measured the protein levels of MEK/ERK/P90RSK and their phosphorylated forms in A549 cells after si-AHNAK2 transfection. We found that down-regulation of AHNAK2 induced a decrease level of p-MEK, p-ERK and p-P90RSK. Hence, we speculated that AHNAK2 might contribute to the progression of lung adenocarcinoma via activating the MAPK signaling pathway. In addition, U0126 37 (an inhibitor candidate of MEK) treatment further intensified the inhibitory effect of si-AHNAK2 on the protein levels of p-MEK, p-ERK and p-P90RSK, which validated the correlation between AHNAK2 and MAPK pathway in lung adenocarcinoma.
+
+Nevertheless, a few limitations of this investigation must be acknowledged. The different time points in cell viability assay and wound-healing experiments was a potential problem. Based on our results, no changes in cell proliferation at 24 hours were observed while we found a change in cell migration at 24 hours. The wound-healing test with serum-free medium actually ruled out the effect of cell proliferation on the migration capacity, which discloses that there might exist other potential reasons for the regulation of AHNAK2 on the proliferation. All these data indicate that the choice of time points would affect the final conclusions, even may completely subvert our conclusions. This maybe act as a potential systemic error in this present study. To avoid this impact, further experiments should be conducted by measuring the same time points in cell viability and wound-healing assays. However, the serum-free medium for wound-healing test cannot support the cell growth for a long time. In addition, it seems difficult to detect the significant difference in a short time in the proliferation experiment. Therefore, how to coordinate this problem in future experiments will become a relative key challenge.
+
+In conclusion, AHNAK2 was significantly up-regulated in lung adenocarcinoma tissues and cells, and its highly expression was associated with the poor prognosis of patients with lung adenocarcinoma. Reduction of AHNAK2 could hinder the cellular aggressive behaviors, including cell proliferation, migration, invasion, and apoptosis via inactivating the MAPK signaling pathway, which sheds a new insight to treat lung adenocarcinoma treatment.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, Supplementary_S1 - Down-Regulation of AHNAK2 Inhibits Cell Proliferation, Migration and Invasion Through Inactivating the MAPK Pathway in Lung Adenocarcinoma
+File: Supplementary_S1.tif

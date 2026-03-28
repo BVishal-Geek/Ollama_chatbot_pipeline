@@ -1,0 +1,254 @@
+================================================================================
+ARTICLE TITLE: KCNQ1OT1 accelerates gastric cancer progression via miR-4319/DRAM2 axis
+PMCID: PMC7786410
+PMID: 33100093
+KEYWORDS: apoptosis, gastric cancer, lncrna kcnq1ot1, mir-4319/dram2 axis, proliferation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Introduction::
+This work was to explore the connection of KCNQ1 opposite strand/antisense transcript 1 (KCNQ1OT1) and microRNA-4319 (miR-4319), and to investigate the associated underlying mechanisms in gastric cancer (GC) progression.
+
+Methods::
+Quantitative real-time PCR was performed to measure KCNQ1OT1, miR-4319 and DNA-damage regulated autophagy modulator 2 (DRAM2) expression levels in GC cells. Moreover, expression level of KCNQ1OT1 and DRAM2 in GC tissues was analyzed at ENCORI website ( http://starbase.sysu.edu.cn/index.php ). Cell proliferation, colony formation assay and flow cytometry assays were performed to analyze effects of KCNQ1OT1, miR-4319 and DRAM2 on cell growth and death. Dual-luciferase activity reporter assay and RNA immunoprecipitation assay was conducted to verify the interactions of KCNQ1OT1 or DRAM2 and miR-4319.
+
+Results and Conclusion::
+We found KCNQ1OT1 level was increased in tumor tissues and cells. Force the expression of KCNQ1OT1 promotes, while knockdown KCNQ1OT1 inhibits GC cell growth. Further studies indicated miR-4319 functioned as a bridge between KCNQ1OT1 and DRAM2. Finally, we showed KCNQ1OT1/miR-4319/DRAM2 axis regulates GC cell growth in vitro and in vivo. lncRNA KCNQ1OT1 promotes GC progression by sponging miR-4319 to upregulate DRAM2, indicating KCNQ1OT1 might be a promising target for GC treatment.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Risk factors for the initiation of gastric cancer (GC) including infection of Helicobacter pylori , drinking, smoking, and diet. 1 However, mechanisms behind GC initiation and progression remain to be explored. 2 Hence, it is crucial to develop novel biomarkers that can be used for GC diagnosis or treatment.
+
+Long non-coding RNA (lncRNA), at the length of over 200 nucleotides, is characterized as RNA with limited protein-coding capability. 3 Numbers of lncRNAs are continually to increase with the prevalence of sequencing technology. 4 Some of lncRNAs were found have diverse functions in contributing human diseases progression, however, mechanisms for lncRNAs in diseases are still poorly understood. 5
+
+KCNQ1 opposite strand/antisense transcript 1 (KCNQ1OT1) is reported to serve as an oncogenic lncRNA in cancers. 6 – 8 KCNQ1OT1 is reported to affect cancer viability, migration, invasion, growth, epithelial–mesenchymal transition (EMT), and drug resistance mainly through functioning as competing endogenous RNA (ceRNA). 6 – 8 For example, KCNQ1OT1 could facilitate non-small cell lung cancer growth via promoting autophagy and inhibiting apoptosis through interacting with microRNA-240-5p (miR-240-5p)/autophagy-related gene 3 (ATG3) axis. 6 Besides, KCNQ1OT1 was highly expressed in breast cancer, and its knockdown can suppress cell growth by interacting with miR-145-5p/poly(rC) binding protein 2. 7 Moreover, KCNQ1OT1 serves as ceRNA to regulate antiepileptic drug resistance via regulating miR-138-5p/ATP-binding cassette subfamily B member 1 in human brain microvascular endothelial cells. 8
+
+In this work, we showed lncRNA KCNQ1OT1 was increased expression in GC, and the knockdown of KCNQ1OT1 suppresses GC cell growth. Mechanistically, we revealed KCNQ1OT1 regulates GC cell behaviors via sponging microRNA-4319 (miR-4319) to affect DNA-damage regulated autophagy modulator 2 (DRAM2) expression. Our study indicated a novel KCNQ1OT1/miR-4319/DRAM2 regulatory network in GC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and methods
+
+GC cells (SGC-7901, AGS and MGC803) and human gastric epithelial cell line (GES-1) (Bank center of Chinese Academy of Sciences) were used in this work. These cells were incubated at Dulbecco’s modified Eagle’s medium (DMEM) supplemented with 10% fetal bovine serum (FBS; Thermo Fisher Scientific; Waltham, MA, USA) at 37°C incubator contains 5% CO 2 .
+
+Short hairpin RNA against KANQ1OT1 (sh-KCNQ1OT1), scramble control (sh-NC), miR-4319 mimic, miR-4319 inhibitor, negative control (mi-NC), pcDNA3.1-DNA-damage regulated autophagy modulator 2 (pDRAM2) overexpression vector, and pcDNA3.1 were all purchased from GenePharma (Shanghai, China). Lipofectamine 2000 purchased from Thermo Fisher Scientific was used for cell transfection.
+
+RNA sample was extracted using Trizol reagent and then quantified using NanoDrop-1000. Equal amount of RNA sample was reverse transcribed into complementary DNA with PrimerScript transcription kit (Takara, Dalian, China). qRT-PCR was performed to at ABI 7500 system (Applied Biosystems, Foster City, CA, USA) using SYBR Green (Takara). 2−ΔΔCt method was used to calculate the relative expression level using glyceraldehyde-3-phosphate dehydrogenase (GAPDH) or U6 small nuclear RNA (U6 snRNA) as internal controls. Primers used were: miR-4319: 5′-CACCCAGAGCAAAGCCAC-3′ (forward) and 5′-GTGCAGGGTCCGAGGT-3′ (reverse); U6 snRNA: 5′-TGCGGGTGCTCGCTTCGGCAGC-3′ (forward) and 5′-GTGCAGGGTCCGAGGT-3′ (reverse); KCNQ1OT1: 5′-TTGGTAGGATTTTGTTGAGG-3′ (forward) and 5′-CAACCTTCCCCTACTACC-3′ (reverse); DRAM2: 5′-ATGTAAGTGGAGCTGTGCTTACCTTTGGT-3′ (forward) and 5′-ACTGTGCAAAACTGAGCAAGTCAG-3′ (reverse); GAPDH: 5′-TGACGTGCCGCCTGGAGAAAC-3′ (forward) and 5′-CCGGCATCGAAGGTGGAAGAG-3′ (reverse).
+
+Transfected cells were seeded in 96-well plate at the density of 1 × 10 3 cells/well and incubated for 0, 24, 48, and 72 h. MTT solution (Beyotime, Haimen, Jiangsu, China) was added to each well and incubation for 4 h. Dimethyl sulfoxide was added after the removal of supernatants. Optical density at 495 nm was measured using microplate reader.
+
+Transfected cells were plated in 6-well plate and incubated for 2 weeks. Colonies were fixed with methanol, and dyed with crystal violet. Colonies numbers were counted under microscope.
+
+Annexin V- FITC/PI kit purchased from Beyotime was used to measure cell apoptosis rate according to the standard protocol. Suspended cells were dyed with Annexin V-FITC and PI for 15 min at dark and then detected cell apoptosis rate at flow cytometer.
+
+Transfected cells were harvested, fixed by ethanol, and washed with pre-cold PBS. Then, cells were incubated with PI and DNase-free RNase for 0.5 h. DNA content was analyzed at flow cytometry and analyzed at CellQuest Pro software.
+
+Based on bioinformatic analyses results, KCNQ1OT1 and 3′-UTR of DRAM2 contained wild-type (wt) or mutant (mt) binding sequence for miR-4319 were inserted into pmirGLO (Genewiz, Suzhou, China). miR-4319 mimic or mi-NC was co-transfected with wt or mt-KCNQ1OT1/DRAM2 using Lipofectamine 2000. Relative luciferase activity was measured using dual-luciferase reporter system (Promega, Madison, WI, USA) after 48 h transfection.
+
+Expression levels of KCNQ1OT1 and DRAM2 in GC tissues (n = 375) and normal tissues (n = 32) were analyzed at ENCORI website ( http://starbase.sysu.edu.cn/index.php ), a database contains data of 33 cancer types obtained from TCGA.
+
+RIP assay was conducted using Magna RNA immunoprecipitation kit (Millipore, Bedford, MA, USA). Cells were lysed with RIP buffer and incubated with beads conjugated with Anti-Argonaute2 (Anti-Ago2) or Anti-immunoglobulin G (Anti-IgG). KCNQ1OT1, miR-4319, and DRAM2 levels were analyzed using qRT-PCR after extraction RNA samples from pellets.
+
+Male BALB/c mice were used for xenograft assay. Animal experiment protocol was approved by the ethic committee of Yangzhou University and conducted in accordance with ARRIVE guidelines and the Basel Declaration. Flank of mice were injected with sh-KCNQ1OT1 or sh-NC transfected GC cells. Tumor size was measured every 7 days to calculate tumor volume (4 times). After 28 days, mice were killed to weight tumor tissues.
+
+Data obtained from at least three experiments were displayed as means ± standard deviation (SD). Data analysis was analyzed at GraphPad Prism software (GraphPad, San Diego, CA, USA). Differences in two groups were analyzed using Student’s t -test. ANOVA was used to analyze differences among groups. P < 0.05 was believed to indicate statistically significant difference.
+
+
+Cell culture
+
+GC cells (SGC-7901, AGS and MGC803) and human gastric epithelial cell line (GES-1) (Bank center of Chinese Academy of Sciences) were used in this work. These cells were incubated at Dulbecco’s modified Eagle’s medium (DMEM) supplemented with 10% fetal bovine serum (FBS; Thermo Fisher Scientific; Waltham, MA, USA) at 37°C incubator contains 5% CO 2 .
+
+
+Cell transfection
+
+Short hairpin RNA against KANQ1OT1 (sh-KCNQ1OT1), scramble control (sh-NC), miR-4319 mimic, miR-4319 inhibitor, negative control (mi-NC), pcDNA3.1-DNA-damage regulated autophagy modulator 2 (pDRAM2) overexpression vector, and pcDNA3.1 were all purchased from GenePharma (Shanghai, China). Lipofectamine 2000 purchased from Thermo Fisher Scientific was used for cell transfection.
+
+
+Quantitative real-time PCR (qRT-PCR)
+
+RNA sample was extracted using Trizol reagent and then quantified using NanoDrop-1000. Equal amount of RNA sample was reverse transcribed into complementary DNA with PrimerScript transcription kit (Takara, Dalian, China). qRT-PCR was performed to at ABI 7500 system (Applied Biosystems, Foster City, CA, USA) using SYBR Green (Takara). 2−ΔΔCt method was used to calculate the relative expression level using glyceraldehyde-3-phosphate dehydrogenase (GAPDH) or U6 small nuclear RNA (U6 snRNA) as internal controls. Primers used were: miR-4319: 5′-CACCCAGAGCAAAGCCAC-3′ (forward) and 5′-GTGCAGGGTCCGAGGT-3′ (reverse); U6 snRNA: 5′-TGCGGGTGCTCGCTTCGGCAGC-3′ (forward) and 5′-GTGCAGGGTCCGAGGT-3′ (reverse); KCNQ1OT1: 5′-TTGGTAGGATTTTGTTGAGG-3′ (forward) and 5′-CAACCTTCCCCTACTACC-3′ (reverse); DRAM2: 5′-ATGTAAGTGGAGCTGTGCTTACCTTTGGT-3′ (forward) and 5′-ACTGTGCAAAACTGAGCAAGTCAG-3′ (reverse); GAPDH: 5′-TGACGTGCCGCCTGGAGAAAC-3′ (forward) and 5′-CCGGCATCGAAGGTGGAAGAG-3′ (reverse).
+
+
+MTT assay
+
+Transfected cells were seeded in 96-well plate at the density of 1 × 10 3 cells/well and incubated for 0, 24, 48, and 72 h. MTT solution (Beyotime, Haimen, Jiangsu, China) was added to each well and incubation for 4 h. Dimethyl sulfoxide was added after the removal of supernatants. Optical density at 495 nm was measured using microplate reader.
+
+
+Colony formation assay
+
+Transfected cells were plated in 6-well plate and incubated for 2 weeks. Colonies were fixed with methanol, and dyed with crystal violet. Colonies numbers were counted under microscope.
+
+
+Annexin V-fluorescein isothiocyanate (FITC)/Propidium Iodide (PI) double staining
+
+Annexin V- FITC/PI kit purchased from Beyotime was used to measure cell apoptosis rate according to the standard protocol. Suspended cells were dyed with Annexin V-FITC and PI for 15 min at dark and then detected cell apoptosis rate at flow cytometer.
+
+
+Cell cycle analysis
+
+Transfected cells were harvested, fixed by ethanol, and washed with pre-cold PBS. Then, cells were incubated with PI and DNase-free RNase for 0.5 h. DNA content was analyzed at flow cytometry and analyzed at CellQuest Pro software.
+
+
+Dual-luciferase reporter assay
+
+Based on bioinformatic analyses results, KCNQ1OT1 and 3′-UTR of DRAM2 contained wild-type (wt) or mutant (mt) binding sequence for miR-4319 were inserted into pmirGLO (Genewiz, Suzhou, China). miR-4319 mimic or mi-NC was co-transfected with wt or mt-KCNQ1OT1/DRAM2 using Lipofectamine 2000. Relative luciferase activity was measured using dual-luciferase reporter system (Promega, Madison, WI, USA) after 48 h transfection.
+
+
+Analysis of KCNQ1OT1 and DRAM2 expression in GC tissues and normal tissues
+
+Expression levels of KCNQ1OT1 and DRAM2 in GC tissues (n = 375) and normal tissues (n = 32) were analyzed at ENCORI website ( http://starbase.sysu.edu.cn/index.php ), a database contains data of 33 cancer types obtained from TCGA.
+
+
+RNA immunoprecipitation (RIP) assay
+
+RIP assay was conducted using Magna RNA immunoprecipitation kit (Millipore, Bedford, MA, USA). Cells were lysed with RIP buffer and incubated with beads conjugated with Anti-Argonaute2 (Anti-Ago2) or Anti-immunoglobulin G (Anti-IgG). KCNQ1OT1, miR-4319, and DRAM2 levels were analyzed using qRT-PCR after extraction RNA samples from pellets.
+
+
+Xenograft tumor model
+
+Male BALB/c mice were used for xenograft assay. Animal experiment protocol was approved by the ethic committee of Yangzhou University and conducted in accordance with ARRIVE guidelines and the Basel Declaration. Flank of mice were injected with sh-KCNQ1OT1 or sh-NC transfected GC cells. Tumor size was measured every 7 days to calculate tumor volume (4 times). After 28 days, mice were killed to weight tumor tissues.
+
+
+Statistical analysis
+
+Data obtained from at least three experiments were displayed as means ± standard deviation (SD). Data analysis was analyzed at GraphPad Prism software (GraphPad, San Diego, CA, USA). Differences in two groups were analyzed using Student’s t -test. ANOVA was used to analyze differences among groups. P < 0.05 was believed to indicate statistically significant difference.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+We first explored KCNQ1OT1 level in GC tissues and normal tissues at ENCORI, and found KCNQ1OT1 level was significantly increased in GC tissues compared with normal tissues ( Figure 1a ). Then, we measured KCNQ1OT1 expression level in GC cells and normal cell, and found it is highly expressed in GC cells compared with GES-1 ( Figure 1b ).
+
+Expression level of KCNQ1OT1 was increased in GC. (a) The expression of KCNQ1OT1 in GC tissues was significantly elevated compared with normal adjacent tissues. (b) The expression of KCNQ1OT1 in GES-1 was lower than in SGC-7901, AGS and MGC803 cell lines.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer.
+
+qRT-PCR confirmed the successful silence of KCNQ1OT1 using sh-KCNQ1OT1 in GC cells ( Figure 2a ). MTT assay and colony formation assay indicated GC cell proliferation rate with KCNQ1OT1 knockdown was lower than normal group ( Figure 2b and c ). Flow cytometry assay results showed sh-KCNQ1OT1 transfection induced cell apoptosis ( Figure 2d ) and arrested cell cycle at G0/G1 phase ( Figure 2e ).
+
+KCNQ1OT1 knockdown inhibits GC cell proliferation, colony formation, and stimulates apoptosis. (a) The expression level of KCNQ1OT1 in sh-KCNQ1OT1 transfected cells was lower than that in sh-NC group. (b) Optical density value of KCNQ1OT1 knockdown group was lower than NC group. (c) Colony formation assay showed colonies numbers in the KCNQ1OT1 knockdown group were lower than those in NC group. (d) Apoptosis rate in the KCNQ1OT1 knockdown group was increased. (e) Cell cycle was arrested in GO/G1 phase in KCNQ1OT1 knockdown group.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA.
+
+Furthermore, animal experiments were performed and we found tumor volume and tumor weight in sh-KCNQ1OT1 groups were lower than in sh-NC groups ( Figure 3a and b ). This phenomenon indicated knockdown of KCNQ1OT1 could suppress GC tumor growth in vivo.
+
+KCNQ1OT1 knockdown inhibits GC tumor growth in vivo. (a) Tumor volume of KCNQ1OT1 knockdown group was lower than NC group. (b) Tumor weight of the KCNQ1OT1 silence group was lower than NC group.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA.
+
+ENCORI predicted miR-4319 was a putative target of KCNQ1OT1 ( Figure 4a ). Then, we analyzed miR-4319 expression level in GC cells and showed it was decreased expression in GC cells compared with normal cell ( Figure 4b ). The transfection of sh-KCNQ1OT1 significantly increased in GC cells ( Figure 4c ). Furthermore, dual-luciferase activity reporter assay showed miR-4319 mimic decreased relative luciferase activity of GC cells transected with wt-KCNQ1OT1 ( Figure 4d ).
+
+miR-4319 was a target of KCNQ1OT1. (a) Binding module between KCNQ1OT1 and miR-4319. (b) The expression of miR-4319 in GES-1 was higher than in SGC-7901, AGS and MGC803 cell lines. (c) The expression of miR-4319 was increased by sh-KCNQ1OT1 in GC cells. (d) Luciferase activity of GC cells with wt-KCNQ1OT1 was decreased by miR-4319 mimic.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; miR-4319, microRNA-4319; mi-NC, negative control miRNA; wt, wild-type; mt, mutant; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA.
+
+Rescue experiments were conducted to demonstrate whether the effects of KCNQ1OT1 on GC cell behaviors were mediated via miR-4319. Results showed silence of miR-4319 could stimulate GC cell growth, which is contrary with the roles of sh-KCNQ1OT1 ( Figure 5a–d ). In addition, we showed the inhibitory effects of sh-KCNQ1OT1 on GC cell behaviors could be partially abolished by miR-4319 inhibitor ( Figure 5a–d ).
+
+KCNQ1OT1 regulates GC cell growth via miR-4319. (a) Optical density value. (b) Colonies numbers. (c) Cell apoptosis percentage. (d) Cell cycle distribution of GC cells with sh-KCNQ1OT1+mi-NC, sh-NC+mi-NC, sh-KCNQ1OT1+miR-4319 inhibitor, or sh-NC+miR-4319 inhibitor transfection.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; miR-4319, microRNA-4319; mi-NC, negative control miRNA; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA.
+
+Then, we showed DRAM2 was a potential target of miR-4319 ( Figure 6a ). We then found DRAM2 level was increased in GC tissues and cells compared with normal tissues and cells ( Figure 6b and c ). Then, we found sh-KCNQ1OT1 could decrease DRAM2 expression level in GC cells ( Figure 6d ). Meanwhile, miR-4319 mimic could decrease DRAM2 expression level in GC cells ( Figure 6e ). Dual-luciferase assay showed overexpression of miR-4319 could decrease relative luciferase activity of GC cells harboring wt-DRAM2 but not mt-DRAM2 ( Figure 6f ). RIP assay showed KCNQ1OT1, miR-4319, and DRAM2 were co-enriched in Anti-Ago2 pellets ( Figure 6g ). Subsequently, we showed force the expression of DRAM2 stimulates GC cell growth, and counteracted the suppression effects of sh-KCNQ1OT1 on GC cell growth ( Figure 6h–k ).
+
+DRAM2 was a target of miR-4319. (a) Binding module between DRAM2 and miR-4319. (b) The expression of DRAM2 in GC tissues was significantly decreased compared with normal adjacent tissues. (c) The expression of DRAM2 in GES-1 was lower than SGC-7901, AGS and MGC803 cell lines. (d) The expression of DRAM2 was decreased by sh-KCNQ1OT1 in GC cells. (e) The expression of DRAM2 was decreased by miR-4319 mimic in GC cells. (f) Luciferase activity of GC cells with wt-DRAM2 was decreased by miR-4319 mimic. (g) RIP assay showed KCNQ1OT1, miR-4319, and DRAM2 were co-enriched by Anti-Ago2. (h) Optical density value. (i) Colonies numbers, (j) Cell apoptosis percentage. (k) Cell cycle distribution of GC cells with sh-KCNQ1OT1+pcDNA3.1, sh-NC+pcDNA3.1, sh-KCNQ1OT1+pDRAM2, or sh-NC+ pDRAM2 transfection.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; miR-4319, microRNA-4319; mi-NC, negative control miRNA; wt, wild-type; mt, mutant; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA; DRAM2, DNA-damage regulated autophagy modulator 2.
+
+
+Upregulation of KCNQ1OT1 in GC
+
+We first explored KCNQ1OT1 level in GC tissues and normal tissues at ENCORI, and found KCNQ1OT1 level was significantly increased in GC tissues compared with normal tissues ( Figure 1a ). Then, we measured KCNQ1OT1 expression level in GC cells and normal cell, and found it is highly expressed in GC cells compared with GES-1 ( Figure 1b ).
+
+Expression level of KCNQ1OT1 was increased in GC. (a) The expression of KCNQ1OT1 in GC tissues was significantly elevated compared with normal adjacent tissues. (b) The expression of KCNQ1OT1 in GES-1 was lower than in SGC-7901, AGS and MGC803 cell lines.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer.
+
+
+KCNQ1OT1 knockdown inhibits GC cell growth in vitro
+
+qRT-PCR confirmed the successful silence of KCNQ1OT1 using sh-KCNQ1OT1 in GC cells ( Figure 2a ). MTT assay and colony formation assay indicated GC cell proliferation rate with KCNQ1OT1 knockdown was lower than normal group ( Figure 2b and c ). Flow cytometry assay results showed sh-KCNQ1OT1 transfection induced cell apoptosis ( Figure 2d ) and arrested cell cycle at G0/G1 phase ( Figure 2e ).
+
+KCNQ1OT1 knockdown inhibits GC cell proliferation, colony formation, and stimulates apoptosis. (a) The expression level of KCNQ1OT1 in sh-KCNQ1OT1 transfected cells was lower than that in sh-NC group. (b) Optical density value of KCNQ1OT1 knockdown group was lower than NC group. (c) Colony formation assay showed colonies numbers in the KCNQ1OT1 knockdown group were lower than those in NC group. (d) Apoptosis rate in the KCNQ1OT1 knockdown group was increased. (e) Cell cycle was arrested in GO/G1 phase in KCNQ1OT1 knockdown group.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA.
+
+
+KCNQ1OT1 knockdown inhibits GC tumor growth in vivo
+
+Furthermore, animal experiments were performed and we found tumor volume and tumor weight in sh-KCNQ1OT1 groups were lower than in sh-NC groups ( Figure 3a and b ). This phenomenon indicated knockdown of KCNQ1OT1 could suppress GC tumor growth in vivo.
+
+KCNQ1OT1 knockdown inhibits GC tumor growth in vivo. (a) Tumor volume of KCNQ1OT1 knockdown group was lower than NC group. (b) Tumor weight of the KCNQ1OT1 silence group was lower than NC group.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA.
+
+
+KCNQ1OT1 could bind with miR-4319
+
+ENCORI predicted miR-4319 was a putative target of KCNQ1OT1 ( Figure 4a ). Then, we analyzed miR-4319 expression level in GC cells and showed it was decreased expression in GC cells compared with normal cell ( Figure 4b ). The transfection of sh-KCNQ1OT1 significantly increased in GC cells ( Figure 4c ). Furthermore, dual-luciferase activity reporter assay showed miR-4319 mimic decreased relative luciferase activity of GC cells transected with wt-KCNQ1OT1 ( Figure 4d ).
+
+miR-4319 was a target of KCNQ1OT1. (a) Binding module between KCNQ1OT1 and miR-4319. (b) The expression of miR-4319 in GES-1 was higher than in SGC-7901, AGS and MGC803 cell lines. (c) The expression of miR-4319 was increased by sh-KCNQ1OT1 in GC cells. (d) Luciferase activity of GC cells with wt-KCNQ1OT1 was decreased by miR-4319 mimic.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; miR-4319, microRNA-4319; mi-NC, negative control miRNA; wt, wild-type; mt, mutant; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA.
+
+
+miR-4319 could abolished the effects of KCNQ1OT1
+
+Rescue experiments were conducted to demonstrate whether the effects of KCNQ1OT1 on GC cell behaviors were mediated via miR-4319. Results showed silence of miR-4319 could stimulate GC cell growth, which is contrary with the roles of sh-KCNQ1OT1 ( Figure 5a–d ). In addition, we showed the inhibitory effects of sh-KCNQ1OT1 on GC cell behaviors could be partially abolished by miR-4319 inhibitor ( Figure 5a–d ).
+
+KCNQ1OT1 regulates GC cell growth via miR-4319. (a) Optical density value. (b) Colonies numbers. (c) Cell apoptosis percentage. (d) Cell cycle distribution of GC cells with sh-KCNQ1OT1+mi-NC, sh-NC+mi-NC, sh-KCNQ1OT1+miR-4319 inhibitor, or sh-NC+miR-4319 inhibitor transfection.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; miR-4319, microRNA-4319; mi-NC, negative control miRNA; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA.
+
+
+KCNQ1OT1 regulates DRAM2 expression via miR-4319
+
+Then, we showed DRAM2 was a potential target of miR-4319 ( Figure 6a ). We then found DRAM2 level was increased in GC tissues and cells compared with normal tissues and cells ( Figure 6b and c ). Then, we found sh-KCNQ1OT1 could decrease DRAM2 expression level in GC cells ( Figure 6d ). Meanwhile, miR-4319 mimic could decrease DRAM2 expression level in GC cells ( Figure 6e ). Dual-luciferase assay showed overexpression of miR-4319 could decrease relative luciferase activity of GC cells harboring wt-DRAM2 but not mt-DRAM2 ( Figure 6f ). RIP assay showed KCNQ1OT1, miR-4319, and DRAM2 were co-enriched in Anti-Ago2 pellets ( Figure 6g ). Subsequently, we showed force the expression of DRAM2 stimulates GC cell growth, and counteracted the suppression effects of sh-KCNQ1OT1 on GC cell growth ( Figure 6h–k ).
+
+DRAM2 was a target of miR-4319. (a) Binding module between DRAM2 and miR-4319. (b) The expression of DRAM2 in GC tissues was significantly decreased compared with normal adjacent tissues. (c) The expression of DRAM2 in GES-1 was lower than SGC-7901, AGS and MGC803 cell lines. (d) The expression of DRAM2 was decreased by sh-KCNQ1OT1 in GC cells. (e) The expression of DRAM2 was decreased by miR-4319 mimic in GC cells. (f) Luciferase activity of GC cells with wt-DRAM2 was decreased by miR-4319 mimic. (g) RIP assay showed KCNQ1OT1, miR-4319, and DRAM2 were co-enriched by Anti-Ago2. (h) Optical density value. (i) Colonies numbers, (j) Cell apoptosis percentage. (k) Cell cycle distribution of GC cells with sh-KCNQ1OT1+pcDNA3.1, sh-NC+pcDNA3.1, sh-KCNQ1OT1+pDRAM2, or sh-NC+ pDRAM2 transfection.
+
+KCNQ1OT1, KCNQ1 opposite strand/antisense transcript 1; GC, gastric cancer; miR-4319, microRNA-4319; mi-NC, negative control miRNA; wt, wild-type; mt, mutant; sh-KCNQ1OT1, short hairpin RNA against KCNQ1OT1; sh-NC, negative control shRNA; DRAM2, DNA-damage regulated autophagy modulator 2.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+LncRNAs could influence almost all cellular processes in cancer biology. 9 In recent years, lncRNAs were proven have potential to be developed as prediction, diagnosis, or treatment biomarkers for cancer. 5 – 9
+
+In this work, KCNQ1OT1 was identified upregulated expression in GC tissues compared with normal tissues using ENCORI website. Moreover, we showed KCNQ1OT1 was expressed at a high level in GC cells compared with normal human gastric epithelial cell line (GES-1). Functional assays showed knockdown ofKCNQ1OT1 inhibited GC cell viability and colony formation ability, stimualted cell apoptosis, and arrested cell cycle. These data indicated KCNQ1OT1 regulates GC cell growth by interfering with cell apoptosis and cell cycle distribution. Animal experiments showed KCNQ1OT1 knockdown could slow tumor growth and resulted in lower tumor weight in vivo. These results indicated KCNQ1OT1 functions as an oncogenic role in GC progression.
+
+Previous studies indicated lncRNA can serve as miRNA sponge to affect target expression at post-transcriptional level. 10 KCNQ1OT1 has been previously reported could bind with miRNAs including miR-204-5p, miR-145-5p, and miR-138-5p, 6 – 8 hence, we also supposed KCNQ1OT1 may also interact with miRNA to affect GC progression. miRNAs can regulate gene expression with the following manners: 3′-UTR binding, 5′-UTR binding, and/or coding region binding. 11 Here, we showed miR-4319 was a target of KCNQ1OT1 through bioinformatic analysis and luciferase activity reporter assay. miR-4319 has reported to play suppressive roles in regulating cancer progression. 12 , 13 For example, miR-4319 was decreased expression in esophageal squamous cell carcinoma and affect cancer cell growth. 12 Moreover, miR-4319 was found could be regulated by circRNA ATXN7 to inhibit GC progression. 13 Here, we also showed miR-4319 was decreased expression in GC, and knockdown of miR-4319 stimulates GC cell growth, which is in consistent with the previous study result. 13
+
+We also explored molecular mechanism by which KCNQ1OT1 regulates GC progression. We demonstrated KCNQ1OT1 interacts with miR-4319 to increase DRAM2 expression. DRAM2, also well-known as TMEM77, is mapped to chromosome 1p13.3. 14 DRAM2 was found serve as an oncogene in non-small cell lung cancer and retinoblastoma. 15 , 16 We showed overexpression of DRAM2 stimulates GC cell growth by inhibiting cell apoptosis and facilitating cell cycle, and could reverse the roles of sh-KCNQ1OT1 on GC cell behaviors. There is limitation in this work which is we did not recruit GC patients into our work so that we are unable to validate expression level of the triplet network and their corrections in GC tissues. Moreover, we did not display the connections of KCNQ1OT1 and clinicopathological of GC patients, which weaken the clinical significance of KCNQ1OT1. Moreover, there may be other mechanisms for the KCNQ1OT1 mediated stimulation effects on GC malignant behaviors, which should also be investigated in depth in the future.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In conclusion, our study provide evidence that KCNQ1OT1 could interact with miR-4319 to upregulate DRAM2 expression, and thus promotes GC progression.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

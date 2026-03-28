@@ -1,0 +1,19 @@
+Source: PMC8480345_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Changing Disparity of Gastric Cancer Incidence by Histological Types in US Race-Specific Populations",
+  "condition_E": 1,
+  "condition_E_reason": "Cancer data were extracted from the SEER database, including diagnosed gastric cancer cases categorized by sex, age, and race/ethnicity.",
+  "N_E": 1,
+  "N_E_reason": "There were 18719 diagnosed gastric cardia adenocarcinoma cases and 47142 diagnosed cases of non-cardia gastric adenocarcinoma during 1992 through 2016.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

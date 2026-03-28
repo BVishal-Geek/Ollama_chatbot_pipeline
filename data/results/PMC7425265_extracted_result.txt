@@ -1,0 +1,19 @@
+Source: PMC7425265_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Paclitaxel Promotes Tumor-Infiltrating Macrophages in Breast Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "Gene expression and clinical data were acquired from the GDAC FIREHOSE database.",
+  "N_E": 1,
+  "N_E_reason": "We obtained the frequency of 6 immune cells in 13 BC-related patients who received paclitaxel.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data were acquired from the GDAC FIREHOSE database.",
+  "intervention_E": 1,
+  "intervention_E_reason": "We compared the proportions of macrophages in patients with breast cancer with and without paclitaxel treatment.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The results revealed that PEX11A and TMEM223 were associated with longer PFS of patients with BC.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,19 @@
+Source: PMC7592328_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Long Noncoding RNA HOXB-AS1 Is Upregulated in Endometrial Carcinoma and Sponged miR-149-3p to Upregulate Wnt10b",
+  "condition_E": 1,
+  "condition_E_reason": "A total of 64 cases of EC tissues and matched adjacent normal endometrial tissues were collected from patients.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

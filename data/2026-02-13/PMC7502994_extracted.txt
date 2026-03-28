@@ -1,0 +1,188 @@
+================================================================================
+ARTICLE TITLE: MicroRNA miR-100 Decreases Glioblastoma Growth by Targeting SMARCA5 and ErbB3 in Tumor-Initiating Cells
+PMCID: PMC7502994
+PMID: 32945237
+KEYWORDS: smarca5, microrna, mir, erbb3, gbm stem-like cells, tumor initiating cells
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Glioblastoma multiforme (GBM) is the most aggressive and most frequently diagnosed malignant human glioma. Despite the best available standard of care (surgery, radiation, and chemotherapy), the median survival of GBM patients is less than 2 years. Many recent studies have indicated that microRNAs (miRNAs) are important for promoting or reducing/limiting GBM growth. In particular, we previously showed that GBMs express decreased levels of miR-100 relative to control tissue and that restoring miR-100 expression reduced GBM tumorigenicity by modulating SMRT/NCOR2 (Nuclear Receptor Corepressor 2). Here, we demonstrate that miR-100 overexpression decreases expression of the stem cell markers, nestin and L1CAM, and decreases proliferation of GBM tumor-initiating cells (cancer stem cells). We further show that miR-100-mediated anti-tumorigenic activity limits the activity of SMARCA5 and its downstream target STAT3 (known as mTOR-STAT3-Notch pathway). In addition, we report ErbB3 (Her3) as a putative miR-100 target, including inhibition of its downstream AKT and ERK signaling pathways.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Glioblastoma multiforme (GBM), the most aggressive primary brain tumor, accounts for more than 50% of all detected malignant brain cancers and approximately 20% of all primary intracranial tumors. 1 , 2 Approximately 15,000 new cases of GBM and CNS malignancies are diagnosed annually in the USA. 3 Median patient survival is under 2 years even with the best standard of care. 4 , 5 The molecular mechanisms responsible for GBM growth and invasion are poorly understood.
+
+MicroRNAs (miRNAs) are small, non-coding RNAs (16–22 nucleotides long) that repress protein translation by binding to the 3’UTRs of mRNAs. 6 , 7 Many miRNAs are known to be differentially expressed in various types of cancer 8 ; it is therefore essential to understand their role in tumorigenesis. 9 At least 19 miRNAs have been identified as being linked to the pathogenesis of GBM. 10 , 11 Of these, miR-100 has been linked to several targets that are known to modulate GBM growth and/or survival, such as fibroblast growth factor receptor 3 (FGFR3), silencing mediator of retinoic acid and thyroid hormone receptor (SMRT), and ATM Serine/Threonine Kinase (ATM; ataxia telangiectasia mutated). 12 - 14 In addition, miR-100 was reported to stimulate a positive therapeutic response in breast cancer stem-like cells undergoing hormonal therapy. 15 Moreover, it was demonstrated that gliomas’ proliferation, apoptosis and angiogenesis were suppressed by inhibition of AKT and STAT3 signaling pathway. 16 The same pathways were effective against limiting glioma stem cells propagation. 17 Also, it has been reported that Akt-mTOR pathway regulates neurogenesis of neural stem cells. 18 The same pathway (Akt-mTOR) is involved in ErbB family activation and contributes to cancer stem cells resistance which make it eligible for EGFR-Targeted therapy. 19 
+
+We previously demonstrated that downregulation of miR-100 promotes GBM growth and invasion, and that restoring miR-100 expression reduces GBM growth and survival. 13 We also showed that miR-100 limits GBM tumor proliferation and extends the survival of mice bearing orthotopic GBM xenografts by inhibiting the miR-100 target, SMRT/NCOR2. 13 These findings were subsequently supported by Luan et al. (2015), who also confirmed the tumor suppressor activity of miR-100 and examined 2 GBM cell lines (U251 and T98G) in addition to 13 patient GBM specimens. They confirmed the decrease in endogenous levels of miR-100 in all tested tumor samples and in both cell lines, and compared GBM tumors to adjacent normal tissue. When miR-100 was overexpressed in GBM cell lines, reduced proliferation, migration, and chemo-sensitivity were observed. The authors concluded that miR-100 has anti-tumor activity against GBMs.
+
+Since a single miRNA can regulate multiple target mRNAs, the beneficial effects of miR-100 might also be mediated by other target proteins in addition to SMRT/NCOR2. In this study, we have uncovered and evaluated additional pathways that might also be regulated by miR-100 and potentially contribute to its anti-tumorigenic activity. In particular, we evaluated the role of ErbB family members that we found are targeted by miR-100. Members of this protein family are known to be resistant to EGFR inhibitor therapy especially in GBM stem-like cells. 19 Two members of the ErbB family Her2 (ErbB2) and Her3 (ErbB3) are being targeted by immunotherapy in clinical trials designed to control GBM growth. 20 , 21 
+
+In this study, we restored miR-100 levels in primary GBM cells by transfecting GBM tumor-initiating cells (TICs) with pre-miR-100, which generates 2 forms of miR-100: miR-100-5p and miR-100-3p. We found that the dominant isoform, miR-100-5p, 22 is down-regulated in GBM-derived TICs (also called GBM stem-like cells) known to be responsible for tumor progression and recurrence 22 because of radiation and chemo-resistance. 23 Thus, in this study, we tested the therapeutic utility of miR-100-5p overexpression for controlling GBM growth and also evaluated the downstream mechanism of miR-100-5p activity.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+All human tumor specimens were collected after patient informed consent and with approval of University of Wisconsin-Madison Institutional Review Board No. (IRB 2012-0024—Certified, exempt). Patient-derived TICs were isolated from GBMs and validated as previously described. 19 , 24 - 26 Tumor tissue collected from the operating room was minced and chopped twice using a tissue chopper (Sorvall TC-2 Smith-Farquhar) and plated in medium (70% Dulbecco’s modified Eagle medium-high glucose, 30% Ham’s F12, 1X B27 supplement, 5 μg/ml heparin, penicillin-streptomycin-amphotericin, and 20 ng/ml each of epidermal growth factor (EGF) and basic fibroblast growth factor (bFGF)). We used 3 primary (22, 33, and 44) GBM samples and 1 recurrent GBM sample (12.1). All of the GBM TICs were negative for EGFRvIII mutations. 19 A tumor-free neural stem cell (NSC) line prepared from fetal human cortical tissue and used as a source of normal control cells was a kind gift of Dr. Clive Svendsen. 26 Validation of TICs was done through neurosphere isolation and differentiation procedures beside staining for stem cells markers was done, Supp. Figure 1 . More details on isolation, validation and neutrosphere’s formation of TICs could be found in our previous publications. 19 , 27 , 28 
+
+Total RNA was isolated using an RNA isolation kit (Life Technologies). All probes and primers were purchased from Life Technologies, USA, and absolute quantitative PCR was conducted using TaqMan assays according to manufacturer’s instructions (Life Technologies, USA). 18 s rRNA was used as a house-keeping control as described previously. 19 Relative expression was measured by subtraction targets ct from 18 s ct and the sum was further subtracted from control samples ct. The final results were applied on 2 ^ (–delta delta CT). Calculation method was reported previously. 29 The primers has-miR-100-5p, has-miR-100-3p, and has-pre-miR-100 were used for qPCRs assay and were commercially bought from Invitrogen, USA.
+
+Cells were transfected with miRNA precursors, siRNAs, miRNA mimics and the miR-100 isoforms miR-100-5p and miR-100-3p (all from Life Technologies) using 15 pmol PepMute reagent (SignaGen Labs, Rockville MD) per million cells as described previously. 19 , 20 
+
+GBM TICs were grown as spheres, disseminated into single cells, then inoculated in 96-well plates at a density of 20,000 cells/well and temperature of 37 oC. After 1 day of growth, the cells were transfected with pre-miR-100 or with a control miR. Following 2 days of growth in culture medium containing 4.5 g glucose DMEM/F12, 20 pg EGF and 20 pg bFGF, cell numbers were quantified using an MTS assay (CellTiter 96 Aqueous, Promega, USA) as per the manufacturer’s instructions.
+
+The Click-iT EdU assay (which is similar to the BrdU assay) was performed according to the manufacturer’s (Invitrogen) instructions. Twenty thousand cells were plated and then transfected with pre-miR-100 or control miRs in combination with the SMRT/NCOR2 expression vector (pSMRT, Fisher Scientific) after 1 day of growth. The Click-iT EdU assay was performed following an additional 2 days of growth in culture medium containing DMEM/F12, EGF and bFGF.
+
+293 T cells were co-transfected with pre-miR (15 pmol) and a luciferase reporter plasmid (1 ug) containing the 3’UTR of SMARCA5 or ErbB3 mRNA in 96-well culture plates. Twenty-four to 48 hours after transfection, the light switch luciferase assay (Switch Gear Genomics, Menlo Park, CA) was performed according to the manufacturer’s instructions. The signal was detected using a microplate luminometer (Turner Biosystems, Inc., CA) running Veritas software version 1.9.2. The reporter plasmids contained the 3’UTRs of SMARCA5 or ErbB3 mRNA, which include the miR-100 seed sequence. The control plasmids (negative controls) contained a mutated seed sequence.
+
+Western blotting was performed as previously described. 19 , 30 Cell lysates were collected, and the protein concentration was determined by the Bradford assay (Bio-Rad, CA). The protein samples were electrophoresed on SDS-PAGE gels, transferred to PVDF membranes, and analyzed using antibodies against α-tubulin, phospho-AKT (S473), total-AKT, phospho-ERK (Thr202/Tyr204), total-ERK, phospho-STAT3 (Tyr705), STAT3, p21, SMARCA5 (Santa Cruz Biotechnology, USA), SMRT/NCOR2 (Santa Cruz Biotechnology, USA), ErbB3 (Santa Cruz Biotechnology, USA), ErbB2 (Santa Cruz Biotechnology, USA), human nestin (Santa Cruz Biotechnology, USA), and L1CAM (Fisher, USA). All antibodies were purchased from Cell Signaling, USA, unless otherwise indicated.
+
+UW-Madison institution-approved animal protocol was followed for all experimental procedures. Tumor xenografts were generated via stereotactic implantation of tumor cells as described previously. 13 Briefly, GBM cells were enzymatically dissociated into single cells. One million cells were suspended in 5 µl of PBS and stereotactically implanted at 0.33 μl/min into the right striatum of anesthetized immunodeficient 6-8 weeks old NOD-SCID mice (Jackson lab) at the following coordinates referenced from bregma: 0 mm anteroposterior, +2.5 mm mediolateral, and −3.5 mm dorsoventral. 31 Xenograft growth was detected and verified by MRI, and brains containing the xenografts were obtained from the animals after death.
+
+Tumor xenograft model has been previously described. 13 Briefly, The 22 T and U87 GBM cell lines were orthotopically implanted into immunodeficient NOD-SCID mice. Control and miR-100 doxycycline inducible overexpression vectors (GeneCopoeia, MD) were created and then integrated into the genomes of tumor cells with lentiviruses. Later, at least 1 million cells were implanted into mouse brains. The cells holding vectors resulted in a 3-fold increase in expression above baseline miR-100 levels were isolated. Those vectors were validated as described previously. 13 When severe clinical symptoms were detected, or the mice were moribund, they were sacrificed. Immunohistochemistry was carried out on mouse brain 16 days after transplantation. The brains of the mice were formalin-fixed, paraffin-embedded, sectioned (into 5 µm-thick sections), and stained with hematoxylin, as described previously. 32 The animal implantation procedure, validation and Ki-67 index were previously reported. 13 
+
+The statistical analyses were performed using Student’s t-test and 1-way ANOVA/Tukey’s multiple comparison post-tests. All error bars represent the standard error of the mean (S.E.M.), and the significance level (*) was P < 0.05.
+
+
+Isolation and Validation of GBM TICs
+
+All human tumor specimens were collected after patient informed consent and with approval of University of Wisconsin-Madison Institutional Review Board No. (IRB 2012-0024—Certified, exempt). Patient-derived TICs were isolated from GBMs and validated as previously described. 19 , 24 - 26 Tumor tissue collected from the operating room was minced and chopped twice using a tissue chopper (Sorvall TC-2 Smith-Farquhar) and plated in medium (70% Dulbecco’s modified Eagle medium-high glucose, 30% Ham’s F12, 1X B27 supplement, 5 μg/ml heparin, penicillin-streptomycin-amphotericin, and 20 ng/ml each of epidermal growth factor (EGF) and basic fibroblast growth factor (bFGF)). We used 3 primary (22, 33, and 44) GBM samples and 1 recurrent GBM sample (12.1). All of the GBM TICs were negative for EGFRvIII mutations. 19 A tumor-free neural stem cell (NSC) line prepared from fetal human cortical tissue and used as a source of normal control cells was a kind gift of Dr. Clive Svendsen. 26 Validation of TICs was done through neurosphere isolation and differentiation procedures beside staining for stem cells markers was done, Supp. Figure 1 . More details on isolation, validation and neutrosphere’s formation of TICs could be found in our previous publications. 19 , 27 , 28 
+
+
+Real-Time (Quantitative) PCR
+
+Total RNA was isolated using an RNA isolation kit (Life Technologies). All probes and primers were purchased from Life Technologies, USA, and absolute quantitative PCR was conducted using TaqMan assays according to manufacturer’s instructions (Life Technologies, USA). 18 s rRNA was used as a house-keeping control as described previously. 19 Relative expression was measured by subtraction targets ct from 18 s ct and the sum was further subtracted from control samples ct. The final results were applied on 2 ^ (–delta delta CT). Calculation method was reported previously. 29 The primers has-miR-100-5p, has-miR-100-3p, and has-pre-miR-100 were used for qPCRs assay and were commercially bought from Invitrogen, USA.
+
+
+MiRNA and siRNA Transfection
+
+Cells were transfected with miRNA precursors, siRNAs, miRNA mimics and the miR-100 isoforms miR-100-5p and miR-100-3p (all from Life Technologies) using 15 pmol PepMute reagent (SignaGen Labs, Rockville MD) per million cells as described previously. 19 , 20 
+
+
+Cell Viability Assay
+
+GBM TICs were grown as spheres, disseminated into single cells, then inoculated in 96-well plates at a density of 20,000 cells/well and temperature of 37 oC. After 1 day of growth, the cells were transfected with pre-miR-100 or with a control miR. Following 2 days of growth in culture medium containing 4.5 g glucose DMEM/F12, 20 pg EGF and 20 pg bFGF, cell numbers were quantified using an MTS assay (CellTiter 96 Aqueous, Promega, USA) as per the manufacturer’s instructions.
+
+
+Cell Proliferation Assay
+
+The Click-iT EdU assay (which is similar to the BrdU assay) was performed according to the manufacturer’s (Invitrogen) instructions. Twenty thousand cells were plated and then transfected with pre-miR-100 or control miRs in combination with the SMRT/NCOR2 expression vector (pSMRT, Fisher Scientific) after 1 day of growth. The Click-iT EdU assay was performed following an additional 2 days of growth in culture medium containing DMEM/F12, EGF and bFGF.
+
+
+Luciferase Reporter Assay
+
+293 T cells were co-transfected with pre-miR (15 pmol) and a luciferase reporter plasmid (1 ug) containing the 3’UTR of SMARCA5 or ErbB3 mRNA in 96-well culture plates. Twenty-four to 48 hours after transfection, the light switch luciferase assay (Switch Gear Genomics, Menlo Park, CA) was performed according to the manufacturer’s instructions. The signal was detected using a microplate luminometer (Turner Biosystems, Inc., CA) running Veritas software version 1.9.2. The reporter plasmids contained the 3’UTRs of SMARCA5 or ErbB3 mRNA, which include the miR-100 seed sequence. The control plasmids (negative controls) contained a mutated seed sequence.
+
+
+Western Blotting
+
+Western blotting was performed as previously described. 19 , 30 Cell lysates were collected, and the protein concentration was determined by the Bradford assay (Bio-Rad, CA). The protein samples were electrophoresed on SDS-PAGE gels, transferred to PVDF membranes, and analyzed using antibodies against α-tubulin, phospho-AKT (S473), total-AKT, phospho-ERK (Thr202/Tyr204), total-ERK, phospho-STAT3 (Tyr705), STAT3, p21, SMARCA5 (Santa Cruz Biotechnology, USA), SMRT/NCOR2 (Santa Cruz Biotechnology, USA), ErbB3 (Santa Cruz Biotechnology, USA), ErbB2 (Santa Cruz Biotechnology, USA), human nestin (Santa Cruz Biotechnology, USA), and L1CAM (Fisher, USA). All antibodies were purchased from Cell Signaling, USA, unless otherwise indicated.
+
+
+Tumor Xenograft Assay
+
+UW-Madison institution-approved animal protocol was followed for all experimental procedures. Tumor xenografts were generated via stereotactic implantation of tumor cells as described previously. 13 Briefly, GBM cells were enzymatically dissociated into single cells. One million cells were suspended in 5 µl of PBS and stereotactically implanted at 0.33 μl/min into the right striatum of anesthetized immunodeficient 6-8 weeks old NOD-SCID mice (Jackson lab) at the following coordinates referenced from bregma: 0 mm anteroposterior, +2.5 mm mediolateral, and −3.5 mm dorsoventral. 31 Xenograft growth was detected and verified by MRI, and brains containing the xenografts were obtained from the animals after death.
+
+
+Inducible and Stable Expression of Pre-miR-100 and Immunohistochemical Analysis
+
+Tumor xenograft model has been previously described. 13 Briefly, The 22 T and U87 GBM cell lines were orthotopically implanted into immunodeficient NOD-SCID mice. Control and miR-100 doxycycline inducible overexpression vectors (GeneCopoeia, MD) were created and then integrated into the genomes of tumor cells with lentiviruses. Later, at least 1 million cells were implanted into mouse brains. The cells holding vectors resulted in a 3-fold increase in expression above baseline miR-100 levels were isolated. Those vectors were validated as described previously. 13 When severe clinical symptoms were detected, or the mice were moribund, they were sacrificed. Immunohistochemistry was carried out on mouse brain 16 days after transplantation. The brains of the mice were formalin-fixed, paraffin-embedded, sectioned (into 5 µm-thick sections), and stained with hematoxylin, as described previously. 32 The animal implantation procedure, validation and Ki-67 index were previously reported. 13 
+
+
+Statistics
+
+The statistical analyses were performed using Student’s t-test and 1-way ANOVA/Tukey’s multiple comparison post-tests. All error bars represent the standard error of the mean (S.E.M.), and the significance level (*) was P < 0.05.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Quantitative PCR revealed that expression of endogenous miR-100-5p was reduced by approximately 50–80% in the 4 GBM tumor cell populations (12.1, 22, 33, and 44) evaluated relative to the levels of endogenous miR-100-5p in 2 different control normal human neural stem cell (hnsc) lines (n = 3/group; P < 0.05; Figure 1A ). The results were normalized for pre-miR-100 expression.
+
+Overexpression of pre-miR-100 reduces proliferation and targets SMARCA5. (A) qPCR shows that the expression of miR100-5p is lower in GBM TICs (12.1, 22, 33, and 44) compared to human neural stem cells lines (hnsc and hnsc2). (B) Percentage of normalized cell growth showing that the overexpression of pre-miR-100 reduces the number of GBM TICs compared to controls as determined by the MTS assay. (C) The targets of miR-100-5p as predicted by 3 algorithms: PICTAR, TARGET SCAN, and microRNA.org . The intersection of the circles represents the number of shared targets. (D) The overexpression of pre-miR-100 decreases proliferation in GBM TICs compared to the control. The results were normalized for pre-miR-100 expression (E) Immunoblots showing the reduction of SMARCA5-encoded HSNF2 H protein levels following the transient expression of pre-miR-100. The reduction in HSNF2 H levels does not occur when control miR is overexpressed. The boxes are included to make the blot easier to interpret. (F) The quantification of the immunoblot in panel (E) shows that HSNF2 H levels are reduced by 40–70% when pre-miR-100 is overexpressed. (G) Pre-miR-100 inhibits the luciferase signal from the SMARCA5 3’UTR reporter compared to controls that utilize a different miRNA or a reporter with a mutated target site. The host cells used were HEK293 T cells. Asterisk denotes statistical significance of p < 0.05.
+
+When the TIC cell lines were transiently transfected with pre-miR-100, we observed a 20–50% decrease in cell viability (n = 3/group; p < 0.05; Figure 1B ) and a 20–40% decrease in cell proliferation (n = 3/group; p < 0.05; Figure 1D ) compared to the respective controls transfected with a control miRNA. It worth noting that transient transfection using pre-miR-100 generates 200-300% more of pre-miR-100 expression than Hnsc baseline.
+
+Using 3 target identification algorithms (PICTAR, TARGETSCAN, and microRNA.org ), we found 18 common putative targets of miR-100-5p ( Figure 1C ). SMARCA5 was the only common target that was among the top 6 targets identified by all 3 algorithms ( Table 1 ). When the TICs (12.1, 22, 33, and 44) were transfected with pre-miR-100, the protein levels of HSNF2 H (encoded by SMARCA5 ) were approximately 40–70% lower than observed in the control transfected cell lines (p < 0.05; n = 3; Figure 1E , F ). We further confirmed the miR-target relationship by co-expressing a SMARCA5 3’UTR luciferase reporter vector with pre-miR-100 or with miR-100-5p. When 293 T cells were co-transfected with the SMARCA5 3’UTR and with either pre-miR-100 or miR-100-5p, SMARCA5 3’UTR luciferase activity was inhibited by 45% (p < 0.05; n = 3) compared to cells transfected with the control miRNA ( Figure 1G ).
+
+Predicted Targets of MIR-100.
+
+A list of the top 6 predicted targets of microrna-100-5p (miR-100-5p) and their transcript ID numbers as they rank according to 3 different algorithms: microRNA.org , PICTAR, and TARGETSCAN. The asterisk (*) denotes targets that have the same score and thus can be given the same rank as the highest ranked candidate. Shading represents repeated appearance of SMARCA5.
+
+
+Expression of miR-100-5p Is Down-Regulated in GBM Cells
+
+Quantitative PCR revealed that expression of endogenous miR-100-5p was reduced by approximately 50–80% in the 4 GBM tumor cell populations (12.1, 22, 33, and 44) evaluated relative to the levels of endogenous miR-100-5p in 2 different control normal human neural stem cell (hnsc) lines (n = 3/group; P < 0.05; Figure 1A ). The results were normalized for pre-miR-100 expression.
+
+Overexpression of pre-miR-100 reduces proliferation and targets SMARCA5. (A) qPCR shows that the expression of miR100-5p is lower in GBM TICs (12.1, 22, 33, and 44) compared to human neural stem cells lines (hnsc and hnsc2). (B) Percentage of normalized cell growth showing that the overexpression of pre-miR-100 reduces the number of GBM TICs compared to controls as determined by the MTS assay. (C) The targets of miR-100-5p as predicted by 3 algorithms: PICTAR, TARGET SCAN, and microRNA.org . The intersection of the circles represents the number of shared targets. (D) The overexpression of pre-miR-100 decreases proliferation in GBM TICs compared to the control. The results were normalized for pre-miR-100 expression (E) Immunoblots showing the reduction of SMARCA5-encoded HSNF2 H protein levels following the transient expression of pre-miR-100. The reduction in HSNF2 H levels does not occur when control miR is overexpressed. The boxes are included to make the blot easier to interpret. (F) The quantification of the immunoblot in panel (E) shows that HSNF2 H levels are reduced by 40–70% when pre-miR-100 is overexpressed. (G) Pre-miR-100 inhibits the luciferase signal from the SMARCA5 3’UTR reporter compared to controls that utilize a different miRNA or a reporter with a mutated target site. The host cells used were HEK293 T cells. Asterisk denotes statistical significance of p < 0.05.
+
+
+Restoring MiR-100 Levels Decreased Cell Viability and Proliferation
+
+When the TIC cell lines were transiently transfected with pre-miR-100, we observed a 20–50% decrease in cell viability (n = 3/group; p < 0.05; Figure 1B ) and a 20–40% decrease in cell proliferation (n = 3/group; p < 0.05; Figure 1D ) compared to the respective controls transfected with a control miRNA. It worth noting that transient transfection using pre-miR-100 generates 200-300% more of pre-miR-100 expression than Hnsc baseline.
+
+
+SMARCA5 mRNA Is a Target of miR-100-5p
+
+Using 3 target identification algorithms (PICTAR, TARGETSCAN, and microRNA.org ), we found 18 common putative targets of miR-100-5p ( Figure 1C ). SMARCA5 was the only common target that was among the top 6 targets identified by all 3 algorithms ( Table 1 ). When the TICs (12.1, 22, 33, and 44) were transfected with pre-miR-100, the protein levels of HSNF2 H (encoded by SMARCA5 ) were approximately 40–70% lower than observed in the control transfected cell lines (p < 0.05; n = 3; Figure 1E , F ). We further confirmed the miR-target relationship by co-expressing a SMARCA5 3’UTR luciferase reporter vector with pre-miR-100 or with miR-100-5p. When 293 T cells were co-transfected with the SMARCA5 3’UTR and with either pre-miR-100 or miR-100-5p, SMARCA5 3’UTR luciferase activity was inhibited by 45% (p < 0.05; n = 3) compared to cells transfected with the control miRNA ( Figure 1G ).
+
+Predicted Targets of MIR-100.
+
+A list of the top 6 predicted targets of microrna-100-5p (miR-100-5p) and their transcript ID numbers as they rank according to 3 different algorithms: microRNA.org , PICTAR, and TARGETSCAN. The asterisk (*) denotes targets that have the same score and thus can be given the same rank as the highest ranked candidate. Shading represents repeated appearance of SMARCA5.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+We previously reported that the down-regulation of miR-100, and the subsequent reduction in levels of its target SMRT/NCOR2, can contribute to GBM tumorigenicity. 13 We also showed previously that restoring miR-100 levels reduces GBM tumorigenicity and extends the survival of animals bearing orthotopic GBM xenografts. 13 It worth noting that normal distribution of miR-100-5p expression in normal tissue is the highest in CNS compared to other organs based on TissueAtlas database (See supp. Figure 1 ). 33 Our results here demonstrate that miR-100 overexpression, by using pre-miR-100 to replenish miR-100 levels in GBM cells, activates the cell cycle inhibitor p21 and inhibits pathways that are important for cell survival and proliferation (e.g., AKT, ERK, and STAT3), and targets SMARCA5 and ErbB3 (Her3).
+
+We observed lower abundance of miR-100-5p in patient-derived GBM TICs compared to human neural stem cells, and found that transfection with pre-miR-100 decreased the proliferation and viability of GBM TICs. Further, in silico analysis to TCGA database we found that median expression of miR-100-5p for GBM is 10.75 units while for low grade glioma is 7806.94 units. Low grade glioma is around 780 times higher. These data suggest that miR-100 probably plays an important role in limiting GBM growth by modulating 1 or more of its targets, in addition to previously identified SMRT/NCOR2. 13 
+
+By further refining the bioinformatics analysis of miR-100-5p targets, we identified SMARCA5 (SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5) as a target of miR-100-5p. When we combined the target predictions provided by the microRNA.org , PICTAR, and TARGETSCAN algorithms, only 18 targets were identified in common ( Figure 1C ). We have calculated the prediction score from the 3 different systems and reported the top 6 candidates. Of these, SMARCA5 was the only 1 with a highest score collectively ( Table 1 ). SMARCA5 is reported to be highly expressed in proliferating stem and progenitor cells, and its activity disappears or is reduced considerably in terminally differentiated cells. 34 , 35 In addition, in silico analysis of circSMARCA5 by Barbagallo et al. revealed SMARCA5 as a potential malignancy inhibitor to GBM expansion. 36 Thus, we investigated whether SMARCA5 also plays a role in the down-regulation of miR-100-5p in GBM tumors and in the subsequent effect on GBM growth. Luciferase reporter assays confirmed that SMARCA5 is a target of miR-100 ( Figure 1G ). In addition, we have demonstrated that miR-100 expression reduces the expression of SNF2 H (the SMARCA5 -encoded protein) in GBM TICs by approximately 50% ( Figure 1G ). This finding suggests that miR-100-5p silences the SMARCA5 -encoded transcript and that the SNF2 H protein might play a role in GBM tumorigenesis.
+
+It was reported that SMARCA5 interacts with HDAC3 37 , 38 which modulates AKT. It is also known that AKT controls cell survival and proliferation. 39 , 40 In our study, we observed that the knockdown of SMRT or of SMARCA5, or overexpression of pre-miR-100, reduced the phosphorylation of AKT and ERK in GBM TICs. ErbB (Her) family proteins are known to act upstream of both the AKT and ERK pathways. 41 , 42 The knockdown of SMRT or SMARCA5, or transfection with pre-miR-100, significantly decreased ErbB3 (Her3) protein levels in GBM TICs. However, the precise mechanism by which ErbB3 protein levels are reduced is not clear because ErbB3 lies upstream of the AKT and ERK pathways. Interestingly, our bioinformatics analysis revealed that ErbB3 is a target of miR-100-3p, the less predominant form of miR-100 that is released from pre-miR-100. In this work, ErbB3 3’UTR luciferase vector experiments confirmed this miR-target relationship ( Figure 3E ). The data related to miR-100-3p was an interesting observation that was not explored previously. TCGA has no miR-100-3p expression data listed. 43 Thus, we can not correlate it with patients survival. However, assessing our data showed better outcome with miR-100 precursor (miR-100-5p + miR-100-3p) than miR-100-5p alone. The precursor in this case is more effective because it targets 3 or more genes rather than 2 oncogenic genes. The miR-100 precursor targets SMRT, SMARCA5, and EebB3 While miR-100-5p targets ErbB3 in our assays.
+
+Recent studies have shown that SMARCA5 needs to be highly expressed for stem cell self-renewal 44 and that HDAC3 is required for the function of the SMARCA5 -encoded protein SNF2 H. 38 Furthermore, SMRT is essential for HDAC3 activity, 45 - 47 and the induction of a DNA-damage response by SMRT inhibition leads to increased p21 levels. 48 - 50 Consistent with this finding, we observed that p21 protein levels were increased by 100% in GBM TIC lines transfected for miR-100-5p overexpression, or with transfected with an siRNA that silences SMRT relative to control cells ( Figure 4C ). This p21 induction resulting from miR-100 activity suggests that GBM TIC proliferation will be inhibited. There is an inverse relationship between p21 levels and STAT3 activation, 51 - 53 and our results showed that the overexpression of either pre-miR-100 or miR-100-5p in GBM TICs almost completely blocked STAT3 phosphorylation ( Figure 4A , B ). This suggests that miR100-mediated STAT3 inhibition can exert downstream effects on GBM growth. It worth noting that STAT3 phosphorylation at position Tyr705 works under interaction of mTOR-STAT3-Notch signaling pathway known to inhibit glioma growth and regulate stem cells. 54 , 55 
+
+The Notch1 pathway regulates SMRT activity which is known to be involved in cancer stemness. 56 , 57 Further, SMARCA5 inhibition stimulates differentiation 58 , 59 in GBM TICs which were tested for the loss of stem cell markers. The protein levels of both nestin and L1CAM were significantly lower in GBM TIC cells overexpressing miR-100-5p than in control cells ( Figure 5A and D ). As expected, knockdown of SMARCA5 and SMRT also diminished L1CAM protein levels ( Figure 5D ). The inhibition of L1CAM (CD171) was previously reported to decrease DNA damage repair (ATM; a protein kinase that is recruited and activated by DNA double-strand breaks) in GBM TICs through inhibition of NBS1 which activates ATM. 60 This suggests that the loss of miR-100-5p in GBMs plays a role in maintaining the ‘stem cell-like’ status of GBM TICs. Similarly, miR-100 was found to target the SMARCA5-encoded protein SNF2 H in adenocarcinoma cells. 61 Thus, SMARCA5 may partially play an important role in cancer by maintaining the de-differentiated state of cancer stem-like cells.
+
+Mice implanted with GBM TICs that were transfected with stable pre-miR-100 expression or inducible pre-miR-100 expression vectors showed tumor xenograft immunostaining that revealed decreased ErbB2 (Her2) and ErbB3 (Her3) protein levels in the pre-miR-100 group compared to the control group ( Figure 6A , B ).
+
+This study provides evidence that miR-100 indirectly inhibits 3 major pathways (STAT3, AKT, and ERK) in GBM TICs. STAT3 is inhibited by the up-regulation of p21 that results from the miR-100-mediated down-regulation of SMRT and/or SMARCA5. AKT and ERK are inhibited by the suppression of either HDAC or ErbB3. The proliferation of GBM TICs was markedly reduced, and differentiation was induced following transfection with pre-miR-100.
+
+In conclusion, our studies show that miR-100 targets many pathways that might contribute to tumorigenicity. A recent randomized clinical trial showed that miR-100 is also responsible for vitamin D-induced tumor suppression in primary prostate cancer. 62 Furthermore, many studies have linked miR-100 with sensitizing tumors to radiotherapy. 12 , 63 , 64 Findings reported in this study suggest that altering miR-100 levels and its downstream effects (possibly with pre-miR-100 or analogs) might have potential clinical applications in GBM treatment strategies.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supp._Figure_2_paper_SMARCA5 - MicroRNA miR-100 Decreases Glioblastoma Growth by Targeting SMARCA5 and ErbB3 in Tumor-Initiating Cells
+File: Supp._Figure_2_paper_SMARCA5.tif
+Supplemental_Fig.1_new2 - MicroRNA miR-100 Decreases Glioblastoma Growth by Targeting SMARCA5 and ErbB3 in Tumor-Initiating Cells
+File: Supplemental_Fig.1_new2.tiff

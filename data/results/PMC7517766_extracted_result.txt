@@ -1,0 +1,19 @@
+Source: PMC7517766_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Implementation of Survivorship Care Plans in Patients With Glioblastoma",
+  "condition_E": 1,
+  "condition_E_reason": "Demographic and clinical characteristics of the patients are shown in Table 3.",
+  "N_E": 1,
+  "N_E_reason": "A 100% response rate was obtained from the eligible patients (N = 18).",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "Patients had received surgery and radiation and were receiving an oral alkylating agent and/or bevacizumab.",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

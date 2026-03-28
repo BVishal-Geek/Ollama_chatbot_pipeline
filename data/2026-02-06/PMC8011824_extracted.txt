@@ -1,0 +1,68 @@
+================================================================================
+ARTICLE TITLE: Does gender influence the relationship between high blood pressure and dementia? Highlighting areas for further investigation
+PMCID: PMC8011824
+PMID: 32955459
+KEYWORDS: systematic review, female, sex, gender, blood pressure, hypertension, dementia, alzheimer type, vascular, aging, neurobiology
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+Gender differences have been noted in studies linking blood pressure to all-cause dementia, and the two most common forms of dementia: Alzheimer’s disease (AD) and vascular dementia (VaD). However, how gender modifies the relationship between blood pressure and dementia remains unclear.
+
+Objective::
+To review evidence for a gender modifying effect on the link between blood pressure and all-cause dementia.
+
+Methods::
+A systematic review was conducted according to PRISMA guidelines. 16 out of 256 reviewed articles met inclusion criteria.
+
+Results::
+For women, higher midlife systolic blood pressure (SBP) and hypertension were both associated with greater risk of all-cause dementia, AD and VaD, in six out of seven studies. Two of these studies reported higher midlife SBP/hypertension were associated with greater risk for all-cause dementia in women, but not men. One study reported higher midlife SBP associated with greater AD risk in women, but not men. However, another study reported that midlife hypertension associated with AD risk in men, but not women. No clear gender differences were reported in the relationship between late-life high blood pressure/hypertension with all-cause dementia or AD.
+
+Conclusions::
+Studies rarely, and inconsistently, analyzed or reported gender effects. Therefore, interpretation of available evidence regarding the role of gender in blood pressure associated dementia was difficult. Several studies indicated higher midlife SBP was associated with greater risk of all-cause dementia for women, compared to men. Future studies should evaluate women-specific aging processes that occur in midlife when considering the association between blood pressure and dementia risk.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

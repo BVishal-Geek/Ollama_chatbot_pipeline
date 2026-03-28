@@ -1,0 +1,19 @@
+Source: PMC7613514_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Safety of oral ivermectin during pregnancy: a systematic review and meta-analysis",
+  "condition_E": 1,
+  "condition_E_reason": "The extracted data included the study design, the study settings and population characteristics.",
+  "N_E": 1,
+  "N_E_reason": "893 women with 899 pregnancy outcomes were included.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "397 pregnant women purposely received ivermectin as part of the open-label RCT.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The primary outcome measure was adverse pregnancy outcome (stillbirth, spontaneous abortions, or congenital malformations).",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

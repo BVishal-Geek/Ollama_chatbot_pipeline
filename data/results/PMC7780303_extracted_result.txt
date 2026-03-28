@@ -1,0 +1,19 @@
+Source: PMC7780303_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Prediction of Prognostic Biomarkers and Construction of an Autophagy Prognostic Model for Colorectal Cancer Using Bioinformatics",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical information including gender, age, survival status, tumor grade, stage, and other information were included in the clinical data.",
+  "N_E": 1,
+  "N_E_reason": "A total of 452 CRC patients who had available clinical data as well as gene expression patterns were enrolled in this study.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data was obtained from The Cancer Genome Atlas (TCGA) database.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

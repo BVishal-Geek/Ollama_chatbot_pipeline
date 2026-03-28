@@ -1,0 +1,188 @@
+================================================================================
+ARTICLE TITLE: Changing Disparity of Gastric Cancer Incidence by Histological Types in US Race-Specific Populations
+PMCID: PMC8480345
+PMID: 33297759
+KEYWORDS: cancer, gastric non-cardia, gastric cardia, disparity, race/ethnicity
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+The incidence pattern of gastric cancer by histological types across major race/ethnic groups is unknown.
+
+Methods::
+Age-standardized rates from 1992-2016 by race/ethnicity were calculated using data from Surveillance, Epidemiology, and End Results Program (SEER). Annual percent changes (APCs) in rates and corresponding 95% confidence intervals (CIs) were calculated and pairwise comparison of rates between race/ethnic groups was performed using the Joinpoint Regression Program. Calendar periods of incidence rates of gastric cardia and non-cardia cancer by histological types across race/ethnicity groups were shown by figures.
+
+Results::
+The White population has the highest incidence of gastric cardia adenocarcinoma and the incidence is keeping constant from 1992 through 2016 except the decreasing in the Asian population (AAPC = −1.4, 95%CI (−2.1, −0.8)). Although the incidence of non-cardia adenocarcinoma is decreasing in each group, the descending trend in the Asian population is the quickest (AAPC = −3.8, 95%CI (−4.0, −3.5)). Gastric carcinoids were observed to have statistically significant increasing trends in all race/ethnicity groups, especially in Hispanic women from 0.4 per 100,000 to 1.6 per 100,000 persons. The incidence of gastrointestinal stromal tumors (GISTs) is rising, with Non-Hispanic blacks having the highest incidence.
+
+Conclusion::
+This study demonstrated disparities in the incidence of gastric cancer by histological types among different race/ethnic groups. Further investigations are warranted to understand the changing incidence patterns by race/ethnicity.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Gastric cancer is one of the most common cancers worldwide, with 1.03 million incident cases and 783 000 deaths in 2018. 1 In the United States (U.S.), it is estimated that there are 27,600 new cases of gastric cancer in 2020, which accounts for 1.5% of all new cancer cases. 2 Although, gastric cancer incidence has globally decreased since the past decades, it still remains a heavy burden in East Asia (China and Japan), accounting for 50% of all new gastric cancer cases worldwide. 3 Anatomically, gastric cancer can be divided into two types: gastric cardia cancer and gastric non-cardia cancer (or distal gastric cancer). The cardia is located at the junction of the esophagus and stomach. Non-cardia stomach subsite locations include (in order from proximal to distal location) the fundus, body, antrum, and pylorus. 4 Interestingly, although the incidence of non-cardia gastric cancer has been decreasing continuously for decades, the incidence of gastric cardia cancer is increasing. 5 Numerous recent research studies have investigated the causes for this contrasting epidemiologic pattern.
+
+Histologically, adenocarcinoma is the major subtype accounting for approximately 90% of all gastric cancers in the U.S. Gastric adenocarcinoma develops from the innermost layer (mucosa) of the stomach. 6 Other major histological subtypes include gastric carcinoid tumors (also called neuroendocrine tumors, NET), gastric stromal tumors (gastrointestinal stromal tumors, GISTs), and gastric lymphoma. Gastric carcinoids comprise about 0.1 to 0.6% of all gastric cancer. It is a rare neoplasm arising from the neuroendocrine cells in the stomach. 7 GISTs are the most common mesenchymal tumors (sarcoma) in the stomach which originate from the interstitial cells of Cajal. 8 Some recent studies have indicated increasing incidence of carcinoids, GISTs, and gastric lymphoma in general but detailed studies on examination of gastric cancer by histological types and tumor subsite locations within the stomach are lacking. Moreover, few studies have reported disparities in gastric cancer incidence by histological subtypes in different populations. Using data from the U.S. Surveillance, Epidemiology, End results and Epidemiology program (SEER), we initiated this study to investigate the incidence of gastric cancer by histological types among major U.S. race/ethnic groups.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+Cancer data were extracted from the SEER database, a population-based cancer registry program in U.S. Our analysis included diagnosed gastric cancer cases from 1992 to 2016 from 13 registries (Atlanta, Connecticut, Detroit, Hawaii, Iowa, New Mexico, San Francisco-Oakland, Seattle-Puget Sound, Utah, San Jose-Monterey, Los Angeles, Rural Georgia, and Alaska Natives) covering approximately 13.4% of the U.S. population. 9 
+
+The third edition of the International Classification of Diseases for Oncology (ICD-O-3) was used to identify gastric cancer as C160-C169 which has been validated in SEER. 10 Among them, gastric cardia cancer has codes C160, and gastric non-cardia cancer has codes C161-C169. From 2010, SEER has implemented the schema discriminator to further distinguish the gastric cardia cancer and gastric non-cardia cancer cases. 11 Specifically, for primary sites C161 and C162, all schema discriminator coded to 020, 040, 060 will go to gastric cardia (or namely gastroesophageal junction), and the remaining codes will go to the stomach schema. ICD-O-3 codes for histological subtypes of gastric cancer were (1) adenocarcinoma: 8140-8145, 8147, 8210, 8211, 8214, 8220, 8221, 8230, 8231, 8255, 8260-8263, 8310, 8480, 8481, 8490, 8510, 8560, 8562, 8570-8576; (2) carcinoids: 8240-8246, 8249; (3) GISTs: 8936. 12 We only included malignant tumors in this analysis. As gastric cancer is a rare event in population aged younger than 20, we excluded those patients from the analyses.
+
+Gastric cancer cases were categorized by sex, and two age categories defined as age of diagnosis less than 60 years, or greater than or equal to 60 years. Because the number of gastric cancer in ages younger than age 50 is small, we chose 60 years, the average age of diagnose as the cut-off point. Race and ethnicity were categorized as Non-Hispanic White, Non-Hispanic Black, Non-Hispanic Asian Pacific Islander and Hispanic. We dropped data for Native Americans from the analysis due to small numbers of cases when race/ethnicity was specified. Histological types were categorized as adenocarcinoma, carcinoids or GISTs. Other histological types were not included due to small numbers. Adenocarcinoma in the gastric cardia and gastric non-cardia were analyzed separately, but carcinoids or GISTs were analyzed as a whole (including gastric cardia and gastric non-cardia).
+
+To control confounding effect of age and sex, U.S. population in year 2000 was used as the standard to calculate the standardized rate. Crude incidence rates were computed in every 5-year age group starting at 20 until 85+. Direct method was applied to calculate the expected, stratum-specific number of gastric cancer cases based on the standard population. The number of cases by a single year in some groups were very small, especially for carcinoids and GISTs. In order to avoid large fluctuations due to small numbers of cases, we used calendar period based on every 5 years from 1992 through 2016. In each period, standardized incidence rate was computed by summation of the stratum-specific expected number of gastric cancer cases divided by the total number of standard population in that period. The unit of incidence rate was per 100,000 persons. We also calculated the annual standardized incidence rate for Joinpoint regression analysis as follows.
+
+We performed Joinpoint Regression to measure incidence trends over time by race/ethnicity groups. Dependent variable is the natural logarithm of annual standardized incidence rates and independent variable is year from 1992 to 2016. For GISTs, zero number of cases were found in early years in Asian and Hispanic population. We ran 2 different analyses for GISTs: one replaced 0 with 0.5 based on the suggestion by the Joinpoint Regression program 13 ; second, we run Joinpoint Regression for GISTs starting from 1996 when no zero number of cases were found in groups. Grid search methods and permutation test was performed for determining the number of joinpoints that reflect the statistically different trends occurring over years. 14 
+
+Annual percent changes (APCs) and the corresponding 95% confidence interval (CI) were computed. Average annual percentage changes (AAPCs) were calculated by a weighted average of APCs during the whole studying period. 15 We further ran pairwise comparison to test parallelism and coincidence of incidence rates between race/ethnicity groups.
+
+All standardized incidence rates were computed by the SAS (SAS9.4, SAS Institute, North Carolina) and verified in the SEER*Stat. Joinpoint Regression model and all relevant statistics including APCs and AAPCs were estimated by the Joinpoint Regression Program version 4.8.0.1. The program was developed by the Statistical Methodology and Applications Branch, Surveillance Research Program, National Cancer Institute.
+
+
+Study Population
+
+Cancer data were extracted from the SEER database, a population-based cancer registry program in U.S. Our analysis included diagnosed gastric cancer cases from 1992 to 2016 from 13 registries (Atlanta, Connecticut, Detroit, Hawaii, Iowa, New Mexico, San Francisco-Oakland, Seattle-Puget Sound, Utah, San Jose-Monterey, Los Angeles, Rural Georgia, and Alaska Natives) covering approximately 13.4% of the U.S. population. 9 
+
+
+Identification of Gastric Cancer
+
+The third edition of the International Classification of Diseases for Oncology (ICD-O-3) was used to identify gastric cancer as C160-C169 which has been validated in SEER. 10 Among them, gastric cardia cancer has codes C160, and gastric non-cardia cancer has codes C161-C169. From 2010, SEER has implemented the schema discriminator to further distinguish the gastric cardia cancer and gastric non-cardia cancer cases. 11 Specifically, for primary sites C161 and C162, all schema discriminator coded to 020, 040, 060 will go to gastric cardia (or namely gastroesophageal junction), and the remaining codes will go to the stomach schema. ICD-O-3 codes for histological subtypes of gastric cancer were (1) adenocarcinoma: 8140-8145, 8147, 8210, 8211, 8214, 8220, 8221, 8230, 8231, 8255, 8260-8263, 8310, 8480, 8481, 8490, 8510, 8560, 8562, 8570-8576; (2) carcinoids: 8240-8246, 8249; (3) GISTs: 8936. 12 We only included malignant tumors in this analysis. As gastric cancer is a rare event in population aged younger than 20, we excluded those patients from the analyses.
+
+
+Statistical Analysis
+
+Gastric cancer cases were categorized by sex, and two age categories defined as age of diagnosis less than 60 years, or greater than or equal to 60 years. Because the number of gastric cancer in ages younger than age 50 is small, we chose 60 years, the average age of diagnose as the cut-off point. Race and ethnicity were categorized as Non-Hispanic White, Non-Hispanic Black, Non-Hispanic Asian Pacific Islander and Hispanic. We dropped data for Native Americans from the analysis due to small numbers of cases when race/ethnicity was specified. Histological types were categorized as adenocarcinoma, carcinoids or GISTs. Other histological types were not included due to small numbers. Adenocarcinoma in the gastric cardia and gastric non-cardia were analyzed separately, but carcinoids or GISTs were analyzed as a whole (including gastric cardia and gastric non-cardia).
+
+To control confounding effect of age and sex, U.S. population in year 2000 was used as the standard to calculate the standardized rate. Crude incidence rates were computed in every 5-year age group starting at 20 until 85+. Direct method was applied to calculate the expected, stratum-specific number of gastric cancer cases based on the standard population. The number of cases by a single year in some groups were very small, especially for carcinoids and GISTs. In order to avoid large fluctuations due to small numbers of cases, we used calendar period based on every 5 years from 1992 through 2016. In each period, standardized incidence rate was computed by summation of the stratum-specific expected number of gastric cancer cases divided by the total number of standard population in that period. The unit of incidence rate was per 100,000 persons. We also calculated the annual standardized incidence rate for Joinpoint regression analysis as follows.
+
+We performed Joinpoint Regression to measure incidence trends over time by race/ethnicity groups. Dependent variable is the natural logarithm of annual standardized incidence rates and independent variable is year from 1992 to 2016. For GISTs, zero number of cases were found in early years in Asian and Hispanic population. We ran 2 different analyses for GISTs: one replaced 0 with 0.5 based on the suggestion by the Joinpoint Regression program 13 ; second, we run Joinpoint Regression for GISTs starting from 1996 when no zero number of cases were found in groups. Grid search methods and permutation test was performed for determining the number of joinpoints that reflect the statistically different trends occurring over years. 14 
+
+Annual percent changes (APCs) and the corresponding 95% confidence interval (CI) were computed. Average annual percentage changes (AAPCs) were calculated by a weighted average of APCs during the whole studying period. 15 We further ran pairwise comparison to test parallelism and coincidence of incidence rates between race/ethnicity groups.
+
+All standardized incidence rates were computed by the SAS (SAS9.4, SAS Institute, North Carolina) and verified in the SEER*Stat. Joinpoint Regression model and all relevant statistics including APCs and AAPCs were estimated by the Joinpoint Regression Program version 4.8.0.1. The program was developed by the Statistical Methodology and Applications Branch, Surveillance Research Program, National Cancer Institute.
+
+
+Categorization and grouping
+
+Gastric cancer cases were categorized by sex, and two age categories defined as age of diagnosis less than 60 years, or greater than or equal to 60 years. Because the number of gastric cancer in ages younger than age 50 is small, we chose 60 years, the average age of diagnose as the cut-off point. Race and ethnicity were categorized as Non-Hispanic White, Non-Hispanic Black, Non-Hispanic Asian Pacific Islander and Hispanic. We dropped data for Native Americans from the analysis due to small numbers of cases when race/ethnicity was specified. Histological types were categorized as adenocarcinoma, carcinoids or GISTs. Other histological types were not included due to small numbers. Adenocarcinoma in the gastric cardia and gastric non-cardia were analyzed separately, but carcinoids or GISTs were analyzed as a whole (including gastric cardia and gastric non-cardia).
+
+
+Calculation of age- and sex-specific standardized incidence rate
+
+To control confounding effect of age and sex, U.S. population in year 2000 was used as the standard to calculate the standardized rate. Crude incidence rates were computed in every 5-year age group starting at 20 until 85+. Direct method was applied to calculate the expected, stratum-specific number of gastric cancer cases based on the standard population. The number of cases by a single year in some groups were very small, especially for carcinoids and GISTs. In order to avoid large fluctuations due to small numbers of cases, we used calendar period based on every 5 years from 1992 through 2016. In each period, standardized incidence rate was computed by summation of the stratum-specific expected number of gastric cancer cases divided by the total number of standard population in that period. The unit of incidence rate was per 100,000 persons. We also calculated the annual standardized incidence rate for Joinpoint regression analysis as follows.
+
+
+Joinpoint regression analysis
+
+We performed Joinpoint Regression to measure incidence trends over time by race/ethnicity groups. Dependent variable is the natural logarithm of annual standardized incidence rates and independent variable is year from 1992 to 2016. For GISTs, zero number of cases were found in early years in Asian and Hispanic population. We ran 2 different analyses for GISTs: one replaced 0 with 0.5 based on the suggestion by the Joinpoint Regression program 13 ; second, we run Joinpoint Regression for GISTs starting from 1996 when no zero number of cases were found in groups. Grid search methods and permutation test was performed for determining the number of joinpoints that reflect the statistically different trends occurring over years. 14 
+
+Annual percent changes (APCs) and the corresponding 95% confidence interval (CI) were computed. Average annual percentage changes (AAPCs) were calculated by a weighted average of APCs during the whole studying period. 15 We further ran pairwise comparison to test parallelism and coincidence of incidence rates between race/ethnicity groups.
+
+All standardized incidence rates were computed by the SAS (SAS9.4, SAS Institute, North Carolina) and verified in the SEER*Stat. Joinpoint Regression model and all relevant statistics including APCs and AAPCs were estimated by the Joinpoint Regression Program version 4.8.0.1. The program was developed by the Statistical Methodology and Applications Branch, Surveillance Research Program, National Cancer Institute.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+There were 18719 diagnosed gastric cardia adenocarcinoma cases during 1992 through 2016. The highest incidence of gastric cardia adenocarcinoma was observed in the White male population. Moreover, we found a significantly decreasing trend of gastric cardia adenocarcinoma in the Asian population (AAPC = −1.4, 95%CI (−2.1, −0.8)) but other groups kept constantly over period ( Figure 1 and Table 1 ). Disparity of gastric cardia adenocarcinoma by race/ethnicity is large in the male population but less apparent among females. In the pairwise comparison, the test of coincidence and parallelism of incidence rates in Asian and Hispanic population failed to reject the null hypothesis. It indicates that incidence of cardia adenocarcinoma in the Asian population is similar to the Hispanic population. Comparison of coincidence between other groups did not show the same results (supplementary results for pairwise comparison).
+
+Sex-specific incidence of adenocarcinoma in the gastric cardia by race/ethnicity groups, SEER, 1992-2016. (A) Men, (B) Women.
+
+Joint Point Regression Analysis of Gastric Cardia and Non-Cardia Cancer by Histological Types Across Race/Ethnicity Groups, SEER, 1992-2016.
+
+With a total number of 47142 diagnosed cases of non-cardia gastric adenocarcinoma during 1992 through 2016, the disparity among race/ethnicity groups are large ( Figure 2A and B ). The White population has the lowest incidence compared to all other race/ethnicity groups. In the population younger than 60 years, decreasing trends were noticeable in the Asian and the Black population, but not so obvious in the Hispanic and the White population (supplemental Figure 3). Specifically, young Hispanic had the similar incidence with Asian and Pacific Islanders since the end of 1990s when the incidence in Asian and Pacific Islanders decreased substantially (supplemental Figure 4 and Figure 2B ). In population older than 60 years, incidence of gastric non-cardia cancer continued to decline sharply in all race/ethnicity groups (supplemental Figure 4). The largest decrease was observed in the Asian Pacific Islanders who cut more than half of the incidence from 22.9 per 100,000 in 1992-1996 to 10.6 per 100,000 in the most recent years. The same decreasing patterns were observed in men and women except Hispanic women whose decrease was not so noticeable. In 1992-1996, the incidence of gastric non-cardia cancer in the White male population was approximately one-third of that in the Asian and Pacific Islanders (8.4 per 100,000 versus 29.9 per 100,000), and in 2012-2016, it had almost a quarter of that in the same population (3.6 per 100,000 versus 13.9 per 100,000). The amounts in the both populations declined substantially (supplemental Figure 4). In pairwise comparison, all coincidence tests rejected the null hypothesis. It indicated that incidence rates of gastric non cardia adenocarcinoma are different between race/ethnic groups. For parallelism test, Asian and White populations failed to reject the null hypothesis of parallelism. The results might inform the similar decreasing speed of the gastric non cardia adenocarcinoma in these 2 populations (supplementary results for pairwise comparison).
+
+Sex-specific incidence of adenocarcinoma in the gastric non-cardia by race/ethnicity groups, SEER, 1992-2016. (A) Men; (B) Women.
+
+Increasing incidence rates of gastric carcinoids are more apparent in women than in men (sex ratio: women: men = 1.85:1, Figure 3A and B ). This escalation is especially pronounced in Hispanic and black women ( Figure 3B , supplemental Figure 5 and Figure 6). Nearly the entire population showed significant increases since 1992-2016 ( Table 1 ). The incidence of carcinoids in Hispanic women escalated the fastest compared to other race/ethnicity groups and became the dominant group ( Figure 3B , supplemental Figure 6). The race/ethnicity disparity becomes even larger since recently ( Figure 3B ). In the pairwise comparison, all test between groups rejected the null hypothesis of coincidence that indicated incidence rates of gastric carcinoids were different between race/ethnic groups (supplementary results for pairwise comparison).
+
+Sex-specific incidence of gastric carcinoids by race/ethnicity groups, SEER, 1992-2016. (A) Men; (B) Women.
+
+Increasing trends of GISTs were observed in almost all of the populations, while the Black population has the highest incidence rates and increasing magnitude, followed next by the Asian population ( Figure 4 , supplemental Figure 7 and 8). The incidence of GISTs in the Black and Asian race/ethnic groups increases from 0.09 per 100,000 to 0.46 per 100,000 and 0.05 per 100,000 to 0.38 per 100,000 in 1992-1996 to 2012-2016 ( Figure 4 ). In pairwise comparison test, incidence rates of GISTs in the Hispanic and White showed coincidence and parallelism but no coincidence were found in other groups. The results indicated that incidence rates of GISTs were similar in Hispanic and White but disparity were found in other groups (supplementary results for pairwise comparison).
+
+Sex-specific incidence of gastric stromal tumors (GISTs) by race/ethnicity groups, SEER, 1992-2016. (A) Men; (B) Women.
+
+
+Adenocarcinoma in the Gastric Cardia
+
+There were 18719 diagnosed gastric cardia adenocarcinoma cases during 1992 through 2016. The highest incidence of gastric cardia adenocarcinoma was observed in the White male population. Moreover, we found a significantly decreasing trend of gastric cardia adenocarcinoma in the Asian population (AAPC = −1.4, 95%CI (−2.1, −0.8)) but other groups kept constantly over period ( Figure 1 and Table 1 ). Disparity of gastric cardia adenocarcinoma by race/ethnicity is large in the male population but less apparent among females. In the pairwise comparison, the test of coincidence and parallelism of incidence rates in Asian and Hispanic population failed to reject the null hypothesis. It indicates that incidence of cardia adenocarcinoma in the Asian population is similar to the Hispanic population. Comparison of coincidence between other groups did not show the same results (supplementary results for pairwise comparison).
+
+Sex-specific incidence of adenocarcinoma in the gastric cardia by race/ethnicity groups, SEER, 1992-2016. (A) Men, (B) Women.
+
+Joint Point Regression Analysis of Gastric Cardia and Non-Cardia Cancer by Histological Types Across Race/Ethnicity Groups, SEER, 1992-2016.
+
+
+Adenocarcinoma in the Gastric Non Cardia
+
+With a total number of 47142 diagnosed cases of non-cardia gastric adenocarcinoma during 1992 through 2016, the disparity among race/ethnicity groups are large ( Figure 2A and B ). The White population has the lowest incidence compared to all other race/ethnicity groups. In the population younger than 60 years, decreasing trends were noticeable in the Asian and the Black population, but not so obvious in the Hispanic and the White population (supplemental Figure 3). Specifically, young Hispanic had the similar incidence with Asian and Pacific Islanders since the end of 1990s when the incidence in Asian and Pacific Islanders decreased substantially (supplemental Figure 4 and Figure 2B ). In population older than 60 years, incidence of gastric non-cardia cancer continued to decline sharply in all race/ethnicity groups (supplemental Figure 4). The largest decrease was observed in the Asian Pacific Islanders who cut more than half of the incidence from 22.9 per 100,000 in 1992-1996 to 10.6 per 100,000 in the most recent years. The same decreasing patterns were observed in men and women except Hispanic women whose decrease was not so noticeable. In 1992-1996, the incidence of gastric non-cardia cancer in the White male population was approximately one-third of that in the Asian and Pacific Islanders (8.4 per 100,000 versus 29.9 per 100,000), and in 2012-2016, it had almost a quarter of that in the same population (3.6 per 100,000 versus 13.9 per 100,000). The amounts in the both populations declined substantially (supplemental Figure 4). In pairwise comparison, all coincidence tests rejected the null hypothesis. It indicated that incidence rates of gastric non cardia adenocarcinoma are different between race/ethnic groups. For parallelism test, Asian and White populations failed to reject the null hypothesis of parallelism. The results might inform the similar decreasing speed of the gastric non cardia adenocarcinoma in these 2 populations (supplementary results for pairwise comparison).
+
+Sex-specific incidence of adenocarcinoma in the gastric non-cardia by race/ethnicity groups, SEER, 1992-2016. (A) Men; (B) Women.
+
+
+Gastric Carcinoids
+
+Increasing incidence rates of gastric carcinoids are more apparent in women than in men (sex ratio: women: men = 1.85:1, Figure 3A and B ). This escalation is especially pronounced in Hispanic and black women ( Figure 3B , supplemental Figure 5 and Figure 6). Nearly the entire population showed significant increases since 1992-2016 ( Table 1 ). The incidence of carcinoids in Hispanic women escalated the fastest compared to other race/ethnicity groups and became the dominant group ( Figure 3B , supplemental Figure 6). The race/ethnicity disparity becomes even larger since recently ( Figure 3B ). In the pairwise comparison, all test between groups rejected the null hypothesis of coincidence that indicated incidence rates of gastric carcinoids were different between race/ethnic groups (supplementary results for pairwise comparison).
+
+Sex-specific incidence of gastric carcinoids by race/ethnicity groups, SEER, 1992-2016. (A) Men; (B) Women.
+
+
+Gastrointestinal Stromal Tumors (GIST)
+
+Increasing trends of GISTs were observed in almost all of the populations, while the Black population has the highest incidence rates and increasing magnitude, followed next by the Asian population ( Figure 4 , supplemental Figure 7 and 8). The incidence of GISTs in the Black and Asian race/ethnic groups increases from 0.09 per 100,000 to 0.46 per 100,000 and 0.05 per 100,000 to 0.38 per 100,000 in 1992-1996 to 2012-2016 ( Figure 4 ). In pairwise comparison test, incidence rates of GISTs in the Hispanic and White showed coincidence and parallelism but no coincidence were found in other groups. The results indicated that incidence rates of GISTs were similar in Hispanic and White but disparity were found in other groups (supplementary results for pairwise comparison).
+
+Sex-specific incidence of gastric stromal tumors (GISTs) by race/ethnicity groups, SEER, 1992-2016. (A) Men; (B) Women.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+The incidence rate of gastric cardia adenocarcinoma is predominant in male Non-Hispanic Whites. In contrast, the incidence rate of gastric non-cardia adenocarcinoma is the lowest in this population, whereas Asian, Black, and Hispanic race/ethnicities have the similar incidences of non-cardia gastric adenocarcinoma after decreasing for decades. Furthermore, the incidence rates of both gastric carcinoids and gastric GIST were observed to increase, with a striking escalation in Hispanic women and non-Hispanic Blacks, respectively.
+
+We observed that Whites have the highest risk of gastric cardia adenocarcinoma compared to other race/ethnicity groups. Incidence in women is much lower than that in men. The difference among race/ethnicity is more evident in males (supplementary Table 2). Our observations are consistent with 2 other studies. 16 , 17 This racial and sex differences might be partially attributed to obesity, especially abdominal obesity, which increases risks of gastric cardia adenocarcinoma. 17 , 18 Other risk factors may include socioeconomic status and smoking, which are also associated with risk of gastric cardia cancer. 19 
+
+The continuously decreasing incidence of gastric non-cardia cancer aligns with other investigations. 16 , 17 It has been broadly accepted that the declining rate of gastric cancer is associated with multiple factors. For example, the increased use of refrigeration for food storage, the increased intake of fresh vegetables and fruits and the reduced consumption of salted or smoked food. It may be also linked to the broad use of antibiotics treatment which kills H pylori , and the substantially improved sanitary conditions which reduced the chance to be infected. 3 Although the decreasing trend of gastric non-cardia cancer has been observed in almost all race/ethnicity groups, the incidence rates in the young Hispanic and White population haven’t changed as noticeably. More enigmatically, young Hispanic have become the dominant population with the highest incidence of gastric non-cardia cancer since the 2000s when the incidence decreased substantially in the Asian and Black population. A few other studies have observed a similar variation in rates that could not be easily interpreted. 17 , 20 , 21 For example, in Merchant’s study, they found a rising trend of advanced gastric cancer in young Hispanic men that is consistent with our study. 21 Further investigations in this sub-population are highly warranted.
+
+We report a significant increasing trend of carcinoid tumors in the stomach which is consistent with other studies. 22 - 24 In our analysis, race/ethnicity and sex disparities were observed. Hispanic women have the highest incidence of gastric carcinoids and the Asian ranked the lowest. Results from 2 studies using SEER data did not specifically report on incidence in young Hispanic women which may be due to their shorter study periods. 23 , 25 One possible explanation of this preponderance in Hispanics may be related to environmental and genetic factors, which was reported in a meta-analysis. It showed that that family history of cancer, diabetes and smoking are the potential risks of carcinoids in stomach. 26 Sex hormones may play a role in the pathogenesis of gastric carcinoid and drive the increment in Hispanic young women. It is still controversial whether this accelerated incidence was due to the real increase or change of diagnosis 27 because carcinoids are rare, heterogeneous and indolent. 28 Although there is no agreement with respect to the underlying factors of the expeditious growth of gastric carcinoids yet, the increasing trends may reflect our better understanding of its complex biological characteristics, the widely intake of proton pump inhibitors, 29 having improved diagnostic approaches (endoscopic procedures, polyps biopsy), 30 more refined pathological experience and physician awareness. This also implies there exists detection bias in past few decades which might underestimate population-based carcinoid incidence rates.
+
+Our data on the incidence of GISTs are interesting as well. A few studies have revealed that Black men had the highest incidence of malignant GISTs, 31 , 32 while previous studies did not report such a marked escalation in most populations which may be due to the short study periods. The increase of GISTs might be attributed to the understanding of the molecular pathogenesis of GISTs during the past decades which facilitates the diagnosis of these tumors. Similar to carcinoids, improved diagnostic approaches such endoscopy utilization may further this escalation. However, the reason why Blacks had the highest incidence and increased the fastest is unknown. GISTs were previously misclassified as a kind of leiomyomas. It is now known that KIT and platelet-derived growth factor receptor α (PDGRF-α) gene mutation is associated with GISTs. 33 Thus, a more accurate diagnosis of measuring KIT protein expressed is implemented. 34 
+
+The strength of this analysis included a large number of cases of rare cancer and calculated age-sex -standardized rates by race and ethnicity. In addition, we utilized the longest study period possible to observe the trends of such rare malignancies. We also distinguished cases between cardia and non-cardia gastric cancer after 2010. SEER is a population-based cancer registry in the US, but limited information was collected, for example, it is not a nationwide data set, which may lead to the bias when we calculate the incidence based on the population in the catchment area. Secondly, the number of cases in the Indian/Alaskan Native Americans are too few by sexes, it is unable to show a steadily changing incidence. Therefore, we have to remove this race/ethnicity group from the total analyses. Thirdly, as the change of ICD codes since 2010, there might be some misclassifications of adenocarcinoma in the cardia and the non-cardia before 2010. The interpretation of the changing trends, therefore, need to be very cautious. We may need more years of data to verify the current findings. Lastly, although we have detected the changing incidences among groups of race/ethnicity, we are not able to identify the causality because of lacking risks factors in the SEER data.
+
+In conclusion, our results show that the incidence rates of carcinoids and GISTs are increasing. The changing incidence of gastric cardia and gastric non-cardia cancer by race/ethnicity groups is enigmatic and may indicate change of causal factors.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+Supplemental Material, sj-rar-1-ccx-10.1177_1073274820977152 - Changing Disparity of Gastric Cancer Incidence by Histological Types in US Race-Specific Populations
+File: sj-rar-1-ccx-10.1177_1073274820977152.rar

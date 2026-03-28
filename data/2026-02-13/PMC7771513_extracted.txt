@@ -1,0 +1,60 @@
+================================================================================
+ARTICLE TITLE: Session Intro: ARTIFICIAL INTELLIGENCE FOR ENHANCING CLINICAL MEDICINE
+PMCID: PMC7771513
+PMID: Not found
+KEYWORDS: artificial intelligence, machine learning, bioinformatics, augmented clinical decision making
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Machine learning and deep learning have revolutionized our ability to analyze and find patterns in multi-dimensional and intricate datasets. As such, these methods have the ability to help us decipher the large volume of data generated within healthcare. These tools hold the promise of enhancing patient care through several modalities, including clinical decision support, monitoring tools, image interpretation, and triaging capabilities. For the 2020 Pacific Symposium on Biocomputing’s session on Artificial Intelligence for Enhancing Clinical Medicine, we highlight novel research on the application of artificial intelligence to solve problems within the field of medicine.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Artificial intelligence aims to create computer programs that can abstractly reason and make generalizations about the world. 1 While general artificial intelligence remains elusive, we observe continued advances and applications in machine learning, the science of creating algorithms that improve in performance with increasing data and experience. 1 Deep learning, a subset of machine learning that uses multi-layer networks, has particularly gained popularity in the past several years for solving complex tasks with large amounts of data. As the emerging potential of such technology advances, researchers have been fascinated with the idea of harnessing artificial intelligence for accomplishing tasks in biomedical research and clinical medicine, an idea first proposed in the 1970s. 2
+
+Medicine is now ripe for the use of such technology with the rise in large volumes of multi-dimensional data which has grown beyond the limitations of humans to interpret. 3 A wide range of studies applying artificial intelligence to medicine have been published, including algorithms to predict radiology imaging findings, dermatologic diagnoses, and patient outcomes from electronic medical record data. 3 Here we highlight cutting edge research in the field selected for presentation at the 2020 Pacific Symposium on Biocomputing session on “Artificial Intelligence for Enhancing Clinical Medicine.”
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+Artificial intelligence has, and will have, a wide range of applications in medicine. This ranges from predicting patient outcomes such as diagnoses and treatment efficacy todiscovering patterns in large databases to understanding disease pathogenesis. When medicine is filled with tedious, manual tasks, artificial intelligence can power automated workflows to expand access to high quality healthcare. While, further maturation of the field will require prospective validation of such technology in live clinical settings, the research highlighted here continues to provide us an optimistic view of the potential for such advancing science and technology to improve lives by enhancing clinical medicine.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

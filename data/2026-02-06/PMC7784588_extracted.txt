@@ -1,0 +1,185 @@
+================================================================================
+ARTICLE TITLE: FOXD2-AS1 Predicts Dismal Prognosis for Oral Squamous Cell Carcinoma and Regulates Cell Proliferation
+PMCID: PMC7784588
+PMID: 33103475
+KEYWORDS: foxd2-as1, oral squamous cell carcinoma, long noncoding rna, the atlas of noncoding rnas in cancer
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+The roles of long noncoding RNA FOXD2 adjacent opposite strand RNA 1 (FOXD2-AS1) in oral squamous cell carcinoma (OSCC) remain largely unknown. Here, the Atlas of Noncoding RNAs in Cancer online database was utilized to analyze the expression and clinical significance of FOXD2-AS1 in OSCC. Then, the cell proliferation of FOXD2-AS1-silenced OSCC cells (CAL-27) was assessed by MTT and clone formation experiments. FOXD2-AS1-coexpressed genes were enriched and analyzed via circlncRNAnet and Metascape tools. Finally, key molecules of the signal pathways of the aforementioned coexpressed genes were verified by western blotting. We found that FOXD2-AS1 was significantly highly expressed in OSCC tissues, and correlated with poor pathological grade and prognosis in patients with OSCC. Cell viability and clone formation ability were significantly inhibited after the knockdown of FOXD2-AS1. A total of 32 coexpressed genes of FOXD2-AS1 were identified, and those genes were enriched in the cell cycle. In conclusion, FOXD2-AS1 may be served as a potential prognostic indicator and therapeutic target for OSCC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Oral squamous cell carcinoma (OSCC) is one of the most common oral malignancies that accounts for more than 90% of all new-onset oral cancers in patients 1 . Although a great advance in the diagnosis and treatment of OSCC has achieved, the incidence and mortality rates for OSCC remain high worldwide 2 , 3 . Studies have confirmed that genetic determinants and epigenetic factors played a role in the pathogenesis of OSCC 4 , 5 , of which human papillomavirus infection and smoking are high-risk factors 6 . However, the specific molecular mechanism of OSCC occurrence and development is still not very clear.
+
+Long noncoding RNAs (lncRNAs) are commonly defined as RNA molecules that are longer than 200 nucleotides, which belong to a class of noncoding RNAs (ncRNAs). Originally, lncRNAs were thought to be transcribed copies and had no biological function. However, with the advancement of research technology, over 60,000 lncRNAs have been identified and lncRNAs have been shown to be involved in the development of many tumors. lncRNA AFAP1-AS1 promotes the invasion and metastasis of nasopharyngeal carcinoma and lung cancer by regulating the Rho/Rac signaling pathway 7 . Professor Sun’s team found that lncRNA-ATB is involved in the occurrence and development of liver cancer by regulating epithelial–mesenchymal transition 8 . LncRNA TUG1 promotes the progression of OSCC by activating Wnt/β-catenin signaling 9 and DLEU1 is highly expressed in OSCC tissues, promoting the proliferation of OSCC cells 10 . This evidence indicates that lncRNAs exert essential roles in the occurrence and progression of OSCC, so further study of the expression and mechanism of lncRNA in tumors is of great significance to understand the pathogenesis of OSCC and develop new treatments.
+
+FOXD2 adjacent opposite strand RNA 1 (FOXD2-AS1) is located in 33 regions of the short arm of chromosome 1. Studies have confirmed that FOXD2-AS1 is present in numerous types of malignant tumors, such as colorectal cancer 11 , glioma 12 , and gastric cancer 13 . FOXD2-AS1 is considered as an oncogene in multiple tumor types; however, the detailed role of FOXD2-AS1 in OSCC remains unknown. In the current study, we aimed to evaluate the expression levels of FOXD2-AS1 in human OSCC tissues and the clinical significance of patients with OSCC using data mining, and then investigate the potential mechanisms of FOXD2-AS1 in OSCC.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The Atlas of Noncoding RNAs in Cancer (TANRIC) was performed to obtain and analyze the expression levels and clinical significance of FOXD2-AS1 in the HNSCC cohort, which is an open platform to explore the function of lncRNAs using large-scale RNA-seq datasets from The Cancer Genome Atlas (TCGA) ( http://bioinformatics.mdanderson.org/main/TANRIC : Overview). The coexpressed genes with FOXD2-AS1 were analyzed by circlncRNAnet ( http://120.126.1.61/circlnc/circlncRNAnet/lncRNA_TCGA/index.php ), which was also used to draw heat map and circle diagrams. The analysis parameters are set to | r | > 0.5, P < 0.05. The enrichment analysis and mapping of FOXD2-AS1 expression-related genes were conducted by Metascape ( http://metascape.org/gp/index.html#/main/step1 ) online tool.
+
+The human OSCC cell line Cal-27 was kindly provided by the Department of Stomatology, Second Xiang Hospital, Central South University. Cal-27 cells were incubated in Roswell Park Memorial Institute (RPMI) 1640 medium, supplemented with 10% fetal bovine serum (FBS, Gibco, CA, USA) plus 1% penicillin-streptomycin at 37°C. The knockdown of FOXD2-AS1 in Cal-27 cells was accomplished by small interfering RNA (siRNA). Briefly, cells were seeded at a concentration of 1 × 10 6 cells/well in six-well plates and transfected with either FOXD2-AS1-targeted siRNA or negative control (NC) siRNA using RNAimax according to the instructions.
+
+After 48 h of transfection, total RNA in the Cal-27 cells was extracted with TRIzol reagent. cDNA synthesis and quantitative polymerase chain reaction (PCR) were carried out according to the manufacturer’s instructions. β-actin was used as the internal reference to detect the relative expression level of FOXD2-AS1. The primers were used as follows: FOXD2-AS1 F: 5′-CCGCGTAAGCCTCATAGAAG-3′; FOXD2-AS1 R: 5′-GGGAGTAGGGTGAGGAAAGG-3′; β-actin F: 5′-TCACCAACTGGGACGACATG-3′; and R: 5′-GTCACCGGAGTCCATCACGAT-3′. The 2 -△△Ct method was performed to evaluate the relative expression level of FOXD2-AS1.
+
+After 48 h of transfection, cells were trypsinized and centrifuged to collect cell pellets. The cells were then resuspended in RPMI 1640 medium supplemented with 10% FBS and then seeded at a concentration of 500 cells/well in a 96-well plate. After 1, 2, 3, 4, and 5 days of incubation, the supernatant was removed and MTT solution (20 µl) was added to each well. After 4 h of incubation, DMSO (200 µl) was added and incubated at room temperature for 10 min. The cell viability was evaluated by a microplate reader using absorbance (490 nm).
+
+After 48 h of transfection, cells were seeded at a concentration of 300 cells/well in a 6-well plate. Cells were cultured in the completed medium for 10 days, with the medium being changed once every fifth day. On day 10, 1 ml of a 1% crystal violet solution was added to stain the cells at room temperature for 10 min. The crystal violet was washed twice by PBS before the cells were photographed and recorded.
+
+After 48 h of transfection, the cells were washed twice with prechilled PBS, then lysed with RIPA buffer on ice for 30 min. The bicinchoninic acid method was used to evaluate the protein concentration. The prepared protein sample (30 µg/well) was run on 5% to 10% bis-tris gel and transferred to a polyvinylidene difluoride (PVDF) membrane. The PVDF membrane was incubated with the primary antibody at 4°C overnight. PBS was used to wash the PVDF membrane for three times. Then, the secondary antibody was added to the PVDF membrane and incubated at 37°C for 1 h. The primary antibody used is as follows: anti-CDK-2, anti-CDK4, anti-P21, and anti-Vinculin. The enhanced chemiluminescence method was used to detect protein expression intensity.
+
+The data analysis and plotting were performed by GraphPad software. All data were shown as mean ± standard deviation. Two-tailed Student’s t -test was performed to compare the difference between two groups and one-way analysis of variance was performed to compare the difference between multiple groups. A value of P < 0.05 was considered statistically significant.
+
+
+TANRIC Database Analysis
+
+The Atlas of Noncoding RNAs in Cancer (TANRIC) was performed to obtain and analyze the expression levels and clinical significance of FOXD2-AS1 in the HNSCC cohort, which is an open platform to explore the function of lncRNAs using large-scale RNA-seq datasets from The Cancer Genome Atlas (TCGA) ( http://bioinformatics.mdanderson.org/main/TANRIC : Overview). The coexpressed genes with FOXD2-AS1 were analyzed by circlncRNAnet ( http://120.126.1.61/circlnc/circlncRNAnet/lncRNA_TCGA/index.php ), which was also used to draw heat map and circle diagrams. The analysis parameters are set to | r | > 0.5, P < 0.05. The enrichment analysis and mapping of FOXD2-AS1 expression-related genes were conducted by Metascape ( http://metascape.org/gp/index.html#/main/step1 ) online tool.
+
+
+Cell Culture and Small Interfering RNA Transfection
+
+The human OSCC cell line Cal-27 was kindly provided by the Department of Stomatology, Second Xiang Hospital, Central South University. Cal-27 cells were incubated in Roswell Park Memorial Institute (RPMI) 1640 medium, supplemented with 10% fetal bovine serum (FBS, Gibco, CA, USA) plus 1% penicillin-streptomycin at 37°C. The knockdown of FOXD2-AS1 in Cal-27 cells was accomplished by small interfering RNA (siRNA). Briefly, cells were seeded at a concentration of 1 × 10 6 cells/well in six-well plates and transfected with either FOXD2-AS1-targeted siRNA or negative control (NC) siRNA using RNAimax according to the instructions.
+
+
+Quantitative Real-Time Polymerase Chain Reaction
+
+After 48 h of transfection, total RNA in the Cal-27 cells was extracted with TRIzol reagent. cDNA synthesis and quantitative polymerase chain reaction (PCR) were carried out according to the manufacturer’s instructions. β-actin was used as the internal reference to detect the relative expression level of FOXD2-AS1. The primers were used as follows: FOXD2-AS1 F: 5′-CCGCGTAAGCCTCATAGAAG-3′; FOXD2-AS1 R: 5′-GGGAGTAGGGTGAGGAAAGG-3′; β-actin F: 5′-TCACCAACTGGGACGACATG-3′; and R: 5′-GTCACCGGAGTCCATCACGAT-3′. The 2 -△△Ct method was performed to evaluate the relative expression level of FOXD2-AS1.
+
+
+MTT Assay
+
+After 48 h of transfection, cells were trypsinized and centrifuged to collect cell pellets. The cells were then resuspended in RPMI 1640 medium supplemented with 10% FBS and then seeded at a concentration of 500 cells/well in a 96-well plate. After 1, 2, 3, 4, and 5 days of incubation, the supernatant was removed and MTT solution (20 µl) was added to each well. After 4 h of incubation, DMSO (200 µl) was added and incubated at room temperature for 10 min. The cell viability was evaluated by a microplate reader using absorbance (490 nm).
+
+
+Clone Formation Experiment
+
+After 48 h of transfection, cells were seeded at a concentration of 300 cells/well in a 6-well plate. Cells were cultured in the completed medium for 10 days, with the medium being changed once every fifth day. On day 10, 1 ml of a 1% crystal violet solution was added to stain the cells at room temperature for 10 min. The crystal violet was washed twice by PBS before the cells were photographed and recorded.
+
+
+Western Blotting
+
+After 48 h of transfection, the cells were washed twice with prechilled PBS, then lysed with RIPA buffer on ice for 30 min. The bicinchoninic acid method was used to evaluate the protein concentration. The prepared protein sample (30 µg/well) was run on 5% to 10% bis-tris gel and transferred to a polyvinylidene difluoride (PVDF) membrane. The PVDF membrane was incubated with the primary antibody at 4°C overnight. PBS was used to wash the PVDF membrane for three times. Then, the secondary antibody was added to the PVDF membrane and incubated at 37°C for 1 h. The primary antibody used is as follows: anti-CDK-2, anti-CDK4, anti-P21, and anti-Vinculin. The enhanced chemiluminescence method was used to detect protein expression intensity.
+
+
+Statistical Analysis
+
+The data analysis and plotting were performed by GraphPad software. All data were shown as mean ± standard deviation. Two-tailed Student’s t -test was performed to compare the difference between two groups and one-way analysis of variance was performed to compare the difference between multiple groups. A value of P < 0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The expression level of FOXD2-AS1 was fourfold higher in OSCC tumor tissues than in normal tissues as evidenced by the data mining using TANRIC platform ( Fig. 1A ). Using the 284 OSCC RNA-seq samples, we found FOXD2-AS1 expression was related to the poor G grade of OSCC patients ( Fig. 1B ). Quite interestingly, the overall survival time of patients with high FOXD2-AS1 expression was significantly shorter than that of patients with low FOXD2-AS1 expression by large-scale sample analysis ( Fig. 1C ). These results suggest that FOXD2-AS1 may act as an oncogene in OSCC.
+
+FOXD2-AS1 is highly expressed in OSCC tissues. A. The expression levels of FOXD2-AS1 in human OSCC tissues and normal tissues obtained from TANRIC platform (T: 290 vs. N:31). B. The higher expression level of FOXD2-AS1 was associated with poor G grade of OSCC. C. Patients with high FOXD2-AS1 expression showed shorter overall survival time as compared to the patient with low FOXD2-AS1 expression. * P < 0.05, ** P < 0.01, *** P < 0.001.
+
+FOXD2-AS1: FOXD2 adjacent opposite strand RNA 1; OSCC: oral squamous cell carcinoma; TANRIC: the Atlas of Noncoding RNAs in Cancer.
+
+To investigate the function of FOXD2-AS1 in OSCC, two siRNAs (siRNA-1, siRNA-2) were designed for FOXD2-AS1 and transfected into the OSCC cell line Cal-27. Real-time PCR analysis showed that both siRNAs had a silencing effect, but siRNA2 was better ( Fig. 2A ), so it was used for subsequent experiments. The MTT assay revealed a significant difference in the cell proliferation ability on the fourth day, with the absorbance of the siRNA group being significantly lower than that of the NC group ( Fig. 2B ). Furthermore, the clone formation experiments also confirmed that the number of clones formed by the cells after silencing FOXD2-AS1 was significantly reduced ( Fig. 2C , D ), indicating that FOXD2-AS1 plays a role similar to cancer-promoting genes in OSCC.
+
+Cell proliferation and colony formation abilities are inhibited after knockdown of FOXD2-AS1. A. Quantitative real-time polymerase chain reaction was used to detect the silencing effect of FOXD2-AS1-targeted siRNAs. B. MTT assay was used to assess the effect of FOXD2-AS1-targeted siRNA2 on OSCC cell proliferation. C. The representative photographs of colony formation experiments. D. The colony formation ability was significantly inhibited after the knockdown of FOXD2-AS1. * P < 0.05, ** P < 0.01.
+
+FOXD2-AS1: FOXD2 adjacent opposite strand RNA 1; NC: negative control; OSCC: oral squamous cell carcinoma; siRNA: small interfering RNA.
+
+To explore the molecular mechanism of FOXD2-AS1 in OSCC, the expression of genes associated with FOXD2-AS1 was analyzed in the TCGA HNSCC cohort using the circlncRNAnet online tool 14 . Using | r |> 0.5 and P < 0.05 as the critical values, 32 genes coexpressed with FOXD2-AS1 expression were identified ( Fig. 3A , Table 1 ), and their expression and location on chromosomes are shown in circular diagrams in Fig. 3B . The genes related to FOXD2-AS1 expression were distributed on most chromosomes, except chromosomes 9 and 21, and Y chromosome. These genes were further enriched using Metascape software 15 , showing that signal pathways such as cell cycle were significantly enriched ( Fig. 3C ). This pathway is located at the core of the regulatory network ( Fig. 3D ); therefore, we speculate that FOXD2-AS1 may affect the cell cycle signal pathway.
+
+FOXD2-AS1 involves in regulating the cell cycle. A. A heat map of 32 genes coexpressed with FOXD2-AS1 identified by circlncRNAnet online tool. B. The chromosomal location of these 32 coexpressed genes was displayed by a circular diagram. C. Kyoto Encyclopedia of Genes and Genomes and Gene Ontology enrichment analysis of FOXD2-AS1-related genes and displayed by the bar chart. D. Interaction network obtained by Metascape software enrichment analysis.
+
+FOXD2-AS1: FOXD2 adjacent opposite strand RNA 1.
+
+The List of Genes Coexpressed With FOXD2-AS1.
+
+chr: chromosome.
+
+To explore whether the cell cycle is responsive to knockdown of FOXD2-AS1, several key molecules involved in cell cycle signaling pathway were evaluated by western blot assay, showing an increase of P21 expression as well as a decrease of CDK2 and CDK4 expression were observed after treatment with FOXD2-AS1 siRNA ( Fig. 4 ). These results suggest that the cell cycle signaling pathway is inhibited after knockdown of FOXD2-AS1.
+
+The cell cycle signaling pathway is inhibited after knockdown of FOXD2-AS1. Upregulation of P21 expression while downregulation of CDK2 and CDK4 expression was induced by knockdown of FOXD2-AS1.
+
+FOXD2-AS1: FOXD2 adjacent opposite strand RNA 1; NC: negative control.
+
+
+FOXD2-AS1 Is Highly Expressed and Associated With Poor Prognosis in OSCC
+
+The expression level of FOXD2-AS1 was fourfold higher in OSCC tumor tissues than in normal tissues as evidenced by the data mining using TANRIC platform ( Fig. 1A ). Using the 284 OSCC RNA-seq samples, we found FOXD2-AS1 expression was related to the poor G grade of OSCC patients ( Fig. 1B ). Quite interestingly, the overall survival time of patients with high FOXD2-AS1 expression was significantly shorter than that of patients with low FOXD2-AS1 expression by large-scale sample analysis ( Fig. 1C ). These results suggest that FOXD2-AS1 may act as an oncogene in OSCC.
+
+FOXD2-AS1 is highly expressed in OSCC tissues. A. The expression levels of FOXD2-AS1 in human OSCC tissues and normal tissues obtained from TANRIC platform (T: 290 vs. N:31). B. The higher expression level of FOXD2-AS1 was associated with poor G grade of OSCC. C. Patients with high FOXD2-AS1 expression showed shorter overall survival time as compared to the patient with low FOXD2-AS1 expression. * P < 0.05, ** P < 0.01, *** P < 0.001.
+
+FOXD2-AS1: FOXD2 adjacent opposite strand RNA 1; OSCC: oral squamous cell carcinoma; TANRIC: the Atlas of Noncoding RNAs in Cancer.
+
+
+Silencing FOXD2-AS1 Inhibits Proliferation and Colony Formation of OSCC Cells
+
+To investigate the function of FOXD2-AS1 in OSCC, two siRNAs (siRNA-1, siRNA-2) were designed for FOXD2-AS1 and transfected into the OSCC cell line Cal-27. Real-time PCR analysis showed that both siRNAs had a silencing effect, but siRNA2 was better ( Fig. 2A ), so it was used for subsequent experiments. The MTT assay revealed a significant difference in the cell proliferation ability on the fourth day, with the absorbance of the siRNA group being significantly lower than that of the NC group ( Fig. 2B ). Furthermore, the clone formation experiments also confirmed that the number of clones formed by the cells after silencing FOXD2-AS1 was significantly reduced ( Fig. 2C , D ), indicating that FOXD2-AS1 plays a role similar to cancer-promoting genes in OSCC.
+
+Cell proliferation and colony formation abilities are inhibited after knockdown of FOXD2-AS1. A. Quantitative real-time polymerase chain reaction was used to detect the silencing effect of FOXD2-AS1-targeted siRNAs. B. MTT assay was used to assess the effect of FOXD2-AS1-targeted siRNA2 on OSCC cell proliferation. C. The representative photographs of colony formation experiments. D. The colony formation ability was significantly inhibited after the knockdown of FOXD2-AS1. * P < 0.05, ** P < 0.01.
+
+FOXD2-AS1: FOXD2 adjacent opposite strand RNA 1; NC: negative control; OSCC: oral squamous cell carcinoma; siRNA: small interfering RNA.
+
+
+FOXD2-AS1 Involves in Regulating Cell Cycle
+
+To explore the molecular mechanism of FOXD2-AS1 in OSCC, the expression of genes associated with FOXD2-AS1 was analyzed in the TCGA HNSCC cohort using the circlncRNAnet online tool 14 . Using | r |> 0.5 and P < 0.05 as the critical values, 32 genes coexpressed with FOXD2-AS1 expression were identified ( Fig. 3A , Table 1 ), and their expression and location on chromosomes are shown in circular diagrams in Fig. 3B . The genes related to FOXD2-AS1 expression were distributed on most chromosomes, except chromosomes 9 and 21, and Y chromosome. These genes were further enriched using Metascape software 15 , showing that signal pathways such as cell cycle were significantly enriched ( Fig. 3C ). This pathway is located at the core of the regulatory network ( Fig. 3D ); therefore, we speculate that FOXD2-AS1 may affect the cell cycle signal pathway.
+
+FOXD2-AS1 involves in regulating the cell cycle. A. A heat map of 32 genes coexpressed with FOXD2-AS1 identified by circlncRNAnet online tool. B. The chromosomal location of these 32 coexpressed genes was displayed by a circular diagram. C. Kyoto Encyclopedia of Genes and Genomes and Gene Ontology enrichment analysis of FOXD2-AS1-related genes and displayed by the bar chart. D. Interaction network obtained by Metascape software enrichment analysis.
+
+FOXD2-AS1: FOXD2 adjacent opposite strand RNA 1.
+
+The List of Genes Coexpressed With FOXD2-AS1.
+
+chr: chromosome.
+
+
+Cell cycle Signaling Pathway Is Inhibited After Knockdown of FOXD2-AS1
+
+To explore whether the cell cycle is responsive to knockdown of FOXD2-AS1, several key molecules involved in cell cycle signaling pathway were evaluated by western blot assay, showing an increase of P21 expression as well as a decrease of CDK2 and CDK4 expression were observed after treatment with FOXD2-AS1 siRNA ( Fig. 4 ). These results suggest that the cell cycle signaling pathway is inhibited after knockdown of FOXD2-AS1.
+
+The cell cycle signaling pathway is inhibited after knockdown of FOXD2-AS1. Upregulation of P21 expression while downregulation of CDK2 and CDK4 expression was induced by knockdown of FOXD2-AS1.
+
+FOXD2-AS1: FOXD2 adjacent opposite strand RNA 1; NC: negative control.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+LncRNA is one of the important members of the ncRNA family and does not or rarely encodes proteins. Initially, lncRNAs were considered to have no biological function; however, with the implementation of the Human Genome Project and its subsequent Encyclopedia of DNA Elements Project (ENCODE), scientists have found that lncRNAs are involved in numerous processes during protein expression and have important biological functions 16 – 18 . Indeed, the roles of lncRNAs have emerged important in the progression of OSCC. As early as 2014, studies reported the high expression of lncRNA UCA1 in OSCC tissues, which significantly promotes the migration of OSCC cells. Further research identified that this effect may be achieved by regulating the Wnt/β-catenin signaling pathway 19 . Liang et al. found that lncRNA MALAT1 is also highly expressed in OSCC tissues, which can also promote the invasion and metastasis of OSCC cells by regulating the Wnt/β-catenin signaling pathway and inhibit OSCC cell apoptosis 20 . While previous studies show that the lncRNAs are responsible for at least some of its oncogenicity in OSCC, a further understanding of the diagnostic and therapeutic value of the identified lncRNAs is necessary.
+
+In this study, for the first time, we identified FOXD2-AS1 was significantly highly expressed in OSCC as compared to the normal tissues, which was associated with poor prognosis by data mining from TANRIC platform. FOXD2-AS1 may be used as a marker of clinical aggressiveness in OSCC. TANRIC platform characterizes the expression profiles and clinical outcome of lncRNAs in large-scale patient samples that are less conducive to the investigator bias from a single-center study. We further confirmed that cell proliferation and colony formation abilities of OSCC cells were significantly inhibited after knockdown of FOXD2-AS1. These results indicate that FOXD2-AS1 may act as an oncogene and promote tumor progression in OSCC. Our findings are consistent with the previous reports of FOXD2-AS1 in several tumor types, such as thyroid cancer 21 , glioma 12 , and colorectal cancer 22 .
+
+It is widely accepted that lncRNAs have emerged as essential players in cancer biology, but the functions of lncRNAs are high diversification. A total of 32 genes coexpressed with FOXD2-AS1 were identified by the circlncRNAnet online tool. These genes were distributed on most chromosomes, except chromosomes 9 and 21, and Y chromosome. We further found the FOXD2-AS1-related genes are enriched in several important signal pathways, especially in the cell cycle, which is located at the core of the regulatory network. In the present study, we confirmed FOXD2-AS1 might affect the cell cycle signaling pathway via regulation of the expression of CDK2, CDK4, and P21. P21 protein can bind to and inhibit the phosphorylation activity of CDK2 or CDK4 complexes, thereby inhibiting cell proliferation 23 . The western blotting analysis showed that FOXD2-AS1 upregulates P21 expression and downregulates the expression of CDK2 and CDK4, which suggests that FOXD2-AS1 may not only regulate CDK2 and CDK4 through P21 but may also participate in CDK2 and CDK4 expression through other mechanisms, indicating that FOXD2-AS1 may be a very important regulator of cell proliferation. A further in-depth study of the molecular mechanism of FOXD2-AS1 may open a new perspective for the development of new therapies for OSCC. However, there are some shortcomings in our research, such as the specific molecular mechanism of FOXD2-AS1 regulating the cell cycle signaling pathway being not clear. In addition, the cause of the dysregulation of FOXD2-AS1 in OSCC remains unknown.
+
+In summary, FOXD2-AS1 may be served as a potential prognostic indicator and therapeutic target for OSCC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

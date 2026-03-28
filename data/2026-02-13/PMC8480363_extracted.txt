@@ -1,0 +1,179 @@
+================================================================================
+ARTICLE TITLE: Breast-Conserving Therapy Versus Mastectomy in Young Breast Cancer Patients Concerning Molecular Subtypes: A SEER Population-Based Study
+PMCID: PMC8480363
+PMID: 33356518
+KEYWORDS: surgical method, subtype, survival, young breast cancer, seer
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Breast-conserving therapy was once a contraindication in young breast cancer patients (aged ≤40 years). Emerging studies suggest that breast-conserving therapy and mastectomy could achieve similar prognosis in this population. However, the effect of molecular subtype disparity on surgical strategy in these patients remains unclear. Data from 8656 young patients (aged ≤40 years) diagnosed with invasive breast cancer between in 2010 and 2014 were retrospectively reviewed from the Surveillance, Epidemiology, and End Results database. The Cox proportional hazards model was used to evaluate subtype-dependent relationships between the surgical method and survival. Of the 8656 patients, 4132 (47.7%) underwent breast-conserving therapy and 4524 (52.3%) underwent mastectomy. The median follow-up period was 30.0 months. Patients in the breast-conserving therapy group demonstrated better overall survival and breast cancer-specific survival than those in the mastectomy group (both p < 0.05). Patients with different molecular subtypes exhibited significant differences in overall survival and breast cancer-specific survival ( p < 0.001). Patients with luminal subtypes experienced better overall survival and breast cancer-specific survival than those with the triple-negative subtype. Multivariate analysis revealed that overall mortality risk of the breast-conserving therapy group was lower than that of the mastectomy group among HR(+)HER-2(-) and HR(-)HER-2(-) patients (overall mortality risk of 36.3% [adjusted hazard ratio = 0.637 {95% confidence interval = 0.448–0.905}, p = 0.012] and 36.0% [adjusted hazard ratio = 0.640 {95% confidence interval = 0.455–0.901}, p = 0.010] respectively.) The breast cancer-specific mortality risk was also lower by a percentage similar to that of the overall mortality risk. In the HR(+)HER-2(+) group, the surgical method was an independent prognostic factor for breast cancer-specific survival (adjusted hazard ratio = 0.275 [95% confidence interval = 0.089–0.849], p = 0.025), while there was a trend that patients with breast-conserving therapy had better overall survival than those with mastectomy ( p = 0.056). In the HR(-)HER-2(+) group, no significant difference was observed in overall survival and breast cancer-specific survival ( p = 0.791 and p = 0.262, respectively). Breast-conserving therapy resulted in significantly better prognosis in patients with luminal and triple-negative subtypes, while no significant difference was observed in patients with the HER-2 enriched subtype. These results may be helpful in informing clinically precise decision-making for surgery in this population.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Breast cancer is the most common cancer affecting women worldwide. In 2019, the number of breast cancer cases and deaths in the United States was estimated to be 268,670 and 41,400, respectively, accounting for 30% of the total incidence and 14% of total deaths. 1 , 2 In the West, breast cancer mostly occurs in postmenopausal women. However, it must be highlighted that, in the United States, approximately 10,000 young women <40 years of age are diagnosed with breast cancer annually, accounting for 4%–5% of all breast cancer cases. 3 
+
+Young age has been reported as an independent risk factor for breast carcinoma recurrence and death. 4 , 5 Previous research has shown that, compared with older patients, young patients (≤40 years of age) with breast cancer exhibit unfavorable prognostic characteristics such as rapid progression, lymphovascular invasion, high proliferation fraction, a higher rate of hormone receptor (HR) negativity, poor histological grade, and insensitivity to endocrine therapy. 6 - 10 Therefore, intensive treatments are often applied to achieve good outcomes. In terms of surgery, rather than breast-conserving therapy (BCT), mastectomy may be chosen to decrease the risk of relapse and minimize psychological trauma and disease-related death. In 2013, the St. Gallen Consensus listed breast-conserving therapy (BCT) as a contraindication in young breast cancer patients (≤40 years of age). In recent years, emerging studies have suggested that BCT and mastectomy could result in similar prognosis in this special population. 11 - 14 A recent study involving 1000 patients below 35 years of age reported that surgical strategy did not affect the risk of locoregional recurrence (LRR). 15 
+
+Breast cancer, as a heterogeneous disease, is classified into 4 genetic subtypes 16 , 17 : luminal A, luminal B, human epidermal growth factor receptor 2 (HER-2) enriched, and basal-like or triple-negative. Molecular subtypes are associated with survival and response to therapy. 18 - 20 Young breast cancer patients exhibit a higher rate of aggressive molecular subtypes such as triple-negative and HER-2 enriched subtypes. 8 , 21 Despite the importance of molecular subtype in treatment and prognosis, the effect of subtype disparity on surgical strategy in young breast cancer patients remains unclear. Accordingly, the purpose of our study was to assess the effect of molecular subtypes on outcome disparities according to the surgical method opted for young patients with breast cancer.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Data from young patients (≤40 years of age) who were diagnosed with invasive breast carcinoma between 2010 and 2014 and whose information was in the Surveillance, Epidemiology, and End Results (SEER) database released in January 2018 were collected. Other inclusion criteria were curative surgery and the female sex. Individuals who underwent prophylactic mastectomy, as well as those who had synchronic bilateral breast cancers, a history of cancers other than breast cancer, confirmed metastasis or recurrence, inflammatory breast cancer, or incomplete data, were excluded from the study. Given the retrospective nature of the study and the use of anonymized patient data, requirements for informed consent were waived. This study was approved by the Research Ethics Committee of the Sun Yat-sen University Cancer Center (Guangzhou, China).
+
+Data including age at diagnosis, race, pathological type (according to the International Classification of Diseases for Oncology, 3 rd Edition ), histological grade, tumor size (T stage), axillary lymph node status (N stage), American Joint Committee on Cancer (AJCC) stage, HR and HER-2 status, surgical method, chemotherapy, radiotherapy, distant metastasis, death events, and time of follow-up were extracted.
+
+Clinical or pathological stages were confirmed according to the TNM staging system of the seventh Edition of the AJCC system. HR and HER-2 expression status was determined based on the recent American Society of Clinical Oncology/College of American Pathologists guideline recommendations. 22 , 23 Breast cancer molecular subtypes were classified as follows: HR-positive (+)HER-2 negative (-); HR(+)HER-2(+); HR(-)HER-2(+); and HR(-)HER-2(-).
+
+The primary endpoint was overall survival (OS), whereas the secondary endpoint was breast cancer-specific survival (BCSS). OS was defined as the period between the date of diagnosis and the date of death from any cause or last follow-up; BCSS was calculated from diagnosis to death due to breast cancer.
+
+In descriptive statistics, continuous variables were expressed as median and range, whereas categorical variables were expressed as frequency and percentage. The chi-squared test or Fisher’s exact test was used to compare categorical data. The Kaplan–Meier curve analysis was performed for survival analyses, and differences were compared using the log-rank test. Univariate and multivariate Cox proportional hazards models were used to identify independent factors related to OS and BCSS. Hazard ratios and the corresponding 95% confidence intervals (CIs) estimated from the Cox analysis were considered relative risks. All statistical analyses were performed using SPSS version 22.0 (IBM Corporation, Armonk, NY, USA). Differences with p < 0.05 were considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+A total of 8656 young patients (≤40 years of age) who were diagnosed with invasive breast cancer were selected for analysis. The patient selection process is illustrated in Figure 1 . Among the 8656 selected young patients, 4524 (52.3%) underwent radical or modified radical mastectomy and 4132 (47.7%) underwent BCT. Clinicopathological features according to the surgical method are summarized in Table 1 . The median follow-up period was 30.0 months (range, 4.0–59.0 months). Compared with patients in the mastectomy group, patients in the BCT group were more likely to exhibit a lower stage of tumor size, lymph nodes, and HR(+)HER-2(-) and triple-negative subtypes ( p < 0.05). Among patients in the BCT group, 2991 (72.4%) underwent radiotherapy. Patients in the BCT group were more likely to have previously undergone radiotherapy ( p < 0.001), whereas those in the mastectomy group were more likely to have previously undergone chemotherapy ( p < 0.001).
+
+Flow diagram of patient selection.
+
+Baseline Characteristics of Young Breast Cancer Patients (Aged ≤40 Years).
+
+Abbreviations: BCT = Breast-conserving therapy, IDC = Invasive ductal carcinoma, ILC = Invasive lobular carcinoma, HR = Hormone receptor, HER-2 = Human epidermal growth factor receptor-2.
+
+a Using Chi-squared test or Fisher exact test, p < 0.05 was considered statistically significant.
+
+Patients in the BCT group demonstrated better OS and BCSS than those in the mastectomy group ( p < 0.05 for all) ( Figure 2A and B ). The average OSs in the BCT and mastectomy groups were 57.3 months and 55.4 months, respectively.
+
+Kaplan-Meier curves of survival for patients according to surgical methods. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+The difference in OS among molecular subtypes was also significant ( p < 0.001) ( Figure 3A ). The average OSs for the HR(+)HER-2(-), HR(+)HER-2(+), HR(-)HER-2(+), and HR(-)HER-2(-) groups were 57.1, 57.6, 56.2, and 52.7 months, respectively. The OS for the luminal subtype was significantly better than that of the triple-negative subtype. The effect of molecular subtype on BCSS was similar to its effect on OS ( p < 0.001) ( Figure 3B ).
+
+Kaplan-Meier curves of survival for patients according tosubtypes. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the HR(+)HER-2(-) group. Green lines represent the HR(+)HER-2(+) group. Red lines represent the HR(-)HER-2(+) group. Purple lines represent the HR(-)HER-2(-) group. Orange lines represent the unknown group.
+
+Univariate analysis revealed that race, histological grade, tumor size, axillary lymph node status, surgical methods, molecular subtypes, and chemotherapy were prognostic variables for OS. Adjusting for these variables, multivariate analysis revealed that race, histological grade, tumor size, lymph node status, surgical methods, and molecular subtypes remained independent prognostic factors for OS ( p < 0.05 for all).The overall mortality risk of patients in the BCT group was 36.4% lower than that in the mastectomy group (adjusted hazard ratio 0.636 [95% CI 0.544–0.743]; p < 0.001). The overall mortality risk of the HR(-)HER-2(-) group was 1.298 times higher than that of the HR(+)HER-2(-) group (adjusted hazard ratio 2.298 [95% CI 1.936–2.727]; p < 0.001). There was no significant difference in OS between the HR(-)HER-2(+) and HR(+)HER-2(-) groups ( p = 0.334). The results of the analysis for BCSS were consistent with those for OS ( Table 2 ).
+
+Univariate and Multivariate Analyses of Prognostic Factors for Overall Survival, Breast Cancer-Specific Survival.
+
+Abbreviation: ER = Estrogen receptor, PR = Progesterone receptor, HER-2 = Human epidermal growth factor receptor-2, BCT = Breast-conserving therapy.
+
+In the HR(+)HER-2(-), HR(+)HER-2(+), and HR(-)HER-2(-) groups, the OS and BCSS of patients who underwent BCT were superior to that of those who underwent mastectomy ( p < 0.05 for all) ( Figures 4 , 5 , 6 ). However, in the HR(-)HER-2(+) group, there was no significant difference in OS and BCSS between patients who underwent BCT or mastectomy ( p > 0.05 for all) ( Figure 7 ).
+
+Kaplan-Meier curves of survival for patients according to surgical methods stratified as HR(+)HER-2(-) group. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+Kaplan-Meier curves of survival for patients according to surgical methods stratified as HR(+)HER-2(+) group. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+Kaplan-Meier curves of survival for patients according to surgical methods stratified as HR(-)HER-2(-) group.(A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+Kaplan-Meier curves of survival for patients according to surgical methods stratified as HR(-)HER-2(+) group. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+In stratified analysis according to molecular subtype, after adjusting for prognostic factors such as race, histological grade, tumor size, lymph node status, and chemotherapy, multivariate Cox analyses revealed that in the HR(+)HER-2(-) group, the overall mortality risk of patients in the BCT group was 34.0% lower than that in the mastectomy group (adjusted hazard ratio 0.660 [95% CI 0.516–0.845]; p = 0.001). The breast cancer-specific mortality risk was also lower by a percentage similar to that of the overall mortality risk. In the HR(-)HER-2(-) group, the surgical method was an independent prognostic factor in young patients with breast cancer. The overall mortality risk in the BCT group was 37.4% lower than that of the mastectomy group (adjusted hazard ratio 0.626 [95% CI 0.481–0.815]; p = 0.001). In the HR(+)HER-2(+) group, surgical method was an independent prognostic factor for BCSS in young patients (adjusted hazard ratio 0.412 [95% CI 0.273–0.814]; p = 0.043), while there was no difference in OS and BCSS between the 2 groups ( p = 0.434). In the HR(-)HER-2(+) group, no significant difference was observed in OS and BCSS ( p = 0.549 and p = 0.678, respectively) ( Table 3 ).
+
+Surgical Methods and Survival According to Young Breast Cancer Subtypes.
+
+Abbreviations: HR = Hormone receptor, HER-2 = Human epidermal growth factor receptor-2, BCT = Breast-conserving therapy.
+
+a Adjusted for histologic grade, tumor size, lymph node status, race and chemotherapy in the multivariate analyses.
+
+
+Baseline Characteristics
+
+A total of 8656 young patients (≤40 years of age) who were diagnosed with invasive breast cancer were selected for analysis. The patient selection process is illustrated in Figure 1 . Among the 8656 selected young patients, 4524 (52.3%) underwent radical or modified radical mastectomy and 4132 (47.7%) underwent BCT. Clinicopathological features according to the surgical method are summarized in Table 1 . The median follow-up period was 30.0 months (range, 4.0–59.0 months). Compared with patients in the mastectomy group, patients in the BCT group were more likely to exhibit a lower stage of tumor size, lymph nodes, and HR(+)HER-2(-) and triple-negative subtypes ( p < 0.05). Among patients in the BCT group, 2991 (72.4%) underwent radiotherapy. Patients in the BCT group were more likely to have previously undergone radiotherapy ( p < 0.001), whereas those in the mastectomy group were more likely to have previously undergone chemotherapy ( p < 0.001).
+
+Flow diagram of patient selection.
+
+Baseline Characteristics of Young Breast Cancer Patients (Aged ≤40 Years).
+
+Abbreviations: BCT = Breast-conserving therapy, IDC = Invasive ductal carcinoma, ILC = Invasive lobular carcinoma, HR = Hormone receptor, HER-2 = Human epidermal growth factor receptor-2.
+
+a Using Chi-squared test or Fisher exact test, p < 0.05 was considered statistically significant.
+
+
+Relationship Between Surgical Method/Molecular Subtypes and Survival
+
+Patients in the BCT group demonstrated better OS and BCSS than those in the mastectomy group ( p < 0.05 for all) ( Figure 2A and B ). The average OSs in the BCT and mastectomy groups were 57.3 months and 55.4 months, respectively.
+
+Kaplan-Meier curves of survival for patients according to surgical methods. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+The difference in OS among molecular subtypes was also significant ( p < 0.001) ( Figure 3A ). The average OSs for the HR(+)HER-2(-), HR(+)HER-2(+), HR(-)HER-2(+), and HR(-)HER-2(-) groups were 57.1, 57.6, 56.2, and 52.7 months, respectively. The OS for the luminal subtype was significantly better than that of the triple-negative subtype. The effect of molecular subtype on BCSS was similar to its effect on OS ( p < 0.001) ( Figure 3B ).
+
+Kaplan-Meier curves of survival for patients according tosubtypes. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the HR(+)HER-2(-) group. Green lines represent the HR(+)HER-2(+) group. Red lines represent the HR(-)HER-2(+) group. Purple lines represent the HR(-)HER-2(-) group. Orange lines represent the unknown group.
+
+Univariate analysis revealed that race, histological grade, tumor size, axillary lymph node status, surgical methods, molecular subtypes, and chemotherapy were prognostic variables for OS. Adjusting for these variables, multivariate analysis revealed that race, histological grade, tumor size, lymph node status, surgical methods, and molecular subtypes remained independent prognostic factors for OS ( p < 0.05 for all).The overall mortality risk of patients in the BCT group was 36.4% lower than that in the mastectomy group (adjusted hazard ratio 0.636 [95% CI 0.544–0.743]; p < 0.001). The overall mortality risk of the HR(-)HER-2(-) group was 1.298 times higher than that of the HR(+)HER-2(-) group (adjusted hazard ratio 2.298 [95% CI 1.936–2.727]; p < 0.001). There was no significant difference in OS between the HR(-)HER-2(+) and HR(+)HER-2(-) groups ( p = 0.334). The results of the analysis for BCSS were consistent with those for OS ( Table 2 ).
+
+Univariate and Multivariate Analyses of Prognostic Factors for Overall Survival, Breast Cancer-Specific Survival.
+
+Abbreviation: ER = Estrogen receptor, PR = Progesterone receptor, HER-2 = Human epidermal growth factor receptor-2, BCT = Breast-conserving therapy.
+
+
+Association Between Surgical Method and Survival Stratified According to Tumor Subtype
+
+In the HR(+)HER-2(-), HR(+)HER-2(+), and HR(-)HER-2(-) groups, the OS and BCSS of patients who underwent BCT were superior to that of those who underwent mastectomy ( p < 0.05 for all) ( Figures 4 , 5 , 6 ). However, in the HR(-)HER-2(+) group, there was no significant difference in OS and BCSS between patients who underwent BCT or mastectomy ( p > 0.05 for all) ( Figure 7 ).
+
+Kaplan-Meier curves of survival for patients according to surgical methods stratified as HR(+)HER-2(-) group. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+Kaplan-Meier curves of survival for patients according to surgical methods stratified as HR(+)HER-2(+) group. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+Kaplan-Meier curves of survival for patients according to surgical methods stratified as HR(-)HER-2(-) group.(A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+Kaplan-Meier curves of survival for patients according to surgical methods stratified as HR(-)HER-2(+) group. (A) Overall survival curves. (B) Breast cancer-specific survival curves. Blue lines represent the mastectomy group. Red lines represent the BCT group.
+
+In stratified analysis according to molecular subtype, after adjusting for prognostic factors such as race, histological grade, tumor size, lymph node status, and chemotherapy, multivariate Cox analyses revealed that in the HR(+)HER-2(-) group, the overall mortality risk of patients in the BCT group was 34.0% lower than that in the mastectomy group (adjusted hazard ratio 0.660 [95% CI 0.516–0.845]; p = 0.001). The breast cancer-specific mortality risk was also lower by a percentage similar to that of the overall mortality risk. In the HR(-)HER-2(-) group, the surgical method was an independent prognostic factor in young patients with breast cancer. The overall mortality risk in the BCT group was 37.4% lower than that of the mastectomy group (adjusted hazard ratio 0.626 [95% CI 0.481–0.815]; p = 0.001). In the HR(+)HER-2(+) group, surgical method was an independent prognostic factor for BCSS in young patients (adjusted hazard ratio 0.412 [95% CI 0.273–0.814]; p = 0.043), while there was no difference in OS and BCSS between the 2 groups ( p = 0.434). In the HR(-)HER-2(+) group, no significant difference was observed in OS and BCSS ( p = 0.549 and p = 0.678, respectively) ( Table 3 ).
+
+Surgical Methods and Survival According to Young Breast Cancer Subtypes.
+
+Abbreviations: HR = Hormone receptor, HER-2 = Human epidermal growth factor receptor-2, BCT = Breast-conserving therapy.
+
+a Adjusted for histologic grade, tumor size, lymph node status, race and chemotherapy in the multivariate analyses.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In young breast cancer patients, BCT and mastectomy are both suitable choices if breast-conserving conditions are satisfied because different surgical methods carry a similar risk of LRR and reduced survival. 11 - 13 , 15 In recent years, with improved recognition of the prognostic and predictive role of molecular subtypes and the understanding that more aggressive subtypes occur in young patients, 24 , 25 we explored whether the surgical method was a prognostic factor in some breast cancer subtypes but not in others.
+
+In our study, patients in the BCT group experienced better OS and BCSS than those in the mastectomy group. When stratified according to the molecular subtype, in luminal and triple-negative subtypes, young women in the BCT group demonstrated superior prognosis than those in the mastectomy group. However, in the HR(-)HER-2(+) group, there was no significant difference in OS and BCSS between patients who underwent BCT and mastectomy.
+
+For young women with mixed subtypes, our results revealed that patients in the BCT group experienced better OS and BCSS than those in the mastectomy group. However, previous analyses 26 , 27 involving young breast cancer patients reported that BCT was proven to provide similar long-term results that were comparable with those of mastectomy. Yang et al. 28 reported that OS at 3, 5, 10, 15, and 20 years and LRR rates at 3, 5, 15, and 20 years were not significantly different between the BCT and mastectomy groups. However, in the subgroup analysis, the 20-year LRR rate was significantly higher in the BCT group than in the mastectomy group for women with tumors measuring ≤2 cm. Furthermore, a recent retrospective study involving 1000 patients below 35 years of age demonstrated that the surgery type did not affect the risk of LRR. 15 These studies reported conflicting results regarding OS and LRR. Our results, however, were different from above studies, and may be explained by the large sample size of our study. Another study showed the equal OS and BCSS after BCT or mastectomy in women under 40 years with T1-2N0-1 stage in multivariate analyses in the 1999-2005 cohort. 29 Our results were different from it although the 2 studies had large sample sizes. Our study focused on the time 2010-2014 and included T1-4N0-3 stage, which may be the reasons for the difference. Nevertheless, further prospective clinical trials are warranted to clarify this issue.
+
+Our results indicated that in triple-negative subtypes, young women in the BCT group experienced better OS and BCSS than those in the mastectomy group. A study including 1242 triple-negative breast cancer patients reported that LRR-free survival, distant metastasis-free survival, disease-free survival, and OS of the BCT and mastectomy groups were not significantly different. 30 Another study investigating triple-negative breast cancer and surgical methods confirmed that, compared with mastectomy, BCT did not increase the incidence of LRR ( p = 0.55) and, at the same time, patients with BCT experienced better distant metastasis-free survival and OS than those who underwent mastectomy (mastectomy: hazard ratio 1.32 [95% CI 1.1–1.59], p = 0.003; BCT: hazard ratio 1.22 [95% CI 1.02–1.47], p = 0.032). 31 These studies involved patients with breast cancer regardless of age, and young patients were not analyzed separately. The above results regarding disease-free survival and OS of BCT and mastectomy were controversial. Our conclusion is consistent with the conclusion of the latter research. Our study also summarized the effect of surgical methods on prognosis among different molecular subtypes in young patients with breast cancer.
+
+The better prognosis resulting from BCT in luminal and triple-negative subtypes may be owing to postoperative radiotherapy. Some benefits of radiation in BCT patients, such as a reduced risk of LRR and a similar OS rate compared with mastectomy, have been reported in previous research. 32 , 33 Nevertheless, radiotherapy is applied in practice without considering the biological subtype. Moreover, the biological response of different molecular subtypes to radiotherapy has not been clearly evaluated. In our data, patients with luminal and triple-negative subtypes who underwent BCT demonstrated better prognosis than those who underwent mastectomy, suggesting that luminal and triple-negative tumors respond to radiation in young patients with breast cancer.
+
+Although all available and possible factors were adjusted for in our investigation, our study had several limitations. The first was its retrospective design, which is inherently susceptible to selection bias, and the lack of other known prognostic information such as lymphovascular invasion. Second, the bias of surgical method choice was inevitable. The choice was determined not only by tumor size but also by the preference of patients or surgeons. Third, data regarding endocrine therapy and comorbidities were not available in the SEER database. But we believe that this might not have largely impact on the results because most of young early-stage breast cancer patients who underwent appropriate locoregional treatment were likely to undergo standard systemic therapy. Given that patients in the present study were young women (≤40 years of age) with a median age of 36 years, the rate of comorbidities may be relatively low, and thus, their effect would be negligible. Therefore, we believe our results are reliable. Fourth, the median follow-up period was 30 months in our study. In fact, it was relatively short for OS and even BCSS, especially for those with the HR(+)HER-2(-) subtype. As the peak of metastases comes after 5 years of follow-up in the HR(+)/Her-2(-) type, and it comes in the first 5 years in the triple-negative group, the short follow-up time may cause the difference in survival (both OS and BCSS) between the 2 groups. Therefore, we could only say that the OS and BCSS for the HR(+)HER-2(-) subtype were significantly better than those of the triple-negative subtype at this time. For long-term prognosis, we need a longer follow-up. Besides, the factor of HER-2 was added into the SEER database from 2010 years. We chose this time based on the relatively complete treatment information. 2010-2014, this time can represent the current level of treatment of breast cancer. Endocrine therapy of ovarian function suppression and double targeted therapy of HER-2 were introduced in clinical practice at that time. The results of our study focusing that time are valuable clinically. A previous study 34 showed the prognosis of BCT and mastectomy were equal in less than 40 years breast cancer patients, but the focused time was 1998-2003, the subtype differences were not further explored. We explored whether the surgical method was a prognostic factor in some breast cancer subtypes but not in others. So it is of clinical value.
+
+Further basic research and prospective clinical trials with longer follow-up are warranted to determine differences in tumor biology and the effect of surgical treatments in young breast cancer patients with different subtypes. This may provide clinicians with more precise information to inform decision-making for surgery and improve prognosis in high-risk populations.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In young breast cancer patients, patients in the BCT group experienced better OS and BCSS than those in the mastectomy group. BCT resulted in significantly better prognosis in patients with luminal and triple-negative subtypes, while no significant difference was observed in patients with the HER-2 enriched subtype. These results may be helpful in informing clinically precise decision-making for surgery in this population.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

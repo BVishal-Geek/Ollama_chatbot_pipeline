@@ -1,0 +1,238 @@
+================================================================================
+ARTICLE TITLE: Periostin Secreted by Carcinoma-Associated Fibroblasts Promotes Ovarian Cancer Cell Platinum Resistance Through the PI3K/Akt Signaling Pathway
+PMCID: PMC7734496
+PMID: 33302812
+KEYWORDS: ovarian cancer, periostin, carcinoma-associated fibroblasts, chemotherapy resistance, apoptosis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Periostin (POSTN) is a protein secreted by mesenchymal cells. Periostin is upregulated in several cancer types and overexpression is associated with poor prognosis. However, the functional role and molecular underpinnings of periostin in epithelial ovarian cancer (EOC) is unknown. In the present study, periostin was found to be significantly upregulated in EOC stroma. Functional studies revealed that periostin could decrease cisplatin (DDP)-induced apoptosis in EOC. Periostin led to DDP resistance in EOC cells, potentially through the PI3K/Akt signaling pathway. We generated periostin-overexpressing fibroblasts and found that EOC cells were resistant to DDP when co-cultured with periostin-overexpressing fibroblasts. The findings of the present study indicated that periostin secreted by cancer-associated stromal cells may be a potential therapeutic target for EOC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Ovarian cancer is the seventh most common cancer in women and the eighth-most common cause of cancer-related death. 1 There are 239,000 new cases of ovarian cancer reported each year worldwide, and 152,000 mortalities. Although the treatment for ovarian cancer has drastically improved in the past few decades, the 5-year survival rate for patients is still less than 45%. 1 Primary or secondary chemotherapy resistance is a critical cause of disease progression and patient death. 2 
+
+Periostin, encoded by the POSTN gene, is an exocrine protein secreted by mesenchymal cells. 3 Periostin binds to integrin αvβ3, αvβ5 and α6β4 on the surface of target cells through the FAS1 domain and activates multiple signaling pathways within the cell. 4 Overexpression of periostin in the stroma was found in prostate, colorectal and non-small cell lung cancer and this usually associates with poor clinical outcomes in patients. 5 - 11 Choi found that over expression of periostin also exists in ovarian cancer stroma. 12 Several studies have demonstrated that high periostin expression in ovarian cancer cells is associated with poor prognostic factors such as advanced stage, poor differentiation, and tumor recurrence. 12 - 14 Sung et al found that patients with high periostin expression in the tumor stroma had a significantly lower overall survival (58.2 ± 6.2 months vs. 129.1 ± 4.7 months, P < 0.01; HR 3.02[1.27-7.19]) and progression-free survival (58.3 ± 7.2 months vs. 117 ± 5.0 months P < 0.01; HR 2.64[1.08-6.43] compared with patients with low periostin expression. 15 The authors also indicated that the high expression of interstitial periostin was related to platinum resistance. Ryner compared gene expression and clinical outcomes of 162 EOC patients. All patients were treated with a combination of platinum and taxane as the first-line chemotherapy. This study demonstrated that periostin can promote chemotherapy resistance in ovarian cancer, but the mechanism is still unclear. 15 It was reported that periostin promotes tumor progression through Akt phosphorylation in a variety of tumors. 16 - 18 The phosphoinositide-3 kinase (PI3 K)-AKT pathway is an important cellular pathway in regulating cell growth, tumorigenesis and drug response. PI3 K regulates G1 cell cycle and apoptosis in ovarian cancer, 19 more importantly, inhibiting PI3 K activity can re-sensitize chemoresistant ovarian cancer cells to chemotherapeutic drugs. 20 , 21 
+
+The aim of this study was to explore the role of periostin secret by CAFs in ovarian cancer and evaluate the anti-tumor effect of suppressing periostin.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+One ovarian cancer microarray chip (GSE40595) was downloaded from GEO ( http://www.ncbi.nlm.nih.gov/geo ). This chip contained sequencing analysis data of 31 EOC stromal samples, 32 high grade serous ovarian cancer samples, 8 normal ovarian stromal samples, and 6 ovarian epithelium samples. The differentially expressed genes were screened in different tissues via online GEO2 R software.
+
+The human EOC cell lines SKOV-3 (serous adenocarcinoma)ES-2(clear cell carcinoma) and human embryonic lung fibroblast cell line MRC-5 and 293 T cells were purchased from Cell Bank of Type Culture Collection of the Chinese Academy of Sciences (Shanghai, China). SKOV-3 and ES-2 cells were grown in McCoy’s 5A medium (Gibco; Thermo Fisher Scientific) and MRC-5 cells were maintained in MEM (Gibco; Thermo Fisher Scientific), all of them were supplemented with 10% fetal bovine serum (FBS; Gibco; Thermo Fisher Scientific) and penicillin (100 U/mL)-streptomycin solution (100 μg/mL). All cultures were maintained at 37°C in an atmosphere of 5% CO2 and 95% room air. Cells were seeded in 24-well plates at a density of 1 × 105 cells/mL, treated with DDP (Sigma-Aldrich, St. Louis, MO, USA) and incubated for 24 h. Then, cells were washed in PBS 3 times and cultured in McCoy’s 5A medium supplemented with 10% FBS for further analysis.
+
+Human periostin (GenBank NM_006475) full-length fragment (2,511 bp) was cloned by PCR from human DNA using the primers (F: GATCTATTTCCGGTGAATTCATGATTCCCTTTTTACCCATGT; R: GAGGGAGAGGGGCGGGATCCTCACTGAGAACGACCTTCCCTT). After sequence identification, a periostin fragment was inserted into the PLVX-IRES-ZsGreen Expression System (Clontech, Mountain View, CA, USA) according to the manufacturer’s protocol. PLVX-IRES-ZsGreen lentiviral plasmid without the periostin gene was used in the vector group. The anti-periostin shRNA sequence (F: CGGTGACAGTATAACAGTAAAR: TTTACTGTTATACTGTCACCG)was used for periostin downregulation (POSTN KD). The shRNAs were inserted into pLVX-shRNA vectors (shRNA1, Clontech, Mountain View, CA, USA) containing a puromycin expression cassette. Recombinant vectors and 2 lentiviral packaging plasmids were transfected into 293 T cells using Lipofectamine 2000 (Invitrogen, Carlsbad, CA, USA). The viruses in the culture medium were collected 48 h subsequent to transfection and filtered. A total of 10 6 MRC-5 cells were seeded onto 10 cm dishes and cultured overnight at 37°C. Retroviruses were added to cell cultures with polybrene (2 µg/mL) and incubated for 4 h at 37°C. The proportion of GFP-positive cells was counted under a fluorescence microscope 72 h later. Cells were used for subsequent experiments when the proportion was more than 90%. Real-time PCR and western blot analysis were performed to determine the efficiency of RNA interference at mRNA and protein expression levels. The experiment was repeated 3 times.
+
+RNA was extracted from samples using TRIzol reagent (Invitrogen; Thermo Fisher Scientific, Inc.) and was immediately converted to cDNA using Takara PrimeScript RT Master Mix (cat. no. RR036A; Takara Biotechnology Co., Ltd.) according to the manufacturer’s protocols. The RT reaction was set as follows: 37°C for 15 min and 85°C for 5 sec. qPCR was performed using SYBR Premix Ex Taq (cat. no. DRR041A; Takara Biotechnology Co., Ltd.) and Applied Biosystems 7500 Real-Time PCR system (Thermo Fisher Scientific, Inc.) following manufacturer’s instructions. The thermocycling conditions were as follows: denaturation at 94°C for 30 sec, followed by 30 cycles of 94°C for 30 sec, 60°C for 30 sec and 72°C for 30 sec. Gene expression was internally normalized to the levels of GAPDH. Relative mRNA expression was calculated using the 2-△△Cq method. Sequences of primers were as follows:
+
+Periostin forward: TCACATATTCCGCGAGATCA;
+
+reverse: TGCAGCTTCAAGTAGGCTGA;
+
+GAPDH forward: GCACCGTCAAGGCTGAGAAC;
+
+reverse: ATGGTGGTGAAGACGCCAGT.
+
+Cells were harvested and lysed using RIPA Lysis and Extraction Buffer (Thermo Fisher Scientific), containing a protease and phosphatase inhibitor. After we determined the concentration, the denatured protein samples were separated by SDS-PAGE in electrophoresis buffer and then transferred onto polyvinylidene difluoride (PVDF) membrane. The membranes were blocked in 5% bovine serum albumin (BSA, Sigma-Aldrich, St. Louis, MO, USA) for 2 h, then incubated with primary antibodies (rabbit polyclonal anti-human periostin 1:1,000; rabbit anti-human BAX, 1:1,000; rabbit polyclonal anti-human Bcl-2, 1:1,000; rabbit polyclonal anti-human AKT, 1:1,000; rabbit polyclonal anti-human p-AKT, 1:1,000; GAPDH, 1:1,000; all of those antibodies were purchased from Abcam, Cambridge, MA, USA) overnight at 4°C. The membranes were incubated with secondary antibodies conjugated to horseradish peroxidase (HRP-donkey anti-rabbit) for 2 h, the antigen-antibody complexes were detected using electrochemiluminescence kit to compare the corresponding protein expression levels among different samples.
+
+A total of 17 paraffin-embedded EOC specimens and non-tumor ovary tissue on the other side (ANOT) acquired between 2015 to 2018 were obtained from our Hospital. All of this samples were accessed from the gynecological oncology biobank of Tongji Hospital and approved by the Ethics Committee of the Tongji Hospital. Rabbit polyclonal anti-human periostin antibody (1:100; Abcam) was used for IHC detection. The score was determined by 2 independent pathologists by combining the percentage of positive cells and the intensity of staining. The positive cells proportion was scored as follows: 0 = <1% positive cells; 1 = 1–25% positive cells; 2 = 25–50% positive cells; 3 = 50–75% positive cells; and 4 = >75% positive cells. The staining intensity was graded as follows: 0 = no staining; 1 = weak staining (light yellow); 2 = moderate staining (yellowish-brown); 3 = strong staining (brown). The staining intensity score and the positive cells proportion score were calculated as the staining index (SI).
+
+Apoptosis assay was performed using a BD-Bioscience Annexin V-APC apoptosis detection kit (Sigma-Aldrich) according to the manufacturer’s protocols. Cells were treated with DDP or PBS for 12 h and then washed by PBS 3 times and cultured in McCoy’s 5A medium for 48 h. A total of 5 × 10 5 cells were stained with APC-Annexin V and PI. Apoptotic cells (Annexin V positive, PI negative) were determined by flow cytometry.
+
+Cells in logarithmic growth phase were digested by 0.25% trypsin and seeded into 96-well plates at a concentration of 1 × 105 cells/mL. Each culture was treated in 5 reduplicate wells for each group and sterile PBS was filled in the marginal wells. 20 µL of CCK-8 Kit (Dojindo Laboratories, Tokyo, Japan) was added into each well at 1, 3, 5 and 7 days, then the plates were incubated for 2 h. Detection of OD values of each well at 450 nm was carried out by a microplate reader (Varioskan Flash; Thermo Fisher Scientific, Waltham, MA, USA). The proliferation rates of cells at different time periods were calculated following zero adjustments of the OD value once the blank well was only filled with the culture-medium.
+
+The SKOV-3 and ES-2 cells were indirectly co-cultured with MRC-5 cells in 6 well Transwell chamber plate with pores of 0.4 µm in diameter (Corning, Corning, NY, USA). MRC-5 cells were seeded in the lower compartment (4 × 104 cells/well) and ovarian cancer cells in the upper compartment (4 × 104 cells/well). These cells were indirectly co-cultured for 2 days then used for subsequent experiments. The experiment was repeated 3 times separately.
+
+Data analysis was performed using the SPSS version 22.0 software package (SPSS Inc, Chicago, IL, USA) and GraphPad Prism version 6.01 software (GraphPad Software, San Diego, USA). Two-tailed t-test and 1 way ANOVA followed by post hoc Tukey’s HSD test (α = 0.05) were used to analyze data. P < 0.05 was considered to indicate a statistically significant difference.
+
+
+GEO Data Collection
+
+One ovarian cancer microarray chip (GSE40595) was downloaded from GEO ( http://www.ncbi.nlm.nih.gov/geo ). This chip contained sequencing analysis data of 31 EOC stromal samples, 32 high grade serous ovarian cancer samples, 8 normal ovarian stromal samples, and 6 ovarian epithelium samples. The differentially expressed genes were screened in different tissues via online GEO2 R software.
+
+
+Cell Lines and DDP Treatment
+
+The human EOC cell lines SKOV-3 (serous adenocarcinoma)ES-2(clear cell carcinoma) and human embryonic lung fibroblast cell line MRC-5 and 293 T cells were purchased from Cell Bank of Type Culture Collection of the Chinese Academy of Sciences (Shanghai, China). SKOV-3 and ES-2 cells were grown in McCoy’s 5A medium (Gibco; Thermo Fisher Scientific) and MRC-5 cells were maintained in MEM (Gibco; Thermo Fisher Scientific), all of them were supplemented with 10% fetal bovine serum (FBS; Gibco; Thermo Fisher Scientific) and penicillin (100 U/mL)-streptomycin solution (100 μg/mL). All cultures were maintained at 37°C in an atmosphere of 5% CO2 and 95% room air. Cells were seeded in 24-well plates at a density of 1 × 105 cells/mL, treated with DDP (Sigma-Aldrich, St. Louis, MO, USA) and incubated for 24 h. Then, cells were washed in PBS 3 times and cultured in McCoy’s 5A medium supplemented with 10% FBS for further analysis.
+
+
+Plasmids and siRNAs
+
+Human periostin (GenBank NM_006475) full-length fragment (2,511 bp) was cloned by PCR from human DNA using the primers (F: GATCTATTTCCGGTGAATTCATGATTCCCTTTTTACCCATGT; R: GAGGGAGAGGGGCGGGATCCTCACTGAGAACGACCTTCCCTT). After sequence identification, a periostin fragment was inserted into the PLVX-IRES-ZsGreen Expression System (Clontech, Mountain View, CA, USA) according to the manufacturer’s protocol. PLVX-IRES-ZsGreen lentiviral plasmid without the periostin gene was used in the vector group. The anti-periostin shRNA sequence (F: CGGTGACAGTATAACAGTAAAR: TTTACTGTTATACTGTCACCG)was used for periostin downregulation (POSTN KD). The shRNAs were inserted into pLVX-shRNA vectors (shRNA1, Clontech, Mountain View, CA, USA) containing a puromycin expression cassette. Recombinant vectors and 2 lentiviral packaging plasmids were transfected into 293 T cells using Lipofectamine 2000 (Invitrogen, Carlsbad, CA, USA). The viruses in the culture medium were collected 48 h subsequent to transfection and filtered. A total of 10 6 MRC-5 cells were seeded onto 10 cm dishes and cultured overnight at 37°C. Retroviruses were added to cell cultures with polybrene (2 µg/mL) and incubated for 4 h at 37°C. The proportion of GFP-positive cells was counted under a fluorescence microscope 72 h later. Cells were used for subsequent experiments when the proportion was more than 90%. Real-time PCR and western blot analysis were performed to determine the efficiency of RNA interference at mRNA and protein expression levels. The experiment was repeated 3 times.
+
+
+Reverse Transcription-Quantitative Polymerase Chain Reaction (RT-qPCR) Analysis
+
+RNA was extracted from samples using TRIzol reagent (Invitrogen; Thermo Fisher Scientific, Inc.) and was immediately converted to cDNA using Takara PrimeScript RT Master Mix (cat. no. RR036A; Takara Biotechnology Co., Ltd.) according to the manufacturer’s protocols. The RT reaction was set as follows: 37°C for 15 min and 85°C for 5 sec. qPCR was performed using SYBR Premix Ex Taq (cat. no. DRR041A; Takara Biotechnology Co., Ltd.) and Applied Biosystems 7500 Real-Time PCR system (Thermo Fisher Scientific, Inc.) following manufacturer’s instructions. The thermocycling conditions were as follows: denaturation at 94°C for 30 sec, followed by 30 cycles of 94°C for 30 sec, 60°C for 30 sec and 72°C for 30 sec. Gene expression was internally normalized to the levels of GAPDH. Relative mRNA expression was calculated using the 2-△△Cq method. Sequences of primers were as follows:
+
+Periostin forward: TCACATATTCCGCGAGATCA;
+
+reverse: TGCAGCTTCAAGTAGGCTGA;
+
+GAPDH forward: GCACCGTCAAGGCTGAGAAC;
+
+reverse: ATGGTGGTGAAGACGCCAGT.
+
+
+Western Blotting
+
+Cells were harvested and lysed using RIPA Lysis and Extraction Buffer (Thermo Fisher Scientific), containing a protease and phosphatase inhibitor. After we determined the concentration, the denatured protein samples were separated by SDS-PAGE in electrophoresis buffer and then transferred onto polyvinylidene difluoride (PVDF) membrane. The membranes were blocked in 5% bovine serum albumin (BSA, Sigma-Aldrich, St. Louis, MO, USA) for 2 h, then incubated with primary antibodies (rabbit polyclonal anti-human periostin 1:1,000; rabbit anti-human BAX, 1:1,000; rabbit polyclonal anti-human Bcl-2, 1:1,000; rabbit polyclonal anti-human AKT, 1:1,000; rabbit polyclonal anti-human p-AKT, 1:1,000; GAPDH, 1:1,000; all of those antibodies were purchased from Abcam, Cambridge, MA, USA) overnight at 4°C. The membranes were incubated with secondary antibodies conjugated to horseradish peroxidase (HRP-donkey anti-rabbit) for 2 h, the antigen-antibody complexes were detected using electrochemiluminescence kit to compare the corresponding protein expression levels among different samples.
+
+
+Clinical Samples and Immunohistochemistry (IHC)
+
+A total of 17 paraffin-embedded EOC specimens and non-tumor ovary tissue on the other side (ANOT) acquired between 2015 to 2018 were obtained from our Hospital. All of this samples were accessed from the gynecological oncology biobank of Tongji Hospital and approved by the Ethics Committee of the Tongji Hospital. Rabbit polyclonal anti-human periostin antibody (1:100; Abcam) was used for IHC detection. The score was determined by 2 independent pathologists by combining the percentage of positive cells and the intensity of staining. The positive cells proportion was scored as follows: 0 = <1% positive cells; 1 = 1–25% positive cells; 2 = 25–50% positive cells; 3 = 50–75% positive cells; and 4 = >75% positive cells. The staining intensity was graded as follows: 0 = no staining; 1 = weak staining (light yellow); 2 = moderate staining (yellowish-brown); 3 = strong staining (brown). The staining intensity score and the positive cells proportion score were calculated as the staining index (SI).
+
+
+Apoptosis Analysis by Flow Cytometry
+
+Apoptosis assay was performed using a BD-Bioscience Annexin V-APC apoptosis detection kit (Sigma-Aldrich) according to the manufacturer’s protocols. Cells were treated with DDP or PBS for 12 h and then washed by PBS 3 times and cultured in McCoy’s 5A medium for 48 h. A total of 5 × 10 5 cells were stained with APC-Annexin V and PI. Apoptotic cells (Annexin V positive, PI negative) were determined by flow cytometry.
+
+
+Cell Counting Kit (CCK-8) Assay
+
+Cells in logarithmic growth phase were digested by 0.25% trypsin and seeded into 96-well plates at a concentration of 1 × 105 cells/mL. Each culture was treated in 5 reduplicate wells for each group and sterile PBS was filled in the marginal wells. 20 µL of CCK-8 Kit (Dojindo Laboratories, Tokyo, Japan) was added into each well at 1, 3, 5 and 7 days, then the plates were incubated for 2 h. Detection of OD values of each well at 450 nm was carried out by a microplate reader (Varioskan Flash; Thermo Fisher Scientific, Waltham, MA, USA). The proliferation rates of cells at different time periods were calculated following zero adjustments of the OD value once the blank well was only filled with the culture-medium.
+
+
+Indirect Co-Culture
+
+The SKOV-3 and ES-2 cells were indirectly co-cultured with MRC-5 cells in 6 well Transwell chamber plate with pores of 0.4 µm in diameter (Corning, Corning, NY, USA). MRC-5 cells were seeded in the lower compartment (4 × 104 cells/well) and ovarian cancer cells in the upper compartment (4 × 104 cells/well). These cells were indirectly co-cultured for 2 days then used for subsequent experiments. The experiment was repeated 3 times separately.
+
+
+Statistical Analysis
+
+Data analysis was performed using the SPSS version 22.0 software package (SPSS Inc, Chicago, IL, USA) and GraphPad Prism version 6.01 software (GraphPad Software, San Diego, USA). Two-tailed t-test and 1 way ANOVA followed by post hoc Tukey’s HSD test (α = 0.05) were used to analyze data. P < 0.05 was considered to indicate a statistically significant difference.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+To confirm increased expression and investigate the biological role of periostin in human EOC, we analyzed periostin gene transcript levels from the GSE40595 dataset. Periostin was markedly overexpressed in the stroma of ovarian cancer tissue compared with the epithelium (P < 0.001, logFC = 4.173; Figure 1A and B ), and was overexpressed in the stroma of ovarian cancer compared with normal tissue (P = <0.001, logFC = 5.121). Furthermore, IHC staining of EOC patient samples indicated that periostin protein levels in EOC stroma were higher than in the normal ovarian stroma (P < 0.001; Figure 1C ). These results demonstrated that periostin expression was significantly elevated in ovarian cancer stromal cells.
+
+Expression of periostin in ovarian cancer stroma. (A) Analysis results based on GSE40595 data show that periostin transcription levels were increased significantly in ovarian cancer stroma (N = 31) compared with normal ovarian stroma (N = 8). (B) Periostin transcription levels were increased significantly in ovarian cancer stroma (N = 31) compared with tumor epithelial component (N = 32) in GSE40595 chip data. (C) IHC analysis shows that the periostin expression is upregulated in human ovarian stroma compared with normal ovarian stroma. ***P < 0.001
+
+To investigate the potential effect of periostin on platinum-resistance in ovarian cancer cells, SKOV-3 and ES-2 cells were treated with DDP (10 μg/mL) and human recombinant periostin protein (100 ng/mL). Apoptosis was then measured using Annexin V/PI dual-marker flow cytometry. The addition of exogenous periostin protein to SKOV-3 and ES-2 cell cultures reduced DDP-induced early and late apoptosis (P < 0.01; Figure 2A and B ).
+
+Periostin reduces DDP-induced apoptosis in ovarian cancer cells. (A, B) Flow cytometry analysis was used to detect the apoptosis rate of ES-2 and SKOV-3 cells treated with DDP(10 µg/mL) and periostin. (C, E) CCK-8 assay showed periostin can reduce the inhibition rate of ES-2 and SKOV-3 cells after DDP treatment. (D, F) Periostin increases the IC50 value of DDP(10 µg/mL) in SKOV-3 and ES-2 cells. (G, H) Periostin increases the Bcl-2/BAX ratio of DDP(10 µg/mL) treated SKOV-3 and ES-2 cells. * P < 0.05, ** P < 0.01.
+
+Furthermore, CCK-8 was used to calculate the effect of periostin on the suppression of ovarian cancer growth induced by DDP. The IC50 value was calculated based on the inhibition rate. There were 3 treatment groups: DDP, DDP with a low concentration of periostin (100 ng/mL), and DDP with a higher concentration of periostin (200 ng/mL). Our data showed that exogenously-added periostin protein could reduce the inhibitory effect of DDP on SKOV-3 and ES-2 cells ( Tables 1 and 2 , Figure 2C and E ). The IC50 values for the 3 groups increased with the increase in periostin concentration added (P < 0.01, Figure 2D and F ).
+
+Periostin Increases the Survival Rate of SKOV-3 Cells During DDP Treatment.
+
+Periostin Increases the Survival Rate of ES-2 Cells During DDP Treatment.
+
+Bcl-2 is a cell survival factor that inhibits cell apoptosis, while Bax protein promotes apoptosis. 22 Therefore, the Bcl-2/Bax expression ratio is regarded as an important indicator of cell apoptosis. Western blots were used to detect the expression of Bcl-2 and Bax in the different treatment groups (control, DDP (10 µg/mL) and DDP (10 µg/mL) with periostin (200 ng/mL)). The addition of exogenous periostin protein increased Bcl-2 protein expression and decreased Bax protein expression in SKOV-3 and ES-2 cell lines after DDP treatment. As a result, the Bcl-2/Bax ratio was increased in the DDP (10 µg/mL) with periostin (200 ng/mL) groups compared with the DDP alone group in both cell lines (P < 0.01; Figure 2G and H ).
+
+To explore the molecular mechanism of the role of periostin in platinum resistance in ovarian cancer cells, the PI3K/Akt pathway-specific inhibitor Ly294002 was used to identify whether periostin is working through this pathway. Ovarian cancer cell apoptosis was detected using flow cytometry. Ly294002 (25 μM) could reverse periostin-induced DDP resistance and increase apoptosis of ES-2 cells (DDP plus periostin group vs. DDP plus periostin and Ly294002, P < 0.01, Figure 3A ). This trend was also observed in the SKOV-3 cells, but statistical significance was not reached (P > 0.05, Figure 3B ).
+
+Periostin inhibits platinum-induced apoptosis in ovarian cancer cells by activating the PI3K/AKT pathway. (A, B) Flow cytometry assay showed that PI3K/AKT pathway-specific inhibitor Ly294002 could reverse the DDP (10 µg/mL) resistance of ES-2 and SKOV-3 cells induced by periostin. (C, D) Ly294002 increased the inhibition of ES-2 and SKOV-3 cells treated with DDP (10 µg/mL) and periostin. * P < 0.05. ** P < 0.01.
+
+We used the CCK-8 assay to verify the role of the PI3K/Akt signaling pathway in periostin-induced platinum resistance in ovarian cancer. We observed a significant decrease in periostin-induced platinum resistance in SKOV-3 and ES-2 cells after Ly294002 treatment (25 μM) (P < 0.01, Figure 3C and D ). The change in the ratio of Bcl-2/Bax in ovarian cancer cells after the addition of LY294002 (25 μM) provided support that periostin might affect platinum resistance in ovarian cancer through the PI3K/Akt pathway ( Figure 4A and B ).
+
+Periostin increases the BCL-2/BAX ratio of ovarian cancer cells after DDP treatment, and Ly294002 can reverse this effect. (A, B) Ly294002 reduced the Bcl-2/BAX ratio of DDP (10 µg/mL) and periostin-treated SKOV-3 and ES-2 cells. ** P < 0.01.
+
+Akt is activated through phosphorylation. Therefore, we measured Akt phosphorylation in ovarian cancer cells after periostin treatment using western blotting. Exogenous periostin protein increased Akt phosphorylation in SKOV-3 and ES-2 cells, and this periostin-induced phosphorylation was blocked with LY294002 ( Figure 5A - D ). These results indicated that periostin possible cause platinum resistance by increasing Akt phosphorylation.
+
+Periostin increases the phosphorylation of AKT in SKOV-3 and ES-2 cells, and this process can be blocked by LY294002. (A-D) Western blot analysis showed the phosphorylation level of AKT increased after periostin treatment, and LY294002 can block this change in both ovarian cancer lines. * P < 0.05, ** P < 0.01.
+
+We confirmed that the expression of periostin protein was upregulated in ovarian cancer stroma. Periostin is mainly produced by fibroblasts. To determine the effect of periostin protein secreted by fibroblasts on ovarian cancer cells, SKOV-3 and ES-2 cells were co-cultured with periostin-overexpressing and periostin-knockdown MRC-5 cells. MRC-5 cells were infected with lentivirus encoding a periostin expression vector (POSTN OE), lentivirus expressing a periostin shRNA (POSTN KD), or a negative control lentivirus (POSTN vector). We then measured the mRNA and protein levels of periostin in infected MRC-5 cells ( Figure. 6A and B ). Periostin expression was drastically reduced in the KD group and increased in the OE group.
+
+Periostin protein secreted by fibroblasts can reduce the sensitivity of ovarian cancer cells to DDP in the co-culture system. (A, B) RT-PCR and western blot assay certified that periostin expression increased in the POSTN OE MRC-5 group and decreased in the POSTN KD group. (C, D) Apoptosis of SKOV-3 and ES-2 cells induced by DDP (10 µg/mL) decreased when co-cultured with periostin OE MRC-5 cell. (E, F) Co-cultured with periostin OE MRC-5 cell could reduce the Bcl-2/BAX ratio of SKOV-3 and ES-2 cells after DDP treatment. * P < 0.05, ** P < 0.01.
+
+Transwell assays were performed for the co-culture experiments. SKOV-3 and ES-2 cells were seeded in the lower layer of the Transwell, while MRC-5 cells were seeded in the upper layer. DDP (5 μg/mL) was added to the co-culture system 24 h after cell seeding. Ovarian cancer cells were collected 48 h later and apoptosis was measured using flow cytometry. Platinum-induced ES-2 cell apoptosis was reduced in the POSTN OE MRC-5 co-culture compared with the POSTN KD co-culture (P < 0.05). There was no significant difference between apoptosis rates in ES-2 cells alone treated with platinum compared with co-culture with POSTN vector MRC-5 cells (P > 0.05). SKOV-3 cell apoptosis also decreased in the periostin OE MRC-5 co-culture, but there was no statistically significant difference in apoptosis when comparing to the other 2 MRC-5 groups ( Figure 6C and D ). Apoptosis-related proteins Bcl-2 and Bax were measured in SKOV-3 and ES-2 cells co-cultured with MRC-5 cells expressing different levels of periostin protein. The Bcl-2/Bax ratio was significantly higher in the ovarian cancer cells in the POSTN OE MRC-5 co-culture compared with empty vector MRC-5 and POSTN KD MRC-5 co-culture conditions ( Figure 6E and F ).
+
+
+Periostin Expression Is Upregulated in Epithelial Ovarian Cancer
+
+To confirm increased expression and investigate the biological role of periostin in human EOC, we analyzed periostin gene transcript levels from the GSE40595 dataset. Periostin was markedly overexpressed in the stroma of ovarian cancer tissue compared with the epithelium (P < 0.001, logFC = 4.173; Figure 1A and B ), and was overexpressed in the stroma of ovarian cancer compared with normal tissue (P = <0.001, logFC = 5.121). Furthermore, IHC staining of EOC patient samples indicated that periostin protein levels in EOC stroma were higher than in the normal ovarian stroma (P < 0.001; Figure 1C ). These results demonstrated that periostin expression was significantly elevated in ovarian cancer stromal cells.
+
+Expression of periostin in ovarian cancer stroma. (A) Analysis results based on GSE40595 data show that periostin transcription levels were increased significantly in ovarian cancer stroma (N = 31) compared with normal ovarian stroma (N = 8). (B) Periostin transcription levels were increased significantly in ovarian cancer stroma (N = 31) compared with tumor epithelial component (N = 32) in GSE40595 chip data. (C) IHC analysis shows that the periostin expression is upregulated in human ovarian stroma compared with normal ovarian stroma. ***P < 0.001
+
+
+Periostin Reduces DDP-Induced Apoptosis in Ovarian Cancer Cells
+
+To investigate the potential effect of periostin on platinum-resistance in ovarian cancer cells, SKOV-3 and ES-2 cells were treated with DDP (10 μg/mL) and human recombinant periostin protein (100 ng/mL). Apoptosis was then measured using Annexin V/PI dual-marker flow cytometry. The addition of exogenous periostin protein to SKOV-3 and ES-2 cell cultures reduced DDP-induced early and late apoptosis (P < 0.01; Figure 2A and B ).
+
+Periostin reduces DDP-induced apoptosis in ovarian cancer cells. (A, B) Flow cytometry analysis was used to detect the apoptosis rate of ES-2 and SKOV-3 cells treated with DDP(10 µg/mL) and periostin. (C, E) CCK-8 assay showed periostin can reduce the inhibition rate of ES-2 and SKOV-3 cells after DDP treatment. (D, F) Periostin increases the IC50 value of DDP(10 µg/mL) in SKOV-3 and ES-2 cells. (G, H) Periostin increases the Bcl-2/BAX ratio of DDP(10 µg/mL) treated SKOV-3 and ES-2 cells. * P < 0.05, ** P < 0.01.
+
+Furthermore, CCK-8 was used to calculate the effect of periostin on the suppression of ovarian cancer growth induced by DDP. The IC50 value was calculated based on the inhibition rate. There were 3 treatment groups: DDP, DDP with a low concentration of periostin (100 ng/mL), and DDP with a higher concentration of periostin (200 ng/mL). Our data showed that exogenously-added periostin protein could reduce the inhibitory effect of DDP on SKOV-3 and ES-2 cells ( Tables 1 and 2 , Figure 2C and E ). The IC50 values for the 3 groups increased with the increase in periostin concentration added (P < 0.01, Figure 2D and F ).
+
+Periostin Increases the Survival Rate of SKOV-3 Cells During DDP Treatment.
+
+Periostin Increases the Survival Rate of ES-2 Cells During DDP Treatment.
+
+Bcl-2 is a cell survival factor that inhibits cell apoptosis, while Bax protein promotes apoptosis. 22 Therefore, the Bcl-2/Bax expression ratio is regarded as an important indicator of cell apoptosis. Western blots were used to detect the expression of Bcl-2 and Bax in the different treatment groups (control, DDP (10 µg/mL) and DDP (10 µg/mL) with periostin (200 ng/mL)). The addition of exogenous periostin protein increased Bcl-2 protein expression and decreased Bax protein expression in SKOV-3 and ES-2 cell lines after DDP treatment. As a result, the Bcl-2/Bax ratio was increased in the DDP (10 µg/mL) with periostin (200 ng/mL) groups compared with the DDP alone group in both cell lines (P < 0.01; Figure 2G and H ).
+
+
+Periostin Inhibits Platinum-Induced Apoptosis in Ovarian Cancer Cells by Activating the PI3K/Akt Pathway
+
+To explore the molecular mechanism of the role of periostin in platinum resistance in ovarian cancer cells, the PI3K/Akt pathway-specific inhibitor Ly294002 was used to identify whether periostin is working through this pathway. Ovarian cancer cell apoptosis was detected using flow cytometry. Ly294002 (25 μM) could reverse periostin-induced DDP resistance and increase apoptosis of ES-2 cells (DDP plus periostin group vs. DDP plus periostin and Ly294002, P < 0.01, Figure 3A ). This trend was also observed in the SKOV-3 cells, but statistical significance was not reached (P > 0.05, Figure 3B ).
+
+Periostin inhibits platinum-induced apoptosis in ovarian cancer cells by activating the PI3K/AKT pathway. (A, B) Flow cytometry assay showed that PI3K/AKT pathway-specific inhibitor Ly294002 could reverse the DDP (10 µg/mL) resistance of ES-2 and SKOV-3 cells induced by periostin. (C, D) Ly294002 increased the inhibition of ES-2 and SKOV-3 cells treated with DDP (10 µg/mL) and periostin. * P < 0.05. ** P < 0.01.
+
+We used the CCK-8 assay to verify the role of the PI3K/Akt signaling pathway in periostin-induced platinum resistance in ovarian cancer. We observed a significant decrease in periostin-induced platinum resistance in SKOV-3 and ES-2 cells after Ly294002 treatment (25 μM) (P < 0.01, Figure 3C and D ). The change in the ratio of Bcl-2/Bax in ovarian cancer cells after the addition of LY294002 (25 μM) provided support that periostin might affect platinum resistance in ovarian cancer through the PI3K/Akt pathway ( Figure 4A and B ).
+
+Periostin increases the BCL-2/BAX ratio of ovarian cancer cells after DDP treatment, and Ly294002 can reverse this effect. (A, B) Ly294002 reduced the Bcl-2/BAX ratio of DDP (10 µg/mL) and periostin-treated SKOV-3 and ES-2 cells. ** P < 0.01.
+
+Akt is activated through phosphorylation. Therefore, we measured Akt phosphorylation in ovarian cancer cells after periostin treatment using western blotting. Exogenous periostin protein increased Akt phosphorylation in SKOV-3 and ES-2 cells, and this periostin-induced phosphorylation was blocked with LY294002 ( Figure 5A - D ). These results indicated that periostin possible cause platinum resistance by increasing Akt phosphorylation.
+
+Periostin increases the phosphorylation of AKT in SKOV-3 and ES-2 cells, and this process can be blocked by LY294002. (A-D) Western blot analysis showed the phosphorylation level of AKT increased after periostin treatment, and LY294002 can block this change in both ovarian cancer lines. * P < 0.05, ** P < 0.01.
+
+
+Periostin Protein Secreted by Fibroblasts Can Reduce the Sensitivity of Ovarian Cancer Cells to DDP
+
+We confirmed that the expression of periostin protein was upregulated in ovarian cancer stroma. Periostin is mainly produced by fibroblasts. To determine the effect of periostin protein secreted by fibroblasts on ovarian cancer cells, SKOV-3 and ES-2 cells were co-cultured with periostin-overexpressing and periostin-knockdown MRC-5 cells. MRC-5 cells were infected with lentivirus encoding a periostin expression vector (POSTN OE), lentivirus expressing a periostin shRNA (POSTN KD), or a negative control lentivirus (POSTN vector). We then measured the mRNA and protein levels of periostin in infected MRC-5 cells ( Figure. 6A and B ). Periostin expression was drastically reduced in the KD group and increased in the OE group.
+
+Periostin protein secreted by fibroblasts can reduce the sensitivity of ovarian cancer cells to DDP in the co-culture system. (A, B) RT-PCR and western blot assay certified that periostin expression increased in the POSTN OE MRC-5 group and decreased in the POSTN KD group. (C, D) Apoptosis of SKOV-3 and ES-2 cells induced by DDP (10 µg/mL) decreased when co-cultured with periostin OE MRC-5 cell. (E, F) Co-cultured with periostin OE MRC-5 cell could reduce the Bcl-2/BAX ratio of SKOV-3 and ES-2 cells after DDP treatment. * P < 0.05, ** P < 0.01.
+
+Transwell assays were performed for the co-culture experiments. SKOV-3 and ES-2 cells were seeded in the lower layer of the Transwell, while MRC-5 cells were seeded in the upper layer. DDP (5 μg/mL) was added to the co-culture system 24 h after cell seeding. Ovarian cancer cells were collected 48 h later and apoptosis was measured using flow cytometry. Platinum-induced ES-2 cell apoptosis was reduced in the POSTN OE MRC-5 co-culture compared with the POSTN KD co-culture (P < 0.05). There was no significant difference between apoptosis rates in ES-2 cells alone treated with platinum compared with co-culture with POSTN vector MRC-5 cells (P > 0.05). SKOV-3 cell apoptosis also decreased in the periostin OE MRC-5 co-culture, but there was no statistically significant difference in apoptosis when comparing to the other 2 MRC-5 groups ( Figure 6C and D ). Apoptosis-related proteins Bcl-2 and Bax were measured in SKOV-3 and ES-2 cells co-cultured with MRC-5 cells expressing different levels of periostin protein. The Bcl-2/Bax ratio was significantly higher in the ovarian cancer cells in the POSTN OE MRC-5 co-culture compared with empty vector MRC-5 and POSTN KD MRC-5 co-culture conditions ( Figure 6E and F ).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Cancer-associated fibroblasts (CAFs) are important players in the tumor microenvironment. Several studies have confirmed that CAFs can promote tumor proliferation, metastasis and chemotherapy resistance. 23 , 24 High expression of periostin in EOC tissue is associated with poor prognostic factors, such as advanced stage, poor differentiation and tumor recurrence. 13 , 25 ICON7 was an international randomised trial study in witch patients with ovarian cancer were treated by carboplatin and paclitaxel with or without antiangiogenics (bevacizumab). The result of ICON7 shows that bevacizumab improves progression free survival in women with ovarian cancer but does not increase overall survival. An analysis based on ICON7 trial data also confirmed that EOC patients with high stromal periostin expression had significantly shorter progression-free survival compared with patients with low stromal periostin expression (12 months vs. 27 months). 15 More importantly, in ovarian cancer tissue, periostin is mainly secreted by CAFs. High expression of periostin in the stroma is associated with a poor prognosis, but high expression of periostin in tumor cells does not correlate with prognosis. 12 , 14 We analyzed periostin RNA levels in ovarian cancer and stromal cells using the GSE40595 GEO dataset. Periostin RNA levels were higher in ovarian cancer stromal cells compared with ovarian cancer cells (P = <0.001, logFC = 4.173). Periostin levels were also higher in EOC stroma compared with normal ovarian stromal cells (P = <0.001, logFC = 5.121) ( Figure 1 ).
+
+Periostin is involved in varying tumor-promoting mechanisms in different cancers, including accelerating tumor proliferation, enhancing migration and contributing to chemotherapy and radiotherapy resistance. 26 - 30 In a study by Sung et al, a multivariate regression analysis showed that patients with high levels of stromal periostin tend to have higher rates of DDP resistance compared to those with low levels of stromal periostin. 25 We examined the apoptotic rates of ovarian cancer cells (SKOV-3 and ES-2) treated with DDP and human recombinant periostin protein and found that periostin protein could reduce DDP-induced apoptosis ( Figure 2A and B ). We also assessed the IC50 and Bcl-2/Bax ratio in ovarian cancer cells treated with DDP and found that periostin could significantly increase the IC50 value and the Bcl-2/Bax ratio in ovarian cells ( Figure 2C - H ). Collectively, these results confirmed that periostin promoted platinum resistance of EOC cells.
+
+Several published works have demonstrated that periostin protein can promote cancer development through the PI3K/Akt pathway in cells. 16 , 17 , 31 We, therefore, hypothesized that the PI3K/Akt pathway also plays a key role in EOC. LY294002, a PI3 K specific inhibitor, was used to test the role of the PI3K/Akt pathway in our study. The apoptotic rate of ES-2 cells treated with DDP and periostin protein significantly increased with LY294002 treatment ( Figure 3A ). This observation was also confirmed with the CCK-8 assay and western blotting. SKOV-3 and ES-2 cell viability data demonstrated that LY294002 can reverse platinum resistance caused by periostin ( Figure 3C and D ). LY294002 significantly reduced the Bcl-2/Bax ratio in EOC cells treated with DDP and periostin with a final concentration of 200 ng/mL ( Figure 4A and B ). A number of studies have indicated that periostin activates the Akt signaling pathway through Akt phosphorylation. 16 , 17 , 32 , 33 Kim et al showed that blocking Akt phosphorylation can reduce the inhibitory effect of periostin in bladder cancer cells. 32 Xiao et al reported that periostin induces Akt phosphorylation and activation of the survivin pathway in colon cancer. 17 In the present study, we showed that periostin protein can enhance DDP resistance through Akt phosphorylation in ovarian cancer cells ( Figure 5 ).
+
+Studies by Choi et al and Karlan et al demonstrated that periostin is mainly secreted by CAFs instead of cancer cells, 12 , 14 and it binds integrin αvβ3 and αvβ5 on the surface of EOC cells. We, therefore, used a co-culture model to verify that periostin produced by CAFs can enhance platinum resistance in ovarian cancer cells through paracrine methods. Co-cultures of ovarian cancer cell lines with periostin-overexpressing fibroblasts resulted in reduced apoptosis of ES-2 cells compared with co-cultures with periostin-knockdown fibroblast cells. In addition, the ratio of Bcl-2/Bax in ovarian cancer cells also increased ( Figure 6C and F ). These results indicated that periostin secreted by interstitial cells can lead to platinum resistance.
+
+There were several limitations of our study. First, when we compared the cisplatin-induced apoptosis of EOC cells with or without periostin, no periostin protein alone group was set up as a control ( Figure 2 ). Second, animal experiment has not been conducted to verify the promoting effect of periostin on platinum resistance to EOC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+In the present study, we demonstrated that periostin secreted by fibroblasts can reduce DDP-induced apoptosis in EOC. We also showed that this anti-apoptotic effect occurred through the PI3K/Akt pathway. These results suggest that periostin may play an important role in EOC recurrence and Platinum-based chemotherapy resistance and that periostin suppression may be a potential therapeutic approach for EOC
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

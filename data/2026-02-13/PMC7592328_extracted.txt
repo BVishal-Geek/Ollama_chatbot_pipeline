@@ -1,0 +1,209 @@
+================================================================================
+ARTICLE TITLE: Long Noncoding RNA HOXB-AS1 Is Upregulated in Endometrial Carcinoma and Sponged miR-149-3p to Upregulate Wnt10b
+PMCID: PMC7592328
+PMID: 33073693
+KEYWORDS: endometrial carcinoma, hoxb-as1, mir-149-3p, wnt10b, wnt/β-catenin, mir-149-3p reverse, 5′-cagtgcagggtccgaggtatt-3′
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+The functions of Long noncoding RNA (lncRNA) HOXB-AS1 have been investigated in glioblastoma and multiple myeloma. However, the role of lncRNA HOXB-AS1 in endometrial carcinoma (EC) remains largely unknown. This study investigated the underlying mechanisms of the lncRNA HOXB-AS1 on the progression of EC. In this study, We found that HOXB-AS1 expression was significantly upregulated in EC tissue samples and was associated with shorter survival time. Furthermore, upregulation of HOXB-AS1 promoted proliferation, invasion, and migration of EC cell. HOXB-AS1 and Wnt10b directly bound to miR-149-3p. HOXB-AS1 increased the expression of Wnt10b by binding to miR-149-3p. We further verified the upregulation of β-catenin, cyclin D1, and c-myc induced by HOXB-AS1. In conclusion, our results indicated that HOXB-AS1 exerted oncogenic function as competing endogenous RNA (ceRNA) of miR-149-3p to release Wnt10b and activated Wnt/β-catenin pathway.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Endometrial cancer (EC) is the second most common gynecologic malignancy among women worldwide. 1 Over 380,000 new cases were diagnosed in 2018. 2 EC has been classifed into universal subtypes: type I (endometrioid) and type II (non-endometrioid). 3 Type I accounts for 80% to 90% of all cases. 4 With appropriate surgical resection, 5 year overall survival ranges from 74% to 91% in patients without metastatic disease. 4 However, a considerable portion of patients with EC are diagnosed as advanced stage, and the prognosis is generally poor. 5 Adjuvant therapeutic approaches, such as chemotherapy and radiation therapies, have been applied to improve progression-free and overall survival in patients with EC, but side effects of adjuvant therapeutic approaches are inevitable. 6 Thus, exploring novel biomarkers and therapeutic targets of EC would aid the design of diagnostic and therapeutic approaches to improve survival.
+
+long noncoding RNAs (lncRNAs) are transcripts longer than 200 nucleotides, with regulatory functions but lacking protein-coding ability. 7 Increasing evidence has shown that aberrant expression of lncRNAs is in association with the development and prognosis of EC, such as MALAT1, GAS5, CCAT2, and HEIH. 8 - 11 HOX genes code for proteins that function as critical master regulatory transcription factors during embryogenesis, and several HOX genes are associated with oncogenesis. 12 Many HOX genes, such as HOXB9, HOXB13, HOXA10, and HOTAIR, have demonstrated abnormal expression in EC tissues and cells. 13 - 16 HOXB cluster antisense RNA 1 (HOXB-AS1) has been demonstrated to facilitate the proliferation of glioblastoma cells and multiple myeloma cells. 17 , 18 However, a little is known about the functional role and molecular mechanism of HOXB-AS1 in EC.
+
+MicroRNAs (miRNAs) are a class of small non-coding RNAs thatregulate a range of physiological and pathological processes, including tumorigenesis. 19 It has reported that miR-652 regulates proliferation and metastasis of EC by targeting RORA. 20 Liu et al. have reported that miR-139-5p targets the HOXA10 transcript and suppresses cell growth and migration of EC. 21 Recently several studies have demonstrated that miR-149-3p is a tumor suppressor and plays important roles in the regulation of various cancer cell proliferation and invasion, such as gastric cancer, bladder cancer, pancreatic cancer, and colon cancer. 22 - 26 However, the role of miR-149-3p in EC cells remains unclear.
+
+In the present study, we found that HOXB-AS1 was upregulated in EC patient specimens and cell lines. Moreover, upregulation of HOXB-AS1 promoted proliferation, invasion, and migration of EC cell. Mechanistically, our investigation revealed that HOXB-AS1 acted as a competing endogenous RNA (ceRNA) to target miR-149-3p and upregulate Wnt10b expression in EC cell.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+A total of 64 cases of EC tissues and matched adjacent normal endometrial tissues were collected from patients who underwent surgery from March 2016 to March 2018 in our hospital. After surgical resection, tumor tissues were flash-frozen in liquid nitrogen and then stored at -80°C for further use. All EC samples were endometrioid adenocarcinoma. No patient received chemotherapy or radiation therapy. The research was approved by the hospital ethics committee. Written informed consent was obtained from each patient.
+
+Tissues samples in The Cancer Genome Atlas (TCGA) database ( https://cancergenome.nih.gov/ ) were divided into 2 groups (HOXB-AS1 high expression group: n = 277; HOXB-AS1 low expression group: n = 200). A survival curve was generated to analyze the relationship between HOXB-AS1 expression and the overall survival of EC patients.
+
+Four human EC cell lines (KLE, AN3CA, HEC-1-B, and Ishikawa) and human normal endometrial stromal cells (HESCs) were obtained from Cell Culture Center, Chinese Academy of Medical Sciences (Shanghai, China). Cells culture medium was composed of 90% Dulbecco’s modified Eagle’s medium and 10% fetal bovine serum. Cells culture conditions were: 5% CO 2 , 37°C, and 95% humidity. The pcDNA3.1 vector expressing HOXB-AS1, HOXB-AS1 siRNA, the miR-149-3p mimics, miR-149-3p inhibitor, and their corresponding negative controls were synthesized by RiboBio (Guangzhou, China). HEC-1-B and Ishikawa cells were harvested at 75-85% confluence. Lipofectamine 3000 (Invitrogen, Thermo Fisher Scientific, Inc.) was used to transfect HOXB-AS1 vector, HOXB-AS1 siRNA, miR-149-3p mimics, and miR-149-3p inhibitor into HEC-1-B and Ishikawa cells. After 24 h, cells were harvested to perform the following studies.
+
+Total RNA from frozen tissues and cultured cells was isolated by using TRIzol reagent (Invitrogen, Carlsbad, CA, USA). 1 µg RNA was used to reverse transcribed by using the Prime Script RT reagent kit (Invitrogen, Carlsbad, CA, USA). QuantiTect SYBR Green RT-PCR Kit (QIAGEN) was used to prepare qPCR reaction. PCR reactions were performed on an ABI PRISM 7500 sequence detection system (Applied Biosystems; Thermo Fisher Scientific, Inc.). For the measurement of miRNA expression, miRNA-specific cDNA was synthesized from 5 ng of total RNA using the TaqMan MicroRNA Reverse Transcription Kit (Applied Biosystems). The expression levels of miR-149-3p was quantified using miRNA-specific TaqMan MiRNA Assay Kit (Applied Biosystems) on an ABI PRISM 7500 sequence detection system (Applied Biosystems). The expression levels of U6 small nuclear RNA and β-actin mRNA were used as reference genes. All PCR reactions were repeated 3 times and mean values were presented. Fold changes of gene expression were measured using 2 −ΔΔCT method. The primer sequences are shown in Table 1 .
+
+Primers Used for Real-Time PCR.
+
+Cell proliferation was analyzed by cell counting kit-8 (CCK-8) assay. 3 × 10 3 cells were distributed in each well of 96-well plates. Cells were cultured for 0, 24, 48, and 72 h. At each time-point, 10 µL of the CCK-8 solution (Sigma-Aldrich, USA) was added into all wells at 37°C for 1 h. The absorbance at 450 nm of each well was measured by using a microplate reader (Bio-Rad, Hercules, CA, USA).
+
+Cell invasion and migration were analyzed by Transwell assay by using inserts from Corning (8-mm pore size). Uncoated membranes were used in migration assay, while Matrigel-coated membranes (BD Biosciences, San Jose, CA, USA) were used in invasion assay. HEC-1-B and Ishikawa cells (1 × 10 5 per well) in serum-free medium were added to the top chambers, and the lower chambers were filled with medium containing 10% FBS. After incubation for 36 h at 37°C, the remaining cells in the upper chamber were carefully removed with a cotton swab. The migrated or invaded cells through the membrane were stained with 0.1% crystal violet, and counted using an inverted microscope (Olympus, Tokyo, Japan). Five fields of vision were randomly chosen, and the cell number was expressed as the mean.
+
+Bioinformatics website DIANA tools ( http://carolina.imis.athena-innovation.gr/diana_tools/web/index.php ) and TargetScanHuman ( http://www.targetscan.org/vert_72/ ) were used to identify potential binding sites for miR-149-3p, HOXB-AS1, and Wnt10b, and obtain the fragment sequences containingaction sites. The 3’UTR sequence of HOXB-AS1 and Wnt10b predicted to interact with miR-149-3p and the designed mutant 3’UTR of HOXB-AS1 and Wnt10b were synthesized and cloned into the Renilla psiCHECK2 vector (Promega, Madison, WI, USA). HEC-1-B and Ishikawa cells were seeded into 24-well plates. Cells cotransfected with miR-149-3p mimics or negative control and luciferase reporter vector. After 48 h, luciferase activity was measured using a Dual-Luciferase Reporter Assay System (Promega). Firefly luciferase activity was normalized to Renilla luciferase activity.
+
+The total protein from the cell lines was collected with immunoprecipitation assay (RIPA) lysis buffer (Beyotime, Jiangsu, China) and subsequently quantified by BCA assay (Beyotime). 50 µg protein was separated by using SDS-PAGE and transferred to PVDF membranes (Millipore, MA). After blocking for 1 h at room temperature with PBS containing 5% non-fat milk, the membranes were incubated with primary antibodies against Wnt10b (1:1000, ab70816, abcam), β-catenin (1:1000, ab6302, abcam), GSK-3β (1:3000, ab32391, abcam), cyclinD1 (1:1000, ab134175, abcam), and c-myc(1:1000, ab32072, abcam) for overnight at 4°C. After that, membranes were incubated with HRP-conjugated anti-rabbit secondary antibodies (1:3000, A0208, Beyotime) for 2 h. Protein expression levels were visualized by using enhanced chemiluminescence kit (Sigma-Aldrich) method. The optical densities of the protein bands were measured using Image-Pro Plus software (version 6.0; Media Cybernetics, Inc., Rockville, MD, USA). β-actin was used as the internal control.
+
+Data are presented as the mean ± standard deviation (SD) of at least 3 separate experiments. Statistical analysis were performed by using GraphPad Prism 7.0 software (GraphPad Software, Inc.). A Chi-square test was used to evaluate the associations between expression lever with related clinicopathological factors. A log rank test was used to compare survival times between 2 groups. Statistical comparison of means between groups were performed by using paired Student’s t-test or ANOVA (one-way) followed by Tukey’s test. P < 0.05 was considered statistically significant.
+
+
+Tissue Samples
+
+A total of 64 cases of EC tissues and matched adjacent normal endometrial tissues were collected from patients who underwent surgery from March 2016 to March 2018 in our hospital. After surgical resection, tumor tissues were flash-frozen in liquid nitrogen and then stored at -80°C for further use. All EC samples were endometrioid adenocarcinoma. No patient received chemotherapy or radiation therapy. The research was approved by the hospital ethics committee. Written informed consent was obtained from each patient.
+
+
+Bioinformatic Analysis of Clinical Data
+
+Tissues samples in The Cancer Genome Atlas (TCGA) database ( https://cancergenome.nih.gov/ ) were divided into 2 groups (HOXB-AS1 high expression group: n = 277; HOXB-AS1 low expression group: n = 200). A survival curve was generated to analyze the relationship between HOXB-AS1 expression and the overall survival of EC patients.
+
+
+EC Cells Culture and Transfections
+
+Four human EC cell lines (KLE, AN3CA, HEC-1-B, and Ishikawa) and human normal endometrial stromal cells (HESCs) were obtained from Cell Culture Center, Chinese Academy of Medical Sciences (Shanghai, China). Cells culture medium was composed of 90% Dulbecco’s modified Eagle’s medium and 10% fetal bovine serum. Cells culture conditions were: 5% CO 2 , 37°C, and 95% humidity. The pcDNA3.1 vector expressing HOXB-AS1, HOXB-AS1 siRNA, the miR-149-3p mimics, miR-149-3p inhibitor, and their corresponding negative controls were synthesized by RiboBio (Guangzhou, China). HEC-1-B and Ishikawa cells were harvested at 75-85% confluence. Lipofectamine 3000 (Invitrogen, Thermo Fisher Scientific, Inc.) was used to transfect HOXB-AS1 vector, HOXB-AS1 siRNA, miR-149-3p mimics, and miR-149-3p inhibitor into HEC-1-B and Ishikawa cells. After 24 h, cells were harvested to perform the following studies.
+
+
+Quantitative Real-Time PCR (qRT-PCR)
+
+Total RNA from frozen tissues and cultured cells was isolated by using TRIzol reagent (Invitrogen, Carlsbad, CA, USA). 1 µg RNA was used to reverse transcribed by using the Prime Script RT reagent kit (Invitrogen, Carlsbad, CA, USA). QuantiTect SYBR Green RT-PCR Kit (QIAGEN) was used to prepare qPCR reaction. PCR reactions were performed on an ABI PRISM 7500 sequence detection system (Applied Biosystems; Thermo Fisher Scientific, Inc.). For the measurement of miRNA expression, miRNA-specific cDNA was synthesized from 5 ng of total RNA using the TaqMan MicroRNA Reverse Transcription Kit (Applied Biosystems). The expression levels of miR-149-3p was quantified using miRNA-specific TaqMan MiRNA Assay Kit (Applied Biosystems) on an ABI PRISM 7500 sequence detection system (Applied Biosystems). The expression levels of U6 small nuclear RNA and β-actin mRNA were used as reference genes. All PCR reactions were repeated 3 times and mean values were presented. Fold changes of gene expression were measured using 2 −ΔΔCT method. The primer sequences are shown in Table 1 .
+
+Primers Used for Real-Time PCR.
+
+
+Cell Proliferation Assay
+
+Cell proliferation was analyzed by cell counting kit-8 (CCK-8) assay. 3 × 10 3 cells were distributed in each well of 96-well plates. Cells were cultured for 0, 24, 48, and 72 h. At each time-point, 10 µL of the CCK-8 solution (Sigma-Aldrich, USA) was added into all wells at 37°C for 1 h. The absorbance at 450 nm of each well was measured by using a microplate reader (Bio-Rad, Hercules, CA, USA).
+
+
+Transwell Assay
+
+Cell invasion and migration were analyzed by Transwell assay by using inserts from Corning (8-mm pore size). Uncoated membranes were used in migration assay, while Matrigel-coated membranes (BD Biosciences, San Jose, CA, USA) were used in invasion assay. HEC-1-B and Ishikawa cells (1 × 10 5 per well) in serum-free medium were added to the top chambers, and the lower chambers were filled with medium containing 10% FBS. After incubation for 36 h at 37°C, the remaining cells in the upper chamber were carefully removed with a cotton swab. The migrated or invaded cells through the membrane were stained with 0.1% crystal violet, and counted using an inverted microscope (Olympus, Tokyo, Japan). Five fields of vision were randomly chosen, and the cell number was expressed as the mean.
+
+
+Dual-Luciferase Reporter Assay
+
+Bioinformatics website DIANA tools ( http://carolina.imis.athena-innovation.gr/diana_tools/web/index.php ) and TargetScanHuman ( http://www.targetscan.org/vert_72/ ) were used to identify potential binding sites for miR-149-3p, HOXB-AS1, and Wnt10b, and obtain the fragment sequences containingaction sites. The 3’UTR sequence of HOXB-AS1 and Wnt10b predicted to interact with miR-149-3p and the designed mutant 3’UTR of HOXB-AS1 and Wnt10b were synthesized and cloned into the Renilla psiCHECK2 vector (Promega, Madison, WI, USA). HEC-1-B and Ishikawa cells were seeded into 24-well plates. Cells cotransfected with miR-149-3p mimics or negative control and luciferase reporter vector. After 48 h, luciferase activity was measured using a Dual-Luciferase Reporter Assay System (Promega). Firefly luciferase activity was normalized to Renilla luciferase activity.
+
+
+Western Blotting
+
+The total protein from the cell lines was collected with immunoprecipitation assay (RIPA) lysis buffer (Beyotime, Jiangsu, China) and subsequently quantified by BCA assay (Beyotime). 50 µg protein was separated by using SDS-PAGE and transferred to PVDF membranes (Millipore, MA). After blocking for 1 h at room temperature with PBS containing 5% non-fat milk, the membranes were incubated with primary antibodies against Wnt10b (1:1000, ab70816, abcam), β-catenin (1:1000, ab6302, abcam), GSK-3β (1:3000, ab32391, abcam), cyclinD1 (1:1000, ab134175, abcam), and c-myc(1:1000, ab32072, abcam) for overnight at 4°C. After that, membranes were incubated with HRP-conjugated anti-rabbit secondary antibodies (1:3000, A0208, Beyotime) for 2 h. Protein expression levels were visualized by using enhanced chemiluminescence kit (Sigma-Aldrich) method. The optical densities of the protein bands were measured using Image-Pro Plus software (version 6.0; Media Cybernetics, Inc., Rockville, MD, USA). β-actin was used as the internal control.
+
+
+Statistical Analysis
+
+Data are presented as the mean ± standard deviation (SD) of at least 3 separate experiments. Statistical analysis were performed by using GraphPad Prism 7.0 software (GraphPad Software, Inc.). A Chi-square test was used to evaluate the associations between expression lever with related clinicopathological factors. A log rank test was used to compare survival times between 2 groups. Statistical comparison of means between groups were performed by using paired Student’s t-test or ANOVA (one-way) followed by Tukey’s test. P < 0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+As indicated in Figure 1A , the expression levels of HOXB-AS1 were significantly higher in tumor tissues than adjacent normal tissues. We further evaluated the correlation between patient clinicopathologic characteristics and the expression levels of HOXB-AS1. As shown in Table 2 , no associations were identified between HOXB-AS1 levels and age, FIGO stage, histologic grade, and lymph node metastasis. Besides, Kaplan–Meier survival analysis showed that patients with higher HOXB-AS1 levels had shorter survival time than those that had lower levels of HOXB-AS1 ( Figure 1B ). The results showed that the expression of HOXB-AS1 was significantly increased in EC cell lines compared with normal cell line ( Figure 1C ). These results suggest that HOXB-AS1 might be involved in the development of EC.
+
+HOXB-AS1 is overexpressed in endometrial carcinoma (EC). (A) HOXB-AS1 was significantly higher in EC than in adjacent normal tissue. (B) Kaplan-Meier survival analysis of HOXB-AS1 high and low expression levels. EC patients with high or low HOXB-AS1 expressions from The Cancer Genome Atlas (TCGA, https://tcga-data.nci.nih.gov/tcga/ ) database. (C) The expression of HOXB-AS1 was increased in endometrial cancer cell lines. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01.
+
+The Correlation Between lncRNA HOXB-AS1 Expression and Clinicopathological Variables of Endometrial Carcinoma Patients.
+
+To investigate the biological functions of HOXB-AS1 in EC cells, we overexpressed or knocked down HOXB-AS1 in Ishikawa and HEC-1-B cells by transfecting with pcDNA3.1-HOXB-AS1 or si-HOXB-AS1 ( Figure 2A ). CCK-8 assays showed that HOXB-AS1 overexpression promoted Ishikawa and HEC-1-B cells proliferation, whereas HOXB-AS1 knockdown inhibited Ishikawa and HEC-1-B cells proliferation ( Figure 2B ). Migration and invasion assays revealed that overexpression of HOXB-AS1 facilitated Ishikawa and HEC-1-B cell migration and invasion and suppression of HOXB-AS1 inhibited Ishikawa and HEC-1-B cell migration and invasion ( Figure 2C and 2D ). These findings indicate that HOXB-AS1 behaves as an oncogene to promote EC cell proliferation, migration, and invasion.
+
+HOXB-AS1 promotes the proliferation, migration, and invasion of endometrial carcinoma (EC). (A) After HOXB-AS1 transfection, Ishikawa and HEC-1-B cells exhibited significantly higher HOXB-AS1 expression. Silencing of HOXB-AS1 resulted in lower HOXB-AS1 expression. Upregulation of HOXB-AS1 expression increased cell proliferation (B), migration (C), and invasion (D) in EC cells. Silencing of HOXB-AS1 resulted in opposite effect. Bar = 100 μm. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01 vs. pcDNA3.1 group, ##P < 0.01 vs. si-NC group.
+
+We used online bioinformatics databases (DIANA Tools) and observed that HOXB-AS1 sequence contains potential miR-149-3p–binding sites. Te potential binding site of miR-149-3p in HOXB-AS1 as indicated ( Figure 3A ) Luciferase assay showed that in Ishikawa and HEC-1-B cells, when miR-149-3p was cotransfected with the wt 3’UTR vector, overexpression of miR-149-3p decreased the luciferase activity of the HOXB-AS1 WT construct. Importantly, luciferase activity was not clearly affected by the co-transfection of miR-149-3p mimics or mut 3’ UTR ( Figure 3B ). qRT-PCR showed that overexpression of HOXB-AS1 suppressed the expression of miR-149-3p, while HOXB-AS1 knockdown promoted the expression of miR-149-3p ( Figure 3C ). The expression of miR-149-3p was significantly decreased in EC tissues and cells ( Figure 3D and 3E ). In addition, miR-149-3p was negatively related to HOXB-AS1 ( Figure 3F ). Taken together, these findings suggest that miR-149-3p is a target of HOXB-AS1.
+
+MiR-149-3p is sponged by HOXB-AS1. (A) Potential interacting sites of HOXB-AS1 and miR-149-3p predicted by DIANA tools. (B) Cells were co-transfected with miR-149-3p mimics/mimics NC and HOXB-AS1 (wild type)/HOXB-AS1 (mutant), followed by luciferase activity test. (C) qPCR was performed to examine miR-149-3p expression upon pcDNA3.1-HOXB-AS1 or si-HOXB-AS1 transfection in Ishikawa and HEC-1-B cells. qRT-PCR was applied to assess the expression levels of miR-149-5p in endometrial cancer tissues (D) and endometrial carcinoma cell lines (E). (F) The correlation of HOXB-AS1 and miR-149-3p was analyzed using Pearson’s correlation analysis. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01, ##P < 0.01.
+
+We predicted Wnt10b as a target of miR-149-3p using TargetScan ( Figure 4A ). The results showed that miR-149-3p overexpression repressed the luciferase activity of Wnt10b wild type plasmids, while not that of mutant plasmids ( Figure 4B ). In addition, Wnt10b protein levels were decreased or increased in Ishikawa and HEC-1-B cells by miR-149-3p mimics or inhibitors, respectively ( Figure 4C ). The Wnt10b expression was significantly increased in EC tissues and cell lines compared with adjacent normal tissues and normal cell lines ( Figure 4D and E ). Wnt10b was negatively related to miR-149-3p ( Figure 4F ) and positively related to HOXB-AS1 ( Figure 4G ).
+
+MiR-149-3p targets Wnt10b. (A) Potential interacting sites of Wnt10b and miR-149-3p predicted by TatgetScan. (B) Cells were co-transfected with miR-149-3p mimics/mimics NC and Wnt10b (wild type)/ Wnt10b (mutant), followed by luciferase activity test. (C) Western blotting was performed to examine Wnt10b expression upon miR-149-3p mimics or miR-149-3p inhibitors transfection in Ishikawa and HEC-1-B cells. qRT-PCR was applied to assess the expression levels of Wnt10b in endometrial carcinoma tissues (D) and endometrial carcinoma cell lines (E). (F) The correlation of Wnt10b and miR-149-3p was analyzed using Pearson’s correlation analysis. (G) The correlation of Wnt10b and HOXB-AS1 was analyzed using Pearson’s correlation analysis. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01, ##P < 0.01.
+
+Overexpression of HOXB-AS1 increased the level of Wnt10b, β-catenin, cyclinD1 and c-myc, while decreased the level of GSK-3β. However, overexpression of miR-149-3p attenuated Wnt/β-catenin activity affected by HOXB-AS1 overexpression ( Figure 5 ). Thus, these results suggest that HOXB-AS1 can function as a sponge of miR-149-3p and activate of Wnt/β-catenin signaling pathway in EC.
+
+MiR-149-3p mimics was co-transfected with HOXB-AS1 into Ishikawa and HEC-1-B cells. Western blotting was applied to assess the expression levels of Wnt/β-catenin signaling pathway-associated proteins. The results are representative of 3 separate experiments. **P < 0.01 vs. pcDNA3.1 + mimics NC group.
+
+The effects of HOXB-AS1 and miR-149-3p on the proliferation ( Figure 6A ), migration ( Figure 6B ), and invasion ( Figure 6C ) of Ishikawa and HEC-1-B cells were analyzed by performing CCK-8 and Transwell assays. HOXB-AS1 increased cancer cell proliferation, migration, and invasion. The promotion of cell proliferation, migration, and invasion caused by HOXB-AS1 was partially rescued by cotransfection with miR-149-3p mimics.
+
+MiR-149-3p mediated the effects on endometrial cancer cells induced by HOXB-AS1. Cell proliferation (A), migration (B), and invasion (C) abilities were determined using CCK-8 assays and transwell assays. Bar = 100 μm. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01 vs. pcDNA3.1 + mimics NC group.
+
+
+HOXB-AS1 Expression Is Upregulated in EC Tissues and Associated With Poor Prognosis
+
+As indicated in Figure 1A , the expression levels of HOXB-AS1 were significantly higher in tumor tissues than adjacent normal tissues. We further evaluated the correlation between patient clinicopathologic characteristics and the expression levels of HOXB-AS1. As shown in Table 2 , no associations were identified between HOXB-AS1 levels and age, FIGO stage, histologic grade, and lymph node metastasis. Besides, Kaplan–Meier survival analysis showed that patients with higher HOXB-AS1 levels had shorter survival time than those that had lower levels of HOXB-AS1 ( Figure 1B ). The results showed that the expression of HOXB-AS1 was significantly increased in EC cell lines compared with normal cell line ( Figure 1C ). These results suggest that HOXB-AS1 might be involved in the development of EC.
+
+HOXB-AS1 is overexpressed in endometrial carcinoma (EC). (A) HOXB-AS1 was significantly higher in EC than in adjacent normal tissue. (B) Kaplan-Meier survival analysis of HOXB-AS1 high and low expression levels. EC patients with high or low HOXB-AS1 expressions from The Cancer Genome Atlas (TCGA, https://tcga-data.nci.nih.gov/tcga/ ) database. (C) The expression of HOXB-AS1 was increased in endometrial cancer cell lines. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01.
+
+The Correlation Between lncRNA HOXB-AS1 Expression and Clinicopathological Variables of Endometrial Carcinoma Patients.
+
+
+HOXB-AS1 Promotes EC Cell Proliferation, Migration, and Invasion
+
+To investigate the biological functions of HOXB-AS1 in EC cells, we overexpressed or knocked down HOXB-AS1 in Ishikawa and HEC-1-B cells by transfecting with pcDNA3.1-HOXB-AS1 or si-HOXB-AS1 ( Figure 2A ). CCK-8 assays showed that HOXB-AS1 overexpression promoted Ishikawa and HEC-1-B cells proliferation, whereas HOXB-AS1 knockdown inhibited Ishikawa and HEC-1-B cells proliferation ( Figure 2B ). Migration and invasion assays revealed that overexpression of HOXB-AS1 facilitated Ishikawa and HEC-1-B cell migration and invasion and suppression of HOXB-AS1 inhibited Ishikawa and HEC-1-B cell migration and invasion ( Figure 2C and 2D ). These findings indicate that HOXB-AS1 behaves as an oncogene to promote EC cell proliferation, migration, and invasion.
+
+HOXB-AS1 promotes the proliferation, migration, and invasion of endometrial carcinoma (EC). (A) After HOXB-AS1 transfection, Ishikawa and HEC-1-B cells exhibited significantly higher HOXB-AS1 expression. Silencing of HOXB-AS1 resulted in lower HOXB-AS1 expression. Upregulation of HOXB-AS1 expression increased cell proliferation (B), migration (C), and invasion (D) in EC cells. Silencing of HOXB-AS1 resulted in opposite effect. Bar = 100 μm. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01 vs. pcDNA3.1 group, ##P < 0.01 vs. si-NC group.
+
+
+HOXB-AS1 Serves as a Sponge for miR-149-3p
+
+We used online bioinformatics databases (DIANA Tools) and observed that HOXB-AS1 sequence contains potential miR-149-3p–binding sites. Te potential binding site of miR-149-3p in HOXB-AS1 as indicated ( Figure 3A ) Luciferase assay showed that in Ishikawa and HEC-1-B cells, when miR-149-3p was cotransfected with the wt 3’UTR vector, overexpression of miR-149-3p decreased the luciferase activity of the HOXB-AS1 WT construct. Importantly, luciferase activity was not clearly affected by the co-transfection of miR-149-3p mimics or mut 3’ UTR ( Figure 3B ). qRT-PCR showed that overexpression of HOXB-AS1 suppressed the expression of miR-149-3p, while HOXB-AS1 knockdown promoted the expression of miR-149-3p ( Figure 3C ). The expression of miR-149-3p was significantly decreased in EC tissues and cells ( Figure 3D and 3E ). In addition, miR-149-3p was negatively related to HOXB-AS1 ( Figure 3F ). Taken together, these findings suggest that miR-149-3p is a target of HOXB-AS1.
+
+MiR-149-3p is sponged by HOXB-AS1. (A) Potential interacting sites of HOXB-AS1 and miR-149-3p predicted by DIANA tools. (B) Cells were co-transfected with miR-149-3p mimics/mimics NC and HOXB-AS1 (wild type)/HOXB-AS1 (mutant), followed by luciferase activity test. (C) qPCR was performed to examine miR-149-3p expression upon pcDNA3.1-HOXB-AS1 or si-HOXB-AS1 transfection in Ishikawa and HEC-1-B cells. qRT-PCR was applied to assess the expression levels of miR-149-5p in endometrial cancer tissues (D) and endometrial carcinoma cell lines (E). (F) The correlation of HOXB-AS1 and miR-149-3p was analyzed using Pearson’s correlation analysis. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01, ##P < 0.01.
+
+
+MiR-149-3p Decreases Wnt10b Expression
+
+We predicted Wnt10b as a target of miR-149-3p using TargetScan ( Figure 4A ). The results showed that miR-149-3p overexpression repressed the luciferase activity of Wnt10b wild type plasmids, while not that of mutant plasmids ( Figure 4B ). In addition, Wnt10b protein levels were decreased or increased in Ishikawa and HEC-1-B cells by miR-149-3p mimics or inhibitors, respectively ( Figure 4C ). The Wnt10b expression was significantly increased in EC tissues and cell lines compared with adjacent normal tissues and normal cell lines ( Figure 4D and E ). Wnt10b was negatively related to miR-149-3p ( Figure 4F ) and positively related to HOXB-AS1 ( Figure 4G ).
+
+MiR-149-3p targets Wnt10b. (A) Potential interacting sites of Wnt10b and miR-149-3p predicted by TatgetScan. (B) Cells were co-transfected with miR-149-3p mimics/mimics NC and Wnt10b (wild type)/ Wnt10b (mutant), followed by luciferase activity test. (C) Western blotting was performed to examine Wnt10b expression upon miR-149-3p mimics or miR-149-3p inhibitors transfection in Ishikawa and HEC-1-B cells. qRT-PCR was applied to assess the expression levels of Wnt10b in endometrial carcinoma tissues (D) and endometrial carcinoma cell lines (E). (F) The correlation of Wnt10b and miR-149-3p was analyzed using Pearson’s correlation analysis. (G) The correlation of Wnt10b and HOXB-AS1 was analyzed using Pearson’s correlation analysis. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01, ##P < 0.01.
+
+
+Wnt/β-Catenin Signaling Pathway Is Activated by HOXB-AS1 Through miR-149-3p
+
+Overexpression of HOXB-AS1 increased the level of Wnt10b, β-catenin, cyclinD1 and c-myc, while decreased the level of GSK-3β. However, overexpression of miR-149-3p attenuated Wnt/β-catenin activity affected by HOXB-AS1 overexpression ( Figure 5 ). Thus, these results suggest that HOXB-AS1 can function as a sponge of miR-149-3p and activate of Wnt/β-catenin signaling pathway in EC.
+
+MiR-149-3p mimics was co-transfected with HOXB-AS1 into Ishikawa and HEC-1-B cells. Western blotting was applied to assess the expression levels of Wnt/β-catenin signaling pathway-associated proteins. The results are representative of 3 separate experiments. **P < 0.01 vs. pcDNA3.1 + mimics NC group.
+
+
+HOXB-AS1 Promotes the Proliferation, Migration, and Invasion of EC Cells Through miR-149-3p
+
+The effects of HOXB-AS1 and miR-149-3p on the proliferation ( Figure 6A ), migration ( Figure 6B ), and invasion ( Figure 6C ) of Ishikawa and HEC-1-B cells were analyzed by performing CCK-8 and Transwell assays. HOXB-AS1 increased cancer cell proliferation, migration, and invasion. The promotion of cell proliferation, migration, and invasion caused by HOXB-AS1 was partially rescued by cotransfection with miR-149-3p mimics.
+
+MiR-149-3p mediated the effects on endometrial cancer cells induced by HOXB-AS1. Cell proliferation (A), migration (B), and invasion (C) abilities were determined using CCK-8 assays and transwell assays. Bar = 100 μm. The results are representative of 3 separate experiments. *P < 0.05, **P < 0.01 vs. pcDNA3.1 + mimics NC group.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Some molecular mechanisms about lncRNAs involve in EC initiation and development have been elucidated in recent years. Recent research have shown that HOXB-AS1 is significantly upregulated in glioblastoma tissues and cells and associated with survival time of patients. 17 HOXB-AS1 is highly expressed in multiple myeloma. 18 In this study, we reported that the HOXB-AS1 was significantly upregulated in EC tissues and cells. Furthermore, the expression of HOXB-AS1 correlated with the outcomes of EC patients.
+
+MiRNAs are emerging as tumor suppressors or oncogenes. 27 Dysregulation of miRNAs involves in EC development has been elucidated in recent years. 28 For example, miR-652 is significantly upregulated in EC, which correlates with shorter overall survival and earlier recurrence. 20 miR-15a-5p is decreased in EC cells and tissues. 29 In this study, miR-149-3p was significantly downregulated in EC tissues and cells. Overexpression of miR-149-3p inhibits proliferation, migration, and invasion of bladder cancer by targeting S100A4. 24 MiR-149-3p is associated with the independent diagnosis and prognosis of gastric cancer. 23 In this study, we found that miR-149-3p overexpression suppressed EC cell growth by directly targeting Wnt10b. Wnt10b is localized on human chromosome 12q13. 30 Wnt10b is a canonical Wnt ligand activated the highly conserved Wnt signaling pathway. 31 Consistent with our results, overexpression of miR-148a suppresses Wnt10b expression and β-catenin signaling in cisplatin-resistant colorectal cancer cells. 32 
+
+Wnt signaling pathway is well documented in several cellular processes, such as cell proliferation, differentiation, cell motility, and maintenance of the stem cell niche. 33 The Wnt/β-catenin signaling pathway has also been tightly associated with cancer. 34 Activation of the Wnt/β-catenin signaling pathway has been indicated to be responsible for the increased proliferation, migration, and invasion abilities of EC cell. 35 Inhibition of the Wnt/β-catenin signaling pathway is considered to be a promising target to improve conditions of patients with EC. 36 A recent study has revealed that HOXB-AS1 could modulate fucosyltransferase 4 (FUT4) and FUT4-mediated Wnt/β-catenin pathway in multiple myeloma. 18 In the present study, HOXB-AS1 overexpression inhibited the expression of GSK-3β and promoted the expression of β-catenin, c-Myc, and cyclin D1, the important target genes of the Wnt/β-catenin signaling. Similarly, lncRNA UCA1 promotes cell proliferation, invasion, and migration of laryngeal squamous cell carcinoma cells by activating Wnt/β-catenin signaling pathway. 37 
+
+Increasing numbers of studies have demonstrated that lncRNAs work as ceRNAs in different cancers. 38 LncRNAs can act as a sponge to competitively interact with miRNAs and consequently sponge miRNA away from its target mRNAs, which lead to the overexpression of the target mRNA. 39 For example, lncRNA C5orf66-AS1, as a ceRNA, regulates the effect of RING1 on the proliferation, apoptosis, and cell cycle of cervical cancer cells through interacting with miR-637. 40 MALAT1 facilitates osteosarcoma development by inhibiting miR-142-3p or miR-129-5p expression and by upregulating HMGB1. 41 HOTAIR regulates NPM1 via adsorbing miR-646, thereby regulating EC development. 15 In this study, we showed that HOXB-AS1 acted as miR-149-3p sponge to modulate the expression of Wnt10b and contributed to the proliferation, migration, and invasion of EC cell.
+
+In conclusion, the lncRNA HOXB-AS1 competitively interacted with miR-149-3p to modulate the Wnt10b protein expression in EC cell. HOXB-AS1 overexpression activated the Wnt/β-catenin signaling pathway in EC cell. This study providing new insights into the molecular basis of EC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

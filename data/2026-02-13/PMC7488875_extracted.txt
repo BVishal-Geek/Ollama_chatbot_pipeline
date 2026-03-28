@@ -1,0 +1,223 @@
+================================================================================
+ARTICLE TITLE: Thymoquinone and Difluoromethylornithine (DFMO) Synergistically Induce Apoptosis of Human Acute T Lymphoblastic Leukemia Jurkat Cells Through the Modulation of Epigenetic Pathways
+PMCID: PMC7488875
+PMID: 32912061
+KEYWORDS: thymoquinone, dfmo, apoptosis, gene expression, epigenetics
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Thymoquinone (TQ), a natural anticancer agent exerts cytotoxic effects on several tumors by targeting multiple pathways, including apoptosis. Difluoromethylornithine (DFMO), an irreversible inhibitor of the ornithine decarboxylase (ODC) enzyme, has shown promising inhibitory activities in many cancers including leukemia by decreasing the biosynthesis of the intracellular polyamines. The present study aimed to investigate the combinatorial cytotoxic effects of TQ and DFMO on human acute T lymphoblastic leukemia Jurkat cells and to determine the underlying mechanisms. Here, we show that the combination of DFMO and TQ significantly reduced cell viability and resulted in significant synergistic effects on apoptosis when compared to either DFMO or TQ alone. RNA-sequencing showed that many key epigenetic players including Ubiquitin-like containing PHD and Ring finger 1 (UHRF1) and its 2 partners DNA methyltransferase 1 (DNMT1) and histone deacetylase 1 (HDAC1) were down-regulated in DFMO-treated Jurkat cells. The combination of DFMO and TQ dramatically decreased the expression of UHRF1, DNMT1 and HDAC1 genes compared to either DFMO or TQ alone. UHRF1 knockdown led to a decrease in Jurkat cell viability. In conclusion, these results suggest that the combination of DFMO and TQ could be a promising new strategy for the treatment of human acute T lymphoblastic leukemia by targeting the epigenetic code.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Alpha-Difluoromethylornithine (DFMO) is a potent, selective irreversible inhibitor of a critical regulatory polyamine biosynthetic enzyme-Ornithine decarboxylase (ODC). Endogenous polyamines like Putrescine, Spermidine and Spermine, are synthesized in all the eukaryotic cells at micromolar concentrations. These polyamines are crucial for the normal cell growth, differentiation, proliferation, apoptosis and maintenance of cells. 1 However, in tumor cells, the enzyme ODC is highly upregulated leading to the manifold increase in the intracellular concentration of the polyamines. 2 Several studies have shown that DFMO exerts inhibitory effects on different cancers such as skin cancer, 3 breast cancer, 4 leukemia, 5 prostate cancer 6 and pancreatic cancer. 7 The regulation of polyamine metabolism by DFMO has been a target in many previous studies 8 , 9 in addition to cancer investigations. DFMO generally exhibits cytostatic effects, but the excitement was escalated when some cytotoxic effect was observed in promyelocytic leukemia and other cancers. 10 , 11 However, the use of DFMO as a single anti-proliferative agent resulted in ototoxicity 12 , 13 or showed ineffectiveness; attributed in large part to the increased intake of extracellular polyamines via a polyamine transport system. 14 Hence, to overcome this limitation, many researchers have suggested combination therapy based on the regulation of polyamine metabolism and enzyme inhibition to devise an effective neoplastic strategy. 15 , 16 Indeed, DFMO has been used in low doses in combination with other anticancer agents 5 in the treatment of several tumors including leukemia. 5 In tumor therapy, the inhibitory effects of DFMO involve a complex interplay between the polyamine levels, ODC activity and the expression of several oncogenes. 17 Many preclinical studies are still in progress which could unravel some essential mechanistic insights of the synergistic effect of DFMO and other anticancer agents. In this context, combining DFMO at low doses with Sunlidac has markedly reduced the recurrences of adenomatous polyps. 18 
+
+Thymoquinone (TQ) is the most biologically active ingredient of volatile oil extracted from black cumin ( N. sativa ) seeds. 19 , 20 TQ has been intensively investigated for its anticancerous, anti-inflammatory, neuroprotective, antihypertensive, antioxidant and hepatoprotective properties. 21 , 22 TQ has been shown to induce apoptosis in leukemia cells involving the downregulation of UHRF1 (Ubiquitin-like containing PHD and Ring Finger 1), DNMT1 (DNA methyltransferase 1), HDAC1 (histone deacetylase 1) and the upregulation of the tumor suppressor gene p16 INK4A  23 , 24 which is epigenetically silenced in acute lymphocytic leukemia. 25 , 26 Other studies have shown the anticancer efficacy of TQ in combination with other drugs in cancer cells such as Cisplatin, Tamoxifen, Docetaxel and 5-fluorouracil. 27 , 28 All these works highlighted the increased importance of combining TQ with other anticancer drugs at low doses to provide both significant efficacy and safety for cancer therapy.
+
+The current study aimed to investigate, whether DFMO and TQ work synergistically to induce apoptosis in human acute T lymphoblastic leukemia (ALL) Jurkat cells and to determine the underlying mechanism. In the present study, we found that the combination of DFMO and TQ resulted in significant synergistic effects on cell viability and apoptosis when compared to either DFMO or TQ alone most likely through targeting the epigenetic integrator UHRF1 and its 2 partners DNMT1 and HDAC1.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and methods
+
+The acute T lymphoblastic leukemia (ALL) Jurkat cell line was procured from the American Type Culture Collection (Manassas, VA, USA). The cell line was maintained at 5% CO 2 and 37°C in a humidified incubator. For optimal cell growth, Jurkat cells were cultured in RPMI 1640 medium (UFC Biotech, Riyadh, KSA) supplemented with 10% Fetal Bovine Serum (Gibco TM ) and 100 U/ml penicillin-streptomycin (Gibco TM ). TQ and DFMO were purchased from Sigma–Aldrich.
+
+The cytotoxic activity of the TQ and DFMO on tumor cells was evaluated through a rapid coulometric cell proliferation assay using WST-1 reagent (Sigma Aldrich, USA). Jurkat cells were plated at 4 x 10 4 cells per well and incubated for 24 h in a clear flat bottom 96 well plate. Then, the cells were treated with desired concentrations of either DFMO /TQ or both. After incubation for different periods, WST-1 solution (10 µL) was added to wells and incubated for at least 3 h at 37°C. Finally, the absorbance was recorded at 450 nm with an ELx800™ microplate ELISA reader (Biotek, USA) and the results were analyzed by the Gen5 software (Biotek, USA). The percentage of cell viability was calculated by assuming control (untreated) samples as 100% viable. Jurkat cell viability rate was also determined by cell counting using the trypan blue exclusion method (Invitrogen). The viability rate was obtained by dividing the number of trypan blue-negative cells (living cells) by the total number of cells (dead and living cells).
+
+To study the apoptosis in Jurkat cells, the Annexin V Binding Guava Nexin® (Guava Easycyte Plus HP system) was used according to the manufacturer’s recommendations. In brief, after the desired treatment conditions, the nexin reagent containing annexin V-fluorescein and 7AAD was added (100 µL) and incubated for 20 mins in the dark at room temperature. This assay utilizes dual markers (Annexin V-PE and 7-AAD) to determine the apoptosis rate. The viable cells are negative for both markers and the cells which are positive for Annexin V but negative for 7-AAD are early apoptotic. In contrast, the cells which are positive for both the markers are classified as late apoptotic or necrotic cells. InCyteTM software (Millipore®, Billerica, Massachusetts, USA) was used to plot the results. The forward and side scatter (FSC and SSC) were recorded at 10,000 events for each analysis.
+
+Jurkat cells were treated with DFMO at 1 mM for 24 h in triplicates, then RNA-seq was carried out as described elsewhere. 29 Briefly, Total RNA was extracted using RNeasy kit Qiagen, Valencia, CA, USA, and the RNA concentration was quantified. The 50-bp (base pair) long single-end deep sequencing was performed using Illumina HiSeq 2000 system. The obtained filtered short sequencing reads were mapped to the human genome using TopHat2, and the subsequent gene expression values were quantified using Subreads package Feature Counts function. The differentially expressed gene (DEG) analysis was further performed from the gene expression values after identifying the library size, and appropriate data set dispersion. Differentially expressed genes are determined by log2 fold change (Log2FC) and false discovery rate (FDR; log fold change [LogFC] ⩾0.5 or ⩽−0.5; FDR ⩽ 0.05).
+
+The total RNA was isolated and purified from Jurkat cells using the RNeasy kit (Qiagen). The cDNA libraries were created from the RNA (Superscript III Reverse Transcriptase, Invitrogen) by using specific primers and Real-time PCR was performed using SYBR Green qPCR (iQ SUPERMIX, BioRad) on ABI7500 system. The qPCR conditions were maintained at 95°C, 30 sec; 60°C, 40 sec; 72°C, 40 sec. The sequences of the primers used for the PCR amplification were: UHRF1 (sense: 5′GTCGAATCATCTTCGTGGAC3′; antisense:5′AGTACCACCTCGCTGGCA 3′); DNMT1(sense:5′GGCCTTTTCACCTCCATCAA3′;antisense:5′GCACAAACTGACCTGCTTCA3′); HDAC1(sense:5′GCTTGCTGTACTCCGACATG-3′;antisense: 5′-GACAAGGCCACCCAATGAAG-3′); GAPDH (sense: 5′- GGTGAAGGTCGGA-GTCAAC-3′, antisense: 5′-AGAGTTAAAAGC-AGCCCTGGTG-3′). The results were normalized to those obtained with GAPDH mRNA.
+
+Jurkat cells were transfected with UHRF1 siRNA for 72 h. The cells were then harvested, centrifuged to discard the medium. After washing with cold phosphate-buffered saline (PBS), the cells were resuspended in RIPA buffer (25 mM Tris, pH 7.6, 150 mM NaCl, 1% NP-40, 1% sodium deoxycholate and 0.1% SDS; Sigma-Aldrich, St-Louis, MO, USA) containing protease inhibitors and incubated on ice for 15 min. Cell suspensions were sonicated 3 times for 30 sec each 5 min and then were centrifuged at 10,000 g for 20 min at 4°C. The supernatant was collected and the protein concentration was determined by the Bradford method (Bio-Rad, Marne la Coquette, France). Equal amounts of total protein were taken. After adding Laemmli sample buffer containing 5% mercaptoethanol, protein samples were placed in a water bath at 100°C for 10 min. The proteins were separated on 12% SDS-PAGE and electrophoretically transferred to a nitrocellulose membrane followed with blocking with 5% bovine serum albumin and tween 20 in PBS. The membranes were then incubated with a mouse monoclonal anti-UHRF1 (Proteogenix, Oberhausbergen, France), or mouse monoclonal anti-β-actin antibody (Abcam, Paris, France) according to the manufacturer’s instructions at 4°C overnight. After washing 3 times for 10 min each with PBS, the membranes were thereafter incubated with anti-mouse antibody (Santa Cruz Biotechnology Inc., Santa Cruz, CA, USA) at 1:10000 dilution for 1 h at room temperature. The membranes were then washed with PBS 5 times. Signals were detected by chemiluminescence using the ECL Plus detection system (Amersham, GE Healthcare UK).
+
+Jurkat cells were transfected with UHRF1 siRNA as previously described. 30 The sequence of the siRNA for UHRF1 was 5′-GGUCAAUGAGUACGUCGAUdTdT-3′ (corresponding to nucleotides 408–426 relative to the start codon). The sequence of the scramble siRNA for UHRF1, designed by and obtained from Sigma-Aldrich, was 5′-GGACUCUCGGAUUGUAAGAdTdT-3′. Transfections were performed using lipofectamine (Invitrogen, Carlsbad, CA, USA) according to the manufacturer’s protocols. The experiments were carried out on cells 72 h after siRNA (100 pmol) transfections at 0, 24 and 48 h.
+
+For the comparison of the multiple groups, the statistical analysis was performed using one way ANOVA followed by Tukey’s post hoc test using GraphPad Prism 6 software (GraphPad, San Diego, USA) and the significant differences were indicated as *P < 0.05, **P < 0.01, ***P < 0.001 and ****P < .0001 . The differences between the control and the treated were analyzed by Student’s t-test (2-tailed) and the significant differences were indicated as ## , p < 0.01, ### , p < 0.001, # ### , p < 0.0001 or && , p < 0.01, &&& , p < 0.001, &&&& , p < 0.0001 versus respective control.
+
+
+Cell Culture and Treatment
+
+The acute T lymphoblastic leukemia (ALL) Jurkat cell line was procured from the American Type Culture Collection (Manassas, VA, USA). The cell line was maintained at 5% CO 2 and 37°C in a humidified incubator. For optimal cell growth, Jurkat cells were cultured in RPMI 1640 medium (UFC Biotech, Riyadh, KSA) supplemented with 10% Fetal Bovine Serum (Gibco TM ) and 100 U/ml penicillin-streptomycin (Gibco TM ). TQ and DFMO were purchased from Sigma–Aldrich.
+
+
+Cell Proliferation and Cell Viability Assays
+
+The cytotoxic activity of the TQ and DFMO on tumor cells was evaluated through a rapid coulometric cell proliferation assay using WST-1 reagent (Sigma Aldrich, USA). Jurkat cells were plated at 4 x 10 4 cells per well and incubated for 24 h in a clear flat bottom 96 well plate. Then, the cells were treated with desired concentrations of either DFMO /TQ or both. After incubation for different periods, WST-1 solution (10 µL) was added to wells and incubated for at least 3 h at 37°C. Finally, the absorbance was recorded at 450 nm with an ELx800™ microplate ELISA reader (Biotek, USA) and the results were analyzed by the Gen5 software (Biotek, USA). The percentage of cell viability was calculated by assuming control (untreated) samples as 100% viable. Jurkat cell viability rate was also determined by cell counting using the trypan blue exclusion method (Invitrogen). The viability rate was obtained by dividing the number of trypan blue-negative cells (living cells) by the total number of cells (dead and living cells).
+
+
+Annexin V/7-AAD Assay
+
+To study the apoptosis in Jurkat cells, the Annexin V Binding Guava Nexin® (Guava Easycyte Plus HP system) was used according to the manufacturer’s recommendations. In brief, after the desired treatment conditions, the nexin reagent containing annexin V-fluorescein and 7AAD was added (100 µL) and incubated for 20 mins in the dark at room temperature. This assay utilizes dual markers (Annexin V-PE and 7-AAD) to determine the apoptosis rate. The viable cells are negative for both markers and the cells which are positive for Annexin V but negative for 7-AAD are early apoptotic. In contrast, the cells which are positive for both the markers are classified as late apoptotic or necrotic cells. InCyteTM software (Millipore®, Billerica, Massachusetts, USA) was used to plot the results. The forward and side scatter (FSC and SSC) were recorded at 10,000 events for each analysis.
+
+
+RNA-Seq and Differentially Expressed Genes analysis
+
+Jurkat cells were treated with DFMO at 1 mM for 24 h in triplicates, then RNA-seq was carried out as described elsewhere. 29 Briefly, Total RNA was extracted using RNeasy kit Qiagen, Valencia, CA, USA, and the RNA concentration was quantified. The 50-bp (base pair) long single-end deep sequencing was performed using Illumina HiSeq 2000 system. The obtained filtered short sequencing reads were mapped to the human genome using TopHat2, and the subsequent gene expression values were quantified using Subreads package Feature Counts function. The differentially expressed gene (DEG) analysis was further performed from the gene expression values after identifying the library size, and appropriate data set dispersion. Differentially expressed genes are determined by log2 fold change (Log2FC) and false discovery rate (FDR; log fold change [LogFC] ⩾0.5 or ⩽−0.5; FDR ⩽ 0.05).
+
+
+Reverse Transcription and Real-time PCR
+
+The total RNA was isolated and purified from Jurkat cells using the RNeasy kit (Qiagen). The cDNA libraries were created from the RNA (Superscript III Reverse Transcriptase, Invitrogen) by using specific primers and Real-time PCR was performed using SYBR Green qPCR (iQ SUPERMIX, BioRad) on ABI7500 system. The qPCR conditions were maintained at 95°C, 30 sec; 60°C, 40 sec; 72°C, 40 sec. The sequences of the primers used for the PCR amplification were: UHRF1 (sense: 5′GTCGAATCATCTTCGTGGAC3′; antisense:5′AGTACCACCTCGCTGGCA 3′); DNMT1(sense:5′GGCCTTTTCACCTCCATCAA3′;antisense:5′GCACAAACTGACCTGCTTCA3′); HDAC1(sense:5′GCTTGCTGTACTCCGACATG-3′;antisense: 5′-GACAAGGCCACCCAATGAAG-3′); GAPDH (sense: 5′- GGTGAAGGTCGGA-GTCAAC-3′, antisense: 5′-AGAGTTAAAAGC-AGCCCTGGTG-3′). The results were normalized to those obtained with GAPDH mRNA.
+
+
+Western blot Analysis
+
+Jurkat cells were transfected with UHRF1 siRNA for 72 h. The cells were then harvested, centrifuged to discard the medium. After washing with cold phosphate-buffered saline (PBS), the cells were resuspended in RIPA buffer (25 mM Tris, pH 7.6, 150 mM NaCl, 1% NP-40, 1% sodium deoxycholate and 0.1% SDS; Sigma-Aldrich, St-Louis, MO, USA) containing protease inhibitors and incubated on ice for 15 min. Cell suspensions were sonicated 3 times for 30 sec each 5 min and then were centrifuged at 10,000 g for 20 min at 4°C. The supernatant was collected and the protein concentration was determined by the Bradford method (Bio-Rad, Marne la Coquette, France). Equal amounts of total protein were taken. After adding Laemmli sample buffer containing 5% mercaptoethanol, protein samples were placed in a water bath at 100°C for 10 min. The proteins were separated on 12% SDS-PAGE and electrophoretically transferred to a nitrocellulose membrane followed with blocking with 5% bovine serum albumin and tween 20 in PBS. The membranes were then incubated with a mouse monoclonal anti-UHRF1 (Proteogenix, Oberhausbergen, France), or mouse monoclonal anti-β-actin antibody (Abcam, Paris, France) according to the manufacturer’s instructions at 4°C overnight. After washing 3 times for 10 min each with PBS, the membranes were thereafter incubated with anti-mouse antibody (Santa Cruz Biotechnology Inc., Santa Cruz, CA, USA) at 1:10000 dilution for 1 h at room temperature. The membranes were then washed with PBS 5 times. Signals were detected by chemiluminescence using the ECL Plus detection system (Amersham, GE Healthcare UK).
+
+
+siRNA Transfection
+
+Jurkat cells were transfected with UHRF1 siRNA as previously described. 30 The sequence of the siRNA for UHRF1 was 5′-GGUCAAUGAGUACGUCGAUdTdT-3′ (corresponding to nucleotides 408–426 relative to the start codon). The sequence of the scramble siRNA for UHRF1, designed by and obtained from Sigma-Aldrich, was 5′-GGACUCUCGGAUUGUAAGAdTdT-3′. Transfections were performed using lipofectamine (Invitrogen, Carlsbad, CA, USA) according to the manufacturer’s protocols. The experiments were carried out on cells 72 h after siRNA (100 pmol) transfections at 0, 24 and 48 h.
+
+
+Statistical Analysis
+
+For the comparison of the multiple groups, the statistical analysis was performed using one way ANOVA followed by Tukey’s post hoc test using GraphPad Prism 6 software (GraphPad, San Diego, USA) and the significant differences were indicated as *P < 0.05, **P < 0.01, ***P < 0.001 and ****P < .0001 . The differences between the control and the treated were analyzed by Student’s t-test (2-tailed) and the significant differences were indicated as ## , p < 0.01, ### , p < 0.001, # ### , p < 0.0001 or && , p < 0.01, &&& , p < 0.001, &&&& , p < 0.0001 versus respective control.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+Initially, we evaluated the cytotoxic effect of either DFMO or TQ on Jurkat cell viability by WST-1 staining ( Figure 1 ).
+
+Effect of Thymoquinone and/or DFMO on Jurkat cell viability. Cells were exposed to increasing concentrations of DFMO (A) or TQ (B) for 24 h. To evaluate the synergistic effect on cell viability, cells were treated with either DFMO (1 mM) for 48 h or TQ (10 μM) or incubated with 1 mM of DFMO for 24 h before adding 10 μM of TQ for additional 24 h (C). Cell viability rate was assessed by WST-1 assay, as indicated in the methods and materials. The data are representative of 3 different experiments. Values are shown as means ± S.E.M. (n = 3); *, p < 0.05, **, p < 0.01, ***, p < 0.001, ****, p < 0.0001, ## , p < 0.01, && , p < 0.01 versus respective control.
+
+Data obtained from 24 h treatment of Jurkat cells showed that DFMO did not affect cell viability at a concentration of 0.5 mM ( Figure 1A ). However, when the level of DFMO was increased to 1 mM, the cell viability was significantly reduced to 92% ( Figure 1A ). Our previous findings using MTS and trypan blue assays have shown that TQ decreased Jurkat cell viability in a dose-dependent mechanism. 23 We further explored the effect of different concentrations of TQ on Jurkat cell viability using WST-1 staining for 24 h of treatment ( Figure 1B ). As expected, TQ showed a significant decrease in the cell viability starting from 5 µM (93%) and reached 85.8% at 10 µM ( Figure 1B ). However, Jurkat cell viability was reduced to 95.4% and 83.4% using DFMO (1 mM) and TQ (10 µM) respectively ( Figure 1C ). Interestingly, the combination of both the drugs under similar experimental conditions resulted in drastic cell viability reduction which reached to 58.7% ( Figure 1C ) indicating that TQ and DFMO exhibit true synergism to inhibit Jurkat cell viability which could be due to the improvement of the pro-apoptotic effect of both the drugs.
+
+To study the hypothesis that TQ and DMFO synergize to induce apoptosis in Jurkat cells, we performed annexin V staining to detect the apoptosis stages in Jurkat cells treated with individual TQ or DFMO drug as well as in combination. The data obtained from annexin V staining of Jurkat cells showed that apoptotic rate was significantly increased to 8% in DFMO at 1 mM (P < 0.05) and to 16.8% (P < 0.05) using TQ at 10 µM. Interestingly, the combination of 2 drugs significantly increased the percentage of early apoptotic cells to 44.45 ± 8.7% (P < 0.001) ( Figure 2A and B ) suggesting a synergistic effect of TQ and DFMO on apoptosis of Jurkat cells. To confirm the synergistic effect of TQ and DFMO on apoptosis of Jurkat cells, we also performed annexin V staining to detect the apoptosis stages in Jurkat cells treated with individual TQ or DFMO drug as well as in combination using DFMO at a concentration of 0.5 mM (which DFMO did not affect cell viability as shown in Figure 1 ) and TQ at a concentration of 20 µM. The data obtained showed that DFMO at a concentration of 0.5 mM did not induce apoptosis while the early apoptotic rate was significantly increased to 26.97 ± 4.27% (P < 0.001) using TQ at 20 µM. Interestingly, the combination of 2 drugs significantly increased the percentage of early apoptotic cells to 75.87 ± 1.65% (P < 0.001) ( Figure 2C & D ) confirming the synergistic effect of TQ and DFMO on apoptosis of Jurkat cells.
+
+DFMO and Thymoquinone synergize to induce apoptosis in Jurkat cells. To evaluate the synergistic effect on apoptosis, cells were treated with either DFMO at 1 mM for 48 h or TQ at 10 μM or incubated with 1 mM of DFMO for 24 h before adding TQ at (10 μM) for additional 24 h (A & B). To confirm the synergistic effect of TQ and DFMO, cells were treated with either DFMO at 0.5 mM for 48 h or TQ at 20 μM or incubated with 0.5 mM of DFMO for 24 h before adding TQ at (20 μM) for additional 24 h. Apoptosis in Jurkat cells was assessed by flow cytometry using the Annexin V/7AAD staining apoptosis assay (A, B, C & D). Values are shown as means ± S.E.M. (n = 3); *, p < 0.05, ***, p < 0.001, ****, p < 0.0001, ### , p < 0.001, #### , p < 0.0001, && , p < 0.01, &&&& , p < 0.0001 versus respective control.
+
+Our previous study showed that the TQ-induced apoptosis in Jurkat involves the modulations of several writer and readers. To evaluate whether DFMO can also induce apoptosis in the same way as TQ, we analyzed the gene expression in Jurkat incubated for 24 h with 1 mM of DFMO. Then, RNA-Seq was done using next-generation sequencing as described in Materials and Methods. RNA-Seq data showed that the epigenetic integrator UHRF1, HDAC4 and DNMT1 were significantly down-regulated in DFMO-treated Jurkat cells ( Table 1 ).
+
+Downregulated Genes Triggered in DFMO-Treated Jurkat Cells as Compared with Untreated Cells.
+
+*fold change treated vs untreated.
+
+Interestingly, several tumor suppressor genes known to be epigenetically silenced in various tumors such as DDIT3, PPARGC1A and DLC1 were significantly up-regulated ( Table 2 ), along with a significant increase in the expression of the pro-apoptotic genes BAD and CARD6 ( Table 3 ) suggesting that DFMO-induced up-regulation of TSGs leading to apoptosis in Jurkat cells also involves epigenetic mechanisms in the same way like TQ. 31 
+
+Upregulated Tumor Suppressor Genes in DFMO-Treated Jurkat Cells as Compared With Untreated Cells.
+
+*fold change treated vs untreated.
+
+Upregulated Pro-Apoptotic Genes in DFMO-Treated Jurkat Cells as Compared With Untreated Cells.
+
+*Fold change Treated vs Untreated.
+
+The heatmap presented in Figure 3 gives an overall overview of the expression of the modulated gene concerning both Log2-fold change (LogF C ) in treated versus control cells.
+
+Heat map of the deregulated genes in treated versus control cells. The signature of the deregulated genes are represented in the intensity of color; with the alteration of LogFC (fold change) from -1 to +3 in DFMO-treated Jurkat cells as compared to the untreated cells.
+
+Our previous study has shown that TQ-induced apoptosis in Jurkat cells is associated with a down-regulation of the expression of a UHRF1/DNMT1/HDAC1 protein complex. 23 Thus, we studied the combinatorial effect of DFMO and TQ on the interpretation of that complex using RT-qPCR ( Figure 4 ). We found that the expression of all the 3 genes UHRF1, DNMT1 and HDAC1 were significantly decreased in Jurkat, treated with either DFMO or TQ compared to control ( Figure 4 ). Interestingly, the combination of 2 drugs induced a significant reduction in the expression of target genes (P < 0.001) compared to either DFMO or TQ alone ( Figure 4 ) suggesting a significant role of these epigenetic regulators in the synergistic pro-apoptotic effects of TQ and DFMO.
+
+Synergistic effect of TQ and DFMO on the expression of UHRF1, DNMT1 and HDAC1 mRNA levels in Jurkat cells. To evaluate the synergistic effect on the expression of UHRF1, DNMT1 and HDAC1 genes, cells were treated with either DFMO (1 mM) for 48 h or TQ (10 μM) or incubated with 1 mM of DFMO for 24 h before adding 10 μM of TQ for additional 24 h. The histograms show the quantification data of mRNA expressions of UHRF1 (A), DNMT1 (B) and HDAC1 (C), as assessed by real-time PCR. Results are means of 3 separate experiments performed in triplicate. Values are shown as means ± S.E.M. (n = 3); *, p < 0.05, ***, p < 0.001, ****, p < 0.0001, ## , p < 0.01, ### , p < 0.001, &&& , p < 0.001, ### , p < 0.001, &&&& , p < 0.0001 versus respective control.
+
+Several previous studies have shown that UHRF1 overexpression observed in many human cancers is a primary event in the initiation and the development of cancer through regulating several signaling pathways. 32 - 37 To investigate whether UHRF1 can enhance cell proliferation in Jurkat cells, we examined the effect of UHRF1 knockdown on cell viability. The knockdown of UHRF1 in Jurkat cells ( Figure 5A ) led to a considerable decrease in the cell viability ( Figure 5B ) mimicking the effect of TQ on cell viability as shown in Figure 1B . This data indicates that UHRF1 promotes cell proliferation and could be a promising target for TQ in human acute T lymphoblastic leukemia.
+
+Effect of the depletion of UHRF1 cell viability. Jurkat cells were transfected with siRNA against UHRF1 for 72 h. (A): Western blot was then performed using an anti-UHRF1 antibody as described in materials and methods. (B): Cell viability was calculated using trypan blue as indicated in materials and methods. Data are shown as mean ± SE of 3 independent experiments ( #### P < 0.0001, ***P < 0.001 versus respective control).
+
+
+Cytotoxic Effect of TQ and/or DFMO on Jurkat Cells
+
+Initially, we evaluated the cytotoxic effect of either DFMO or TQ on Jurkat cell viability by WST-1 staining ( Figure 1 ).
+
+Effect of Thymoquinone and/or DFMO on Jurkat cell viability. Cells were exposed to increasing concentrations of DFMO (A) or TQ (B) for 24 h. To evaluate the synergistic effect on cell viability, cells were treated with either DFMO (1 mM) for 48 h or TQ (10 μM) or incubated with 1 mM of DFMO for 24 h before adding 10 μM of TQ for additional 24 h (C). Cell viability rate was assessed by WST-1 assay, as indicated in the methods and materials. The data are representative of 3 different experiments. Values are shown as means ± S.E.M. (n = 3); *, p < 0.05, **, p < 0.01, ***, p < 0.001, ****, p < 0.0001, ## , p < 0.01, && , p < 0.01 versus respective control.
+
+Data obtained from 24 h treatment of Jurkat cells showed that DFMO did not affect cell viability at a concentration of 0.5 mM ( Figure 1A ). However, when the level of DFMO was increased to 1 mM, the cell viability was significantly reduced to 92% ( Figure 1A ). Our previous findings using MTS and trypan blue assays have shown that TQ decreased Jurkat cell viability in a dose-dependent mechanism. 23 We further explored the effect of different concentrations of TQ on Jurkat cell viability using WST-1 staining for 24 h of treatment ( Figure 1B ). As expected, TQ showed a significant decrease in the cell viability starting from 5 µM (93%) and reached 85.8% at 10 µM ( Figure 1B ). However, Jurkat cell viability was reduced to 95.4% and 83.4% using DFMO (1 mM) and TQ (10 µM) respectively ( Figure 1C ). Interestingly, the combination of both the drugs under similar experimental conditions resulted in drastic cell viability reduction which reached to 58.7% ( Figure 1C ) indicating that TQ and DFMO exhibit true synergism to inhibit Jurkat cell viability which could be due to the improvement of the pro-apoptotic effect of both the drugs.
+
+
+Pro-Apoptotic Effect of TQ and/or DFMO on Jurkat Cells
+
+To study the hypothesis that TQ and DMFO synergize to induce apoptosis in Jurkat cells, we performed annexin V staining to detect the apoptosis stages in Jurkat cells treated with individual TQ or DFMO drug as well as in combination. The data obtained from annexin V staining of Jurkat cells showed that apoptotic rate was significantly increased to 8% in DFMO at 1 mM (P < 0.05) and to 16.8% (P < 0.05) using TQ at 10 µM. Interestingly, the combination of 2 drugs significantly increased the percentage of early apoptotic cells to 44.45 ± 8.7% (P < 0.001) ( Figure 2A and B ) suggesting a synergistic effect of TQ and DFMO on apoptosis of Jurkat cells. To confirm the synergistic effect of TQ and DFMO on apoptosis of Jurkat cells, we also performed annexin V staining to detect the apoptosis stages in Jurkat cells treated with individual TQ or DFMO drug as well as in combination using DFMO at a concentration of 0.5 mM (which DFMO did not affect cell viability as shown in Figure 1 ) and TQ at a concentration of 20 µM. The data obtained showed that DFMO at a concentration of 0.5 mM did not induce apoptosis while the early apoptotic rate was significantly increased to 26.97 ± 4.27% (P < 0.001) using TQ at 20 µM. Interestingly, the combination of 2 drugs significantly increased the percentage of early apoptotic cells to 75.87 ± 1.65% (P < 0.001) ( Figure 2C & D ) confirming the synergistic effect of TQ and DFMO on apoptosis of Jurkat cells.
+
+DFMO and Thymoquinone synergize to induce apoptosis in Jurkat cells. To evaluate the synergistic effect on apoptosis, cells were treated with either DFMO at 1 mM for 48 h or TQ at 10 μM or incubated with 1 mM of DFMO for 24 h before adding TQ at (10 μM) for additional 24 h (A & B). To confirm the synergistic effect of TQ and DFMO, cells were treated with either DFMO at 0.5 mM for 48 h or TQ at 20 μM or incubated with 0.5 mM of DFMO for 24 h before adding TQ at (20 μM) for additional 24 h. Apoptosis in Jurkat cells was assessed by flow cytometry using the Annexin V/7AAD staining apoptosis assay (A, B, C & D). Values are shown as means ± S.E.M. (n = 3); *, p < 0.05, ***, p < 0.001, ****, p < 0.0001, ### , p < 0.001, #### , p < 0.0001, && , p < 0.01, &&&& , p < 0.0001 versus respective control.
+
+
+Pro-Apoptotic Effects of DFMO Involve Regulation of Several Epigenetic Pathways
+
+Our previous study showed that the TQ-induced apoptosis in Jurkat involves the modulations of several writer and readers. To evaluate whether DFMO can also induce apoptosis in the same way as TQ, we analyzed the gene expression in Jurkat incubated for 24 h with 1 mM of DFMO. Then, RNA-Seq was done using next-generation sequencing as described in Materials and Methods. RNA-Seq data showed that the epigenetic integrator UHRF1, HDAC4 and DNMT1 were significantly down-regulated in DFMO-treated Jurkat cells ( Table 1 ).
+
+Downregulated Genes Triggered in DFMO-Treated Jurkat Cells as Compared with Untreated Cells.
+
+*fold change treated vs untreated.
+
+Interestingly, several tumor suppressor genes known to be epigenetically silenced in various tumors such as DDIT3, PPARGC1A and DLC1 were significantly up-regulated ( Table 2 ), along with a significant increase in the expression of the pro-apoptotic genes BAD and CARD6 ( Table 3 ) suggesting that DFMO-induced up-regulation of TSGs leading to apoptosis in Jurkat cells also involves epigenetic mechanisms in the same way like TQ. 31 
+
+Upregulated Tumor Suppressor Genes in DFMO-Treated Jurkat Cells as Compared With Untreated Cells.
+
+*fold change treated vs untreated.
+
+Upregulated Pro-Apoptotic Genes in DFMO-Treated Jurkat Cells as Compared With Untreated Cells.
+
+*Fold change Treated vs Untreated.
+
+The heatmap presented in Figure 3 gives an overall overview of the expression of the modulated gene concerning both Log2-fold change (LogF C ) in treated versus control cells.
+
+Heat map of the deregulated genes in treated versus control cells. The signature of the deregulated genes are represented in the intensity of color; with the alteration of LogFC (fold change) from -1 to +3 in DFMO-treated Jurkat cells as compared to the untreated cells.
+
+
+Gene Expression Analysis of TQ and/or DFMO on Jurkat Cells
+
+Our previous study has shown that TQ-induced apoptosis in Jurkat cells is associated with a down-regulation of the expression of a UHRF1/DNMT1/HDAC1 protein complex. 23 Thus, we studied the combinatorial effect of DFMO and TQ on the interpretation of that complex using RT-qPCR ( Figure 4 ). We found that the expression of all the 3 genes UHRF1, DNMT1 and HDAC1 were significantly decreased in Jurkat, treated with either DFMO or TQ compared to control ( Figure 4 ). Interestingly, the combination of 2 drugs induced a significant reduction in the expression of target genes (P < 0.001) compared to either DFMO or TQ alone ( Figure 4 ) suggesting a significant role of these epigenetic regulators in the synergistic pro-apoptotic effects of TQ and DFMO.
+
+Synergistic effect of TQ and DFMO on the expression of UHRF1, DNMT1 and HDAC1 mRNA levels in Jurkat cells. To evaluate the synergistic effect on the expression of UHRF1, DNMT1 and HDAC1 genes, cells were treated with either DFMO (1 mM) for 48 h or TQ (10 μM) or incubated with 1 mM of DFMO for 24 h before adding 10 μM of TQ for additional 24 h. The histograms show the quantification data of mRNA expressions of UHRF1 (A), DNMT1 (B) and HDAC1 (C), as assessed by real-time PCR. Results are means of 3 separate experiments performed in triplicate. Values are shown as means ± S.E.M. (n = 3); *, p < 0.05, ***, p < 0.001, ****, p < 0.0001, ## , p < 0.01, ### , p < 0.001, &&& , p < 0.001, ### , p < 0.001, &&&& , p < 0.0001 versus respective control.
+
+
+UHRF1 Downregulation Mimics the Effect of TQ on Cell Viability in Jurkat Cells
+
+Several previous studies have shown that UHRF1 overexpression observed in many human cancers is a primary event in the initiation and the development of cancer through regulating several signaling pathways. 32 - 37 To investigate whether UHRF1 can enhance cell proliferation in Jurkat cells, we examined the effect of UHRF1 knockdown on cell viability. The knockdown of UHRF1 in Jurkat cells ( Figure 5A ) led to a considerable decrease in the cell viability ( Figure 5B ) mimicking the effect of TQ on cell viability as shown in Figure 1B . This data indicates that UHRF1 promotes cell proliferation and could be a promising target for TQ in human acute T lymphoblastic leukemia.
+
+Effect of the depletion of UHRF1 cell viability. Jurkat cells were transfected with siRNA against UHRF1 for 72 h. (A): Western blot was then performed using an anti-UHRF1 antibody as described in materials and methods. (B): Cell viability was calculated using trypan blue as indicated in materials and methods. Data are shown as mean ± SE of 3 independent experiments ( #### P < 0.0001, ***P < 0.001 versus respective control).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Acute lymphoblastic leukemia (ALL) is considered as one of the most common childhood cancers with a high rate of mortality and morbidity accompanied by inferior prognosis. 38 , 39 Nearly 25% of childhood ALL patients show a relapse within 5 years of treatment. 40 , 41 Therefore, there is a persistent demand to find more efficient anti-leukemic drugs with low toxicity. An essential idea of worth consideration is that the combination of several drugs at small doses could minimize the undesirable effects of chemopreventive drugs by synergistic action.
+
+Both the anticancer agents DFMO and TQ have been evaluated for synergistic effect with other anticancer drugs on many tumors, 5 , 42 , 43 including leukemia. 44 , 45 In the present study, we evaluated the synergistic effect of TQ and DFMO on Jurkat cells-an established cell line for acute T cell leukemia since the 1970s. 46 The combination of DFMO and TQ dramatically decreased the expression of UHRF1, DNMT1 and HDAC1 genes in comparison to either DFMO or TQ alone. To the best of our knowledge, it is the first time that DFMO and TQ are used in combination for cancer therapy.
+
+Real-time qPCR showed that the combination of DFMO and TQ significantly decreased the expression of UHRF1 gene and its partners DNMT1 and HDAC1 genes in comparison to either DFMO or TQ alone which could explain the high apoptosis rate of Jurkat, treated with both drugs in contrast to each one individually. This observation is in agreement with the previous studies which underlined the importance of UHRF1 downregulation in the induction of apoptosis in cancer cells in response to several natural products including TQ and epigallocatechin-3-gallate (EGCG). 23 , 29 , 31 , 47 , 48 Several in vitro and in vivo highlighted the potential of TQ as an anti-leukemic agent. 49 - 51 Interestingly, TQ was shown to exhibit selective cytotoxicity toward cells 52 - 54 rendering this natural compound, a promising antitumor agent.
+
+Several studies have demonstrated the contribution of the bone marrow stromal microenvironment in the survival of leukemia cells and the resistance to chemotherapy. 55 , 56 This protective role was suggested to be attributed to the high expression levels of the cell surface receptor CXCR4 (chemokine receptor type 4) rendering the inhibition of this receptor as a potential target to overcome the leukemic resistance to chemotherapy. 55 Interestingly, TQ was shown to decrease the expression of CXCR4 on multiple myeloma (MM) cells 57 and breast cancer cells. 58 Many studies have suggested that the altered phenotype of tumor-associated stromal cells could be primarily attributed to epigenetic mechanism including DNA methylation and histone modifications. 59 In this context, hypermethylation-mediated epigenetic silencing of the tumor suppressor gene PTEN was observed in activated hepatic stellate cells 60 and stromal fibroblasts. 61 Interestingly, TQ was shown to increase the expression of PTEN gene in gastric cancer both in vitro and in vivo , 62 triple-negative breast cancer 63 and thyroid cancers 64 supporting the idea that TQ could be efficient anti-leukemic drug through targeting the epigenetic code of tumor-associated stromal cells increasing the sensitivity to chemotherapy.
+
+The present study also showed that UHRF1 knockdown led to cell proliferation inhibition indicating that UHRF1 has an oncogenic role in cell proliferation, which supports the idea that UHRF1 downregulation in response to natural products including TQ could be sufficient to trigger apoptosis. In our previous study, we have shown that TQ induces apoptosis by producing intracellular ROS and triggers apoptosis in Jurkat cells through the activation of the tumor suppressor gene p73 followed by a downregulation of UHRF1. These observations suggest that TQ induces intracellular ROS production leading to the deregulation of epigenetic regulators including UHRF1 and subsequent apoptosis in Jurkat cells.
+
+Like several solid tumors, leukemia could be initiated by rare leukemic stem cells (LSCs) and the inefficient therapy of this type of cancers could be mainly attributed to the failure of elimination of LSCs. Thus, understanding how LSCs initiate leukemia will help develop new therapies which can enable us to selectively eliminate LSCs. Through targeting several stem cell regulatory pathways, TQ could be a promising candidate to eliminate leukemic stem/initiating cells and its combination with DMFO could enhance its activity. In line with our hypothesis, TQ was shown to induce apoptosis in both in vitro and in vivo studies and inhibit the tumor growth in pancreatic cancer stem cells. 65 Moreover, the combination of TQ with the anticancer agent 5-fluorouracil has been shown to downregulate 2 stem cell regulatory signaling pathways WNT/ß-Catenin and PI3K/AKT and was able to eliminate CD133+ cancer stem cells population. 66 
+
+It is intriguing to note that apart from many biosynthetic inhibitors available, DFMO has been the choice of study in vitro and in vivo  67 , 68 and preclinical trials. 69 , 70 Many studies have been reported wherein DFMO was used alone or in combination with many anticancer agents 5 , 42 , 43 , 71 for chemoprevention in a panel of different cell lines including leukemia. 45 The present study showed that DFMO at low dose did not affect apoptosis. In contrast, a significant increase in apoptosis rate was found when DFMO was used in combination with TQ under similar conditions.
+
+In conclusion, the present study shows that the combination of DFMO and TQ resulted in apoptosis of Jurkat cells through epigenetic mechanisms which could be promising to devise strategies for the treatment of human acute T lymphoblastic leukemia shortly.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

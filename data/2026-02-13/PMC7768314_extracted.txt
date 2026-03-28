@@ -1,0 +1,492 @@
+================================================================================
+ARTICLE TITLE: The Prevalence, Associated Factors for Lung Metastases Development
+and Prognosis in Ovarian Serous Cancer Based on SEER Database
+PMCID: PMC7768314
+PMID: 33356997
+KEYWORDS: lung metastases, serous ovarian cancer, seer, nomogram, prognostic factor
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Ovarian carcinoma (OC) is one of the 3 most common gynecological malignancies,
+and the prognosis of patients with lung metastasis was the worst. SEER
+documented OC patients, diagnosed between 2010 and 2016, were included in the
+study. Univariable and multivariable logistic regression analyses were performed
+to identify associated factors for lung metastases (LM) development.
+Kaplan–Meier analysis was used to estimate the overall survival for OC patients
+with LM. A total of 10146 eligible serous ovarian cancer (SOC) patients were
+included, the prevalence of LM was 3.77% (N = 378). Patients with T4 stage
+(χ 2 = 128.515; P = 0.000), N1 stage
+(χ 2 = 49.536; P = 0.000), right laterality
+(χ 2 = 18.756; P = 0.000) (compared with left
+side), undifferentiated grade (χ 2 = 36.174; P =
+0.000), bone metastasis (χ 2 = 183.529); P = 0.000),
+brain metastasis (χ 2 = 117.539; P = 0.000), liver
+metastasis (χ 2 = 442.472; P = 0.000) had a larger
+probability of LM than other groups. Results showed that T3/N1 stage, bone
+metastases, liver metastases, chemotherapy, surgery were positively correlated
+with LM. Multivariable cox analysis showed that age, bone metastasis, no
+chemotherapy, no surgery were independent risk factors in SOC-LM patients. This
+study provided new research insights on the prevalent LM in patients with SOC.
+The factors associated with LM development and prognosis can be potentially used
+for LM early screening and professional care.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Ovarian carcinoma (OC) is one of the 3 most common gynecological malignancies. 1 Although its incidence is lower than cervical and endometrial cancer, its
+mortality rate is higher than the former 2. In recent years, the incidence of OC has
+gradually increased. In 2018, there were approximately 295,000 ovarian cancer cases
+and 185,000 deaths worldwide. 2 
+
+Due to late detection, 70% of patients present with advanced cancer with distant
+metastasis upon diagnosis, and ovarian carcinoma is the leading cause of death among
+malignant gynecological tumors. 3 OC can be transferred by intraperitoneal route, lymphatic route and
+blood-borne route. 4 Deng et al included 1481 patients with OC and found that the
+most common distant metastatic site was the liver (37.49%), followed by distant
+lymph nodes (29.36%), lung (28.42%), bone (3.74%), and brain (0.99%). The survival
+prognosis of patients with lung metastasis was the worst. 5 Gardner et al analyzed the 1276 patients with Stage IV OC
+and found that the proportion of lung metastases was 38%, of liver metastases 57%,
+of bone metastases 4%, of brain metastases 1%, which the distribution patterns were
+basically consistent with the Kui Deng’s researches. Among cervical and endometrial
+cancers, lung metastasis has the highest probability, with both around 60%. 6 
+
+Currently, surgical resection is mostly used for the lung metastasis of OC, 7 , 8 which is more conductive to long-term survival than radiotherapy and
+chemotherapy. In addition, for the single lung metastasis, pneumonectomy can not
+only provide a better prognosis for patients with longer recurrence free intervals,
+but also provide a better prognosis for patients with chemotherapy-resistant or
+recurrent tumors. 9 
+
+Among the various OC types, epithelial OC accounts for about 90%, 10 and the most common histological type is serous ovarian carcinoma (SOC).
+According to the different tissue sources, it can be divided into the high-grade
+serous carcinoma (HGSOC) 11 and the low-grade serous carcinoma. 12 At present, there are guidelines for screening for routine lung metastases
+(LM) in patients with SOC, nor are epidemiological and characteristic data of SOC
+with LM.
+
+In order to improve the recognition rate of SOC with LM and provide early screening,
+in this study, based on the Surveillance, Epidemiology, and End Results (SEER)
+database, the logical regression was used to construct a predicative model for SOC
+with LM, to evaluate the probability of LM in SOC. The univariate multivariate Cox
+regression analysis was applied to assess the risk factors and independent
+prognostic factors for SOC with LM.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods and Materials
+
+The data was downloaded from SEER database, and we have been allowed to access
+them for only research using the private SEER ID (17087-Nov 2018). In this
+study, the patients were from the SEER population-based cancer Registries
+(2010–2016 dataset). The patients’ age of diagnosis, race, sex, marital status,
+T stage, N stage, grade, laterality, insurance, histology, survival time,
+survival status, chemotherapy, radiation, surgery were downloaded.
+
+Patients were diagnosed with SOC according to the following criteria: (1)
+patients whose ovarian cancer was defined using the Site recode ICD-0-3 / WHO
+2008 (International Classification of Diseases for Oncology, 3 rd edition) was
+ovary; (2) patients with ovarian cancer diagnosed as the only primary cancer
+without multiple primary cancer elsewhere; (3) patients aged 18 years or older
+who were diagnosed; (4) patients with cancer diagnosed by positive histology.
+Individuals who had unclear T / N stage record, unknown survival time, missing
+cause of death, unknown tumor grade record, no information concerning
+laterality, unknown race recode, unknown marital status, unknown positive lymph
+nodes, or unknown diagnostic confirmation by histology were subsequently
+excluded.
+
+The demographic and clinical characteristics of patients were defined as follows:
+age, ethnicity (white, black, and others), marital status (married and
+unmarried), insurance status (insured, unknown and uninsured), lateral (left,
+right and bilateral), primary tumor staging (T1, T2, T3 and T4), regional lymph
+node stage (N0, N1 and NX), tumor grade (well, moderately, poorly and
+undifferentiated), and whether there were bone metastases, liver metastases,
+brain metastases, chemotherapy, radiation and surgery. Quantitative data were
+described as mean ± standard deviation (SD), and differences between groups were
+analyzed by student’s t-test. Categorical data was expressed as quantity and
+percentage (N %), and differences were tested by Pearson chi-square test. The
+risk factors of patients with ovarian serous carcinoma with lung metastasis were
+determined by univariate and multivariate logistic regression. Overall survival
+was estimated by the Kaplan–Meier (KM) method, and differences between different
+groups were compared using a log-rank test. Univariate and multivariate cox
+regression models were used to analyze the independent prognostic factors of
+SOC-LM. All statistical analyses were performed using SPSS 23.0 (IBM
+Corporation, Armonk, NY). In all analyses, a 2-tailed P value
+of <0.05 was considered statistically significant.
+
+
+Data Source
+
+The data was downloaded from SEER database, and we have been allowed to access
+them for only research using the private SEER ID (17087-Nov 2018). In this
+study, the patients were from the SEER population-based cancer Registries
+(2010–2016 dataset). The patients’ age of diagnosis, race, sex, marital status,
+T stage, N stage, grade, laterality, insurance, histology, survival time,
+survival status, chemotherapy, radiation, surgery were downloaded.
+
+
+Inclusion and Exclusion Criteria
+
+Patients were diagnosed with SOC according to the following criteria: (1)
+patients whose ovarian cancer was defined using the Site recode ICD-0-3 / WHO
+2008 (International Classification of Diseases for Oncology, 3 rd edition) was
+ovary; (2) patients with ovarian cancer diagnosed as the only primary cancer
+without multiple primary cancer elsewhere; (3) patients aged 18 years or older
+who were diagnosed; (4) patients with cancer diagnosed by positive histology.
+Individuals who had unclear T / N stage record, unknown survival time, missing
+cause of death, unknown tumor grade record, no information concerning
+laterality, unknown race recode, unknown marital status, unknown positive lymph
+nodes, or unknown diagnostic confirmation by histology were subsequently
+excluded.
+
+
+Statistical Analysis
+
+The demographic and clinical characteristics of patients were defined as follows:
+age, ethnicity (white, black, and others), marital status (married and
+unmarried), insurance status (insured, unknown and uninsured), lateral (left,
+right and bilateral), primary tumor staging (T1, T2, T3 and T4), regional lymph
+node stage (N0, N1 and NX), tumor grade (well, moderately, poorly and
+undifferentiated), and whether there were bone metastases, liver metastases,
+brain metastases, chemotherapy, radiation and surgery. Quantitative data were
+described as mean ± standard deviation (SD), and differences between groups were
+analyzed by student’s t-test. Categorical data was expressed as quantity and
+percentage (N %), and differences were tested by Pearson chi-square test. The
+risk factors of patients with ovarian serous carcinoma with lung metastasis were
+determined by univariate and multivariate logistic regression. Overall survival
+was estimated by the Kaplan–Meier (KM) method, and differences between different
+groups were compared using a log-rank test. Univariate and multivariate cox
+regression models were used to analyze the independent prognostic factors of
+SOC-LM. All statistical analyses were performed using SPSS 23.0 (IBM
+Corporation, Armonk, NY). In all analyses, a 2-tailed P value
+of <0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+10,146 patients were identified from the SEER database, with a median age of 61
+years. 378 had lung metastases and 9648 did not ( Table 1 ). Detailed flow chart for
+patient selection was shown in Figure 1 .
+
+Demographic and Clinical Characteristics for SOC With and Without LM.
+
+Flow chart.
+
+378 cases of SOC were diagnosed with LM (3.77%), and there were significantly
+between different clinical features. For example, the group of over 61 years old
+had a greater-probability of LM than the group under 61 years old (χ 2 = 7.228; P = 0.007); Patients with T4 stage (χ 2 = 128.515; P =
+0.000), N1 stage (χ 2 = 49.536; P = 0.000), right laterality
+(χ 2 = 18.756; P = 0.000)(compared with left side),
+undifferentiated grade (χ 2 = 36.174; P = 0.000), bone metastasis
+(χ 2 = 183.529; P = 0.000), brain metastasis (χ 2 =
+117.539; P = 0.000), liver metastasis (χ 2 = 442.472; P = 0.000),
+chemotherapy (χ 2 = 28.935; P = 0.000), surgery(χ 2 =
+18.816; P = 0.000) had a larger probability of LM than other groups.
+
+Univariate and multivariate logistic regression showed that many factors were
+related to the occurrence of LM ( Table 2 ). Univariate logistic
+regression showed that age greater than 61, higher T stage, N1 stage,
+unspecified laterality, undifferentiated grade, bone metastasis (compared with
+none-met), liver metastasis (compared with none-met), chemotherapy(compared with
+none-chemotherapy), no surgery(compared with surgery) were positively related
+with SOC-LM ( Figures 2 and 3 , Tables 2 and 3 ).
+
+Univariable and Multivariable Logistic Regression for Analyzing the
+Associated Factors for Developing Lung Metastases in Serous Ovarian
+Cancer Patients.
+
+Forest map of univariate analysis.
+
+Forest map of multivariate analysis.
+
+Univariable and Multivariable analysis of prognostic factors for overall
+survival in SOC-LM.
+
+To control confounding factors, multivariate logistic analysis was performed, and
+the results showed that T/N stage, bone metastases, liver metastases,
+chemotherapy were positively correlated with LM. Based on the results, a
+nomogram model to evaluate the probability of LM was constructed, and drew the
+correction curve and decision curve analysis (DCA) of this model ( Figure 4 ). The results
+showed that that if the patients has bone metastases, liver metastases, he has a
+greater probability of lung metastasis. The correction curve showed that this
+model had a good fitting effect. The DCA curve showed that the logistic
+regression model had a good net benefit.
+
+The nomogram of the multivariate logistic regression model. A.
+Multivariable Logistic Regression nomogram for analyzing the associated
+factors for developing SOC-LM. B. Calibration plots of SOC-LM associated
+nomograms in seer datasets. C. Decision curve analysis of the nomograms
+for SOC-LM in seer datasets.
+
+First, based on whether or not LM occurred, survival analysis was performed on
+SOC, and the results showed that those without LM had higher overall survival
+( Figure 5A , P <
+0.001). Then, stratified overall survival analysis of significant univariable
+variable based on SCO-LM was performed. KM curves showed that younger age,
+married status, patients with radiation therapy, patients with chemotherapy,
+patients with surgery and patients without bone metastases had higher overall
+survival ( Figure 5B-G , P
+< 0.05). Multivariate cox regression analysis showed that older age (HR =
+1.502, p = 0.001) and bone metastasis (HR = 2.528, P = 0.057, marginal
+significant) were independent risk factors for SOC-LM, chemotherapy (HR = 0.94,
+P < 0.001), surgery (HR = 0.161, P < 0.001) were independent favorable
+factors for SOC-LM ( Table
+3 ).
+
+The survival curve of SOC-LM patients
+
+Multivariate Cox analysis focused on the impact of different variables on the
+survival of patients with SOC-LM.
+
+It showed that age ≥ median (HR = 1.502, p = 0.001) and bone metastasis (HR =
+2.528, P = 0.057, marginal significant) were independent risk factors for
+SOC-LM, chemotherapy (HR = 0.94, P < 0.001), surgery (HR = 0.161, P <
+0.001) were independent favorable factors for SOC-LM ( Table 3 ). Based on the results, a
+nomogram model to evaluate the overall survival of SOC-LM was constructed( Figure 6A ). “Odds died
+(time)” stands for the probability of death. According to the “Total points”
+projected to the corresponding “Odds died (time)” scale, the specific death
+probability of this patient can be calculated. If the SOC-LM patients has bone
+metastases, older age, he has a greater higher mortality rate, if he has
+received chemotherapy or surgery, he will have a lower mortality rate.
+
+The nomogram of the multivariate cox regression model. A. The nomogram is
+applied by adding up the points identified on the points scale for each
+variable. The total points projected on the bottom scales indicate the
+probability of 3y and 5y OS.B: The calibration curve for predicting 3y
+and 5y OS for patients with SOC-LM;C-D: The DCA curves can intuitively
+evaluate the clinical benefit of the nomograms and the scope of
+application of the nomograms to obtain clinical benefits. The net
+benefits (Y-axis) as calculated are plotted against the threshold
+probabilities of patients having 3y and 5y survival on the X-axis.
+
+Calibration plots were used to visualize the performances of the nomograms. The
+45°line represented the best prediction. Calibration plots showed that the
+nomogram performed well ( Figure
+6B ). DCA (Decision Curve Analysis) is a method for evaluating
+clinical predictive models, diagnostic tests, and molecular markers. In order to
+prove the advantage of the nomogram. We compared the 3-year and 5-year DCA
+curves and found that the nomogram showed the good net benefit ( Figure 6 C-D ).
+
+In short, the predictive nomogram we developed will enable patients with SOC-LM
+to be managed more accurately in clinical practice
+
+
+Characteristics of Samples
+
+10,146 patients were identified from the SEER database, with a median age of 61
+years. 378 had lung metastases and 9648 did not ( Table 1 ). Detailed flow chart for
+patient selection was shown in Figure 1 .
+
+Demographic and Clinical Characteristics for SOC With and Without LM.
+
+Flow chart.
+
+
+Prevalence of LM
+
+378 cases of SOC were diagnosed with LM (3.77%), and there were significantly
+between different clinical features. For example, the group of over 61 years old
+had a greater-probability of LM than the group under 61 years old (χ 2 = 7.228; P = 0.007); Patients with T4 stage (χ 2 = 128.515; P =
+0.000), N1 stage (χ 2 = 49.536; P = 0.000), right laterality
+(χ 2 = 18.756; P = 0.000)(compared with left side),
+undifferentiated grade (χ 2 = 36.174; P = 0.000), bone metastasis
+(χ 2 = 183.529; P = 0.000), brain metastasis (χ 2 =
+117.539; P = 0.000), liver metastasis (χ 2 = 442.472; P = 0.000),
+chemotherapy (χ 2 = 28.935; P = 0.000), surgery(χ 2 =
+18.816; P = 0.000) had a larger probability of LM than other groups.
+
+
+Logistic Regression Analysis on Risk Factors of SOC-LM
+
+Univariate and multivariate logistic regression showed that many factors were
+related to the occurrence of LM ( Table 2 ). Univariate logistic
+regression showed that age greater than 61, higher T stage, N1 stage,
+unspecified laterality, undifferentiated grade, bone metastasis (compared with
+none-met), liver metastasis (compared with none-met), chemotherapy(compared with
+none-chemotherapy), no surgery(compared with surgery) were positively related
+with SOC-LM ( Figures 2 and 3 , Tables 2 and 3 ).
+
+Univariable and Multivariable Logistic Regression for Analyzing the
+Associated Factors for Developing Lung Metastases in Serous Ovarian
+Cancer Patients.
+
+Forest map of univariate analysis.
+
+Forest map of multivariate analysis.
+
+Univariable and Multivariable analysis of prognostic factors for overall
+survival in SOC-LM.
+
+To control confounding factors, multivariate logistic analysis was performed, and
+the results showed that T/N stage, bone metastases, liver metastases,
+chemotherapy were positively correlated with LM. Based on the results, a
+nomogram model to evaluate the probability of LM was constructed, and drew the
+correction curve and decision curve analysis (DCA) of this model ( Figure 4 ). The results
+showed that that if the patients has bone metastases, liver metastases, he has a
+greater probability of lung metastasis. The correction curve showed that this
+model had a good fitting effect. The DCA curve showed that the logistic
+regression model had a good net benefit.
+
+The nomogram of the multivariate logistic regression model. A.
+Multivariable Logistic Regression nomogram for analyzing the associated
+factors for developing SOC-LM. B. Calibration plots of SOC-LM associated
+nomograms in seer datasets. C. Decision curve analysis of the nomograms
+for SOC-LM in seer datasets.
+
+
+Univariable and Multivariable Cox Analysis
+
+First, based on whether or not LM occurred, survival analysis was performed on
+SOC, and the results showed that those without LM had higher overall survival
+( Figure 5A , P <
+0.001). Then, stratified overall survival analysis of significant univariable
+variable based on SCO-LM was performed. KM curves showed that younger age,
+married status, patients with radiation therapy, patients with chemotherapy,
+patients with surgery and patients without bone metastases had higher overall
+survival ( Figure 5B-G , P
+< 0.05). Multivariate cox regression analysis showed that older age (HR =
+1.502, p = 0.001) and bone metastasis (HR = 2.528, P = 0.057, marginal
+significant) were independent risk factors for SOC-LM, chemotherapy (HR = 0.94,
+P < 0.001), surgery (HR = 0.161, P < 0.001) were independent favorable
+factors for SOC-LM ( Table
+3 ).
+
+The survival curve of SOC-LM patients
+
+Multivariate Cox analysis focused on the impact of different variables on the
+survival of patients with SOC-LM.
+
+It showed that age ≥ median (HR = 1.502, p = 0.001) and bone metastasis (HR =
+2.528, P = 0.057, marginal significant) were independent risk factors for
+SOC-LM, chemotherapy (HR = 0.94, P < 0.001), surgery (HR = 0.161, P <
+0.001) were independent favorable factors for SOC-LM ( Table 3 ). Based on the results, a
+nomogram model to evaluate the overall survival of SOC-LM was constructed( Figure 6A ). “Odds died
+(time)” stands for the probability of death. According to the “Total points”
+projected to the corresponding “Odds died (time)” scale, the specific death
+probability of this patient can be calculated. If the SOC-LM patients has bone
+metastases, older age, he has a greater higher mortality rate, if he has
+received chemotherapy or surgery, he will have a lower mortality rate.
+
+The nomogram of the multivariate cox regression model. A. The nomogram is
+applied by adding up the points identified on the points scale for each
+variable. The total points projected on the bottom scales indicate the
+probability of 3y and 5y OS.B: The calibration curve for predicting 3y
+and 5y OS for patients with SOC-LM;C-D: The DCA curves can intuitively
+evaluate the clinical benefit of the nomograms and the scope of
+application of the nomograms to obtain clinical benefits. The net
+benefits (Y-axis) as calculated are plotted against the threshold
+probabilities of patients having 3y and 5y survival on the X-axis.
+
+Calibration plots were used to visualize the performances of the nomograms. The
+45°line represented the best prediction. Calibration plots showed that the
+nomogram performed well ( Figure
+6B ). DCA (Decision Curve Analysis) is a method for evaluating
+clinical predictive models, diagnostic tests, and molecular markers. In order to
+prove the advantage of the nomogram. We compared the 3-year and 5-year DCA
+curves and found that the nomogram showed the good net benefit ( Figure 6 C-D ).
+
+In short, the predictive nomogram we developed will enable patients with SOC-LM
+to be managed more accurately in clinical practice
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+This population-based study explored the relationship between SOC with LM, overall
+survival, and risk factors, which is essential for designing of effective treatment
+strategies. This study is the first to investigate the risk factors and prognostic
+factors associated with SOC with LM.
+
+According to our cohort analysis, 3.77% of patients with SOC were diagnosed with LM,
+which is inconsistent with LM data by others, 5 , 6 because we mainly analyze the subtype of SOC. This indicates to some extent
+that SOC with LM are rare. We performed the univariate logistic regression analysis
+to further discover that age, T4 stage, N1 stage, undifferentiated tissue, bone
+metastases, and brain metastases were related to SOC with LM, which indicates
+patients with many of above factors should be vigilant during the clinical
+diagnosis.
+
+A nomogram study of SOC had great significance to clinicians. 13 , 14 At present, there are a considerable number of various types of nomogram
+models for specialized ovarian cancer research. For example, Rose et
+al . 15 established a nomogram model to predict the prognostic factors that affect
+the overall survival of advanced ovarian peritoneal cancer after recurrence.
+Gerestein et al . 16 established a predictive model to finally determine the predictors of
+progress-free survival and overall survival of ovarian cancer patient with
+platinum-based chemotherapy. The identification of high-risk factors played an
+important role in guiding clinical diagnosis, however, there are no studies to
+evaluate the risk factors of SOC-LM. In our research, we included more
+clinicopathological information, as well as more patients, in order to obtain a wide
+range of applicability under existing conditions. Based on the clinical information
+provided by the SEER database, the diagnostic age, marital status, insurance status,
+primary tumor classification, whether with bone, liver and brain metastasis were
+included. Multivariate logistic regression analysis was performed, and a nomogram
+was constructed to evaluate the probability of SOC with LM. The results showed that
+the probability of lung metastasis could be assessed based on whether the patient
+had liver metastases, bone metastases, specific N /T stages and chemotherapy.
+
+The identification of prognostic risk factors is also important to guide the clinical
+precision treatment. Previous studies had shown that LM could significantly worsen
+the prognosis of cancer patients. 17 In our research, the overall survival of the non-LM group is significantly
+better than that of the LM group in SOC. The stratified analysis of patients in the
+LM group suggested that older, unmarried status, patients combined bone metastases,
+patients without receiving chemotherapy and patients without receiving operation had
+worse overall survival.
+
+Plett et al . 18 found that lifetime non-fertile women were twice as likely to have ovarian
+cancer as married women, and infertility was also a risk factor for ovarian cancer.
+Chen et al . 19 reported that bone metastasis, as a symptom of ovarian cancer in the early
+stage, had a certain correlation with the occurrence of LM, and could be used as an
+independent factor to predict LM in ovarian cancer. Zhuang et al . 20 proved that patients with bone metastases were more likely to develop lung
+metastasis by affecting the WNT signaling pathway. This explains the poor prognosis
+of lung metastasis with bone metastasis to some extent. But we also found that in
+the LM group, there was no difference in overall survival, whether with or without
+metastasis in liver or brain.
+
+The study also had some limitations. Firstly, the SOC patients analyzed were limited
+to those who were identified as SOC at the initial diagnosis, 21 and those patients with LM were found in the advanced stages were not
+included in the study. Secondly, the SEER database lacked comprehensive information
+of patients, 22 such as disease history, smoking dose events, and it only provided four types
+data about cancer metastasis including brain metastasis, liver metastasis, bone
+metastasis and lung metastasis, and did not contained adrenal metastasis and other
+parts metastasis of the body, What’s more, because of a lack of data support from
+another database, our nomogram may not be validated. This might affect the accuracy
+of judging patients with lung metastasis. Thus, more databases and hospital data may
+be needed to further support our conclusion. However, our research has laid the
+theoretical basis for the occurrence of lung metastasis in serous ovarian cancer to
+a certain extent.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+This study provided new research insights on the prevalent LM in patients with SOC.
+Logistic regression analysis and nomograms were used to accurately assess the
+probability of SOC with LM, and multivariable cox analysis were used to identify age
+and bone metastasis as independent risk factors, chemotherapy and surgery were
+independent favorable factors for SOC-LM. At the same time, further prospective
+clinical studies were needed to complement the predictive model established in this
+study, which could guide preventive treatment and professional care to promote its
+prognosis.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

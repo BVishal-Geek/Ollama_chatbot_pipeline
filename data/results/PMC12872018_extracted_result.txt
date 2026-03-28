@@ -1,0 +1,19 @@
+Source: PMC12872018_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Analysis of the current status and influencing factors of kinesiophobia in tumor patients with peripherally inserted central catheter: A cross-sectional study",
+  "condition_E": 1,
+  "condition_E_reason": "The study collected general information from 162 tumor patients who underwent PICC maintenance.",
+  "N_E": 1,
+  "N_E_reason": "This study collected a total of 162 cases.",
+  "dataset_E": 1,
+  "dataset_E_reason": "The data files are available in the Science Data Bank(Science DB): https://www.scidb.cn/anonymous/YXllSVpu.",
+  "intervention_E": 1,
+  "intervention_E_reason": "The study investigates kinesiophobia in tumor patients with PICC, indicating a specific medical intervention.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The study measures kinesiophobia scores, which are linked to the intervention of PICC maintenance.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

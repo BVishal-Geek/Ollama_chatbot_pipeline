@@ -1,0 +1,188 @@
+================================================================================
+ARTICLE TITLE: High Expression of BCAR1 by Circulating Tumor Cells and Tumor Tissues Is Predictive of a Poor Prognosis of Early-Stage Lung Adenocarcinoma Potentially Due to Regulation of Epithelial-Mesenchymal Transition
+PMCID: PMC7758864
+PMID: 33334252
+KEYWORDS: breast cancer anti-estrogen resistance protein 1, lung adenocarcinoma, circulating tumor cells, epithelial-mesenchymal transition, prognosis
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+To clarify the clinical significance of breast cancer anti-estrogen resistance protein 1 (BCAR1) expression in circulating tumor cells (CTCs) in the peripheral blood and tumor tissues in patients with early stage lung adenocarcinoma (ES-LUAD).
+
+Methods::
+The study cohort included 60 patients with stage I LUAD (50 IA and 10 IB) who underwent surgery from November 2015 to November 2018 and 31 healthy controls. The expression levels of BCAR1 and markers of epithelial-mesenchymal transition (EMT) in peripheral blood CTCs were detected using CanPatrol TM technology before surgery, and immunohistochemical analysis was used to detect BCAR1 expression in tumor tissues collected from 40 patients. The predictive power of BCAR1 expression in CTCs and tumor tissues on disease-free survival (DFS) was analyzed. The Cancer Genome Atlas (TCGA) database was used to study BCAR1 expression and overall survival as validation. The Gene Expression Profiling Interactive Analysis online tool was used to analyze the correlations between the expression levels of BCAR1 and EMT molecular markers.
+
+Results::
+Both the number and detection rates of BCAR1-negative CTCs and BCAR1-positive CTCs in peripheral blood of lung cancer patients were significantly higher as compared with healthy controls ( p < 0.05). BCAR1-positive CTCs more commonly co-expressed both epithelial and mesenchymal markers. Kaplan–Meier analysis demonstrated that patients with BCAR1(++) CTCs in peripheral blood before surgery were more prone to recurrence or metastasis after 2 years. COX analysis showed that patients with higher abundance of BCAR1(++) CTCs had a poorer prognosis (hazard ratio [HR] = 1.712, 95% confidence interval [CI] = 1.077–2.272, p = 0.023). Furthermore, high BCAR1 expression in tumor tissues was predictive of a poor prognosis (HR = 2.654, 95% CI = 1.239–5.686, p = 0.012), as validated by TCGA database (HR = 2.217, 95% CI = 1.069–4.595, p = 0.032). In addition, BCAR1 expression in LUAD tissues from TCGA was significantly positively correlated with the expression of both epithelial markers (e.g., ck8/18/19) and mesenchymal markers (e.g., vimentin and twist).
+
+Conclusion::
+BCAR1 may have a “dual impact” on EMT markers in tumor tissues and CTCs due to micro-environmental disparities, resulting in important clinical significance, which can potentially guide accurate treatment of LUAD.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Lung cancer (LC) is the leading cause of cancer-related death worldwide, with lung adenocarcinoma (LUAD) accounting for about 39.5% of all cases. 1 The average 5-year survival rate of stage Ⅰ LC is only 58%–73%. 2 Therefore, the assessment of risk factors associated with survival is critical for accurate and personalized treatment of LC. Currently, liquid biopsy techniques, including detection of circulating tumor cells (CTCs) that shed from the primary lesion and enter the peripheral blood, are widely applied for the diagnosis of LC. 3 
+
+Breast cancer anti-estrogen resistance protein 1 (BCAR1), also known as p130cas, is a member of the Crk-associated substrate (CAS) protein family and participates in multiple signaling pathways and various carcinogenic behaviors of cancer cells, including growth, differentiation, apoptosis, transmigration, and chemotaxis. 4 Our previous study found that BCAR1 can enhance the epithelial-mesenchymal transition (EMT) process and the aggressive ability of LC cells. 5 EMT is a cell biological program naturally occurring in a broad range of tissue types and developmental stages that has been implicated in carcinogenesis, and confers metastatic properties upon cancer cells by enhancing mobility, invasion, and resistance to apoptosis and chemotherapy. 6 
+
+Therefore, the aim of the present study was to determine the clinical significance of high expression of BCAR1 in the regulation of EMT of CTCs and potential roles in cancer metastasis.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The study protocols were reviewed and approved by the Ethics Committee of Daping Hospital (Army Medical University, Chongqing, China) [(2019) No.183], and informed consent was obtained from all patients who agreed to participate in the study.
+
+To exclude the influence of confounders on the prognosis of advanced LC, the focus of this study was limited to early stage lung adenocarcinoma (ES-LUAD). The data of patients with stage I LUAD who underwent surgery from November 2015 to November 2018 were retrospectively analyzed. The inclusion criteria were as follows: (1) postoperative pathologically confirmed stage I LUAD; (2) CTC detection in peripheral blood prior to surgery; (3) no distant metastasis detected either preoperatively or intraoperatively; (4) no anti-tumor therapy prior to surgery; (5) age >18 years; and (6) Eastern Cooperative Oncology Group performance status score of 0 or 1.
+
+The study cohort of 60 patients (23 males and 27 females; mean age, 60.05 ± 9.14 years) included 50 with a tumor stage of IA and 10 with IB. The mean tumor diameter was 2.11 ± 0.95 cm. Due to an inadequate mean follow-up period (722.03 ± 322.85 days), disease-free survival (DFS), rather than overall survival (OS), was used to assess prognosis. Patients were followed-up every 3 months in the outpatient clinic or by telephone. Chest computed tomography, abdominal ultrasonography, and tumor marker analysis were conducted every 6 months to identify potential recurrence or metastasis.
+
+Additionally, the control group consisted of 31 healthy volunteers (13 males and 18 females; mean age, 31.27 ± 8.85 years) who met the following inclusion criteria: (1) age >18 years; (2) exclusion of occult tumors by physical examination, chest computed tomography, abdominal ultrasonography, and tumor marker analysis; and (3) no chronic disease. Although there was no statistically significant difference in the ratio of males to females between the 2 groups ( p > 0.05), the healthy volunteers were remarkably younger than the LC patients ( p < 0.05).
+
+As per our previously published protocol, 5 10 ml of blood was collected from healthy controls or cases at 1–2 days prior to surgery. The CanPatrol TM CTC analysis system (SurExam Bio-Tech Co., Ltd., Guangzhou, China) was used to detect CTCs and relative biomarkers in accordance with the following protocol: (1) erythrocytes were lysed and CD45+ leukocytes depleted from the blood samples using a magnetic bead separation method; (2) CTCs were enriched by filtering with the use of calibrated membrane filters with 8 μm-diameter pores; and (3) CTCs were identified and characterized by RNA in situ hybridization based on amplification of branched DNA signals. EMT markers, including cytokeratins (CK) 8, 18, and 19, epithelial cell adhesion molecule (EpCAM), vimentin, and twist, were detected in accordance with published protocols. 7 CD45 (+) cells were defined as leukocytes, while cells positive for 4′,6-diamidino-2-phenylindole (DAPI) staining and markers of EMT, but negative for CD45 were defined as CTCs. The following gene-specific primers (5′→3′) and probes were designed for detection of BCAR1: CAC GTC GTA GAG GTC AGG AG, GCA TAC ACA CCA CTG TCG AC; CAG AAG GTG GGC AAC GGT GG; CAG ATG TGT GGG CAG CAT TG; TGT AGG TGG ACG TAG TCA TA; TGT TCC AGT CGT TCA AAC TG; CAC TGC TCC AGG TAG AAG AG; and CGG TAA AGA AGG CGT CCA CG.
+
+The CTC detection rate was calculated as the number of patients with detectable CTCs / number of total patients × 100%.
+
+Among the 60 patients, 40 (66.7%) had adequate cancer tissues for tissue microarray construction and further immunohistochemical detection of BCAR1 (anti-BCAR1 antibody: catalog no. 13846S; Cell Signaling Technology, Inc., Danvers, MA, USA; dilution, 1:100), which were performed in accordance with previously published protocols. 8 The mean integrated optical density of the expression levels of proteins was calculated using Image-Pro Plus software (version 6.0; Media Cybernetics, Inc., Bethesda, MA, USA).
+
+Data were retrieved from TCGA ( https://www.cancer.gov/ ) for analyses of BCAR1 gene expression and OS of stage I LUAD patients using various combinations of the following search terms: “stage 1a,” “stage 1b,” “stage 1,” “adenoma,” “adenocarcinoma,” “bronchus,” “lung,” “TCGA,” “TCGA-LUAD,” “HTseq-counts,” “transcriptome profiling,” “gene expression quantification,” and “RNA-seq.” Furthermore, the Gene Expression Profiling Interactive Analysis online tool ( http://gepia.cancer-pku.cn/detail.php ) was used to retrieve data from TCGA database and analyze the correlations between BCAR1 expression and the following markers of EMT: (epithelial markers) CK8 (KRT8), CK18 (KRT18), CK19 (KRT19) EpCAM, (mesenchymal markers) vimentin (vimentin), and twist.
+
+All data analyses were performed using IBM SPSS Statistics for Windows, version 23.0. (IBM Corporation, Armonk, NY, USA) and GraphPad Prism software (GraphPad Software, Inc., San Diego, CA, USA). The 2 independent samples t -test was used for between-group analyses. Detection rates were compared using the χ 2 test. The influence of age and tumor stage on prognosis were determined using the multivariate COX model. A Kaplan–Meier curve was generated for survival analysis. A 2-sided probability ( p ) value of <0.05 was considered statistically significant.
+
+
+Patients
+
+The study protocols were reviewed and approved by the Ethics Committee of Daping Hospital (Army Medical University, Chongqing, China) [(2019) No.183], and informed consent was obtained from all patients who agreed to participate in the study.
+
+To exclude the influence of confounders on the prognosis of advanced LC, the focus of this study was limited to early stage lung adenocarcinoma (ES-LUAD). The data of patients with stage I LUAD who underwent surgery from November 2015 to November 2018 were retrospectively analyzed. The inclusion criteria were as follows: (1) postoperative pathologically confirmed stage I LUAD; (2) CTC detection in peripheral blood prior to surgery; (3) no distant metastasis detected either preoperatively or intraoperatively; (4) no anti-tumor therapy prior to surgery; (5) age >18 years; and (6) Eastern Cooperative Oncology Group performance status score of 0 or 1.
+
+The study cohort of 60 patients (23 males and 27 females; mean age, 60.05 ± 9.14 years) included 50 with a tumor stage of IA and 10 with IB. The mean tumor diameter was 2.11 ± 0.95 cm. Due to an inadequate mean follow-up period (722.03 ± 322.85 days), disease-free survival (DFS), rather than overall survival (OS), was used to assess prognosis. Patients were followed-up every 3 months in the outpatient clinic or by telephone. Chest computed tomography, abdominal ultrasonography, and tumor marker analysis were conducted every 6 months to identify potential recurrence or metastasis.
+
+Additionally, the control group consisted of 31 healthy volunteers (13 males and 18 females; mean age, 31.27 ± 8.85 years) who met the following inclusion criteria: (1) age >18 years; (2) exclusion of occult tumors by physical examination, chest computed tomography, abdominal ultrasonography, and tumor marker analysis; and (3) no chronic disease. Although there was no statistically significant difference in the ratio of males to females between the 2 groups ( p > 0.05), the healthy volunteers were remarkably younger than the LC patients ( p < 0.05).
+
+
+CTC Detection by CanPatrol
+
+As per our previously published protocol, 5 10 ml of blood was collected from healthy controls or cases at 1–2 days prior to surgery. The CanPatrol TM CTC analysis system (SurExam Bio-Tech Co., Ltd., Guangzhou, China) was used to detect CTCs and relative biomarkers in accordance with the following protocol: (1) erythrocytes were lysed and CD45+ leukocytes depleted from the blood samples using a magnetic bead separation method; (2) CTCs were enriched by filtering with the use of calibrated membrane filters with 8 μm-diameter pores; and (3) CTCs were identified and characterized by RNA in situ hybridization based on amplification of branched DNA signals. EMT markers, including cytokeratins (CK) 8, 18, and 19, epithelial cell adhesion molecule (EpCAM), vimentin, and twist, were detected in accordance with published protocols. 7 CD45 (+) cells were defined as leukocytes, while cells positive for 4′,6-diamidino-2-phenylindole (DAPI) staining and markers of EMT, but negative for CD45 were defined as CTCs. The following gene-specific primers (5′→3′) and probes were designed for detection of BCAR1: CAC GTC GTA GAG GTC AGG AG, GCA TAC ACA CCA CTG TCG AC; CAG AAG GTG GGC AAC GGT GG; CAG ATG TGT GGG CAG CAT TG; TGT AGG TGG ACG TAG TCA TA; TGT TCC AGT CGT TCA AAC TG; CAC TGC TCC AGG TAG AAG AG; and CGG TAA AGA AGG CGT CCA CG.
+
+The CTC detection rate was calculated as the number of patients with detectable CTCs / number of total patients × 100%.
+
+
+Immunohistochemical Analysis of BCAR1
+
+Among the 60 patients, 40 (66.7%) had adequate cancer tissues for tissue microarray construction and further immunohistochemical detection of BCAR1 (anti-BCAR1 antibody: catalog no. 13846S; Cell Signaling Technology, Inc., Danvers, MA, USA; dilution, 1:100), which were performed in accordance with previously published protocols. 8 The mean integrated optical density of the expression levels of proteins was calculated using Image-Pro Plus software (version 6.0; Media Cybernetics, Inc., Bethesda, MA, USA).
+
+
+Validation Using The Cancer Genome Atlas (TCGA)
+
+Data were retrieved from TCGA ( https://www.cancer.gov/ ) for analyses of BCAR1 gene expression and OS of stage I LUAD patients using various combinations of the following search terms: “stage 1a,” “stage 1b,” “stage 1,” “adenoma,” “adenocarcinoma,” “bronchus,” “lung,” “TCGA,” “TCGA-LUAD,” “HTseq-counts,” “transcriptome profiling,” “gene expression quantification,” and “RNA-seq.” Furthermore, the Gene Expression Profiling Interactive Analysis online tool ( http://gepia.cancer-pku.cn/detail.php ) was used to retrieve data from TCGA database and analyze the correlations between BCAR1 expression and the following markers of EMT: (epithelial markers) CK8 (KRT8), CK18 (KRT18), CK19 (KRT19) EpCAM, (mesenchymal markers) vimentin (vimentin), and twist.
+
+
+Statistical Analysis
+
+All data analyses were performed using IBM SPSS Statistics for Windows, version 23.0. (IBM Corporation, Armonk, NY, USA) and GraphPad Prism software (GraphPad Software, Inc., San Diego, CA, USA). The 2 independent samples t -test was used for between-group analyses. Detection rates were compared using the χ 2 test. The influence of age and tumor stage on prognosis were determined using the multivariate COX model. A Kaplan–Meier curve was generated for survival analysis. A 2-sided probability ( p ) value of <0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+As shown in Figure 1A , BCAR1 (purple dots) was expressed by the CTCs. Additionally, the CTCs were divided based on the expression of epithelial markers (red dots) and mesenchymal markers (green dots), as well as DAPI staining (blue field). Therefore, CTCs were classified as BCAR1 negative or positive. Furthermore, BCAR1-positive CTCs were classified according to the extent of BCAR1 expression as BCAR1(+) CTCs (containing one purple signal point) or BCAR1(++) CTCs (containing 2 or more purple signal points).
+
+Expression patterns of BCAR1 and EMT markers in CTCs. A, BCAR1, epithelial markers, and mesenchymal markers were detectable in one CTC. B, The number and detection rate of BCAR1-negative CTCs and BCAR1-positive CTCs in LUAD patients were significantly higher as compared with the healthy controls (* p < 0.05, ** p < 0.01, *** p < 0.001). C, The incidence of epithelial and mesenchymal markers in BCAR1(+) CTCs was significantly higher than that in BCAR1-negative CTCs ( p < 0.05). Intriguingly, the incidence of epithelial and mesenchymal markers of BCAR1(++) CTCs was significantly higher than that of BCAR1(+) CTCs ( p < 0.05).
+
+Of the 60 patients, 259 CTCs were detectable in 48 (80.0%) cases. Among them, 175 BCAR1-negative CTCs and 84 BCAR1-positive CTCs were detected in 47 (78.3%) and 38 (63.3%) cases, respectively. Among the BCAR1-positive CTCs, 65 BCAR1(+) CTCs and 19 BCAR1(++) CTCs were found in 26 and 12 cases, respectively. The quantity of CTCs and BCAR1-positive CTCs seemed to have no statistical correlation with tumor size or stage (data not shown).
+
+BCAR1-negative CTCs were detected in 4 (12.9%) of the 31 controls, while BCAR1-positive CTCs were undetectable. In terms of BCAR1-negative and BCAR1-positive CTCs, the number and detection rate were significantly higher in LC patients than the healthy controls ( Figure 1B ).
+
+As shown in Figure 1C , the incidence of epithelial and mesenchymal markers in BCAR1(+) CTCs was significantly higher than that in BCAR1-negative CTCs (31/65 vs. 73/175, respectively, p < 0.05). Intriguingly, with the enhancement of BCAR1 expression, the incidence of epithelial and mesenchymal markers was significantly higher in BCAR1(++) CTCs than BCAR1(+) CTCs (15/19 vs. 31/65, respectively, p < 0.05).
+
+Kaplan–Meier curve analysis showed that the 2 curves representing the presence or absence of BCAR1(++) CTC prior to surgery were clearly separated after 2 years, demonstrating cases with BCAR1(++) CTCs were more prone to relapse or metastasis ( Figure 2A ). This trend was more obvious in cases with 2 or more BCAR1 (++) CTCs before surgery ( Figure 2B ).
+
+BCAR1 expression in CTCs and LC tissues and survival of ES-LUAD cases. A and B, Kaplan–Meier curve showing that cases with BCAR1(++) CTCs prior to surgery were prone to relapse or metastasis after 2 years. C, A case with high BCAR1 expression in cancer tissues had short DFS (302 days). D, A case with low BCAR1 expression had long DFS (1240 days). E, COX model showing that patients with higher BCAR1 expression levels in CTCs and tumor tissues had a worse prognosis.
+
+Indeed, as shown in Figure 2E , the results of the COX model showed that patients with a higher abundance of BCAR1(++) CTCs had a worse prognosis (hazard ratio [HR] = 1.712, 95% confidence interval [CI] = 1.077–2.722, p = 0.023). In addition, BCAR1(+) CTCs and BCAR1-negative CTCs were not significantly correlated with prognosis.
+
+High and low BCAR1 expression levels were found in a patient with short DFS (302 days) and a second with long DFS (1240 days), respectively ( Figure 2C and 2D ). Additionally, as shown in Figure 2E , COX analysis suggested that high BCAR1 expression in LC tissues was predictive of a poor prognosis of ES-LUAD, as confirmed in the present study (HR = 2.654, 95% CI = 1.239–5.686, p = 0.012) and TCGA database (HR = 2.217, 95% CI = 1.069–4.595, p = 0.032) (combing age as a covariant: HR = 1.110, 95% CI = 1.023–1.204, p = 0.012). BCAR1 expression seemed to have no significant correlation with tumor size or stage (data not shown). In addition, BCAR1 expression in TCGA was significantly positively correlated with both epithelial markers (e.g., CK8/18/19) and mesenchymal markers (e.g., vimentin and twist) ( Figure 3 ).
+
+TCGA database indicated that BCAR1 expression in LC tissues was significantly positively correlated with the expression levels of epithelial and mesenchymal markers.
+
+
+BCAR1-Positive CTCs Were Detected in the Peripheral Blood of Patients With ES-LUAD
+
+As shown in Figure 1A , BCAR1 (purple dots) was expressed by the CTCs. Additionally, the CTCs were divided based on the expression of epithelial markers (red dots) and mesenchymal markers (green dots), as well as DAPI staining (blue field). Therefore, CTCs were classified as BCAR1 negative or positive. Furthermore, BCAR1-positive CTCs were classified according to the extent of BCAR1 expression as BCAR1(+) CTCs (containing one purple signal point) or BCAR1(++) CTCs (containing 2 or more purple signal points).
+
+Expression patterns of BCAR1 and EMT markers in CTCs. A, BCAR1, epithelial markers, and mesenchymal markers were detectable in one CTC. B, The number and detection rate of BCAR1-negative CTCs and BCAR1-positive CTCs in LUAD patients were significantly higher as compared with the healthy controls (* p < 0.05, ** p < 0.01, *** p < 0.001). C, The incidence of epithelial and mesenchymal markers in BCAR1(+) CTCs was significantly higher than that in BCAR1-negative CTCs ( p < 0.05). Intriguingly, the incidence of epithelial and mesenchymal markers of BCAR1(++) CTCs was significantly higher than that of BCAR1(+) CTCs ( p < 0.05).
+
+Of the 60 patients, 259 CTCs were detectable in 48 (80.0%) cases. Among them, 175 BCAR1-negative CTCs and 84 BCAR1-positive CTCs were detected in 47 (78.3%) and 38 (63.3%) cases, respectively. Among the BCAR1-positive CTCs, 65 BCAR1(+) CTCs and 19 BCAR1(++) CTCs were found in 26 and 12 cases, respectively. The quantity of CTCs and BCAR1-positive CTCs seemed to have no statistical correlation with tumor size or stage (data not shown).
+
+BCAR1-negative CTCs were detected in 4 (12.9%) of the 31 controls, while BCAR1-positive CTCs were undetectable. In terms of BCAR1-negative and BCAR1-positive CTCs, the number and detection rate were significantly higher in LC patients than the healthy controls ( Figure 1B ).
+
+
+BCAR1-Positive CTCs Were More Prone to Co-Expression of Epithelial and Mesenchymal Markers
+
+As shown in Figure 1C , the incidence of epithelial and mesenchymal markers in BCAR1(+) CTCs was significantly higher than that in BCAR1-negative CTCs (31/65 vs. 73/175, respectively, p < 0.05). Intriguingly, with the enhancement of BCAR1 expression, the incidence of epithelial and mesenchymal markers was significantly higher in BCAR1(++) CTCs than BCAR1(+) CTCs (15/19 vs. 31/65, respectively, p < 0.05).
+
+
+High Abundance of BCAR1(++) CTCs Is Indicative of a Poor Prognosis of Patients With ES-LUAD
+
+Kaplan–Meier curve analysis showed that the 2 curves representing the presence or absence of BCAR1(++) CTC prior to surgery were clearly separated after 2 years, demonstrating cases with BCAR1(++) CTCs were more prone to relapse or metastasis ( Figure 2A ). This trend was more obvious in cases with 2 or more BCAR1 (++) CTCs before surgery ( Figure 2B ).
+
+BCAR1 expression in CTCs and LC tissues and survival of ES-LUAD cases. A and B, Kaplan–Meier curve showing that cases with BCAR1(++) CTCs prior to surgery were prone to relapse or metastasis after 2 years. C, A case with high BCAR1 expression in cancer tissues had short DFS (302 days). D, A case with low BCAR1 expression had long DFS (1240 days). E, COX model showing that patients with higher BCAR1 expression levels in CTCs and tumor tissues had a worse prognosis.
+
+Indeed, as shown in Figure 2E , the results of the COX model showed that patients with a higher abundance of BCAR1(++) CTCs had a worse prognosis (hazard ratio [HR] = 1.712, 95% confidence interval [CI] = 1.077–2.722, p = 0.023). In addition, BCAR1(+) CTCs and BCAR1-negative CTCs were not significantly correlated with prognosis.
+
+
+In LC Tissues, High BCAR1 Expression Is Indicative of a Poor Prognosis and Positively Correlated to Expression of Both Epithelial and Mesenchymal Markers
+
+High and low BCAR1 expression levels were found in a patient with short DFS (302 days) and a second with long DFS (1240 days), respectively ( Figure 2C and 2D ). Additionally, as shown in Figure 2E , COX analysis suggested that high BCAR1 expression in LC tissues was predictive of a poor prognosis of ES-LUAD, as confirmed in the present study (HR = 2.654, 95% CI = 1.239–5.686, p = 0.012) and TCGA database (HR = 2.217, 95% CI = 1.069–4.595, p = 0.032) (combing age as a covariant: HR = 1.110, 95% CI = 1.023–1.204, p = 0.012). BCAR1 expression seemed to have no significant correlation with tumor size or stage (data not shown). In addition, BCAR1 expression in TCGA was significantly positively correlated with both epithelial markers (e.g., CK8/18/19) and mesenchymal markers (e.g., vimentin and twist) ( Figure 3 ).
+
+TCGA database indicated that BCAR1 expression in LC tissues was significantly positively correlated with the expression levels of epithelial and mesenchymal markers.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+CTC detection is minimally invasive and highly reproducible, and thus, has been gradually and increasingly applied in the field of tumor diagnosis and efficacy assessment. 9 Tumor cells can shed from the primary lesion, enter the peripheral blood, spread to remote sites, and metastasize in appropriate microenvironments. 10 Formation of aggressive CTCs in the peripheral blood is closely related to the occurrence of EMT. 11 During the process of EMT, epithelial and mesenchymal markers of tumor cells are down- and up-regulated, respectively, resulting in more aggressive and invasive abilities. Following EMT, CTCs can be positive for both epithelial and mesenchymal markers, leading to enhanced resistance to apoptosis in the peripheral blood. 12 
+
+CTC detection mainly includes 2 steps: enrichment and identification. CTC enrichment is mostly based on tumor cell morphology, while sorting is based on surface markers. For example, CellSearch enriches CTCs through sorting based on the surface marker EpCAM with the use of magnetic beads. The isolation by size of epithelial tumor cells (ISET) method enriches cells by filtering through membranes based on cell size. Ficoll’s test enriches cells by density gradient centrifugation based on different cell densities. CTC identification is often performed by polymerase chain reaction, immunofluorescence, and RNA in situ hybridization. 13 In the present study, CTCs were enriched using CanPatrol TM technology with an 8-micron filter membrane and the captured cells were identified via multiple RNA in situ hybridization. CanPatrol TM technology does not destroy the integrity of cells during the enrichment process. Therefore, subsequent positioning and detection of EMT markers can be performed, 14 , 15 as well as BCAR1 identification via an expanded channel.
+
+BCAR1/p130Cas is a scaffold protein involved in cell signal transduction that can promote the assembly of multi-protein complexes, is involved in signal transduction of many major oncogenic kinases (e.g., Abl, FAK, and Src), and plays roles in carcinogenesis (e.g., migration, invasion, proliferation). 16 Moreover, BCAR1 is overexpressed in a variety of malignant tumors, including cancers of the breast, lung, liver, and brain. 17 
+
+In the present study, CTCs were detected in 4 healthy controls. A prior study reported that CTCs can be recognized as “sentinels” in some cases with inflammatory diseases, such as chronic obstructive pulmonary disease. 18 Indeed, the 4 healthy controls with CTCs in their blood were all smokers. Moreover, the number and detection rate of BCAR1-positive CTCs in LUAD cases were significantly higher as compared with healthy controls. Patients with high levels of BCAR1(++) CTCs or high BCAR1 expression in tumor tissues had poor prognoses. Given the previous evidence of the carcinogenetic roles of BCAR1, we postulated that CTCs with high BCAR1 expression may be more aggressive and invasive to promote metastasis of LC. It also reminds us that those cases with high BCAR1 expression in CTCs or tissues should receive reinforced postoperative follow-ups or intensive treatment.
+
+BCAR1 can promote EMT by inhibiting transforming growth factor β1 (TGF-β1), activating Smad3, and enhancing the coupling of TGF-β1 with mitogen-activated protein kinases (p38). 19 Our previous research indicated that RNA interference of BCAR1 in A549 cells significantly reduced the extent of phosphorylation of p38, and subsequently inhibited the EMT process. 20 The results of the present study showed that BCAR1 in tumor tissues was significantly positively correlated with the expression levels of both epithelial and mesenchymal markers, as validated by TCGA database. In primary tumor tissues, an epithelial marker (e.g., EpCAM) can promote tumor proliferation and, thus, be considered as a biomarker of cancer stem cells. 21 Additionally, epithelial markers (e.g., CK8/18/19) can inhibit tumor cell apoptosis. 22 However, in CTCs, the EMT process can down- and up-regulate the expression levels of epithelial and mesenchymal markers, respectively, thereby enhancing resistance to anoikis 23 and drug therapy, 24 while promoting invasion and migration. 25 Also, in BCAR1-positive CTCs, co-expression of epithelial and mesenchymal markers was increased, while solo expression of epithelial markers was decreased, demonstrating a “limited” EMT in these cells. Recently, CTCs with “limited” EMT were reported to possess stronger survival and carcinogenic abilities. 11 Therefore, we speculated that BCAR1 in CTCs may promote the EMT process to promote tumor metastasis.
+
+BCAR1 can have a “dual impact” on EMT markers in tumor tissues and CTCs due to disparities in micro-environments. In tumor tissues, high BCAR1 expression may elevate the expression of both epithelial and mesenchymal markers to promote cell proliferation in primary sites. However, in CTCs, high BCAR1 expression may trigger “limited” EMT leading to up- and down-regulation of epithelial and mesenchymal markers, respectively, to enhance the metastatic ability of CTCs.
+
+Due to the limited follow-up time in this study, only DFS data were obtained, thus further studies are needed to access OS. In addition, our next step is to conduct a large-scale multicenter study of BCAR1-positive CTCs for risk stratification of early LC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

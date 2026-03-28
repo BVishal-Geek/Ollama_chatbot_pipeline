@@ -1,0 +1,19 @@
+Source: PMC7768310_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "The BRCA2 p.N372 H i.a.1342A>C Could Regulate the Sensitivity of Ovarian Cancer Cells to Platinum-Based Drugs",
+  "condition_E": 0,
+  "condition_E_reason": "not found",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

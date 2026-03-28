@@ -1,0 +1,65 @@
+================================================================================
+ARTICLE TITLE: Weight Gain Over 6 Years in Young Adults: The Study of Novel Approaches to Weight Gain Prevention (SNAP) Randomized Trial
+PMCID: PMC6927481
+PMID: 31858732
+KEYWORDS: weight gain, prevention, young adults, self-regulation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+OBJECTIVE::
+Determine if two self-regulation interventions that reduced 3-year weight gain in young adults remain effective at 6 years.
+
+METHODS::
+Randomized trial in 2 academic settings in 599 young adults, age 18–35, normal weight or overweight; 504 (84%) re-consented for 6-year extension (SNAP-E) with ongoing intervention and assessments. Weight gain over 6 years was compared for all assigned to Control (C); Large Changes (LC; lose 5–10 pounds initially), and Small Changes (SC; make small daily changes in intake and activity).
+
+RESULTS::
+Weight change baseline to 6 years did not differ significantly among the 3 groups (C=3.9 kg, SC= 4.1 kg, and LC=2.8 kg). However, there was a significant age by treatment interaction, p=0.002. Among those <25 years, weight gain from baseline to 6 years averaged 7.3 kg and was reduced by almost 50% in LC and SC. LC also significantly reduced mean weight gain (area under the curve) over 6 years compared to C or SC.
+
+CONCLUSIONS::
+Although the interventions did not reduce weight gain at 6 years for the full cohort, they were effective in those age <25. Future efforts should focus on young adults age 18–24.9 and test more intensive interventions with more diverse participants.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

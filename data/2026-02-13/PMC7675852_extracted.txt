@@ -1,0 +1,618 @@
+================================================================================
+ARTICLE TITLE: Establishment and Validation of Nomogram Model Integrated With
+Inflammation-Based Factors for the Prognosis of Advanced Non-Small Cell Lung
+Cancer
+PMCID: PMC7675852
+PMID: 33191854
+KEYWORDS: nomogram, inflammation factor, advanced nsclc, prognosis, overall survival
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objects::
+Inflammation is one of the hallmarks of cancer. Tumor-associated inflammatory
+response plays a crucial role in enhancing tumorigenesis. This study aimed
+to establish an effective predictive nomogram based on inflammation factors
+in patients with advanced non-small cell lung cancer (NSCLC).
+
+Methods::
+We retrospectively evaluated 887 patients with advanced NSCLC between
+November 2004 and December 2015 and randomly divided them into primary (n =
+520) and validation cohorts (n = 367). Cox regression analysis was used to
+identify prognostic factors for building the nomogram. The predictive
+accuracy and discriminative ability of the nomogram were determined using a
+concordance index (C-index), calibration plot, and decision curve analysis
+and were compared to the TNM staging system.
+
+Results::
+The nomogram was established using independent risk factors
+( P < 0.05): age, TNM stage, C reaction
+protein-to-albumin ratio (CAR), and neutrophils (NEU). The C-index of the
+model for predicting OS had a superior discrimination power compared to that
+of the TNM staging system both in the primary [0.711 (95% CI: 0.675-0.747)
+vs 0.531 (95% CI: 0.488-0.574), P < 0.01] and validation
+cohorts [0.703, 95% CI: 0.671 -0.735 vs 0.582, 95% CI: 0.545-0.619, P < 0.01]. Decision curves also demonstrated that
+the nomogram had higher overall net benefits than that of the TNM staging
+system. Subgroup analyses revealed that the nomogram was a favorable
+prognostic parameter in advanced NSCLC ( P < 0.05). The
+results were internally validated using the validation cohorts.
+
+Conclusions::
+The proposed nomogram with inflammatory factors resulted in an accurate
+prognostic prediction in patients with advanced NSCLC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Lung cancer remains the most common type of cancer and the leading cause of cancer
+death in China. 1 Non-small cell lung cancer (NSCLC) accounts for approximately 85% of lung cancers. 2 A majority of patients are diagnosed with advanced-stage disease, when
+surgery, the best curative option, is no longer feasible. 3 In NSCLC, staging based on the tumor-node-metastasis (TNM) system and
+histological subtype has been used to determine prognosis and design optimal
+treatment regimens. 4 However, different patients at identical stages undergoing similar treatment
+regimens often have varied clinical outcomes, suggesting that the current staging
+system is inadequate for predicting postoperative survival. In such patients with
+advanced cancers, the TNM staging system has reached its ceiling 5 ; therefore, other factors are needed to assess patient prognosis.
+
+Recently there has been an increased interest in improving NSCLC prognostication
+using clinical, inflammatory, and molecular biomarkers; however, there remains a
+lack of reliable, reproducible, and low-cost biomarkers that can be readily
+incorporated into routine practice to optimally predict prognosis and guide
+treatment. The host response to malignant tumors consists of changes in the tumor
+microenvironment as well as systemic alterations. Inflammation is one of the
+hallmarks of cancer and the tumor-associated inflammatory response has a critical
+role in enhancing tumorigenesis by inducing tumor-cell growth, angiogenesis, and
+genome instability. 6 Given the importance of this systemic inflammatory response, the study of the
+markers of systemic inflammation with the intent of developing cost-effective
+prognostic biomarkers for patients with cancer, including those with lung cancer, is
+ongoing. One of the widely studied groups of inflammatory markers is derived from
+elements of the ubiquitously available and inexpensive procedure of whole blood
+count. The migration and activation of neutrophils (NEUs) can cause inflammation and
+sensitization directly or indirectly 7 ; thus, a strong correlation between poor clinical outcomes and high
+neutrophil content, both locally and systemically, has been reported in patients
+with NSCLC. 8 , 9 The neutrophil (NEU) counts and neutrophil-lymphocyte ratio (NLR) have been
+evaluated in both localized and advanced NSCLC and appear prognostic in these
+patient populations. 10 , 11 Additionally, the platelet-to-lymphocyte ratio (PLR) has been introduced as
+another measurable parameter to determine inflammation and reveal the impact on the
+clinical outcomes of NSCLC. 12 , 13 Of these indicators, the NLR is most widely studied and has been adopted as a
+predictor of mortality and morbidity in several cancers. 10 , 14 
+
+With regard to biochemical indices, several studies consider the level of C-reactive
+protein (CRP), an acute-phase reactant excessively produced by the liver during
+inflammation, to predict patient outcomes in NSCLC. 15 , 16 Apart from CRP, another commonly used inflammatory marker is albumin (ALB), a
+negative acute phase reactant in patients with cancer, which is inversely correlated
+with inflammation. However, the CRP-to-ALB ratio (CAR), combining CRP and ALB, has
+not been widely investigated as a biomarker in NSCLC. Only recently has the CAR been
+proposed and investigated as a prognostic marker in patients with solid tumors. 17 , 18 There is recent evidence that the CAR predicts long-term outcomes in patients
+with operable NSCLC. 19 However, few previous studies have studied CAR for the prognosis of advanced
+NSCLC. Considering the small-sized cohort in these studies, the clinical utility of
+the CAR in NSCLC, especially advanced NSCLC (the commonest subset of NSCLC), remains
+to be further defined.
+
+Nomograms are currently widely used to predict the overall survival (OS) of patients
+with cancers, including lung cancer, colorectal cancer, and gastric cancer. 14 , 16 , 20 - 22 Furthermore, nomograms have been proven to be effective in precise
+predictions compared to the traditional TNM staging systems and are, therefore, used
+to predict OS in several cancers. 5 , 16 The aim of this study was to construct a nomogram integrating
+inflammation-based factors to estimate the prognosis of patients with advanced
+NSCLC. We also tested whether the nomogram model could provide a more accurate
+prediction of patient outcomes compared to those provided by the traditional TNM
+system.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+Inclusion criteria: patients had diagnosed with stage IIIB and IV NSCLC. All
+patients who fulfilled the inclusion criteria were assessed by a
+multidisciplinary team comprising a medical oncologist, radiation oncologist,
+and a thoracic surgeon. Patients were determined to be unsuitable for radical
+surgery for lung cancer. Exclusion criteria: patients with double primary
+cancer, those previously treated, patients with clinical evidence of infection
+or other inflammation within 1 month of commencing therapy, patients who failed
+to follow up, those without available data on NEU, lymphocyte, and platelet
+(PLT) counts and biochemical parameters, such as serum ALB and CRP levels.
+
+After screening based on the inclusion and exclusion criteria, 887 patients
+diagnosed with stage IIIB and IV NSCLC at the Sun Yat-Sen University Cancer
+Center (SYSUCC) between November 2004 and December 2015 were retrospectively
+reviewed. All patients underwent standard workup, which included systemic
+imaging including positron emission tomography (PET), PET/computerized
+tomography (CT), CT and/or bone scan, brain imaging consisting of magnetic
+resonance imaging (MRI) or CT with contrast, and routine blood work prior to
+treatment. Patients were treated with definitive chemotherapy with or without
+radiation. Some of them underwent thoracoscopic pleural biopsy. All patients
+presented with clinical stage IIIB and IV disease based on the AJCC 7th edition
+TNM classification and staging system. Patients were followed up at our
+outpatient department every 3–6 months for the first 2 years, and then annually.
+The last follow-up was in March 2017.
+
+Our study retrieved the NEU, lymphocyte, PLT counts, and biochemical parameters,
+including serum ALB and CRP, from the medical files of the enrolled patients.
+The records indicated that all tests were performed according to the
+manufacturer’s protocols. The serum levels of CRP and ALB were measured using an
+Automatic Biochemical Analyzer (Hitachi 7600, Japan), while NEU, lymphocyte, and
+PLT count values were collected from routine blood examination results and were
+detected using a Sysmex XS800 analyzer (Sysmex, Japan). All biochemical tests
+were performed before commencing treatment.
+
+Data were analyzed using SPSS standard version 20.0 (SPSS, Chicago, USA) and R
+software version 3.6.1 ( http://www.R-project.org ).
+For patients who were still alive, the duration of OS was calculated from the
+diagnosis of malignancy until death due to any cause or until the date of the
+last follow-up. Cut-off values were determined using the X-tile program of R
+software. The Kaplan-Meier method was used to estimate OS and calculate the 95%
+confidence intervals (CIs). Univariate and multivariate analyses to determine
+differences in survival were performed using the Cox proportional hazards model
+and expressed as hazard ratios (HRs) and 95% CIs. All variables in the
+multivariable model were enrolled to construct a prognostic nomogram model using
+the rms package. Calibration of the nomogram for 1-, 2-, and 3-year OS was
+executed by comparing the predicted survival and observed survival. The
+discriminative ability and predictive accuracy of the established nomogram were
+assessed using the C-index and decision curve and were compared with the
+traditional TNM staging system. The P -values in comparison of
+the C-indexes were calculated based on normal approximation using the function,
+rcorrp.cens, in the Hmisc package. Pearson’s χ 2 test was used to
+analyze the relationship between CAR, NEU and NLR, PLR, CRP, ALB, the
+clinicopathological baseline characteristics. Two-sided p -values < 0.05 were considered statistically
+significant.
+
+
+Inclusion and Exclusion Criteria
+
+Inclusion criteria: patients had diagnosed with stage IIIB and IV NSCLC. All
+patients who fulfilled the inclusion criteria were assessed by a
+multidisciplinary team comprising a medical oncologist, radiation oncologist,
+and a thoracic surgeon. Patients were determined to be unsuitable for radical
+surgery for lung cancer. Exclusion criteria: patients with double primary
+cancer, those previously treated, patients with clinical evidence of infection
+or other inflammation within 1 month of commencing therapy, patients who failed
+to follow up, those without available data on NEU, lymphocyte, and platelet
+(PLT) counts and biochemical parameters, such as serum ALB and CRP levels.
+
+
+Sample Collection and Laboratory Analysis
+
+After screening based on the inclusion and exclusion criteria, 887 patients
+diagnosed with stage IIIB and IV NSCLC at the Sun Yat-Sen University Cancer
+Center (SYSUCC) between November 2004 and December 2015 were retrospectively
+reviewed. All patients underwent standard workup, which included systemic
+imaging including positron emission tomography (PET), PET/computerized
+tomography (CT), CT and/or bone scan, brain imaging consisting of magnetic
+resonance imaging (MRI) or CT with contrast, and routine blood work prior to
+treatment. Patients were treated with definitive chemotherapy with or without
+radiation. Some of them underwent thoracoscopic pleural biopsy. All patients
+presented with clinical stage IIIB and IV disease based on the AJCC 7th edition
+TNM classification and staging system. Patients were followed up at our
+outpatient department every 3–6 months for the first 2 years, and then annually.
+The last follow-up was in March 2017.
+
+Our study retrieved the NEU, lymphocyte, PLT counts, and biochemical parameters,
+including serum ALB and CRP, from the medical files of the enrolled patients.
+The records indicated that all tests were performed according to the
+manufacturer’s protocols. The serum levels of CRP and ALB were measured using an
+Automatic Biochemical Analyzer (Hitachi 7600, Japan), while NEU, lymphocyte, and
+PLT count values were collected from routine blood examination results and were
+detected using a Sysmex XS800 analyzer (Sysmex, Japan). All biochemical tests
+were performed before commencing treatment.
+
+
+Statistical Analysis
+
+Data were analyzed using SPSS standard version 20.0 (SPSS, Chicago, USA) and R
+software version 3.6.1 ( http://www.R-project.org ).
+For patients who were still alive, the duration of OS was calculated from the
+diagnosis of malignancy until death due to any cause or until the date of the
+last follow-up. Cut-off values were determined using the X-tile program of R
+software. The Kaplan-Meier method was used to estimate OS and calculate the 95%
+confidence intervals (CIs). Univariate and multivariate analyses to determine
+differences in survival were performed using the Cox proportional hazards model
+and expressed as hazard ratios (HRs) and 95% CIs. All variables in the
+multivariable model were enrolled to construct a prognostic nomogram model using
+the rms package. Calibration of the nomogram for 1-, 2-, and 3-year OS was
+executed by comparing the predicted survival and observed survival. The
+discriminative ability and predictive accuracy of the established nomogram were
+assessed using the C-index and decision curve and were compared with the
+traditional TNM staging system. The P -values in comparison of
+the C-indexes were calculated based on normal approximation using the function,
+rcorrp.cens, in the Hmisc package. Pearson’s χ 2 test was used to
+analyze the relationship between CAR, NEU and NLR, PLR, CRP, ALB, the
+clinicopathological baseline characteristics. Two-sided p -values < 0.05 were considered statistically
+significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+This study enrolled a total of 887 patients. We randomly divided the patients
+into primary (n = 520) and validation cohorts (n = 367). The patients’
+demographic data and clinical characteristics are listed in Table 1 . There were
+520 patients in the primary cohort comprising 368 male (70.8%) and 152 female
+patients (29.2%); the ages of the patients ranged from 25–84 years. Of the
+enrolled patients, 120 (23.1%) were staged as IIIB and 400 (76.9%) as stage IV.
+The median OS was 12.6 months (range 0.2–38.6 months). The validation cohort
+included 230 male (62.7%) and 137 female patients (37.3%) with their age ranging
+from 25–86 years. Of these, 80 (21.8%) were staged as IIIB and 287 (78.2%) as
+stage IV. The median OS was 11.4 months (range 0.3–49.9 months). The 1-, 2-, and
+3-year OS rates for the primary and validation cohorts were 52.12%, 7.31%, 0.38%
+and 48.87%, 17.02%, 0.92%, respectively.
+
+Comparison Between Modeling Group and Validation Group by
+Clinicopathological Characteristics.
+
+NEU, neutrophil; NLR, neutrophil-lymphocyte ratio; PLR,
+platelet-to-lymphocyte ratio.
+
+Patient characteristics and correlations between preoperative CAR and NEU levels
+and clinicopathological parameters are shown in Table 2 . The X-tile program was used to
+determine the optimal cut-off values for CAR and NEU of OS, which were 0.15 and
+5.4 × 10 9 /L respectively. In the primary cohort, the CAR was
+associated with T status ( P = 0.028). Males ( P = 0.015) and patients with adenocarcinoma ( P = 0.035) had
+higher preoperative NEU levels. The NEU levels were also associated with N
+status ( P = 0.038), chemotherapy ( P = 0.020),
+and lymphocyte counts ( P = 0.040). In the validation cohort,
+age (>58) ( P = 0.025), male ( P < 0.001),
+adenocarcinoma ( P < 0.001), T status (T3+T4)
+( P < 0.001), N status (N2+N3) ( P =
+0.047) had a higher pre-operative CAR. NEU levels were associated with
+adenocarcinoma ( P = 0.008) and T status ( P =
+0.001), while CAR and NEU levels were associated with PLT, NLR, PLR, CRP and ALB
+in both cohorts ( P < 0.001).
+
+Correlation Between CAR, NEU and Clinicopathological Variables of NSCLC
+Patients in Primary Group and Validation Group.
+
+ a Using Chi-squared test, p < 0.05 was considered
+statistically significant. b Surgery, thoracoscopic
+pleural biopsy. CAR, C-reactive protein -to- albumin ratio; NEU,
+neutrophil; PLT, platelet; NLR, neutrophil-lymphocyte ratio; PLR,
+platelet-to-lymphocyte ratio.
+
+In the univariate analysis, the CAR and NEU levels were found to be associated
+with OS ( P < 0.001) in patients with advanced NSCLC, along
+with other variables, such as age ( P = 0.04), gender
+( P = 0.026), clinical stage ( P = 0.022),
+radiotherapy ( P = 0.013), NLR ( P < 0.001),
+PLR ( P = 0.003), CRP ( P < 0.001), and ALB
+( P < 0.001) ( Table 3 ). Moreover, multivariate
+analyses using the Cox proportional hazard model showed that age (HR = 1.398,
+95% CI: 1.048–1.866, P = 0.023), clinical stage (HR = 1.804,
+95% CI: 1.227–2.653, P = 0.003), CAR (HR = 2.791, 95% CI:
+1.966–3.961, P < 0.001), and NEU (HR = 1.555, 95% CI:
+1.130–2.139, P = 0.007) were independent prognostic factors of
+OS in patients with advanced NSCLC.
+
+Univariate and Multivariate COX Regression Analyses for Overall Survival
+in Patients With Non-Small Cell Lung Cancer.
+
+ a  P < 0.05 was considered statistically significant. b Surgery, thoracoscopic pleural biopsy. CI =
+confidence interval; HR = hazard ratio. CAR, C-reaction protein -to-
+albumin ratio; NEU, neutrophil; PLT, platelet; NLR,
+neutrophil-lymphocyte ratio; PLR, platelet-to-lymphocyte ratio.
+
+According to the Cox proportional hazard model, variables, such as age > 58,
+clinical stage IV, CAR ≥ 0.15, and NEU > 5.4×10 9 /L, were poor
+prognostic factors for OS. Thus, age, clinical stage, CAR, and NEU were included
+in the nomogram ( Figure
+1 ). The predictive accuracies for OS in patients with NSCLC between
+the nomogram model and conventional TNM staging systems were compared by
+calculating the Harrell’s C-index ( Table 4 ). In the primary cohort, the
+nomogram model achieved a C-index of 0.711 (95% CI, 0.675–0.747) ( Figure 1A ), which was
+significantly higher than that achieved for the TNM staging system (0.531, 95%
+CI, 0.488–0.574, P < 0.01). This result was also confirmed
+in the validation cohort. The C-index of the nomogram model (0.703, 95% CI:
+0.671–0.735) ( Figure 1C )
+was higher than that of the TNM staging system (0.582, 95% CI: 0.545–0.619, P < 0.01). Calibration curves for the probability of
+survival at 3-years showed optimal agreement between the prediction established
+in the 2 nomograms and the actual observation ( Figure 1B , 1D ).
+
+Nomogram showing results of the prognostic model using age, clinical
+stage, CAR, and NEU characteristics predicting OS in the primary cohort
+(A). Nomogram model predicting the 1- and 3-year OS of patients with
+NSCLC in the validation cohort (C). Calibration curves predicting
+patient OS at 3 years in the primary cohort (B) and validation cohort
+(D). Total points projected on the bottom scales indicate the
+probability of 1- and 3-year survival.
+
+The C-index of Nomogram Model and TNM Stage for Prediction of OS in the
+Primary Cohort and Validation Cohort.
+
+* Nomogram Model: including 4 risk factors (age, stage, CAR, NEU).
+C-index = concordance index; CI = confidence interval. P < 0.05 was considered statistically significant.
+
+The results of the decision curve analysis in the primary and validation cohorts
+at 3 years is presented in Figure 2 . Compared to the traditional TNM staging system, the 2
+nomogram models that were established had higher overall net benefits than the
+traditional TNM staging systems across a wide range of threshold
+probabilities.
+
+Decision curve analysis for 3-year survival predictions in the primary
+cohort (A) and validation cohort (B). In the decision-curve analysis,
+the y-axis indicates net benefit. The straight line represents the
+assumption that all patients will die, while the horizontal line
+represents the assumption that no patients will die.
+
+Based on the prediction of the nomograms, patients in the primary cohort were
+divided into three groups, namely, low-risk (score: 0–198), intermediate-risk
+(score: 198–286), and high-risk groups (score: ≥ 286) ( Table 5 ). Results suggested that
+patients with higher scores corresponded to worse prognoses. In the 2 cohorts,
+the survival probabilities for 1, 2, and 3 years in the low-risk group were
+67.07%, 24.45%, 1.16%, and 70.50%, 21.65%, 7.91%, respectively. The survival
+probabilities of the 2 cohorts in the intermediate-risk group were 53.30%,
+5.29%, 0%, and 38.66%, 7.56%, 0% for 1, 2, and 3 years, respectively. The
+survival probabilities of the 2 cohorts in the high-risk group were 28.33%,
+1.68%, 0%, and 26.61%, 2.75%, 0% for 1, 2, and 3 years, respectively. Patients
+with advanced NSCLC were divided into different risk subgroups after applying
+the cutoff values. Kaplan-Meier curves showed that these subgroups were
+significantly associated with OS outcomes in stage III and stage IV in the
+primary ( P < 0.001, P = 0.001) and
+validation cohorts ( P = 0.003, P < 0.001)
+( Figure 3 ).
+
+Point Assignment and Prognostic Score of the Nomogram Model.
+
+Risk group stratification within III and IV stage of patients with NSCLC
+in the primary and validation cohorts. Kaplan-Meier curves of OS
+according to the score predicted OS shown in the nomogram.
+
+
+Patient Characteristics
+
+This study enrolled a total of 887 patients. We randomly divided the patients
+into primary (n = 520) and validation cohorts (n = 367). The patients’
+demographic data and clinical characteristics are listed in Table 1 . There were
+520 patients in the primary cohort comprising 368 male (70.8%) and 152 female
+patients (29.2%); the ages of the patients ranged from 25–84 years. Of the
+enrolled patients, 120 (23.1%) were staged as IIIB and 400 (76.9%) as stage IV.
+The median OS was 12.6 months (range 0.2–38.6 months). The validation cohort
+included 230 male (62.7%) and 137 female patients (37.3%) with their age ranging
+from 25–86 years. Of these, 80 (21.8%) were staged as IIIB and 287 (78.2%) as
+stage IV. The median OS was 11.4 months (range 0.3–49.9 months). The 1-, 2-, and
+3-year OS rates for the primary and validation cohorts were 52.12%, 7.31%, 0.38%
+and 48.87%, 17.02%, 0.92%, respectively.
+
+Comparison Between Modeling Group and Validation Group by
+Clinicopathological Characteristics.
+
+NEU, neutrophil; NLR, neutrophil-lymphocyte ratio; PLR,
+platelet-to-lymphocyte ratio.
+
+
+Association of Preoperative Serum CAR and NEU Levels With Clinical
+Characteristics
+
+Patient characteristics and correlations between preoperative CAR and NEU levels
+and clinicopathological parameters are shown in Table 2 . The X-tile program was used to
+determine the optimal cut-off values for CAR and NEU of OS, which were 0.15 and
+5.4 × 10 9 /L respectively. In the primary cohort, the CAR was
+associated with T status ( P = 0.028). Males ( P = 0.015) and patients with adenocarcinoma ( P = 0.035) had
+higher preoperative NEU levels. The NEU levels were also associated with N
+status ( P = 0.038), chemotherapy ( P = 0.020),
+and lymphocyte counts ( P = 0.040). In the validation cohort,
+age (>58) ( P = 0.025), male ( P < 0.001),
+adenocarcinoma ( P < 0.001), T status (T3+T4)
+( P < 0.001), N status (N2+N3) ( P =
+0.047) had a higher pre-operative CAR. NEU levels were associated with
+adenocarcinoma ( P = 0.008) and T status ( P =
+0.001), while CAR and NEU levels were associated with PLT, NLR, PLR, CRP and ALB
+in both cohorts ( P < 0.001).
+
+Correlation Between CAR, NEU and Clinicopathological Variables of NSCLC
+Patients in Primary Group and Validation Group.
+
+ a Using Chi-squared test, p < 0.05 was considered
+statistically significant. b Surgery, thoracoscopic
+pleural biopsy. CAR, C-reactive protein -to- albumin ratio; NEU,
+neutrophil; PLT, platelet; NLR, neutrophil-lymphocyte ratio; PLR,
+platelet-to-lymphocyte ratio.
+
+
+Univariate Analysis of the OS in the Primary Cohorts
+
+In the univariate analysis, the CAR and NEU levels were found to be associated
+with OS ( P < 0.001) in patients with advanced NSCLC, along
+with other variables, such as age ( P = 0.04), gender
+( P = 0.026), clinical stage ( P = 0.022),
+radiotherapy ( P = 0.013), NLR ( P < 0.001),
+PLR ( P = 0.003), CRP ( P < 0.001), and ALB
+( P < 0.001) ( Table 3 ). Moreover, multivariate
+analyses using the Cox proportional hazard model showed that age (HR = 1.398,
+95% CI: 1.048–1.866, P = 0.023), clinical stage (HR = 1.804,
+95% CI: 1.227–2.653, P = 0.003), CAR (HR = 2.791, 95% CI:
+1.966–3.961, P < 0.001), and NEU (HR = 1.555, 95% CI:
+1.130–2.139, P = 0.007) were independent prognostic factors of
+OS in patients with advanced NSCLC.
+
+Univariate and Multivariate COX Regression Analyses for Overall Survival
+in Patients With Non-Small Cell Lung Cancer.
+
+ a  P < 0.05 was considered statistically significant. b Surgery, thoracoscopic pleural biopsy. CI =
+confidence interval; HR = hazard ratio. CAR, C-reaction protein -to-
+albumin ratio; NEU, neutrophil; PLT, platelet; NLR,
+neutrophil-lymphocyte ratio; PLR, platelet-to-lymphocyte ratio.
+
+
+Prognostic Nomogram Model for OS
+
+According to the Cox proportional hazard model, variables, such as age > 58,
+clinical stage IV, CAR ≥ 0.15, and NEU > 5.4×10 9 /L, were poor
+prognostic factors for OS. Thus, age, clinical stage, CAR, and NEU were included
+in the nomogram ( Figure
+1 ). The predictive accuracies for OS in patients with NSCLC between
+the nomogram model and conventional TNM staging systems were compared by
+calculating the Harrell’s C-index ( Table 4 ). In the primary cohort, the
+nomogram model achieved a C-index of 0.711 (95% CI, 0.675–0.747) ( Figure 1A ), which was
+significantly higher than that achieved for the TNM staging system (0.531, 95%
+CI, 0.488–0.574, P < 0.01). This result was also confirmed
+in the validation cohort. The C-index of the nomogram model (0.703, 95% CI:
+0.671–0.735) ( Figure 1C )
+was higher than that of the TNM staging system (0.582, 95% CI: 0.545–0.619, P < 0.01). Calibration curves for the probability of
+survival at 3-years showed optimal agreement between the prediction established
+in the 2 nomograms and the actual observation ( Figure 1B , 1D ).
+
+Nomogram showing results of the prognostic model using age, clinical
+stage, CAR, and NEU characteristics predicting OS in the primary cohort
+(A). Nomogram model predicting the 1- and 3-year OS of patients with
+NSCLC in the validation cohort (C). Calibration curves predicting
+patient OS at 3 years in the primary cohort (B) and validation cohort
+(D). Total points projected on the bottom scales indicate the
+probability of 1- and 3-year survival.
+
+The C-index of Nomogram Model and TNM Stage for Prediction of OS in the
+Primary Cohort and Validation Cohort.
+
+* Nomogram Model: including 4 risk factors (age, stage, CAR, NEU).
+C-index = concordance index; CI = confidence interval. P < 0.05 was considered statistically significant.
+
+
+Decision Curve Analysis for 3-Year Survival Predictions
+
+The results of the decision curve analysis in the primary and validation cohorts
+at 3 years is presented in Figure 2 . Compared to the traditional TNM staging system, the 2
+nomogram models that were established had higher overall net benefits than the
+traditional TNM staging systems across a wide range of threshold
+probabilities.
+
+Decision curve analysis for 3-year survival predictions in the primary
+cohort (A) and validation cohort (B). In the decision-curve analysis,
+the y-axis indicates net benefit. The straight line represents the
+assumption that all patients will die, while the horizontal line
+represents the assumption that no patients will die.
+
+
+Performance of the Nomogram Model in Stratifying Risk
+
+Based on the prediction of the nomograms, patients in the primary cohort were
+divided into three groups, namely, low-risk (score: 0–198), intermediate-risk
+(score: 198–286), and high-risk groups (score: ≥ 286) ( Table 5 ). Results suggested that
+patients with higher scores corresponded to worse prognoses. In the 2 cohorts,
+the survival probabilities for 1, 2, and 3 years in the low-risk group were
+67.07%, 24.45%, 1.16%, and 70.50%, 21.65%, 7.91%, respectively. The survival
+probabilities of the 2 cohorts in the intermediate-risk group were 53.30%,
+5.29%, 0%, and 38.66%, 7.56%, 0% for 1, 2, and 3 years, respectively. The
+survival probabilities of the 2 cohorts in the high-risk group were 28.33%,
+1.68%, 0%, and 26.61%, 2.75%, 0% for 1, 2, and 3 years, respectively. Patients
+with advanced NSCLC were divided into different risk subgroups after applying
+the cutoff values. Kaplan-Meier curves showed that these subgroups were
+significantly associated with OS outcomes in stage III and stage IV in the
+primary ( P < 0.001, P = 0.001) and
+validation cohorts ( P = 0.003, P < 0.001)
+( Figure 3 ).
+
+Point Assignment and Prognostic Score of the Nomogram Model.
+
+Risk group stratification within III and IV stage of patients with NSCLC
+in the primary and validation cohorts. Kaplan-Meier curves of OS
+according to the score predicted OS shown in the nomogram.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Lung cancers are aggressive, have a high incidence globally, and are associated with mortality. 2 Patients in similar stages of NSCLC may have different outcomes;
+additionally, the survival of individual patients is remarkably heterogeneous. 23 In most patients with stage III-IV lung cancer, chemotherapy, radiotherapy,
+and targeted therapy are the available treatment options. 24 An important factor influencing treatment decisions is the expected
+prognosis; however, clinicians are often inaccurate in their survival predictions. 25 Therefore, other factors are needed to assess prognosis in patients. Our
+study aimed to compare the relative prognostic values of existing and routinely
+available inflammatory variables in patients with NSCLC. Our study investigated
+these parameters in patients with advanced NSCLC undergoing chemoradiotherapy or
+chemotherapy in an attempt to clarify the optimal use of these biomarkers and enable
+prompt and easy evaluation with regard to cancer prognosis.
+
+To the best of our knowledge, the present study represents the first and single
+largest advanced NSCLC cohort to investigate and compare the prognostic value of a
+wide set of circulating biomarkers of inflammatory response. The biochemical
+“cross-talk” between inflammatory cells and the growing neoplastic clone is of great
+pathogenic and prognostic importance. 26 On a general level, markers derived from the blood are representative of
+inflammation that occurs both at local and systemic levels during cancer, which may
+be useful in studying the association between inflammation and carcinogenesis.
+Furthermore, determining the levels of these markers is a relatively inexpensive
+process. They are routinely measured in daily clinical practice and readily provide
+objective information to help medical practitioners estimate patient prognosis.In
+this study, we established a nomogram based on CAR, NEU, and clinical
+characteristics to predict the survival of patients with advanced NSCLC. Univariable
+analysis showed that age, gender, clinical stage, radiotherapy, NEU, NLR, PLR, CRP,
+ALB, and CAR are associated with the OS of patients with advanced NSCLC. Using
+multivariable analysis, we identified age, clinical stage, CAR, and NEU as
+independent prognostic factors in patients with advanced NSCLC. Subsequently, we
+established an effective predictive nomogram model for these patients, which
+included age, clinical stage, CAR, and NEU. The C-index of our model predicted OS
+with an accuracy of 0.711 (95% CI: 0.675–0.747), which was a significantly better
+prediction than that of the TNM staging system (0.531, 95% CI: 0.488–0.574)
+( P < 0.01). Moreover, in the validation cohort, the C-index
+of the nomogram model (0.703, 95% CI: 0.671–0.735) was higher than that of the TNM
+staging system (0.582, 95% CI: 0.545–0.619, P < 0.01).
+Additionally, either the established nomogram or the validated nomogram model had a
+higher overall net benefit than the TNM staging system at 3 years. Based on our
+model, patients were divided into 3 risk groups. Each group had a distinct survival
+outcome, and the high-risk group had the shortest OS among the 3 risk groups.
+Therefore, the nomogram model is a reliable tool to predict outcomes in patients
+with advanced NSCLC.
+
+In our nomogram, the CAR and TNM staging system contributed the most in predicting OS
+in patients with advanced NSCLC. CRP is a sensitive indicator of inflammation and
+responds quickly to changes in clinical situation. 27 CRP levels are indicative of tumor-associated inflammatory responses, which
+are accompanied by the up-regulation of cytokines and inflammatory mediators,
+inhibition of apoptosis, induction of angiogenesis, stimulation of DNA damage,
+immunosuppression, and remodeling of the extracellular matrix, thus promoting tumor
+growth and metastasis. 28 Increased level of CRP has been documented in patients with NSCLC and is
+associated with poor outcomes. 16 Albumin is a negative acute-phase protein because its level reduces during
+injury and sepsis. 29 Fan et al suggested that hypoalbuminemia was associated with worse survival
+in both operable and inoperable patients without elevated levels of CRP. 30 Studies show that albumin levels tend to fall in patients with elevated
+levels of CRP; this phenomenon is common across different tumor types. 31 An abnormal CAR has been previously associated with death in patients with
+operable NSCLC. 18 A recent study also revealed that the CAR is an independent predictor of
+death in patients with stage IV NSCLC receiving palliative chemotherapy. 13 Therefore, the TNM staging system and age are important prognostic factors in
+patients with lung cancer. Moreover, there is a correlation between poor clinical
+outcomes and high NEU counts in predicting OS in NSCLC, which has been reported both
+locally and systemically in patients with NSCLC, 8 , 9 suggesting that NEU and inflammation play important roles in carcinogenesis.
+Regarding the mechanism, some studies report that NEUs recruited into the tumor
+stroma exert pro-tumorigenic effects and facilitate tumorigenesis, promote tumor
+growth and metastasis, stimulate tumor angiogenesis, and mediate immunosuppression. 32 
+
+Although the nomogram in this study could precisely predict survival in patients with
+advanced NSCLC, our study has some limitations. Firstly, the study was a
+retrospective design; therefore, pre-treatment blood tests could not be performed at
+a defined baseline time point. Thus, the prognostic significance of systematic
+inflammatory biomarkers in patients with NSCLC remains to be confirmed using
+prospective and clinical validation studies in the future. Secondly, ours was a
+single-center study. The data utilized in the study were collected from a single
+institution; thus, clinical and survival comparison might be influenced by selection
+bias owing to the differences in patient populations. Therefore, our results need to
+be further verified using multi-center studies, which would help validate our
+nomogram model. Despite these limitations, the established nomogram is an effective
+tool to predict the OS in patients with advanced NSCLC and could potentially help
+clinicians make individualized treatment decisions.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+We established and validated a nomogram model factoring age, clinical stage, CAR, and
+NEU for predicting survival in patients with advanced NSCLC. It shows a better level
+of prediction ability than that of the traditional TNM staging system. Our model is
+a simple, precise, and easy-to-use scoring system, which could help clinicians
+estimate the survival of patients with advanced NSCLC.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,195 @@
+================================================================================
+ARTICLE TITLE: Post mastectomy radiotherapy for elderly patients with intermediate risk (T1-2N1 OR T3N0) breast cancer: a systematic review and meta-analysis
+PMCID: PMC8799025
+PMID: 35117945
+KEYWORDS: breast cancer, elderly, adjuvant radiotherapy, post-mastectomy radiotherapy, chest wall irradiation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background:
+To determine if PMRT for elderly patients (>65 years old) with intermediate risk breast cancer (T1-2N1, T3N0) improves outcomes.
+
+Methods:
+We performed a systematic review and meta-analysis to compare the effects of PMRT to no PMRT for elderly patients with intermediate-risk breast cancer. We searched PubMed for eligible studies from Jan 2008 to Dec 2018. We assessed the methodological quality of the included studies using the ROBINS-I tool and performed the meta-analysis with random effects model. The primary outcome of interest was overall survival (OS); secondary outcomes were breast cancer specific survival (BCSS), loco-regional (LRR) and distant disease recurrence (DDR).
+
+Results:
+We found 2 retrospective cohort studies with 743 patients directly comparing PMRT to no PMRT. Both studies were judged to have serious risk of bias in their methodological quality. The pooled results suggest that PMRT was associated with a 20% relative reduction in the hazard in death, ranging from 41% relative reduction, a substantial negative association to 10% relative increase, a small positive association (HR 0.80, 95% CI: 0.59–1.1, P=0.62, I 2 =0%). PMRT was also associated with a 17% relative reduction in the hazard for breast cancer related death, ranging from 52% relative reduction, a substantial negative association to 41% relative increase, a substantial positive association (HR 0.83, 95% CI: 0.48–1.41, P=0.48, I 2 =0%). One study did not observe any significant differences in LRR and DDR between the two groups.
+
+Conclusions:
+The survival benefits from PMRT in unselected elderly patients with intermediate risk breast cancer is unclear. Further research to better select elderly patients who may benefit from PMRT is warranted. Patients with a multiple pathological risk factors suggestive of high risk of loco-regional recurrence post-mastectomy should consider PMRT.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Breast cancer is the most prevalent cancer in females and more than 60% of cancer patients are above the age of 60 years ( 1 ). As our population ages, the elderly will be increasingly afflicted and the management of cancer in these patients needs to consider how comorbid conditions, functional and cognitive status affect the tolerance and benefit from the treatment ( 2 ).
+
+Postmastectomy radiation therapy (PMRT) has been shown in several randomized controlled trials to improve local recurrence rate (LRR) as well as breast cancer specific survival (BCSS) and overall survival (OS), especially in patients with high risk breast cancer ( 3 - 5 ). However, for patients aged 65 years old and greater, with intermediate risk breast cancer (such as patients with 1–3 positive axillary nodes or patients with T3N0 disease), it is unclear if these benefits can be extrapolated ( 6 ). Particularly because, elderly patients can be more frail, have more co-morbidities and a shorter life-expectancy. Especially in the context of intermediate risk breast cancer, where local recurrences can occur after many years, patients must have a long life expectancy to reap the benefits from adjuvant local therapy.
+
+The National Comprehensive Cancer Network (NCCN) guidelines for breast cancer strongly recommend PMRT for all breast cancer patients with 1–3 positive axillary nodes and to consider PMRT for patients with tumours >5 cm and negative axillary lymph nodes ( 7 ). However, the NCCN guidelines for older adult oncology advises caution with the use of radiotherapy to avoid overtreatment of older patients with substantial competing risks of non-cancer death ( 8 ). Interestingly, Gajdos et al . investigated the consequences of undertreatment in elderly breast cancer patients and found that despite undertreatment by conventional criteria, the rates of local recurrence and distant metastases are not increased in comparison with conventionally treated elderly patients ( 9 ). Similarly, the American Society of Clinical Oncology (ASCO) guidelines published in 2017 acknowledged that some subsets of these patients are likely to have such a low risk of LRR that the absolute benefit of PMRT is outweighed by its potential toxicities ( 10 ).
+
+There is insufficient evidence to guide treatment decisions about PMRT, especially in this group of elderly patients with intermediate risk. Although there have been many studies examining the effects of PMRT, none of them were specifically focused on this subgroup of patients. Thus, the aim of this study was to determine the benefit of PMRT in patients aged 65 and above with intermediate-risk breast-cancer patients.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Methods
+
+This systematic review incorporated comparative studies of patients aged 65 years old and above with early stage breast cancer (pT1-2N1 or pT3N0) treated with mastectomy. The studies must have two treatment arms comparing PMRT with no PMRT. Adjuvant systemic therapies are allowed.
+
+We searched MEDLINE and EMBASE databases from their date of inception to 1 st April 2019 for relevant studies. The terms of “breast”, “cancer”, “stage two”, “mastectomy” and “radiotherapy” with their synonyms and MeSH terms were used for the literature search.
+
+Two reviewers independently assessed the eligibility of titles and abstracts identified by the search. The full-text article of any study that appeared to meet the eligibility criteria was retrieved for further assessment. Disagreements were resolved by consensus. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) statement checklist was used for transparent reporting of the study selection process.
+
+The same reviewers extracted the data independently using standardized data collection forms. Data extracted from the reports include publication details, methodological components and trial characteristics such as sample size, interventions, duration of follow up and outcome measures.
+
+The quality assessment of these studies was performed using the ROBINS-I tool. The domains of interest evaluated by the tool include bias due to confounding, bias in the selection of participants into the study, bias in the classification of interventions, bias due to deviations from intended interventions, bias due to missing data, bias in measurement of outcomes and bias in selection of the reported result. An overall risk of bias was determined based on the reviewers’ judgement of the risk of bias for each domains of interest.
+
+The primary outcome was overall survival as reported in each study. Secondary outcomes include breast cancer specific survival, loco-regional disease recurrence rates and distant disease recurrence rates.
+
+We performed the meta-analysis with random effects model using the Cochrane Collaboration software (RevMan version 5.3; http://www.cochrane.org ) to estimate the pooled hazard ratios (HR) for overall and breast cancer specific survival outcomes. The log HR and their variances were estimated using published methods when appropriate summary statistics or Kaplan Meier curves were reported. The individual log HR and their variances were then combined using the generic inverse method. A HR of less than 1 indicates an advantage for PMRT ( 11 , 12 ).
+
+We assessed the statistical heterogeneity of the study results by visual inspection of the forest plots, chi-square tests and I 2 statistics. A P value higher than 0.10 for chi-square test and an I 2 value of lower than 25% was interpreted as low level of heterogeneity.
+
+
+Study eligibility criteria
+
+This systematic review incorporated comparative studies of patients aged 65 years old and above with early stage breast cancer (pT1-2N1 or pT3N0) treated with mastectomy. The studies must have two treatment arms comparing PMRT with no PMRT. Adjuvant systemic therapies are allowed.
+
+
+Search strategy
+
+We searched MEDLINE and EMBASE databases from their date of inception to 1 st April 2019 for relevant studies. The terms of “breast”, “cancer”, “stage two”, “mastectomy” and “radiotherapy” with their synonyms and MeSH terms were used for the literature search.
+
+
+Study selection and data extraction
+
+Two reviewers independently assessed the eligibility of titles and abstracts identified by the search. The full-text article of any study that appeared to meet the eligibility criteria was retrieved for further assessment. Disagreements were resolved by consensus. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) statement checklist was used for transparent reporting of the study selection process.
+
+The same reviewers extracted the data independently using standardized data collection forms. Data extracted from the reports include publication details, methodological components and trial characteristics such as sample size, interventions, duration of follow up and outcome measures.
+
+
+Methodologic quality assessment
+
+The quality assessment of these studies was performed using the ROBINS-I tool. The domains of interest evaluated by the tool include bias due to confounding, bias in the selection of participants into the study, bias in the classification of interventions, bias due to deviations from intended interventions, bias due to missing data, bias in measurement of outcomes and bias in selection of the reported result. An overall risk of bias was determined based on the reviewers’ judgement of the risk of bias for each domains of interest.
+
+
+Outcome measures
+
+The primary outcome was overall survival as reported in each study. Secondary outcomes include breast cancer specific survival, loco-regional disease recurrence rates and distant disease recurrence rates.
+
+
+Statistical analysis
+
+We performed the meta-analysis with random effects model using the Cochrane Collaboration software (RevMan version 5.3; http://www.cochrane.org ) to estimate the pooled hazard ratios (HR) for overall and breast cancer specific survival outcomes. The log HR and their variances were estimated using published methods when appropriate summary statistics or Kaplan Meier curves were reported. The individual log HR and their variances were then combined using the generic inverse method. A HR of less than 1 indicates an advantage for PMRT ( 11 , 12 ).
+
+We assessed the statistical heterogeneity of the study results by visual inspection of the forest plots, chi-square tests and I 2 statistics. A P value higher than 0.10 for chi-square test and an I 2 value of lower than 25% was interpreted as low level of heterogeneity.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+A total of 4,245 articles were identified. We screened the titles and abstracts for relevance. We excluded 4,228 articles as they did not include the interventions of interest. The original full text papers of 26 articles were assessed. Eventually two eligible studies were identified. The reference lists of papers of interest were screened manually to identify more relevant studies. No additional articles were identified. The flow diagram of study selection is shown in Figure 1 .
+
+PRISMA flow diagram showing the results of search strategy.
+
+The characteristics of the two included studies are summarized in Table 1 . Both the studies were of retrospective cohort study design and included 746 patients from China, France and USA. The median duration of follow up ranged from 43 to 50 months. One study included only patients with T3N0 stage only. In both studies, less than half of the patients had grade 3 or ER negative disease. Cao et al . reported that 55% of its study population received adjuvant chemotherapy; and that the prescribed dose of PMRT was 45–50 Gy in 1.8–2.0 Gy per fraction. The treatment target volumes include the chest wall and regional lymph nodes (supraclavicular lymph nodes, with or without internal mammary nodes). Chen et al . did not report the dose-fractionation, nor the target volumes for PMRT.
+
+Formal critical appraisal of the study’s methodological quality components indicated that there was an overall serious risk of bias in the study methodology, arising from the imbalances in the baseline characteristics between the PMRT and no PMRT groups ( Table S1 ).
+
+PMRT was associated with a 20% relative reduction in the hazard of death, ranging from 41% relative reduction, a substantial negative association to 10% relative increase and a small positive association (HR 0.80, 95% CI: 0.59–1.1, P=0.62) ( Figure 2 ). There was no statistically significant heterogeneity in the HRs for overall survival from the individual study (chi-square P=0.37, I 2 =0%).
+
+Pooled hazard ratio for overall survival.
+
+PMRT was associated with a 17% relative reduction in the hazard for breast cancer related death, ranging from 52% relative reduction, a substantial negative association to 41% relative increase and a substantial positive association (HR 0.83, 95% CI: 0.48–1.41, P=0.48) ( Figure 3 ). There was no statistically significant heterogeneity in the HRs for breast cancer specific survival from the individual study (chi-square P=0.62, I 2 =0%).
+
+Pooled hazard ratio for breast cancer specific survival.
+
+Only one study reported the loco-regional disease recurrence rates in two arms. There was no significant difference in the loco-regional disease recurrence rates (4.7% in PMRT arm vs. 6.4% in no PMRT arm).
+
+Only one study reported the distant disease recurrence rates in two arms. There was no significant difference in the distant disease recurrence rates (12.5% in PMRT arm vs. 12.8% in no PMRT arm).
+
+
+Results of search strategy
+
+A total of 4,245 articles were identified. We screened the titles and abstracts for relevance. We excluded 4,228 articles as they did not include the interventions of interest. The original full text papers of 26 articles were assessed. Eventually two eligible studies were identified. The reference lists of papers of interest were screened manually to identify more relevant studies. No additional articles were identified. The flow diagram of study selection is shown in Figure 1 .
+
+PRISMA flow diagram showing the results of search strategy.
+
+
+Characteristics of included studies
+
+The characteristics of the two included studies are summarized in Table 1 . Both the studies were of retrospective cohort study design and included 746 patients from China, France and USA. The median duration of follow up ranged from 43 to 50 months. One study included only patients with T3N0 stage only. In both studies, less than half of the patients had grade 3 or ER negative disease. Cao et al . reported that 55% of its study population received adjuvant chemotherapy; and that the prescribed dose of PMRT was 45–50 Gy in 1.8–2.0 Gy per fraction. The treatment target volumes include the chest wall and regional lymph nodes (supraclavicular lymph nodes, with or without internal mammary nodes). Chen et al . did not report the dose-fractionation, nor the target volumes for PMRT.
+
+Formal critical appraisal of the study’s methodological quality components indicated that there was an overall serious risk of bias in the study methodology, arising from the imbalances in the baseline characteristics between the PMRT and no PMRT groups ( Table S1 ).
+
+
+Overall survival
+
+PMRT was associated with a 20% relative reduction in the hazard of death, ranging from 41% relative reduction, a substantial negative association to 10% relative increase and a small positive association (HR 0.80, 95% CI: 0.59–1.1, P=0.62) ( Figure 2 ). There was no statistically significant heterogeneity in the HRs for overall survival from the individual study (chi-square P=0.37, I 2 =0%).
+
+Pooled hazard ratio for overall survival.
+
+
+Breast cancer specific survival
+
+PMRT was associated with a 17% relative reduction in the hazard for breast cancer related death, ranging from 52% relative reduction, a substantial negative association to 41% relative increase and a substantial positive association (HR 0.83, 95% CI: 0.48–1.41, P=0.48) ( Figure 3 ). There was no statistically significant heterogeneity in the HRs for breast cancer specific survival from the individual study (chi-square P=0.62, I 2 =0%).
+
+Pooled hazard ratio for breast cancer specific survival.
+
+
+Loco-regional disease recurrence
+
+Only one study reported the loco-regional disease recurrence rates in two arms. There was no significant difference in the loco-regional disease recurrence rates (4.7% in PMRT arm vs. 6.4% in no PMRT arm).
+
+
+Distant disease recurrence
+
+Only one study reported the distant disease recurrence rates in two arms. There was no significant difference in the distant disease recurrence rates (12.5% in PMRT arm vs. 12.8% in no PMRT arm).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+This study showed that there was no significant OS or BCSS benefit from the addition of PMRT in women aged 65 years and above. The other outcomes of interest (LRR, DDR), was only reported by one of the two studies. This data should be interpreted with caution as the quality of evidence supporting this observation is low (primarily due confounding from imbalanced patient characteristics between the two arms).
+
+Our findings are congruent with the results reported by Smith et al ., who investigated the impact of PMRT on elderly patients from all risk groups [low-risk (T1/2 N0), intermediate-risk (T1/2 N1), and high-risk (T3/4 and/or N2/3)]. They concluded that for low- and intermediate-risk patients, PMRT was not associated with survival. For high-risk patients, PMRT was associated with a significant improvement in survival (hazard ratio, 0.85; 95% CI: 0.75–0.97; P=0.02) ( 13 ). The International Society of Geriatric Oncology (SIOG) created a task force to provide evidence-based recommendations for the management of breast cancer in elderly individuals. Together with the European Society of Breast Cancer Specialists (EUSOMA), they recommend that PMRT should be considered for elderly patients with high-risk (pT3/4 and/or N2), with no mention of PMRT for intermediate risk breast cancer patients ( 14 ).
+
+Systemic therapy options have improved tremendously over the years. It remains unclear if improved systemic therapy would negate the benefit provided by PMRT. Miyashita et al . conducted a retrospective multi-centre study of 658 patients (all ages) who were treated in the modern era. They found no significant difference in locoregional recurrence-free (LRRF) survival between the PMRT and no-PMRT groups in the modern era, with both groups achieving a very high 8-year LRRF survival rate (98% and 95.7%, P=0.53). The authors concluded that PMRT had minimal benefit for patients with N1 disease, who were treated in the modern era ( 15 ).
+
+For any given treatment, clinicians and patients need to consider the risk-benefit ratio. Although chest wall recurrences are morbid, if the absolute benefit from PMRT is going to be small, the risks from the treatment and the impact on quality-of-life need to be negligible. PMRT is generally well-tolerated in the short term, however the longer term toxicities need to be considered, especially in left-sided breast cancer or in cases of regional nodal irradiation (including internal mammary nodes), where the heart can be partially exposed. Two-year quality of life results from the SUPREMO trial show that chest-wall symptoms (such as pain, swelling, skin problems) were worse with PMRT, although the absolute difference was small (mean score 14.1 vs. 11.6, P=0.016), and these symptoms continued to improve with follow-up ( 16 ).
+
+The strengths of our study are that we addressed a practical and relevant clinical question. Secondly, we performed an extensive search and carried out quality assessment of the included studies. We do acknowledge our limitations. Firstly, only retrospective cohort studies were available for inclusion. Due to the nature of the included studies, the PMRT and no-PMRT arms were not balanced. Patients who were more frail, or with significant co-morbidities may not have been offered adjuvant PMRT and that in itself could have skewed the results in favour of the PMRT arm. Secondly, the outcomes that we had specified a-priori were not reported uniformly across the studies. As such, only overall survival and breast-cancer specific survival outcomes could be pooled.
+
+The implication of this study is that the PMRT should be used more judiciously for elderly patients. The results of the ongoing SUPREMO trial, whose primary endpoint is 10-year overall survival, will shed light on this clinical question. The SUPREMO trial did not specify an upper-age limit (mean age ~56, SD ~11), and subgroup analysis performed on elderly patients may be hypothesis-generating. Specifically within the intermediate-risk group, future studies should utilise disease-related (breast cancer subtype, lymphovascular invasion etc.) and treatment-related information (number of nodes dissected, margin status) to better select patients who will benefit from PMRT. At the same time, we need better tools for life expectancy estimation (considering performance status and co-morbidities) to select patients with at least a 5-year life-span who will benefit from PMRT.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+In summary, the benefits of PMRT in unselected elderly patients with intermediate-risk breast cancer is unclear based on retrospective studies with serious methodological limitations. Randomized trials are needed to determine the benefit of PMRT for this group of patients.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

@@ -1,0 +1,19 @@
+Source: PMC7376296_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Complementary Medicine Use and Uptake of Cancer Screening Among US Adults: A Nationally Representative Cross-Sectional Survey",
+  "condition_E": 1,
+  "condition_E_reason": "Data on sociodemographic characteristics such as age, sex, ethnicity, region, marital status, education, employment, and health insurance coverage were used.",
+  "N_E": 1,
+  "N_E_reason": "26,742 adults provided data, which were representative for a weighted total of 246,657,271 US adults.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

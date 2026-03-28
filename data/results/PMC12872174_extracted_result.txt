@@ -1,0 +1,19 @@
+Source: PMC12872174_extracted.txt
+Recommendation: ✅ RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Single-cell transcriptomics of X-ray irradiated Drosophila wing discs reveals heterogeneity related to cell-cycle status and cell location",
+  "condition_E": 1,
+  "condition_E_reason": "The dataset includes single-cell RNA sequencing data from wing discs with various cell types and characteristics.",
+  "N_E": 1,
+  "N_E_reason": "The study mentions that datasets were generated from late third-instar larvae, indicating a specific number of samples.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Raw scRNA-seq files can be accessed at GEO, accession number GSE285361.",
+  "intervention_E": 1,
+  "intervention_E_reason": "Larvae were irradiated with 4000 rad or left outside of the irradiator for control.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The study assesses gene expression changes and cellular responses post-irradiation, indicating treatment response.",
+  "R_criteria_E": 1,
+  "R_criteria_E_reason": "The paper discusses specific genes and their expression changes in response to irradiation, indicating criteria for responder classification."
+}

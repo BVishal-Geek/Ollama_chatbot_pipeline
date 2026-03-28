@@ -1,0 +1,19 @@
+Source: PMC7791473_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Establishment and Validation of a Nomogram for Tonsil Squamous Cell Carcinoma: A Retrospective Study Based on the SEER Database",
+  "condition_E": 1,
+  "condition_E_reason": "We selected several factors that may be associated with the disease prognosis, including age at diagnosis, race, sex, marital status, tumor grade, tumor size, laterality, AJCC stage, surgery status, radiotherapy status, and chemotherapy status.",
+  "N_E": 1,
+  "N_E_reason": "The study finally included 7243 patients with TSCC.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The outcome variable was cancer-specific survival (CSS).",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

@@ -1,0 +1,19 @@
+Source: PMC10510604_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Male Breast Cancer: Clinicopathological, Immunohistochemical and Radiological Study",
+  "condition_E": 1,
+  "condition_E_reason": "The patients were evaluated retrospectively for age, tumor size, tumor localization, histological grade; hormone profile with estrogen receptor (ER), progesterone receptor (PR), Her2/neu.",
+  "N_E": 1,
+  "N_E_reason": "A total of 27 patients were included in the study.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 1,
+  "intervention_E_reason": "The treatment protocols of 19 patients were chemotherapy (CT) + radiotherapy (RT) and/or Tamoxifen (TMX) and/or Trastuzumab (TTZ).",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The study includes survival data and treatment outcomes for the patients.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

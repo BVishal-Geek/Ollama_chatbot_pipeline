@@ -1,0 +1,19 @@
+Source: PMC7563816_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Circular RNA_CNST Promotes the Tumorigenesis of Osteosarcoma Cells by Sponging miR-421",
+  "condition_E": 1,
+  "condition_E_reason": "A tissue microarray including 30 paired OS tissue samples and another 120 paired OS frozen tissues were used.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

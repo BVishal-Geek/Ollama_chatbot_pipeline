@@ -1,0 +1,495 @@
+================================================================================
+ARTICLE TITLE: A Novel Circulating MiRNA-Based Signature for the Diagnosis and
+Prognosis Prediction of Early-Stage Cervical Cancer
+PMCID: PMC7750573
+PMID: 33327867
+KEYWORDS: mir-21, mir-125b, mir-370, early-stage cervical cancer, early diagnosis, prognosis prediction
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background::
+MicroRNAs (miRNAs) have been shown to play a key role in regulating the
+progression of cervical cancer (CC). This study aimed to develop a
+circulating miRNA-based molecular signature for the diagnosis and prognosis
+prediction of early-stage CC.
+
+Methods::
+This study included 112 patients diagnosed with early-stage CC, 45 patients
+confirmed with cervical intraepithelial neoplasia (CIN) and 90 healthy
+subjects. Compared to the normal controls, the expression level of miR-21
+was increased, while the levels of miR-125b and miR-370 were decreased in CC
+in both GSE30656 and The Cancer Genome Atlas (TCGA) cohort. The expression
+levels and diagnostic value of these candidate miRNAs were then validated
+through qRT-PCR. Their diagnostic and prognostic values for early-stage CC
+were further explored.
+
+Results::
+Compared to the patients with CIN and healthy subjects, serum miR-21 was
+increased, while serum miR-125b and serum miR-370 were reduced in
+early-stage CC. In addition, combining these molecules yielded good
+performance for differentiating early-stage CC from CIN or healthy subjects.
+Moreover, strong association was found between serum miR-21 and lymph node
+metastasis (LNM) as well as recurrence-free survival of early-stage CC.
+Similar observations were found for serum miR-125b and serum miR-370.
+Patients with simultaneously high serum miR-21 + low serum miR-125b + low
+serum miR-370 suffered a high risk of LNM and recurrence, while those with
+low serum miR-21 + high serum miR-125b + high serum miR-370 had little risk
+for LNM and recurrence.
+
+Conclusions::
+Combining serum miR-21, miR-125b and miR-370 as a miRNA-based signature is
+promising for the detection and prognosis prediction of early-stage CC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+According to the Global Cancer Statistics 2018 report, cervical cancer (CC) is the
+fourth most frequent cancer among female worldwide and the fourth most common cause
+of mortality in women. 1 Patients at the early-stages have significantly better clinical outcome
+following systemic treatments than those at the advanced stages. However, a large
+population of CC cases are diagnosed at the late stages due to its asymptomatic and
+non-specific nature in the early stages. 2 Papanicolaou test (pap smear) and colposcopy are the widely used methods for
+the detection of CC. The sensitivity of pap smear screening is heterogenous within
+different study populations, which might lead to the false negative results. 3 Colposcopy is an invasive procedure and might generate additional costs and risks. 4 In addition, these methodologies fail to provide the information for
+predicting the recurrence and prognosis of early-stage CC. Therefore, it is urgently
+needed to develop novel biomarkers for the detection and prognosis prediction of
+early-stage CC.
+
+MicroRNAs (miRNAs) are small and highly conserved noncoding RNAs that regulate gene
+expression at the post-transcriptional level. 5 They bind to the 3′ untranslated region (3′-UTR) of target mRNAs to induce
+degradation or translational repression. MiRNAs regulate a number of important
+biological processes such as proliferation, differentiation and development.
+Dysregulation of miRNAs is related to many human diseases including cancer. 6 - 10 MiRNAs might act as either tumor suppressive miRNAs or oncomiRs in the
+initiation and development of cancer, depending on the tumor types and the
+downstream targets they regulate in the specific tumor microenvironment.
+Accumulative evidence has demonstrated that miRNAs are highly stable in bodily fluids. 11 Therefore, circulating miRNAs are ideal molecules as biomarkers for the early
+detection and prognosis of CC. For instance, the level of circulating miR-486-5p was
+significantly upregulated in CC patients, indicating it might serve as a diagnostic
+biomarker tor CC. 12 
+
+In this study, we first profiled the commonly changed miRNAs in 2 accessible datasets
+GSE30656 and The Cancer Genome Atlas (TCGA) CESC cohort. Three commonly altered
+miRNAs including miR-21, miR-125b and miR-370 were identified. Then the levels of
+circulating miR-21, miR-125b and miR-370 were determined in early-stage CC patients,
+patients with cervical intraepithelial neoplasia (CIN) and healthy controls. The
+early diagnostic value and prognosis prediction potential of this circulating
+miRNA-based signature for the CC was further investigated.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+The study enrolled 112 patients diagnosed with early-stage CC and 45 patients
+confirmed with CIN. Ninety healthy subjects were recruited as controls. All the
+participants were Han ethnicity and the samples were collected in our hospital.
+Only CC patients with no prior therapy and with available clinical follow-up
+data were included. The CC patients were staged based on the FIGO (International
+Federation of Gynecology and Obstetrics) staging system. The inclusion criteria
+of early-stage CC were: i) Pathological diagnosis of CC; ii) The CC was at the
+stage I-IIA based on FIGO. The exclusion criteria were active infections,
+chronic inflammatory diseases, secondary malignancy and undetermined cervical
+abnormalities. The inclusion criteria of CIN: histologically confirmed CIN1 or
+CIN2 or CIN3 lesion. The exclusion criteria were active infections, chronic
+inflammatory diseases, other malignancy or precancerous lesions and undetermined
+cervical abnormalities. Healthy controls were free of any malignancy or
+precancerous lesions or any chronic disease. The clinical characteristics of
+this study cohort was listed in Table 1 .
+
+The Clinical Characteristics of the Study Cohort.
+
+SCC: squamous cell carcinoma, AC: adenocarcinoma.
+
+At least 6 mL fasting venous blood samples were collected, and none of the
+patients received any treatment prior to collection. Following centrifugation at
+4000 rpm for 10 min at 4°C, serum samples were obtained and stored at −80°C
+until further analysis.
+
+Total RNA was isolated from 200 µL serum samples using miRNeasy Serum/Plasma Kit
+(Qiagen, Hilden, Germany) according to manufacturer’s instructions. The quality
+and concentration of total RNA were determined by a NanoDrop ND-2000
+spectrophotometer (Thermo Fisher Scientific, Inc., Waltham, MA, USA). The
+first-strand cDNA was obtained by reverse transcription with the SuperScript III
+Reverse Transcriptase kit (Invitrogen, Carlsbad, CA, USA). The amplification and
+quantification of cDNA were performed using a 7500 Fast Real-Time PCR system
+(Applied Biosystems, Foster City, CA, USA) and SYBR Premix Ex Taq (Takara,
+Dalian, China). The amplification program was initiated with denaturation at
+95°C for 5 min, followed by 40 cycles of 95°C for 15 s and 60°C for 1 min. The
+exogenous synthetic miRNA cel-miR-39 was used as the external control. All the
+above-mentioned steps were conducted based on the manufacturers’ protocols. The
+relative expression of serum miRNAs was quantified using the 2 −ΔΔCT method.
+
+The normality test was performed first to assess the data distribution. As the
+data was not normally distributed, the nonparametric Kruskal-Wallis test was
+used to compare the differences of circulating miRNAs among different groups.
+Then the area under the curve (AUC) by conducting receiver operating
+characteristic (ROC) analysis was calculated to evaluate the early diagnostic
+values of circulating miR-21, miR-125b and miR-370. Recurrence-free survival
+(RFS) was defined as the time duration from randomization until occurrence of
+local, regional or distant recurrence. The differences in RFS between different
+groups were plotted by the Kaplan-Meier method and compared using the log-rank
+test. Statistical analyses were performed using GraphPad Prism 8 (GraphPad
+Software, San Diego, CA, USA) and Medcalc statistical software (Medcalc
+Software, Ostend, Belgium). All statistical tests were 2 tailed, and P < 0.05 was considered to be statistically
+significant.
+
+
+Study Population
+
+The study enrolled 112 patients diagnosed with early-stage CC and 45 patients
+confirmed with CIN. Ninety healthy subjects were recruited as controls. All the
+participants were Han ethnicity and the samples were collected in our hospital.
+Only CC patients with no prior therapy and with available clinical follow-up
+data were included. The CC patients were staged based on the FIGO (International
+Federation of Gynecology and Obstetrics) staging system. The inclusion criteria
+of early-stage CC were: i) Pathological diagnosis of CC; ii) The CC was at the
+stage I-IIA based on FIGO. The exclusion criteria were active infections,
+chronic inflammatory diseases, secondary malignancy and undetermined cervical
+abnormalities. The inclusion criteria of CIN: histologically confirmed CIN1 or
+CIN2 or CIN3 lesion. The exclusion criteria were active infections, chronic
+inflammatory diseases, other malignancy or precancerous lesions and undetermined
+cervical abnormalities. Healthy controls were free of any malignancy or
+precancerous lesions or any chronic disease. The clinical characteristics of
+this study cohort was listed in Table 1 .
+
+The Clinical Characteristics of the Study Cohort.
+
+SCC: squamous cell carcinoma, AC: adenocarcinoma.
+
+
+Serum Samples
+
+At least 6 mL fasting venous blood samples were collected, and none of the
+patients received any treatment prior to collection. Following centrifugation at
+4000 rpm for 10 min at 4°C, serum samples were obtained and stored at −80°C
+until further analysis.
+
+
+RNA Extraction and Quantitative Real-Time PCR (qRT-PCR)
+
+Total RNA was isolated from 200 µL serum samples using miRNeasy Serum/Plasma Kit
+(Qiagen, Hilden, Germany) according to manufacturer’s instructions. The quality
+and concentration of total RNA were determined by a NanoDrop ND-2000
+spectrophotometer (Thermo Fisher Scientific, Inc., Waltham, MA, USA). The
+first-strand cDNA was obtained by reverse transcription with the SuperScript III
+Reverse Transcriptase kit (Invitrogen, Carlsbad, CA, USA). The amplification and
+quantification of cDNA were performed using a 7500 Fast Real-Time PCR system
+(Applied Biosystems, Foster City, CA, USA) and SYBR Premix Ex Taq (Takara,
+Dalian, China). The amplification program was initiated with denaturation at
+95°C for 5 min, followed by 40 cycles of 95°C for 15 s and 60°C for 1 min. The
+exogenous synthetic miRNA cel-miR-39 was used as the external control. All the
+above-mentioned steps were conducted based on the manufacturers’ protocols. The
+relative expression of serum miRNAs was quantified using the 2 −ΔΔCT method.
+
+
+Statistical Analysis
+
+The normality test was performed first to assess the data distribution. As the
+data was not normally distributed, the nonparametric Kruskal-Wallis test was
+used to compare the differences of circulating miRNAs among different groups.
+Then the area under the curve (AUC) by conducting receiver operating
+characteristic (ROC) analysis was calculated to evaluate the early diagnostic
+values of circulating miR-21, miR-125b and miR-370. Recurrence-free survival
+(RFS) was defined as the time duration from randomization until occurrence of
+local, regional or distant recurrence. The differences in RFS between different
+groups were plotted by the Kaplan-Meier method and compared using the log-rank
+test. Statistical analyses were performed using GraphPad Prism 8 (GraphPad
+Software, San Diego, CA, USA) and Medcalc statistical software (Medcalc
+Software, Ostend, Belgium). All statistical tests were 2 tailed, and P < 0.05 was considered to be statistically
+significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+We first identified the commonly and significantly changed miRNAs between
+cervical cancer and normal cervical epithelium through the dbDEMC 2.0 ( https://www.picb.ac.cn/dbDEMC/ ). Two studies namely GSE30656 and
+TCGA cohort were included. Then the commonly and significantly changed miRNAs
+between cervical cancer and normal cervical epithelium were screened and
+identified. The cut-off was set as fold change≥2 and P <
+0.05. Compared to the normal controls, the expression level of miR-21 was
+increased, while the levels of miR-125b and miR-370 were decreased in CC in both
+GSE30656 and TCGA cohort. Therefore, these candidate miRNAs were selected for
+further validation. For the number of included patients, there were 10 CC cases
+and 10 controls in GSE30656, as well as 299 CC cases and 3 controls in the TCGA
+cohort.
+
+As shown Figure 1A , the
+expression level of serum miR-21 was significantly higher in early-stage CC
+patients than in patients with CIN and healthy subjects (** P < 0.01, *** P < 0.001). The AUC values for discriminating
+early-stage CC from healthy controls or CIN were 0.783 and 0.689, respectively.
+On the contrary, the circulating miR-125b was markedly reduced in early-stage CC
+patients compared to patients with CIN and healthy controls
+(** P < 0.01, *** P < 0.001). The AUC
+values of serum miR-125b for differentiating early-stage CC from healthy
+subjects or CIN were 0.642 and 0.735, respectively ( Figure 1B ). Similarly, the level of serum
+miR-370 was significantly lower in early-stage CC patients than in patients with
+CIN and healthy subjects (*** P < 0.001). For serum miR-370,
+the AUC values serum for identifying early-stage CC from healthy controls or CIN
+were 0.822 and 0.821, respectively ( Figure 1C ).
+
+The diagnostic value of serum miR-21, serum miR-125b and serum miR-370
+for early-stage CC. A, The expression level of serum miR-21 was
+increased in early-stage CC patients compared to patients with CIN and
+healthy subjects, and the diagnostic accuracy of serum miR-21 was
+revealed by ROC analysis. B, Serum miR-125b was reduced in early-stage
+CC and its diagnostic accuracy. C, Serum miR-370 was reduced in
+early-stage CC and its diagnostic accuracy.
+
+Then serum miR-21, miR-125b and miR-370 was combined as a miRNA signature to
+evaluate its diagnostic accuracy for early-stage CC. Interestingly, the newly
+developed circulating miRNA signature was able to discriminate early-stage CC
+from healthy controls with an AUC value of 0.912 ( Figure 2A ). Similarly, the AUC value for
+the circulating miRNA signature identifying early-stage CC from CIN was 0.897
+( Figure 2B ).
+
+The diagnostic accuracy for combining serum miR-21, serum miR-125b and
+serum miR-370 as a miRNA signature for the discriminating early-stage CC
+from healthy controls (A) or patients with CIN (B).
+
+The median level of serum miR-21 in the early-stage CC was used as the cut-off to
+split the early-stage CC patients into high serum miR-21 group and low serum
+miR-21 group. As shown in Figure 3 , a higher percentage of CC patients suffering LNM was
+observed in the high serum miR-21 group (25.00%) than in the low serum miR-21
+group (10.71%). Similarly, a higher percentage of LNM was observed in the low
+serum miR-125b group (23.21%) than in the high serum miR-125b group (12.50%).
+Also, the patients in the serum miR-370 group (28.57%) had a significantly
+higher change of LNM than those in the high serum miR-370 group (7.14%). Then we
+explored the association between the combined serum miRNA signature and LNM of
+early-stage CC. A total of 17 patients were with simultaneously high serum
+miR-21 + low serum miR-125b + low serum miR-370, and 21 patients were with
+simultaneously low serum miR-21 + high serum miR-125b + high serum miR-370.
+Surprisingly, up to 52.94% patients in the high serum miR-21 + low serum
+miR-125b + low serum miR-370 group suffered LNM, while none of the patients in
+the low serum miR-21 + high serum miR-125b + high serum miR-370 group had
+LNM.
+
+The association between serum miR-21/serum miR-125b/serum miR-370 and the
+lymph node metastasis of early-stage CC.
+
+As shown in Figure 4A ,
+the patients in the high serum miR-21 group had worse RFS than those in the low
+serum miR-21 group ( P = 0.027). Although no statistical
+significance was observed for serum miR-125b between high and low serum miR-125b
+group ( P = 0.078), the trend that the patients in the low serum
+miR-125b had shorter RFS could be observed ( Figure 4B ). The patients in the low serum
+miR-370 group suffered worse RFS compared to those in the high serum miR-370
+group ( P = 0.001) ( Figure 4C ). Interestingly, the patients
+in the high serum miR-21 + low serum miR-125b + low serum miR-370 group suffered
+significantly shorter RFS than those in the low serum miR-21 + high serum
+miR-125b + high serum miR-370 group ( P < 0.001). None of the
+patients in the low serum miR-21 + high serum miR-125b + high serum miR-370
+group had recurrence following treatments ( Figure 4D ).
+
+The association between serum miR-21/serum miR-125b/serum miR-370 and RFS
+of early-stage CC. A, Patients in the high serum miR-21 group had worse
+RFS. B, No significant correlation was found between serum miR-125b and
+RFS. C, Patients in the low serum miR-370 group had worse RFS. D,
+Patients with simultaneously high serum miR-21 + low serum miR-125b +
+low serum miR-370 suffered significantly shorter RFS than those with low
+serum miR-21 + high serum miR-125b + high serum miR-370.
+
+
+The Diagnostic Values of Serum miR-21, miR-125b and miR-370 in Early-Stage
+CC
+
+We first identified the commonly and significantly changed miRNAs between
+cervical cancer and normal cervical epithelium through the dbDEMC 2.0 ( https://www.picb.ac.cn/dbDEMC/ ). Two studies namely GSE30656 and
+TCGA cohort were included. Then the commonly and significantly changed miRNAs
+between cervical cancer and normal cervical epithelium were screened and
+identified. The cut-off was set as fold change≥2 and P <
+0.05. Compared to the normal controls, the expression level of miR-21 was
+increased, while the levels of miR-125b and miR-370 were decreased in CC in both
+GSE30656 and TCGA cohort. Therefore, these candidate miRNAs were selected for
+further validation. For the number of included patients, there were 10 CC cases
+and 10 controls in GSE30656, as well as 299 CC cases and 3 controls in the TCGA
+cohort.
+
+As shown Figure 1A , the
+expression level of serum miR-21 was significantly higher in early-stage CC
+patients than in patients with CIN and healthy subjects (** P < 0.01, *** P < 0.001). The AUC values for discriminating
+early-stage CC from healthy controls or CIN were 0.783 and 0.689, respectively.
+On the contrary, the circulating miR-125b was markedly reduced in early-stage CC
+patients compared to patients with CIN and healthy controls
+(** P < 0.01, *** P < 0.001). The AUC
+values of serum miR-125b for differentiating early-stage CC from healthy
+subjects or CIN were 0.642 and 0.735, respectively ( Figure 1B ). Similarly, the level of serum
+miR-370 was significantly lower in early-stage CC patients than in patients with
+CIN and healthy subjects (*** P < 0.001). For serum miR-370,
+the AUC values serum for identifying early-stage CC from healthy controls or CIN
+were 0.822 and 0.821, respectively ( Figure 1C ).
+
+The diagnostic value of serum miR-21, serum miR-125b and serum miR-370
+for early-stage CC. A, The expression level of serum miR-21 was
+increased in early-stage CC patients compared to patients with CIN and
+healthy subjects, and the diagnostic accuracy of serum miR-21 was
+revealed by ROC analysis. B, Serum miR-125b was reduced in early-stage
+CC and its diagnostic accuracy. C, Serum miR-370 was reduced in
+early-stage CC and its diagnostic accuracy.
+
+
+The Early Diagnostic Value of the Circulating miRNA-Based Signature Including
+Serum miR-21, miR-125b and miR-370
+
+Then serum miR-21, miR-125b and miR-370 was combined as a miRNA signature to
+evaluate its diagnostic accuracy for early-stage CC. Interestingly, the newly
+developed circulating miRNA signature was able to discriminate early-stage CC
+from healthy controls with an AUC value of 0.912 ( Figure 2A ). Similarly, the AUC value for
+the circulating miRNA signature identifying early-stage CC from CIN was 0.897
+( Figure 2B ).
+
+The diagnostic accuracy for combining serum miR-21, serum miR-125b and
+serum miR-370 as a miRNA signature for the discriminating early-stage CC
+from healthy controls (A) or patients with CIN (B).
+
+
+The Association Between Serum miR-21/miR-125b/miR-370 and Lymph Node
+Metastasis (LNM) of Early-Stage CC
+
+The median level of serum miR-21 in the early-stage CC was used as the cut-off to
+split the early-stage CC patients into high serum miR-21 group and low serum
+miR-21 group. As shown in Figure 3 , a higher percentage of CC patients suffering LNM was
+observed in the high serum miR-21 group (25.00%) than in the low serum miR-21
+group (10.71%). Similarly, a higher percentage of LNM was observed in the low
+serum miR-125b group (23.21%) than in the high serum miR-125b group (12.50%).
+Also, the patients in the serum miR-370 group (28.57%) had a significantly
+higher change of LNM than those in the high serum miR-370 group (7.14%). Then we
+explored the association between the combined serum miRNA signature and LNM of
+early-stage CC. A total of 17 patients were with simultaneously high serum
+miR-21 + low serum miR-125b + low serum miR-370, and 21 patients were with
+simultaneously low serum miR-21 + high serum miR-125b + high serum miR-370.
+Surprisingly, up to 52.94% patients in the high serum miR-21 + low serum
+miR-125b + low serum miR-370 group suffered LNM, while none of the patients in
+the low serum miR-21 + high serum miR-125b + high serum miR-370 group had
+LNM.
+
+The association between serum miR-21/serum miR-125b/serum miR-370 and the
+lymph node metastasis of early-stage CC.
+
+
+The Association Between Serum miR-21/miR-125b/ miR-370 and RFS of Early-Stage
+CC
+
+As shown in Figure 4A ,
+the patients in the high serum miR-21 group had worse RFS than those in the low
+serum miR-21 group ( P = 0.027). Although no statistical
+significance was observed for serum miR-125b between high and low serum miR-125b
+group ( P = 0.078), the trend that the patients in the low serum
+miR-125b had shorter RFS could be observed ( Figure 4B ). The patients in the low serum
+miR-370 group suffered worse RFS compared to those in the high serum miR-370
+group ( P = 0.001) ( Figure 4C ). Interestingly, the patients
+in the high serum miR-21 + low serum miR-125b + low serum miR-370 group suffered
+significantly shorter RFS than those in the low serum miR-21 + high serum
+miR-125b + high serum miR-370 group ( P < 0.001). None of the
+patients in the low serum miR-21 + high serum miR-125b + high serum miR-370
+group had recurrence following treatments ( Figure 4D ).
+
+The association between serum miR-21/serum miR-125b/serum miR-370 and RFS
+of early-stage CC. A, Patients in the high serum miR-21 group had worse
+RFS. B, No significant correlation was found between serum miR-125b and
+RFS. C, Patients in the low serum miR-370 group had worse RFS. D,
+Patients with simultaneously high serum miR-21 + low serum miR-125b +
+low serum miR-370 suffered significantly shorter RFS than those with low
+serum miR-21 + high serum miR-125b + high serum miR-370.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+In this study, compared to the CIN patients and healthy subjects, the level of
+circulating miR-21 is significantly increased in early-stage CC patients, while
+serum miR-125b and serum miR-370 are markedly reduced. In addition, combining serum
+miR-21, serum miR-125b and serum miR-370 as a miRNA signature exhibits good
+performance for identifying the early-stage CC from CIN or healthy controls.
+Moreover, high serum miR-21, low serum miR-125b and low serum miR-370 are strongly
+associated with LNM and recurrence. The patients with simultaneously high serum
+miR-21 + low serum miR-125b + low serum miR-370 suffer a higher chance of LNM and
+recurrence, while those with simultaneously low serum miR-21 + high serum miR-125b +
+high serum miR-370 experience no LNM and recurrence. Collectively, this novel
+circulating miRNA-based signature which includes serum miR-21, serum miR-125b and
+serum miR-370 shows great promise for the detection and prognosis prediction for
+early-stage CC.
+
+Consistent with our results, various independent studies have indicated that the
+expression level of circulating miR-21 was significantly increased in patients with
+CC compared to the healthy controls. 13 , 14 In addition, increased serum miR-21 level was strongly associated with lymph
+node metastasis of CC. 15 One possible explanation for the increased miR-21 in the blood of CC patients
+is that the cancer cells might synthesize and secrete more miR-21 into the
+extracellular environment compared to the normal cells. In addition, miR-21 has been
+demonstrated to be play a tumor promoting role in CC development. For instance,
+miR-21 regulated many oncogenic behaviors of cervical squamous cells by regulating
+its downstream target CCL20. 16 In addition, abnormal expression of miR-21 was also closely with the
+cisplatin resistance of CC cells, 17 indicating miR-21 might serve as a potential target for the treatment of
+CC.
+
+The reduced expression of serum miR-125b and miR-370 in early-stage CC suggests that
+these 2 molecules might function as tumor suppressive miRNAs in CC. Cui et al showed
+that ectopic expression of miR-125b inhibited proliferation and induced apoptosis by
+targeting PI3K/Akt pathway. 18 It is well recognized that human papillomavirus (HPV) infection is a major
+risk factor for CC. 19 A negative correlation was found between miR-125b expression level and human
+papillomavirus DNA synthesis, 20 which strongly supports the tumor suppressive role in miR-125b in the
+initiation and development of CC. Loss of miR-125b might be a key factor for the
+tumorigenesis of CC at the early stages. Therefore, it is reasonable to observe that
+the level of circulating miR-125b was significantly reduced in the early-stage CC.
+Currently, little information is available for the role of miR-370 in the
+progression of CC. Wu and Zhou reported that circAGFG played an oncogenic role in CC
+by absorbing miR-370. In addition, the expression of miR-370 was significantly
+reduced in GC cells, 21 suggesting that miR-370 might act as a tumor suppressive miRNA in CC.
+
+Interestingly, combining serum miR-21, miR-125b and miR-370 improves the accuracy for
+the diagnostic and prognostic efficacies for early-stage CC. In the clinical
+setting, the early-stage with simultaneously low serum miR-21 + high serum miR-125b
++ high serum miR-370 might have low risk for developing LNM and recurrence. However,
+special attention or aggressive treatments might be given to those early-stage CC
+patients simultaneously high serum miR-21 + low serum miR-125b + low serum miR-370.
+This finding might provide important guidance for improving the prognosis of
+early-stage CC. However, larger cohort studies are needed to perform to confirm our
+findings. Both GSE30656 and TCGA cohort for CC are mainly constituted of Caucasian
+women. Our results showed that the expression patterns of serum miR-21, miR-125b,
+and miR-370 in Han Chinese women with CC were consistently with the results of
+GSE30656 and TCGA cohort, indicating that this miRNA-based molecular signature is
+very robustly deregulated in CC regardless of ethnicity and sample types.
+
+Circulating miRNAs have demonstrated good performance for the diagnosis and prognosis
+prediction of CC. For instance, various circulating miRNAs including miRNA-20a,
+miR-1246, miR-2392, miR-3147, miR-3162-5p and miR-4484 are potential biomarkers for
+detecting the status of lymph node metastasis in patients with CC. 22 , 23 Jia et al showed that a serum miRNA-based signature (miR-21, miR-29a, miR-25,
+miR-200a and miR-486-5p) well differentiated CC patients from healthy controls. In
+addition, serum miR-29a and miR-200a was strongly associated with unfavorable
+clinicopathological parameters of CC. 4 
+
+In conclusion, the level of serum miR-21 is increased, while the levels of serum
+miR-125b and miR-370 are decreased in early-stage CC. In addition, these 3 molecules
+are closely associated with the LNM and recurrence of early-stage CC. Combining
+serum miR-21, miR-125b and miR-370 as a miRNA-based signature show great promise for
+the detection diagnosis and prognosis prediction of early-stage CC.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section with title(s) ['conclusion', 'conclusions'] not found
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

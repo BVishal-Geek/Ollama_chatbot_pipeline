@@ -1,0 +1,120 @@
+================================================================================
+ARTICLE TITLE: The ethical adoption of artificial intelligence in
+radiology
+PMCID: PMC7605209
+PMID: 33178959
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Artificial intelligence (AI) is rapidly transforming healthcare—with
+radiology at the pioneering forefront. To be trustfully adopted, AI needs to be
+lawful, ethical and robust. This article covers the different aspects of a safe
+and sustainable deployment of AI in radiology during: training,
+integration and regulation .
+For training, data must be appropriately valued, and deals with AI companies must
+be centralized. Companies must clearly define anonymization and consent, and
+patients must be well-informed about their data usage. Data fed into algorithms
+must be made AI-ready by refining, purification, digitization and
+centralization. Finally, data must represent various demographics.
+AI needs to be safely integrated with radiologists-in-the-loop: guiding forming concepts of AI solutions and supervising training and feedback.
+To be well-regulated, AI systems must be approved by a health authority and
+agreements must be made upon liability for errors, roles of supervised and
+unsupervised AI and fair workforce distribution (between AI and radiologists),
+with a renewal of policy at regular intervals. Any errors made must have a
+root-cause analysis, with outcomes fedback to companies to close the
+loop — thus enabling a dynamic best prediction
+system.
+In the distant future, AI may act autonomously with little human supervision.
+Ethical training and integration can ensure a "transparent" technology that will
+allow insight: helping us reflect on our current understanding of imaging
+interpretation and fill knowledge gaps, eventually moulding radiological
+practice. This article proposes recommendations for ethical practise that can
+guide a nationalized framework to build a sustainable and
+transparent system.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Artificial intelligence (AI) has been aiding healthcare since its first use for
+dosing antibiotics in the 1980s. 1 With the current explosion of machine learning, development by companies such as
+Google DeepMind 2 and
+BenevolentAI, 3,4 AI is
+set to rapidly transform healthcare. Within radiology, most development has focused
+on abnormality detection 5 and
+future development is envisioned in molecular imaging, radiogenomics and whole
+population cancer screening. 6
+
+Few algorithms however, have been clinically tested or implemented: DeepMind Optical
+Coherent Tomography (OCT) analysis at Moorfields Eye Hospital 7 and within radiology, Mammogram
+Intelligence Assessment (MIA) at United Lincolnshire Hospitals NHS Trust 8 are two sparse examples. All
+deployed AI cases have made individual agreements and as such, there is no national
+regulation framework or guidance on the ethics of such adoptions.
+
+To be trustfully adopted, AI needs to be lawful, ethical and robust. 9 AI integration must ensure maximum
+benefit for patients and users, whilst actively ensuring non-maleficence. This can
+be brought about by fair and non-biased development of collaborative AI between
+healthcare and industry—an intelligence that can be supervised to be safely
+and effectively integrated into clinical application.
+
+Innovators in AI are unfamiliar with healthcare policies around medical ethics and
+research regulation and it is the healthcare industry’s responsibility to
+educate and ensure an ethical adoption keeping in mind AI’s clinical,
+practical and emotional impact. 10
+
+This article covers key ethical issues involved in AI training, integration and
+regulation and aims to guide recommendations for a national framework for AI with
+ethical values.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+There has been a planetary alignment in recent years of massively increased computing
+power, algorithm training, hardware and software development. This has allowed an
+exponential growth of AI in almost all aspects of life. We are amid a fourth
+industrial revolution which reaches far deeper into the fabric of humankind that any
+before it. Thought leaders both for and against AI are essentially negotiating and
+creating mechanisms for us to embrace, accept and trust AI.
+
+This article covers key ethical issues with recommendations towards a national
+framework that if implemented with transparency, accountability, explicability and
+fairness can ensure healthcare AI to be moulded into a benevolent rather than malevolent technology: not only for radiology, but also for other
+medical specialties.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

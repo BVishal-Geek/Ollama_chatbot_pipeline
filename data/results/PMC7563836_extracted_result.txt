@@ -1,0 +1,19 @@
+Source: PMC7563836_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "DNA Methylation-based Diagnostic and Prognostic Biomarkers for Glioblastoma",
+  "condition_E": 1,
+  "condition_E_reason": "The dataset includes 54 GBM samples and 24 control brain tissues with recorded characteristics.",
+  "N_E": 1,
+  "N_E_reason": "The dataset contains 54 GBM samples and 24 control brain tissues.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data obtained from Gene Expression Omnibus (GEO) with identifiers GSE50923, GSE50161, and GSE116520.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

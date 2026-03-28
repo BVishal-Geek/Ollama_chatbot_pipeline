@@ -1,0 +1,19 @@
+Source: PMC7432987_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Gastric Cancer Heterogeneity and Clinical Outcomes",
+  "condition_E": 0,
+  "condition_E_reason": "not found",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data discussed within this publication have been previously deposited in NCBI’s Gene Expression Omnibus and are accessible through GEO Series accession number GSE118916.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

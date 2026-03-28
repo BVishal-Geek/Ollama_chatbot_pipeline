@@ -1,0 +1,19 @@
+Source: PMC7658512_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "CSF1R and HCST: Novel Candidate Biomarkers Predicting the Response to Immunotherapy in Non-Small Cell Lung Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "Two groups were established based on the response to immunotherapy: response group (5 people) and non-response group (11 people).",
+  "N_E": 1,
+  "N_E_reason": "The study involved a total of 16 patients, with 5 in the response group and 11 in the non-response group.",
+  "dataset_E": 1,
+  "dataset_E_reason": "GSE126044 was obtained from Gene Expression Omnibus (GEO).",
+  "intervention_E": 1,
+  "intervention_E_reason": "Patients were divided into response and non-response groups based on their response to anti-PD-1 antibody.",
+  "pr_endpoint_E": 1,
+  "pr_endpoint_E_reason": "The study measures response to immunotherapy, categorizing patients into responders and non-responders.",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

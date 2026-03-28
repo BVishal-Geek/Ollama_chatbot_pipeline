@@ -1,0 +1,62 @@
+================================================================================
+ARTICLE TITLE: The management of elderly patients with brain metastases from breast cancer
+PMCID: PMC8798207
+PMID: 35117949
+KEYWORDS: brain metastases, breast cancer, elderly, management, radiotherapy, radiation
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Breast cancer is the most common type of malignancy diagnosed in women worldwide, as well as the second most common cause of metastatic brain lesions in the general population. Most breast cancer patients enrolled in clinical trials are relatively young. Elderly patients, as compared to their younger counterparts, pose unique clinical scenarios because there is limited data in this subpopulation of patients with brain metastases from breast cancer. Elderly patients are commonly treated with less aggressive therapies, perhaps due to comorbid conditions, patient preference, or other age-related concerns. Current treatment modalities offering more favorable toxicity profiles, along with more accurate prognosis, can represent an opportunity to offer improved care for this patient population. From the few efforts studying brain metastatic disease in the elderly, it is be possible to infer that age alone may not play an independent role in treatment selection and that a patient-specific evaluation and ultimate clinical judgment should guide clinical decision-making.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Breast cancer is the most common type of malignancy diagnosed in women worldwide. An estimate of 271,270 new cases of breast carcinoma will be diagnosed in the United States in 2019 with 42,260 predicted deaths ( 1 ). Increasing age remains an important risk factor for the development of breast cancer, with an estimated incidence of 403.8 new patients per 100,000 women ≥65 years old versus only 82.2 per 100,000 women aged less than 65 years ( 2 ). Brain metastases (BM) represent an important cause of mortality in elderly population, where 40% of women older than 80 years old at diagnosis will die from breast cancer ( 3 ).
+
+Statistics show that survival for breast carcinoma has improved through the years, which is attributed to better screening tests and treatment modalities ( 4 ). With an increase in survival, a higher incidence of metastatic breast cancer has been reported ( 5 ). Metastatic breast cancer to the brain is the second most common source of brain metastases, after metastases originating from the lung ( 6 ). Ten to 30% of women with breast cancer will develop brain metastases through the course of their disease, and as much as 5% of them will have presented with a brain metastatic lesion at diagnosis ( 7 ). Once diagnosed with metastatic disease, the prognosis can be limited, mostly due to the ultimate resistance of chemotherapy and radiotherapy, with an average survival of 12 months after the diagnosis of a brain metastasis ( 8 ).
+
+Different therapeutic modalities have been directed towards prolonging the survival in these patients. These include surgical resection, radiotherapy and systemic therapies. For young patients who possess good functional statuses, there is a fairly clear standard of care. However, due to the underrepresentation of the elderly population in clinical trials, there exists a gap of knowledge regarding the best treatment for this group of patients, especially when dealing with radiotherapy. In this review, we aim to critically analyze the literature and describe the current treatment options for patients ≥65 years old with metastatic breast cancer to the brain.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section with title(s) ['materials and methods', 'methods', 'materials & methods'] not found
+
+
+================================================================================
+RESULTS
+================================================================================
+Section with title(s) ['results'] not found
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section with title(s) ['discussion'] not found
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+Clinical decision making during the management of elderly patients with BM from breast cancer should be approached in a holistic way, particularly given the paucity of data among this patient population. Geriatric assessment including evaluation of comorbidities, functional status, and socioeconomic support should be warranted. Age, as an independent factor, does not seem to play a determinant role in treatment selection. The risks and benefits before initiation of any treatment should be weighed on an individual basis considering that the elderly represents a very heterogeneous population. Use of prognostic scores could aid in this endeavor; however, physician judgment is of utmost importance.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

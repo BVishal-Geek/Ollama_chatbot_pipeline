@@ -1,0 +1,19 @@
+Source: PMC7588770_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "PLEK2 Gene Upregulation Might Independently Predict Shorter Progression-Free Survival in Lung Adenocarcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Clinicopathological data were extracted, including age at initial diagnosis, gender, smoking history, pathological stage, pathological Tumor (N), Node (N) and Metastasis (M) status, and residual tumors.",
+  "N_E": 1,
+  "N_E_reason": "513 LUAD cases were analyzed from TCGA pan-cancer dataset.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

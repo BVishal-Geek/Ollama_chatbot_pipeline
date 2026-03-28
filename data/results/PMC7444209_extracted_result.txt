@@ -1,0 +1,19 @@
+Source: PMC7444209_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "The Effect of Metadherin on NF-κB Activation and Downstream Genes in Ovarian Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "Study OC tissues were obtained from 18 patients diagnosed in the Department of Gynecology and Obstetrics.",
+  "N_E": 1,
+  "N_E_reason": "The study involved 18 patients diagnosed with ovarian cancer.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

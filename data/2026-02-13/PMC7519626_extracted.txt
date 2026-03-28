@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Roles of miRNA and lncRNA in triple-negative breast cancer * 
+PMCID: PMC7519626
+PMID: 32893525
+KEYWORDS: biomarker, long non-coding rna (lncrna), microrna, regulation mechanism, triple-negative breast cancer (tnbc)
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Triple-negative breast cancer (TNBC) is currently the most malignant subtype of breast cancer without effective targeted therapies, which makes its pathogenesis an important target for research. A growing number of studies have shown that non-coding RNA (ncRNA), including microRNA (miRNA) and long non-coding RNA (lncRNA), plays a significant role in tumorigenesis. This review summarizes the roles of miRNA and lncRNA in the progression, diagnosis, and neoadjuvant chemotherapy of TNBC. Aberrantly expressed miRNA and lncRNA are listed according to their roles. Further, it describes the multiple mechanisms that lncRNA shows for regulating gene expression in the nucleus and cytoplasm, and more importantly, describes lncRNA-regulated TNBC progression through complete combining with miRNA at the post-transcriptional level. Focusing on miRNA and lncRNA associated with TNBC can provide new insights for early diagnosis and treatment—they can be targeted in the future as a novel anticancer target of TNBC.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

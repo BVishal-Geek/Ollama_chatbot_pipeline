@@ -1,0 +1,19 @@
+Source: PMC7791456_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Gene Signatures and Prognostic Values of m6A RNA Methylation Regulators in Ovarian Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "The clinicopathological information, copy number variants, mutations, gene expression microarray documents, and prognostic data were downloaded from The Cancer Genome Atlas (TCGA) project.",
+  "N_E": 1,
+  "N_E_reason": "We enrolled a total of 579 OC patients, with Mutations and Copy number variant (CNV) data.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data available from The Cancer Genome Atlas (TCGA) project.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

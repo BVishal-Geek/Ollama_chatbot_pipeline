@@ -1,0 +1,19 @@
+Source: PMC7727053_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "B4GalT1 Regulates Apoptosis and Autophagy of Glioblastoma In Vitro and In Vivo",
+  "condition_E": 1,
+  "condition_E_reason": "24 patients pathologically diagnosed with glioblastoma were selected for the study.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

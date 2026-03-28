@@ -1,0 +1,180 @@
+================================================================================
+ARTICLE TITLE: Prediction of Prognostic Biomarkers and Construction of an Autophagy Prognostic Model for Colorectal Cancer Using Bioinformatics
+PMCID: PMC7780303
+PMID: 33357130
+KEYWORDS: autophagy, prognostic model, colorectal cancer, bioinformatics, markers
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+The incidence of colorectal cancer is increasing every year, and autophagy may be related closely to the pathogenesis of colorectal cancer. Autophagy is a natural catabolic mechanism that allows the degradation of cellular components in eukaryotic cells. However, autophagy plays a dual role in tumorigenesis. It not only promotes normal cell survival and tumor growth but also induces cell death and suppresses tumors survival. In addition, the pathogenesis of various conditions, including inflammation, neurodegenerative diseases, or tumors, is associated with abnormal autophagy. The present work aimed to examine the significance of autophagy-related genes (ARGs) in prognosis prediction, to construct an autophagy prognostic model, and to identify independent prognostic factors for colorectal cancer (CRC).
+
+Methods::
+This study discovered a total of 36 ARGs in CRC cases using The Cancer Genome Atlas (TCGA) and Human Autophagy-dedicated (HADd) databases along with functional enrichment analysis. Then, an autophagy prognostic model was constructed using univariate Cox regression analysis, and the key prognostic genes were screened. Finally, independent prognostic markers were determined through independent prognostic analysis and clinical correlation analysis of key genes.
+
+Results::
+Of the 36 differentially expressed ARGs, 13 were related to prognosis, as determined by univariate Cox regression analysis. A total of 6 key genes were obtained by a multivariate Cox regression analysis. Independent prognostic values were shown by 3 genes, namely, microtubule-associated protein 1 light chain 3 (MAP1LC3C), small GTPase superfamily and Rab family (RAB7A), and WD-repeat domain phosphoinositide-interacting protein 2 (WIPI2) by independent prognostic analysis and clinical correlation.
+
+Conclusions::
+In this study, molecular bioinformatics technology was employed to determine and construct a prognostic model of autophagy for colon cancer patients, which revealed 3 autophagy-related features, namely, MAP1LC3C, WIPI2, and RAB7A.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Autophagy is a natural catabolic mechanism that degrades the intracellular components in eukaryotic cells. 1 , 2 This process is referred to as the type II programmed cell death, and its abnormality is involved in the pathogenic mechanisms of many disorders, such as inflammatory disease, neurodegenerative disorders, or cancers. 3 , 4 However, how autophagy plays a role in cancer diseases remains unknown. Since autophagy is a complex process, more research should be conducted to explore the association of autophagy with tumors and to exploit potential biological processes that might have important clinical implications for evaluating a novel therapeutic method for cancer.
+
+Colorectal cancer (CRC) is a common cancer that affects both colonic and rectal cells found in the digestive tract and accounts for high morbidity and mortality rates. 5 - 7 The incidence of CRC, the fifth most malignant tumors in China, is increasing every year. Some studies have demonstrated the 2-way regulatory role of autophagy in the development of CRC. Autophagy promotes not only tumor growth and cell survival, but also suppresses tumors and promotes cell death, providing a clear approach for the clinical management of CRC. 6 The study by Chen et al  8 showed that decyl caffeic acid (DC) inhibited the cell death caused by autophagy during CRC HCT–116 cell treatment, and the depletion of DC can suppress the proliferation of CRCs to varying degrees. Some studies have also shown that targeted autophagy can increase the sensitivity of anti-CRC chemotherapy drugs. 9 Therefore, it is important to explore the appropriate molecular biomarkers for the clinical treatment and prognosis of CRC.
+
+Here, the correlations of the expression patterns of the autophagy-related genes (ARGs) were studied using the clinical data of 514 CRC cases obtained from The Cancer Genome Atlas (TCGA), and an autophagy prognosis model was constructed. Independent prognostic analysis and clinical correlation analysis were performed, in which risk scores and clinical factors of ARGs were combined to find biomarkers that affect the prognosis of CRC cases.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Materials and Methods
+
+A total of 232 autophagy genes were extracted from the HADb (Human Autophagy Database, http://www.autophagy.lu/index.html ), which was the first database constructed exclusively for autophagy and lists the ARGs in the human body. In this study, HADb was used to acquire multifarious ARGs. In addition, the transcriptome data (mRNA sequencing data) and the clinical information including 473 CRC tissue samples and 41 normal samples were downloaded from the TCGA database ( https://portal.gdc.cancer.gov ). Besides, the clinical-pathological characteristics data of the patients, including gender, age, survival status, tumor grade, stage, and other information, were also included in the clinical data.
+
+DEARGs in CRC compared with normal samples were estimated using the R statistical software and were presented as |log2 (Fold Change, FC)|>1 along with FDR <0.05. Biological characteristics were explored using functional analysis, such as gene ontology (GO) and the Kyoto Protocol Encyclopedia of Genes and Genomes (KEGG). The R packages “Autophagy. GO.R,” Autophagy. KEGG.R,” “BiocManager limma” and “BiocManager heatmaps” were used for enrichment analysis.
+
+The ARG expression profiles were obtained from the TCGA and HADb databases. Univariate Cox regression analysis by R package software “survival.R” was used to analyze the obtained data to find the prognostic-related autophagy genes related to the survival of patients with CRC. Subsequently, an autophagy prognostic model was constructed and optimized by multivariate Cox regression, and the key genes were screened. The linear combination of coefficients was adopted for examining the gene levels. Finally, the relative risk for each patient was determined using the constructed model. CRC cases were divided into 2 groups, (i) the high-risk (H) and (ii) the low-risk (L) groups, according to the median risk score value. In addition, hazard ratios (H), along with the 95% confidence interval (CI) values were determined.
+
+First, the survival condition was compared between the 2 groups using R package software, and the Kaplan–Meier (K–M) survival curve together with the risk curve was drawn. Then, the R package “survival.R” was used for univariate and multivariate independent prognostic analysis to explore the relationship between the clinicopathological characteristics and the risk scores, and the independent prognostic factors were screened. Finally, the R package “survivalROC.R” was used to plot the ROC curve, and the area under ROC curve (AUC) value was determined to verify model prediction accuracy. Scatterplot was drawn using the R package “beeswarm.R” for clinical correlation analysis. Key autophagy genes and the risk values were analyzed with the clinicopathological characteristics to predict the biomarkers for the prognosis of CRC.
+
+The statistical analyses were performed using R 3.6.3 ( https://www.r-project.org/ ) and ActivePerl ( https://www.activestate.com/ ). Plots were drawn using the R package software. Single/multifactor regression analysis, model construction, independent prognosis analysis, and correlation analysis were performed using the R package software. All the statistical tests were 2-sided, and p < 0.05 was considered statistically significant.
+
+
+Data Collection
+
+A total of 232 autophagy genes were extracted from the HADb (Human Autophagy Database, http://www.autophagy.lu/index.html ), which was the first database constructed exclusively for autophagy and lists the ARGs in the human body. In this study, HADb was used to acquire multifarious ARGs. In addition, the transcriptome data (mRNA sequencing data) and the clinical information including 473 CRC tissue samples and 41 normal samples were downloaded from the TCGA database ( https://portal.gdc.cancer.gov ). Besides, the clinical-pathological characteristics data of the patients, including gender, age, survival status, tumor grade, stage, and other information, were also included in the clinical data.
+
+
+Enrichment Analysis of Differentially Expressed ARGs (DEARGs)
+
+DEARGs in CRC compared with normal samples were estimated using the R statistical software and were presented as |log2 (Fold Change, FC)|>1 along with FDR <0.05. Biological characteristics were explored using functional analysis, such as gene ontology (GO) and the Kyoto Protocol Encyclopedia of Genes and Genomes (KEGG). The R packages “Autophagy. GO.R,” Autophagy. KEGG.R,” “BiocManager limma” and “BiocManager heatmaps” were used for enrichment analysis.
+
+
+Construction of Autophagy Prognosis Model Based on ARGs
+
+The ARG expression profiles were obtained from the TCGA and HADb databases. Univariate Cox regression analysis by R package software “survival.R” was used to analyze the obtained data to find the prognostic-related autophagy genes related to the survival of patients with CRC. Subsequently, an autophagy prognostic model was constructed and optimized by multivariate Cox regression, and the key genes were screened. The linear combination of coefficients was adopted for examining the gene levels. Finally, the relative risk for each patient was determined using the constructed model. CRC cases were divided into 2 groups, (i) the high-risk (H) and (ii) the low-risk (L) groups, according to the median risk score value. In addition, hazard ratios (H), along with the 95% confidence interval (CI) values were determined.
+
+
+Evaluation of the Prognostic Models and Clinical Correlation Analysis
+
+First, the survival condition was compared between the 2 groups using R package software, and the Kaplan–Meier (K–M) survival curve together with the risk curve was drawn. Then, the R package “survival.R” was used for univariate and multivariate independent prognostic analysis to explore the relationship between the clinicopathological characteristics and the risk scores, and the independent prognostic factors were screened. Finally, the R package “survivalROC.R” was used to plot the ROC curve, and the area under ROC curve (AUC) value was determined to verify model prediction accuracy. Scatterplot was drawn using the R package “beeswarm.R” for clinical correlation analysis. Key autophagy genes and the risk values were analyzed with the clinicopathological characteristics to predict the biomarkers for the prognosis of CRC.
+
+
+Statistical Analysis
+
+The statistical analyses were performed using R 3.6.3 ( https://www.r-project.org/ ) and ActivePerl ( https://www.activestate.com/ ). Plots were drawn using the R package software. Single/multifactor regression analysis, model construction, independent prognosis analysis, and correlation analysis were performed using the R package software. All the statistical tests were 2-sided, and p < 0.05 was considered statistically significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+The transcriptome and clinical information of 473 CRC tissue samples and 41 normal samples were downloaded from TCGA. A total of 452 CRC patients who had available clinical data as well as gene expression patterns were enrolled in this study. The expressions of 206 ARGs were collected using the threshold of FDR < 0.05 together with |log2(FC)|>1, and eventually, 16 upregulated and 20 downregulated ARGs ( Figure 1 ) were obtained. Furthermore, 36 DEARGs in CRC compared with non-carcinoma samples were expressed using box plot analysis ( Figure 2 ). The Figure 2 displays the expression patterns of 20 downregulated genes (CCR2, CAPN2, ITPR1, TP53INP2, NRG1, GABARAP, CDKN1A, PINK1, NRG3, NRG2, BCL2, MAP1LC3C, TMEM74, NKX2–3, TNFSF10, PRKN, FKBP1B, SESN2, FAS, HSPB8) and 16 upregulated genes (CAPN10, BIRC5, MYC, ATIC, IFNG, HSP90AB1, SPHK1, BID, BCL2L1, ATG9B, CDKN2A, TP73, VEGFA, EIF4EBP1, CD46, and ERO1A).
+
+DEARGs in CRC in comparison to non-carcinoma samples. (A) Volcano plot showing the 206 ARGs obtained from the TCGA and HADb databases. Red color is indicative of up-regulation, whereas blue color denotes down-regulation. Black color indicates that the differences between the CRC and non-carcinoma samples were not significant. (B) Hierarchical cluster analysis on the expression of DEARGs.
+
+Expression profiles for 36 ARGs within CRC and non-carcinoma tissues. Red bar indicates the different cancer samples, while blue bar suggests the non-carcinoma samples. Red dots on top of each gene name indicate significant up-regulation, whereas blue dots represent significant down-regulation.
+
+ Table 1 presents the functional annotations for the 36 DEARGs, including the functions of GO terms, together with the enrichment of KEGG pathways. The most significant biological processes (BPs) for the GO terms included cytochrome C release in the mitochondria, autophagy, response to oxygen levels, and changes in apoptotic mitochondria, while the most significant cellular components (CC) were the autophagy membrane, autophagosome, outer mitochondrial membrane, and the outer membranes of organelles. In regard to the molecular function (MF), most of the identified genes showed enrichment within the protein kinase regulator activity, protein phosphatase 2A binding, ubiquitin-like protein ligase binding, kinase regulating activity, ubiquitin-protein ligase binding, etc. The results are shown in Figure 3 . Moreover, as revealed by the KEGG pathway analysis, the DEARGs mainly showed enrichment within the P53 signal transduction pathway, platinum resistance, apoptosis, ErbB signal transduction pathway, and HIF–1 signal transduction pathway ( Figure 4B ). The heatmap concerning the association of ARGs with the pathways is presented in Figure 4B .
+
+GO and KEGG Analysis of Differentially Expressed Autophagy-Related Genes.
+
+Bubble plot showing the enriched GO terms. X-axis in barplot stood for GeneRatio, while y-axis indicated different biological processes, including BP, CC, and MF. The size of the circles displayed by different biological processes is positively correlated with the number of genes involved in each semester. In addition, the closer the color is to red, the higher their significance is.
+
+KEGG analysis on those DEARGs. (A) The outer circle presents the scatter plot of assigned gene logFC for all terms, the red ones stand for increased expression, whereas the blue ones represent decreased expression. The inner circle indicates the z-score value and the number of genes. The larger the area, the more the number of genes enriched in the pathway. The color is biased toward red, which means the greater the z-score value, and the color biased toward purple, the smaller the z-score value. (B) Histogram showing the associations of ARGs with pathways. The bar color was determined by logFC value and the bar length was determined by gene counts.
+
+Univariate Cox regression analysis screened out 13 prognosis-related genes and constructed the autophagy prognostic model ( Figure 5A ). Our model was optimized by multivariate Cox regression, and 6 key genes were obtained. The prognosis-related genes are shown in Table 2 . Patient survival rates at 3 and 5 years in the H and L groups were 64.6% and 84.8%, and 46.1% and 75.9%, respectively, determined using the K–M survival curve analysis. The survival rate among the patients in the L group remarkably increased relative to the H group (P < 0.001) ( Figure 5B ). As shown by the risk curve results, gene expression in the H group increases as the risk value increases, suggesting whether the gene is a high-risk or low-risk gene ( Figure 5C-E ). The relationship between clinical-pathological characteristics and risk scores was studied, and the independent prognostic analysis of univariate and multivariate Cox was performed ( Figure 5F-G ). Based on these observations, risk score might be used as a factor to independently predict prognosis (P < 0.001). The clinicopathological features, such as age (P < 0.001), grade (P < 0.001), T stage (P < 0.001), M stage (P < 0.001), and N stage (P < 0.001), could be used as factors to independently predict CRC prognosis. Finally, the ROC curve was plotted by combining the risk score with the clinicopathological features, and the accuracy of the model was evaluated ( Figure 5H ). The larger the area under the ROC curve, the more accurate was the prognosis model constructed.
+
+Construction and evaluation of autophagy prognosis model in CRC. (A) Forest map of 13 ARGs. (B) KM curve indicated apparently shortened OS in H group relative to L group. (C) Risk score distribution for CRC cases. (D) OS for CRC patients. (E) Heatmap displaying the expression patterns of those 6 key genes. (F-G) Cox independent prognosis analysis. (H) ROC curve of clinicopathological features.
+
+Coefficients of Cox Regression Analysis Based on Key Genes.
+
+An independent sample T-test was performed, and a scatter plot was drawn ( Figure 6 ) to explore the relationship between the clinicopathological characteristics and the expression levels with risk scores and 6 key genes, and 3 genes were identified: MAP1LC3C, RAB7A, and WIPI2. The overexpression of MAP1LC3C was shown to be closely related to the patient’s age (age ≤ 65, P = 0.023) ( Figure 6A ), while the overexpression of RAB7A was closely related to the patient’s age (age ≤ 65, P = 0.001), N1–3 stage (P = 0.003), and tissue grade Stage III & IV (P = 0.005) ( Figure 6B-6D ). WIPI2 overexpression was closely related to the patient’s gender (Male, P = 0.046), M1 stage (P = 0.003), N1–3 stage (P = 5.338e–07), and tissue grade stage III&IV (P = 6.189e–07) ( Figure 6E-6H ). The overexpression of risk value was closely related to clinical features N1–3(P = 0.002) and stage III&IV(P = 0.002) ( Figure 6I and J ). These results indicated that MAP1LC3C, RAB7A, and WIPI2 may serve as biomarkers for predicting the prognosis of CRC, and the risk score may serve as a negative marker for the prognosis of CRC.
+
+The clinical correlation analysis in Colorectal cancer. (A) MAP1LC3C expression in ages. (B-D) RAB7A expression in pathological stages, pathological N stages, ages. (E-H) WIPI2 expression in pathological stages, pathological N stages, genders, pathological M stages. (I-J) Risk scores expressed in grades of pathological N stages.
+
+
+Differentially Expressed ARGs
+
+The transcriptome and clinical information of 473 CRC tissue samples and 41 normal samples were downloaded from TCGA. A total of 452 CRC patients who had available clinical data as well as gene expression patterns were enrolled in this study. The expressions of 206 ARGs were collected using the threshold of FDR < 0.05 together with |log2(FC)|>1, and eventually, 16 upregulated and 20 downregulated ARGs ( Figure 1 ) were obtained. Furthermore, 36 DEARGs in CRC compared with non-carcinoma samples were expressed using box plot analysis ( Figure 2 ). The Figure 2 displays the expression patterns of 20 downregulated genes (CCR2, CAPN2, ITPR1, TP53INP2, NRG1, GABARAP, CDKN1A, PINK1, NRG3, NRG2, BCL2, MAP1LC3C, TMEM74, NKX2–3, TNFSF10, PRKN, FKBP1B, SESN2, FAS, HSPB8) and 16 upregulated genes (CAPN10, BIRC5, MYC, ATIC, IFNG, HSP90AB1, SPHK1, BID, BCL2L1, ATG9B, CDKN2A, TP73, VEGFA, EIF4EBP1, CD46, and ERO1A).
+
+DEARGs in CRC in comparison to non-carcinoma samples. (A) Volcano plot showing the 206 ARGs obtained from the TCGA and HADb databases. Red color is indicative of up-regulation, whereas blue color denotes down-regulation. Black color indicates that the differences between the CRC and non-carcinoma samples were not significant. (B) Hierarchical cluster analysis on the expression of DEARGs.
+
+Expression profiles for 36 ARGs within CRC and non-carcinoma tissues. Red bar indicates the different cancer samples, while blue bar suggests the non-carcinoma samples. Red dots on top of each gene name indicate significant up-regulation, whereas blue dots represent significant down-regulation.
+
+
+Functional Annotations for DEARGs
+
+ Table 1 presents the functional annotations for the 36 DEARGs, including the functions of GO terms, together with the enrichment of KEGG pathways. The most significant biological processes (BPs) for the GO terms included cytochrome C release in the mitochondria, autophagy, response to oxygen levels, and changes in apoptotic mitochondria, while the most significant cellular components (CC) were the autophagy membrane, autophagosome, outer mitochondrial membrane, and the outer membranes of organelles. In regard to the molecular function (MF), most of the identified genes showed enrichment within the protein kinase regulator activity, protein phosphatase 2A binding, ubiquitin-like protein ligase binding, kinase regulating activity, ubiquitin-protein ligase binding, etc. The results are shown in Figure 3 . Moreover, as revealed by the KEGG pathway analysis, the DEARGs mainly showed enrichment within the P53 signal transduction pathway, platinum resistance, apoptosis, ErbB signal transduction pathway, and HIF–1 signal transduction pathway ( Figure 4B ). The heatmap concerning the association of ARGs with the pathways is presented in Figure 4B .
+
+GO and KEGG Analysis of Differentially Expressed Autophagy-Related Genes.
+
+Bubble plot showing the enriched GO terms. X-axis in barplot stood for GeneRatio, while y-axis indicated different biological processes, including BP, CC, and MF. The size of the circles displayed by different biological processes is positively correlated with the number of genes involved in each semester. In addition, the closer the color is to red, the higher their significance is.
+
+KEGG analysis on those DEARGs. (A) The outer circle presents the scatter plot of assigned gene logFC for all terms, the red ones stand for increased expression, whereas the blue ones represent decreased expression. The inner circle indicates the z-score value and the number of genes. The larger the area, the more the number of genes enriched in the pathway. The color is biased toward red, which means the greater the z-score value, and the color biased toward purple, the smaller the z-score value. (B) Histogram showing the associations of ARGs with pathways. The bar color was determined by logFC value and the bar length was determined by gene counts.
+
+
+Construction and Evaluation of Autophagy Prognosis Model in CRC
+
+Univariate Cox regression analysis screened out 13 prognosis-related genes and constructed the autophagy prognostic model ( Figure 5A ). Our model was optimized by multivariate Cox regression, and 6 key genes were obtained. The prognosis-related genes are shown in Table 2 . Patient survival rates at 3 and 5 years in the H and L groups were 64.6% and 84.8%, and 46.1% and 75.9%, respectively, determined using the K–M survival curve analysis. The survival rate among the patients in the L group remarkably increased relative to the H group (P < 0.001) ( Figure 5B ). As shown by the risk curve results, gene expression in the H group increases as the risk value increases, suggesting whether the gene is a high-risk or low-risk gene ( Figure 5C-E ). The relationship between clinical-pathological characteristics and risk scores was studied, and the independent prognostic analysis of univariate and multivariate Cox was performed ( Figure 5F-G ). Based on these observations, risk score might be used as a factor to independently predict prognosis (P < 0.001). The clinicopathological features, such as age (P < 0.001), grade (P < 0.001), T stage (P < 0.001), M stage (P < 0.001), and N stage (P < 0.001), could be used as factors to independently predict CRC prognosis. Finally, the ROC curve was plotted by combining the risk score with the clinicopathological features, and the accuracy of the model was evaluated ( Figure 5H ). The larger the area under the ROC curve, the more accurate was the prognosis model constructed.
+
+Construction and evaluation of autophagy prognosis model in CRC. (A) Forest map of 13 ARGs. (B) KM curve indicated apparently shortened OS in H group relative to L group. (C) Risk score distribution for CRC cases. (D) OS for CRC patients. (E) Heatmap displaying the expression patterns of those 6 key genes. (F-G) Cox independent prognosis analysis. (H) ROC curve of clinicopathological features.
+
+Coefficients of Cox Regression Analysis Based on Key Genes.
+
+
+Prediction of the Prognostic ARGs
+
+An independent sample T-test was performed, and a scatter plot was drawn ( Figure 6 ) to explore the relationship between the clinicopathological characteristics and the expression levels with risk scores and 6 key genes, and 3 genes were identified: MAP1LC3C, RAB7A, and WIPI2. The overexpression of MAP1LC3C was shown to be closely related to the patient’s age (age ≤ 65, P = 0.023) ( Figure 6A ), while the overexpression of RAB7A was closely related to the patient’s age (age ≤ 65, P = 0.001), N1–3 stage (P = 0.003), and tissue grade Stage III & IV (P = 0.005) ( Figure 6B-6D ). WIPI2 overexpression was closely related to the patient’s gender (Male, P = 0.046), M1 stage (P = 0.003), N1–3 stage (P = 5.338e–07), and tissue grade stage III&IV (P = 6.189e–07) ( Figure 6E-6H ). The overexpression of risk value was closely related to clinical features N1–3(P = 0.002) and stage III&IV(P = 0.002) ( Figure 6I and J ). These results indicated that MAP1LC3C, RAB7A, and WIPI2 may serve as biomarkers for predicting the prognosis of CRC, and the risk score may serve as a negative marker for the prognosis of CRC.
+
+The clinical correlation analysis in Colorectal cancer. (A) MAP1LC3C expression in ages. (B-D) RAB7A expression in pathological stages, pathological N stages, ages. (E-H) WIPI2 expression in pathological stages, pathological N stages, genders, pathological M stages. (I-J) Risk scores expressed in grades of pathological N stages.
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Autophagy is a complex mechanism that promotes the degradation of damaged or excess proteins and organelles, thereby promoting metabolic pathways. The tumor-related processes pathological changes are related to abnormal autophagy. 10 However, studies show that the development of tumors, such as tumor formation, development, metastasis, or even recurrence, is induced by autophagy gene overexpression and mutations. In addition, abnormal autophagy genes are involved in the clinicopathological characteristics and poor prognosis of cancer. Some RNA-binding proteins, such as DDX17, SETDB1, and POLR3, regulate autophagy in CRC by developing tumors and then searching for potential therapeutic targets in CRC. 11 Abnormal expression of NTF4 in CRC also affects autophagy. Knock-out of NTF4 prevents the transition of epithelial cells into mesenchyme in CRC and activates autophagy through the interaction of autophagy-related gene 5 (ATG5) with the mitogen-activated protein kinase pathway, thereby inhibiting the proliferation, migration, and invasion of the cells, along with clone-forming capacity, while promoting the arrest of cell cycle. NTF4 might also act as a biomarker for predicting OS and prognosis for CRC cases. 12 
+
+Abnormal expression of genes may play an important role in CRC occurrence, progression, or prognosis. Therefore, an autophagy prognosis model was constructed and optimized in the present study to determine the significant genes. In addition, patient risk score, univariate/multivariate independent prognostic analysis, and clinical correlation analysis were used to clarify the relationship between gene expression level and clinical prognosis based on the autophagy prognostic model, and the K–M survival curve, risk curve, and ROC multi-index curve were obtained. The results indicated that among the clinical-pathological features, age, stage, and TMN classification can serve as independent prognostic factors. Three of the important genes, MAP1LC3C, RAB7A, and WIPI2 are related to the clinicopathological characteristics (P < 0.05) and can predict the prognosis of CRC.
+
+MAP1LC3C, the key structural protein in the autophagosome membrane, is used as a biomarker for the autophagy mechanism. Studies have shown that MAP1LC3C mediates the MET/HGF-RTK signal axis in cancer. The MAP1LC3C and MET complex recruits HGF and activates MET-RTK for autophagic degradation, such that the changes in the MAP1LC3C expression affect tumor metastasis. 13 
+
+RAB7A, the small GTPase belonging to the RAB family, plays a key role in late endosome/lysosome transport. 14 Studies have shown that RAB7A participates in various regulatory mechanisms, such as lysosomal biosynthesis and phagocytosis, by interacting with upstream regulators/downstream effector molecules. In addition, various cellular functions, including autophagy, cell signal transduction, apoptosis, and survival are reported for RAB7A. 15 - 18 However, metastasis or occurrence of human cancer may be caused by RAB7A mutation or dysfunction. RAB7A is more deeply studied in tumor growth, mainly related to cell autophagy14. The study by Dorayappan KDP 19 demonstrated that RAB7A is downregulated in hypoxic ovarian cancer cells, and knocks down its upstream factor STAT3 to regulate the RAB7A expression, significantly increasing apoptosis and reducing the proliferation of tumor cell. An in vivo experiment by Tian She 20 showed that hypoxia-induced miR-138-5p can inhibit cancer growth as well as autophagy by inhibiting the SIRT1/FoxO1/Rab7 signaling pathway.
+
+WD-repeat domain protein interacting with phosphoinositides (WIPI2), a member of the WIPI family, is a mammalian homolog of the yeast ATG18 gene. WIPI2 combines ω-body and the phosphatidylinositol 3-phosphate [PI(3)P] enrichment domain of the endoplasmic reticulum, forming autophagosomes. 21 , 22 Some studies show that autophagy dysregulation and abnormal expression in various cancers are caused by WIPI. 23 , 24 Yu 25 found that WIPI1 is highly expressed in PKO cells in CRC. RT-PCR shows that knockdown of WIPI1 affects the cells, particularly proliferation and apoptosis, thereby inhibiting the occurrence and development of CRC cells. Liao 26 found that the production of LC3-associated autophagosomes through WIPI1 together with WIPI2 is increased by Rvp1, thereby promoting the migration of macrophages by upregulating autophagy, increasing the phosphorylated level of MAPK1/3, while enhancing the MMP9 effect, causing Rvp1 to induce cell apoptosis and inhibit the migration of tumor cells. Another study showed that different cancer samples present an abnormally-expressed human WIPI gene. For example, the expression of WIPI2 and WIPI4 mRNA is significantly different in advanced pancreatic cancer. Further experiments showed that increased ability of WIPI gene-mediated autophagy in the precancerous stage gradually decreased during the transition from pancreatic tumor to adenocarcinoma, indicating that the abnormal expression of the WIPI gene and the change in the autophagy activity play a vital part in cancer genesis and progression. 27 
+
+In China, the incidence of CRC is increasing every year. Even when the patient receives surgical treatment, a high possibility of recurrence remains. At present, the assessment of the recurrence or prognosis of CRC patients is mainly related to clinicopathological characteristics and tumor staging. 28 However, due to differences in genetics and other reasons, this method cannot be considered an ideal assessment of the prognosis of patients. 29 , 30 Although some studies have explored the relationship between autophagy genes and CRC, they are mainly based on the discovery of a certain gene. Few people have attempted to establish autophagy prognosis models and explore the relationship between multiple autophagy genes and the prognosis of CRC patients. 31 , 32 Therefore, this study analyzed multiple autophagy genes and clinicopathological characteristics using the Cox regression model on the TCGA and HADb databases and then applying the autophagy prognosis model to analyze the clinical prognosis of CRC. Various tools and software were employed in this study to process and analyze large amounts of data. Nonetheless, this study has certain limitations. First, this is a retrospective study. The sample size should be increased and prospective research should be conducted. Second, the information on the expression levels of genes such as LncRNA and miRNA should be included. More prognostic factors should be included, which may further improve the credibility of the results for future in-depth research.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusions
+
+In summary, a prognostic model was constructed based on 13 ARGs using information obtained from the TCGA and HADb databases, and the clinical characteristics of CRC were analyzed. Finally, 3 high-risk genes, namely, MAP1LC3C, RAB7A, and WIPI2, were identified as prognostic biomarker genes for CRC. These genes may represent a novel approach to treat CRC.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

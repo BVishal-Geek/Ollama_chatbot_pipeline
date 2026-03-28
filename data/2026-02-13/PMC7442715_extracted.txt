@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: The Evolving AML Genomic Landscape: Therapeutic Implications
+PMCID: PMC7442715
+PMID: 32329691
+KEYWORDS: acute myeloid leukemia, aml, genomic landscape, therapeutics, clinical implications
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+Improved understanding of the genomic and molecular landscape of acute myeloid leukemia (AML) has resulted in significant evolution of our understanding of AML biology and allows refined prognostication for those receiving standard combination chemotherapy induction. This dramatic increase in knowledge preceded, and was somewhat responsible for, at least some of eight new FDA drug approvals for AML. This review discusses the impact of genomics on clinical care of AML patients and highlights newly approved FDA drugs. Despite these recent clinical advances, however, the outcome for most patients diagnosed with AML remains dire. Thus, we describe here some of the challenges identified with treating AML including off-target toxicity, drug transporters, clonal heterogeneity, and adaptive resistance, and some of the most promising opportunities for improved therapy.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

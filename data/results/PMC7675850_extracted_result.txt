@@ -1,0 +1,19 @@
+Source: PMC7675850_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "CENPE, PRC1, TTK, and PLK4 May Play Crucial Roles in the Osteosarcoma Progression",
+  "condition_E": 1,
+  "condition_E_reason": "The dataset includes 7 OS cell lines and 2 control cells.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 1,
+  "dataset_E_reason": "The gene expression profile of the GSE32395 dataset was downloaded from Gene Expression Omnibus (GEO) database.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

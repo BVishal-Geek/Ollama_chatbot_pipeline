@@ -1,0 +1,54 @@
+================================================================================
+ARTICLE TITLE: Dietary Meat Categories and Descriptions in Chronic Disease Research Are Substantively Different within and between Experimental and Observational Studies: A Systematic Review and Landscape Analysis
+PMCID: PMC7442319
+PMID: 31408089
+KEYWORDS: muscle foods, red meat, white meat, fish, poultry, dietary guidance, food group terminology, dietary intake assessment, animal proteins, flesh foods
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+This systematic review and landscape analysis describes patterns in dietary meat (skeletal muscle and associated tissues from mammalian, avian, and aquatic species; i.e., muscle foods) categories (CAT) and descriptions (DESCR) used throughout nutrition-related chronic disease literature, as there is anecdotally noted variation. A total of 1020 CAT and 776 DESCR were identified from 369 articles that assessed muscle food consumption and primary prevention of cardiovascular disease, obesity, type 2 diabetes, or cancer in adults ≥19 y from PubMed, Cochrane, and CINAHL up to March 2018. Specificity of CAT was analyzed on an empirical 1–7 ordinal scale as: 1 ) broad/undescriptive, “fish”; 2 ) muscle food type, “red meat”; 3 ) species, “poultry”; 4 ) broad + 1 descriptor, “processed meat”; 5 ) type/species + 1 descriptor, “fresh red meat”; 6 ) broad/type + 2 descriptors, “poached lean fish”; and 7 ) specific product, “luncheon meat.” Median CAT specificity for randomized controlled trials (RCTs) and observational studies (OBSs) was 3 and 2 points out of 7, respectively, with no differences between chronic disease types. Specificity of OBS CAT was higher in recent articles but RCT CAT became less specific starting in the 2000s. RCT CAT were 400% more likely to include species, 500% more likely to include leanness, but 400% less likely to include processing degree compared with OBS CAT. A DESCR was included for 76% and 82% of OBS and RCT CAT, respectively. Researchers described processed meat, red meat, and total meat CAT more commonly than poultry or fish CAT. Among processed meat DESCR, 31% included a common term used in public regulatory definitions. In conclusion, muscle food categories and descriptions are substantively different within and between experimental and observational studies and do not match regulatory definitions. A practical muscle food classification system is warranted to improve interpretation of evidence regarding muscle food consumption and chronic disease.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

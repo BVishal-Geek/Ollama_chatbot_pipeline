@@ -1,0 +1,56 @@
+================================================================================
+ARTICLE TITLE: Determining mRNA stability by metabolic RNA labeling and chemical nucleoside conversion
+PMCID: PMC7611866
+PMID: 31768977
+KEYWORDS: rna stability, metabolic rna sequencing, 4-thiouridine, gene expression kinetics, slamseq, mouse embryonic stem cells
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+The varying rates at which mRNAs decay are tightly coordinated with transcriptional changes to shape gene expression during development and disease. But currently available RNA sequencing approaches lack the temporal information to determine the relative contribution of RNA biogenesis, processing and turnover to the establishment of steady-state gene expression profiles.
+Here, we describe a protocol that combines metabolic RNA labeling with chemical nucleoside conversion by thiol-linked alkylation of 4-thiouridine to determine RNA stability in cultured cells (SLAMseq). When coupled to cost-effective mRNA 3' end sequencing approaches, SLAMseq determines the half-life of polyadenylated transcripts in a global and transcript-specific manner using untargeted or targeted cDNA library preparation protocols.
+We provide a step-by-step instruction for time-resolved mRNA 3' end sequencing, which augments traditional RNA-seq approaches to acquire the temporal resolution necessary to study the molecular principles that control gene expression.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

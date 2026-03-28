@@ -1,0 +1,19 @@
+Source: PMC12869349_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Integrative single‐cell analysis uncovers distinct tumour microenvironment ecotypes and immune evasion across skin cancers",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical metadata, such as sex, age and tumour stage (early vs. advanced), was collected for all patients.",
+  "N_E": 1,
+  "N_E_reason": "In total, 102 single‐cell samples were obtained from 70 patients.",
+  "dataset_E": 1,
+  "dataset_E_reason": "The scRNA‐seq data presented in this study have been deposited to the Genome Sequence Archive under BioProject IDs.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

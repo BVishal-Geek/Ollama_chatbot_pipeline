@@ -1,0 +1,68 @@
+================================================================================
+ARTICLE TITLE: Implications for Breast Cancer Restaging Based on the 8th Edition AJCC Staging Manual
+PMCID: PMC6588495
+PMID: 30312199
+KEYWORDS: breast cancer, prognosis, staging
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective:::
+We assessed the changes that have resulted from the latest breast cancer staging guidelines and the potential impact on prognosis.
+
+Background::
+Contemporary data suggest that combining anatomic staging and tumor biology yields a predictive synergy for determining breast cancer prognosis. This forms the basis for the American Joint Committee on Cancer’s (AJCC) Staging Manual, 8th edition. We assessed the changes that have resulted from the new staging guidelines and the potential impact on prognosis.
+
+Methods::
+Women with stages I to III breast cancer from 2010 to 2014 in the National Cancer Data Base were pathologically staged according to the 7th and 8th editions of the AJCC Staging Manual. Patient characteristics and restaging outcomes were summarized. Unadjusted overall survival (OS) was estimated, and differences were assessed. Cox proportional-hazards models were utilized to estimate the adjusted association of stage with OS.
+
+Results::
+After restaging the 493,854 women identified, 6.8% were upstaged and 29.7% were downstaged. The stage changes varied by tumor histology, receptor status, tumor grade, and Oncotype DX scores (all P < 0.0001). Applying the 8th edition criteria yielded an incremental reduction in survival for each increase in stage, which was not consistently seen in the 7th edition. In a subgroup analysis based on hormone receptor (HR) status, those with stages II and III, and HR− disease had a worse OS than those with HR+ disease.
+
+Conclusions::
+Applying the 8th edition staging criteria resulted in a stage change for >35% of patients diagnosed with invasive breast cancer and refined OS estimates. Overall, the transition to the 8th edition is expected to better drive clinical care, treatment recommendations, and future research.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+RESULTS
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Section not found (no body element)
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

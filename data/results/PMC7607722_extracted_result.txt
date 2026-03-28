@@ -1,0 +1,19 @@
+Source: PMC7607722_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Identification of lnc RNAs Related to Prognosis of Patients With Colorectal Cancer",
+  "condition_E": 1,
+  "condition_E_reason": "Gene expression profiles and clinical data of CRC patients were obtained from The Cancer Genome Atlas.",
+  "N_E": 1,
+  "N_E_reason": "A total of 599 CRC patients were analyzed.",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data obtained from The Cancer Genome Atlas (TCGA, https://portal.gdc.cancer.gov/).",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

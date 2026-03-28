@@ -1,0 +1,19 @@
+Source: PMC7563806_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Long Noncoding RNA LINC00460 Promotes Cell Progression by Sponging miR-4443 in Head and Neck Squamous Cell Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "The study collected a total of 15 fresh HNSCC tissues and paired adjacent normal tissues from patients undergoing surgery.",
+  "N_E": 1,
+  "N_E_reason": "A total of 15 fresh HNSCC tissues were collected.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

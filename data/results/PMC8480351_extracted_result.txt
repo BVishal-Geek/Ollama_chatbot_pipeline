@@ -1,0 +1,19 @@
+Source: PMC8480351_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "Development of a Predictive Immune-Related Gene Signature Associated With Hepatocellular Carcinoma Patient Prognosis",
+  "condition_E": 1,
+  "condition_E_reason": "HCC patient clinical information, mutation profiles, and mRNA expression data were downloaded from TCGA.",
+  "N_E": 1,
+  "N_E_reason": "374 tumor samples and 50 healthy control samples were analyzed.",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

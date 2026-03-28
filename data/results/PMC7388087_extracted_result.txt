@@ -1,0 +1,19 @@
+Source: PMC7388087_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "ACA Medicaid Expansion Associated With Increased Medicaid Participation and Improved Health Among Near-Elderly: Evidence From the Health and Retirement Study",
+  "condition_E": 1,
+  "condition_E_reason": "The sample consists of over 3,000 unique adults aged 50 to 64 with income below 100% of the federal poverty level.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 0,
+  "dataset_E_reason": "not found",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

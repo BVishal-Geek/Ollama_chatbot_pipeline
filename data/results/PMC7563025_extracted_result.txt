@@ -1,0 +1,19 @@
+Source: PMC7563025_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "METTL3 May Regulate Testicular Germ Cell Tumors Through EMT and Immune Pathways",
+  "condition_E": 1,
+  "condition_E_reason": "Patient characteristics related to TGCT were analyzed using TCGA and GEO datasets.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 1,
+  "dataset_E_reason": "TGCT microarray data set (GSE3218) was obtained from the Gene Expression Omnibus (GEO) database.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}

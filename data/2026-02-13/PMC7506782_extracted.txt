@@ -1,0 +1,414 @@
+================================================================================
+ARTICLE TITLE: Preoperative Radiotherapy Is Associated With Significant Survival
+Benefits for Patients With Gastric Signet Ring Cell Carcinoma: A SEER-Based
+Approach
+PMCID: PMC7506782
+PMID: 32945232
+KEYWORDS: gastric signet ring cell carcinoma, preoperative radiotherapy, survival
+================================================================================
+
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Objective::
+To explore the clinical and pathological features of gastric signet ring cell
+carcinoma, and evaluate the survival impact of preoperative radiotherapy on
+these patients.
+
+Methods::
+The Surveillance, Epidemiology, and End Results database was used to extract
+eligible patients from 2004 to 2015. The patients were divided into those
+with and without preoperative radiotherapy. The categorical variables were
+described by chi-square tests. The patients’ survival was compared between
+the 2 groups by Kaplan-Meier method with log-rank tests. Cox proportional
+hazard model was adopted to identify prognostic factors of cancer-specific
+survival.
+
+Results::
+Totally 4771 patients were recruited, of whom 218(4.6%) patients received
+preoperative radiotherapy, while 4553(95.4%) patients didn’t receive this
+treatment. Survival analysis of the entire cohort demonstrated that
+preoperative radiotherapy improved both cancer-specific survival and overall
+survival (p < 0.001) of the patients. Cox proportional hazard models
+identified age >60, tumor size >50 mm, TNM stage II-IV as independent
+risk factors for poor prognosis (HR > 1, p < 0.05). Notably,
+preoperative radiotherapy was identified as an independent protective factor
+for favorable prognosis (HR < 1, p < 0.05). Subgroup survival analysis
+showed that preoperative radiotherapy exerted significant survival benefits
+for the stages III and IV patients.
+
+Conclusions::
+In this population-based study, preoperative radiotherapy is associated with
+significant survival benefits for the patients with advanced gastric signet
+ring cell carcinoma. Hence preoperative radiotherapy is feasible for these
+patients.
+
+
+================================================================================
+INTRODUCTION
+================================================================================
+Introduction
+
+Gastric cancer (GC) is the third greatest cause of cancer-related death worldwide. 1 In America, about 11,140 deaths were estimated from this disease in 2019. 2 The median survival of GC is less than 12 months at advanced stages. 3 Adenocarcinoma accounts for the vast majority of GC. 4 Gastric signet ring cell carcinoma (SRC) is a unique subtype of gastric
+adenocarcinoma. In WHO classification, SRC was defined as tumor cell with central
+optically clear, globoid droplet of cytoplasmic mucin with an eccentrically placed nucleus. 5 Recent studies have revealed that the incidence of gastric SRC has been
+increasing constantly. 6 Gastric SRC is also associated with aggressive tumor behavior and early
+metastasis, posing a major public health problem. 7 
+
+With respect to the treatment of GC, surgery remains the mainstay for localized GC. 8 However, the survival still remains poor for surgery alone, the 5-year
+survival rate was only 20%-50%, leading to the efforts to improve the prognosis of
+these patients with adjuvant approaches. 9 The INT0116 trial was a milestone study which reported significant survival
+benefits from adjuvant chemoradiotherapy for the GC patients after gastrectomy. 10 Furthermore, the MAGIC trial also demonstrated superior survival of
+perioperative chemotherapy and surgery as compared to surgery alone for GC. 11 On the other hand, the ARTIST trial revealed that adjuvant radiotherapy (RT)
+combined with chemotherapy did not have a positive impact on the patients’ survival. 12 The CRITICS trial also showed that in patients who received preoperative
+chemotherapy, postoperative chemoradiotherapy did not improve survival as compared
+to postoperative chemotherapy. 13 With the growth of evidence, the benefits of neoadjuvant/adjuvant
+radiotherapy have become more controversial as therapeutic options. Preoperative
+chemoradiotherapy has been reported to show significant downstaging, facilitate
+radical tumor resection, and reduce local relapse for potentially resectable GC. 14 However, this therapeutic modality is not the standard of care, with
+unpredictable outcomes. As a special subtype of GC, the survival impact of
+preoperative RT on patients with gastric SRC has not been clarified yet. This effect
+needs to be evaluated, so that clinicians can select more appropriate treatments for
+these patients.
+
+
+================================================================================
+MATERIALS AND METHODS
+================================================================================
+Patients and Methods
+
+All the data were extracted from Surveillance, Epidemiology, and End Results
+(SEER) database (with additional treatment fields). The patients were selected
+by SEER*Stat version 8.3.5 software directly. The SEER data contain no
+identifiers and are publicly available, so ethical approval was exempt for our
+study. We designed the following inclusion criteria: (1) all patients were
+diagnosed from 2004 to 2015; (2) primary site was stomach; (3) primary gastric
+cancer was the first or only cancer diagnosis; (4) histological type was
+confined only to signet ring cell carcinoma (ICD-03, 8490/3); (5) surgery was
+performed; (6) chemotherapy recode was “yes”. We excluded the patients with
+unknown information about table variables.
+
+The extracted table variables were: age at diagnosis, gender, race, marital
+status, tumor size, grade, TNM stage, tumor depth, LN metastasis, radiation,
+histological type, survival months, SEER cause-specific death classification,
+and vital status recode. Cancer-specific survival (CSS) was defined as the time
+from cancer diagnosis to the date of death caused by gastric SRC specifically.
+Overall survival (OS) was defined as the duration from diagnosis to death from
+any cause. In this study, the primary endpoint was CSS, and the secondary
+endpoint was OS.
+
+The eligible patients were divided into those with and without preoperative RT.
+The categorical variables were compared by chi-square tests. The survival
+differences between the 2 groups were evaluated by Kaplan-Meier method with
+log-rank tests. Cox proportional hazard models were utilized to identify
+prognostic factors associated with CSS. Factors with p < 0.05 in univariate
+Cox model were further adjusted by multivariate Cox analysis. The statistical
+analyses were completed by SPSS statistical software, version 25.0 (SPSS,
+Chicago, IL, USA). A two-tailed p < 0.05 was deemed statistically
+significant.
+
+
+Patient Selection
+
+All the data were extracted from Surveillance, Epidemiology, and End Results
+(SEER) database (with additional treatment fields). The patients were selected
+by SEER*Stat version 8.3.5 software directly. The SEER data contain no
+identifiers and are publicly available, so ethical approval was exempt for our
+study. We designed the following inclusion criteria: (1) all patients were
+diagnosed from 2004 to 2015; (2) primary site was stomach; (3) primary gastric
+cancer was the first or only cancer diagnosis; (4) histological type was
+confined only to signet ring cell carcinoma (ICD-03, 8490/3); (5) surgery was
+performed; (6) chemotherapy recode was “yes”. We excluded the patients with
+unknown information about table variables.
+
+
+Data Collection
+
+The extracted table variables were: age at diagnosis, gender, race, marital
+status, tumor size, grade, TNM stage, tumor depth, LN metastasis, radiation,
+histological type, survival months, SEER cause-specific death classification,
+and vital status recode. Cancer-specific survival (CSS) was defined as the time
+from cancer diagnosis to the date of death caused by gastric SRC specifically.
+Overall survival (OS) was defined as the duration from diagnosis to death from
+any cause. In this study, the primary endpoint was CSS, and the secondary
+endpoint was OS.
+
+
+Statistical Analysis
+
+The eligible patients were divided into those with and without preoperative RT.
+The categorical variables were compared by chi-square tests. The survival
+differences between the 2 groups were evaluated by Kaplan-Meier method with
+log-rank tests. Cox proportional hazard models were utilized to identify
+prognostic factors associated with CSS. Factors with p < 0.05 in univariate
+Cox model were further adjusted by multivariate Cox analysis. The statistical
+analyses were completed by SPSS statistical software, version 25.0 (SPSS,
+Chicago, IL, USA). A two-tailed p < 0.05 was deemed statistically
+significant.
+
+
+================================================================================
+RESULTS
+================================================================================
+Results
+
+We recruited 4771 eligible patients with gastric SRC during the study period. In
+this cohort, 4553(95.4%) patients didn’t receive preoperative RT, while 218
+(4.6%) patients received preoperative RT. There were significant differences
+between the 2 groups in terms of gender, race, marital status, tumor size, TNM
+stage, tumor depth, LN metastasis (p < 0.05). Compared with the patients not
+radiated, those patients who received preoperative RT were more likely to be
+male (78.4% vs 51.6%), white race (89.0% vs 70.2%). The marital status also
+displayed significant difference between the 2 comparison groups, with married
+68.8% in RT group versus 59.7% in no RT group (p < 0.05). As for tumor
+characteristics, the RT group showed more tumor size ≤50 mm, more patients with
+stage II/III, T2/T3, N1. The distributions of age and grade were comparable
+between the 2 groups (p > 0.05). Patient demographics and clinical features
+are summarized below ( Table
+1 ).
+
+Baseline Characteristics of the Patients Dichotomized by Preoperative
+Radiotherapy.
+
+Abbreviations: TNM, tumor-node-metastasis; LN, lymph node; RT,
+radiotherapy.
+
+The survival outcomes of RT versus no RT groups were evaluated. The Kaplan-Meier
+plots demonstrated that the survival of RT group was significantly better than
+no RT group in both CSS and OS curves ( Figure 1 , p < 0.001). The median CSS
+of RT group was 25.0(20.8-29.2) months, while that of no RT group was
+12.0(11.3-12.7) months ( Table 2 , p < 0.001). Likewise, the median OS of RT group was also
+superior to that of no RT group ( Table 2 , p < 0.001). These results
+indicated that preoperative RT exerted notable survival advantages for the
+patients with gastric SRC.
+
+Kaplan-Meier survival curves. A, CSS (p < 0.001). B, OS (p <
+0.001).
+
+Comparison of Median Survival of the Patients.
+
+Abbreviations: No., number; CSS, cancer-specific survival; OS,
+overall survival.
+
+To identify prognostic factors associated with CSS, we constructed both uni- and
+multivariate Cox proportional hazard models within the cohort. In univariate
+analysis, the variables significantly associated with CSS were RT, age, race,
+marital status, tumor size, TNM stage, tumor depth, LN metastasis (p < 0.05).
+RT was found to be a significant prognostic factor (HR = 0.641, 95% CI =
+0.541-0.759, p < 0.001). All these significant variables in univariate
+analysis were subsequently recruited into the multivariate Cox regression model.
+After adjusting for other confounding factors, age >60, tumor size >50 mm,
+TNM stage II-IV were proved to be independent risk factors for poor prognosis
+(HR > 1, p < 0.05). Notably, preoperative RT was still significantly
+associated with the patients’ CSS (HR = 0.714, 95% CI = 0.599-0.850, p <
+0.001). Hence preoperative RT was identified as an independent protective factor
+for favorable prognosis (HR < 1, p < 0.05). The detailed results are shown
+in Table 3 .
+
+Cox Regression Analysis of Cancer-Specific Survival.
+
+Abbreviations: RT, radiotherapy; TNM, tumor-node-metastasis; LN,
+lymph node; HR, hazard ratio; NI, not included.
+
+Given that TNM stage is also independently associated with the patients’ CSS, we
+initiated a subgroup analysis to highlight the impact of preoperative RT on the
+prognosis of the patients. The Kaplan-Meier plots revealed that preoperative RT
+showed significant CSS advantages for patients with stages III and IV gastric
+SRC (p < 0.05). By contrast, no significant survival difference was found
+between the 2 groups in either stage I or stage II patients (p > 0.05). Thus,
+preoperative RT showed significant survival benefits for the patients with
+advanced gastric SRC. The survival curves of CSS stratified by TNM stage can be
+seen in Figure 2 .
+
+Kaplan-Meier survival curves stratified by TNM stage. A, Stage I (p >
+0.05). B, Stage II (p > 0.05). C, Stage III (p < 0.05). D, Stage
+IV (p < 0.05).
+
+
+Patient Characteristics
+
+We recruited 4771 eligible patients with gastric SRC during the study period. In
+this cohort, 4553(95.4%) patients didn’t receive preoperative RT, while 218
+(4.6%) patients received preoperative RT. There were significant differences
+between the 2 groups in terms of gender, race, marital status, tumor size, TNM
+stage, tumor depth, LN metastasis (p < 0.05). Compared with the patients not
+radiated, those patients who received preoperative RT were more likely to be
+male (78.4% vs 51.6%), white race (89.0% vs 70.2%). The marital status also
+displayed significant difference between the 2 comparison groups, with married
+68.8% in RT group versus 59.7% in no RT group (p < 0.05). As for tumor
+characteristics, the RT group showed more tumor size ≤50 mm, more patients with
+stage II/III, T2/T3, N1. The distributions of age and grade were comparable
+between the 2 groups (p > 0.05). Patient demographics and clinical features
+are summarized below ( Table
+1 ).
+
+Baseline Characteristics of the Patients Dichotomized by Preoperative
+Radiotherapy.
+
+Abbreviations: TNM, tumor-node-metastasis; LN, lymph node; RT,
+radiotherapy.
+
+
+Survival Analysis
+
+The survival outcomes of RT versus no RT groups were evaluated. The Kaplan-Meier
+plots demonstrated that the survival of RT group was significantly better than
+no RT group in both CSS and OS curves ( Figure 1 , p < 0.001). The median CSS
+of RT group was 25.0(20.8-29.2) months, while that of no RT group was
+12.0(11.3-12.7) months ( Table 2 , p < 0.001). Likewise, the median OS of RT group was also
+superior to that of no RT group ( Table 2 , p < 0.001). These results
+indicated that preoperative RT exerted notable survival advantages for the
+patients with gastric SRC.
+
+Kaplan-Meier survival curves. A, CSS (p < 0.001). B, OS (p <
+0.001).
+
+Comparison of Median Survival of the Patients.
+
+Abbreviations: No., number; CSS, cancer-specific survival; OS,
+overall survival.
+
+
+Identify Prognostic Factors
+
+To identify prognostic factors associated with CSS, we constructed both uni- and
+multivariate Cox proportional hazard models within the cohort. In univariate
+analysis, the variables significantly associated with CSS were RT, age, race,
+marital status, tumor size, TNM stage, tumor depth, LN metastasis (p < 0.05).
+RT was found to be a significant prognostic factor (HR = 0.641, 95% CI =
+0.541-0.759, p < 0.001). All these significant variables in univariate
+analysis were subsequently recruited into the multivariate Cox regression model.
+After adjusting for other confounding factors, age >60, tumor size >50 mm,
+TNM stage II-IV were proved to be independent risk factors for poor prognosis
+(HR > 1, p < 0.05). Notably, preoperative RT was still significantly
+associated with the patients’ CSS (HR = 0.714, 95% CI = 0.599-0.850, p <
+0.001). Hence preoperative RT was identified as an independent protective factor
+for favorable prognosis (HR < 1, p < 0.05). The detailed results are shown
+in Table 3 .
+
+Cox Regression Analysis of Cancer-Specific Survival.
+
+Abbreviations: RT, radiotherapy; TNM, tumor-node-metastasis; LN,
+lymph node; HR, hazard ratio; NI, not included.
+
+
+Subgroup Survival Analysis
+
+Given that TNM stage is also independently associated with the patients’ CSS, we
+initiated a subgroup analysis to highlight the impact of preoperative RT on the
+prognosis of the patients. The Kaplan-Meier plots revealed that preoperative RT
+showed significant CSS advantages for patients with stages III and IV gastric
+SRC (p < 0.05). By contrast, no significant survival difference was found
+between the 2 groups in either stage I or stage II patients (p > 0.05). Thus,
+preoperative RT showed significant survival benefits for the patients with
+advanced gastric SRC. The survival curves of CSS stratified by TNM stage can be
+seen in Figure 2 .
+
+Kaplan-Meier survival curves stratified by TNM stage. A, Stage I (p >
+0.05). B, Stage II (p > 0.05). C, Stage III (p < 0.05). D, Stage
+IV (p < 0.05).
+
+
+================================================================================
+DISCUSSION
+================================================================================
+Discussion
+
+Currently, the significance of preoperative RT for patients with gastric SRC has not
+been widely recognized. Based on a large population from the SEER database, we
+retrospectively analyzed the clinicopathological features of the patients with
+gastric SRC, highlighting the effect of preoperative RT on the prognosis of such
+patients. The overall results indicated that preoperative RT was associated with
+significant survival benefits for the patients with gastric SRC.
+
+The role of preoperative RT in treating GC patients has been reported by several
+relevant studies. A recent meta-analysis showed a statistically significant 5-year
+survival benefit with the addition of RT in patients with resectable GC. 15 In another meta-analysis, GC patients could benefit from both preoperative
+and postoperative RT. 16 However, it has not been clarified whether preoperative RT can benefit the
+survival of patients with gastric SRC likewise. A retrospective study demonstrated
+that neoadjuvant radiochemotherapy improved the survival of patients with locally
+advanced SRC in esophagogastric junction. 17 Nevertheless, this study has not separately analyzed the survival impact of
+preoperative RT for gastric SRC. On the other hand, another study has found that
+gastric SRC was relatively chemoradiation resistant. A higher fraction of SRC was
+associated with higher resistance. 18 Hence the previous studies concerning the prognostic impact of RT on patients
+with gastric SRC are inconsistent. Comparatively, our study has investigated the
+influence of preoperative RT on the survival outcomes of patients with gastric SRC
+based on a large population analysis. Our results indicated the preoperative RT
+exerted notable survival advantages for these patients. Treatment-associated
+toxicity is a major contributing factor. A prospective, randomized trial has
+explored the toxicity and efficacy of surgery and preoperative radiotherapy for
+treating GC. The hematologic toxicity includes neutropenia, neutropenic fever, and
+anemia. Common complications were postoperative pancreatitis, anastomotic leakages,
+intestinal obstruction, and gastrointestinal bleeding. However, the incidence of
+these complications was relatively low. Preoperative radiotherapy was generally well
+tolerated, and resulted in a marked survival improvement. 19 Therefore, preoperative RT seems applicable for the patients with gastric
+SRC.
+
+With regard to the prognostic factors for gastric SRC, a recent study has
+comprehensively analyzed the clinicopathological characteristics and prognosis of
+such patients. When multivariate analysis with Cox regression was conducted, their
+results indicated that age, race, histological grade, AJCC stage were independent
+prognostic factors. 20 Based on the analysis of our cohort, we also identified age >60, tumor
+size >50 mm, TNM stage II-IV as independent risk factors for poor prognosis (HR
+> 1, p < 0.05). However, preoperative RT was still significantly associated
+with favorable CSS (HR < 1, p < 0.001). Thus preoperative RT was an
+independent protective factor for the patients with gastric SRC.
+
+Tumor size is also an important prognostic factor for the GC patients, which is
+significantly associated with cancer progression, lymph node metastasis, and
+relapse. The patients with large tumors often indicated more aggressive features and
+worse prognosis than patients with small tumors. Tumor size could provide vital
+information for determining the width of surgical margin and the extent of lymph
+node dissection. 21 A recent study also revealed that small GC was appropriate for radical
+surgery, while large GC with risk factors could not be surgically cured. 22 In our study, we have also found that tumor size was an independent
+prognostic factor for the patients with gastric SRC. As for patients with large
+advanced tumors, preoperative radiotherapy may offer the potential advantages of
+reducing tumor size and allowing a R0 resection. 23 
+
+Based on analysis of the entire cohort, the survival benefits from preoperative RT
+have been confirmed for the patients with gastric SRC. For solid elucidation, we
+initiated a subgroup survival analysis by TNM stage. The stratified analysis showed
+that preoperative RT exerted significant CSS benefits for patients with stages III
+and IV gastric SRC. Preoperative RT has been reported to downstage the unresectable
+GC, some advanced patients might be converted into resectable ones. 24 The advantages of preoperative RT include intact tumor microenvironment,
+hence avoiding postoperative hypoxia that may compromise the treatment efficacy.
+Preoperative RT also has the advantages of clearer target delineation, smaller
+radiation volumes, and lower doses, which can improve the patients’ survival. 24 Thus preoperative RT may be more appropriate for advanced gastric SRC.
+
+There are several limitations of our study. First, this retrospective analysis has an
+inherent selection bias. The confounders in two cohorts may have an impact on the
+results. Second, the data are not available in the SEER database regarding radiation
+techniques and dose, which may have caused potential bias. Third, our findings can
+only be applied to the America rather than the global population, especially in
+endemic areas such as China. 25 Fourth, the sequences and specific chemotherapy regime are still not
+available in the SEER database, so the interaction of preoperative RT with distinct
+chemotherapy can’t be accurately evaluated. To minimize the potential bias from
+multiple confounding factors, subgroup survival analysis was initiated to compensate
+the significant differences between the 2 comparison groups. 26 Given a large population that represents the real-world patients, our results
+are still considerably convincing.
+
+
+================================================================================
+CONCLUSION
+================================================================================
+Conclusion
+
+Based on a large population from the SEER database, preoperative radiotherapy is
+associated with significant survival benefits for the patients with advanced gastric
+SRC. Hence preoperative radiotherapy is feasible for these patients. Our study will
+hopefully contribute to the future tailored treatment for the patients with gastric
+SRC.
+
+
+================================================================================
+DATA AVAILABILITY
+================================================================================
+Data availability statement not found
+
+
+================================================================================
+ASSOCIATED DATA
+================================================================================
+No associated data found

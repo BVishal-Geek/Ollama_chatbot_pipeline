@@ -1,0 +1,19 @@
+Source: PMC7534087_extracted.txt
+Recommendation: ❌ NOT RECOMMENDED
+================================================================================
+
+{
+  "paper_title": "An Integrated Analysis of mRNAs and miRNAs Microarray Profiles to Screen miRNA Signatures Involved in Nasopharyngeal Carcinoma",
+  "condition_E": 1,
+  "condition_E_reason": "Clinical data including age and stage were collected for NPC patients.",
+  "N_E": 0,
+  "N_E_reason": "not found",
+  "dataset_E": 1,
+  "dataset_E_reason": "Data available in GEO with multiple dataset identifiers.",
+  "intervention_E": 0,
+  "intervention_E_reason": "not found",
+  "pr_endpoint_E": 0,
+  "pr_endpoint_E_reason": "not found",
+  "R_criteria_E": 0,
+  "R_criteria_E_reason": "not found"
+}
