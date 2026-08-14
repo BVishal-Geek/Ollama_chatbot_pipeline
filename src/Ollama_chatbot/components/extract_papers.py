@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 from Bio import Entrez
 import time
+from argparse import ArgumentParser
 
 # IMPORTANT: Replace with your email and API key
 Entrez.email = "vishal.bakshi@gwu.edu"
@@ -361,6 +362,10 @@ def download_and_process_articles(query, max_results=100, output_dir="pmc_texts"
 
 # Main execution
 if __name__ == "__main__":
+
+    parser = ArgumentParser(description="PMC Article Downloader and Text Extractor")
+    parser.add_argument("--max_results", type=int, default=100, help="Maximum number of results to process")
+
     # Your search query
     query = '''("TCGA" OR "GEO" OR "SEER" OR "publicly available data" OR "open access data" OR "public dataset" OR "data repository") AND (cancer OR neoplasm OR carcinoma OR tumor OR malignancy) AND (treatment OR therapy OR drug OR chemotherapy OR radiotherapy OR immunotherapy OR "clinical trial" OR intervention OR "targeted therapy" OR pharmacotherapy)'''
     
@@ -368,7 +373,7 @@ if __name__ == "__main__":
     # This will download XMLs, extract text, and save ONLY text files
     download_and_process_articles(
         query=query,
-        max_results=20,  # Adjust as needed
+        max_results=args.max_results,  # Adjust as needed
         output_dir="../../../data/pmc_texts"  # Output folder for text files
     )
     
